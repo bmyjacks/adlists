@@ -3,7 +3,7 @@
 # The following are hosts in the HOStudio Firewall[TM](HOSFW[TM]) database with the ATS classification ONLY.
 # This file will NOT protect you against malicious domains.
 # Although this file is constantly updated, there is NO GUARANTEE that advertisements will be completely removed from your device.
-# Hosts: 3
+# Hosts: 4
 #
 127.0.0.1 localhost #IPv4 localhost
 ::1 localhost #IPv6 localhost
@@ -14,5 +14,7 @@
 127.0.0.1 hm.baidu.com
 127.0.0.1 collector.githubapp.com
 127.0.0.1 www.google-analytics.com
+127.0.0.1 www.googleadservices.com
+
 #
-# Hosts: 3
+# Hosts: 4
