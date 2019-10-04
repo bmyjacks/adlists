@@ -1,9 +1,9 @@
 # Title: Hydrogen-and-Oxygen-Studio/adhosts
 
-# The following are hosts in the HOStudio Firewall™(HOSFW™) database with the ATS classification ONLY.
+# The following are hosts in the HOStudio Firewall[TM](HOSFW[TM]) database with the ATS classification ONLY.
 # This file will NOT protect you against malicious domains.
 # Although this file is constantly updated, there is NO GUARANTEE that advertisements will be completely removed from your device.
-# Hosts:
+# Hosts: 3
 #
 127.0.0.1 localhost #IPv4 localhost
 ::1 localhost #IPv6 localhost
@@ -11,8 +11,8 @@
 #
 # AD SERVER START
 #
-#
-# Baidu
 127.0.0.1 hm.baidu.com
-
-# Hosts:
+127.0.0.1 collector.githubapp.com
+127.0.0.1 www.google-analytics.com
+#
+# Hosts: 3
