@@ -8,7 +8,7 @@ sudo nano /etc/pihole/adlists.list
 ```
 2. At this point you should see the nano editor page and add the following commands to the end of the file
 ```
-http://dl.hostudio.tech/adhosts.txt
+https://hostudio-dl.oss-cn-shenzhen.aliyuncs.com/adhosts.txt
 ```
 3. Run `pihole -g`
 ### Done.
