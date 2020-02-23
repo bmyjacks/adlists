@@ -16,4 +16,4 @@ https://bmyjacks.oss-cn-shenzhen.aliyuncs.com/adlist/adhosts.txt
 If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the Issues Page.
 ## LICENSE
 MIT
-###### Copyright (c) 2019 HOStudio
+###### Copyright (c) 2019-2020 bmyjacks
