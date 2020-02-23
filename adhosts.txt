@@ -11,16 +11,23 @@
 #
 # AD SERVER START
 #
-127.0.0.1 hm.baidu.com
-127.0.0.1 collector.githubapp.com
-127.0.0.1 www.google-analytics.com
-127.0.0.1 www.googleadservices.com
-127.0.0.1 vortex.data.microsoft.com
-127.0.0.1 tajs.qq.com
-127.0.0.1 pagead2.googlesyndication.com
-127.0.0.1 adservice.google.com
-127.0.0.1 collector.githubapp.com
-127.0.0.1 munchkin.marketo.net
-127.0.0.1 pgdt.gtimg.cn
+0.0.0.0 hm.baidu.com
+0.0.0.0 collector.githubapp.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 tajs.qq.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 adservice.google.com
+0.0.0.0 collector.githubapp.com
+0.0.0.0 munchkin.marketo.net
+0.0.0.0 pgdt.gtimg.cn
+0.0.0.0 ad.ettoday.net
+0.0.0.0 doubleclick.net
+0.0.0.0 doubleclick.com
+0.0.0.0 outbrain.com
+0.0.0.0 trvdp.com
+0.0.0.0 vod-ettoday.cdn.hinet.net
+0.0.0.0 edgecast-vod.yahoo.net
 #
 # Hosts: 11
