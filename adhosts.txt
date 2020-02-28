@@ -3,7 +3,7 @@
 # The following are hosts in the BFW(Bmyjacks Fire Wall) database with the ATS classification ONLY.
 # This file will NOT protect you against malicious domains.
 # Although this file is constantly updated, there is NO GUARANTEE that advertisements will be completely removed from your device.
-# Hosts: 18
+# Hosts: 21
 #
 127.0.0.1 localhost #IPv4 localhost
 ::1 localhost #IPv6 localhost
@@ -29,5 +29,8 @@
 0.0.0.0 trvdp.com
 0.0.0.0 vod-ettoday.cdn.hinet.net
 0.0.0.0 edgecast-vod.yahoo.net
+0.0.0.0 otf.msn.com
+0.0.0.0 c.msn.com
+0.0.0.0 c.bing.com
 #
-# Hosts: 18
+# Hosts: 21
