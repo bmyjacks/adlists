@@ -11,15 +11,11 @@
 #
 # AD SERVER START
 #
-0.0.0.0 hm.baidu.com
-0.0.0.0 collector.githubapp.com
-0.0.0.0 www.google-analytics.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 tajs.qq.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 adservice.google.com
-0.0.0.0 collector.githubapp.com
 0.0.0.0 munchkin.marketo.net
 0.0.0.0 pgdt.gtimg.cn
 0.0.0.0 ad.ettoday.net
@@ -33,4 +29,11 @@
 0.0.0.0 c.msn.com
 0.0.0.0 c.bing.com
 #
+# AD SERVER END
+#
+# Analytics SERVER START
+0.0.0.0 hm.baidu.com
+0.0.0.0 collector.githubapp.com
+0.0.0.0 site.cdnmaster.com
+0.0.0.0 www.google-analytics.com
 # Hosts: 21
