@@ -3,6 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Mingyi-Bao/adhosts?logo=github&style=for-the-badge)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hw/Mingyi-Bao/adhosts?color=green&label=downloads&logo=jsDelivr&style=for-the-badge)
 ![Liberapay giving](https://img.shields.io/liberapay/gives/bmyjacks?logo=liberapay&style=for-the-badge)
+
 This is a blocklist for PiHole
 ## Install
 ### Pi-hole
