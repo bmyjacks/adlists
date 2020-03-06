@@ -3,8 +3,8 @@
 # The following are hosts in the BFW(Bmyjacks Fire Wall) database with the ATS classification ONLY.
 # This file will NOT protect you against malicious domains.
 # Although this file is constantly updated, there is NO GUARANTEE that advertisements will be completely removed from your device.
-# Last modified: 2020-03-05 17:07:10
-# Hosts: 296
+# Last modified: 2020-03-06 15:56:38
+# Hosts: 297
 #
 127.0.0.1 localhost #IPv4 localhost
 ::1 localhost #IPv6 localhost
@@ -308,7 +308,8 @@
 127.0.0.1 9850.engine.mobileapptracking.com
 127.0.0.1 9864.engine.mobileapptracking.com
 127.0.0.1 media.mobileapptracking.com
+127.0.0.1 fc.yahoo.com
 #
 # SERVER END
 #
-# Hosts: 296
+# Hosts: 297
