@@ -18,8 +18,8 @@ https://cdn.jsdelivr.net/gh/Mingyi-Bao/adhosts/adhosts.txt
 ```
 3. Run `pihole -g`
 ### AdGuard Home
-1. Go filters
-2. Add filter
+1. Go to `filters`
+2. Click `Add filter`
 3. URL:"`https://cdn.jsdelivr.net/gh/Mingyi-Bao/adhosts/adhosts.txt`"
 4. Click `Check update`
 ## Problem feedback
