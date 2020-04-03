@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/bmyjacks/adhosts?logo=github&style=for-the-badge)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hw/bmyjacks/adhosts?color=green&label=downloads&logo=jsDelivr&style=for-the-badge)
 
-This is a blocklist for PiHole
+This is a blocklist for advertisements
 ## Install
 ### Pi-hole
 1. Open the terminal and enter:
