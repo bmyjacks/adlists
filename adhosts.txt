@@ -3,8 +3,8 @@
 # The following are hosts in the BFW(Bmyjacks Fire Wall) database with the ATS classification ONLY.
 # This file will NOT protect you against malicious domains.
 # Although this file is constantly updated, there is NO GUARANTEE that advertisements will be completely removed from your device.
-# Last modified: 2020-03-06 15:56:38
-# Hosts: 297
+# Last modified: 2020-05-01 06:53:20
+# Hosts: 319
 #
 127.0.0.1 localhost #IPv4 localhost
 ::1 localhost #IPv6 localhost
@@ -309,7 +309,29 @@
 127.0.0.1 9864.engine.mobileapptracking.com
 127.0.0.1 media.mobileapptracking.com
 127.0.0.1 fc.yahoo.com
+127.0.0.1 advertising.aol.com
+127.0.0.1 ad.setn.com
+127.0.0.1 ad.ettoday.net
+127.0.0.1 adv.ettoday.net
+127.0.0.1 guoshipartners.com
+127.0.0.1 popin.cc
+127.0.0.1 compass-fit.jp
+127.0.0.1 dinfo.chinatimes.com
+127.0.0.1 p.udn.com.tw
+127.0.0.1 s.udn.com.tw
+127.0.0.1 s0.2mdn.net
+127.0.0.1 criteo.net
+127.0.0.1 criteo.com
+127.0.0.1 dable.io
+127.0.0.1 onevision.com.tw
+127.0.0.1 guce.yahoo.com
+127.0.0.1 ads.yap.yahoo.com
+127.0.0.1 tenmax.io
+127.0.0.1 onevision.com.tw
+127.0.0.1 scupio.com
+127.0.0.1 adnxs.com
+127.0.0.1 popin.cc
 #
 # SERVER END
 #
-# Hosts: 297
+# Hosts: 319
