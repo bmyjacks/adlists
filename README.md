@@ -13,13 +13,13 @@ sudo nano /etc/pihole/adlists.list
 ```
 2. At this point you should see the nano editor page and add the following commands to the end of the file
 ```
-https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adhosts.txt
+https://cdn.jsdelivr.net/gh/bmyjacks/adhosts@latest/adhosts.txt
 ```
 3. Run `pihole -g`
 ### AdGuard Home
 1. Go to `filters`
 2. Click `Add filter`
-3. URL:"`https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adhosts.txt`"
+3. URL:"`https://cdn.jsdelivr.net/gh/bmyjacks/adhosts@latest/adhosts.txt`"
 4. Click `Check update`
 ## Problem feedback
 If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the Issues Page.

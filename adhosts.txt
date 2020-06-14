@@ -3,15 +3,14 @@
 # The following are hosts in the BFW(Bmyjacks Fire Wall) database with the ATS classification ONLY.
 # This file will NOT protect you against malicious domains.
 # Although this file is constantly updated, there is NO GUARANTEE that advertisements will be completely removed from your device.
-# Last modified: 2020-05-03 11:47:20
-# Hosts: 318
 #
+# Last modified: 2020-06-14 10:34:20
+#
+# Hosts: 408
 127.0.0.1 localhost #IPv4 localhost
 ::1 localhost #IPv6 localhost
 #
-#
 # SERVER START
-#
 127.0.0.1 www.googleadservices.com
 127.0.0.1 vortex.data.microsoft.com
 127.0.0.1 tajs.qq.com
@@ -311,7 +310,6 @@
 127.0.0.1 fc.yahoo.com
 127.0.0.1 advertising.aol.com
 127.0.0.1 ad.setn.com
-127.0.0.1 ad.ettoday.net
 127.0.0.1 adv.ettoday.net
 127.0.0.1 guoshipartners.com
 127.0.0.1 popin.cc
@@ -326,11 +324,100 @@
 127.0.0.1 onevision.com.tw
 127.0.0.1 ads.yap.yahoo.com
 127.0.0.1 tenmax.io
-127.0.0.1 onevision.com.tw
 127.0.0.1 scupio.com
 127.0.0.1 adnxs.com
-127.0.0.1 popin.cc
+127.0.0.1 360in.com
+127.0.0.1 ad.360in.com
+127.0.0.1 challenge.360in.com
+127.0.0.1 dispatcher.360in.com
+127.0.0.1 exp.360in.com
+127.0.0.1 hotpot.360in.com
+127.0.0.1 i.360in.com
+127.0.0.1 member.360in.com
+127.0.0.1 adx.g.doubleclick.net
+127.0.0.1 aax.amazon-adsystem.com
+127.0.0.1 aax-us.amazon-adsystem.com
+127.0.0.1 aax-us-east.amazon-adsystem.com
+127.0.0.1 c.amazon-adsystem.com
+127.0.0.1 mads.amazon-adsystem.com
+127.0.0.1 s.amazon-adsystem.com
+127.0.0.1 aan.amazon.com
+127.0.0.1 aax-us-iad.amazon.com
+127.0.0.1 device-metrics-us.amazon.com
+127.0.0.1 device-metrics-us-2.amazon.com
+127.0.0.1 fls-na.amazon.com
+127.0.0.1 mads.amazon.com
+127.0.0.1 appsflyer-web-4-962407740.eu-west-1.elb.amazonaws.com
+127.0.0.1 rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
+127.0.0.1 tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com
+127.0.0.1 iotanalytics.eu-central-1.amazonaws.com
+127.0.0.1 iotanalytics.eu-west-1.amazonaws.com
+127.0.0.1 api.mediatailor.eu-west-1.amazonaws.com
+127.0.0.1 magnify-app.s3.eu-west-2.amazonaws.com
+127.0.0.1 admarvel.s3.amazonaws.com
+127.0.0.1 adpublisher.s3.amazonaws.com
+127.0.0.1 advancelocal-adapter-image-uploads.s3.amazonaws.com
+127.0.0.1 advert-creatives.s3.amazonaws.com
+127.0.0.1 advrts.s3.amazonaws.com
+127.0.0.1 adweek-sales.s3.amazonaws.com
+127.0.0.1 adwerx-marketing-assets.s3.amazonaws.com
+127.0.0.1 adzerk.s3.amazonaws.com
+127.0.0.1 adzip.s3.amazonaws.com
+127.0.0.1 alexa-sitestats.s3.amazonaws.com
+127.0.0.1 ams-ads-cornerstone-creatives.s3.amazonaws.com
+127.0.0.1 ams-ads-cornerstone-creatives-eu.s3.amazonaws.com
+127.0.0.1 ams-ads-cornerstone-creatives-fe.s3.amazonaws.com
+127.0.0.1 ams-ads-creative-assets-na.s3.amazonaws.com
+127.0.0.1 analytics.s3.amazonaws.com
+127.0.0.1 tapps.analytics.s3.amazonaws.com
+127.0.0.1 com.tapps.analytics.s3.amazonaws.com
+127.0.0.1 br.com.tapps.analytics.s3.amazonaws.com
+127.0.0.1 applovin-deploy.s3.amazonaws.com
+127.0.0.1 arc-native-apps.s3.amazonaws.com
+127.0.0.1 btf-analytics.s3.amazonaws.com
+127.0.0.1 campaign-tapad.s3.amazonaws.com
+127.0.0.1 chartbeat-sdk.s3.amazonaws.com
+127.0.0.1 chartiq-client-prod.s3.amazonaws.com
+127.0.0.1 clickwallads.s3.amazonaws.com
+127.0.0.1 digital-ads.s3.amazonaws.com
+127.0.0.1 iacpromotion.s3.amazonaws.com
+127.0.0.1 ignifyecom.s3.amazonaws.com
+127.0.0.1 incoming-data-sense360.s3.amazonaws.com
+127.0.0.1 inneractive-assets.s3.amazonaws.com
+127.0.0.1 interactive-assets.s3.amazonaws.com
+127.0.0.1 nativead.s3.amazonaws.com
+127.0.0.1 sana.newsinccom.s3.amazonaws.com
+127.0.0.1 offerwall.s3.amazonaws.com
+127.0.0.1 html5adkit.plusmo.s3.amazonaws.com
+127.0.0.1 qwilt-cq-prod-prod-media-analytics-upload-pipeline-pickup.s3.amazonaws.com
+127.0.0.1 repro-sdk-log.s3.amazonaws.com
+127.0.0.1 com.djinnworks.scd.s3.amazonaws.com
+127.0.0.1 sdkvideo.s3.amazonaws.com
+127.0.0.1 sift-campaign-creatives.s3.amazonaws.com
+127.0.0.1 yab-adimages.s3.amazonaws.com
+127.0.0.1 yc-ads.s3.amazonaws.com
+127.0.0.1 yieldify-static-files.s3.amazonaws.com
+127.0.0.1 later-analytics-reports.s3-accelerate.amazonaws.com
+127.0.0.1 marketingkaizen.s3-eu-west-1.amazonaws.com
+127.0.0.1 sm-campaign.s3-us-west-2.amazonaws.com
+127.0.0.1 mobileanalytics.us-east-1.amazonaws.com
+127.0.0.1 tracking-ams5.cj.com
+127.0.0.1 tracking-dc6.cj.com
+127.0.0.1 tracking-sj2.cj.com
+127.0.0.1 ac.mmstat.com
+127.0.0.1 cnzz.mmstat.com
+127.0.0.1 log.gds.mmstat.com
+127.0.0.1 gj.mmstat.com
+127.0.0.1 gm.mmstat.com
+127.0.0.1 go.mmstat.com
+127.0.0.1 gxb.mmstat.com
+127.0.0.1 hz.mmstat.com
+127.0.0.1 log.mmstat.com
+127.0.0.1 p3p.mmstat.com
+127.0.0.1 perf.mmstat.com
+127.0.0.1 res.mmstat.com
+127.0.0.1 sg.mmstat.com
+127.0.0.1 wgo.mmstat.com
+127.0.0.1 yt.mmstat.com
 #
 # SERVER END
-#
-# Hosts: 318
