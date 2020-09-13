@@ -1,0 +1,37 @@
+name: update list
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    - cron: '* */12 * * *'
+
+jobs:
+  update-list-and-push-to-github:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: AdGuard DNS filter
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
+          file-name: 'AdGuard-DNS-filter.txt'
+
+      - name: Commit Updates
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+              exit 0
+            else
+              git add .
+              git config --local user.email "bmyjacks@outlook.com"
+              git config --local user.name "bmyjacks"
+              git commit -m "Updated lists at $(date)" -a
+            fi
+
+      - name: Push to GitHub
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
