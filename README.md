@@ -16,14 +16,46 @@ Select the list you want from the different categories below and add it to your 
 | [MalwareDomainList](http://www.malwaredomainlist.com/)    | [official link](http://www.malwaredomainlist.com/hostslist/hosts.txt)                       | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/MalwareDomainList.txt) |
 
 ## For Adguard Home
-| name                                                      | official link                                                                               | cdn link                                                                               |
-| --------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| AdGuard DNS filter               | [official link](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)         | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/AdGuard-DNS-filter.txt)    |
-| [EasyList](https://easylist.to/) | [official link](https://easylist-downloads.adblockplus.org/easylist.txt)                    | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/EasyList.txt)    |
-| EasyList China                   | [official link](https://easylist-downloads.adblockplus.org/easylistchina.txt)               | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/AdGuard-DNS-filter.txt)    |
 
-## Problem feedback
+| name                             | official link                                                                               | cdn link                                                                                          |
+| -------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| AdGuard DNS filter               | [official link](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)         | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/AdGuard-DNS-filter.txt)           |
+| [EasyList](https://easylist.to/) | [official link](https://easylist-downloads.adblockplus.org/easylist.txt)                    | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/EasyList.txt)                     |
+| EasyList China                   | [official link](https://easylist-downloads.adblockplus.org/easylistchina.txt)               | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/AdGuard-DNS-filter.txt)           |
+| EasyPrivacy                      | [official link](https://easylist.to/easylist/easyprivacy.txt)                               | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/EasyPrivacy.txt)                  |
+| Fanboy's Social Blocking List    | [official link](https://easylist.to/easylist/fanboy-social.txt)                             | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/Fanboy-Social-Blocking-List.txt)  |
+| Fanboy's Annoyance List          | [official link](https://easylist.to/easylist/fanboy-annoyance.txt)                          | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/Fanboy-Annoyance-List.txt)   |
+| [anti-AD](https://anti-ad.net/)  | [official link](https://anti-ad.net/easylist.txt)                                           | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/anti-AD.txt)                      |
+| EasyList Cookie List             | [official link](https://easylist-downloads.adblockplus.org/easylist-cookie.txt)             | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/EasyList-Cookie-List.txt)  |
+| EasyList Cookie List             | [official link](https://easylist-downloads.adblockplus.org/easylist-cookie.txt)             | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/EasyList-Cookie-List.txt)  |
+| EasyList Cookie List             | [official link](https://easylist-downloads.adblockplus.org/easylist-cookie.txt)             | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/EasyList-Cookie-List.txt)  |
+
+## For Pi-Hole
+
+| name                | official link                                    | cdn link                                                                                  |
+| ------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| anti-AD for Pi-Hole | [official link](https://anti-ad.net/domains.txt) | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/anti-AD-for-Pi-Hole.txt)  |
+
+## For Surge
+
+| name              | official link                                  | cdn link                                                                               |
+| ----------------- | ---------------------------------------------- | -------------------------------------------------------------------------------------- |
+| anti-AD for Surge | [official link](https://anti-ad.net/surge.txt) | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/anti-AD-for-Surge.txt) |
+
+## For SmartDNS
+
+| name                 | official link                                                  | cdn link                                                                                   |
+| -------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| anti-AD for SmartDNS | [official link](https://anti-ad.net/anti-ad-for-smartdns.conf) | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/anti-AD-for-SmartDNS.conf) |
+
+## For dnsmasq
+
+| name                | official link                                                 | cdn link                                                                                  |
+| ------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| anti-AD for dnsmasq | [official link](https://anti-ad.net/anti-ad-for-dnsmasq.conf) | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/anti-AD-for-dnsmasq.conf) |
+
+# Problem feedback
 If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the (Issues Page)[https://github.com/bmyjacks/adhosts/issues].
 
-## LICENSE
+# LICENSE
 MIT

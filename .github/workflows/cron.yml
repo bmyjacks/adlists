@@ -67,14 +67,49 @@ jobs:
         uses: carlosperate/download-file-action@v1.0.3
         with:
           file-url: 'https://easylist.to/easylist/fanboy-social.txt'
-          file-name: 'Fanboy-Social-locking-List.txt'
+          file-name: 'Fanboy-Social-Blocking-List.txt'
           location: './adlists'
 
       - name: Fanboy's Annoyance List
         uses: carlosperate/download-file-action@v1.0.3
         with:
-          file-url: 'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt'
+          file-url: 'https://easylist.to/easylist/fanboy-annoyance.txt'
           file-name: 'Fanboy-Annoyance-List.txt'
+          location: './adlists'
+
+      - name: anti-AD
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://anti-ad.net/easylist.txt'
+          file-name: 'anti-AD.txt'
+          location: './adlists'
+
+      - name: anti-AD for dnsmasq
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://anti-ad.net/anti-ad-for-dnsmasq.conf'
+          file-name: 'anti-AD-for-dnsmasq.conf'
+          location: './adlists'
+
+      - name: anti-AD for Pi-Hole
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://anti-ad.net/domains.txt'
+          file-name: 'anti-AD-for-Pi-Hole.txt'
+          location: './adlists'
+
+      - name: anti-AD for Surge
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://anti-ad.net/surge.txt'
+          file-name: 'anti-AD-for-Surge.txt'
+          location: './adlists'
+
+      - name: anti-AD for SmartDNS
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://anti-ad.net/anti-ad-for-smartdns.conf'
+          file-name: 'anti-AD-for-SmartDNS.conf'
           location: './adlists'
 
 
