@@ -55,7 +55,7 @@ Select the list you want from the different categories below and add it to your 
 | anti-AD for dnsmasq | [official link](https://anti-ad.net/anti-ad-for-dnsmasq.conf) | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/anti-AD-for-dnsmasq.conf) |
 
 # Problem feedback
-If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the (Issues Page)[https://github.com/bmyjacks/adhosts/issues].
+If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the [Issues Page](https://github.com/bmyjacks/adhosts/issues).
 
 # LICENSE
 MIT
