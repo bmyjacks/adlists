@@ -10,13 +10,20 @@ Select the list you want from the different categories below and add it to your 
 
 ## Universal lists
 
-| name                             | official link                                                                              | cdn link                                                               |
-| -------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-| [AdAway](https://adaway.org/)    | [official link](https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt)| https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/AdGuard-DNS-filter.txt    |
+| name                                                      | official link                                                                               | cdn link                                                                               |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| [AdAway](https://adaway.org/)                             | [official link](https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt) | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/AdAway.txt)            |
+| [MalwareDomainList](http://www.malwaredomainlist.com/)    | [official link](http://www.malwaredomainlist.com/hostslist/hosts.txt)                       | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/MalwareDomainList.txt) |
 
-| AdGuard DNS filter               | https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt         | https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/AdGuard-DNS-filter.txt    |
+## For Adguard Home
+| name                                                      | official link                                                                               | cdn link                                                                               |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| AdGuard DNS filter               | [official link](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)         | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/AdGuard-DNS-filter.txt)    |
+| [EasyList](https://easylist.to/) | [official link](https://easylist-downloads.adblockplus.org/easylist.txt)                    | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/EasyList.txt)    |
+| EasyList China                   | [official link](https://easylist-downloads.adblockplus.org/easylistchina.txt)               | [cdn link](https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/adlists/AdGuard-DNS-filter.txt)    |
+
 ## Problem feedback
-If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the Issues Page.
+If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the (Issues Page)[https://github.com/bmyjacks/adhosts/issues].
 
 ## LICENSE
 MIT
