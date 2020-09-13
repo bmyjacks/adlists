@@ -58,4 +58,4 @@ Select the list you want from the different categories below and add it to your 
 If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the [Issues Page](https://github.com/bmyjacks/adhosts/issues).
 
 # LICENSE
-MIT
+[MIT](https://github.com/bmyjacks/adhosts/LICENSE)
