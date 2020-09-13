@@ -20,6 +20,72 @@ jobs:
           file-url: 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
           file-name: 'AdGuard-DNS-filter.txt'
 
+      - name: AdAway
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt'
+          file-name: 'AdAway.txt'
+
+      - name: MalwareDomainList.com Hosts List
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://www.malwaredomainlist.com/hostslist/hosts.txt'
+          file-name: 'MalwareDomainList.txt'
+
+      - name: EasyList
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://easylist.to/easylist/easylist.txt'
+          file-name: 'EasyList.txt'
+
+      - name: EasyPrivacy
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://easylist.to/easylist/easyprivacy.txt'
+          file-name: 'EasyPrivacy.txt'
+
+      - name: EasyList Cookie List
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://easylist-downloads.adblockplus.org/easylist-cookie.txt'
+          file-name: 'EasyList-Cookie-List.txt'
+
+      - name: Fanboy's Social Blocking List
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://easylist.to/easylist/fanboy-social.txt'
+          file-name: 'Fanboy-Social-locking-List.txt'
+
+      - name: Fanboy's Annoyance List
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt'
+          file-name: 'Fanboy-Annoyance-List.txt'
+
+      - name: EasyList China
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://easylist-downloads.adblockplus.org/easylistchina.txt'
+          file-name: 'EasyList-China.txt'
+
+      - name: AdAway
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt'
+          file-name: 'AdAway.txt'
+
+      - name: MalwareDomainList.com Hosts List
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://www.malwaredomainlist.com/hostslist/hosts.txt'
+          file-name: 'MalwareDomainList.com-Hosts-List.txt'
+
+      - name: AdAway
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt'
+          file-name: 'AdAway.txt'
+
       - name: Commit Updates
         run: |
           if [ -z "$(git status --porcelain)" ]; then

@@ -3,39 +3,15 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/bmyjacks/adhosts?logo=github&style=for-the-badge)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hw/bmyjacks/adhosts?color=green&label=downloads&logo=jsDelivr&style=for-the-badge)
 
-This is a blocklist for advertisements
+Most of the block lists are centralized here and can be downloaded quickly using CDN.
 
-## Install
-
-### Pi-hole
-1. Open the terminal and enter:
-```
-bash
-sudo nano /etc/pihole/adlists.list
-```
-
-2. At this point you should see the nano editor page and add the following commands to the end of the file
-```yml
-https://cdn.jsdelivr.net/gh/bmyjacks/adhosts@latest/mid_edition.txt
-```
-
-3. Run `pihole -g`
-
-### AdGuard Home
-1. Go to `filters`
-
-2. Click `Add filter`
-
-3. URL:"`https://cdn.jsdelivr.net/gh/bmyjacks/adhosts@latest/mid_edition.txt`"
-
-4. Click `Check update`
-
-## Experimental version(ALPHA)
-You can also choose this "big edition" for your home blocking
-
-```yml
-https://cdn.jsdelivr.net/gh/bmyjacks/adhosts@latest/big_edition.txt
-```
+# How to use
+Copy the link below and paste it into your block list.
+| name | official link | cdn link |
+| ---- | ------------- | -------- |
+| AdGuard DNS filter | https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt | https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/AdGuard-DNS-filter.txt |
+| AdAway | https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt | https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/AdGuard-DNS-filter.txt |
+| MalwareDomainList.com Hosts List | https://www.malwaredomainlist.com/hostslist/hosts.txt | https://cdn.jsdelivr.net/gh/bmyjacks/adhosts/MalwareDomainList.txt.txt |
 
 ## Problem feedback
 If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the Issues Page.
