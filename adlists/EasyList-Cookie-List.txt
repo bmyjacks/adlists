@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NqXa2wbAKKoFuhkGXDS8OQ
-! Version: 202009170050
+! Checksum: lbzVN4UEmvomaLpwDK/tNw
+! Version: 202009171200
 ! Title: EasyList Cookie List
-! Last modified: 17 Sep 2020 00:50 UTC
+! Last modified: 17 Sep 2020 12:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3372,6 +3372,7 @@ _site_cookie_
 ###cookie_information
 ###cookie_information_block
 ###cookie_informativa_esd
+###cookie_informative
 ###cookie_informer
 ###cookie_inject
 ###cookie_inline_form
@@ -3924,6 +3925,7 @@ _site_cookie_
 ###cookies-regulation
 ###cookies-rodo
 ###cookies-sticky-wrapper
+###cookies-tendina
 ###cookies-terms
 ###cookies-terms-info
 ###cookies-texto-corto
@@ -14973,6 +14975,7 @@ yoigo.com#@#thor-cookies
 ! *** easylist:easylist_cookie/easylist_cookie_allowlist.txt ***
 @@/cookie*/jquery.cookie.js$script,~third-party,domain=~albeco.com.pl
 @@/cookie_law/plugin.js$script,~third-party
+@@/v1/gdpr/native-message$domain=n-tv.de
 @@/zig_cookiepolicybar/*/CookieBar.js$script,~third-party
 @@||digikey.com^*/cookie-notice.css$stylesheet,domain=digikey.com
 @@||microsoft.com/api/privacy/cookieconsent?$xmlhttprequest,domain=docs.microsoft.com
