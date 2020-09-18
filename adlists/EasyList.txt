@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h2VEtN2uiFW8wiffYoX9BQ
-! Version: 202009171250
+! Checksum: fFUwI5c3lkwyMWtD16mKIA
+! Version: 202009180021
 ! Title: EasyList
-! Last modified: 17 Sep 2020 12:50 UTC
+! Last modified: 18 Sep 2020 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9030,7 +9030,7 @@ _a468x60.
 /xdirect.html?$popup
 /yesbaby.$popup
 ://adn.*/zone/$popup
-://ads.$popup
+://ads.$popup,domain=~ads.spotify.com
 ://adv.$popup
 =ad_unit&$popup
 =popunder&$popup
@@ -33620,7 +33620,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pleatanxiety.com^
 ||plehimselves.info^
 ||pletiondem.club^
-||plrjs.com^
 ||plyinsidere.club^
 ||plyvitablesagree.info^
 ||pnhdnlrzwu.com^
@@ -34360,6 +34359,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||transardugde.club^
 ||trapothere.club^
 ||trappist-1d.com^
+||travangeind.club^
 ||trblocked.com^
 ||treammicr.club^
 ||treaturesfg.club^
@@ -34512,6 +34512,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||velocecdn.com^
 ||verageousarra.site^
 ||veralother.fun^
+||vercraneans.club^
 ||verdriusuref.site^
 ||veremund-hon.com^
 ||vevatom.com^
@@ -34707,6 +34708,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yhhbtavgpuo.com^
 ||yinsterkneeline.info^
 ||yirishedspe.info^
+||yiuilserianaus.club^
 ||ylvessovi.pro^
 ||ylwu7xm3a1wv.com^
 ||ymondardin.club^
@@ -57709,6 +57711,7 @@ penny-arcade.com##.funding-horizontal
 penny-arcade.com##.funding-vertical
 whatismybrowser.com##.funholderleaderboard728
 mattgemmell.com##.fusion_attrib_footer
+filecrypt.co##.fuuab
 chrisbrownworld.com,myplay.com##.fwas300x250
 masterworksbroadway.com##.fwas728x90_top
 bluntforcetruth.com,borneobulletin.com.bn,chicagodefender.com,dallasvoice.com,gematsu.com,hotnews.org.za,newsday.co.zw,nondoc.com,one.com.mt,radioinsight.com,thegolfnewsnet.com,theindependent.co.zw,thestandard.co.zw##.g
