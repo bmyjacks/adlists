@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: sfBA0lrD4rG7Du2T4nWnKQ
-! Version: 202009181243
+! Checksum: IIS7OrJdBZ4v3tcgs3odjQ
+! Version: 202009181303
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 18 Sep 2020 12:43 UTC
+! Last Modified: 18 Sep 2020 13:03 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -7486,7 +7486,6 @@ _yad_jsonp_
 ||rising.cn/rxbox/
 ||rising.cn^*/pic-ad/
 ||rising.com.cn/weblog/
-||rjfcxxw.com/yimaopic/
 ||rjsos.com/channel/laomo_dibu.png
 ||rjzxw.com/include/
 ||rkanr.com/data/cpcache/cp*.js
@@ -8705,6 +8704,8 @@ _yad_jsonp_
 ||getitfree.cn/wp-content/plugins/adunblocker/*.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+rjfcw.cn##DIV[id^="ad"]
+rjfcw.cn##LI[style*="1200px"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10093,7 +10094,6 @@ storyren.com###xydlright
 drv5.cn###xzqq > ul
 redocn.com###yc_adv_1_2
 house.qq.com###yf
-rjfcxxw.com###yimao > div[style]
 starbaby.cn###yindex_ads
 hao123.com###yixing-siye
 ynet.com###ynetG_B1
