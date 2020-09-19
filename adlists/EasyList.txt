@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rCXbP+Y+Q8czdyagcbdu3g
-! Version: 202009190840
+! Checksum: mkBlguk9ZDtDVrzEvc3c9A
+! Version: 202009190851
 ! Title: EasyList
-! Last modified: 19 Sep 2020 08:40 UTC
+! Last modified: 19 Sep 2020 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -49029,6 +49029,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||etimg.com/js_etsub/
 ||etoolkit.com/banner/$third-party
 ||etoro.com/B*_A*_TGet.aspx$third-party
+||etoro.com/B*_A*_TGet_$third-party
 ||etrader.kalahari.com^$third-party
 ||etrader.kalahari.net^$third-party
 ||europolitique.info^*/pub/
@@ -49392,6 +49393,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mantisadnetwork.com/mantodea.min.js
 ||mantra.com.au^*/campaigns/$third-party
 ||marketing.888.com^
+||marketools.plus500.com/feeds/$third-party
+||marketools.plus500.com/Widgets/$third-party
 ||mastiway.com/webimages/$third-party
 ||matchbin.com/javascripts/remote_widget.js
 ||matrixmails.com/images/$third-party
