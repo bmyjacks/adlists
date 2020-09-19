@@ -1,4 +1,4 @@
-name: update list
+name: Update list
 on:
   push:
     branches: [ master ]
