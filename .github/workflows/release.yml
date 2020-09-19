@@ -20,8 +20,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: $date-snap
-          release_name: $date-snap
+          run: |
+            echo ::set-env name=TIME::$(date +"%Y-%m-%d")
+          tag_name: ${{ env.TIME }}-snap
+          release_name: ${{ env.TIME }}-snap
           body: |
             # Update relase at $date
           draft: false
