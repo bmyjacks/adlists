@@ -23,7 +23,7 @@ jobs:
           tag_name: ${{ github.ref }}-snap
           release_name: ${{ github.ref }}-snap
           body: |
-            # Update relase at ${{date +"%Y-%m-%d"}}
+            # Update relase to ${{ github.ref }}
           draft: false
           prerelease: false
 
