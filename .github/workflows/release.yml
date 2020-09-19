@@ -14,18 +14,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Set time
+        run: |
+          echo ::set-env name=TIME::$(date +"%Y-%m-%d")
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TIME: ${{ env.TIME }}
         with:
-          run: |
-            echo ::set-env name=TIME::$(date +"%Y-%m-%d")
           tag_name: ${{ env.TIME }}-snap
           release_name: ${{ env.TIME }}-snap
           body: |
-            # Update relase at $date
+            # Update relase at ${{ env.TIME }}
           draft: false
           prerelease: false
 
