@@ -121,7 +121,7 @@ jobs:
               git add .
               git config --local user.email "bmyjacks@outlook.com"
               git config --local user.name "bmyjacks"
-              git commit -m "Updated lists at $(date)" -a
+              git commit -m "Updated lists at $(date +"%Y-%m-%d")" -a
             fi
 
       - name: Push to GitHub
