@@ -1,0 +1,29 @@
+name: update list
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  create-a-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: $(date +"%Y-%m-%d")-snap
+          release_name: $(date +"%Y-%m-%d")-snap
+          body: |
+            # Update relase at $(date +"%Y-%m-%d")
+          draft: false
+          prerelease: false
+

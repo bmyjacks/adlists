@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '* */12 * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   update-list-and-push-to-github:
