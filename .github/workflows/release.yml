@@ -20,10 +20,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: $(date +"%Y-%m-%d")-snap
-          release_name: $(date +"%Y-%m-%d")-snap
+          tag_name: ${{date +"%Y-%m-%d"}}-snap
+          release_name: ${{date +"%Y-%m-%d"}}-snap
           body: |
-            # Update relase at $(date +"%Y-%m-%d")
+            # Update relase at ${{date +"%Y-%m-%d"}}
           draft: false
           prerelease: false
 
