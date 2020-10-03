@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jdEiZqmUxuhQwc840tzXyA
-! Version: 202010020000
+! Checksum: geTWZMCKOeqV1JpD+Ceovw
+! Version: 202010030000
 ! Title: EasyList Cookie List
-! Last modified: 02 Oct 2020 00:00 UTC
+! Last modified: 03 Oct 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11484,6 +11484,7 @@ _site_cookie_
 ##.sh-cookie-dialog
 ##.shareaholic-cookie-consent
 ##.shared-alert__cookie
+##.shb-accept-cookies-box
 ##.show-cookie-consent
 ##.show-cookie-policy
 ##.show-cookie-popup:not(body):not(html)
@@ -11618,6 +11619,7 @@ _site_cookie_
 ##.tc-cookie-banner
 ##.tc-cookies-alerta
 ##.tc-privacy-banner
+##.tc-privacy-overlay
 ##.tcCookiesDialogWrapper
 ##.tcu-cookies-dpgr-banner
 ##.tealium-cookie-banner
@@ -12109,6 +12111,7 @@ _site_cookie_
 ##div[data-etsy-promo-cookie-expires]
 ##div[data-gdpr-consent-prompt]
 ##div[data-id="cookieBar"]
+##div[data-id="cookie_dialog"]
 ##div[data-is-cookieinfo]
 ##div[data-module="cookie_banner"]
 ##div[data-nconvert-cookie]
@@ -12475,6 +12478,7 @@ askthepsych.com###cks
 desktopwallpapers4.me,ouchpress.com###clayer
 tvguide.co.uk###cmpbox
 crash.net,nationwideinternational.com,thederbyshire.co.uk###cn
+cnbc.com###cnbcgdpr
 dnaindia.com,india.com###co-container
 gpuopen.com###colophon
 evaair.com,play.tv###colorbox
@@ -12793,6 +12797,7 @@ elitedaily.com##.bp
 brainandlife.org##.breaking-container
 handy-games.com##.bugme
 jobs.ch,jobup.ch##.c-alert
+skygroup.sky##.c-banner-shadow
 rebirth-hannover.de,werum.com##.c-callout
 index.co##.c-consent-manager
 ii.co.uk##.c01194
@@ -13975,6 +13980,7 @@ lostrillone.tv###informativa
 musicworks.it###infromativap
 vmmotori.it###ll_banner
 programmitv.it###mag
+giuntiscuola.it###mandatoryMessageContainer
 marbaro.it###marbaro_cookielaw_banner
 iit.it###messageContainer
 molgroupitaly.it###mgit_notification
