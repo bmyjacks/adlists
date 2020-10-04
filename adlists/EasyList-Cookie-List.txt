@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: geTWZMCKOeqV1JpD+Ceovw
-! Version: 202010030000
+! Checksum: DpxI2yD339P7qDYIW4dQ6g
+! Version: 202010040000
 ! Title: EasyList Cookie List
-! Last modified: 03 Oct 2020 00:00 UTC
+! Last modified: 04 Oct 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11975,6 +11975,7 @@ _site_cookie_
 ##[data-test-id="cookie-consent-banner"]
 ##[data-test="cookie-banner"]
 ##[data-testid="cookienotice-container"]
+##[data-testid="main-cookies-banner-container"]
 ##[data-token="gdpr_cookie_notice"]
 ##[data-type="cookie-addsense"]
 ##[data-unique-cookie-name]
@@ -12089,6 +12090,7 @@ _site_cookie_
 ##div[class^="styles__Cookie"]
 ##div[class^="termly-consent-"]
 ##div[data-automation="cookies-banner"]
+##div[data-automation="privacy-banner-wrapper"]
 ##div[data-banner="cookies"]
 ##div[data-borlabs-cookie-wrap]
 ##div[data-box-name="cookie policy"]
@@ -12346,6 +12348,7 @@ _site_cookie_
 ||tarteaucitron.ml^$third-party
 ||thirdfloor.it^$third-party
 ||thisisdone.com/gdpr/$third-party
+||truendo.com^$third-party
 ||trustarc.com^$third-party
 ||uniconsent.mgr.consensu.org^$third-party
 ||usercentrics.eu^$third-party
@@ -15024,7 +15027,7 @@ yoigo.com#@#thor-cookies
 @@||bolha.com/js/obj.cookiesPolicy.js
 @@||businessinsider.in/gdpr_js/version-12,minify-1.cms$script,~third-party
 @@||c.evidon.com/sitenotice/evidon-sitenotice-tag.js$script,domain=southpark.de|southparkstudios.nu
-@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|crfashionbook.com|doctoroz.com|eurogamer.net|rockpapershotgun.com
+@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|crfashionbook.com|doctoroz.com|eurogamer.net|rockpapershotgun.com|trustpilot.com
 @@||civiccomputing.com^*/cookieControl-$script,domain=amplitude.com|msi.com
 @@||cloudflare.com^*/cookieconsent.min.js$domain=ehftv.com|pixieset.com|sammobile.com|xnview.com
 @@||consensu.org/gdpr/$script,domain=mentalfloss.com
@@ -15037,7 +15040,7 @@ yoigo.com#@#thor-cookies
 @@||consentmanager.mgr.consensu.org/delivery/$script,stylesheet,xmlhttprequest,domain=sourceforge.net
 @@||cookie-cdn.cookiepro.com^$script,stylesheet,xmlhttprequest,domain=api.newsguardtech.com|giochi.it
 @@||cookielaw.org/consent/$other,xmlhttprequest
-@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cnet.com|epicgames.com|eurogamer.net|zdnet.com
+@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cnet.com|epicgames.com|eurogamer.net|trustpilot.com|zdnet.com
 @@||cookielawinfo.com^$~third-party
 @@||costa.co.uk/js/libs/cookieconsent.min.js
 @@||drivetribe.com/*/homepage-cookie-dialog.js
