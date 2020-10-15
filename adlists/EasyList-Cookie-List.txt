@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EPmBgWyOQHi96ofPYV6lkg
-! Version: 202010140000
+! Checksum: Y8+om29iBszyj2ua67cRJg
+! Version: 202010150000
 ! Title: EasyList Cookie List
-! Last modified: 14 Oct 2020 00:00 UTC
+! Last modified: 15 Oct 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7386,6 +7386,7 @@ _site_cookie_
 ##.am-cookie-notice
 ##.am-cookiebar
 ##.amgdpr-cookie
+##.amgdprcookie-bar-template
 ##.ams-m-cookie-warning
 ##.amz-cookies-notice
 ##.analytics-consent
@@ -10157,6 +10158,7 @@ _site_cookie_
 ##.gdprBannerWrapper
 ##.gdprBnnr
 ##.gdprBoxContainer
+##.gdprCookieBanner_container
 ##.gdprCookieLaw
 ##.gdprLegalNotification
 ##.gdprManagerMessage
@@ -13981,6 +13983,7 @@ angolotesti.it,armietiro.it,automobilismo.it,automobilismodepoca.it,chateau-dax.
 majani.it###cs-banner
 netflixlovers.it###cs_container
 staffettaonline.com###ctl00_CtrlLogAbbonato1_cookiealert
+sardegna1.tv###dcb-black-screen
 ilfruttarolo.it###decretopr
 inartek.it###discl
 nau.it###disclaimer
@@ -15094,7 +15097,7 @@ yoigo.com#@#thor-cookies
 @@||portal.aae.at/changeportal/js/lib/cookieconsent.js$script,~third-party
 @@||quantcast.mgr.consensu.org^*/choice.js$domain=independent.co.uk
 @@||riwal.com/includes/js/components/cookiebar.js$script
-@@||sdk.privacy-center.org^$script,domain=ivoox.com|lavanguardia.com|mundodeportivo.com
+@@||sdk.privacy-center.org^$script,domain=gamestar.de|ivoox.com|lavanguardia.com|mundodeportivo.com
 @@||shop.dangerfield.com.au/min/$script,stylesheet
 @@||sky.com^*_cookie_$script
 @@||socialtigers.pl/js/plugins/jquery.cookiepolicy.js
