@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y8+om29iBszyj2ua67cRJg
-! Version: 202010150000
+! Checksum: I5KTAqNfKAynCQnlQoPeKA
+! Version: 202010160001
 ! Title: EasyList Cookie List
-! Last modified: 15 Oct 2020 00:00 UTC
+! Last modified: 16 Oct 2020 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10313,6 +10313,7 @@ _site_cookie_
 ##.hv_privacy_prompt
 ##.hw-cookie-popup
 ##.hx_cookie-banner
+##.hx_cookie-banner-main
 ##.hz-consents-banner
 ##.hz-visitor-consents
 ##.i-am-ok-with-cookies
@@ -10529,6 +10530,7 @@ _site_cookie_
 ##.js-id--cookieconsent
 ##.js-infoBarCookies
 ##.js-lwpcngNotice
+##.js-main-cookie-banner
 ##.js-message-cookies
 ##.js-notify-cookie
 ##.js-page-cookies
@@ -13171,6 +13173,7 @@ fontspring.com##.user_notice
 easeus.com##.usernotice_pop
 visualiq.com##.utilityBar
 singtel.com##.ux-consent-banner
+whitepages.com##.v-snack__content
 dailysabah.com##.veriAltBar
 robertozeno.com##.video-mask
 remosoftware.com##.visitornotice
