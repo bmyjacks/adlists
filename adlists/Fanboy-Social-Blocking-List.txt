@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202010232305
+! Version: 202010242342
 ! Title: Fanboy's Social Blocking List
-! Last modified: 23 Oct 2020 23:05 UTC
+! Last modified: 24 Oct 2020 23:42 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -1398,6 +1398,7 @@
 /like_bttn_
 /like_button.
 /likebox.
+/likefacebook.
 /likegate.js
 /likesScript.
 /likeus-fb.
@@ -5736,6 +5737,7 @@ _youtube_social_
 ###wp_twitter_goodies_profile_widgets
 ###wpcw_social-7
 ###wpzoom-social-widget
+###wpzoom-widget-social-2
 ###wrap-sharing
 ###wsu-social-channels
 ###xing-share
@@ -5886,6 +5888,7 @@ _youtube_social_
 ##.NewSocial_Twitter
 ##.NewsMaterial-sidebar
 ##.NnSocialMediaContainer
+##.OMSocialDiv
 ##.ObsShare
 ##.PIN-share-button
 ##.PNShare
@@ -11151,6 +11154,7 @@ _youtube_social_
 ##.post-meta__option--gplus
 ##.post-meta__option--twitter
 ##.post-meta__sharing
+##.post-metasocial
 ##.post-on-social-media
 ##.post-share
 ##.post-share-area
@@ -12635,6 +12639,7 @@ _youtube_social_
 ##.sidebar__header--twitter
 ##.sidebar__share
 ##.sidebar__share-options-list
+##.sidebar__sharing
 ##.sidebar_facebook
 ##.sidebar_social
 ##.sidebar_socialmediabox
@@ -19757,7 +19762,7 @@ digg.com#@#div[id^="digg-widget-"]
 @@||androidpolice.com/wp-content/*_facebook-$image
 @@||androidpolice.com/wp-content/themes/ap2/ap_resize/ap_resize.php?*_Twitter-$image
 @@||angvremya.ru/engine/classes/min/index.php?*/js/social-$stylesheet
-@@||apis.google.com/js/platform.js$domain=9gag.com|corrupt-a-file.net|crello.com|discogs.com|dubox.com|duolingo.com|febbit.com|gazeta.uz|id.logi.com|jakdojade.pl|kroger.com|moshi.com|oasgames.com|olx.pl|olx.ro|passeidireto.com|prntscr.com|sato.fi
+@@||apis.google.com/js/platform.js$domain=9gag.com|corrupt-a-file.net|crello.com|discogs.com|dubox.com|duolingo.com|expensify.com|febbit.com|gazeta.uz|id.logi.com|jakdojade.pl|kroger.com|moshi.com|oasgames.com|olx.pl|olx.ro|passeidireto.com|prntscr.com|sato.fi
 @@||app.hrlab.de/assets/icons/$image,domain=app.hrlab.de
 @@||apple.com/kb/resources/images/i_facebook.png
 @@||apple.com^*/retail-static-landing/icon-social-distancing_large.png$image
