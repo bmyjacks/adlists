@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: j+r0wBiHeYj6rVF2yFkonw
-! Version: 202010280000
+! Checksum: Zo+oTBOaXC+ELwY+XJA8uA
+! Version: 202010290001
 ! Title: EasyList Cookie List
-! Last modified: 28 Oct 2020 00:00 UTC
+! Last modified: 29 Oct 2020 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2386,6 +2386,7 @@ _site_cookie_
 ###cookie-consent-container
 ###cookie-consent-dialog-bottom
 ###cookie-consent-explicit-modal
+###cookie-consent-holder
 ###cookie-consent-layer
 ###cookie-consent-message
 ###cookie-consent-overlay
@@ -6381,6 +6382,7 @@ _site_cookie_
 ###rodoCookie
 ###rodoNotificationWrapper
 ###rodoRow
+###rodoWrapper
 ###rodo_accept
 ###rodo_env
 ###rodo_modal
@@ -12926,7 +12928,6 @@ linkedin.com##.global-alert
 houseoffraser.co.uk##.global-messages
 mozilla.org##.global-notice
 guggenheim.org##.guggen-consent
-docs.microsoft.com##.has-padding-top-medium
 office.com##.headPopup
 veeam.com##.header-component__messages-overlay
 igvault.com##.header-perm
@@ -14932,7 +14933,7 @@ proglib.io#@#.cookie-visible
 ben.nl,bynco.com#@#.cookie-wall-container
 mediapart.fr#@#.cookie-warn
 samsung.com,verisign.com#@#.cookie-warning
-puzzels.ad.nl,puzzels.bd.nl,puzzels.bndestem.nl,puzzels.destentor.nl,puzzels.ed.nl,puzzels.gelderlander.nl,puzzels.parool.nl,puzzels.pzc.nl,puzzels.trouw.nl,puzzels.tubantia.nl,puzzels.volkskrant.nl,travelchannel.co.uk#@#.cookie-wrapper
+correosexpress.com,puzzels.ad.nl,puzzels.bd.nl,puzzels.bndestem.nl,puzzels.destentor.nl,puzzels.ed.nl,puzzels.gelderlander.nl,puzzels.parool.nl,puzzels.pzc.nl,puzzels.trouw.nl,puzzels.tubantia.nl,puzzels.volkskrant.nl,travelchannel.co.uk#@#.cookie-wrapper
 thesocialmedwork.com#@#.cookie.message
 lauritz.com,qxl.de,qxl.dk,qxl.fi,qxl.no,qxl.se#@#.cookie.row
 bezeq.co.il#@#.cookieAlert
