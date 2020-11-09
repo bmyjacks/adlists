@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jxlctusAmK6+b+ARgdAhgg
-! Version: 202011080000
+! Checksum: n9qtk7iz5fYa4l/cuUn11g
+! Version: 202011090000
 ! Title: EasyList Cookie List
-! Last modified: 08 Nov 2020 00:00 UTC
+! Last modified: 09 Nov 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1469,6 +1469,7 @@ _site_cookie_
 ###acook.privacy
 ###acookie
 ###acookiesRoot
+###acris--cookie-permission--modal-overlay
 ###acris--page-wrap--cookie-permission
 ###adc_aviso_cookies_bar_style
 ###adcookies
@@ -5775,6 +5776,7 @@ _site_cookie_
 ###moomoocookiealert
 ###moon-cookies
 ###moove_gdpr_cookie_info_bar
+###moove_gdpr_cookie_modal
 ###morph-cookie-bar
 ###moscacookie
 ###mostrar_aceptcookie
@@ -11039,6 +11041,7 @@ _site_cookie_
 ##.nt-footer-cookie-statement
 ##.ntfCookie
 ##.nts-notification-cookie
+##.nux-signup-cookie-notice-content
 ##.nv-cookie-notification
 ##.nvt_cookienotice
 ##.nx-cookie-policy-popup
@@ -14918,7 +14921,7 @@ consent.yahoo.com,lawrievetgroup.co.uk,payments.amazon.ca,payments.amazon.co.jp,
 boursorama.com,nuxeo.com#@#.cookie-banner
 monese.com#@#.cookie-banner:not(body):not(html)
 janrain.com,moemax.de,rituals.com,xxxlshop.de#@#.cookie-bar
-stabila.com#@#.cookie-bar-visible
+dashitradio.de,stabila.com#@#.cookie-bar-visible
 rituals.com#@#.cookie-bar-wrapper
 rituals.com#@#.cookie-bar:not(body)
 egmont.com#@#.cookie-bar:not(body):not(html)
@@ -15015,7 +15018,7 @@ airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,ai
 airfrance.ae,airfrance.am,airfrance.at,airfrance.be,airfrance.bf,airfrance.bg,airfrance.bj,airfrance.ca,airfrance.cd,airfrance.cg,airfrance.ch,airfrance.cl,airfrance.cm,airfrance.co.ao,airfrance.co.il,airfrance.co.jp,airfrance.co.kr,airfrance.co.th,airfrance.co.uk,airfrance.co.za,airfrance.com,airfrance.com.ar,airfrance.com.au,airfrance.com.br,airfrance.com.cn,airfrance.com.co,airfrance.com.do,airfrance.com.eg,airfrance.com.hk,airfrance.com.jo,airfrance.com.kh,airfrance.com.lb,airfrance.com.mx,airfrance.com.tr,airfrance.com.tw,airfrance.com.uy,airfrance.cz,airfrance.de,airfrance.dj,airfrance.dk,airfrance.dz,airfrance.es,airfrance.fi,airfrance.fr,airfrance.ga,airfrance.gf,airfrance.gp,airfrance.hr,airfrance.ht,airfrance.hu,airfrance.id,airfrance.ie,airfrance.in,airfrance.it,airfrance.lu,airfrance.ma,airfrance.mg,airfrance.ml,airfrance.mq,airfrance.mu,airfrance.my,airfrance.nc,airfrance.ne,airfrance.ng,airfrance.nl,airfrance.no,airfrance.pa,airfrance.pe,airfrance.pf,airfrance.pl,airfrance.pt,airfrance.re,airfrance.ro,airfrance.rs,airfrance.ru,airfrance.sa,airfrance.se,airfrance.sg,airfrance.si,airfrance.sk,airfrance.sn,airfrance.tg,airfrance.tn,airfrance.ua,airfrance.us,airfrance.vn#@#.gdpr-panel
 totalcasino.pl#@#.gdpr-popup
 wufoo.com#@#.gdpr-prompt
-booking.pobeda.aero,coastalliving.com,commercialtrucktrader.com,cookinglight.com,essence.com,ew.com,fortune.com,gct.com,golf.com,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,nytimes.com,people.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com#@#.gdpr:not(body):not(html)
+booking.pobeda.aero,coastalliving.com,commercialtrucktrader.com,cookinglight.com,esselunga.it,essence.com,ew.com,fortune.com,gct.com,golf.com,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,nytimes.com,people.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com#@#.gdpr:not(body):not(html)
 suzuki.co.nz#@#.js-cookie
 geleidehond.nl#@#.js-cookie-alert
 hildesheimer-allgemeine.de#@#.js-cookie-consent
@@ -15095,7 +15098,7 @@ yoigo.com#@#thor-cookies
 @@||bolha.com/js/obj.cookiesPolicy.js
 @@||businessinsider.in/gdpr_js/version-12,minify-1.cms$script,~third-party
 @@||c.evidon.com/sitenotice/evidon-sitenotice-tag.js$script,domain=southpark.de|southparkstudios.nu
-@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|crfashionbook.com|doctoroz.com|eurogamer.net|mail.com|rockpapershotgun.com|trustpilot.com
+@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|crfashionbook.com|doctoroz.com|eurogamer.net|mail.com|rockpapershotgun.com|trustpilot.com|tvn24.pl
 @@||civiccomputing.com^*/cookieControl-$script,domain=amplitude.com|msi.com
 @@||cloudflare.com^*/cookieconsent.min.js$domain=ehftv.com|pixieset.com|sammobile.com|xnview.com
 @@||consensu.org/gdpr/$script,domain=mentalfloss.com
@@ -15108,7 +15111,7 @@ yoigo.com#@#thor-cookies
 @@||consentmanager.mgr.consensu.org/delivery/$script,stylesheet,xmlhttprequest,domain=sourceforge.net
 @@||cookie-cdn.cookiepro.com^$script,stylesheet,xmlhttprequest,domain=api.newsguardtech.com|giochi.it
 @@||cookielaw.org/consent/$other,xmlhttprequest
-@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cbsnews.com|cnet.com|epicgames.com|eurogamer.net|trustpilot.com|zdnet.com
+@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cbsnews.com|cnet.com|epicgames.com|eurogamer.net|trustpilot.com|tvn24.pl|zdnet.com
 @@||cookielawinfo.com^$~third-party
 @@||cookist.com^*/remote-gdpr.min.js
 @@||costa.co.uk/js/libs/cookieconsent.min.js
