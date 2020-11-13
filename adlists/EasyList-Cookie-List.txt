@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: n9qtk7iz5fYa4l/cuUn11g
-! Version: 202011090000
+! Checksum: rSoMTl4rhjv/pD9U/1/lJA
+! Version: 202011130000
 ! Title: EasyList Cookie List
-! Last modified: 09 Nov 2020 00:00 UTC
+! Last modified: 13 Nov 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -152,6 +152,7 @@
 /cmp-banner.js
 /cmp-init.
 /cmp-sp.js
+/cmp-v2/*
 /cmp.bundle.js
 /cmp.complete.bundle.js
 /cmp/cmp.js
@@ -760,6 +761,8 @@
 /rdm-daac-notice-
 /remote-gdpr.
 /resources/CookieConsent/*
+/rg-cookies/*
+/rg-gdpr.
 /rgpd.js
 /rgpd/iab/*
 /rgpd_cookie_
@@ -5028,6 +5031,7 @@ _site_cookie_
 ###gc_web_user_allow_cookie_box
 ###gccookiemessage
 ###gcms_cookie_manager
+###gd-cookie-consent
 ###gdpr-acceptance
 ###gdpr-alert
 ###gdpr-banner
@@ -5535,6 +5539,7 @@ _site_cookie_
 ###kakeboks
 ###kaleva-cookie-consent
 ###kashubCookie
+###kb-cookie-banner
 ###kbCookiePolicy
 ###kecookiehint
 ###keksNotiz
@@ -8060,6 +8065,7 @@ _site_cookie_
 ##.cook-window
 ##.cook_plcy
 ##.cookacceptor
+##.cookcontainer
 ##.cookeEnabler
 ##.cooki-container
 ##.cooki_baner_wrp
@@ -10605,6 +10611,7 @@ _site_cookie_
 ##.k4-cookie
 ##.kali-cc-bandeau
 ##.kb-ck-bar-notify-block
+##.kb-cookie-banner
 ##.keksbar
 ##.kia-cookie
 ##.kjfCookieInfoBox
@@ -10765,6 +10772,7 @@ _site_cookie_
 ##.messages--cookie
 ##.messaggio_cookie
 ##.messaggio_cookies
+##.mf-cookie-banner
 ##.mgv-cookies-banner
 ##.mgxCookieConsent
 ##.mh5_CookieNotice
@@ -14012,6 +14020,7 @@ lattealberti.it###barra-policy
 comicsbox.it,jnjmedical.it,linkem.com,ondarock.it,spaziorock.it###bottom-banner
 ilgiornale.it,prezzoforte.it,virgilio.it###bottombar
 lacnews24.it###box1
+giochigratisonline.it###boxRichiesta
 bancacrs.it###boxes
 proversi.it###c-agree
 ladistanza.it###cMessage
@@ -14098,6 +14107,7 @@ bolognafiere.com,bolognafiere.it##.box-alert
 sky.it##.c-banner-privacy
 infiniti.it##.c_128
 hyle.appspot.com##.cc
+dbplanet.net##.cc-banner
 regione.lombardia.it##.cdk-overlay-backdrop
 mivoq.it##.check-policy
 frateindovino.eu##.cn-wrapper
@@ -14144,17 +14154,19 @@ tupperware.it##.notificationBox
 fieraforli.it##.ns-box
 rubner.com##.page__notification
 nh-hotels.it##.politicaRewards
-edilvetta.it,naegele.it##.privacy
+edilvetta.it,naegele.it,nigiara.it##.privacy
 smtvsanmarino.sm##.privacy-top
 italradio.org##.privacyStatement
 idoctors.it##.privacy_bottom
 peer.tv##.rain1-cp-container
+casevacanza.it##.react-onclickoutside
 prelex.it##.rstboxes
 juzaphoto.com##.s_bluebox
 ogrtorino.it##.sc-dxgOiQ
 larrysmith.it##.scroll-banner
 teleradiopadrepio.it##.spu-bg
 close-up.it##.stickyFooter
+bmwautoclubitalia.it##.t657__wrapper
 boxannunci.com##.terms
 regalideidesideri.it##.topBanner__content
 ingdirect.it##.topalertbanner
@@ -15082,6 +15094,7 @@ yoigo.com#@#thor-cookies
 @@||stabila.com/bundles/marketingsuite/css/cookie-bar.css
 @@||strava.com/cookie-banner.js$~third-party
 @@||tietosuoja.fi/o/frontend-js-web/aui/cookie/cookie.js$script
+@@||uicdn.com/mailint/*/consent-management.js$script,domain=mail.com
 ! https://github.com/ryanbr/fanboy-adblock/issues/721#issuecomment-443395851
 ! https://github.com/ryanbr/fanboy-adblock/issues/1133
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
