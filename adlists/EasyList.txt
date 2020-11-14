@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hqXQjCUhcBLFW3sU95cGrQ
-! Version: 202011130000
+! Checksum: j04wcvDw3HEqcH2l++tPZg
+! Version: 202011140000
 ! Title: EasyList
-! Last modified: 13 Nov 2020 00:00 UTC
+! Last modified: 14 Nov 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7827,6 +7827,7 @@ _adwrap.
 _adwriter.
 _afd_ads.
 _affiliate/banners/
+_affiliate/hubtraffic/
 _affiliate_ad.
 _afs_ads.
 _alt/ads/
@@ -13242,6 +13243,11 @@ _popunder+$popup
 ###bingadcontainer2
 ###bl11adv
 ###blancco-ad
+###blkAds1
+###blkAds2
+###blkAds3
+###blkAds4
+###blkAds5
 ###block--ex_dart-ex_dart_adblade_article
 ###block-ad_blocks-0
 ###block-ad_cube-0
@@ -19252,6 +19258,7 @@ _popunder+$popup
 ##.ad160x160
 ##.ad160x600
 ##.ad160x600GrayBorder
+##.ad160x600_1
 ##.ad160x600box
 ##.ad170x30
 ##.ad18
@@ -32300,6 +32307,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||asacdn.com^
 ||asccdn.com^
 ||asdasdad.net^
+||asdpoi.com^
 ||aseabnyw.com^
 ||asenytuhlhwrwz.com^
 ||asewlfjqwlflkew.com^
@@ -32489,6 +32497,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||balanderramed.site^
 ||balcekonspn.com^
 ||balebunsob.com^
+||baleiambwee.com^
 ||baletingo.com^
 ||balvalur.com^
 ||bandelcot.com^
@@ -32663,6 +32672,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bl0uxepb4o.com^
 ||blablablaaa.xyz^
 ||blackforce.club^
+||blackname.biz^
 ||blacknessversiondan.com^
 ||blacurlik.com^
 ||bladswetis.com^
@@ -34134,6 +34144,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ericalmessar.club^
 ||eriesfrequen.club^
 ||erificyggw.com^
+||erihj.com^
 ||eringassumpt.club^
 ||eriniquep.club^
 ||erkhxw.com^
@@ -35286,6 +35297,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||horiticalagen.club^
 ||horizonattendant.com^
 ||horjhksl.com^
+||hornsbundlebetter.com^
 ||hornsgrid.com^
 ||hortestoz.com^
 ||hosieryelevate.com^
@@ -36318,6 +36330,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||larrenpicture.pro^
 ||larrenworld.pro^
 ||lassistslegisten.info^
+||lataurir.com^
 ||latest-news.life^
 ||latheendsmoo.com^
 ||lationwordsi.club^
@@ -36654,6 +36667,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lutsoops.net^
 ||luven.xyz^
 ||luvnrybocrcgl.com^
+||luxins.net^
 ||luxlnk.com^
 ||luysvlnrb.com^
 ||lvbdvlnbht.com^
@@ -38190,6 +38204,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||plightmoanshock.com^
 ||pllblrapagrvn.com^
 ||plqakqvku.com^
+||plufdsb.com^
 ||pluralbreakpractice7.live^
 ||plxtejszb.com^
 ||plyinsidere.club^
@@ -47788,6 +47803,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hitcpm.com^$popup,third-party
 ||hitopadxdz.xyz^$popup
 ||hlpnowp-c.com^$popup,third-party
+||hornsbundlebetter.com^$popup
 ||hornsgrid.com^$popup
 ||hotchatdate.com^$popup,third-party
 ||hotchatdirect.com^$popup,third-party
@@ -52636,8 +52652,8 @@ $third-party,xmlhttprequest,domain=ancensored.com
 @@||jsdelivr.net^$script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com|kwik.cx
 @@||kwik.cx^$script,stylesheet,subdocument,xmlhttprequest,domain=animepahe.com|kwik.cx
 @@||nextstream.org^$xmlhttprequest,domain=animepahe.com|kwik.cx
-|http://$script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com
-|https://$script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com
+|http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com
+|https://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com
 ! multiup.org
 @@||cdn.multiup.org/assets/js.js$script,domain=multiup.eu
 |http://$script,third-party,xmlhttprequest,domain=multiup.eu|multiup.org
@@ -55554,6 +55570,8 @@ dailysurge.com###sidebar-wrapper > ul > .sidebar-widget:first-child + [class]
 deviantart.com###sidebar-you-know-what
 bored.com###sidebar1head
 petapixel.com###sidebar300x250
+scotsman.com###sidebarMPU1
+scotsman.com###sidebarMPU2
 sundancechannel.com###sidebar_banner
 nbntv.com.au###sidebar_banner1
 bestweekever.tv###sidebar_buzzfeed
@@ -57729,6 +57747,8 @@ catchvideo.net##.pubRight
 catchvideo.net##.pubTop
 yabiladi.com##.pub_header
 radionomy.com##.pub_imu
+as.com##.publi
+as.com##.publi-vertical
 efe.com##.publi-wrapper
 surinenglish.com##.publiTop
 catholic.net##.publicidad
@@ -57892,6 +57912,7 @@ singaporeexpats.com##.skyscrapers
 fog24.com,futbol24.com##.skyscrapper
 scotsman.com##.slab--leaderboard
 slacker.com##.slacker-sidebar-ad
+as.com##.slider-producto
 bikeradar.com##.slider-vert
 thebeachchannel.tv##.slideshow
 bustle.com##.slideshow-page__panoramic-ad
@@ -57940,7 +57961,7 @@ ozy.com##.splash-takeover
 informer.com##.spnsd
 sundayworld.co.za##.spnsorhome
 worldtimezone.com##.spon-menu
-1130thetiger.com,1310news.com,2oceansvibe.com,964eagle.co.uk,abc22now.com,airlineroute.net,animepaper.net,ar15.com,austinist.com,bognor.co.uk,bostonstandard.co.uk,brisbanetimes.com.au,cd1025.com,centralillinoisproud.com,chicagoist.com,chichester.co.uk,concordmonitor.com,dcist.com,dnsleaktest.com,domainincite.com,dramafever.com,eastbourneherald.co.uk,electricenergyonline.com,europages.co.uk,eurovision.tv,ewn.co.za,gamingcloud.com,gayvegas.com,gothamist.com,halifaxcourier.co.uk,hastingsobserver.co.uk,homelife.com.au,isearch.igive.com,itwebafrica.com,khak.com,kkyr.com,kosy790am.com,kpbs.org,ktla.com,kygl.com,laist.com,lcfc.com,lep.co.uk,limerickleader.ie,mix933fm.com,newrepublic.com,news1130.com,nocamels.com,nouse.co.uk,pastie.org,phillyvoice.com,pogo.com,portsmouth.co.uk,power959.com,prestontoday.net,proactiveinvestors.com,proactiveinvestors.com.au,salemreporter.com,scotsman.com,sfist.com,shieldsgazette.com,sky.com,spaldingtoday.co.uk,speedcafe.com,spongepowered.org,sunderlandecho.com,techonomy.com,thefederalistpapers.org,thegatewaypundit.com,thestar.co.uk,theworld.org,userscripts.org,verizon.net,watoday.com.au,wayfm.com,westernjournal.com,wfnt.com,wigantoday.net,wklh.com,wnd.com,wscountytimes.co.uk,yorkshirepost.co.uk,zuula.com##.sponsor
+1130thetiger.com,1310news.com,2oceansvibe.com,964eagle.co.uk,abc22now.com,airlineroute.net,animepaper.net,ar15.com,austinist.com,bognor.co.uk,bostonstandard.co.uk,brisbanetimes.com.au,cd1025.com,centralillinoisproud.com,chicagoist.com,chichester.co.uk,concordmonitor.com,dcist.com,dnsleaktest.com,domainincite.com,dramafever.com,eastbourneherald.co.uk,electricenergyonline.com,europages.co.uk,eurovision.tv,ewn.co.za,gamingcloud.com,gayvegas.com,gothamist.com,halifaxcourier.co.uk,hastingsobserver.co.uk,homelife.com.au,isearch.igive.com,itwebafrica.com,khak.com,kkyr.com,kosy790am.com,kpbs.org,ktla.com,kygl.com,laist.com,lcfc.com,lep.co.uk,limerickleader.ie,mix933fm.com,newrepublic.com,news1130.com,newsweek.com,nocamels.com,nouse.co.uk,pastie.org,phillyvoice.com,pogo.com,portsmouth.co.uk,power959.com,prestontoday.net,proactiveinvestors.com,proactiveinvestors.com.au,salemreporter.com,scotsman.com,sfist.com,shieldsgazette.com,sky.com,spaldingtoday.co.uk,speedcafe.com,spongepowered.org,sunderlandecho.com,techonomy.com,thefederalistpapers.org,thegatewaypundit.com,thestar.co.uk,theworld.org,userscripts.org,verizon.net,watoday.com.au,wayfm.com,westernjournal.com,wfnt.com,wigantoday.net,wklh.com,wnd.com,wscountytimes.co.uk,yorkshirepost.co.uk,zuula.com##.sponsor
 xda-developers.com##.sponsor-banner
 tekrevue.com##.sponsor-blurb
 bbc.com##.sponsor-container
@@ -58189,6 +58210,7 @@ tundraheadquarters.com##a[href^="http://www.tkqlhce.com/"]
 thisismoney.co.uk##a[href^="https://clk.omgt1.com/"]
 thisismoney.co.uk##a[href^="https://clk.tradedoubler.com/"]
 japantoday.com##a[href^="https://go.injapan.com/"]
+disasterscans.com##a[href^="https://go.onelink.me/"]
 mmos.com##a[href^="https://mmos.com/play/"]
 pdevice.com##a[href^="https://t.cfjump.com/"] > img
 scaredstiffreviews.com##a[href^="https://www.amazon."][href*="ref="]
@@ -58381,7 +58403,7 @@ scotch.io#?#div.card:-abp-has(a > span:-abp-contains(Sponsor))
 monova.org##script + [class] > [class]:first-child
 tempostorm.com##side-banners
 smallseotools.com#?#.col-sm-12 > :-abp-has(p:-abp-contains(Advertisement))
-amazon.com##span[class*="template=VIDEO_SINGLE_PRODUCT"]
+amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.fr##span[class*="template=VIDEO_SINGLE_PRODUCT"]
 realitytvworld.com##table[border="0"][align="left"]
 roadtester.com.au##table[cellpadding="9"][border="0"]
 windycitymediagroup.com##table[height="250"]
@@ -58774,7 +58796,7 @@ cumlouder.com##.aan-bottom
 porn300.com##.aan_fake
 bravotube.net##.abbs
 vrsmash.com##.abovePlayer
-celebspank.com,chaturbate.com,gamcore.com,playboy.com,rampant.tv,sex.com,signbucks.com,tehvids.com,uflash.tv,wankoz.com,xcafe.com##.ad
+celebspank.com,chaturbate.com,gamcore.com,playboy.com,rampant.tv,sex.com,signbucks.com,tallermaintenancar.com,tehvids.com,uflash.tv,wankoz.com,xcafe.com##.ad
 extremetube.com,pornhugo.com##.ad-container
 pornhub.com,pornhubthbh7ap3u.onion##.ad-link + table
 milfzr.com##.ad-widget > a
@@ -58867,7 +58889,7 @@ thenude.eu##.blockBnr
 thenude.eu##.blockBnrCenter
 ok.porn,pornhat.com##.bn
 anysex.com,xcafe.com##.bnr
-ok.porn,ok.xxx,pornhat.com##.bns-bl
+ok.porn,ok.xxx,oldmaturemilf.com,pornhat.com##.bns-bl
 xnxxvideoporn.com##.bot_bns
 streamsexclips.com,tubesexclips.com,tubesexmovies.com##.botban
 anyporn.com,home-made-videos.com,pervertslut.com,xozilla.com##.bottom-adv
@@ -58954,6 +58976,7 @@ sammobile.com##.gad
 youx.xxx##.gallery-link
 youtubelike.com##.gallery-thumbs
 pichunter.com##.galleryad
+tallermaintenancar.com##.girl
 tube8.com,tube8.es,tube8.fr##.gridBanner
 pinflix.com,pornhd.com##.gsm-header-zone
 celebspank.com##.header
@@ -59031,6 +59054,7 @@ zmovs.com##.player-aside-banners
 ok.xxx,pornhat.com##.player-bn
 txxx.com##.player-desk
 madmovs.com,pornosexxxtits.com##.player-outer-banner
+tallermaintenancar.com##.player-right
 xnxxvideoporn.com##.player_bn
 uflash.tv##.pps-banner
 txxx.com##.preroll
@@ -59116,6 +59140,7 @@ amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
 pronpic.org##.teaser
 imagepost.com##.textads1
 wichspornos.com##.tf-sp
+tallermaintenancar.com##.thumbs
 smutty.com##.tig_following_tags2
 extremetube.com##.title-sponsor-box
 drtuber.com##.title-sponsored
