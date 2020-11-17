@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6dO4V82EcDS1y2aKitdt2A
-! Version: 202011160000
+! Checksum: lKKSXWTr9dsm18UlmOu9Zg
+! Version: 202011170000
 ! Title: EasyList Cookie List
-! Last modified: 16 Nov 2020 00:00 UTC
+! Last modified: 17 Nov 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -30,6 +30,7 @@
 -cookie-law-popup.
 -cookie-law.$~script
 -cookie-law/$script
+-cookie-manager?
 -cookie-message.js
 -cookie-msg-bar.
 -cookie-notice-
@@ -2777,6 +2778,7 @@ _site_cookie_
 ###cookie-rodo
 ###cookie-screen
 ###cookie-section
+###cookie-settings-container
 ###cookie-settings-dlg
 ###cookie-settings-layer
 ###cookie-settings.cookie-settings
@@ -14703,6 +14705,7 @@ raikaritten.it##.bottom_note
 bolognafiere.com,bolognafiere.it##.box-alert
 sky.it##.c-banner-privacy
 infiniti.it##.c_128
+timgate.it##.cao
 hyle.appspot.com##.cc
 dbplanet.net##.cc-banner
 regione.lombardia.it##.cdk-overlay-backdrop
@@ -14722,6 +14725,7 @@ jpmorganassetmanagement.it##.disclaimerPopupContainer
 primigi.it##.fancybox-overlay
 loccioni.com##.fascia
 e-weber.it##.flash-info
+supertv.it##.generic-text-wrap
 genny.com##.genny-footer-cookie-notification
 italradio.org##.gpdr
 agristorecosenza.it,shopforshop.it##.header-notice
@@ -14751,7 +14755,7 @@ tupperware.it##.notificationBox
 fieraforli.it##.ns-box
 rubner.com##.page__notification
 nh-hotels.it##.politicaRewards
-edilvetta.it,naegele.it,nigiara.it##.privacy
+ecoage.it,edilvetta.it,naegele.it,nigiara.it##.privacy
 smtvsanmarino.sm##.privacy-top
 italradio.org##.privacyStatement
 idoctors.it##.privacy_bottom
@@ -15760,7 +15764,7 @@ yoigo.com#@#thor-cookies
 @@||policy.app.cookieinformation.com^$script,domain=eniro.se
 @@||porno720.pl/core/js/cookieinfo.js
 @@||portal.aae.at/changeportal/js/lib/cookieconsent.js$script,~third-party
-@@||quantcast.mgr.consensu.org^*/choice.js$domain=independent.co.uk
+@@||quantcast.mgr.consensu.org^*/choice.js$domain=bikeperfect.com|digitalcameraworld.com|gamesradar.com|guitarplayer.com|independent.co.uk|laptopmag.com|livescience.com|livingetc.com|musicradar.com|pcgamer.com|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|whathifi.com|whattowatch.com
 @@||riwal.com/includes/js/components/cookiebar.js$script
 @@||sdk.privacy-center.org^$script,domain=gamestar.de|ivoox.com|lavanguardia.com|mundodeportivo.com
 @@||shop.dangerfield.com.au/min/$script,stylesheet
