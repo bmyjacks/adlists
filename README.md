@@ -3,6 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/bmyjacks/adlists?logo=github&style=for-the-badge)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/bmyjacks/adlists?label=downloads&logo=jsdelivr&style=for-the-badge)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/bmyjacks/adlists?logo=github&style=for-the-badge)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbmyjacks%2Fadlists.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbmyjacks%2Fadlists?ref=badge_shield)
 
 Most of the block lists are centralized here and can be downloaded quickly using CDN.
 
@@ -58,3 +59,6 @@ If you find that some of your services are not working properly in use, please t
 
 # LICENSE
 [MIT](https://github.com/bmyjacks/adlists/LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbmyjacks%2Fadlists.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbmyjacks%2Fadlists?ref=badge_large)
