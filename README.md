@@ -57,4 +57,4 @@ Select the list you want from the different categories below and add it to your 
 If you find that some of your services are not working properly in use, please take a screenshot and submit it it to us. Use the [Issues Page](https://github.com/bmyjacks/adlists/issues).
 
 # LICENSE
-[MIT](https://github.com/bmyjacks/adlists/LICENSE)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbmyjacks%2Fadlists.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbmyjacks%2Fadlists?ref=badge_large)
