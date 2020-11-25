@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: O6jTQUpJMJ4FpMhIkv7H2Q
-! Version: 202011240000
+! Checksum: hbnQqp7D2KvxxBxuYGiJdQ
+! Version: 202011250000
 ! Title: EasyList Cookie List
-! Last modified: 24 Nov 2020 00:00 UTC
+! Last modified: 25 Nov 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15707,6 +15707,7 @@ yoigo.com#@#thor-cookies
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/$script,domain=blog.google
 @@||microsoft.com/api/privacy/cookieconsent?$xmlhttprequest,domain=docs.microsoft.com
 @@||nectar.com/lib/cookieBanner.js
+@@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||stabila.com/bundles/marketingsuite/css/cookie-bar.css
 @@||strava.com/cookie-banner.js$~third-party
 @@||tietosuoja.fi/o/frontend-js-web/aui/cookie/cookie.js$script
