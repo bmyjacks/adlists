@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8neNb/XB7/TtiaTRjs1A/A
-! Version: 202011260001
+! Checksum: fjJuNMG7pO+RDtRDAZqzuw
+! Version: 202011270001
 ! Title: EasyList
-! Last modified: 26 Nov 2020 00:00 UTC
+! Last modified: 27 Nov 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1277,7 +1277,6 @@
 /ad01.
 /ad02/background_
 /ad1-728-
-/ad1.$domain=~ad1.de|~ad1.in|~arlenemirsky.com|~vereinslinie.de
 /ad1/index.
 /ad11c.
 /ad12.
@@ -3393,6 +3392,7 @@
 /adv02.$domain=~dobro.systems
 /adv03.$domain=~dobro.systems
 /adv1.
+/adv100x60.
 /Adv150.
 /adv180x150.
 /adv2.
@@ -6400,7 +6400,6 @@
 /scripts/ad_
 /scripts/ads/*
 /scripts/AdService_
-/scripts/adv.
 /scripts/afc/*
 /scripts/feedmeCaf.php?q=*&d=*&ron=$script
 /scripts/zanox-
@@ -7212,7 +7211,6 @@
 /wwwad.
 /wwwads.
 /x5advcorner.
-/xads.js
 /xads.php
 /xadvertisement.
 /xbanner.js
@@ -7684,7 +7682,6 @@ _ads.cgi
 _ads.cms?
 _ads.html
 _ads.js.
-_ads.js?
 _ads.php?
 _ads.station.
 _ads/css/
@@ -15052,6 +15049,7 @@ _popunder+$popup
 ###hours_ad
 ###houseAd
 ###hovered_sponsored
+###hp-desk-after-header-ad
 ###hp-header-ad
 ###hp-mpu
 ###hp-right-ad
@@ -25793,6 +25791,7 @@ _popunder+$popup
 ##.jsOneAd
 ##.js_adContainer
 ##.js_contained-ad-container
+##.js_deferred-ad
 ##.js_slideshow-full-width-ad
 ##.js_slideshow-sidebar-ad
 ##.jsx-adcontainer
@@ -31161,6 +31160,7 @@ plus.net#@#.banner300
 mlb.com#@#.bannerAd
 milenio.com#@#.banner_728x90
 mergermarket.com#@#.banner_ad
+tracking.narvar.com#@#.banner_ad_link
 cumbooks.co.za,eurweb.com,infoplease.com#@#.bannerad
 popporn.com,webphunu.net#@#.block-ad
 economist.com#@#.block-ec_ads
@@ -39681,6 +39681,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||smrtgs.com^
 ||smsimprisee.club^
 ||snambepupkjggz.com^
+||snammar-jumntal.com^
 ||snapsed.club^
 ||snbybgwiyfug.com^
 ||snckdjuymeopsc.com^
@@ -48347,6 +48348,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||smartclk.net^$popup
 ||smartwebads.com^$popup,third-party
 ||smrtgs.com^$popup,third-party
+||snammar-jumntal.com^$popup
 ||sonagerthrou.com^$popup
 ||sparkstudios.com^$popup,third-party
 ||spattermutiny.com^$popup
@@ -49051,6 +49053,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||omynews.net^$third-party
 ||onedmp.com.^$third-party
 ||onhercam.com^$third-party
+||onlineporno.fun^$third-party
 ||ordermc.com^$third-party
 ||otaserve.net^$third-party
 ||othernedm.info^$third-party
@@ -54829,6 +54832,7 @@ csdb.dk###casdivhor
 csdb.dk###casdivver
 fresnobee.com###cb-topjobs
 bnd.com###cb_widget
+cloudwards.net###cbox
 aviationweek.com,grist.org,imgmega.com,linuxinsider.com,neg0.ca###cboxOverlay
 roomzaar.com###cgp-bb-tag
 realage.com###channel_sponsor_callout
@@ -56987,6 +56991,7 @@ annistonstar.com##.custom_hot_deal_image
 dnsleaktest.com##.cute-box
 jobhits.co.uk##.cvads
 futurecurrencyforecast.com##.cwc-tor-widget
+cloudwards.net##.cws-deal
 freesteam.io,theblockcrypto.com##.d-lg-block
 coingecko.com##.d-md-block
 glumbouploads.com##.d0_728
@@ -58205,6 +58210,7 @@ autoaction.com.au##.square
 kathmandupost.com##.sticky--bottom
 golfmagic.com##.sticky-container
 babylonbee.com##.sticky-footer-image
+oilcity.news##.sticky-sponsors-large
 salon.com##.sticky-wrapper
 readarsenal.com##.stickyContainerMpu
 wtop.com##.sticky_parent
