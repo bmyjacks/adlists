@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202011292247
+! Version: 202011301940
 ! Title: Fanboy's Social Blocking List
-! Last modified: 29 Nov 2020 22:47 UTC
+! Last modified: 30 Nov 2020 19:40 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -3513,6 +3513,7 @@ _youtube_social_
 ###facebook-share
 ###facebook-share-bot
 ###facebook-slider
+###facebook-social-wrapper
 ###facebook-twitter-block
 ###facebook-twitter-block-bottom
 ###facebook-twitter-page-top
@@ -4792,7 +4793,6 @@ _youtube_social_
 ###sharevertical
 ###sharevideo
 ###sharewrapper
-###sharing
 ###sharing-bar
 ###sharing-box
 ###sharing-button
@@ -7892,6 +7892,7 @@ _youtube_social_
 ##.facebook-sidebar-outer
 ##.facebook-social
 ##.facebook-social-likes
+##.facebook-social-wrapper
 ##.facebook-solid-control
 ##.facebook-toolbar
 ##.facebook-top
@@ -9574,7 +9575,6 @@ _youtube_social_
 ##.icon-sd-linkedin
 ##.icon-sd-pinterest
 ##.icon-sd-twitter
-##.icon-share
 ##.icon-share-2
 ##.icon-share-alt
 ##.icon-share-facebook
@@ -19227,7 +19227,6 @@ mediafire.com,microcosmgames.com#@##sharebox
 last.fm#@##sharebuttons
 bufferapp.com#@##sharer
 renren.com#@##sharevideo
-nextcloud.com#@##sharing
 statoquotidiano.it#@##sidebar-social
 swappa.com#@##social-buttons
 birebin.com,pictame.com,thepictaram.club#@##social-container
@@ -19395,7 +19394,6 @@ myanimelist.net#@#.icon-gp
 flattr.com,gleam.io#@#.icon-instagram
 fora.ie,login.alibaba.com#@#.icon-linkedin
 rottentomatoes.com#@#.icon-rss
-football.fr,nextcloud.com,owncloud.org,theoldreader.com,trello.com#@#.icon-share
 techjunkie.com#@#.icon-social
 carsguide.com.au#@#.icon-social-facebook
 carsguide.com.au#@#.icon-social-linkedin
@@ -19611,6 +19609,7 @@ runescape.com,study.163.com#@#.socialBox
 ceneo.pl,showmax.com#@#.socialBtns
 tomshardware.com#@#.socialButton
 keepa.com,mousehuntgame.com#@#.socialButtons
+joemonster.org#@#.socialContainer
 oculus.com#@#.socialFacebook
 answers.microsoft.com#@#.socialIcon
 pbs.org#@#.socialList
@@ -19621,6 +19620,7 @@ gorod.mos.ru#@#.social__facebook
 gorod.mos.ru#@#.social__twitter
 iq-student-accommodation.com#@#.social_bar
 zik.ua#@#.social_block
+radiocuore.it#@#.social_bottom
 charaktery.eu,habr.com,hintaopas.fi,moikrug.ru,pinterest.com,pricespy.co.nz,pricespy.co.uk,pricespy.ie,prisjakt.nu#@#.social_buttons
 academia.edu,wsqn.pl#@#.social_container
 ourweigh.in#@#.social_facebook
@@ -19640,7 +19640,6 @@ vaganovaacademy.ru,wuala.com#@#.socialbox
 wuala.com#@#.socialboxp
 esselungajob.it,jobs.jnj.com,jobs.kroger.com,realogy.com#@#.socialbutton
 clientsfromhell.net#@#.socialbuttons
-joemonster.org#@#.socialcontainer
 gamepedia.com#@#.sociallink
 heise.de,megabus.com,thenextweb.com#@#.socialmedia
 belgafiles.com,chaturbate.com,eska.pl,gog.com,se.pl#@#.socials
