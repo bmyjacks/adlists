@@ -1,7 +1,7 @@
 name: Create Release
 on:
-  #push:
-  #  branches: [ master ]
+  push:
+    branches: [ master ]
   schedule:
     - cron: '0 0 */3 * *'
 
@@ -29,4 +29,3 @@ jobs:
             # Automatic create relase at ${TIME}
           draft: false
           prerelease: false
-
