@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202012022334
+! Version: 202012030742
 ! Title: EasyPrivacy
-! Last modified: 02 Dec 2020 23:34 UTC
+! Last modified: 03 Dec 2020 07:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5646,6 +5646,7 @@ _mongo_stats/
 ||g4952108375.co^
 ||g5150192710.co^
 ||nxakpj4ac8gkd53.info^
+||propeller-tracking.com^
 ||sbgsodufuosmmvsdf.info^
 ||z0uolej1qnxzub1.info^
 ! Third-party
@@ -7444,7 +7445,6 @@ _mongo_stats/
 ||promotionengine.com^$third-party
 ||proofpoint.com^$third-party
 ||proofpositivemedia.com^$third-party
-||propeller-tracking.com^$third-party
 ||propermessage.io^$third-party
 ||provenpixel.com^$third-party
 ||prprocess.com^$third-party
@@ -10122,7 +10122,6 @@ _mongo_stats/
 ||amazonaws.com/prod/entities
 ||amazonaws.com/prod/main?ref=$image,third-party
 ||amazonaws.com/prod/report-only
-||amazonaws.com/prod/v2
 ||amazonaws.com/production_beacon
 ||amazonaws.com/production|$third-party,xmlhttprequest,domain=~amazon.com
 ||amazonaws.com/searchdiscovery-satellite-production/
