@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hgxc4ix7o5EDs02uc1pC/Q
-! Version: 202012020001
+! Checksum: AbhaI/ugKt6Tmi3iy94LBQ
+! Version: 202012030000
 ! Title: EasyList Cookie List
-! Last modified: 02 Dec 2020 00:01 UTC
+! Last modified: 03 Dec 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12367,6 +12367,7 @@ _site_cookie_
 ##.ui-dialog-cookies
 ##.ui.cookie.nag
 ##.uiCookiesHint
+##.uitk-gdpr-banner
 ##.uk-cookie
 ##.uk-cookie-banner
 ##.uk-cookies
@@ -14155,6 +14156,7 @@ brieffreund-gesucht.de##.privacy
 focus-arztsuche.de##.py-md.tracking-box
 deutscher-fenstershop.de##.rule_assept
 grazia-magazin.de,idee-fuer-mich.de##.safeSpaceForClose
+gayfm.de##.sc_window
 bw-online-shop.com##.show-modal
 au-checkliste.de##.showAGP
 kleiderkreisel.de##.sticky-footer
@@ -15291,6 +15293,7 @@ infiniti-vietnam.com.vn##.c_128
 ||henryschein.at^*/CookieList.aspx
 ||keltendorf-mitterkirchen.at/system/web/cookie.ashx
 ||strato.de^*/consent.js
+||up-cookiemon.wavecdn.net^
 !
 ! ---------- French ----------
 !

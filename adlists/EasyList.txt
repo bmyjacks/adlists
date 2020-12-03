@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5fPYd76NiejpfTG1hS+5ug
-! Version: 202012020001
+! Checksum: qHG2XxXmvLXnwoKb1LHcyQ
+! Version: 202012030001
 ! Title: EasyList
-! Last modified: 02 Dec 2020 00:01 UTC
+! Last modified: 03 Dec 2020 00:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3814,7 +3814,7 @@
 /annonse.$domain=~annonse.nu
 /annonse/*
 /annonser.
-/annonser/*
+/annonser/*$domain=billink.no
 /announce/adv/*
 /anyad.js
 /ape-ad-
@@ -18536,6 +18536,7 @@ _popunder+$popup
 ##.ad-close-button
 ##.ad-cluster
 ##.ad-cluster-container
+##.ad-cnt
 ##.ad-code
 ##.ad-codes
 ##.ad-col
@@ -25256,6 +25257,7 @@ _popunder+$popup
 ##.header_leaderboard_ad
 ##.header_link_ad
 ##.header_right_ad
+##.header_top_ad
 ##.headerad
 ##.headerad-720
 ##.headerad-placeholder
@@ -26640,6 +26642,7 @@ _popunder+$popup
 ##.newPex_forumads
 ##.newTopAdContainer
 ##.new_ad1
+##.new_ad_wrapper_all
 ##.newad
 ##.newad1
 ##.newadsky-wrapper
@@ -35471,6 +35474,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||homeyloanedmes.work^
 ||honeycshfferufrew.com^
 ||honeymaria.com^
+||honfleurisez.xyz^
 ||honoursdashed.com^
 ||hoofstepfather.com^
 ||hooify.com^
@@ -38736,6 +38740,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pyllxjfkjhpjbq.com^
 ||pypkrvtepsha.com^
 ||pyqsbuaeqiku.com^
+||pyroguanites.xyz^
 ||pyzkbxspoon.com^
 ||pz7zrn0xxgyg.com^
 ||pzjdrhrlzdli.com^
@@ -39123,6 +39128,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||reinformaln.top^
 ||reinspersian.com^
 ||reiqwxxd.com^
+||rejouassions.xyz^
 ||rekodpro.com^
 ||relaxingovercomeexaggerate.com^
 ||releasurezesa.site^
@@ -39630,7 +39636,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||seszopvxktsfn.com^
 ||setemoump.com^
 ||setrtcjfhreqg.com^
-||setupad.com^
 ||seuojaesymeriv.com^
 ||sevenialfeminde.fun^
 ||sevening.club^
@@ -40179,6 +40184,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||tepmpemrixd.com^
 ||teqhllxidowmi.com^
 ||terdaywe.top^
+||terephtalate.xyz^
 ||terialexperi.top^
 ||terialnevitiesini.info^
 ||terpeditors.club^
@@ -50338,6 +50344,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||disqus.com/listPromoted?
 ||disqusservice.com/iframe/fallback/
 ||dj.rasset.ie/dotie/js/rte.ads.js
+||djicdn.com/uploads/ad_image_$third-party
 ||djr4k68f8n55o.cloudfront.net^
 ||djz9es32qen64.cloudfront.net^
 ||dm0acvguygm9h.cloudfront.net^
@@ -55892,6 +55899,7 @@ flexiblewebdesign.com###scroll
 espnscrum.com###scrumRhsBgMpu
 espnscrum.com###scrumRhsBgTxtLks
 hentai2read.com###sct_banner_980_60
+yahoo.com###sda-MAST
 91mobiles.com###se_notification
 docspot.com###search-leaderboard
 sail-world.com###searchRotation
