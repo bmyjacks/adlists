@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
              
-      - name: Set Tume
+      - name: Set Time
         run: |
           echo "TIME=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
 
@@ -22,11 +22,11 @@ jobs:
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TIME: ${TIME}
         with:
-          tag_name: ${TIME}-snap
-          release_name: ${TIME}-snap
+          tag_name: $TIME-snap
+          release_name: $TIME-snap
           body: |
-            # Automatic create relase at ${TIME}
+            # Automatic create relase at $TIME
+            SHA:`$GITHUB_SHA`
           draft: false
           prerelease: false
