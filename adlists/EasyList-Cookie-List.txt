@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tBd4utzouS9qDGlppT+13A
-! Version: 202012031111
+! Checksum: NsJEzqJ7fqX0VcFKe1o0Xw
+! Version: 202012031250
 ! Title: EasyList Cookie List
-! Last modified: 03 Dec 2020 11:11 UTC
+! Last modified: 03 Dec 2020 12:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13904,6 +13904,7 @@ survey-remover.com##div[style^="height: 25px; position: fixed;"]
 openpli.org##div[style^="height:20px;background-color:#FAFFDC;"]
 globaltuners.com,psychomedia.qc.ca,speedtestcustom.com,zerochan.net##div[style^="position: fixed; bottom"]
 podbean.com##div[style^="z-index: 999999; position: fixed;"]
+invezz.com##div[x-data="CookieConsent()"]
 my.games##header > .gdpr
 weatherbug.com##notification-footer
 satispay.com##p[class^="cookie-banner"]
@@ -14156,6 +14157,7 @@ brieffreund-gesucht.de##.privacy
 focus-arztsuche.de##.py-md.tracking-box
 deutscher-fenstershop.de##.rule_assept
 grazia-magazin.de,idee-fuer-mich.de##.safeSpaceForClose
+shore.com##.sc-jTzLTM
 gayfm.de##.sc_window
 bw-online-shop.com##.show-modal
 au-checkliste.de##.showAGP
