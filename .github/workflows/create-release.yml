@@ -13,12 +13,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
              
-      - name: Set Time
+
+      - name: Create Release
         run: |
           echo "$(date +"%Y-%m-%d")-snap" >> ${GITHUB_ENV}
 
-      - name: Create Release
-        id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
