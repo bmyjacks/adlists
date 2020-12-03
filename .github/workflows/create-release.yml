@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: '0 0 * * 0'
+    - cron: '0 0 */3 * *'
 
 jobs:
   create-a-release:
@@ -11,18 +11,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
+             
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TIME: $(date +"%Y-%m-%d")
+          TIME: ${{ $(date +"%Y-%m-%d") }}
         with:
-          tag_name: $(date +"%Y-%m-%d")-snap
-          release_name: $(date +"%Y-%m-%d")-snap
+          tag_name: $TIME-snap
+          release_name: $TIME-snap
           body: |
-            # Update relase at $(date +"%Y-%m-%d")
+            # Automatic create relase at $TIME
+            SHA: ` $GITHUB_SHA `
           draft: false
           prerelease: false
 
