@@ -15,7 +15,7 @@ jobs:
              
       - name: Set Tume
         run: |
-          echo "$(date +"%Y-%m-%d")" >> ${TIME}
+          echo "TIME=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
 
 
       - name: Create Release
