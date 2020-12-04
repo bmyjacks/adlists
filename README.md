@@ -1,4 +1,5 @@
-# adLists
+![adlists](https://socialify.git.ci/bmyjacks/adlists/image?description=1&font=Inter&issues=1&language=1&logo=https%3A%2F%2Fassets.bmyjacks.cn%2Ficons%2Fandroid-chrome-144x144.png%3Fx-oss-process%3Dstyle%2Ficon&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/bmyjacks/adlists?label=LAST%20UPDATE&style=for-the-badge)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/bmyjacks/adlists?label=downloads&style=for-the-badge)
 
