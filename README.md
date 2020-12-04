@@ -19,13 +19,13 @@ Select the list you want from the different categories below and add it to your 
 
 | Name | Official link | CDN link |
 | ---- | ------------- | -------- |
-| AdGuard Base filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt) |  |
-| AdGuard Tracking Protection filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt) | |
-| AdGuard Social media filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt) |  |
-| AdGuard Annoyances filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt) |  |
-| [AdGuard Filter unblocking search ads and self-promotions](https://kb.adguard.com/en/general/search-ads-and-self-promotion) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt) |  |
-| AdGuard Experimental filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_5_Experimental/filter.txt) |  |
-| AdGuard Mobile ads filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt) |  |
+| AdGuard Base filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/filter-registry/AdGuard-Base-filter.txt) |
+| AdGuard Tracking Protection filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/filter-registry/AdGuard-Tracking-Protection-filter.txt) |
+| AdGuard Social media filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/filter-registry/AdGuard-Social-media-filter.txt)  |
+| AdGuard Annoyances filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/filter-registry/AdGuard-Annoyances-filter.txt) |
+| [AdGuard Filter unblocking search ads and self-promotions](https://kb.adguard.com/en/general/search-ads-and-self-promotion) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/filter-registry/AdGuard-Filter-unblocking-search-ads-and-self-promotions.txt) |
+| AdGuard Experimental filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_5_Experimental/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/filter-registry/AdGuard-Experimental-filter.txt) |
+| AdGuard Mobile ads filter | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/filter-registry/AdGuard-Mobile-ads-filter.txt) |
 | [AdGuard DNS filter](https://adguard.com/adguard-dns/overview.html) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@latest/filter-registry/AdGuard-DNS-filter.txt) |
 | [EasyList](https://easylist.to/) | [Official link](https://easylist-downloads.adblockplus.org/easylist.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@latest/filter-registry/EasyList.txt) |
 | EasyList Cookie List | [Official link](https://easylist-downloads.adblockplus.org/easylist-cookie.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@latest/filter-registry/EasyList-Cookie-List.txt) |
