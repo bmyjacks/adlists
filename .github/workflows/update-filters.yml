@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 */8 * * *'
 
 jobs:
   update-list-and-push-to-github:
@@ -22,13 +22,7 @@ jobs:
           file-name: 'AdAway.txt'
           location: './filter-registry'
 
-      - name: MalwareDomainList.com Hosts List
-        uses: carlosperate/download-file-action@v1.0.3
-        with:
-          file-url: 'https://www.malwaredomainlist.com/hostslist/hosts.txt'
-          file-name: 'MalwareDomainList.txt'
-          location: './filter-registry'
-
+    
       # Adguard Home
       - name: AdGuard Base filter
         uses: carlosperate/download-file-action@v1.0.3
