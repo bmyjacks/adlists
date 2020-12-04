@@ -15,7 +15,7 @@ jobs:
              
       - name: Set Time
         run: |
-          echo "time=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
+          echo "TIME=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
 
 
       - name: Create Release
@@ -23,9 +23,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: $time-snap
-          release_name: $time-snap
+          tag_name: ${{ env.TIME }}-snap
+          release_name: ${{ env.TIME }}-snap
           body: |
-            # Automatic create relase at $time
+            # Automatic create relase at ${{ env.TIME }}
           draft: false
           prerelease: false
