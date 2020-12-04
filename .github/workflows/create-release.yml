@@ -27,5 +27,6 @@ jobs:
           release_name: ${{ env.TIME }}-snap
           body: |
             # Automatic create relase at ${{ env.TIME }}
+            SHA: `${{ GUTHUB_SHA }}`
           draft: false
           prerelease: false
