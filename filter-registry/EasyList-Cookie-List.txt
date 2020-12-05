@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eY60JkIAkaYt9FcXX0QT0w
-! Version: 202012050750
+! Checksum: 5dwhIOueQT4uFTP1F0aD7A
+! Version: 202012051550
 ! Title: EasyList Cookie List
-! Last modified: 05 Dec 2020 07:50 UTC
+! Last modified: 05 Dec 2020 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1245,6 +1245,7 @@ _site_cookie_
 ###GRU-cookies-alert-iframe
 ###GcCookieBox
 ###Gdpr
+###Gdpr-policy
 ###GdprCookieBanner
 ###GdprCookieMessage
 ###GdprEyebrow
@@ -7440,6 +7441,8 @@ _site_cookie_
 ##.GDPRPanel--visible
 ##.GDPRPanel-root
 ##.GRU_banner
+##.Gdpr-policy
+##.Gdpr-policy-desktop
 ##.GdprBanner
 ##.GdprCookieConsent-ConsentContainer
 ##.GdprCookieConsent-ConsentContainerOverlay
@@ -13112,6 +13115,7 @@ bing.com###b_notificationContainer
 uktv.co.uk###back-to-old-site
 cc.com###balaMainContainer
 best-sound.com,shadycharacters.co.uk,whatsapp.com###banner
+shannons.com.au###banner-policies
 bitly.com###banner-spacer
 area-codes.org.uk###baselink
 thebanker.com###bdbanner
@@ -13283,6 +13287,7 @@ twitch.tv###noty_bottomCenter_layout_container
 novapdf.com###novapdf_accept_cookies
 professionalbatterychargers.com###nscmsboxboxsimple
 spreaker.com###nt_container
+northwell.edu###nwh_footer_banner_legal
 play-cricket.com###openglobal_privacy_widget
 accenture.com###optanon-minimize-wrapper
 harvester.co.uk###optin-optout
@@ -14766,7 +14771,7 @@ insideevs.it,omnifurgone.it,omnimoto.it##.m1-footer-message
 fashionunited.it##.mdc-snackbar__surface
 ari.it##.message
 monzacalcio.com##.modal
-alfasigma.com,elevensports.it,feralpisalo.it,monzacalcio.com##.modal-backdrop
+alfasigma.com,elevensports.it,feralpisalo.it,metro.it,monzacalcio.com##.modal-backdrop
 informazione.it##.modal-body
 telethon.it##.modalMessage
 watch.forumfree.it##.note
