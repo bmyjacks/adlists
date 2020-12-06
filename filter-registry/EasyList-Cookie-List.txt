@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5dwhIOueQT4uFTP1F0aD7A
-! Version: 202012051550
+! Checksum: dC29CAeVKm7Uv0CM5pphDQ
+! Version: 202012060000
 ! Title: EasyList Cookie List
-! Last modified: 05 Dec 2020 15:50 UTC
+! Last modified: 06 Dec 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12782,6 +12782,7 @@ _site_cookie_
 ##div[data-react-class="CookieNotice"]
 ##div[data-role="cookie-policy-banner"]
 ##div[data-section-type="CookiesBanner"]
+##div[data-selector="container@cookiebar"]
 ##div[data-selen-group="cookies-bar"]
 ##div[data-selenium="CookieBanner"]
 ##div[data-test-sell-cookie-banner]
@@ -13940,6 +13941,7 @@ indiatimes.com##.consent-popup
 hypable.com##.cookie-bar
 mashable.com##.cookie-notice
 allmusic.com##.cookie-policy-box
+msn.com##.cookieBanner
 github.com##.hx_cookie-banner
 rp-online.de##.park-snackbar-cookies
 walmart.ca##.privacy-open > div > [class] > div[class^="css"]
