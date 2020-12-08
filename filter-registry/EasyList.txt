@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e+R6T9CIaxp5oWPvMTeVcA
-! Version: 202012072351
+! Checksum: 9VEq3VlxXJ4tgU2W8/Wipw
+! Version: 202012080750
 ! Title: EasyList
-! Last modified: 07 Dec 2020 23:50 UTC
+! Last modified: 08 Dec 2020 07:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17836,6 +17836,7 @@ _popunder+$popup
 ##.ComAread
 ##.CommentAd
 ##.CommentGoogleAd
+##.ConnatixAd
 ##.ContentAd
 ##.ContentAd2
 ##.ContentAds
@@ -20960,6 +20961,7 @@ _popunder+$popup
 ##.ads-here
 ##.ads-holder
 ##.ads-home-top-buttons-wrap
+##.ads-homepage-leaderboard-btf
 ##.ads-horizontal
 ##.ads-horizontal-banner
 ##.ads-horizontal-icons-wrap
@@ -21038,6 +21040,7 @@ _popunder+$popup
 ##.ads-squares
 ##.ads-static-video-overlay
 ##.ads-story
+##.ads-story-leaderboard-atf
 ##.ads-stripe
 ##.ads-styled
 ##.ads-superbanner
@@ -25762,6 +25765,7 @@ _popunder+$popup
 ##.js-adfliction-standard
 ##.js-ads
 ##.js-ads-carousel
+##.js-ads-header-content
 ##.js-adv-rotator-image
 ##.js-advert
 ##.js-advert--responsive
@@ -26495,6 +26499,7 @@ _popunder+$popup
 ##.mpuAdSlot
 ##.mpuAdvert
 ##.mpuArea
+##.mpuBlock
 ##.mpuBox
 ##.mpuContainer
 ##.mpuMiddle
@@ -26722,6 +26727,7 @@ _popunder+$popup
 ##.o-ad-container
 ##.o-ads
 ##.o-ads--center
+##.o-ads-content
 ##.o-advert
 ##.o-listing__ad
 ##.o-story-content__ad
@@ -38553,6 +38559,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||poraryguib.club^
 ||poratedp.top^
 ||porchiteds.club^
+||poresresigntun.com^
 ||portedlysarcatc.info^
 ||portlytinytimeout.com^
 ||positious.club^
@@ -48779,6 +48786,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||5.45.79.15^$popup
 ! IP Regex (commonly used, hax'd IP addresses)
 /^https?:\/\/(35|104)\.(\d){1,3}\.(\d){1,3}\.(\d){1,3}\//$popup,third-party
+! http://146.59.211.227/tsc/Zx0bagrCjuxP
+/^https?:\/\/146\.59\.211\.(\d){1,3}.*/$popup,third-party
 ! *** easylist:easylist_adult/adult_adservers.txt ***
 ||0gw7e6s3wrao9y3q.pro^$third-party
 ||123advertising.nl^$third-party
@@ -55413,6 +55422,7 @@ pandora.com###leader_board_container
 animeseason.com,ariacharts.com.au,ask.fm,audioz.download,cc.com,charlotteobserver.com,crackmixtapes.com,cubeecraft.com,cyberciti.biz,datpiff.com,food24.com,football.co.uk,gazette.com,gtainside.com,houselogic.com,icreatemagazine.com,indy100.com,instyle.co.uk,jaxdailyrecord.com,jillianmichaels.com,lasplash.com,lawnewz.com,look.co.uk,lrb.co.uk,motortopia.com,newcartestdrive.com,news.sky.com,nfib.com,okmagazine.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,pets4homes.co.uk,publishersweekly.com,radiox.co.uk,realmoney.thestreet.com,reason.com,revolvermag.com,rollcall.com,salary.com,sciencedirect.com,sciencefocus.com,skysports.com,smoothradio.com,stuff.tv,talonmarks.com,thatgrapejuice.net,thechronicleherald.ca,thehollywoodgossip.com,theserverside.com,toofab.com,topcultured.com,tvguide.co.uk,wheels24.co.za,whitepages.ae,windsorstar.com###leaderboard
 vocm.com###leaderboard-area
 variety.com###leaderboard-no-padding
+alternet.org###leaderboard-placeholder
 oaoa.com###leaderboard-top
 drdobbs.com###leaderboard1
 drdobbs.com###leaderboard2
