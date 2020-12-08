@@ -81,6 +81,10 @@
 youtube.com,youtube-nocookie.com#%#//scriptlet('set-constant', 'ytInitialPlayerResponse.adPlacements', 'undefined')
 youtube.com,youtube-nocookie.com#%#//scriptlet('set-constant', 'playerResponse.adPlacements', 'undefined')
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/69207
+vesti.uz###telegram
+! https://github.com/AdguardTeam/AdguardFilters/issues/69201
+||catholic.by/*/images/news/*/telega-b.jpg
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69286
 tribunnews.com###banner_article_slide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69140
@@ -1681,6 +1685,7 @@ blog.eva.ua,officiel-online.com,wccftech.com,ideanomics.ru,gazetki.by,goldsilver
 ! ###mc_embed_signup
 ilpost.it,bsblog.info,alcoparty.com.ua,codastory.com,informazionefiscale.it,kerch.fm,cinemablend.com,prostofinovo.ru,comss.ru,majorgeeks.com,buhgalter.com.ua,providr.com,24tv.ua,babylonbee.com,dexerto.com,football365.com,menrec.com,netdoktor.de,ottawamatters.com,retail-insider.com,walterfootball.com,wweek.com,zozhnik.ru###mc_embed_signup
 !
+mercola.com##.top-subscription
 securitylab.ru###subscribe-section
 usvinternet.ru###text-54
 peopletalk.ru##.subscribe-wrapper
@@ -7711,7 +7716,7 @@ europol.europa.eu,zuerich.com,ziraatkatilim.com.tr,sandoz.com.tr,biorxiv.org,uni
 ! ###gdpr
 fonts2u.com,otzyvua.net,velonews.com,wikihow.tech,bagdatbaharat.com.tr,escortbook.com,looper.com,fromdoctopdf.com,learnersdictionary.com,spanishdict.com,merriam-webster.com,digi24.ro,antena3.ro,wikihow.com.tr,wikihow.cz,wikihow.it,wikihow.jp,wikihow.vn,wikihow.com,mobil.se,digisport.ro,periscope-solutions.com###gdpr
 ! ##.gdpr
-jus.com.br,paracevirici.com,inkstonenews.com,hibboux.com,glossika.com,bleachmx.fr,fuser.com,nytimes.com,bagdatbaharat.com.tr,foreignaffairs.com,tagmp3.net,arkadszeged.hu,basemark.com,eonline.com,gogoro.com,money.yandex.ru,sydsvenskan.se,theatlas.com##.gdpr
+navi.gg,jus.com.br,paracevirici.com,inkstonenews.com,hibboux.com,glossika.com,bleachmx.fr,fuser.com,nytimes.com,bagdatbaharat.com.tr,foreignaffairs.com,tagmp3.net,arkadszeged.hu,basemark.com,eonline.com,gogoro.com,money.yandex.ru,sydsvenskan.se,theatlas.com##.gdpr
 ! ##.gdpr-banner
 tutonaut.de,porngameshub.com,anaconda.com,nutritionix.com,kaspersky.com,smugmug.com,feedingamerica.org,carthrottle.com,intercom.com,mmajunkie.com,thebiglead.com,visitnapavalley.com,wordpress.com##.gdpr-banner
 ! ##.ppr_priv_document_cookie_banner
@@ -7749,12 +7754,14 @@ theguardian.com##div[id^="sp_message_"]
 vorname.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,motorcyclenews.com,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[id^="sp_message_"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[class^="sp_veil"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#body { overflow: visible !important; }
-finanzen.net,vorname.com,jezebel.com,theonion.com,theinventory.com,thetakeout.com,theroot.com,avclub.com,deadspin.com,lifehacker.com,computerbild.de,techbook.de,lvz.de,sueddeutsche.de,gutefrage.net,shieldsgazette.com,spieletipps.de,ekstrabladet.dk,focus.de,demorgen.be,volkskrant.nl,trouw.nl,parool.nl,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#html.sp-message-open { overflow: visible !important; position: static !important; margin-top: 0!important; }
+motorcyclenews.com,finanzen.net,vorname.com,jezebel.com,theonion.com,theinventory.com,thetakeout.com,theroot.com,avclub.com,deadspin.com,lifehacker.com,computerbild.de,techbook.de,lvz.de,sueddeutsche.de,gutefrage.net,shieldsgazette.com,spieletipps.de,ekstrabladet.dk,focus.de,demorgen.be,volkskrant.nl,trouw.nl,parool.nl,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#html.sp-message-open { overflow: visible !important; position: static !important; margin-top: 0!important; }
 !
 /wrapperMessagingWithoutDetection.js$script,domain=meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|lvz.de|myhomebook.de|travelbook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 !
 !
+httpstatus.io##.snackbar.is-bottom-right
+tvzvezda.ru##.cookie_messege
 plshair.co.uk##.vtl-cb-main-widget
 speedof.me#$#.cc-dialog-pane { display: none !important; }
 speedof.me#$#.cc-window-banner { display: none !important; }
@@ -10502,7 +10509,7 @@ alteryx.com,paypal-community.com,community.teamviewer.com,community.carbonblack.
 outdoorchannel.com,thesportsmanchannel.com##.lity[role="dialog"]
 auchan.fr##.loi_hamon.open
 ivi.tv##.lowest-teaser
-nalivay-ka.ru,perstni.com##.lwpcngNotice
+vesti.uz,nalivay-ka.ru,perstni.com##.lwpcngNotice
 kaufland.de,kaufland.pl##.m-cookie-notification
 insideevs.com,motor1.com##.m1-footer-messages
 polityka.pl##.md-cookie-warning
@@ -10702,8 +10709,6 @@ gibteseinestorung.de#$#.modal-backdrop  { display:none!important; }
 gibteseinestorung.de#$#.modal-open { overflow:visible!important; }
 medicalxpress.com##header > .notice
 incideri.com##header > .warning
-httpstatus.io#$#.modal.is-active { display: none!important; }
-httpstatus.io#$#html.is-clipped { overflow: visible!important; }
 rtvdrenthe.nl,rtvnoord.nl##iframe#cmp-faktor-io
 imobiliare.ro#$#.modal-backdrop { display:none!important; }
 imobiliare.ro#$#.modal-open { overflow:visible!important; }
@@ -14360,7 +14365,9 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#$#.XPromoPopup { display: none!important; }
 reddit.com#$#body.scroll-disabled { overflow: visible!important; position: static!important; }
 !
-fmradiofree.com,canli-radyo-dinle.com,emisoras-puertorico.com,emisorascolombianas.co,internetradio-horen.de,internetradio-schweiz.ch,mytuner-radio.com,radio-ao-vivo.com,radio-australia.org,radio-belgie.be,radio-canada-online.com,radio-danmark.dk,radio-dominicana.com,radio-ecuador.org,radio-en-ligne.fr,radio-en-vivo.mx,radio-espana.es,radio-hk.com,radio-hrvatska.com,radio-italiane.it,radio-korea.com,radio-maroc.org,radio-nederland.nl,radio-norge.org,radio-osterreich.at,radio-philippines.com,radio-polska.pl,radio-singapore.com,radio-south-africa.co.za,radio-suomi.com,radio-sveriges.se,radio-thai.com,radio-ua.com,radio-uk.co.uk,radioindia.in,radioindonesia.org,radiojapan.org,radiomalaysia.org,radios-argentinas.org,radios-bolivia.com,radios-chilenas.com,radios-guatemala.com,radios-online.pt,radios-uruguay.com,radios-venezuela.com,radiosdelperu.pe,radiotaiwan.tw##.app-ad-container-desktop
+wikihow.*###gatFollowAndroid
+wikihow.*###gatFollowApp
+radio-new-zealand.co.nz,fmradiofree.com,canli-radyo-dinle.com,emisoras-puertorico.com,emisorascolombianas.co,internetradio-horen.de,internetradio-schweiz.ch,mytuner-radio.com,radio-ao-vivo.com,radio-australia.org,radio-belgie.be,radio-canada-online.com,radio-danmark.dk,radio-dominicana.com,radio-ecuador.org,radio-en-ligne.fr,radio-en-vivo.mx,radio-espana.es,radio-hk.com,radio-hrvatska.com,radio-italiane.it,radio-korea.com,radio-maroc.org,radio-nederland.nl,radio-norge.org,radio-osterreich.at,radio-philippines.com,radio-polska.pl,radio-singapore.com,radio-south-africa.co.za,radio-suomi.com,radio-sveriges.se,radio-thai.com,radio-ua.com,radio-uk.co.uk,radioindia.in,radioindonesia.org,radiojapan.org,radiomalaysia.org,radios-argentinas.org,radios-bolivia.com,radios-chilenas.com,radios-guatemala.com,radios-online.pt,radios-uruguay.com,radios-venezuela.com,radiosdelperu.pe,radiotaiwan.tw##.app-ad-container-desktop
 zeenews.india.com###readinappbtn
 adme.ru#?#div[data-test-id="aside-bar"] > div[class]:has(> div[data-test-id="install-app"])
 promobit.com.br###custom_html-4
@@ -15493,6 +15500,7 @@ sodapdf.com##.be-tooltip
 ||cdn*.pdmntn.com^$third-party
 !
 ! Specific sites
+mercola.com##.modal-wrapper
 renault.ru##.k-popinInfo_background
 swyrl.tv##.tsch--popup-wrapper .tsch--newsletter-panel
 mengen.gen.tr###whatsappIcon
@@ -18587,7 +18595,6 @@ macwelt.de,pcwelt.de#%#AG_setConstant('firebase.messaging', 'noopFunc');
 ||spattepush.com^$third-party
 ||volanosier.com^$third-party
 ||webpushr.com^$third-party
-||js.pusher.com^$third-party
 ||push-free.com^$third-party
 ||pushprofit.net^$third-party
 ||magarimot.com^$third-party
@@ -19145,10 +19152,6 @@ aol.com#$#.banner-active { margin-top: 0 !important; }
 !
 ! Fixing the issues
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/63782
-@@||js.pusher.com/*/pusher.min.js$domain=tastebuds.fm
-! https://github.com/AdguardTeam/AdguardFilters/issues/63800
-@@||js.pusher.com/*/pusher.min.js$domain=bringatrailer.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63418
 @@||secure.esputnik.com^$domain=commited.tech
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59806
@@ -19437,8 +19440,8 @@ pleer.ru##.banners_content > table[style]:last-child
 pleer.ru##.mainblockid2_fullscreen > div.content_nopad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65043
 pilot.wp.pl##div[class^="sc-"] > a[href="/oferta/"][style="cursor: pointer; text-decoration: none;"]
-pilot.wp.pl#?#div[id^="Player"] > .npp-container + div:not([class]):not([id]):has(> div[class^="sc-"] > div[class*=" "] > button[data-gtm-button="guest_create_account_bar_fullscreen"])
-pilot.wp.pl#?##gatsby-focus-wrapper > div[style^="min-height:calc"] > div[class^="sc-"]:has(> div[class^="sc-"]:only-child > div[class*=" "]:only-child > button[data-gtm-button="guest_create_account_bar"])
+pilot.wp.pl#?#div[id^="Player"] > .npp-container + div:not([class]):not([id]):has(> div[class^="sc-"] > div[class*=" "] > a[data-gtm-button="guest_create_account_bar_fullscreen"])
+pilot.wp.pl#?##gatsby-focus-wrapper > div[style^="min-height:calc"] > div[class*=" "]:has(> div[class^="sc-"]:only-child > div[class*=" "]:only-child > a[data-gtm-button="guest_create_account_bar"])
 ! habr.com
 habr.com##.page-header__banner
 ! bongacams

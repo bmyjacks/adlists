@@ -213,6 +213,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !
 ||adblock-analytics.io^$third-party
 ||aukana.jp^$third-party
+||stat.tiara.
+||track.tiara.
 ||telemetry.api.wmcdp.io^$third-party
 ||logs.psm.wmcdp.io^$third-party
 ||doubleverify.com^$third-party
@@ -6657,6 +6659,7 @@ _tracking.php?b=
 ||ytn.co.kr/_comm/asplog.php
 ||cinematoday.jp^*/pageviews.min.js
 ||zenback.jp^*/tracking.html
+||t1.daumcdn.net/tiara/js/*/tiara.min.js
 ||cdn.retailrocket.ru/javascript/tracking.js
 ||matchid.adfox.yandex.ru/getcookie$domain=vseinstrumenti.ru
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
@@ -6668,7 +6671,6 @@ _tracking.php?b=
 ||fapster.xxx/player/stats.php
 ||media.r18.com/track/$document,popup
 ||app.retargetapp.com/pixel/pixel.min.js
-||discord.com/api/*/typing
 ||ssl.pstatic.net/static.gn/js/clickcrD.js
 ||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
 ||salesmanago.com/api/r.gif
@@ -7162,7 +7164,6 @@ continentseven.com##.gaoop
 ||yvesrocher.com.tr/images/js/tracking^
 ||yvesrocher.com.tr/images/__utm.gif^
 ||teenporn.ws/zaq/cron.php
-||lib.zumst.com/3rd/zum-logger
 ||news.nate.com/js/today/userAgent
 ||search1.daumcdn.net/search/statics/common/js/log
 ||map.naver.com/v5/api/searchAddressById
