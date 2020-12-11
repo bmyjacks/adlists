@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-10T18:12:29.895Z
+! Last modified: 2020-12-11T06:12:31.094Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -19163,7 +19163,6 @@ vkcdnservice.appspot.com^
 ||hotstats.gr^
 ||hqhrt.com^
 ||hurterkranach.net^
-||iadvize.com^
 ||ibillboard.com^
 ||ijncw.tv^
 ||ilk10.az^
@@ -19218,7 +19217,6 @@ vkcdnservice.appspot.com^
 ||api.segment.io^
 ||mletracker.com^
 ||mmetrix.mobi^
-||mmstat.com^
 ||mobtop.ru^
 ||monitor.phorm.com^
 ||moreusers.info^
@@ -26091,6 +26089,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||logly.co.jp^
 ||mediav.com^
 ||miaozhen.com^
+||mmstat.com^
 ||oadz.com^
 ||p0y.cn^
 ||phpstat.com^
@@ -26710,6 +26709,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d17m68fovwmgxj.cloudfront.net^
 ||da.netease.com^
 ||epro.sogou.com^
+||fourier.taobao.com^
 ||g.yccdn.com^
 ||haostat.qihoo.com^
 ||hyrankhit.meldingcloud.com^
@@ -33625,6 +33625,7 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||depnegj.cn^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -36719,7 +36720,8 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||toujing9.top^
+||ohthub.com.cn^
+||jtwlj.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -38408,6 +38410,7 @@ adbetnet.com
 ||toujing5.top^
 ||toujing7.top^
 ||toujing8.top^
+||toujing9.top^
 ||tozvhcq.cn^
 ||travel-together.cn^
 ||trhccn.cn^
