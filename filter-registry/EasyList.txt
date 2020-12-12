@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fyYL4Mz+1kti5xYLXzbcRw
-! Version: 202012120000
+! Checksum: 8/IFOOk817ucGdJu08Wr4A
+! Version: 202012120750
 ! Title: EasyList
-! Last modified: 12 Dec 2020 00:00 UTC
+! Last modified: 12 Dec 2020 07:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -611,7 +611,7 @@
 .com/a?size
 .com/ad.$~script,domain=~ad-tuning.de
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com
-.com/ad/$~third-party,domain=~blogs.technet.microsoft.com|~channel4.com|~cspace.com|~imgbox.com|~linkedin.com|~mediaplex.com|~namemc.com|~quiz-and-facts.com|~suicidegirlsfree.com
+.com/ad/$~script,~third-party,~xmlhttprequest,domain=~blogs.technet.microsoft.com|~channel4.com|~cspace.com|~imgbox.com|~linkedin.com|~mediaplex.com|~namemc.com|~quiz-and-facts.com|~suicidegirlsfree.com
 .com/ad1/
 .com/ad2/
 .com/ad6/
@@ -3018,7 +3018,6 @@
 /adservervastvideovizu.
 /adservice-
 /adservice.$domain=~adservice.io
-/adservice/*
 /adservices.
 /adservices/*
 /adservice|
@@ -5136,6 +5135,7 @@
 /html/ads/*
 /html/ads_
 /html/sponsors/*
+/html/zergnet-
 /htmlads/*
 /httpads/*
 /hubxt.*/js/eht.js?
@@ -10048,6 +10048,7 @@ _popunder+$popup
 ###ad-idreammedia
 ###ad-img
 ###ad-in-post
+###ad-in-post-0
 ###ad-index
 ###ad-inline-block
 ###ad-inner
@@ -16980,6 +16981,7 @@ _popunder+$popup
 ###takeover-ad
 ###takeover_ad
 ###takeoverad
+###tall-sidebar-ad
 ###targetWeeklyAd
 ###targetWeeklyAdLogo
 ###targeted-ads
@@ -18419,6 +18421,7 @@ _popunder+$popup
 ##.ad-b
 ##.ad-b1
 ##.ad-background
+##.ad-background-container
 ##.ad-background-intra-body
 ##.ad-banner
 ##.ad-banner-300
@@ -24285,6 +24288,8 @@ _popunder+$popup
 ##.dfrads
 ##.dhAdContainer14
 ##.dianomi-ad
+##.dianomiScriptContainer
+##.dianomi_context
 ##.diggable-ad-sponsored
 ##.dikr-responsive-ads-slot
 ##.discourse-google-dfp
@@ -27955,6 +27960,7 @@ _popunder+$popup
 ##.sidebar-ad-wrap
 ##.sidebar-ad-wrapper
 ##.sidebar-adbox
+##.sidebar-add-1
 ##.sidebar-ads
 ##.sidebar-ads-block
 ##.sidebar-ads-no-padding
@@ -30377,6 +30383,7 @@ _popunder+$popup
 ##div[class^="ads-partner-"]
 ##div[class^="adsbutt_wrapper_"]
 ##div[class^="advertisement-desktop"]
+##div[class^="articleAdUnitMPU_"]
 ##div[class^="awpcp-random-ads"]
 ##div[class^="block-openx-"]
 ##div[class^="hp-ad-rect-"]
@@ -54823,6 +54830,8 @@ nintendolife.com###NL_MPU_1
 mail.aol.com###SidePanel
 daringfireball.net###SidebarMartini
 imcdb.org###SiteLifeSupport
+thecourier.com###TCFO_Middle2_300x250
+thecourier.com###TCFO_Middle_300x250
 road.cc###Top-Billboard
 eetimes.com###WelcomeAdContainer
 eetimes.com###WelcomeAdContainer + #overlay
@@ -56679,7 +56688,7 @@ experienceproject.com##.adn
 chat-avenue.com##.adnoyer_log
 flightglobal.com##.adp
 iamwire.com##.adr
-1sale.com,7billionworld.com,9jaflaver.com,abajournal.com,achieveronline.co.za,altavista.com,arcadeprehacks.com,asbarez.com,bbqonline.co.za,birdforum.net,bluechipjournal.co.za,boodigo.com,browardpalmbeach.com,canstarblue.co.nz,chordfrenzy.com,citypages.com,climatechangenews.com,coinad.com,cuzoogle.com,cyclingweekly.co.uk,dallasobserver.com,disconnect.me,domainnamenews.com,eco-business.com,energyforecastonline.co.za,energylivenews.com,eventcinemas.co.nz,exploreonline.co.za,fashionnetwork.com,flashx.tv,focustaiwan.tw,foxbusiness.com,freetvall.com,friendster.com,fstoppers.com,ftadviser.com,furaffinity.net,gentoo.org,geo.tv,ghananation.com,gmanetwork.com,gogoanime.tv,goodthingsguy.com,govtrack.us,gramfeed.com,gyazo.com,harvestsa.co.za,hispanicbusiness.com,houstonpress.com,html5test.com,hurricanevanessa.com,i-dressup.com,ichan.net,idiva.com,iheart.com,ilovetypography.com,indiatimes.com,infozambia.com,jooble.org,laptopmag.com,laweekly.com,leadershipinsport.co.za,leadershiponline.co.za,leadersinwellness.co.za,lovemyanime.net,manga-download.org,maps.google.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,miaminewtimes.com,mini-ielts.com,miningprospectus.co.za,mmajunkie.com,mugshots.com,myfitnesspal.com,mypaper.sg,nativeplanet.com,nbc.na,nbcnews.com,news.nom.co,nsfwyoutube.com,opportunityonline.co.za,osn.com,panorama.am,pastie.org,phoenixnewtimes.com,playboy.com,pokernews.com,previously.tv,radionomy.com,radiotoday.com.au,reason.com,roadaheadonline.co.za,russia-insider.com,ryanseacrest.com,satdl.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,shipyearonline.co.za,shopbot.ca,stars-portraits.com,stcatharinesstandard.ca,straitstimes.com,strawpoll.me,tass.ru,tcm.com,tech2.com,tehrantimes.com,thecatholicuniverse.com,thedailysheeple.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,thepeterboroughexaminer.com,theprojectmanager.co.za,thestar.com.my,thevoicebw.com,tjpnews.com,today.com,turner.com,twogag.com,ultimate-guitar.com,viamichelin.co.uk,viamichelin.com,viamichelin.ie,vidstreaming.io,villagevoice.com,wallpaper.com,wayfm.com,wdet.org,westword.com,womanandhome.com,wtvz.net,youthedesigner.com,yuku.com##.ads
+1sale.com,7billionworld.com,9jaflaver.com,abajournal.com,achieveronline.co.za,altavista.com,arcadeprehacks.com,asbarez.com,bbqonline.co.za,birdforum.net,bluechipjournal.co.za,boodigo.com,browardpalmbeach.com,canstarblue.co.nz,chordfrenzy.com,citypages.com,climatechangenews.com,coinad.com,cuzoogle.com,cyclingweekly.co.uk,dallasobserver.com,disconnect.me,domainnamenews.com,eco-business.com,energyforecastonline.co.za,energylivenews.com,eventcinemas.co.nz,exploreonline.co.za,fashionnetwork.com,flashx.tv,focustaiwan.tw,foxbusiness.com,freetvall.com,friendster.com,fstoppers.com,ftadviser.com,furaffinity.net,gentoo.org,geo.tv,ghananation.com,gmanetwork.com,gogoanime.tv,goodthingsguy.com,govtrack.us,gramfeed.com,gyazo.com,harvestsa.co.za,hispanicbusiness.com,houstonpress.com,html5test.com,hurricanevanessa.com,i-dressup.com,ichan.net,idiva.com,iheart.com,ilovetypography.com,indiatimes.com,infozambia.com,jooble.org,laptopmag.com,laweekly.com,leadershipinsport.co.za,leadershiponline.co.za,leadersinwellness.co.za,lovemyanime.net,manga-download.org,maps.google.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,miaminewtimes.com,mini-ielts.com,miningprospectus.co.za,mmajunkie.com,mugshots.com,myfitnesspal.com,mypaper.sg,nativeplanet.com,nbc.na,nbcnews.com,news.nom.co,nsfwyoutube.com,opportunityonline.co.za,osn.com,panorama.am,pastie.org,pbswisconsin.org,phoenixnewtimes.com,playboy.com,pokernews.com,previously.tv,radionomy.com,radiotoday.com.au,reason.com,roadaheadonline.co.za,russia-insider.com,ryanseacrest.com,satdl.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,shipyearonline.co.za,shopbot.ca,stars-portraits.com,stcatharinesstandard.ca,straitstimes.com,strawpoll.me,tass.ru,tcm.com,tech2.com,tehrantimes.com,thecatholicuniverse.com,thedailysheeple.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,thepeterboroughexaminer.com,theprojectmanager.co.za,thestar.com.my,thevoicebw.com,tjpnews.com,today.com,turner.com,twogag.com,ultimate-guitar.com,viamichelin.co.uk,viamichelin.com,viamichelin.ie,vidstreaming.io,villagevoice.com,wallpaper.com,wayfm.com,wdet.org,westword.com,womanandhome.com,wtvz.net,youthedesigner.com,yuku.com##.ads
 playboy.com##.ads-column > h2
 dailywot.com,girlgames4u.com,roblox.com,spotify.com,xing.com##.ads-container
 gantdaily.com##.ads-wrapper
@@ -57012,6 +57021,7 @@ slate.com##.bizbox_promo
 scienceworldreport.com##.bk-sidebn
 arsenalnews.co.uk##.bkmrk_pst_flt
 nowsci.com##.black_overlay
+wearedore.com##.bloc-pub
 rpgsite.net##.block
 interest.co.nz##.block--dfp-setup
 autocar.co.uk##.block-autocar-ads-mpu-flexible1
@@ -58180,7 +58190,7 @@ dnainfo.com##.promomerchant_block
 afullcup.com##.promos
 penny-arcade.com##.promos-horizontal
 hongkiat.com##.promote
-search.genieo.com,search.installmac.com##.promoted
+investors.com,search.genieo.com,search.installmac.com##.promoted
 twitter.com##.promoted-account
 andoveradvertiser.co.uk,asianimage.co.uk,autoexchange.co.uk,banburycake.co.uk,barryanddistrictnews.co.uk,basildonstandard.co.uk,basingstokegazette.co.uk,bicesteradvertiser.net,borehamwoodtimes.co.uk,bournemouthecho.co.uk,braintreeandwithamtimes.co.uk,brentwoodlive.co.uk,bridgwatermercury.co.uk,bridportnews.co.uk,bromsgroveadvertiser.co.uk,bucksfreepress.co.uk,burnhamandhighbridgeweeklynews.co.uk,burytimes.co.uk,campaignseries.co.uk,chardandilminsternews.co.uk,chelmsfordweeklynews.co.uk,chesterlestreetadvertiser.co.uk,chorleycitizen.co.uk,clactonandfrintongazette.co.uk,cotswoldessence.co.uk,cotswoldjournal.co.uk,cravenherald.co.uk,creweguardian.co.uk,dailyecho.co.uk,darlingtonandstocktontimes.co.uk,dorsetecho.co.uk,droitwichadvertiser.co.uk,dudleynews.co.uk,ealingtimes.co.uk,echo-news.co.uk,enfieldindependent.co.uk,eppingforestguardian.co.uk,eveshamjournal.co.uk,falmouthpacket.co.uk,freepressseries.co.uk,gazette-news.co.uk,gazetteherald.co.uk,gazetteseries.co.uk,guardian-series.co.uk,halesowennews.co.uk,halsteadgazette.co.uk,hampshirechronicle.co.uk,harrowtimes.co.uk,harwichandmanningtreestandard.co.uk,heraldseries.co.uk,herefordtimes.com,hillingdontimes.co.uk,ilkleygazette.co.uk,keighleynews.co.uk,kidderminstershuttle.co.uk,knutsfordguardian.co.uk,lancashiretelegraph.co.uk,ledburyreporter.co.uk,leighjournal.co.uk,ludlowadvertiser.co.uk,maldonandburnhamstandard.co.uk,malverngazette.co.uk,messengernewspapers.co.uk,milfordmercury.co.uk,newsshopper.co.uk,northwichguardian.co.uk,oxfordmail.co.uk,penarthtimes.co.uk,prestwichandwhitefieldguide.co.uk,redditchadvertiser.co.uk,redhillandreigatelife.co.uk,richmondandtwickenhamtimes.co.uk,romseyadvertiser.co.uk,runcornandwidnesworld.co.uk,salisburyjournal.co.uk,somersetcountygazette.co.uk,southendstandard.co.uk,southwalesargus.co.uk,southwalesguardian.co.uk,southwestfarmer.co.uk,stalbansreview.co.uk,sthelensstar.co.uk,stourbridgenews.co.uk,surreycomet.co.uk,suttonguardian.co.uk,swindonadvertiser.co.uk,tewkesburyadmag.co.uk,theargus.co.uk,theboltonnews.co.uk,thenational.scot,thenorthernecho.co.uk,thescottishfarmer.co.uk,thetelegraphandargus.co.uk,thetottenhamindependent.co.uk,thewestmorlandgazette.co.uk,thisisthewestcountry.co.uk,thurrockgazette.co.uk,times-series.co.uk,wandsworthguardian.co.uk,warringtonguardian.co.uk,watfordobserver.co.uk,westerntelegraph.co.uk,wharfedaleobserver.co.uk,wiltsglosstandard.co.uk,wiltshiretimes.co.uk,wimbledonguardian.co.uk,wirralglobe.co.uk,witneygazette.co.uk,worcesternews.co.uk,yeovilexpress.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk##.promoted-block
 twitter.com##.promoted-trend
@@ -58401,6 +58411,7 @@ ecommercetimes.com##.slink-title
 inbox.com##.slinks
 gamesradar.com,techradar.com##.slotify-contents
 mnn.com##.slug
+bikeexif.com##.small
 pixelatedgeek.com##.small-leaderboard
 ten.com.au##.small-listing.small-listing4.google
 dealsonwheels.com##.small-text

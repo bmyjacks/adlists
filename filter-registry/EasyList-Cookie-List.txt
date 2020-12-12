@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cvlw/4QNcNHXLpBwAwTH/w
-! Version: 202012120000
+! Checksum: vlyGm5nyUTyttyE+5WvrbA
+! Version: 202012120750
 ! Title: EasyList Cookie List
-! Last modified: 12 Dec 2020 00:00 UTC
+! Last modified: 12 Dec 2020 07:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5404,6 +5404,7 @@ _site_cookie_
 ###hbCookieConsentDialog
 ###hc_evt_tooltip_modal
 ###hc_hugs_cookie
+###hd-cookie-notice
 ###hdg-cookie-accept
 ###head-bar-cookie-info
 ###headCookieAccept
@@ -13246,6 +13247,7 @@ phoenixcontact.com###infoBoxFrame
 apgsecuritysolutions.co.uk###infobar
 tribe2020.eu###infobox3
 agcas.org.uk,reliancebankltd.com###informationbar
+investors.com###investors-policy-terms-consent-dialog
 gmatclub.com###invisiblediv
 itv.com###itv-glob-cookie-policy-holder
 classic-trader.com###jGrowl
@@ -13650,7 +13652,7 @@ osa.org##.maintenance-popup
 mbc.net##.mbc-policy
 fifa.com##.mdl-overlay
 opengapps.org##.mdl-snackbar
-adobe.com,merixstudio.com,sapabuildingsystem.com,timesofisrael.com##.message
+adobe.com,investors.com,merixstudio.com,sapabuildingsystem.com,timesofisrael.com##.message
 heedbook.com##.message-alert
 gametwist.com##.message__container
 wandermap.net##.messages
