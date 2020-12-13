@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WeW0QKzShgwcVsWwFlzelQ
-! Version: 202012121550
+! Checksum: AZ3/vytcV8KewDkvnYdgmQ
+! Version: 202012122350
 ! Title: EasyList
-! Last modified: 12 Dec 2020 15:50 UTC
+! Last modified: 12 Dec 2020 23:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -21284,6 +21284,7 @@ _popunder+$popup
 ##.ads_720x90
 ##.ads_728
 ##.ads_728x90
+##.ads_Header
 ##.ads__header
 ##.ads__horizontal
 ##.ads__hyperleaderboard--hyperleaderboard
@@ -37160,6 +37161,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||medyagundem.com^
 ||meehaina.net^
 ||meepwrite.com^
+||meetingking.club^
 ||mega-fla.com^
 ||megaudent.xyz^
 ||megmeallab.com^
@@ -48427,6 +48429,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mediasama.com^$popup
 ||mediaseeding.com^$popup,third-party
 ||mediaserf.net^$popup
+||meetingking.club^$popup
 ||meetsexygirls.org^$popup,third-party
 ||megapopads.com^$popup
 ||megdexchange.com^$popup
@@ -60510,6 +60513,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||abril.com.br^$generichide
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp
 @@||ad.atown.jp/adserver/$domain=ad.atown.jp
+@@||ads.viralize.tv/player/$third-party,xmlhttprequest
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=esradio.libertaddigital.com
 @@||afreecatv.com/js/plugin/ad/preroll.js$script,domain=afreecatv.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=abola.pt|gamestar.de|los40.com

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Va3uhgUMq66P9gXtJoKGJA
-! Version: 202012121550
+! Checksum: r+WKXlhwMhpT7JEOpG8stQ
+! Version: 202012122350
 ! Title: EasyList Cookie List
-! Last modified: 12 Dec 2020 15:50 UTC
+! Last modified: 12 Dec 2020 23:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14,7 +14,6 @@
 !--------------------------General blocking rules-----------------------------!
 ! *** easylist:easylist_cookie/easylist_cookie_general_block.txt ***
 &accept_cookies=
-&gdpr_consent=
 -agree-cookies/
 -consent-banner-
 -consent-banner.
@@ -15874,8 +15873,8 @@ yoigo.com#@#thor-cookies
 @@||iccreabanca.it/SiteAssets/js/cookie_js/cookies.dyn.js
 @@||idg.se/idg-consent.min.js$script
 @@||internazionale.it/assets/js/cookies_gdpr.js?
-@@||iubenda.com/cookie_solution/$script,domain=iphoneitalia.com
-@@||iubenda.com^$script,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|ansa.it|capital.it|huffingtonpost.it|ilmessaggero.it|m2o.it|mediaset.it|r101.it|radiomontecarlo.net|rockol.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it|virginradio.it
+@@||iubenda.com/cookie_solution/$script,domain=iphoneitalia.com|quotidiano.net
+@@||iubenda.com^$script,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|ansa.it|capital.it|huffingtonpost.it|ilmessaggero.it|m2o.it|mediaset.it|quotidiano.net|r101.it|radiomontecarlo.net|rockol.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it|virginradio.it
 @@||kalaydo.de^*/cookie-consent.jsc.js$domain=kalaydo.de
 @@||kjellmann.no^*/cookielaw/css/cookielaw.css$stylesheet
 @@||meine.postbank.de/translations/*-cookieDisclaimer-*.json$~third-party,xmlhttprequest
