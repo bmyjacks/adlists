@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-14T00:14:23.297Z
+! Last modified: 2020-12-14T12:13:26.285Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -19,6 +19,10 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||armlyemoan.com^
+||midpopedge.com^
+||yqorexok.xyz^
+||evasiondemandedlearning.com^
 ||promos.camsoda.com^
 ||talazywho.pro^
 ||pollscoopiffy.com^
@@ -9292,14 +9296,12 @@ vkcdnservice.appspot.com^
 ||prospergenerosityperformance.com^
 ||prosperousevictcrucial.com^
 ||prosumsit.com^
-||protectcrev.com^
 ||protectdedication.com^
 ||protection-booster.club^
 ||protection-cleaner.club^
 ||protection-device.club^
 ||protection-fix.club^
 ||protection-fixer.club^
-||protectsubrev.com^
 ||protrudediscussion.com^
 ||proveexclusionaye.com^
 ||provembe.club^
@@ -9884,7 +9886,6 @@ vkcdnservice.appspot.com^
 ||revhpdxqul.com^
 ||reviourffg.club^
 ||revolutelyplan.info^
-||revprotect.com^
 ||revqwsjtu.com^
 ||revrtb.com^
 ||rewhichesa.info^
@@ -16281,7 +16282,6 @@ vkcdnservice.appspot.com^
 ||rev-stripe.com^
 ||rev2pub.com^
 ||rev4rtb.com^
-||revcatch.com^
 ||revdepo.com^
 ||revenue.com^
 ||revenuegiants.com^
@@ -20290,6 +20290,8 @@ t.yesware.com
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||logger.cbs.co.kr^
+||gather.donga.com^
 ||gak.webtoons.com^
 ||s.news.naver.com^
 ||jtrackern.joins.com^
@@ -23965,6 +23967,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zroitracker.com^
 ||ztsrv.com^
 ||zuzab.com^
+! revprotect
+||pphwrevr.com^
+||protectcrev.com^
+||protectsubrev.com^
+||revcatch.com^
+||revprotect.com^
 ! Marketo email tracking domains https://github.com/easylist/easylist/issues/6475
 ||mkto-*.com^
 ! Notification servers (Tracking/Fingerprinting users)
@@ -33646,6 +33654,7 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||bolimen.top^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -35971,6 +35980,7 @@ adbetnet.com
 ||zhimg.com^*adx
 ||zt2088.com^
 ||ztyumn.ifeng.com^
+||cdn.imvkan.com^
 @@||95599.cn^*ad
 @@||abchina.com^*ad
 @@||ad.10010.com^
@@ -36744,6 +36754,8 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
+||qkykxrm.cn^
+||kangerlu.com^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^

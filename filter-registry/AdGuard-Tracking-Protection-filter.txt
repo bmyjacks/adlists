@@ -211,6 +211,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||revcatch.com^$third-party
+||revprotect.com^$third-party
+||protectsubrev.com^$third-party
+||protectcrev.com^$third-party
 ||s.srvsynd.com^$third-party
 ||track.customer.io^
 ||lcs.loginfra.com^
@@ -4655,6 +4659,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||logger.cbs.co.kr^
+||gather.donga.com^
 ||gak.webtoons.com^
 ||s.news.naver.com^
 ||jtrackern.joins.com^
@@ -6620,6 +6626,7 @@ _tracking.php?b=
 ||livehdcams.com/api/events
 ||pornhublive.com/api/metrics
 ||pornhublive.com/api/events
+||nocutnews.co.kr/js/logger*.htm
 ||api2.branch.io^$app=com.newsdistill.mobile
 ||justswallows.com/lib/ajax/track.php
 ||science.ytn.co.kr/_comm/clog.php
@@ -10029,8 +10036,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||dev.visualwebsiteoptimizer.com/j.php
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27154
 @@||googletagmanager.com/gtm.js$domain=packtpub.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/26761
-@@||google-analytics.com/analytics.js$domain=flaticon.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26330
 @@||log.mmstat.com/eg.js$domain=youku.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23435

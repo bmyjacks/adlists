@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gDGCF9Tx7OlhMP538N6inQ
-! Version: 202012140750
+! Checksum: ESVug3hDK+BvqMr4GSqmmA
+! Version: 202012141551
 ! Title: EasyList
-! Last modified: 14 Dec 2020 07:50 UTC
+! Last modified: 14 Dec 2020 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -29472,6 +29472,7 @@ _popunder+$popup
 ##.widget_cevo_contentad
 ##.widget_codeneric_ad_widget
 ##.widget_com_ad_widget
+##.widget_core_ads_desk
 ##.widget_cpxadvert_widgets
 ##.widget_customad_widget
 ##.widget_customadvertising
@@ -60600,6 +60601,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||netmile.co.jp/ad/images/$image
 @@||news24.jp/ad-navi/$domain=search.news24.jp
 @@||nintendo.co.jp/ring/assets_top/img/adv/$~third-party
+@@||nnmclub.to/forum/misc/html/advert.html$~third-party
 @@||ntv.co.jp/ad-navi/$domain=search.news24.jp
 @@||player-feedback.p7s1video.net^$script,domain=kabeleins.de|sat1.de
 @@||player.vodgc.net^*/videojs-contrib-ads/dist/videojs.ads.min.js$script
