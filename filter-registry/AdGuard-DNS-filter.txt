@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-14T12:13:26.285Z
+! Last modified: 2020-12-14T22:33:25.206Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -19,6 +19,9 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||omisingcur.fun^
+||hyperoi.com^
+||adstudio.cloud^
 ||armlyemoan.com^
 ||midpopedge.com^
 ||yqorexok.xyz^
@@ -1803,6 +1806,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||d2sbzwmcg5amr3.cloudfront.net^
 ||tontent.powv1deo.cc^
 ||cintent.streanplay.cc^
 ||my.shymilftube.com^
@@ -16284,6 +16288,7 @@ vkcdnservice.appspot.com^
 ||rev4rtb.com^
 ||revdepo.com^
 ||revenue.com^
+||revenueflex.com^
 ||revenuegiants.com^
 ||revenuehits.com^
 ||revenuemantra.com^
@@ -17830,6 +17835,8 @@ vkcdnservice.appspot.com^
 ||c3.myapkcdn.in^
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
+!
+||soundcloud-pax.pandora.com^
 ||promoted.sndcdn.com^
 ||adservice.tohsoft.com^
 ||delivery-cdn-cf.adswizz.com^
@@ -20290,6 +20297,8 @@ t.yesware.com
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||metrics.makemytrip.com^
+||tracking.shopback.com^
 ||logger.cbs.co.kr^
 ||gather.donga.com^
 ||gak.webtoons.com^
@@ -25076,6 +25085,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||events.air.tv^
 ||events.apester.com^
 ||events.attentivemobile.com^
+||events.audiate.me^
 ||events.brightline.tv^
 ||events.demoup.com^
 ||events.izooto.com^
@@ -27194,6 +27204,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||6jfvnf69jx.ru^
+||rmraos.com^
 ||u7kgr54jr7.ru^
 ||ymjfhg.com^
 ||minsk-news.info^
@@ -33654,6 +33666,7 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||mtav1.com^
 ||bolimen.top^
 ||00-gov.cn^
 ||0024aaaa.com^
@@ -36755,6 +36768,7 @@ adbetnet.com
 ||stunninglover.com^
 ||watakaw133.xyz^
 ||qkykxrm.cn^
+||xuenengyoujiaoyu.com^
 ||kangerlu.com^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
@@ -39554,6 +39568,8 @@ adbetnet.com
 ! Once you enable private DNS, Android 9 starts resolving random domains looking like
 ! `*-dnsotls-ds.metric.gstatic.com` (for instance, `a5a6380f-dnsotls-ds.metric.gstatic.com`).
 !
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/510
+@@||c.digikey.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/506
 @@||email.corp.skyeng.ru^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65326
