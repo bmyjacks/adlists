@@ -7776,6 +7776,9 @@ chip.de,preis.de,giga.de,motorcyclenews.com,finanzen.net,vorname.com,jezebel.com
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 !
 !
+||cdn.ziffstatic.com/sitenotice/evidon-sitenotice-bundle.js$domain=downdetector.ru
+hidebox.org###policy-window
+sshuebner.org###gdpr-cookie-consent-bar
 newhollandsp.ru##.policy_popup
 devismart.de##.cookie-popup-gdpr
 chess24.com##.dataConsentModal
@@ -7787,7 +7790,7 @@ att.com##.cookie-disclaimer-component
 online.sberbank.ru##._3K1DRIKw
 merckgroup.com##.new-cookie__modal
 oyuncubey.com##.noat-cookie__consent
-mobile.facebook.com##div[data-sigil$="m-layer-root"][class$="accelerate"]:has(> div[data-sigil$="m-overlay-layer"] a[data-cookiebanner="accept_button"])
+mobile.facebook.com#@#div[data-sigil$="m-layer-root"][class$="accelerate"]:has(> div[data-sigil$="m-overlay-layer"] a[data-cookiebanner="accept_button"])
 jetbrains.com##.alertContainer_c7b
 jetbrains.com###legal-user-acceptance-plugins
 pluto.tv##body > div[role="presentation"][style^="position: fixed; z-index:"]
@@ -14457,6 +14460,8 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#$#.XPromoPopup { display: none!important; }
 reddit.com#$#body.scroll-disabled { overflow: visible!important; position: static!important; }
 !
+m.economictimes.com###footer_banner
+m.economictimes.com###footer ~ a[href^="https://play.google.com/store/apps/details"][href*="&utm_campaign=floating_pwa"]
 investing.com##.mobile-apps
 myfin.by##div.app-top
 bankbazaar.com###mobileAppStickyFooter
@@ -15706,6 +15711,8 @@ wykop.pl##.closableContainerpopup_register
 reminder.media##.ReactModalPortal
 kaiser-elektro.de#%#//scriptlet('set-cookie', 'NewsletterPopup', '1')
 economictimes.indiatimes.com###_l2_id_1.sticky-rgt-btm
+economictimes.indiatimes.com##.oneTapCloseBg
+economictimes.indiatimes.com##.one_tap_info
 economictimes.indiatimes.com##.login-blocker
 page.auctions.yahoo.co.jp###prmdl
 iasabhiyan.com##.sfsi_outr_div
@@ -20741,6 +20748,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/70085
+onlinecoursebay.com#%#//scriptlet("adjust-setInterval", "countdown", "2000", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69823
 sundryfiles.com#%#//scriptlet("set-constant", "document.hidden", "false")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69816
