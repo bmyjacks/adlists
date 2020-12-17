@@ -3870,6 +3870,7 @@ dennikn.sk,ixbt.com,encuentra24.com,cuerpomente.com,clara.es,punchng.com,zacks.c
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=web2.0calc.com
 !
 !
+reallanguage.club##.no_advert
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=ping.eu
 icy-veins.com###premium_information
 icy-veins.com#%#//scriptlet('set-constant', 'icy_veins_blocked', 'false')
@@ -7776,6 +7777,8 @@ chip.de,preis.de,giga.de,motorcyclenews.com,finanzen.net,vorname.com,jezebel.com
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 !
 !
+rufllmi.online##.message-alert
+breezometer.com##.contact-us + .popup
 ||cdn.ziffstatic.com/sitenotice/evidon-sitenotice-bundle.js$domain=downdetector.ru
 hidebox.org###policy-window
 sshuebner.org###gdpr-cookie-consent-bar
@@ -9312,7 +9315,7 @@ swp.de,moz.de###dsgvo_info
 pharmeconom.ru,mlg.ru##.bottom__cookie-block
 dehn.de#$#.dehn-cookieconsent-overlay { display: none!important;}
 dehn.de#$#.is-reveal-open { overflow: visible!important; }
-ilmessaggero.it,video.repubblica.it,virginradio.it,3bmeteo.com,multiplayer.it##body #iubenda-cs-banner
+arduino.cc,ilmessaggero.it,video.repubblica.it,virginradio.it,3bmeteo.com,multiplayer.it##body #iubenda-cs-banner
 rpcs3.net##.content-con-cookie
 1plus1.video#$#.cookies { display: none!important; }
 1plus1.video#$#.header { top: 0!important; }
@@ -18961,6 +18964,7 @@ macwelt.de,pcwelt.de#%#AG_setConstant('firebase.messaging', 'noopFunc');
 ||feedify.net^$third-party
 ||app.dengage.com^$third-party
 ||salesmanago.com^$third-party
+||leefmylife.info^$third-party
 !
 ||ria.ru/js/firebase/firebase-messaging.js
 ||gstatic.com/firebasejs/*/firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud
@@ -20557,6 +20561,8 @@ reports.adguard.com##.flash-wrapper
 !######### CSS tweaks #########
 !##############################
 !
+! sports.ru - gap under the main nav
+sports.ru#$#div[data-accordion-id="teaser"] { padding-top: 30px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69701
 onlinestreams.ru#$#.wrapper { margin-top: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69350
@@ -20748,6 +20754,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/70042
+ihomeworkhelper.com#%#//scriptlet("adjust-setTimeout", "timers", "1500", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70085
 onlinecoursebay.com#%#//scriptlet("adjust-setInterval", "countdown", "2000", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69823
@@ -21914,6 +21922,7 @@ networkguru.ru##.tbForm_CallMe
 ||cdn.gubagoo.io^$third-party
 ##gg-toolbar--specials
 !
+spliiit.com##.chat-in-live
 centr-hirurgii.ru,smclinic.ru###call-btn
 help.bc.game##.csh-footer-ask
 ||axiomplus.com.ua/static/*/Axiom_CallMe/js/call-me.js
