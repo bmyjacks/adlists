@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: MRgYxXFE6zUFN/Fm6cXQMw
-! Version: 202012181601
+! Checksum: AnSqtQcGQS99rpJMBJq0QQ
+! Version: 202012190000
 ! Title: EasyList
-! Last modified: 18 Dec 2020 16:01 UTC
+! Last modified: 19 Dec 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -273,7 +273,6 @@
 -adserver/
 -adskin.
 -adslots.
--adsmanager/$~font,~stylesheet
 -adsonar.
 -adspace.$domain=~metaverse-adspace.com
 -adspace_
@@ -728,7 +727,6 @@
 .net/ads_
 .net/adt?
 .net/adv/
-.net/affiliate/$domain=~marketcall.net
 .net/bnr/
 .net/flashads
 .net/gads/
@@ -2752,7 +2750,6 @@
 /ads160x600.
 /ads160x600px.
 /ads18.
-/ads2.
 /ads2/*
 /ads20.
 /ads2012/*
@@ -3494,7 +3491,6 @@
 /adverthorisontalfullwidth.
 /advertical.
 /advertise-$domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
-/advertise.$domain=~ads.microsoft.com|~advertise.apartments.com|~advertise.directoryofillustration.com|~advertise.isleofskye.com|~advertise.market|~advertise.medillsb.com|~advertise.movem.co.uk|~advertise.ru|~advertise.sobihamilton.ca|~advertise.sphamovingads.com|~advertise.welovebuzz.com|~bingads.microsoft.com|~engineering.com
 /advertise/*$domain=~legl.co
 /advertise125x125.
 /advertise_
@@ -3524,7 +3520,7 @@
 /advertises/*
 /advertisewithus_
 /advertising-$image,script,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
-/advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
+/advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.greunenberg.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
 /advertising/banner_
 /advertising/traffic-
 /advertising02.
@@ -3642,7 +3638,6 @@
 /adwizard_
 /adwolf.
 /adword.
-/adwords.$domain=~adwords.dominatus.si|~ppc.ee|~radom.pl
 /adwords/*$domain=~google.com
 /adwordstracking.js
 /adWorking/*
@@ -5432,6 +5427,7 @@
 /jsc/ads.
 /jsfiles/ads/*
 /json/ad/*
+/json/ads/*
 /jsonad/*
 /jsplayerads-
 /jspopunder.
@@ -18593,6 +18589,7 @@ _popunder+$popup
 ##.ad-container-top
 ##.ad-container-topad
 ##.ad-container-wrapper
+##.ad-container.component
 ##.ad-container1
 ##.ad-container__ad-slot
 ##.ad-container_row
@@ -19474,7 +19471,6 @@ _popunder+$popup
 ##.adAuto
 ##.adBGcolor
 ##.adBan
-##.adBanner
 ##.adBanner300x250
 ##.adBanner728x90
 ##.adBannerTyp1
@@ -23987,6 +23983,8 @@ _popunder+$popup
 ##.complex-ad
 ##.complex-ad-wrapper
 ##.component--google-ad-manager
+##.component-ad-leiki
+##.component-adincontent
 ##.component-header-sticky-ad
 ##.component-sponsored-links
 ##.component__ad__ad-box
