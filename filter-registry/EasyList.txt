@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZsvXOq9mq+LRZ9EW+Y66vg
-! Version: 202012191600
+! Checksum: joPnTpBUKc2oEW8yc++gvQ
+! Version: 202012192350
 ! Title: EasyList
-! Last modified: 19 Dec 2020 16:00 UTC
+! Last modified: 19 Dec 2020 23:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25163,6 +25163,7 @@ _popunder+$popup
 ##.gridAdRow
 ##.gridSideAd
 ##.gridad
+##.gridlove-ad-below-header
 ##.gridstream_ad
 ##.group-ad-leaderboard
 ##.group-google-ads
@@ -33578,6 +33579,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cqvkwpulpwfudg.com^
 ||cqyirsc.com^
 ||cr-brands.net^
+||cragbrasyeps.com^
 ||craqueteriez.xyz^
 ||creasureeffe.club^
 ||createssque.club^
@@ -36354,6 +36356,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||jpllzuuvku.com^
 ||jpmpvhelfeg.com^
 ||jpmyudcnpgl.com^
+||jppbyrkkgpgo.com/vmo.js
 ||jprddctf.com^
 ||jpvmwnnwuzo.com^
 ||jpyoikrzrjcap.com^
@@ -38673,6 +38676,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pjszvzkfib.com^
 ||pjwdbgkrhb.com^
 ||pjx1ky4xhwip.com^
+||pkgebysm.com^
 ||pkhhyool.com^
 ||pkirdfqe.com^
 ||pkitdifnkz.com^
@@ -40097,6 +40101,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||smallentpation.pro^
 ||smart2cnjuh34jb.com^
 ||smarttopchain.nl^
+||smashedwhichever.com^
 ||smashseek.com^
 ||smazvhjn.com^
 ||smenqskfmpfxnb.bid^
@@ -41339,6 +41344,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||vkznlzueuuebb.com^
 ||vlbtjqngtvuqo.com^
 ||vletnguozhvm.com^
+||vlitag.com^
 ||vllwccvw.com^
 ||vlnaseyii.com^
 ||vlnwqiloadoqt.com^
@@ -59103,7 +59109,7 @@ twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted Tweet|Gesponserter Twee
 elizium.nu##ul[style="padding: 0; width: 100%; margin: 0; list-style: none;"]
 xing.com#?#div[class^="styles-grid-col-"]:-abp-has(div[class^="AdsCard-"])
 xing.com#?#div[class^="styles-grid-col-"]:-abp-has(span[class^="MediaObject-MediaObject-meta-"]:-abp-contains(/Gesponsert|Sponsored|Patrocinado|Sponsorisé|Sponsorizzato/))
-youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
+!youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
 ! Google https://forums.lanik.us/viewtopic.php?f=62&t=45153
 ##.section-subheader > .section-hotel-prices-header
 ! yahoo
