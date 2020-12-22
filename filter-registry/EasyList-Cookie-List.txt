@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bfOnQi/aC7V7cUpunOlvOg
-! Version: 202012211600
+! Checksum: t78kExsJ0s++h5mWxEFa0A
+! Version: 202012220000
 ! Title: EasyList Cookie List
-! Last modified: 21 Dec 2020 16:00 UTC
+! Last modified: 22 Dec 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15863,6 +15863,7 @@ yoigo.com#@#thor-cookies
 ! International
 @@.php?f=js/*.js,js$script,domain=undicom.pl
 @@||4ka.sk/js/cookiebar.min.js
+@@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
 @@||amigosmuseoreinasofia.org/assets/js/cookiecuttr/jquery.cookie.js
 @@||bccmilano.it/framework/js/cookies.dyn.js
 @@||candidat.pole-emploi.fr^*/modules/jquery-eu-cookie-law-popup.js$script
