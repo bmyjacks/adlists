@@ -211,6 +211,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||herald.loginside.co.kr^
+||110.93.143.144^$third-party
 ||log002.commutil.kr^
 ||analy1.dtnnetwork.be^$third-party
 ||polarbyte.com^$third-party
@@ -4662,6 +4664,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||log.ohmynews.com^
 ||analytics2.tvreport.co.kr^
 ||counter.adguard.com^
 ||l.www.naver.com^
@@ -6630,9 +6633,16 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||res.heraldm.com/js/acecounter_*.js
+||res.heraldm.com/js/logcollectscript_*.js
+||app.revhunter.tech/px^
+||cdn.cohesionapps.com^$domain=gamespot.com
 ||m-economynews.com/weblog/gtracker
 ||cgeimage.commutil.kr/jscomm/*/logger.js
 ||www002.commutil.kr/adlog/adlog_arrviewset.php
+||dtory.ebs.co.kr/wlo^
+||home.ebs.co.kr/ebsnews/logProce/logAjax
+||home.ebs.co.kr/common/js/wlo.js
 ||newzit.com/setABframe.html
 ||seoul.co.kr/weblog/
 ||pb.m.naver.com/abpblock
