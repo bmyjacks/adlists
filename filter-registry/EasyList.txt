@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PwGnU/Pdj+Rls767ugjlxA
-! Version: 202012230001
+! Checksum: 4F3pD/0s/nrxf2OWHgQ0mg
+! Version: 202012230800
 ! Title: EasyList
-! Last modified: 23 Dec 2020 00:01 UTC
+! Last modified: 23 Dec 2020 08:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25901,6 +25901,7 @@ _popunder+$popup
 ##.kd_ads_block
 ##.kdads-empty
 ##.kdads-link
+##.keen_ad
 ##.keyword-ads-block
 ##.kip-advertisement
 ##.kip-banner-ad
@@ -27475,6 +27476,8 @@ _popunder+$popup
 ##.resourceImagetAd
 ##.respAds
 ##.responsive-ad
+##.responsive-ad-outbrain
+##.responsive-ad-wrapper
 ##.responsive-ads
 ##.responsiveAdHiding
 ##.responsiveAdsense
@@ -28974,6 +28977,7 @@ _popunder+$popup
 ##.top-sidebar-adbox
 ##.top-sponsor-img-border
 ##.top-sponsored-header
+##.top-story-ad
 ##.top-story__ads
 ##.top-topics__ad
 ##.top-treehouse-ad
@@ -35300,6 +35304,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gjrswtzjn.com^
 ||gjrzirxxkbw.com^
 ||gjslebmbiawh.com^
+||gjw5qbyn93b8.com^
 ||gk8j5woqk26f.com^
 ||gkgojxjucutvnt.com^
 ||gkpsrxgdbco.com^
@@ -35349,6 +35354,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gnamwmixa.com^
 ||gnatgrocery.com^
 ||gnativestreesaga.site^
+||gnatpointed.com^
 ||gneyjsdv.com^
 ||gnorityari.club^
 ||gnpecuwegllca.com^
@@ -50627,6 +50633,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d1aqvw7cn4ydzo.cloudfront.net^
 ||d1crt12zco2cvf.cloudfront.net^
 ||d1ebha2k07asm5.cloudfront.net^
+||d1f05vr3sjsuy7.cloudfront.net^
 ||d1il9t8pu4dsoj.cloudfront.net^
 ||d1lxz4vuik53pc.cloudfront.net^*/inner-host.min.js
 ||d1mbgf0ge24riu.cloudfront.net^
@@ -54375,6 +54382,8 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||maxjizztube.com/downloadfreemovies.php
 ||media1.realgfporn.com^$subdocument
 ||meendo.com/promos/
+||megapornx.com/bundle.js
+||megapornx.com/sw.js
 ||megatube.xxx/ai/
 ||milffox.com/ai/s/s/adhs.
 ||milffox.com/ai/s/s/js/ssu.
@@ -58202,6 +58211,7 @@ brila.net,cgmagonline.com,theyeshivaworld.com,thisisanfield.com##.td-banner-wrap
 nontondramaonline.co##.td-banner-wrap-fulles
 ticgn.com,wtf1.co.uk##.td-footer-wrapper
 startlr.com##.td-g-rec
+healthyceleb.com##.td-header-header-full
 androidcommunity.com##.td-header-rec-wrap
 5pillarsuk.com,sonorannews.com,thestonedsociety.com,weekendspecial.co.za##.td-header-sp-recs
 eastcountytoday.net##.td-ss-main-sidebar .textwidget a[target="_blank"] > img

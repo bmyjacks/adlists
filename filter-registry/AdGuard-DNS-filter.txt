@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-22T18:17:14.217Z
+! Last modified: 2020-12-23T06:05:48.514Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -5786,6 +5786,7 @@ vkcdnservice.appspot.com^
 ||gjrswtzjn.com^
 ||gjrzirxxkbw.com^
 ||gjslebmbiawh.com^
+||gjw5qbyn93b8.com^
 ||gk8j5woqk26f.com^
 ||gkgojxjucutvnt.com^
 ||gkpsrxgdbco.com^
@@ -5835,6 +5836,7 @@ vkcdnservice.appspot.com^
 ||gnamwmixa.com^
 ||gnatgrocery.com^
 ||gnativestreesaga.site^
+||gnatpointed.com^
 ||gneyjsdv.com^
 ||gnorityari.club^
 ||gnpecuwegllca.com^
@@ -21900,7 +21902,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bounceexchange.com^
 ||bouncepilot.com^
 ||bouncex.com^
-||branch.io^
 ||brandlock.io^
 ||brat-online.ro^
 ||brcdn.com^
@@ -23093,6 +23094,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||opbandit.com^
 ||openclick.com^
 ||openhit.com^
+||openlog.in^
 ||openstat.net^
 ||opentracker.net^
 ||openvenue.com^
@@ -23262,6 +23264,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||q-stats.nl^
 ||qbaka.net^
 ||qbop.com^
+||qflm.net^
 ||qlfsat.co.uk^
 ||qlitics.com^
 ||qlzn6i1l.com^
@@ -33832,8 +33835,6 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||jiuhui878.com^
-||cxgh.net^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -34317,6 +34318,7 @@ adbetnet.com
 ||cweclub.cn^
 ||cwmlm.com^
 ||cxfzw.cn^
+||cxgh.net^
 ||cy-block.cn^
 ||cyacc.com^
 ||cytcm.com^
@@ -34732,6 +34734,7 @@ adbetnet.com
 ||jinshenglong.cn^
 ||jinxiuzhilv.com^
 ||jisuoping.com^
+||jiuhui878.com^
 ||jiuku.cc^
 ||jiupinshan.cn^
 ||jjhaolin.com^
@@ -36944,10 +36947,9 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||wlaoc.cn^
-||xlgtblj.cn^
-||weidehuagong.com^
-||sakuraquant.com^
+||topvcbank.com^
+||5glyqw.com^
+||hntiantai.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -38472,6 +38474,7 @@ adbetnet.com
 ||s7ww2.cn^
 ||s9wp1.cn^
 ||sachbs.club^
+||sakuraquant.com^
 ||sanitwealth.com^
 ||sanxueshufa.cn^
 ||satrod.cn^
@@ -38775,6 +38778,7 @@ adbetnet.com
 ||weboser.com^
 ||wechatpu.com^
 ||wehoysp.cn^
+||weidehuagong.com^
 ||weiguanwang888.com^
 ||weiiii.com^
 ||weikefanli.com^
@@ -38802,6 +38806,7 @@ adbetnet.com
 ||wkjhd.com^
 ||wksrx.cn^
 ||wl963.com^
+||wlaoc.cn^
 ||wlbqczk.vip^
 ||wlshotel.cn^
 ||wnsoth.cn^
@@ -38876,6 +38881,7 @@ adbetnet.com
 ||xk0x.cn^
 ||xkanf.com^
 ||xkqpco.com^
+||xlgtblj.cn^
 ||xlhm88.cn^
 ||xm223.cn^
 ||xmcxz.com^
