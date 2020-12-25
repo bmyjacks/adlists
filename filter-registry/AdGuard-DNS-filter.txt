@@ -4,11 +4,10 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2020-12-24T18:22:56.186Z
+! Last modified: 2020-12-25T06:03:14.978Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
-||trawahdh2hd8nbvy09.com^
 ||gramscien.xyz^
 ||bidio.pl^
 ||codeopensource.online^
@@ -11212,6 +11211,7 @@ vkcdnservice.appspot.com^
 ||tratefirearly.top^
 ||traumaticnoiseless.com^
 ||travangeind.club^
+||trawahdh2hd8nbvy09.com^
 ||trblocked.com^
 ||trc85.com^
 ||trccmpnlnk.com^
@@ -23041,6 +23041,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ngmco.net^
 ||niftymaps.com^
 ||nik.io^
+||nitropay.com^
 ||noibu.com^
 ||noowho.com^
 ||nordicresearch.com^
@@ -33846,7 +33847,6 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||govhunan.cn^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -34535,6 +34535,7 @@ adbetnet.com
 ||gouweida.cn^
 ||gouzhibao.cn^
 ||govgift.com^
+||govhunan.cn^
 ||gowin01.com^
 ||gqswg.com^
 ||greenbetterkids.com^
@@ -36959,10 +36960,9 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||hyzhongchuang.com^
-||mg17i.cn^
-||zgdfvih.cn^
-||sogov587.top^
+||sasoo.cn^
+||shanprint.com^
+||xccpro.vip^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -37879,6 +37879,7 @@ adbetnet.com
 ||hyuanprint.com^
 ||hyxca.top^
 ||hyyazhaji.com^
+||hyzhongchuang.com^
 ||hzht666.com^
 ||hzqzxf.com^
 ||hzsrjs.com^
@@ -38191,6 +38192,7 @@ adbetnet.com
 ||meooe.com^
 ||meoqbhw.cn^
 ||meuevcj.cn^
+||mg17i.cn^
 ||mgsue.cn^
 ||mgzs.cdn.bcebos.com^
 ||mhdnspro.com^
@@ -38575,6 +38577,7 @@ adbetnet.com
 ||snuoen.com^
 ||soared.cn^
 ||sobolong.com^
+||sogov587.top^
 ||sokoyo-fq.com^
 ||sonsang.cn^
 ||sosjyx.com^
@@ -39077,6 +39080,7 @@ adbetnet.com
 ||zfood029.com^
 ||zfrgkm.cn^
 ||zgbsny.com^
+||zgdfvih.cn^
 ||zgdtro.com^
 ||zgfszs.com^
 ||zgjjkk.com^
@@ -39124,6 +39128,7 @@ adbetnet.com
 ||zlfhe8.cn^
 ||zmlfk.com^
 ||zmyuer.com^
+||zoepb.cn^
 ||zopeynxv.top^
 ||zougg.com^
 ||zp0737.com^
