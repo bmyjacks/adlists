@@ -775,7 +775,8 @@ pornerbros.com#?#.row > div:has(> div > img[alt="Please Disable Adblock"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25784
 download.komputerswiat.pl###dl_breaking_news
 ! nnm-club - NY balls
-||assets-ssl.nnm*/forum/new_year/$domain=nnmclub.ro|nnm-club.t0r.xyz|nnm-club-me.appspot.com|nnm-club.lib|nnm-club.me|nnmclub.to
+||nnmclub.ch/forum/new_year/style2019e.css
+||nnmclub.ch/forum/new_year/newyear2019g.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25810
 deccoria.pl##.dc-layout__nav-bar
 ! healthline.com #25912 -- hiding all annoying popups
@@ -1711,6 +1712,7 @@ jalopnik.com,gizmodo.com,lifehacker.com##.js_modal_exit_intent
 rockstargames.su###wpdiscuz_hidden_secondary_form
 rockstargames.su##.zenlink
 parasut.com##.signup-newsletter
+1cloud.ru##.sidebar__banner
 entrepreneur.com##.article-subscribe
 entrepreneur.com##.mobile-article-subscribe
 80.lv#?#footer:has(> div[class] > form#subscribe-form)
@@ -7814,6 +7816,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 !
 !
+pfrf.ru##.user-data-processing
 tddomovoy.ru##div[class^="cookie_line_block_"]
 sparkasse.at#$#div[id*="privacy-"] { display: none !important; }
 sparkasse.at#$#.tc-modal-open { overflow: visible !important; position: relative !important; }
@@ -10658,7 +10661,7 @@ fastcompany.com##.page-header > .notification
 this.kiji.is##.page__gdpr
 pantaflix.com##.panta-js-cookieNotificationBar
 priberam.org##.pb-cookies
-sahrahaber.com,dha.com.tr,star.com.tr,aksam.com.tr,teknoburada.net,gunes.com,guvenilirhaber.com,gaste.org,genmedya.com,tvnet.com.tr,nethaber.com.tr,hatayzafer.com.tr,antalyahakkinda.com,ulakci.com,mavikocaeli.com.tr,alfabank.ru,dirilispostasi.com,teknolojioku.com##.policy
+1cloud.ru,sahrahaber.com,dha.com.tr,star.com.tr,aksam.com.tr,teknoburada.net,gunes.com,guvenilirhaber.com,gaste.org,genmedya.com,tvnet.com.tr,nethaber.com.tr,hatayzafer.com.tr,antalyahakkinda.com,ulakci.com,mavikocaeli.com.tr,alfabank.ru,dirilispostasi.com,teknolojioku.com##.policy
 roosterteeth.com##.policy-banner
 hotellook.com,kongregate.com##.policy-bar
 nazwa.pl##.policy-box
@@ -20278,6 +20281,7 @@ britannica.com##.marketing-INLINE_SUBSCRIPTION
 latimes.com##metering-bottompanel > div.met-flyout
 buscape.com.br##div[class^="card Hits_sponsoredContainer"]
 epicentrk.ua##em-banner
+1cloud.ru##.help__banner-webinar
 epicentrk.ua##div[class="__action-slider"]
 vtimes.io##div.contribute-bar
 globo.com##.banner-bottom-fixed-cpnt
