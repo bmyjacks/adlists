@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xKVcwdyawXMN6q61csv0mw
-! Version: 202012271600
+! Checksum: JMMYdwkDvfXzay1TGHQ1iw
+! Version: 202012280000
 ! Title: EasyList
-! Last modified: 27 Dec 2020 16:00 UTC
+! Last modified: 28 Dec 2020 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1557,7 +1557,6 @@
 /ad_peel/*$script
 /ad_pics/*
 /ad_pir.
-/ad_pop.
 /ad_pop1.
 /ad_popup_
 /ad_pos=
@@ -14868,6 +14867,7 @@ _popunder+$popup
 ###header-ad-placeholder
 ###header-ad-rectangle-container
 ###header-ad-right
+###header-ad-slot
 ###header-ad-wrap
 ###header-ad-wrapper
 ###header-ad2
@@ -25912,6 +25912,7 @@ _popunder+$popup
 ##.js_adContainer
 ##.js_contained-ad-container
 ##.js_deferred-ad
+##.js_movable_ad_slot
 ##.js_preheader-ad-container
 ##.js_slideshow-full-width-ad
 ##.js_slideshow-sidebar-ad
@@ -39820,6 +39821,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||rukwbbwcil.com^
 ||run-syndicate.com^
 ||runative-syndicate.com^
+||runbornto.com^
 ||runghollow.com^
 ||runmeethoomes.info^
 ||runtnc.net^
@@ -54361,6 +54363,7 @@ abbotsfordgasprices.com,albertagasprices.com,barriegasprices.com,bcgasprices.com
 rednationonline.ca###dnn_BannerPane
 designtaxi.com###dt-small-sub-2
 designtaxi.com###dt-small-sub-3
+browserleaks.com###efvi
 energyforecastonline.co.za###endorsers
 geekwire.com###engineering-centers-sidebar
 my.juno.com###entertainmentTile
