@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uOrkPZoqIF0OTtLsotUaag
-! Version: 202101021600
+! Checksum: AAMawd5EnYj2b6rRuN+G+Q
+! Version: 202101030000
 ! Title: EasyList Cookie List
-! Last modified: 02 Jan 2021 16:00 UTC
+! Last modified: 03 Jan 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -10724,6 +10724,7 @@ _site_cookie_
 ##.gdprcookie
 ##.gdprcookie-wrapper
 ##.gdprfooter
+##.gdprmodal-backdrop
 ##.gdprpopup
 ##.gdprrhs
 ##.gdrp-cookie-banner-wrapper

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Dkf/idRwbJiQ199M1OpeJQ
-! Version: 202101021601
+! Checksum: /KaXy5fw8cX9JdYEd8H2Mw
+! Version: 202101030000
 ! Title: EasyList
-! Last modified: 02 Jan 2021 16:00 UTC
+! Last modified: 03 Jan 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22652,6 +22652,7 @@ _popunder+$popup
 ##.advertize_here
 ##.advertlabel
 ##.advertleft
+##.advertlink
 ##.advertnotice
 ##.advertorial
 ##.advertorial-2
@@ -22665,6 +22666,7 @@ _popunder+$popup
 ##.advertorialtitle
 ##.advertorialview
 ##.advertorialwidget
+##.advertouter
 ##.advertplay
 ##.adverts
 ##.adverts--banner
@@ -28300,6 +28302,7 @@ _popunder+$popup
 ##.smallsponsorad
 ##.smartAd
 ##.smart_ads_bom_title
+##.smartad
 ##.smartadtags_300250
 ##.smartadtagsbutt_orange_30025002
 ##.sml-item-ad
@@ -29510,6 +29513,7 @@ _popunder+$popup
 ##.wide_sponsors
 ##.widead
 ##.wideadbox
+##.widget--ajdg_bnnrwidgets
 ##.widget-300x250ad
 ##.widget-ad
 ##.widget-ad-codes
