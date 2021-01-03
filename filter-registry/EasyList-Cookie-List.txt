@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Hm1eAVBoIIX781AVIUbWHw
-! Version: 202101030800
+! Checksum: 4TfrxNLNlj1LR1y4GolvqA
+! Version: 202101031600
 ! Title: EasyList Cookie List
-! Last modified: 03 Jan 2021 08:00 UTC
+! Last modified: 03 Jan 2021 16:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -3271,6 +3271,7 @@ _site_cookie_
 ###cookiePromptWrapper
 ###cookieQ
 ###cookieQuestion
+###cookieRegulation
 ###cookieRequestLayer
 ###cookieRules
 ###cookieScreen
@@ -13016,6 +13017,7 @@ _site_cookie_
 ||mgr.consensu.org/iframe.html
 ||microsoft.com/mscc/
 ||mycookies.it^$third-party
+||ogury.mgr.consensu.org^$third-party
 ||oil.axelspringer.com^$third-party
 ||onetag.mgr.consensu.org^$third-party
 ||onetrust.com^$third-party
@@ -14733,7 +14735,7 @@ fastalp.biz###policy
 aeroporto.catania.it,bapr.it,saverioriotto.it###policy_id
 informacatania.it,tuodi.it###popup
 voloweb.it###popupDivC
-alceosalentino.it,chemistresearch.it,cinquantamila.it,metroservices.it###privacy
+alceosalentino.it,chemistresearch.it,cinquantamila.it,compitoinclasse.org,metroservices.it###privacy
 testisemplificati.com###privacy-modal
 jusan.it###privacy-popup
 coni.it###privacy-wrapper
