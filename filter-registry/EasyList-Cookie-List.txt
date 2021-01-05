@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WYdlEQgd7nHo7CwC6pxN7A
-! Version: 202101050011
+! Checksum: MRwQLV+8tkUQQhoQxtAaZw
+! Version: 202101050800
 ! Title: EasyList Cookie List
-! Last modified: 05 Jan 2021 00:11 UTC
+! Last modified: 05 Jan 2021 08:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12511,6 +12511,7 @@ _site_cookie_
 ##.weUseCookies
 ##.web-cookies-inline
 ##.webshop-cookie-warning
+##.website-cookie-banner
 ##.wecookiepop-container
 ##.welcome-cookies
 ##.welcome-privacy
@@ -15610,7 +15611,7 @@ openfiber.it,supertennis.tv#@#.cc-banner
 bing.com,czuczu.pl,experian.com,supertennis.tv#@#.cc-container
 morningstar.ca,tangerine.ca#@#.cc_container
 onet.pl#@#.cmp-app_gdpr
-consent.yahoo.com,lawrievetgroup.co.uk,oath.com#@#.consent-container
+arnes.si,consent.yahoo.com,lawrievetgroup.co.uk,oath.com#@#.consent-container
 consent.yahoo.com,lawrievetgroup.co.uk,payments.amazon.ca,payments.amazon.co.jp,payments.amazon.co.uk,payments.amazon.com,payments.amazon.com.au,payments.amazon.com.br,payments.amazon.de,payments.amazon.es,payments.amazon.fr,payments.amazon.in,payments.amazon.it,simplii.com#@#.consent-wrapper
 svenskhalsokost.se#@#.cookie-accept
 boursorama.com,nuxeo.com#@#.cookie-banner
@@ -15809,6 +15810,7 @@ yoigo.com#@#thor-cookies
 @@||cookist.com^*/remote-gdpr.min.js
 @@||costa.co.uk/js/libs/cookieconsent.min.js
 @@||defense.gouv.fr/lib/tarteaucitron/$~third-party
+@@||demarches.interieur.gouv.fr/js/tarteaucitron/
 @@||digikey.com^*/cookie-notice.css$stylesheet,domain=digikey.com
 @@||dl.gmx.com/permission/oneTrust/consent/$domain=gmx.com
 @@||dl.mail.com/permission/oneTrust/consent/$xmlhttprequest

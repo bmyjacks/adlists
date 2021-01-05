@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KvOLe5HkzEQO2f+DXT2WXw
-! Version: 202101050011
+! Checksum: u4Bq0RSUUTckikc+92PUHQ
+! Version: 202101050800
 ! Title: EasyList
-! Last modified: 05 Jan 2021 00:11 UTC
+! Last modified: 05 Jan 2021 08:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18015,6 +18015,7 @@ _popunder+$popup
 ##.ModeLayout-ad
 ##.MspAd
 ##.NAPmarketAdvert
+##.NA_ad
 ##.NGOLocalFooterAd
 ##.NavBarAd
 ##.NewsAds
@@ -54961,6 +54962,7 @@ hendersondispatch.com,heraldsun.com,hpe.com###zone-leaderboard
 italymagazine.com###zone-user-wrapper
 luxury-insider.com###zone_728x90
 ecoustics.com###zox-lead-bot
+talkingpointsmemo.com##.--span\:12.AdSlot
 voiceofsandiego.org##.-sponsored
 bendsource.com,federalnewsnetwork.com,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tucsonweekly.com##.Ad
 footballitaliano.co.uk##.Ad1
@@ -55631,6 +55633,7 @@ hd-trailers.net##.header-win
 funnycatpix.com##.header728
 onegreenplanet.org##.header728container
 thelakewoodscoop.com##.headerPromo
+bostonglobe.com##.height_600--tablet
 thenewslens.com##.help-tnl-container-300_250
 thenewslens.com##.help-tnl-container-970_250
 provideocoalition.com##.hero-promotions
@@ -56176,6 +56179,7 @@ motorauthority.com##.sq-block
 nutritioninsight.com##.squarblk
 autoaction.com.au##.square
 searchenginejournal.com##.ss_slot
+bostonglobe.com##.stick_1200--tablet
 kathmandupost.com##.sticky--bottom
 golfmagic.com##.sticky-container
 babylonbee.com##.sticky-footer-image
