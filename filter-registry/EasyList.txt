@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: u4Bq0RSUUTckikc+92PUHQ
-! Version: 202101050800
+! Checksum: Hjn0GtSmcOFHQzmTOeFz5w
+! Version: 202101051611
 ! Title: EasyList
-! Last modified: 05 Jan 2021 08:00 UTC
+! Last modified: 05 Jan 2021 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -52851,6 +52851,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||digitaloceanspaces.com^*/promo-banner-brave.$domain=pipeflare.io
 ||diglloyd.com/js2/pub-wide2-ck.js
 ||dj1symwmxvldi.cloudfront.net/r/$image,domain=coderwall.com
+||dmxleo.dailymotion.com^
 ||dnsleaktest.com/assets/img/cute-box-image.png
 ||domaintyper.com/Images/dotsitehead.png
 ||dominicantoday.com^*/banners/
@@ -55492,7 +55493,9 @@ thepointsguy.com##.favorite-cards
 ebay.com##.fdad1
 w3techs.com##.feat
 mumbrella.com.au##.featureBanner
+slickdeals.net##.featureDealsAndCoupons
 ar12gaming.com,geekwire.com##.featured-sponsor
+slickdeals.net##.featuredCouponsDiscounts
 whitepages.ae##.featured_companies_bg_main
 tv.com##.featured_providers
 nagpurtoday.in##.film-right-s
@@ -56068,6 +56071,8 @@ minecraftservers.org##.second-banner
 wbur.org##.section--breakout
 pipeflare.io##.section-promo-banner
 studyfinds.org##.sfspot
+shortorial.com##.sgpb-popup-dialog-main-div-wrapper
+shortorial.com##.sgpb-popup-overlay
 skins.be##.shortBioShadowB
 siliconrepublic.com##.show-for-medium-up
 etherscan.io##.showcase-banner-spacing
@@ -57728,6 +57733,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||kizi.com/assets/advertisement-*.js
 @@||kotaku.com^*/assets/new-client/adManager.$script,~third-party
 @@||ksat.com/gmg.static/ads/$script
+@@||labymod.net/affiliate/$~third-party
 @@||lemon-ads.com^$~document,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||lokopromo.com^*/adsimages/$~third-party
