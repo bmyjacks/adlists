@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Hjn0GtSmcOFHQzmTOeFz5w
-! Version: 202101051611
+! Checksum: 5ZnYx+owyZKAX34aVkTAbQ
+! Version: 202101060011
 ! Title: EasyList
-! Last modified: 05 Jan 2021 16:11 UTC
+! Last modified: 06 Jan 2021 00:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30802,6 +30802,8 @@ _popunder+$popup
 ##.commercial-unit-mobile-bottom
 ##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci
 ##.commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci
+##.commercial-unit-mobile-top > .v7hl4d
+##.commercial-unit-mobile-top > div[data-pla="1"]
 ##.commercial-unit-tiles-immersive
 ##.gws-flights-book__ads-wrapper
 ##.lads[width="100%"][style="background:#FFF8DD"]
@@ -30821,6 +30823,7 @@ _popunder+$popup
 ##div[data-flt-ve="sponsored_search_ads"]
 ##div[data-ismultirow="true"][data-id^="CarouselPLA-"]
 ##div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"]
+##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
 ##div[role="navigation"] + c-wiz > div > .kxhcC
 ##div[role="navigation"] + c-wiz > script + div > .kxhcC
 ! Sedo
@@ -54300,6 +54303,7 @@ adtunes.com###div-inline-left-336x280
 adtunes.com###div-inline-right-336x280
 sentinelnews.com,theandersonnews.com###div-promo
 howtogeek.com###div-thetop1
+newsmax.com###divArticleSpecialLinks
 newser.com###divRightRail > div:first-child
 abbotsfordgasprices.com,albertagasprices.com,barriegasprices.com,bcgasprices.com,calgarygasprices.com,edmontongasprices.com,gasbuddy.com,halifaxgasprices.com,hamiltongasprices.com,kwgasprices.com,londongasprices.com,manitobagasprices.com,montrealgasprices.com,newbrunswickgasprices.com,newfoundlandgasprices.com,novascotiagasprices.com,nwtgasprices.com,ontariogasprices.com,ottawagasprices.com,peigasprices.com,quebeccitygasprices.com,quebecgasprices.com,reginagasprices.com,saskatoongasprices.com,saskgasprices.com,torontogasprices.com,vancouvergasprices.com,victoriagasprices.com,winnipeggasprices.com###divSky
 rednationonline.ca###dnn_BannerPane
@@ -58454,6 +58458,7 @@ www.google.com#@##videoads
 @@||ads.staybetpartners.com/text/$popup
 @@||ads.sudpresse.be^$popup,domain=sudinfo.be
 @@||ads.suomikasino.com/redirect.aspx?pid=*&bid=$popup
+@@||ads.taboola.com^$popup
 @@||ads.thrillsaffiliates.com/redirect.aspx?$popup
 @@||ads.tiktok.com^$popup
 @@||ads.toplayaffiliates.com/redirect.aspx?$popup
