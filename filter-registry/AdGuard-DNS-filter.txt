@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-01-06T18:28:42.251Z
+! Last modified: 2021-01-07T06:12:12.051Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -20560,7 +20560,6 @@ t.yesware.com
 ||log.cinematoday.jp^
 ||et.nytimes.com^
 ||adlog.shopping.naver.com^
-||signal-collector.gemaltodigitalbankingidcloud.com^
 ||analytics.bi.encuentra24.com^
 ||sl-h-statistics-ch-1.storeland.ru^
 ||hc-analytics.idp.clogin.att.com^
@@ -21336,6 +21335,23 @@ charlestownwyllie.oaklawnnonantum.com^
 ||plbslog.umeng.com^
 ||analysys.cn^
 ||logs.supersonic.com^
+! xiaomi mi band app
+||datacollector-drru.dt.hicloud.com^
+||app-analytics-ru.huami.com^
+! spb tv android app
+||metrics.spbtv.com^
+! wifire tv android app
+||sas53netbynet.visualon.info^
+! acestream android app
+||android-stat.acestream.net^
+! whatsapp android app
+||privatestats.whatsapp.net^
+! influxdb
+||usage.influxdata.com^
+! grafana
+||stats.grafana.org^
+! smotrim.ru
+||rumstat.cdnvideo.ru^
 !
 ! Swiftkey(Microsoft) Keyboard
 ||telemetry.api.swiftkey.com^
@@ -21359,6 +21375,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||track.appsflyer.com^
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 !
+||analytics.prod.mybuddy.ai^
+||logs.amap.com^
+||edmanalytics.pandahall.com^
+||applogs.pixelfederation.com^
+||applogs-v2.pixelfederation.com^
+||analytics.dns-shop.ru^
 ||smetrics.aem.playstation.com^
 ||telemetry.api.playstation.com^
 ||trk2.pinterest.com^
@@ -27531,6 +27553,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||prod.html5-ads.vk-apps.com^
 ||3kbktygzr5.ru^
 ||betemolgar.com^
 ||mp3dance.today^
@@ -34057,7 +34080,6 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||mitao17.com^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -35171,6 +35193,7 @@ adbetnet.com
 ||mingysh.com^
 ||minwear.com.cn^
 ||minyaartcrafts.cn^
+||mitao17.com^
 ||mjx123.com^
 ||mkaqh.cn^
 ||mlt01.com^
@@ -37183,8 +37206,7 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||gcctqal.cn^
-||saastt.com^
+||ygnoqu.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -37917,6 +37939,7 @@ adbetnet.com
 ||gbzumh.cn^
 ||gc8fjz.cn^
 ||gcaog.com^
+||gcctqal.cn^
 ||gdfc0563.com^
 ||gdlbdzkj.com^
 ||gdlvbiaokeji.cn^
@@ -38730,6 +38753,7 @@ adbetnet.com
 ||rzxlszy.vip^
 ||s7ww2.cn^
 ||s9wp1.cn^
+||saastt.com^
 ||sachbs.club^
 ||sakuraquant.com^
 ||sanitwealth.com^
