@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /QpL5KzIH6xfF6K01cmNYA
-! Version: 202101070800
+! Checksum: 3xnu0SnaCLeP0zufZqb3NQ
+! Version: 202101071611
 ! Title: EasyList Cookie List
-! Last modified: 07 Jan 2021 08:00 UTC
+! Last modified: 07 Jan 2021 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -5701,6 +5701,7 @@ _site_cookie_
 ###js-cookies-notification
 ###js-cookies-stripe
 ###js-cookies.cookies
+###js-cybot-cookiebot-placeholder
 ###js-data-protection-note
 ###js-ext-cookie
 ###js-gdpr-consent-banner
@@ -10162,6 +10163,7 @@ _site_cookie_
 ##.cwt-cookie-confirmation
 ##.cxa-cookie-notification
 ##.cy-popin-cookie
+##.cybot-cookiebot-placeholder
 ##.cz-cookie-notice
 ##.cz-cookiebar
 ##.d-cc--modal-backdrop
@@ -11059,6 +11061,7 @@ _site_cookie_
 ##.js-cookiesAdv
 ##.js-cookies_informer
 ##.js-cookies_notice
+##.js-cybot-cookiebot-placeholder
 ##.js-disclaimer
 ##.js-disclaimer-dismiss
 ##.js-eu-cookie-notice
@@ -14062,6 +14065,7 @@ berentzen-gruppe.de###notifications
 manikowski.de###notify2
 fxgrow.de###openModal2
 xn--allestrungen-9ib.de###overlay
+picdumps.com###pcdc
 uni-greifswald.de###piwik-flyin
 reddingo.ch###policy
 amtempo.de###popup
@@ -15629,7 +15633,7 @@ dovoba.de#@#.cookie-consent
 zwijsen.nl#@#.cookie-consent-container
 zwijsen.nl#@#.cookie-consent-content
 zwijsen.nl#@#.cookie-consent-wrapper
-codra.net,dovoba.de#@#.cookie-consent:not(body)
+codra.net,dovoba.de,medicinenet.com#@#.cookie-consent:not(body)
 bokadirekt.se,danbolig.dk,hongkong.fi,rusta.com,xmradio.nl#@#.cookie-content
 danbolig.dk,skuola.net#@#.cookie-dialog
 ikks.com#@#.cookie-footer
