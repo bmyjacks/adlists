@@ -81,6 +81,8 @@
 youtube.com,youtube-nocookie.com#%#//scriptlet('set-constant', 'ytInitialPlayerResponse.adPlacements', 'undefined')
 youtube.com,youtube-nocookie.com#%#//scriptlet('set-constant', 'playerResponse.adPlacements', 'undefined')
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/71852 - suggested videos
+pcgamer.com###article-body > .future__jwplayer--carousel
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71296
 ||silvergames.com/div/own.php?
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71198
@@ -1713,6 +1715,7 @@ culture.ru,obozrevatel.com,blog.eva.ua,officiel-online.com,wccftech.com,ideanomi
 ! ###mc_embed_signup
 bisnis.com,ilpost.it,bsblog.info,alcoparty.com.ua,codastory.com,informazionefiscale.it,kerch.fm,cinemablend.com,prostofinovo.ru,comss.ru,majorgeeks.com,buhgalter.com.ua,providr.com,24tv.ua,babylonbee.com,dexerto.com,football365.com,menrec.com,netdoktor.de,ottawamatters.com,retail-insider.com,walterfootball.com,wweek.com,zozhnik.ru###mc_embed_signup
 !
+arquidiocesedeteresina.org.br##.widget_sola_nl_subscribe_widget
 pressherald.com##.gform_wrapper
 puzzle-english.com###j-only-email-auth
 delcastellano.com##.sidebar > #text-14
@@ -3929,6 +3932,7 @@ visajourney.com,dennikn.sk,ixbt.com,encuentra24.com,cuerpomente.com,clara.es,pun
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=web2.0calc.com
 !
 !
+cartoonbrew.com#%#//scriptlet("abort-on-property-read", "ad_block_test")
 @@||cinemaxx.de/assets/js/adblock_detection/adsense.js
 @@||wco.tv/inc/embed/ads.js
 tusubtitulo.com###bannerAdBlock
@@ -5367,6 +5371,7 @@ it-actual.ru#%#AG_setConstant('window.alert', 'undefined');
 ||static.cdnslate.com/etc/designs/slate/js/plus-upsell-adblock.js
 techsolutiontips.com#%#window.google_jobrunner = function() { };
 !#safari_cb_affinity(general)
+cartoonbrew.com#@##sponsorText
 @@||paywall.production.ippen.space/js/dfp.min.js
 @@||tusubtitulo.com/js/dfp-*.js
 @@||anymedia.lv/js/adblocker.js
@@ -7853,6 +7858,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de
 !
 !
+xalingo.com.br###wrng-agrmnt
+lolalytics.com###ncmp__tool
 plus500.com###cookiesPolicyDisclaimer
 academia.edu##body .DesignSystem > div.js-cookie-banner
 indiegala.com###cookie-policy-popup
@@ -11564,7 +11571,7 @@ iprima.cz###cookies-info
 talktofrank.com###cookies-information-bar
 bodylab.nl###cookies-navbar
 blutv.com.tr###cookies-popover
-geotargetly.com,cert.pl,eset.com###cookies-popup
+buzzfeed.com.br,lectura-specs.com,geotargetly.com,cert.pl,eset.com###cookies-popup
 editus.lu,lyricstraining.com###cookies-use
 xvideos.com,tvplusnewtab.com,xnxx.com###cookies-use-alert
 delivery.dhl.com###cookiesAlertPanel
