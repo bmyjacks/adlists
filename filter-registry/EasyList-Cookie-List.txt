@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hnJd0IvGWW2g26xRh++KwA
-! Version: 202101100011
+! Checksum: Z8vu26/kiBJUlVRyvhQxrA
+! Version: 202101100810
 ! Title: EasyList Cookie List
-! Last modified: 10 Jan 2021 00:11 UTC
+! Last modified: 10 Jan 2021 08:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -11227,6 +11227,7 @@ _site_cookie_
 ##.lp-widget-cookie-banner
 ##.lp__cookie_tooltip
 ##.lpsCookieInfo
+##.lsConsent
 ##.luana-module-cookie-policy
 ##.lucid-cookie-compliance
 ##.lvm-compliance-confirm-alert
