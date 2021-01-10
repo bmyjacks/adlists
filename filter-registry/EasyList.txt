@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kTM/G2DTgAr8FCSr3YXj4w
-! Version: 202101100811
+! Checksum: eqQWCda6q8MQV/tVCL4xew
+! Version: 202101101610
 ! Title: EasyList
-! Last modified: 10 Jan 2021 08:10 UTC
+! Last modified: 10 Jan 2021 16:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -29644,6 +29644,7 @@ _popunder+$popup
 ##.widget_newscorpau_ads
 ##.widget_openxwpwidget
 ##.widget_plugrush_widget
+##.widget_pmc-ads-widget
 ##.widget_po_ads_widget
 ##.widget_postmedia_layouts_ad
 ##.widget_quads_ads_widget
@@ -52854,6 +52855,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cloudfront.net^*/sponsors/$domain=indycar.com|overwatchleague.com
 ||cnn.com/ad/
 ||cntr.lookmovie.io^
+||coincodex.com/o8po7iqs9guyte85/
 ||coincodex.com^*/poposition.php?
 ||collector.viki.io^
 ||constructionreviewonline.com^*banner
@@ -54186,6 +54188,8 @@ carsdir.com###AddCarBanner
 igcd.net,webcarstory.com###Ads
 search.snapdo.com###AfloatingD
 weegy.com###BannerDiv
+coincodex.com###CCx2Sticky
+coincodex.com###CCxStickyTop
 tweaktown.com###DesktopTop
 audioz.download###PromoHead
 daringfireball.net###SidebarMartini
@@ -55155,6 +55159,7 @@ smallseotools.com##.after_navbar
 surfwap.com##.ahblock2
 techporn.ph##.ai-track
 bizpacreview.com##.ai_widget
+coincodex.com##.align-items-center.d-none
 music-news.com,nintendolife.com##.amazon
 ttgmedia.com##.ao-creative-bg
 motor1.com##.ap
@@ -55307,6 +55312,7 @@ armenpress.am##.bnrcontainer
 southerntimesafrica.com##.body-header-banner
 cmo.com.au,interiordesign.net##.boombox
 etherscan.io##.border-top
+coincodex.com##.bottom
 pixxxels.cc##.bottom-a
 liligo.com##.bottom-banner
 livehdq.info##.bottom-bar
@@ -55860,6 +55866,7 @@ searchenginejournal.com##.mh-90
 krebsonsecurity.com##.mid-banner
 investing.com##.midHeader
 edutourism.in##.middMain
+coincodex.com##.middle
 scanwith.com##.middle-banner
 tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
@@ -55899,6 +55906,7 @@ motorsport.com##.ms-ap
 motorsport.com##.ms-apb-dmpu
 motortrend.com##.mt-spotlight
 zerolives.com##.munder-fn5udnsn
+standardmedia.co.ke##.my-2
 google.com##.nH.MC
 mail.google.com##.nH.PS
 seura.fi##.nativead:not(.list)
@@ -55914,7 +55922,6 @@ cookingforengineers.com##.nothing
 nplusonemag.com##.nurble
 cheezburger.com##.nw-rail-min-250
 marineelectronics.com,marinetechnologynews.com,maritimeprofessional.com##.nwm-banner
-coincodex.com##.o8po7iqs9guyte85-l
 comicbook.com##.oas
 forums.somethingawful.com##.oma_pal
 mma-core.com##.outVidAd
@@ -56115,7 +56122,6 @@ tutorialrepublic.com##.sidebar
 radiotoday.co.uk##.sidebar-column-secondary > .sidebar
 freshbusinessthinking.com##.sidebar-mpu
 spearswms.com##.sidebar-mpu-1
-coincodex.com##.sidebar-skyscraper
 indianapublicmedia.org##.sidebar-upper-underwritings
 thebadandugly.com##.sidebar30
 celebritynetworth.com##.sidebarAvtBox
