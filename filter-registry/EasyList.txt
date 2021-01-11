@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pJwOeR58QLpeiL5gBXaV9g
-! Version: 202101110011
+! Checksum: WDzGwcvWkywvVENBwnaCeg
+! Version: 202101110810
 ! Title: EasyList
-! Last modified: 11 Jan 2021 00:11 UTC
+! Last modified: 11 Jan 2021 08:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1170,9 +1170,11 @@
 /ad/common_
 /ad/commons/*
 /ad/content/*
+/ad/count.
 /ad/cpmstar/*
 /ad/cross-
 /ad/css/*$domain=~cspace.com
+/ad/dfp/*
 /ad/directcall/*
 /ad/empty.
 /ad/extra/*
@@ -8214,6 +8216,7 @@ _prx/ba_$script
 /prebid4.
 /prebid?
 /prebid_$script
+/prebidAdcall.
 /prebidlink/*
 /prebidtest.
 /prodprebidheader-
@@ -9529,6 +9532,7 @@ _popunder+$popup
 ###HomepageAd2
 ###HomepageAd3
 ###HomepageAdSpace
+###HometopAdOuter
 ###HorizontalAd
 ###HouseAd
 ###HouseAdInsert
@@ -10825,6 +10829,7 @@ _popunder+$popup
 ###adUn_1
 ###adUn_2
 ###adUn_3
+###adUnderArticle
 ###adUnit
 ###adValue
 ###adVcss
@@ -16525,6 +16530,8 @@ _popunder+$popup
 ###sideAd
 ###sideAd1
 ###sideAd2
+###sideAd3
+###sideAd4
 ###sideAdArea
 ###sideAdLarge
 ###sideAdSmall
@@ -17856,6 +17863,7 @@ _popunder+$popup
 ##.AmazonSimpleAdmin_widget
 ##.ArticleAd
 ##.ArticleInlineAd
+##.ArticleInnerAD
 ##.ArticleLayout-nativeAdLabel
 ##.ArticleLeaderboard_ad
 ##.ArticlePage-ad
@@ -23285,6 +23293,7 @@ _popunder+$popup
 ##.bigsponsor
 ##.billboard-ad
 ##.billboard-ads
+##.billboard.ad
 ##.billboard300x250
 ##.billboardAd
 ##.billboard__advert
@@ -28042,6 +28051,7 @@ _popunder+$popup
 ##.sideBySideAds
 ##.sideToSideAd
 ##.side_300_ad
+##.side__ad-box
 ##.side_ad
 ##.side_ad2
 ##.side_ad300
@@ -55796,6 +55806,7 @@ techrepublic.com,thepcguild.com##.leader
 readmetro.com##.leader-board
 canada.com##.leader-board-wrapper
 zdnet.com##.leader-bottom
+zdnet.com##.leader-top
 channeleye.co.uk##.leaderBoard
 greatergood.com##.leaderBoard-container
 businessghana.com##.leaderBoardBorder
@@ -58124,6 +58135,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||anandabazar.com/js/anandabazar-bootstrap/$script
 @@||api.friends.ponta.jp/api/$~third-party
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
+@@||asahicom.jp/ads/$image,script,stylesheet,domain=asahi.com
 @@||ascii.jp/img/ad/yayoi/rank_$image,~third-party
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||bancodevenezuela.com/imagenes/publicidad/$~third-party
