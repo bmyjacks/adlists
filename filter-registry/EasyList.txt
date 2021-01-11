@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WDzGwcvWkywvVENBwnaCeg
-! Version: 202101110810
+! Checksum: FlmDjGWjTd3ILF0oorQaOg
+! Version: 202101111611
 ! Title: EasyList
-! Last modified: 11 Jan 2021 08:10 UTC
+! Last modified: 11 Jan 2021 16:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6002,6 +6002,7 @@
 /phpadserver/*
 /phpadsnew/*
 /phpbanner/banner_
+/phpbb_ads/*
 /pic/ads/*
 /pic_adv/*
 /picAd.
@@ -11802,6 +11803,7 @@ _popunder+$popup
 ###ads-banner
 ###ads-banner-top
 ###ads-bar
+###ads-bg
 ###ads-bigbox-no1
 ###ads-block
 ###ads-block-frame
@@ -20947,6 +20949,7 @@ _popunder+$popup
 ##.ads-300x250-sidebar
 ##.ads-300x300
 ##.ads-300x600
+##.ads-300x600-wrapper
 ##.ads-300x80
 ##.ads-301
 ##.ads-336-197-qu
@@ -28345,6 +28348,7 @@ _popunder+$popup
 ##.sn-ad-300x250
 ##.snarcy-ad
 ##.sng_card_ads
+##.snhb-ads
 ##.snoadnetwork
 ##.snoadrotatewidgetwrap
 ##.social-ad
@@ -31552,6 +31556,7 @@ adn.com#@#.page-ad
 amateri.com#@#.page-cover--ads
 daum.net,rottentomatoes.com#@#.page_ad
 bachofen.ch#@#.pfAd
+phytodoc.de#@#.plain-ad
 speedtest.net#@#.plainAd
 m.vporn.com#@#.playerAd
 iitv.info#@#.player_ad
@@ -33002,6 +33007,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||baysexthy.com^
 ||bb1acb0ea5ddb1fed8.com^
 ||bb475d71fa0b1b2.com^
+||bbaahc.com^
 ||bbckaxifryxcno.com^
 ||bbitetuncmwfjd.com^
 ||bbnfcfrvjs.com^
@@ -34266,6 +34272,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dmsqzqvuapb.com^
 ||dmvbdfblevxvx.com^
 ||dmypkmieippdq.com^
+||dnemkhkbsdbl.com^
 ||dnkwgzmuxv.com^
 ||dnyjhikistbhvg.com^
 ||dnzwjlbknhe.com^
@@ -48547,6 +48554,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||b3z29k1uxb.com^$popup
 ||b54m4qbmt0b9.com^$popup
 ||baypops.com^$popup,third-party
+||bbaahc.com^$popup
 ||bbuni.com^$popup,third-party
 ||bcvcmedia.com^$popup,third-party
 ||becomeapartner.io^$popup
