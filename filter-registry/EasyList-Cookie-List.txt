@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Qn14vB/uHZ1nnLmsrktGRA
-! Version: 202101111610
+! Checksum: wLqEdrsEUa435KQOBg6dQQ
+! Version: 202101120011
 ! Title: EasyList Cookie List
-! Last modified: 11 Jan 2021 16:10 UTC
+! Last modified: 12 Jan 2021 00:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -608,7 +608,6 @@
 /gdpr/gdpr_
 /gdpr/img/*
 /gdpr/messaging.
-/gdpr/native-$domain=~11freunde.de|~autobild.de|~bike-bild.de|~bild.de|~boerse-online.de|~businessinsider.de|~bz-berlin.de|~caramia.de|~clever-tanken.de|~computerbild.de|~edelblech.de|~faz.net|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gentside.com|~gofeminin.de|~gruenderszene.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~insider.com|~kombi.de|~maxisciences.com|~meinestadt.de|~metal-hammer.de|~musikexpress.de|~myhomebook.de|~n24.de|~noizz.de|~onmeda.de|~politico.eu|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~testbild.de|~transfermarkt.at|~transfermarkt.ch|~transfermarkt.co.uk|~transfermarkt.com|~transfermarkt.com.tr|~transfermarkt.de|~transfermarkt.fr|~transfermarkt.it|~transfermarkt.nl|~transfermarkt.pl|~transfermarkt.pt|~transfermarkt.us|~travelbook.de|~tvspielfilm.de|~vip.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
 /gdpr/optInCookieSSR?
 /gdpr/script_
 /gdpr_check.
@@ -837,7 +836,6 @@
 /uploads/GDPR-
 /usecookies.js
 /usocookies.
-/v1/gdpr/*$domain=~11freunde.de|~autobild.de|~bike-bild.de|~bild.de|~boerse-online.de|~businessinsider.de|~bz-berlin.de|~caramia.de|~clever-tanken.de|~computerbild.de|~edelblech.de|~faz.net|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gentside.com|~gofeminin.de|~gruenderszene.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~insider.com|~kombi.de|~maxisciences.com|~meinestadt.de|~metal-hammer.de|~musikexpress.de|~myhomebook.de|~n24.de|~noizz.de|~onmeda.de|~politico.eu|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~testbild.de|~transfermarkt.at|~transfermarkt.ch|~transfermarkt.co.uk|~transfermarkt.com|~transfermarkt.com.tr|~transfermarkt.de|~transfermarkt.fr|~transfermarkt.it|~transfermarkt.nl|~transfermarkt.pl|~transfermarkt.pt|~transfermarkt.us|~travelbook.de|~tvspielfilm.de|~vip.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
 /w034CookieDirective.js
 /wa_consentUI.
 /wa_iframeCmp.
@@ -856,7 +854,6 @@
 /wp-gdpr-
 /wp-tarteaucitron-
 /wpmaster-cookie/*
-/wrapperMessagingWithoutDetection.js
 /wx-cookie-
 /x_cookie_
 /XCookieConsent.
@@ -13028,6 +13025,7 @@ _site_cookie_
 ||mgr.consensu.org/iframe.html
 ||microsoft.com/mscc/
 ||mycookies.it^$third-party
+||myprivacy.dpgmedia.net/consent.js
 ||ogury.mgr.consensu.org^$third-party
 ||oil.axelspringer.com^$third-party
 ||onetag.mgr.consensu.org^$third-party
@@ -15787,7 +15785,6 @@ yoigo.com#@#thor-cookies
 ! *** easylist:easylist_cookie/easylist_cookie_allowlist.txt ***
 @@/cookie*/jquery.cookie.js$script,~third-party,domain=~albeco.com.pl
 @@/cookie_law/plugin.js$script,~third-party
-@@/v1/gdpr/native-message$domain=chip.de|focus.de|n-tv.de
 @@/zig_cookiepolicybar/*/CookieBar.js$script,~third-party
 ! https://github.com/ryanbr/fanboy-adblock/issues/721#issuecomment-443395851
 ! https://github.com/ryanbr/fanboy-adblock/issues/1133
