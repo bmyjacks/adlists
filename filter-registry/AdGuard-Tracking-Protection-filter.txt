@@ -219,7 +219,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
-||stats.myangular.life^v
+||tracker.metricool.com^$third-party
+||stats.myangular.life^
 ||counter.daara.kr^$third-party
 ||tr.line.me^
 ||log22.makeshop.co.kr^$third-party
@@ -6653,6 +6654,8 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||crunchyroll.com/tracker
+||sa.crunchyroll.com/analytics.js
 ||rolite.eu/wp-content/*/js/cntr.js
 ||daumcdn.net/*/ba.min.js
 ||laurenhi.com/app/Eclog/
@@ -8672,6 +8675,7 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||digianalytics.airtel.in^
 ||ad-creative.projectcarmen.com^
 ||analytics.projectcarmen.com^
 ||monitoring-sdk.experimentation.intuit.com^
@@ -9139,6 +9143,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/72131
+@@||mc.yandex.ru/metrika/watch.js$domain=stylenews.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71786
 @@||assets.adobedtm.com/*/satelliteLib-*.js$domain=docs.nvidia.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71368

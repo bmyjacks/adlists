@@ -1545,6 +1545,7 @@ market.yandex.by,market.yandex.kz,market.yandex.ru,market.yandex.ua##.footer-sub
 ! Promotions (at the top)
 market.yandex.by,market.yandex.kz,market.yandex.ru,market.yandex.ua##.head-banner
 m.market.yandex.by,m.market.yandex.kz,m.market.yandex.ru,m.market.yandex.ua##.w-head-banner
+market.yandex.*##div[data-apiary-widget-id="/headBanner"]
 ! Subscription (popup)
 market.yandex.by,market.yandex.kz,market.yandex.ru,market.yandex.ua##.n-settings-notifications-popup
 ! KP subscription
@@ -1556,6 +1557,8 @@ market.yandex.ru##div[data-zone-data*="promo-popup"]
 ! App banner + subscription
 market.yandex.*##div[data-apiary-widget-id="/footer/appPromoFooter"]
 market.yandex.*##div[data-apiary-widget-id="/footer/subscription"]
+! Review of the purchased product
+market.yandex.*##div[data-apiary-widget-id="/reviewPoll"]
 !
 ! Yandex.Afisha
 ! Mobile app banner
@@ -8133,7 +8136,7 @@ energiedirect.nl###wall
 altium.com##.altium-privacy-bar
 drugs.com##.ddc-modal
 drugs.com##.ddc-overlay
-krovat.ru###cookies-using-message
+netpeak.net,spark.ru,cmd-online.ru,krovat.ru###cookies-using-message
 shop.apotal.de##footer::after
 withinnigeria.com##.bs-gdpr-law
 ggbet.ru##.info-message--cookie-agreement
@@ -9122,7 +9125,6 @@ ipekyol.com.tr,korayspor.com,monsternotebook.com.tr##.cookieBnrWrp
 md5hashing.net##.primary-container > .pp-footer
 msn.com##.optanon-alert-box-wrapper
 oppo-ae.custhelp.com,oppo-au.custhelp.com,oppo-bd.custhelp.com,oppo-chde.custhelp.com,oppo-chfr.custhelp.com,oppo-dz.custhelp.com,oppo-eg.custhelp.com,oppo-es.custhelp.com,oppo-fr.custhelp.com,oppo-id.custhelp.com,oppo-in.custhelp.com,oppo-it.custhelp.com,oppo-jp.custhelp.com,oppo-ke.custhelp.com,oppo-kh.custhelp.com,oppo-kz.custhelp.com,oppo-lk.custhelp.com,oppo-ma.custhelp.com,oppo-mm.custhelp.com,oppo-mx.custhelp.com,oppo-my.custhelp.com,oppo-ng.custhelp.com,oppo-nl.custhelp.com,oppo-np.custhelp.com,oppo-nz.custhelp.com,oppo-ph.custhelp.com,oppo-pk.custhelp.com,oppo-pl.custhelp.com,oppo-ru.custhelp.com,oppo-sa.custhelp.com,oppo-sg.custhelp.com,oppo-th.custhelp.com,oppo-tn.custhelp.com,oppo-tr.custhelp.com,oppo-ua.custhelp.com,oppo-uk.custhelp.com,oppo.custhelp.com###use_cookies
-spark.ru###cookies-using-message
 itopya.com##.cerezNotification
 isbank.com.tr##.blogCookieCover
 iqair.com##.site-cookie-container
@@ -9666,7 +9668,6 @@ iboysoft.com##.user_popup
 boosty.to##div[class^="GdprOffer"]
 spankwire.com###js-react-cookie-policy
 shutterstock.com##div[data-automation="Eu_banner_container"]
-knuddels.de###root > div[class*="ColumnFluid"] > div[class*="ColumnFluid"] > div[class*="Column__Column"] > div[style^="background-repeat: no-repeat; opacity:"][style*="background-color: rgb"]
 mydrive.tomtom.com##.onp-cookie-consent-container
 theweathernetwork.com#$#.taskbar { top: 0!important; }
 facenews.ua###pblock
@@ -9739,7 +9740,6 @@ zrzutka.pl##.plicy
 find.com.tr###KVK_Cerez
 tvgids.nl###cmp-faktor-io-parent
 tvgids.nl###cmp-faktor-io
-netpeak.net###cookies-using-message
 wetheunicorns.com##.privacy-overlay
 tvnet.lv##.notification--cookie
 quora.com##.EUCookieBanner
@@ -10554,7 +10554,6 @@ atlus.com###wpfront-notification-bar-spacer
 vavabid.be###wrapperCookieBar
 tinder.com##.App > div[class*="Pos(f)"][class*="Bxsh($bxsh-4-way-spread)"][class*="C($c-secondary)"]
 dowolnycel.pl##.CTcookie-container
-knuddels.de##.Column__Column___3SsHN[style*="background-color"][style*="opacity: "]
 hirezstudios.com##.CookieOverlay
 coinbase.com##.CookieWarning__Container-s1eysx2e-0
 tv2.dk##.CookieWarning_container__Pjx-P
@@ -11535,7 +11534,6 @@ slate.fr###cnilFooter
 bayam.tv,la-croix.com###cnill_banner
 msn.com###conditionalbanner
 investing.com###consentWrapper
-knuddels.de###cookie-accept-banner
 lokalmatador.de,m.europa-apotheek.com###cookie-advice
 orangebank.fr###cookie-band
 ip-address.org,shinden.pl,smallseotools.com,telestar.fr###cookie-bar
@@ -15885,6 +15883,7 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+||infomercado.pe/wp-content/plugins/wordpress-popup/assets/hustle-ui/js/hustle-ui.min.js
 serveradmin.ru###wpfront-notification-bar-spacer
 fratelliguzzini.com#$#body { overflow: auto !important; }
 fratelliguzzini.com#$#.newletterModal { display: none !important; }
