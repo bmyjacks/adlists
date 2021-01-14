@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2EK1x+zWZelrUusSZCuMFg
-! Version: 202101140031
+! Checksum: I3l5xgqi1Xsvh4jSwi8G6A
+! Version: 202101140821
 ! Title: EasyList
-! Last modified: 14 Jan 2021 00:31 UTC
+! Last modified: 14 Jan 2021 08:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1803,7 +1803,6 @@
 /adclixad.
 /adClosefeedbackUpgrade.
 /adclutter.
-/adcode.
 /adcode/*
 /adcode_
 /adcodes/*
@@ -8022,7 +8021,6 @@ _rightad1.
 _rightad_
 _rightmn_ads.
 _sectionfront_ad.
-_show_ads.
 _show_ads=
 _show_ads_
 _side-ad_
@@ -31418,8 +31416,10 @@ copart.com#@#.adscontainer
 starbike.com#@#.adsense_wrapper
 live365.com#@#.adshome
 nationalpost.com#@#.adsizewrapper
+javbix.com#@#.adsleft
 fodey.com,tuxpi.com#@#.adslot
 wg-gesucht.de#@#.adslot_blurred
+javbix.com#@#.adsvideo
 cutepdf-editor.com#@#.adtable
 absolute.com#@#.adtile
 smilelocal.com#@#.adtop
@@ -53273,6 +53273,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ! In-page video advertising.
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||connatix.com/connatix.playspace.js$script,third-party
+||connatix.com^*/connatix.player.js$script,third-party
 ||minutemediaservices.com/mplayer_embed.html$third-party
 ||playbuzz.com/embed/$script,third-party
 ||playbuzz.com/player/$script,third-party
@@ -53833,6 +53834,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 /sendspace-pop.$popup,domain=sendspace.com
 :text^$popup,domain=zippyshare.com
 ^utm_source=$popup,domain=sex.com
+browserleaks.com###vpn_img
 ||adf.ly/*.php?$popup
 ||adf.ly/_$popup
 ||adf.ly^$popup,domain=urgrove.com
@@ -53881,7 +53883,8 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||movies7.to/?$popup
 ||multiupload.nl/popunder/$popup
 ||mydirtyhobby.de^$popup,domain=flashx.tv
-||nordvpn.net^$popup,domain=thekat.li
+||nordvpn.com^$popup,domain=browserleaks.com
+||nordvpn.net^$popup,domain=browserleaks.com|thekat.li
 ||notube.lol/p/$popup
 ||nyafilmer.com/*.html$popup
 ||oddschecker.com/clickout.htm?type=takeover-$popup
@@ -54402,7 +54405,6 @@ abbotsfordgasprices.com,albertagasprices.com,barriegasprices.com,bcgasprices.com
 rednationonline.ca###dnn_BannerPane
 designtaxi.com###dt-small-sub-2
 designtaxi.com###dt-small-sub-3
-browserleaks.com###efvi
 energyforecastonline.co.za###endorsers
 geekwire.com###engineering-centers-sidebar
 fxsforexsrbijaforum.com###fa_ticker_container
@@ -54609,7 +54611,6 @@ jobstreet.com.sg###mysitelogo
 bgr.in,thehealthsite.com###mywebsite-container
 rentalcars.com###name_price_ad
 irishracing.com###naobox
-browserleaks.com###nav-right-logo
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.fr###nav-swmslot
 esl.eu###navi_partner
 webinspector.se###navigation_left
@@ -55009,6 +55010,8 @@ eplsite.uk###video-section
 gumtree.com###vipBanner
 europages.co.uk###vipBox
 miami.com###visit
+browserleaks.com###vpn_img
+browserleaks.com###vpn_text
 anilinkz.to###waifu
 information-age.com###wallpaper-surround-outer
 eeweb.com###wallpaper_image
@@ -55583,7 +55586,6 @@ teenvogue.com##.ecom-placement
 newagebd.net##.editorialMid
 experts-exchange.com##.eeAD
 notebooks.com##.efbleft
-browserleaks.com##.efvi
 ctvnews.ca##.election-leaderboard
 pirateiro.com##.embedded > center
 easyvoyage.co.uk##.esv-ads
