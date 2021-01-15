@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-01-14T18:45:17.645Z
+! Last modified: 2021-01-15T06:23:46.477Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -19020,6 +19020,10 @@ vkcdnservice.appspot.com^
 ! relateddigital.com domains
 ||visilabs.com^
 !
+||livetracker.rfe.pangea-cms.com^
+||trackerhqu.com^
+||rum*.cdnvideo.ru^
+||rum*.a.trbcdn.net^
 ||kiynew.com^
 ||tracker.metricool.com^
 ||stats.myangular.life^
@@ -20588,6 +20592,9 @@ t.yesware.com
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||analytics.move.ru^
+||telegraf.detmir-stats.ru^
+||track.tproger.ru^
 ||stats.travelask.ru^
 ||x.babe.today^
 ||prod-collector.bigbasket.com^
@@ -21427,6 +21434,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||track.appsflyer.com^
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 !
+||tracking-receiver.prod-general.stocard-backend.com^
 ||metrics.happycolor.app^
 ||digianalytics.airtel.in^
 ||ad-creative.projectcarmen.com^
@@ -25022,6 +25030,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||sweetslope.com^
 ||tangibleteam.com^
 ||tawdryson.com^
+||teenytinycellar.com^
 ||tendertest.com^
 ||thirdrespect.com^
 ||thirstytwig.com^
@@ -34214,8 +34223,7 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||wdxxx.top^
-||0b2qv7.cn^
+||ue2bm3.cn^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -34239,6 +34247,7 @@ adbetnet.com
 ||0798ls.com^
 ||080644.com^
 ||0937jyg.com^
+||0b2qv7.cn^
 ||0bc.top^
 ||0mr.cc^
 ||0qkc.cn^
@@ -35816,6 +35825,7 @@ adbetnet.com
 ||watchsk.com^
 ||waterserver.cn^
 ||wcnmd.top^
+||wdxxx.top^
 ||wdymwzz.com^
 ||wdzsb.com.cn^
 ||webabcd.com^
@@ -37351,9 +37361,11 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||xinheshengmce.com^
-||zoujuhonglawyer.com^
-||cxmob.net^
+||buyuninfo.com^
+||hnyoufan.com^
+||g1mm3d.cn^
+||yanyanbiji.com^
+||zln44.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -37869,6 +37881,7 @@ adbetnet.com
 ||cwj2h.cn^
 ||cxb4.cn^
 ||cxcxt.com^
+||cxmob.net^
 ||cxslchkb.cn^
 ||cyboke.cn^
 ||cyto-biotherapy.com^
@@ -39329,6 +39342,7 @@ adbetnet.com
 ||xingpingmaoyi.cn^
 ||xingsky.cn^
 ||xingtai0.com^
+||xinheshengmce.com^
 ||xinqiannv.com^
 ||xintaizhaoming.com^
 ||xinuocp666.com^
@@ -39578,6 +39592,7 @@ adbetnet.com
 ||zoepb.cn^
 ||zopeynxv.top^
 ||zougg.com^
+||zoujuhonglawyer.com^
 ||zp0737.com^
 ||zpyfsj.cn^
 ||zqwlkj.cn^
