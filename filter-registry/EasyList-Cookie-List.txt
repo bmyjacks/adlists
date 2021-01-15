@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e6VNLde2A6j3oyMmysbQEA
-! Version: 202101150811
+! Checksum: dzFJeLWcKXR/9SqMZ2+LGQ
+! Version: 202101151620
 ! Title: EasyList Cookie List
-! Last modified: 15 Jan 2021 08:11 UTC
+! Last modified: 15 Jan 2021 16:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14352,6 +14352,7 @@ unifilm.de##.form-dsgvo
 frankonia.de##.fr-c-message
 jesus.de##.gaoop
 tipp24.com##.gdpr
+nick.de##.generic-text-wrap
 galeria-kaufhof.de##.gk-stickymessage
 autoscout24.ch,motoscout24.ch##.global-banner
 brigitte.de,essen-und-trinken.de,geo.de##.guj-cb
@@ -16104,6 +16105,7 @@ yoigo.com#@#thor-cookies
 @@||ameli.fr/sites/all/modules/custom/ameli_tarte_au_citron/js/*/tarteaucitron.$script
 @@||amigosmuseoreinasofia.org/assets/js/cookiecuttr/jquery.cookie.js
 @@||bccmilano.it/framework/js/cookies.dyn.js
+@@||betterdiscordlibrary.com/assets/js/libraries/cookie.js$script,~third-party
 @@||candidat.pole-emploi.fr^*/modules/jquery-eu-cookie-law-popup.js$script
 @@||cdn.privacy-mgmt.com^$domain=telegraph.co.uk
 @@||cdn.rp.pl/cmp/cmp.min.js
@@ -16116,6 +16118,7 @@ yoigo.com#@#thor-cookies
 @@||consent.truste.com/notice?$script,domain=forbes.it
 @@||cookist.it^*/remote-gdpr.min.js
 @@||cyrk-zalewski.com.pl^*/CookieInfo.js$script
+@@||dashnet.org/experiments/cookie/cookie.png$image,~third-party
 @@||ebok.vectra.pl/components/layout/cookie-bar/
 @@||fanpage.it^*/remote-gdpr.min.js
 @@||firkloveren.no/skin/$script,stylesheet
