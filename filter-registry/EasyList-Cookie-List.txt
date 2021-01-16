@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dzFJeLWcKXR/9SqMZ2+LGQ
-! Version: 202101151620
+! Checksum: kKF4hHHfkJIT143ydedMtw
+! Version: 202101160021
 ! Title: EasyList Cookie List
-! Last modified: 15 Jan 2021 16:20 UTC
+! Last modified: 16 Jan 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15840,11 +15840,10 @@ rituals.com#@#.cookie-bar:not(body)
 egmont.com#@#.cookie-bar:not(body):not(html)
 zeist.hu.nl#@#.cookie-block
 lg.com#@#.cookie-check
-dovoba.de#@#.cookie-consent
 zwijsen.nl#@#.cookie-consent-container
 zwijsen.nl#@#.cookie-consent-content
 zwijsen.nl#@#.cookie-consent-wrapper
-codra.net,dovoba.de,medicinenet.com#@#.cookie-consent:not(body)
+codra.net,dovoba.de,medicinenet.com#@#.cookie-consent:not(body):not(html)
 bokadirekt.se,danbolig.dk,hongkong.fi,rusta.com,xmradio.nl#@#.cookie-content
 danbolig.dk,skuola.net#@#.cookie-dialog
 ikks.com#@#.cookie-footer

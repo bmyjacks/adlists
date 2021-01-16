@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XTip2ZOxu/QgGGHv1xRl+w
-! Version: 202101151620
+! Checksum: u3ZipsUzSRr3nBTFnWWPaQ
+! Version: 202101160021
 ! Title: EasyList
-! Last modified: 15 Jan 2021 16:20 UTC
+! Last modified: 16 Jan 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -53380,6 +53380,7 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza
 @@||ajax.googleapis.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
+@@||google.com/recaptcha/$domain=vidoza.co|vidoza.net
 @@||vidoza.net^$image,script,domain=heapfiles.com|vidoza.co|vidoza.net
 ! govid.co
 $script,third-party,xmlhttprequest,domain=govid.co
