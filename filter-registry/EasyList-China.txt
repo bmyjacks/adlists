@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j10QDQAvUIDAi6Rhw2zveQ
-! Version: 202101170802
+! Checksum: HkjDtOxuCezT2KR9KITqUw
+! Version: 202101171602
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 17 Jan 2021 08:02 UTC
+! Last Modified: 17 Jan 2021 16:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -16,6 +16,7 @@
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
+/993dy_new//gg123/*
 .bid/ads/
 .cam/ads/
 .cc/ad/
@@ -1163,6 +1164,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||3337781.com^
+||jehudf.com^
 ||cnnywz.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -8992,8 +8995,11 @@ _yad_jsonp_
 ||jsdelivr.net/gh/*/%E7%89%9B960-80.gif
 ||avple.video/asset/bann.js
 ||i3zh.com/wp-content/plugins/cm-pop-up-banners/
+||coolhii.com/gongzhong/
+||97soo.com/js/apps/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+coolhii.com###bottommob
 58pic.com##.xyyh
 szxx.com.cn###A1
 szxx.com.cn###A2
