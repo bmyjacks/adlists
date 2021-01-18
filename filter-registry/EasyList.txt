@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /83SBznC4M9b2FREXKa1yA
-! Version: 202101180021
+! Checksum: 4P63MAQk/3FGQTq4l3a7cQ
+! Version: 202101180821
 ! Title: EasyList
-! Last modified: 18 Jan 2021 00:21 UTC
+! Last modified: 18 Jan 2021 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -20045,6 +20045,7 @@ _popunder+$popup
 ##.ad__create
 ##.ad__desk
 ##.ad__disclosure
+##.ad__full--width
 ##.ad__gapfix
 ##.ad__header
 ##.ad__in-loop
@@ -44363,7 +44364,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||clickable.com^$third-party
 ||clickad.pl^$third-party
 ||clickadilla.com^$third-party
-||clickagy.com^$third-party
 ||clickbet88.com^$third-party
 ||clickbooth.com^$third-party
 ||clickboothlnk.com^$third-party
@@ -55409,6 +55409,7 @@ mediamanager.co.za##.bnr
 armenpress.am##.bnrcontainer
 southerntimesafrica.com##.body-header-banner
 cmo.com.au,interiordesign.net##.boombox
+tomshardware.com##.bordeaux-slot-root
 etherscan.io##.border-top
 coincodex.com##.bottom
 pixxxels.cc##.bottom-a
@@ -56158,6 +56159,8 @@ catholic.net##.publicidad
 eitb.eus##.publicidad_robapaginas
 the18.com##.push-downv
 2conv.com##.push-offer
+thedirect.com##.pw-ph-leaderboard
+thedirect.com##.pw-ph-sky
 tri247.com##.q2w3-fixed-widget-container
 qrobe.it##.qad
 revolution935.com##.qt-sponsor
@@ -56288,6 +56291,10 @@ foodfacts.com##.slimBanner
 ecommercetimes.com##.slink-text
 ecommercetimes.com##.slink-title
 inbox.com##.slinks
+tomshardware.com##.slot-beforePopularBox
+tomshardware.com##.slot-leaderboard
+tomshardware.com##.slot-lightbox1
+tomshardware.com##.slot-topOfSidebar
 gamesradar.com,techradar.com##.slotify-contents
 bikeexif.com##.small
 tbs.com##.smallBanners
