@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SFSDVSHjGxBtMf2cg/Issg
-! Version: 202101171611
+! Checksum: lg7XMsJ96mLeKXwk5AnbyQ
+! Version: 202101180021
 ! Title: EasyList Cookie List
-! Last modified: 17 Jan 2021 16:11 UTC
+! Last modified: 18 Jan 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7020,6 +7020,7 @@ _vpcookieconsent/
 ###sp-cc[action*="cookiepref"]
 ###sp-cookie-consent
 ###spartooCookies
+###spc-popup-cookie
 ###spcookiegdpr
 ###spfcookiebanner
 ###spletko-cookies

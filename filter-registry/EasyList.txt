@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WDDPopkt8kYTxWZ+OgIciA
-! Version: 202101171611
+! Checksum: /83SBznC4M9b2FREXKa1yA
+! Version: 202101180021
 ! Title: EasyList
-! Last modified: 17 Jan 2021 16:11 UTC
+! Last modified: 18 Jan 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -27525,6 +27525,7 @@ _popunder+$popup
 ##.refreshAds
 ##.refreshInarticleAd
 ##.refreshable_ad
+##.region-ad-bottom-leaderboard
 ##.region-ad-right
 ##.region-ad-top
 ##.region-ads
@@ -55519,8 +55520,8 @@ blackcaps.co.nz##.commercial-partners
 telegraph.co.uk##.commercial-unit
 sportingnews.com##.commercial-wrapper
 versusio.com##.compare_leaderboard
-binnews.com##.component-pushdown
-binnews.com##.component-recommendation
+binnews.com,iheart.com##.component-pushdown
+binnews.com,iheart.com##.component-recommendation
 washingtontimes.com##.connatixcontainer
 spoonyexperiment.com##.cont_adv
 marketwatch.com##.container--sponsored
