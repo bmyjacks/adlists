@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rnha/oU6uenX8jUpoh1OlA
-! Version: 202101200031
+! Checksum: eFGMzrepnrIjJ8Y+Hzyk7A
+! Version: 202101200821
 ! Title: EasyList
-! Last modified: 20 Jan 2021 00:31 UTC
+! Last modified: 20 Jan 2021 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2547,6 +2547,7 @@
 /ads/generator/*
 /ads/get/*
 /ads/getall
+/ads/getPositions?
 /ads/google1.
 /ads/google2.
 /ads/google_
@@ -3096,6 +3097,7 @@
 /adslides.
 /adsline.
 /AdsLoad.
+/adslot-
 /adslots.
 /adslug-
 /adslug_
@@ -19325,6 +19327,7 @@ _popunder+$popup
 ##.ad.sidebar-module
 ##.ad.size-300x250
 ##.ad.super
+##.ad.widget
 ##.ad01
 ##.ad01-obj
 ##.ad02
@@ -26802,6 +26805,7 @@ _popunder+$popup
 ##.native-advts
 ##.native-leaderboard-ad
 ##.native-sidebar-ad
+##.native.ad
 ##.nativeAd
 ##.nativeAd-sponsor-position
 ##.nativeMessageAd
@@ -52895,6 +52899,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adserver.pandora.com^
 ||adss.yahoo.com^
 ||adswikia.com^*banner
+||adz.wattpad.com^
 ||afedmag.com/uploaded/images/banner-
 ||afloat.ie/images/banners/
 ||afr.com/assets/europa.
@@ -53260,6 +53265,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||wall.vgr.com^
 ||walmart.com^*/api/wpa?
 ||watoday.com.au/assets/europa.
+||wattpad.com/js/ados.min.js
 ||webconfs.com/wp-content/uploads/2017/08/300x250bw.png
 ||webdevforums.com/images/inmotion_banner.gif
 ||webhostingtalk.com/images/style/lw-header.png
@@ -54942,6 +54948,7 @@ khistocks.com,milb.com###standard_banner
 cucirca.eu###stanga
 geekwire.com###startup-resources-sidebar
 activistpost.com###stb-overlay
+cryptoslate.com###sticky-footer-global
 fool.com###sticky-wrapper
 afr.com###stickyLeaderboard
 gsmarena.com###subHeader
