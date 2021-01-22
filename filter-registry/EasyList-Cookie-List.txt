@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pXZ4G5THVgwv/W1ZVChHew
-! Version: 202101220820
+! Checksum: cBCxemlAeLfRwkR8e8CAvg
+! Version: 202101221620
 ! Title: EasyList Cookie List
-! Last modified: 22 Jan 2021 08:20 UTC
+! Last modified: 22 Jan 2021 16:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -7195,6 +7195,7 @@ _vpcookieconsent/
 ###truste-consent-track
 ###ts_cookie_info
 ###tscookiebar
+###tso-cookie-bar
 ###tt-cookie-badge
 ###tt-cookie-check
 ###tt-cookie-overlay
@@ -14262,6 +14263,7 @@ untappd.com##.tos-banner
 thomsonreuters.com##.tr-DismissibleBanner
 troax.com##.troax-messages
 nfumutual.co.uk##.u-bg-padd
+head-fi.org##.u-bottomFixer
 asendiausa.com##.ui-alert
 gloucestershire.gov.uk,portwell.com.tw##.ui-dialog
 chregister.ch##.ui-notificationbar

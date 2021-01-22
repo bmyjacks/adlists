@@ -7683,7 +7683,6 @@ dizibey.com##.sidebar > #text-19
 ||hdmz.co/site/user_geo
 ||data.shopgate.com/tracking/shopgate-analytics-sdk.production.min.js
 ||bildderfrau.de/stats/
-bilgibizde.net##.sidebar > #addthis_tool_by_class_name_widget-0
 ||oas.monster.com/Scripts/oas_analytics.js
 ||logs.jobs.com/impression_trackingv*.min.js
 ||webstats.thesoul-publishing.com/track/ws.gif
@@ -9174,6 +9173,16 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://forum.adguard.com/index.php?threads/41486/
+@@||dpm.zebestof.com/*/tag.js$domain=commentcamarche.net
+||dpm.zebestof.com/*/tag.js$script,redirect=noopjs,important,domain=commentcamarche.net
+! https://github.com/AdguardTeam/AdguardFilters/issues/72031
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important,domain=flyingv.cc
+||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=flyingv.cc
+@@||googletagmanager.com/gtm.js$domain=flyingv.cc
+@@||google-analytics.com/analytics.js$domain=flyingv.cc
+@@||google-analytics.com/plugins/ua/ecommerce.js$domain=flyingv.cc
+@@||google-analytics.com/plugins/ua/ec.js$domain=flyingv.cc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72465
 !+ PLATFORM(ios, ext_safari)
 @@||bikeforums.net/clientscript/vbulletin_analytics.js

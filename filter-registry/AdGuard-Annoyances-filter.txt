@@ -1558,6 +1558,8 @@ market.yandex.by,market.yandex.kz,market.yandex.ru,market.yandex.ua##.footer-sub
 market.yandex.by,market.yandex.kz,market.yandex.ru,market.yandex.ua##.head-banner
 m.market.yandex.by,m.market.yandex.kz,m.market.yandex.ru,m.market.yandex.ua##.w-head-banner
 market.yandex.*##div[data-apiary-widget-id="/headBanner"]
+! Promotions (at the main page)
+market.yandex.*##div[data-apiary-widget-name="@MarketNode/MediaGallery"]
 ! Subscription (popup)
 market.yandex.by,market.yandex.kz,market.yandex.ru,market.yandex.ua##.n-settings-notifications-popup
 ! KP subscription
@@ -1734,6 +1736,8 @@ jeotermalhaberler.com,glavcom.ua,hindustantimes.com,hightech.fm,culture.ru,obozr
 ! ###mc_embed_signup
 bisnis.com,ilpost.it,bsblog.info,alcoparty.com.ua,codastory.com,informazionefiscale.it,kerch.fm,cinemablend.com,prostofinovo.ru,comss.ru,majorgeeks.com,buhgalter.com.ua,providr.com,24tv.ua,babylonbee.com,dexerto.com,football365.com,menrec.com,netdoktor.de,ottawamatters.com,retail-insider.com,walterfootball.com,wweek.com,zozhnik.ru###mc_embed_signup
 !
+biketestreviews.com##.wp_subscribe
+commentcamarche.net##.nl-box
 tuasaude.com##.newsletter-sidebar
 wowdigital.com##.widget_bloomwidget
 ||cdn.convertbox.com^$third-party
@@ -7920,6 +7924,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+coloros.com###use_cookies
+bikester.be##.cookieHeader
+forklog.com##.terms_popup
 audials.com##.pure-cookies-notice-wrapper
 teamaretuza.com#$##consentModal { display: none !important; }
 teamaretuza.com#$##consentModal ~ div.modal-backdrop { display: none !important; }
@@ -9821,7 +9828,7 @@ otempo.com.br##.barra-cookie
 searchenginejournal.com###cooknote-div
 ibm.com##.ibm-canada-notice
 gismeteo.lt,gismeteo.md,gismeteo.com,gismeteo.lv,gismeteo.pl##.cookienotify
-znaj.ua,cointelegraph.com,tupras.com.tr,hesapkurdu.com,ku.dk,auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##.privacy-policy
+politeka.net,znaj.ua,cointelegraph.com,tupras.com.tr,hesapkurdu.com,ku.dk,auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl##.privacy-policy
 wsj.com###cx-notification
 hinta.fi###hv-gdpr
 monster.lu###cookieAcceptance
@@ -13230,6 +13237,9 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://forum.adguard.com/index.php?threads/41486/
+@@||cdn.appconsent.io/loader.js$domain=commentcamarche.net
+@@||cdn.appconsent.io/*/core.bundle.js$domain=commentcamarche.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72689
 teamaretuza.com#@##consentModal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72224
@@ -13358,7 +13368,7 @@ alttab.net#@##cliSettingsPopup
 alttab.net#@##cookie-law-info-bar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68445
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=cyberport.de
-@@||cdn.privacy-mgmt.com/wrapper/tcfv2/v1/gdpr/native-message$domain=cyberport.de|techbook.de
+@@||cdn.privacy-mgmt.com/wrapper/tcfv2/v1/gdpr/native-message$domain=cyberport.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68064
 @@||imperialtechforesight.com/wp-content/plugins/creare-eu-cookie-law-banner/js/eu-cookie-law.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67999
@@ -14853,6 +14863,7 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#$#.XPromoPopup { display: none!important; }
 reddit.com#$#body.scroll-disabled { overflow: visible!important; position: static!important; }
 !
+dailymail.co.uk##a[href^="http://itunes.apple.com/app/"]
 speedtest.net##div[data-view-name="mobile"] a[href^="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest"]
 ||nekopoi.care/wp-content/plugins/mobiloud-smart-app-banner/
 bing.com###bnp_rich_div
@@ -16023,6 +16034,8 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+graphicux.com#$#.hustle-popup { display: none !important; }
+graphicux.com#$#html.hustle-no-scroll { overflow: auto !important; }
 desishoot.fun###chaty-channel-telegram
 kvador.com###fadeinbox
 ||provely.io^$domain=hacktiv8.com
@@ -16038,6 +16051,7 @@ jeotermalhaberler.com#$##subscribeModal { display: none!important; }
 jeotermalhaberler.com#$#.modal-backdrop { display: none!important; }
 jeotermalhaberler.com#$#body { overflow: visible!important; }
 glavkniga.ru##.popup_banner_area
+rent.591.com.tw##.accreditPop
 vanityfair.com##.persistent-bottom
 zuketcreation.net,zuketcreation.com##.ccw_plugin.chatbot
 spaziogames.it#$##bio_ep { display: none!important; }
@@ -20711,6 +20725,7 @@ vtimes.io##div.contribute-bar
 globo.com##.banner-bottom-fixed-cpnt
 swirlster.ndtv.com##.prd_itm-wrp
 maski-proekt.media,proekt.media##.alerts.reversed
+thetimes.co.uk###paywall-portal-page-footer
 dontpayfull.com##.sponsored
 it-here.ru##.telegram-banner
 theatlantic.com##body > div.c-non-metered-nudge
