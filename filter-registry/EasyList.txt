@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BInRBwNXccu0SagXtk8oDQ
-! Version: 202101240820
+! Checksum: DxwcWUPSQpd2Lq2nggANDQ
+! Version: 202101241620
 ! Title: EasyList
-! Last modified: 24 Jan 2021 08:20 UTC
+! Last modified: 24 Jan 2021 16:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -47825,6 +47825,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yieldbuild.com^$third-party
 ||yieldkit.com^$third-party
 ||yieldlab.net^$third-party
+||yieldlove-ad-serving.net^$third-party
 ||yieldlove.com^$third-party
 ||yieldmanager.com^$third-party
 ||yieldmanager.net^$third-party
@@ -55696,6 +55697,7 @@ w3techs.com##.feat
 mumbrella.com.au##.featureBanner
 slickdeals.net##.featureDealsAndCoupons
 ar12gaming.com,geekwire.com##.featured-sponsor
+fandom.com##.featured-video__wrapper
 slickdeals.net##.featuredCouponsDiscounts
 whitepages.ae##.featured_companies_bg_main
 tv.com##.featured_providers
