@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ddNY2Ooz063Nc3cos0tviA
-! Version: 202101250021
+! Checksum: 3ytSDIjQr0rQxGDnSEOD5A
+! Version: 202101250820
 ! Title: EasyList
-! Last modified: 25 Jan 2021 00:20 UTC
+! Last modified: 25 Jan 2021 08:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -37973,6 +37973,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||murdened.club^
 ||murdenedo.club^
 ||mushroomresolved.com^
+||mutenessdollyheadlong.com^
 ||muttonvalet.com^
 ||muwjxxvovtb.com^
 ||muyoozrkkyr.com^
@@ -54429,6 +54430,7 @@ mbauniverse.com###block-views-home-page-banner-block
 picfont.com###block_a
 smbc-comics.com###boardleader
 boards.ie###boardsmpu
+bulbagarden.net###bodyContent > div[style*="min-height:315px;"]
 priceonomics.com###book-island
 cheese.com,investorplace.com###bottom-banner
 audioreview.com###bottom-leaderboard
@@ -54600,7 +54602,7 @@ oaoa.com###leaderboard-top
 narcity.com###leaderboard-wrapper
 drdobbs.com###leaderboard1
 drdobbs.com###leaderboard2
-planetminecraft.com###leaderboard_atf
+bulbagarden.net,planetminecraft.com###leaderboard_atf
 canadianbusiness.com,macleans.ca###leaderboard_container
 spoonuniversity.com###leaderboard_fixed
 thehollywoodgossip.com###leaderboard_wrapper
@@ -55342,6 +55344,7 @@ appagg.com##.atit
 pogdesign.co.uk##.atop
 mbl.is##.augl
 thehackernews.com##.av-side-box
+myabandonware.com##.avp
 gameplanet.co.nz##.avt-mr
 gameplanet.co.nz##.avt-placement
 whatsondisneyplus.com##.awac-wrapper
@@ -55428,6 +55431,7 @@ bbc.co.uk##.bbccom_companion
 ecommercetimes.com,ectnews.com,linuxinsider.com,macnewsworld.com,technewsworld.com##.bbframe
 h-online.com##.bcadv
 fakenamegenerator.com##.bcsw
+myabandonware.com##.be
 thepointsguy.com##.beam-card-feature
 beckershospitalreview.com##.becker_doubleclick
 wgbh.org##.becomeSponsor
@@ -55998,6 +56002,7 @@ jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
 babynamegenie.com,forless.com,o2cinemas.com,worldtimeserver.com##.links
 gosearchresults.com##.listing-right
+mobalytics.gg##.live-comp-wrap
 goodgearguide.com.au,pcworld.co.nz,pcworld.idg.com.au##.lo-toppromos
 calgaryherald.com##.local-branding
 1071thepeak.com##.logo-scroll
