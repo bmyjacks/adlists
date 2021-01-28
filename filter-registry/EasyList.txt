@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5YsKJM0SshS1KQxvKpuDcQ
-! Version: 202101280841
+! Checksum: ZkwsG6i5hiJ7o0v9EjEi+w
+! Version: 202101281600
 ! Title: EasyList
-! Last modified: 28 Jan 2021 08:40 UTC
+! Last modified: 28 Jan 2021 16:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3865,6 +3865,7 @@
 /atcode-bannerize/*
 /athena/tag/?
 /atlads/*
+/atlads1/*
 /atnads/*
 /AtomikAd/*
 /atrads.
@@ -15866,6 +15867,7 @@ _popunder+$popup
 ###ng_rtcol_ad
 ###nia_ad
 ###nib-ad
+###nk_ad_top
 ###nlrightsponsorad
 ###noresults_ad_container
 ###noresultsads
@@ -17542,6 +17544,7 @@ _popunder+$popup
 ###widget_advertisement
 ###widget_thrive_ad_default-2
 ###widget_thrive_ad_default-4
+###widgetwidget_adserve
 ###widgetwidget_adserve2
 ###windowads
 ###wl-pencil-ad
@@ -22677,6 +22680,7 @@ _popunder+$popup
 ##.advertising_bottom
 ##.advertising_bottom_box
 ##.advertising_box_bg
+##.advertising_header_1
 ##.advertising_hibu_lef
 ##.advertising_hibu_mid
 ##.advertising_hibu_rig
