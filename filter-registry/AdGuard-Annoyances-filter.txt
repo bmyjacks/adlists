@@ -7939,8 +7939,8 @@ dekudeals.com,encuentra24.com,krone.at##body div.fc-consent-root
 jneurosci.org,medrxiv.org,novartis.com.tr,royal.uk,transcom.com,netcologne.de,belltower.news,bigfm.de,click.ro,demokrata.hu,emma.de,gysev.hu,humanite.fr,ikgastarten.nl,la7.it,london.gov.uk,mavcsoport.hu,mcdonalds.at,mcdonalds.it,mises.org,mnm.hu,musescore.com,nbcsports.com,pnas.org###sliding-popup
 ! Sourcepoint cookie consent
 theguardian.com##div[id^="sp_message_"]
-preis.de,vorname.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,motorcyclenews.com,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[id^="sp_message_"] { display: none !important; }
-faz.net,chip.de,preis.de,giga.de,motorcyclenews.com,finanzen.net,vorname.com,jezebel.com,theonion.com,theinventory.com,thetakeout.com,theroot.com,avclub.com,deadspin.com,lifehacker.com,computerbild.de,techbook.de,lvz.de,sueddeutsche.de,gutefrage.net,shieldsgazette.com,spieletipps.de,ekstrabladet.dk,focus.de,demorgen.be,volkskrant.nl,trouw.nl,parool.nl,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#html.sp-message-open { overflow: visible !important; position: static !important; margin-top: 0!important; }
+rtl.de,preis.de,vorname.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,motorcyclenews.com,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[id^="sp_message_"] { display: none !important; }
+rtl.de,faz.net,chip.de,preis.de,giga.de,motorcyclenews.com,finanzen.net,vorname.com,jezebel.com,theonion.com,theinventory.com,thetakeout.com,theroot.com,avclub.com,deadspin.com,lifehacker.com,computerbild.de,techbook.de,lvz.de,sueddeutsche.de,gutefrage.net,shieldsgazette.com,spieletipps.de,ekstrabladet.dk,focus.de,demorgen.be,volkskrant.nl,trouw.nl,parool.nl,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#html.sp-message-open { overflow: visible !important; position: static !important; margin-top: 0!important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[class^="sp_veil"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#body { overflow: visible !important; }
 !
@@ -7949,6 +7949,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+trade.acdx.io###zc_notice
+geolatvija.lv###AnalyticsPrompt
 oetker.*/static/js/privacy-dialog/
 runcloud.io##.rc-cookie-banner
 sberbank.ru##div[data-pid^="CookieWarning-"]
@@ -7999,8 +8001,9 @@ hostkey.ru###collectData
 businessinsider.in###newsletter_stick_widget
 mrspeedy.co###agree-to-use-cookies
 toggl.com##div[class*="-CookieWarningRoot"]
-mega.nz##.fm-dialog-overlay
-mega.nz#$#.overlayed .scroll-block { filter: none!important; -webkit-filter: none!important; }
+mega.io,mega.nz#$#.cookie-dialog { display: none !important; }
+mega.io,mega.nz#$#.fm-dialog-overlay { display: none !important; }
+mega.io,mega.nz#$#.overlayed .scroll-block { filter: none!important; -webkit-filter: none!important; }
 tcm.com##.universal-footer__ribbon
 ||assets.uchi.ru/assets/check_cookies$script
 infranken.de#$#body { overflow: visible !important; }
@@ -12964,7 +12967,7 @@ gamestar.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2"))
 digitalfoundry.net#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("OptanonAlertBoxClosed")){var a=new MutationObserver(function(){var b=document.querySelector(".optanon-alert-box-wrapper"),c=document.querySelector("button.accept-cookies-button");b&&c&&(a.disconnect(),c.click(),b.style="display: none !important;")});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 cdn.privacy-mgmt.com#%#AG_onLoad(function(){if(window.self!==window.top&&document.referrer.startsWith("https://www.welt.de/")){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,1,0,0\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelectorAll('.page-action');c[0]&&c[0].click();},300);setTimeout(function(){var d=document.querySelector('.is-checked'),f=document.querySelector('button[aria-label="Ablehnen wie ausgewählt"]');d&&d.click();f&&f.click()},800)});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}}});
 cdn.privacy-mgmt.com#%#AG_onLoad(function(){if(window.self!==window.top&&document.referrer.startsWith("https://www.techbook.de/")){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,1,0,0\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelectorAll('.page-action');c[0]&&c[0].click();},300);setTimeout(function(){var d=document.querySelector('.is-checked'),f=document.querySelector('button[aria-label="Ablehnen wie ausgewählt"]');d&&d.click();f&&f.click()},800)});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}}});
-cmp.computerbild.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,1,0,0\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelectorAll('.page-action');c[0]&&c[0].click();},300);setTimeout(function(){var d=document.querySelector('.is-checked'),f=document.querySelector('button[aria-label="Ablehnen wie ausgewählt"]');d&&d.click();f&&f.click()},800)});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
+cmp.computerbild.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector('button.no-children[path="\[0,1,0,0\]"]');b&&b.click();},300);setTimeout(function(){var c=document.querySelectorAll('.page-action');c[0]&&c[0].click();},300);setTimeout(function(){var d=document.querySelector('.is-checked'),f=document.querySelector('button.no-children[path="\[0,2,0,0\]');d&&d.click();f&&f.click()},800)});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 cmp.focus.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var a=new MutationObserver(function(){var b=document.querySelector('button.no-children[aria-label="Einstellungen"]'),e=document.querySelector('div[aria-label="Berechtigtes Interesse"]'),f=document.querySelector('div[aria-label="Informationen auf einem Ger\u00e4t speichern und/oder abrufen"] .pm-toggle > .off'),c=document.querySelectorAll(".reject-toggle"),g=document.querySelector('div[aria-label="Produkte entwickeln und verbessern"] .pm-toggle > .off'), h=document.querySelector('button[aria-label="Auswahl Speichern"]'),k=document.querySelector('button[title^="Cookie Einstellungen"]');b&&b.click();e&&e.click();f&&f.click();c[0]&&c[0].click();c[1]&&c[1].click();g&&g.click();h&&h.click();k&&k.click();var m=function(){document.querySelectorAll('.pm-switch > .slider[class*="checked"]').forEach(function(d){d.click();setTimeout(function(){var l=document.querySelector('.message-component > button[aria-label="Auswahl speichern"]');l&&l.click()},100)})};document.querySelectorAll(".page-link > div.page-action").forEach(function(d){"Einstellungen anpassen"=== d.innerText&&(d.click(),setTimeout(function(){m()},100))})});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 cmp.chip.de#%#AG_onLoad(function(){if(!document.cookie.includes("euconsent-v2")){var g=new MutationObserver(function(){var b=document.querySelector('button[title="Alle Akzeptieren"]');b&&b.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 !+ NOT_PLATFORM(android)
@@ -13286,6 +13289,10 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! mega.io,mega.nz - blocked Accept button
+mega.io,mega.nz#@#.accept-cookies
+! https://github.com/AdguardTeam/AdguardFilters/issues/73244
+@@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=businessinsider.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72336
 bauplan-bauanleitung.de#@##cookie-law-info-bar
 ! https://forum.adguard.com/index.php?threads/41486/
@@ -14958,6 +14965,7 @@ epicentrk.ua##.footer-app
 radio.fr##a[data-testid^="broadcast-appstore-"]
 tiktok.com##.download-container.card
 ||xgoo.jp/img/portal/misc/footer_app_recommend/
+blog.goo.ne.jp###msg-box-app-recommend
 blog.goo.ne.jp##.app_induction
 m.hurriyet.com.tr##a[href="https://link-to.app/egazete-banner"] > img
 zona.plus##div[id="zona-android"]
@@ -16089,6 +16097,7 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+stylus.ua###roulette-widget
 livehindustan.com##.show_login_inner
 context.reverso.net###dapp-popup-wrapper
 meming.world#$##memingsubscription-popup { display: none!important; }
@@ -20789,6 +20798,7 @@ aliexpress.ru,aliexpress.com##iframe[src^="https://campaign.aliexpress.com/"]
 ! Working rule, but JS: is.alicdn.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('2', '"{\"2USD_coupon_popup\":1}"'); }
 aliexpress.ru,aliexpress.com#$?##newuser-activity-config { remove: true; }
 !
+sibnet.ru##.wink_notification__root
 codepile.net##.cp-ad
 rsload.net###dle-content a[href="/tutvce.html"]
 britannica.com##.marketing-INLINE_SUBSCRIPTION
