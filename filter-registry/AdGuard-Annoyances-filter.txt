@@ -1884,7 +1884,7 @@ itpro.co.uk##.polaris__newsletter
 pewresearch.org##.prc-block-area > div.wp-block-prc-block-promo:first-child
 worten.pt##.w-newsletter-block
 worten.pt#?#.iss-content-box > section.w-banner:has(> div[class] h3.p-form:contains(Subscreve))
-diakov.net##.subscr-lazydev
+tv-vybor.ru,diakov.net##.subscr-lazydev
 vseinstrumenti.ru##.footer-subscribe-form-email
 magazine.skyeng.ru#?#.article__body > div.stk-post > div.stk-grid > div.stk-grid-col > p:contains(Каждый день вы будете получать письма)
 buffalonews.com###pu-email-form-buffalo-bills
@@ -4220,7 +4220,7 @@ rutab.net#%#//scriptlet("abort-current-inline-script", "$", "adv")
 krunker.io###aHolder
 ||g2insights-cdn.azureedge.net/*/mng/g2insights.min.js
 uploadship.com##.pageErrors
-@@||townnews.com/*/shared-content/art/tncms/templates/libraries/flex/components/ads/resources/scripts/tnt.ads.advertisements.*.js
+@@||bloximages.*.vip.townnews.com/*/libraries/flex/components/ads/resources/scripts/tnt.ads.advert
 @@||a.omappapi.com/app/js/ads.js
 ||sp.desmoinesregister.com^
 kompravda.eu,kp.ru,kp.by,kp.kg,kp.kz,kp.md###popapIsBlockedAd
@@ -7941,8 +7941,11 @@ gameblog.fr,fernsehserien.de,pacogames.com,ntower.de,oyunturu.org,timeout.co.il,
 ! in case if using just "overflow" causes that there is additional scrollbar at the bottom
 thegamer.com,ortsdienst.de,cbr.com,makeuseof.com#$#body div.fc-consent-root { display: none !important; }
 thegamer.com,ortsdienst.de,cbr.com,makeuseof.com#$#body { overflow-y: auto !important; }
+! For the case if 'fundingchoicesmessages.google.com' is blocked
+! #%#//scriptlet('prevent-setTimeout', 'f.parentNode.removeChild(f)', '100')
+foromtb.com#%#//scriptlet('prevent-setTimeout', 'f.parentNode.removeChild(f)', '100')
 !
-dekudeals.com,encuentra24.com,krone.at##body div.fc-consent-root
+foromtb.com,dekudeals.com,encuentra24.com,krone.at##body div.fc-consent-root
 ! ###sliding-popup
 jneurosci.org,medrxiv.org,novartis.com.tr,royal.uk,transcom.com,netcologne.de,belltower.news,bigfm.de,click.ro,demokrata.hu,emma.de,gysev.hu,humanite.fr,ikgastarten.nl,la7.it,london.gov.uk,mavcsoport.hu,mcdonalds.at,mcdonalds.it,mises.org,mnm.hu,musescore.com,nbcsports.com,pnas.org###sliding-popup
 ! Sourcepoint cookie consent
@@ -7957,6 +7960,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+||pelikan.com/*/lib-js/sms.cookie-consent.js
+dailymail.co.uk##.i-amphtml-consent-ui-placeholder
+ladies.de##.site-cookies-info
 pingdom.com##.sw19b-cookie-banner
 vesty.co.il##[class*="ShareComponent"]
 sedirekte.com###cookiewarningcontainer
@@ -12273,6 +12279,11 @@ wykop.pl#$#.type-permanent+#nav { top: 0!important; }
 ||tol.postnl.nl/toestemming
 ||unsertirol24.com/analytics/analytics_cookie.js
 !
+sparda-bank-hamburg.de,sparda-b.de,sparda-sw.de##.lightbox--cookie-consent
+sparda-bank-hamburg.de,sparda-b.de,sparda-sw.de##.darken-layer.open
+sparda-bank-hamburg.de,sparda-b.de,sparda-sw.de#$#body { position: unset !important; }
+sparda-bw.de,sparda-west.de,sparda-m.de,sparda-hessen.de,sparda-n.de###crm-tracking-agreement-layer
+!
 go3.tv#$#div[class="o-modal u-color-primary"] { display: none !important; }
 go3.tv#$#body { overflow: auto !important; }
 go3.tv##div[class="u-collapsible is-expanded"][style="height: 87px;"]
@@ -13305,6 +13316,10 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/73404
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=metacritic.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/72772
+sparda-bank-hamburg.de,sparda-b.de,sparda-sw.de#@#.cookie-consent:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72751
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=pickmypostcode.com
 ! mega.io,mega.nz - blocked Accept button
@@ -14939,6 +14954,9 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#$#.XPromoPopup { display: none!important; }
 reddit.com#$#body.scroll-disabled { overflow: visible!important; position: static!important; }
 !
+m.auto.ru#$#.PromoHeaderChose { display: none!important; }
+m.auto.ru#$#.page_mobile { position: static!important; overflow: visible!important }
+tut.by##.popup-app
 s.tabelog.com##.p-webtoapp-banner
 myanimelist.net##div[data-text="Get the App"]
 myanimelist.net##.app
@@ -16116,6 +16134,7 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+tut.by###utm_theme_news_block
 interestingengineering.com#$##newsletter-modal { display: none !important; }
 interestingengineering.com#$#.modal-backdrop { display: none !important; }
 interestingengineering.com#$#body { overflow: auto !important; }
