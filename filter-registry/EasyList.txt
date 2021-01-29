@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: da/tkeQeyZlyxQMhc6plVg
-! Version: 202101290000
+! Checksum: wfU6d8sJBy5eWA697sZbpA
+! Version: 202101290750
 ! Title: EasyList
-! Last modified: 29 Jan 2021 00:00 UTC
+! Last modified: 29 Jan 2021 07:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6660,7 +6660,6 @@
 /sponsorad.
 /sponsorad2.
 /sponsoradds/*
-/sponsorads.
 /sponsorads/*
 /sponsorbanners/*
 /sponsorbg/*
@@ -8322,7 +8321,6 @@ _prebid_
 /adBlockDetector/*
 /adblockdetectorwithga.
 /adblocker-leader.
-/adblocker.js
 /adBlockerTrack_
 /adblockkiller.
 /adblockpopup.
@@ -18402,6 +18400,8 @@ _popunder+$popup
 ##.ad-300-blog
 ##.ad-300-dummy
 ##.ad-300-flex
+##.ad-300X250
+##.ad-300X250-body
 ##.ad-300x
 ##.ad-300x100
 ##.ad-300x200
@@ -25849,6 +25849,7 @@ _popunder+$popup
 ##.inlistAd
 ##.inner-ad
 ##.inner-ad-disclaimer
+##.inner-ad-section
 ##.inner-adv
 ##.inner-advert
 ##.inner-advt-banner-3
@@ -26375,6 +26376,7 @@ _popunder+$popup
 ##.mailAdElem
 ##.mailad
 ##.main-ad
+##.main-add-sec
 ##.main-ads
 ##.main-ads-line-2
 ##.main-advert
@@ -28806,6 +28808,7 @@ _popunder+$popup
 ##.storyAdvert
 ##.storyInlineAdBlock
 ##.story_AD
+##.story__top__ad
 ##.story_ad_div
 ##.story_ads_right_spl
 ##.story_ads_right_spl_budget
