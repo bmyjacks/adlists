@@ -980,6 +980,8 @@ techradar.com##.omaha-background
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66042
 ! it seems element it Edge Chromium specific
 calendar.google.com,docs.google.com,mail.google.com,news.google.com,drive.google.com##iframe[src^="https://ogs.google.com/widget/callout?prid="]:upward(div[style^="overflow: hidden; position: absolute; top: 0px; width:"])
+! google - Search Console promo
+google.*###wmxmsg
 ! google - Chrome banner
 google.*##div.gb_i[data-ogsr-up] > div[style*="overflow: hidden;"][style*="position: absolute;"][style*="z-index: "][style*="overflow: hidden;"][style*="margin-right: 25px;"]
 ! google - information about Stadia
@@ -16158,6 +16160,8 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+! nicovideo.jp banner on video
+nicovideo.jp##.PreVideoStartPremiumLinkOnEconomyTimeContainer
 searchenginejournal.com##.sej-hello-bar
 lsm.lv#$#body { overflow: auto !important; }
 lsm.lv#$##subscribe-modal { display: none !important; }
@@ -20219,6 +20223,8 @@ realty.yandex.ru##.Offer__taxiBannerContainer
 !-----------------------------------------------
 !
 !
+! self-promo texts
+login.yahoo.co.jp###ads
 ! banner https://kakaku.com/item/J0000034135/?lid=pc_prbox01_pc_J0000034135
 ||kakaku.com/script/itemview/RdmReviewAd.js
 kakaku.com#?#.alignC > div.mTop10 > div[style="border:1px solid #ccc;"]:contains(-PR-)
