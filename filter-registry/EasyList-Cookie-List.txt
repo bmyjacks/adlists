@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UaM+XrWY+7R/Ao5UOk22Aw
-! Version: 202101300000
+! Checksum: 0GigMc7oiW57BWcCdeyHxA
+! Version: 202101300750
 ! Title: EasyList Cookie List
-! Last modified: 30 Jan 2021 00:00 UTC
+! Last modified: 30 Jan 2021 07:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -13776,6 +13776,7 @@ elanco.com###ribbon
 ricochet.com###ricochet-cookie-bar
 cote.co.uk###root > div > .fixed
 mywot.com###root > div > div[direction="up"][style*="transform"]
+honeygain.com###root > footer ~ div
 wrigleys.co.uk###rpcm
 tenuser.com###rsp
 sanitas.com###sanitasCookieAlert
