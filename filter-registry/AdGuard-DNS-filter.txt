@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-01-30T18:15:31.470Z
+! Last modified: 2021-01-31T06:03:08.571Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -34247,6 +34247,7 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||reendian.cn^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -36648,7 +36649,6 @@ adbetnet.com
 @@||yzzkb.com.cn^*ad.
 ||immedlinkum.info^
 ||xayah.date^
-||shili.wanyx.com^
 ||003store.com^
 ||1.01fy.cn^
 ||1.1010pic.com^
@@ -37211,6 +37211,7 @@ adbetnet.com
 ||sdd.hi1718.com^
 ||sh996.dftoutiao.com^
 ||shili.downxia.com^
+||shili.wanyx.com^
 ||shiyaokejishanghai.com^
 ||shzzzz.dftoutiao.com^
 ||sjbaiduadv1.redou.com^
@@ -37402,8 +37403,7 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||taikangshenyuan.com^
-||szhgmd.com^
+||lantuyj.com^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -38512,7 +38512,7 @@ adbetnet.com
 ||juyour8.org^
 ||juyzr.com^
 ||jvyigg.biquge.lu^
-||jvyigg.biqumo.com^
+||jvyigg.biqugeq.com^
 ||jvyigg.zbzw.la^
 ||jwhfn.cn^
 ||jxbtl.com^
@@ -38639,7 +38639,7 @@ adbetnet.com
 ||louisan.cn^
 ||lousivency.com.cn^
 ||lownguw.top^
-||lq.booktxt.net^
+||lq.xsbooktxt.com^
 ||lq0s3c.cn^
 ||lq1.abcxs.com^
 ||lr96.top^
@@ -39152,6 +39152,7 @@ adbetnet.com
 ||sytsr.com^
 ||syxchj.cn^
 ||syxsa.cn^
+||szhgmd.com^
 ||szmxwjm.com^
 ||szqifu.com^
 ||szshouzhai.com^
@@ -39160,6 +39161,7 @@ adbetnet.com
 ||t3s9j.xyz^
 ||tabwl.com^
 ||tabyee.cn^
+||taikangshenyuan.com^
 ||tajxgs.com^
 ||taobaocoupon.cn^
 ||taolicloud.com^
@@ -39615,6 +39617,7 @@ adbetnet.com
 ||yzdcb.xyz^
 ||yzfbank.com^
 ||yzftqx.cn^
+||yzt001.com^
 ||yzylm.com^
 ||yzyszy.com^
 ||z65j.cn^
