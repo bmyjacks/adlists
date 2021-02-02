@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6LI+WXDBeTCsFEiPzu/Bvg
-! Version: 202102020750
+! Checksum: rBaoPTieGOBLBAxutNuhFA
+! Version: 202102021550
 ! Title: EasyList
-! Last modified: 02 Feb 2021 07:50 UTC
+! Last modified: 02 Feb 2021 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -26937,6 +26937,8 @@ _popunder+$popup
 ##.nivo-ad-container
 ##.nl2ads
 ##.nm-ad
+##.nmAd_BB-wr
+##.nmAd_FB
 ##.nn-mpu
 ##.no1postadvert
 ##.noAdForLead
@@ -29756,6 +29758,7 @@ _popunder+$popup
 ##.widget_sdac_skyscraper_ad_widget
 ##.widget_sdac_top_ad_widget
 ##.widget_sej_sidebar_ad
+##.widget_sidebar_adrotate_tedo_single_widget
 ##.widget_sidebarad_300x250
 ##.widget_sidebarad_300x600
 ##.widget_sidebaradwidget
@@ -32503,6 +32506,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adultcamchatfree.com^
 ||adultcamfree.com^
 ||adultcamliveweb.com^
+||adultiq.club^
 ||adultlinkexchange.com^
 ||adultmoviegroup.com^
 ||adultoafiliados.com.br^
@@ -32530,6 +32534,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adxite.com^
 ||adxnexus.com^
 ||adxpansion.com^
+||adxpartner.com^
 ||adzfun.info^
 ||adzfun.me^
 ||adziondin.club^
@@ -39403,6 +39408,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ptpefoctzmmvd.com^
 ||ptrqrnadg.com^
 ||ptuarytannual.club^
+||ptuxinewhi.pro^
 ||ptvcfltikpdi.com^
 ||pucemara.com^
 ||puddingreluctantly.com^
@@ -42363,6 +42369,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||xelllwrite.com^
 ||xenddwrxygjcbq.com^
 ||xeqbdmuvjqt.com^
+||xesigyno.pro^
 ||xeverirpunyv.com^
 ||xevhszzauj.com^
 ||xfasadle.com^
@@ -48650,6 +48657,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adx-t.com^$popup,third-party
 ||adxite.com^$popup
 ||adxpansion.com^$popup
+||adxpartner.com^$popup
 ||adxprtz.com^$popup,third-party
 ||afclickoffers.com^$popup
 ||afcpatrk.com^$popup
@@ -53969,7 +53977,6 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 /sendspace-pop.$popup,domain=sendspace.com
 :text^$popup,domain=zippyshare.com
 ^utm_source=$popup,domain=sex.com
-browserleaks.com###vpn_img
 ||adf.ly/*.php?$popup
 ||adf.ly/_$popup
 ||adf.ly^$popup,domain=urgrove.com
