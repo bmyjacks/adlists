@@ -7930,7 +7930,7 @@ dreamprogs.net##td[width="88"][height="31"]
 ||apple.com/metrics/
 ||arcpublishing.com^*/datapoint/save
 ||assets-jpcust.jwpsrv.com/*/ping.js
-||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|gittigidiyor.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru
+||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|gittigidiyor.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it
 ||at.mklaud.com/at/at_log_*.php
 ||auto-bild.de/*/gaEvents
 ||auto-motor-und-sport.de/js/sophus3/logging.js
@@ -10068,11 +10068,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||marketo.com/index.php/form/
 ! https://forum.adguard.com/index.php?threads/31245/
 @@||ssl.google-analytics.com/ga.js$domain=gmail.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/30981
-@@||googletagmanager.com/gtm.js$domain=reuters.com
-@@||google-analytics.com/analytics.js$domain=reuters.com
-@@||google-analytics.com/gtm/js?id=$domain=reuters.com
-@@||google-analytics.com/plugins/ua/linkid.js$domain=reuters.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30136
 @@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=crunchyroll.com|elconfidencial.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33440
