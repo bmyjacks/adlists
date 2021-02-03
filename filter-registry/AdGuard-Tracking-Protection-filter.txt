@@ -221,6 +221,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||event.syndigo.cloud^
+||event.webcollage.net^
 ||dataunion.com.br^$third-party
 ||breathebuds.com^
 ||4sqt6jq.de^
@@ -6530,6 +6532,10 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||episerver.net/ia.gif?r=
+||peerius.episerver.net/tracker/
+||gratis.com/ccstoreui/*/analytics/visitorsMetric
+||h.seznam.cz/hit/?
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 the-ans.jp##.side-reccomend
 ||googleadservices.com/pagead/conversion_async.js$redirect=nooptext,domain=orcd.co
@@ -9049,6 +9055,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/73395
+@@||googletagmanager.com/gtm.js$domain=kruidvat.nl
 ! fix wechat
 @@||data.mistat.xiaomi.com^$app=com.tencent.mm
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72365
