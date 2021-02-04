@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KUAqjZUbu8+yt+aO+CEpsg
-! Version: 202102040750
+! Checksum: ztlRgjIKTlwZ2g46M7Q/qw
+! Version: 202102041550
 ! Title: EasyList Cookie List
-! Last modified: 04 Feb 2021 07:50 UTC
+! Last modified: 04 Feb 2021 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14591,6 +14591,7 @@ piqd.de##.js-flash_message-container
 kleiderkreisel.de,mamikreisel.de##.js-notification
 muenchen-heilpraktiker-psychotherapie.de##.jtci
 hey.car##.kigihv-0
+go-windows.de##.kit-sticky-privacy
 assura.ch##.kmVGim.sc-1ulmn3o-0
 fairmondo.de##.l-news-header
 urbia.de##.layer-confirm-bottom
@@ -16232,6 +16233,7 @@ yoigo.com#@#thor-cookies
 @@||bbci.co.uk^*/cookie-library.min.js
 @@||betterworldbooks.com/app/components/cookienotice.js$script,~third-party
 @@||bolha.com/js/obj.cookiesPolicy.js
+@@||brandexperience-group.com/assets/js/cookie.notice.min.js$script,~third-party
 @@||businessinsider.in/gdpr_js/version-12,minify-1.cms$script,~third-party
 @@||c.evidon.com/sitenotice/evidon-sitenotice-tag.js$script,domain=southpark.de|southparkstudios.nu
 @@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|crfashionbook.com|doctoroz.com|eurogamer.net|gmx.com|mail.com|reuters.com|rockpapershotgun.com|rte.ie|trustpilot.com|tvn24.pl

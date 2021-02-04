@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BRhm3i3Qy20VdW4Djf6H7A
-! Version: 202102040750
+! Checksum: XZbDTYkfiIlH5EAw8+s20g
+! Version: 202102041550
 ! Title: EasyList
-! Last modified: 04 Feb 2021 07:50 UTC
+! Last modified: 04 Feb 2021 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7132,7 +7132,7 @@
 /webads/*
 /webads_
 /webadserver.
-/webadvert.
+/webadvert.$domain=~webadvert.ru
 /webadvert/*
 /webadvert3/*
 /webadverts/*
@@ -20557,6 +20557,7 @@ _popunder+$popup
 ##.ad_v300
 ##.ad_vertisement
 ##.ad_viewtop
+##.ad_w300h450
 ##.ad_w300i
 ##.ad_w_us_a300
 ##.ad_warn
@@ -25705,6 +25706,7 @@ _popunder+$popup
 ##.html-block-ads
 ##.html-component-ad-filler
 ##.html5-ad-progress-list
+##.hw-ad--frTop
 ##.hwg-row-ad
 ##.hyad
 ##.hype_adrotate_widget
@@ -31507,6 +31509,7 @@ wg-gesucht.de#@#.adslot_blurred
 cutepdf-editor.com#@#.adtable
 absolute.com#@#.adtile
 smilelocal.com#@#.adtop
+brandexperience-group.com#@#.adv-banner
 dobro.systems#@#.adv-box
 dobro.systems#@#.adv-list
 promodj.com#@#.adv300
@@ -35298,7 +35301,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fifteenprefixselfemployed.com^
 ||filamentrectificationsetback.com^
 ||fimpromote.club^
-||finchtechs.com^
 ||findicaterperty.site^
 ||fingahvf.top^
 ||fingerous.club^
@@ -45118,6 +45120,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||filetarget.net^$third-party
 ||filterycreasona.info^$third-party
 ||fimserve.com^$third-party
+||finchtechs.com^$third-party
 ||find-my-great-life.com^$third-party
 ||findbetterresults.com^$third-party
 ||findepended.com^$third-party
