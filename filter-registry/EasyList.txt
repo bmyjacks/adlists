@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Uh488qDQZx2gIG6Z0BFXQQ
-! Version: 202102031550
+! Checksum: dZa+AjGbPOvX64YL1EFbTg
+! Version: 202102032350
 ! Title: EasyList
-! Last modified: 03 Feb 2021 15:50 UTC
+! Last modified: 03 Feb 2021 23:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9691,6 +9691,7 @@ _popunder+$popup
 ###TPVideoPlayerAd300x250
 ###Tadspacecbar
 ###Tadspacefoot
+###Tadspacefootlb
 ###Tadspacehead
 ###Tadspacemrec
 ###TextLinkAds
@@ -51262,7 +51263,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||download.bitdefender.com/resources/media/$third-party
 ||downloadandsave-a.akamaihd.net^$third-party
 ||downloadprovider.me/en/search/*?aff.id=*&iframe=$third-party
-||dpbfm6h358sh7.cloudfront.net^
 ||dpsq2uzakdgqz.cloudfront.net^
 ||dq3yxnlzwhcys.cloudfront.net^
 ||dqhi3ea93ztgv.cloudfront.net^
