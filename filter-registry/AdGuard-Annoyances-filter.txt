@@ -4024,6 +4024,7 @@ thepostmillennial.com,muropaketti.com,visajourney.com,dennikn.sk,ixbt.com,encuen
 @@||cdn.ligainsider.de/uploads/elements/*/js/ads.js
 !#safari_cb_affinity
 !
+terlizzilive.it#%#//scriptlet('prevent-setTimeout', '#rbm_block_active')
 schwaebische.de##.goodies
 myfxbook.com#%#//scriptlet('set-cookie', 'lastAdBlockerMessageDisplayedDate', '1')
 client.googiehost.com##.banner
@@ -5484,6 +5485,7 @@ postimees.ee#$#.adblock-notif { display: none !important; }
 postimees.ee#%#//scriptlet('remove-class', 'cookie-paywall-visible', 'article[class^="root"]')
 !
 !#safari_cb_affinity(general)
+@@||terlizzilive.it/TemplateLive/app/assets/js/prebid-ads.js
 kvador.com#@#.adsBox
 cartoonbrew.com#@##sponsorText
 @@||paywall.production.ippen.space/js/dfp.min.js
@@ -7975,6 +7977,11 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+numero.wiki###myCookieConsent
+mydealz.de#$#.cookies-message { display: none !important; }
+mydealz.de#$#.popover-cover { display: none !important; }
+mydealz.de#$#body { overflow: auto !important; }
+motorola.com.br##.c-privacy-police
 novavax.com###block-privacypolicypopup
 pixelexperience.org###ez-cookie-dialog-wrapper
 virustotal.com##.disclaimers-container
@@ -12013,7 +12020,7 @@ aldoshoes.com##.c-cookie-notice
 airbus.com,ncoi.nl,richardmille.com,scheidegger.nl##.c-cookies
 armyrecognition.com##.cadre_alert_cookies
 elcorreo.com,revespcardiol.org##.capa-cookies
-netdoktor.de,nflstreams.me,toolslib.net,vipbox.nu##.cc-floating
+domain-status.com,netdoktor.de,nflstreams.me,toolslib.net,vipbox.nu##.cc-floating
 ockles.com,mkvtoolnix.download,mlbstream.me,vipleague.me##.cc-window
 freebitco.in,sozialversicherung-kompetent.de,mobile-tracker-free.com,store.bistudio.com,hifi-forum.de,m.apotheken-umschau.de,futhead.com,gofobo.com,mobiflip.de,news.de##.cc_banner-wrapper
 infranken.de##.cc_banner-wrapper_FB
@@ -13403,6 +13410,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/74052
+mydealz.de#@#.cookies-message
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73816
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=kinuskikissa.fi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73736
@@ -16244,6 +16253,8 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+player.one##.grwf2_backdrop
+player.one##.grwf2-wrapper
 hoihoi.whotwi.com#$##cheetah_modal { display: none !important; }
 hoihoi.whotwi.com#$#.modal-backdrop { display: none !important; }
 hoihoi.whotwi.com#$#body.modal-open { overflow: auto !important; }
@@ -19411,6 +19422,7 @@ macwelt.de,pcwelt.de#%#AG_setConstant('firebase.messaging', 'noopFunc');
 .site/?pus=$script,third-party
 !
 ! /pnsw_init.js
+||stumtererum.com^$third-party
 ||chensenconter.com^$third-party
 ||powr.io^$third-party
 ||colamirus.com^$third-party
@@ -19736,7 +19748,7 @@ macwelt.de,pcwelt.de#%#AG_setConstant('firebase.messaging', 'noopFunc');
 /pushJs/*$third-party,script
 ||gogool.ru^$third-party
 ||cdn.subscribers.com^$third-party
-||push.akket.com^$third-party
+||push.akket.com^
 ||wwopenclick.vip^$third-party
 .vafrike.ru^$third-party
 ||maylohack.ru^$third-party
@@ -19753,6 +19765,7 @@ macwelt.de,pcwelt.de#%#AG_setConstant('firebase.messaging', 'noopFunc');
 ||motazeever.com^$third-party
 ||shaidolt.com^$third-party
 ||sitreleastme.info^$third-party
+||api.pushnami.com^$third-party
 !
 ||ria.ru/js/firebase/firebase-messaging.js
 ||gstatic.com/firebasejs/*/firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org
