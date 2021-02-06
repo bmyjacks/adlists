@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3SHPeL96OKsvEZ3vDvN48g
-! Version: 202102060750
+! Checksum: db+1elRjxUUrBXsLdVzkHQ
+! Version: 202102061550
 ! Title: EasyList
-! Last modified: 06 Feb 2021 07:50 UTC
+! Last modified: 06 Feb 2021 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -21867,6 +21867,7 @@ _popunder+$popup
 ##.adspace-336x280
 ##.adspace-728x90
 ##.adspace-MR
+##.adspace-lb
 ##.adspace-leaderboard
 ##.adspace-mpu
 ##.adspace-widget
@@ -33730,6 +33731,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||chargeboundaryearlap.com^
 ||chargingsensationmetropolitan.com^
 ||charmour.club^
+||chaserwit.top^
 ||chasteminihaunting.com^
 ||chatintegrationastonishing.com^
 ||chauksoa.net^
@@ -34361,6 +34363,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||disapprovalaccusedirt.com^
 ||disavowtwelve.com^
 ||disconnectedabsolutionjudged.com^
+||discoreafr.fun^
 ||discountryvc.club^
 ||discountwound.com^
 ||discourteousrecitalparole.com^
@@ -34542,6 +34545,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dtscout.com^
 ||dtsedge.com^
 ||dtusmzjdycvk.com^
+||duagzscxqwejvk.com^
 ||duamgurza.com^
 ||duamuprs.com^
 ||dubkenduo.com^
@@ -36532,6 +36536,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||inswebt.com^
 ||intelligenceadx.com^
 ||interdfp.com^
+||interfacewarrefrain.com^
 ||interferingchauffeurorbit.com^
 ||intermediaryinvoluntaryflippant.com^
 ||internewsweb.com^
@@ -36906,6 +36911,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||jumperproprietaryfifth.com^
 ||junmediadirect.com^
 ||juoyisupjqds.com^
+||jupozbjmq.com^
 ||juroudaw.com^
 ||jurysatisfy.com^
 ||jusrlkubhjnr.com^
@@ -37418,6 +37424,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lijzkjtk.com^
 ||liketube.xyz^
 ||liliy9aydje10.com^
+||limetreenearly.com^
 ||limitagesdidjet.site^
 ||limitaterer.club^
 ||limnigraphes.xyz^
@@ -38109,6 +38116,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mujgirreveals.club^
 ||mujzsntbwzwc.com^
 ||mumlionslew.com^
+||mummyanonymous.com^
 ||mungaryn.club^
 ||municalcurit.club^
 ||municalwarn.top^
@@ -40746,6 +40754,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sololockscoin.com^
 ||soltitate.site^
 ||solutelynewt.site^
+||somedayanchovydepressing.com^
 ||somethingprecursorfairfax.com^
 ||sometream.club^
 ||somewhate.club^
@@ -54244,7 +54253,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||zanox.com^$popup,domain=pregen.net
 ||zmovie.tv^$popup,domain=vidbox.net
 ! about:blank popups
-/about:blank#/$popup,domain=22pixx.xyz|9anime.to|disk.ly|dood.to|dood.watch|fmovies.to|gogoanime.pro|hydracdn.network|imagetwist.com|mixdrop.co|mstream.xyz|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|streamtape.cc|streamtape.com|streamtape.site|upstream.to|uptostream.com|vev.io|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidup.io|vortez.net|vshare.eu|watchserieshd.tv
+/about:blank#/$popup,domain=22pixx.xyz|9anime.to|disk.ly|dood.to|dood.watch|fmovies.to|gogoanime.pro|hydracdn.network|imagetwist.com|mixdrop.co|mstream.xyz|player.cineflixtv.net|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|streamtape.cc|streamtape.com|streamtape.site|upstream.to|uptostream.com|vev.io|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidup.io|vortez.net|vshare.eu|watchserieshd.tv
 ! html/image popups
 /^https?:\/\/.*\.(jpg|png|php|html|svg|ico)/$popup,domain=5movies.fm|animepahe.com|hulkstreams.com|jackstreams.com|live-golf.stream|olympicstreams.me|redirect-ads.com|speedvideo.net|streamtape.cc|streamtape.net|strikeout.nu|telerium.net|vipleague.cc|watchserieshd.tv
 !
@@ -54354,8 +54363,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||girlfriendvideos.com/ad
 ||girlsintube.com/images/get-free-server.jpg
 ||girlsnaked.net/gallery/banners/
-||girlsofdesire.org/eve/goal/
-||girlsofdesire.org/ginna/cheers/$script
+||girlsofdesire.org/pear/
 ||glam0ur.com/ssbgtdopwe.php
 ||glamour.cz/banners/
 ||gloryholegirlz.com/images/banners/

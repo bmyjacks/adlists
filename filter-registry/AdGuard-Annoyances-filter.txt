@@ -81,6 +81,8 @@
 youtube.com,youtube-nocookie.com#%#//scriptlet('set-constant', 'ytInitialPlayerResponse.adPlacements', 'undefined')
 youtube.com,youtube-nocookie.com#%#//scriptlet('set-constant', 'playerResponse.adPlacements', 'undefined')
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/73851
+bfmtv.com#$#.video-js.vjs-pip-active { position: static!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73398
 mc.today##.bottom-social
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73618
@@ -1750,6 +1752,7 @@ bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustanti
 ! ###mc_embed_signup
 cachevalleydaily.com,bisnis.com,ilpost.it,bsblog.info,alcoparty.com.ua,codastory.com,informazionefiscale.it,kerch.fm,cinemablend.com,prostofinovo.ru,comss.ru,majorgeeks.com,buhgalter.com.ua,providr.com,24tv.ua,babylonbee.com,dexerto.com,football365.com,menrec.com,netdoktor.de,ottawamatters.com,retail-insider.com,walterfootball.com,wweek.com,zozhnik.ru###mc_embed_signup
 !
+all3dp.com##.modal-container
 globalnews.ca##.c-newsletterSignup
 dailydot.com##footer
 markmanson.net##.footer-opt-in
@@ -8598,7 +8601,6 @@ mytime.de#$#.modal--cookie-notice { display: none !important; }
 lenovocampus.de,e-yaz.com.tr,legal-entrepreneurship.org##.avia-cookie-consent-wrap
 paypal.com###ccpaCookieBanner
 vakifbank.com.tr##.fixed-cookie-content
-kalkinma.com.tr###notify-cookie
 parafcard.com.tr#$#body { padding-top: 45px !important; }
 parafcard.com.tr#$#.topMenuBarMobile { top: 0 !important; }
 parafcard.com.tr#$#.personaWarn { display: none !important; }
@@ -9647,7 +9649,6 @@ fotocommunity.de###flashmessage-cookies
 bwin.com##.cookie-consent-message
 coinbase.com##div[class*="CookieWarning"]
 blablacar.de##div.CookieBanner
-takasbank.com.tr##.warning-bar-item[data-w-id="cookie"]
 emlakbank.com.tr##.o-cookie
 wuestenrot.de##.WW_MOD_EM_10-0-cookiemodul
 sc.com###alert_info_new
@@ -12372,6 +12373,12 @@ wykop.pl#$#.type-permanent+#nav { top: 0!important; }
 ||unsertirol24.com/analytics/analytics_cookie.js
 !
 !+ NOT_OPTIMIZED
+takasbank.com.tr##.warning-bar-item[data-w-id="cookie"]
+!
+!+ NOT_OPTIMIZED
+kalkinma.com.tr###notify-cookie
+!
+!+ NOT_OPTIMIZED
 calovo.de##.ga-opt-in
 !
 sparda-bank-hamburg.de,sparda-b.de,sparda-sw.de##.lightbox--cookie-consent
@@ -13422,6 +13429,9 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/73918
+!+ PLATFORM(ios, ext_safari)
+@@||cmp.uniconsent.com/v*/stub.min.js$domain=xda-developers.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74052
 mydealz.de#@#.cookies-message
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73816
