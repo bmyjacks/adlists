@@ -1068,6 +1068,17 @@
 127.0.0.1 i.adsame.com
 127.0.0.1 mapping.adsame.com
 
+# [adsbynimbus.com]
+127.0.0.1 adsbynimbus.com
+127.0.0.1 growlr.adsbynimbus.com
+127.0.0.1 mixerbox-lite.adsbynimbus.com
+127.0.0.1 mw-encyclopediabritannica.adsbynimbus.com
+127.0.0.1 timehop.adsbynimbus.com
+127.0.0.1 turbo.adsbynimbus.com
+127.0.0.1 ua-myfitnesspal.adsbynimbus.com
+127.0.0.1 weatherbug.adsbynimbus.com
+127.0.0.1 yoc-steps.adsbynimbus.com
+
 # [adscale.de]
 127.0.0.1 cotads.adscale.de
 127.0.0.1 hb.adscale.de
@@ -12866,9 +12877,6 @@
 127.0.0.1 eks-prod-1c.vungle.com
 127.0.0.1 kourier-tpat.eks-prod-1c.vungle.com
 127.0.0.1 ingest.vungle.com
-
-# [w-x.co]
-127.0.0.1 v.w-x.co
 
 # [w3i.com]
 127.0.0.1 w3i.com
