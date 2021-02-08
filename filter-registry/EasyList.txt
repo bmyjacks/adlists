@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mTBUIA2vyadFao6JdyKg4Q
-! Version: 202102080750
+! Checksum: mpLzB9Z4DItliSWv82C0Bg
+! Version: 202102081550
 ! Title: EasyList
-! Last modified: 08 Feb 2021 07:50 UTC
+! Last modified: 08 Feb 2021 15:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31793,6 +31793,7 @@ mrskin.com#@#a[href^="http://www.mrskin.com/tour"]
 socialsex.com#@#a[href^="http://www.socialsex.com/"]
 buzzfeed.com,spaargids.be,yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
+book.isleofskye.com#@#a[href^="https://prf.hn/click/"][href*="/camref:"]
 healthmeans.com#@#a[href^="https://servedbyadbutler.com/"]
 trust.zone#@#a[href^="https://trust.zone/"]
 financeads.de#@#a[href^="https://www.financeads.net/tc.php?"]
@@ -35188,6 +35189,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fadskis.com^
 ||fadskiz.com^
 ||fadslims.com^
+||fadslimz.com^
 ||fadsoks.com^
 ||fadsokz.com^
 ||fadspms.com^
@@ -52712,6 +52714,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lsbet.com/bonus/$popup,third-party
 ||lumosity.com/landing_pages/$popup
 ||lyricsbogie.com/?$popup,third-party
+||mackeeperaffiliates.com/landings/$popup
 ||makemoneyonline.2yu.in^$popup
 ||maxedtube.com/video_play?*&utm_campaign=$popup,third-party
 ||mcars.org/landing/$popup,third-party
@@ -56649,6 +56652,7 @@ foodfacts.com##.slimBanner
 ecommercetimes.com##.slink-text
 ecommercetimes.com##.slink-title
 inbox.com##.slinks
+imdb.com##.slot_wrapper
 gamesradar.com,techradar.com##.slotify-contents
 bikeexif.com##.small
 tbs.com##.smallBanners
@@ -58038,7 +58042,7 @@ pornhub.com,pornhubthbh7ap3u.onion##sads
 mysexgames.com##table[height="630"]
 mysexgames.com##table[height="640"]
 motherless.com##table[style*="max-width:"]
-mysexgames.com##table[style*="width:854px]
+mysexgames.com##table[style*="width:854px"]
 humoron.com##table[width="527"]
 rude.com##td[height="25"]
 sharks-lagoon.fr##td[width="164"][valign="top"][bgcolor="#3366ff"][align="center"]
@@ -58196,6 +58200,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|epaper.timesgroup.com|espn.com|etf.com|gamespot.com|nbcsports.com|webmd.com
 @@||dwiextreme.com/banners/dwiextreme$image
 @@||edmodo.com/ads$~third-party,xmlhttprequest
+@@||einthusan.tv/prebid.js$script,~third-party
 @@||emergencymedicalparamedic.com/wp-content/themes/AdSense/style.css
 @@||engine.adzerk.net/api/$domain=tradingview.com
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
