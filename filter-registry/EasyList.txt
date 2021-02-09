@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mpLzB9Z4DItliSWv82C0Bg
-! Version: 202102081550
+! Checksum: +oNc5lYPq+3/gpHplMrBsg
+! Version: 202102082350
 ! Title: EasyList
-! Last modified: 08 Feb 2021 15:50 UTC
+! Last modified: 08 Feb 2021 23:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -523,7 +523,7 @@
 .adnetwork.$domain=~adnetwork.ie|~adnetwork.sk
 .adnigma.
 .adnwif.
-.adpartner.$domain=~adpartner.cz
+.adpartner.$domain=~adpartner.cz|~adpartner.de
 .adpIds=
 .adplacement=
 .adproviders.
@@ -3221,7 +3221,7 @@
 /adstube/*
 /adstubs/*
 /adstx.
-/adstyle.$~stylesheet
+/adstyle.$~stylesheet,domain=~adstyle.com
 /adsummos.
 /adsummos2.
 /adsunauth?
@@ -7293,7 +7293,7 @@
 ://adcl.$domain=~adcl.com|~adcl.screenconnect.com
 ://adn.*/zone/$subdocument
 ://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.instacart.com|~ads.lapalingo.com|~ads.lordlucky.com|~ads.microsoft.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
-://adv.$domain=~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.vg|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+://adv.$domain=~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://affiliates2.$third-party
@@ -9366,6 +9366,7 @@ _popunder+$popup
 ###AdvertsBottomR
 ###Adverts_AdDetailsBottom_300x600
 ###Adverts_AdDetailsMiddle_300x250
+###AfsAd_googleAdBlock1
 ###AnchorAd
 ###ArticleBottomAd
 ###ArticleContentAd
@@ -28994,6 +28995,7 @@ _popunder+$popup
 ##.text-g-nn-web-group-ad-halfpage
 ##.text-g-sponsored-ads
 ##.text-g-sponsored-links
+##.text-panel-ad
 ##.textAd3
 ##.textAdBG
 ##.textAdBlock
@@ -33471,6 +33473,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||btemegxbnalq.com^
 ||btgxicdivmtv.com^
 ||btkxogjoxtd.com^
+||btnldivewzzfso.com^
 ||btonzfjleinuax.com^
 ||btrdlsehltu.com^
 ||btttmgxtziztqq.com^
@@ -43166,6 +43169,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zudlddyzgogsh.com^
 ||zudrurta.com^
 ||zugnogne.com^
+||zunsoach.com^
 ||zuphaims.com^
 ||zurilito.online^
 ||zursiicizyhd.com^
@@ -55355,6 +55359,7 @@ forum.wordreference.com###topSupp
 computing.net,sportsclimax.com###top_banner
 caribpress.com###top_banner_container
 jamaicaobserver.com###top_leaderboard
+imdb.com###top_rhs
 getlyrics.com###top_right
 repeatmyvids.com,w3newspapers.com###topads
 scorespro.com###topban
@@ -55890,6 +55895,7 @@ techrepublic.com##.content-mpu-top
 pwinsider.com##.content-right
 jmail.co.za,tsamail.co.za,webmail.co.za##.content-section-left
 crmbuyer.com,ectnews.com,macnewsworld.com,technewsworld.com##.content-tab-slinks
+imdb.com##.cornerstone_slot
 physicsworld.com##.corporate-partners
 insider.com##.coupons-link
 troypoint.com##.cp-subscriber-newsletter
@@ -56831,6 +56837,7 @@ webtoolhub.com##.wth_zad_text
 mcpmag.com##.xContent
 bit-tech.net##.xtag_container
 pravda.ru##.yaRtbBlock
+imdb.com##.yesScript
 shockwave.com##.ympb_target_banner
 thehackernews.com##.zoho-box
 hltv.org##[class*="widget"]
@@ -57091,6 +57098,7 @@ broadbandforum.co##ins[data-ad-client]
 monova.org##script + [class] > [class]:first-child
 tempostorm.com##side-banners
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id="MAIN-CARDS-0"]
+amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[class*="widgetId=loom-desktop-brand-footer-slot_hsa-id"]
 realitytvworld.com##table[border="0"][align="left"]
 roadtester.com.au##table[cellpadding="9"][border="0"]
 windycitymediagroup.com##table[height="250"]
