@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-02-08T18:02:57.466Z
+! Last modified: 2021-02-09T06:03:00.304Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -19316,6 +19316,7 @@ vkcdnservice.appspot.com^
 ! relateddigital.com domains
 ||visilabs.com^
 !
+||tk.promit.ru^
 ||ztest1track.com^
 ||phar.gu-web.net^
 ||stats.vk-portal.net^
@@ -36559,6 +36560,8 @@ adbetnet.com
 ||221.5.69.52^*.js
 ||222.45.224.77^*.js
 ||31vcd.com^*.js
+||3337723.com^
+||3337738.com^
 ||360safego.com^
 ||5y9nfpes.52pk.com^
 ||6080yy.net^*0x
@@ -36903,8 +36906,6 @@ adbetnet.com
 ||zhimg.com^*adx
 ||zt2088.com^
 ||ztyumn.ifeng.com^
-||3337723.com^
-||3337738.com^
 @@||95599.cn^*ad
 @@||abchina.com^*ad
 @@||ad.10010.com^
@@ -36931,6 +36932,7 @@ adbetnet.com
 @@||yzzkb.com.cn^*ad.
 ||immedlinkum.info^
 ||xayah.date^
+||a.78yx.net^
 ||003store.com^
 ||1.01fy.cn^
 ||1.1010pic.com^
@@ -37687,10 +37689,7 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||happyyong.com^
-||n18uji.xyz^
-||oppaid.com^
-||cndaizi.com^
+||beizhoujt.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -38007,7 +38006,7 @@ adbetnet.com
 ||babalink.top^
 ||baful.net^
 ||bahu.xyz^
-||baidu.bxwx555.org^
+||baidu.bxwx3.org^
 ||baiduspider1.cn^
 ||bailequan.net.cn^
 ||baitaoidc.com^
@@ -38177,6 +38176,7 @@ adbetnet.com
 ||clmmw.com^
 ||clxxkz.com.cn^
 ||cn-3drp.com^
+||cndaizi.com^
 ||cniuv.com^
 ||cnlhg.cn^
 ||cnliken.com^
@@ -38548,6 +38548,7 @@ adbetnet.com
 ||haomaojin.com^
 ||haoxianyangrouye.com^
 ||haoxinq.top^
+||happyyong.com^
 ||hasiad.cn^
 ||hatbiz.cn^
 ||hawbfa.com^
@@ -38580,6 +38581,7 @@ adbetnet.com
 ||hesepd.cn^
 ||heshunjituan.com^
 ||heylookhere.top^
+||hflvhua.com^
 ||hfyxdl.com^
 ||hgdanbas.cn^
 ||hguas.com^
@@ -39046,6 +39048,7 @@ adbetnet.com
 ||myuf6.xyz^
 ||myycrw.com^
 ||mzclass.club^
+||n18uji.xyz^
 ||nabeghlavi.com.cn^
 ||nainaimi.top^
 ||najingyi.cn^
@@ -39134,6 +39137,7 @@ adbetnet.com
 ||onlyshow.top^
 ||onsiterope.com^
 ||opengam.com^
+||oppaid.com^
 ||opyyy.com^
 ||orlandomp.com^
 ||orvibum.cn^

@@ -8017,6 +8017,7 @@ mydealz.de#$#.popover-cover { display: none !important; }
 mydealz.de#$#body { overflow: auto !important; }
 motorola.com.br##.c-privacy-police
 novavax.com###block-privacypolicypopup
+themeisle.com##.ch2-dialog
 pixelexperience.org###ez-cookie-dialog-wrapper
 virustotal.com##.disclaimers-container
 livexlive.com##.tos-footer
@@ -8438,7 +8439,7 @@ drugs.com##.ddc-modal
 drugs.com##.ddc-overlay
 netpeak.net,spark.ru,cmd-online.ru,krovat.ru###cookies-using-message
 shop.apotal.de##footer::after
-bilgibizde.net,youtebem.com,sgkbilgisi.com,withinnigeria.com##.bs-gdpr-law
+emlakhaberajansi.com,bilgibizde.net,youtebem.com,sgkbilgisi.com,withinnigeria.com##.bs-gdpr-law
 ggbet.ru##.info-message--cookie-agreement
 french.peopledaily.com.cn###shengmingTip
 gry.lotto.pl###cookie__note
@@ -13021,6 +13022,7 @@ grants.at#%#//scriptlet('set-cookie', 'cookieconsent_status_new', '1')
 ipaper.io#%#//scriptlet('remove-class', 'noScroll', 'html.noScroll')
 comidoc.net#%#//scriptlet('set-cookie', 'consent', 'true')
 joinhoney.com#%#//scriptlet('set-cookie', 'acceptedCookiePolicy', '1')
+pcworld.com#%#AG_onLoad(function() { setTimeout(function() { var el = document.querySelector('button[aria-label="I Agree"]'); if(el) { el.click(); } }, 1000); });
 rtl.de#%#AG_onLoad(function() { setTimeout(function() { var el = document.querySelector('button[title="Alle akzeptieren"]'); if(el) { el.click(); } }, 1000); });
 oventrop.com#%#//scriptlet("abort-current-inline-script", "$", "ConsentModalControl_divModal")
 gq-magazine.co.uk#%#AG_onLoad(function() { setTimeout(function() { var el = document.querySelector('button[id="onetrust-accept-btn-handler"]'); if(el) { el.click(); } }, 800); });
@@ -16322,6 +16324,7 @@ hoihoi.whotwi.com#$#body.modal-open { overflow: auto !important; }
 wowcircle.net##.banner-corner
 pandawow.ru##.container > div[style^="display:inline-block;"][style*="position:fixed;"]
 wowcircle.net##.guestwarn
+||tinypass.com/checkout/template/show?displayMode=modal&templateId=*
 pricelulu.co.uk#$#.popup-wrapper { display: none !important; }
 pricelulu.co.uk#$#html { overflow: auto !important; }
 fctables.com#$##modal_mailing { display: none!important; }
@@ -16699,7 +16702,7 @@ pdfdrive.com#$#body { overflow: visible !important; padding-right: 0 !important;
 prokazan.ru###telegram_subscription
 ||aykiri.com.tr/template/js/jquery.modal.js
 dreamstime.com#%#//scriptlet("prevent-setTimeout", "SignUPPopup_load", "5000")
-wagwalking.com##.ReactModal__Overlay--after-open
+motorola.com,wagwalking.com##.ReactModal__Overlay--after-open
 ||turkishfoodchef.com/wp-content/plugins/wordpress-popup/assets/hustle-ui/js/hustle-ui.min.js
 wppbaz.com,prostobank.ua###overlay
 cybernews.com##.dialog-lightbox-widget
@@ -21672,6 +21675,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/74255
+uniqueten.net,ultraten.net#%#//scriptlet("adjust-setInterval", "wpsafe", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74031
 dlfiles.online#%#//scriptlet("adjust-setTimeout", "Tick", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74297
