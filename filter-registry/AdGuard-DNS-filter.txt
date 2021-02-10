@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-02-09T12:03:23.960Z
+! Last modified: 2021-02-10T12:03:40.854Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -19,6 +19,9 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||jcqwzssqks.com^
+||vobquhydgvyqf.com^
+||y0urf1rstd0wnl0ad.com^
 ||yourdestinationlink.com^
 ||localsnaughty.com^
 ||alawachi.net^
@@ -8930,6 +8933,7 @@ vkcdnservice.appspot.com^
 ||oaitcmlscwe.com^
 ||oajujirg.net^
 ||oakrkptc.com^
+||oanimsen.net^
 ||oapseele.net^
 ||oardilin.com^
 ||oarvfvntktnoto.com^
@@ -10707,6 +10711,7 @@ vkcdnservice.appspot.com^
 ||scenbe.com^
 ||schjmp.com^
 ||scholardevilcrayon.com^
+||scholarshipidol.com^
 ||schubbyve.club^
 ||scientialy.club^
 ||sckuhytswbs.com^
@@ -10811,6 +10816,7 @@ vkcdnservice.appspot.com^
 ||setemoump.com^
 ||setpadchat.com^
 ||setrtcjfhreqg.com^
+||setupbarton.com^
 ||sevenialfeminde.fun^
 ||sevening.club^
 ||sevenrumblepunishment.com^
@@ -19917,6 +19923,11 @@ vkcdnservice.appspot.com^
 !
 ! https://github.com/easylist/easylist/commit/a4d380ad1a3b33a0fab679a1a8c5a791321622b3
 ||functionalclam.com^
+!
+! Admiral domains
+! These domains are used for tracking purposes according to the data that is being sent there.
+! More info: https://getadmiral.com/products/measure
+||wearbasin.com^
 ||blushingbeast.com^
 ||observantice.com^
 ||balloonbit.com^
@@ -20749,7 +20760,6 @@ t.yesware.com
 ||pvtag.yahoo.co.jp^
 ||stat.adultium.com^
 ||c1.wfinterface.com^
-||l.typesquare.com^
 ||estat.zum.com^
 ||statweb.egloos.com^
 ||analytics.tio.ch^
@@ -25556,6 +25566,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
+||d2j1fszo1axgmp.cloudfront.net^
 ||d2kdl5wcwrtj90.cloudfront.net^
 ||d2nxi61n77zqpl.cloudfront.net^
 ||d2o67tzzxkqap2.cloudfront.net^
@@ -25690,6 +25701,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ga.kvideo.io^
 ||ga.webdigi.co.uk^
 ||gateway.foresee.com^
+||gemius.mgr.consensu.org^
 ||geo.ertya.com^
 ||geo.gorillanation.com^
 ||geo.kaloo.ga^
@@ -25757,6 +25769,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||l.ooyala.com^
 ||l.player.ooyala.com^
 ||l.sharethis.com^
+||l.typesquare.com^
 ||laurel.macrovision.com^
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
@@ -27051,9 +27064,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||2iui01.com^
 ||2parale.ro^
 ||2performant.com^
+||aghtag.tech^
 ||best-top.ro^
 ||gtop.ro^
 ||hit100.ro^
+||pahtag.tech^
 ||profitshare.ro^
 ||retargeting.biz^
 ||statistics.ro^
@@ -33199,6 +33214,7 @@ adbetnet.com
 ||as997.de^
 ||asnetworks.de^
 ||auxmoney-partnerprogramm.de^
+||ay.delivery^
 ||ba-content.de^
 ||bacontent.de^
 ||bannerchange.net^
@@ -33264,7 +33280,7 @@ adbetnet.com
 ||geldcounter.de^
 ||gigapromo.de^
 ||goldbach.com^
-||gollox.de^
+!
 ||gonamic.de^
 ||goodads.de^
 ||green-ads.net^
@@ -33272,7 +33288,6 @@ adbetnet.com
 ||handy-ads.de^
 ||heias.com^
 ||highad.de^
-||homeads.de^
 ||hovg.de^
 ||ibanner.de^
 ||iias.eu^
@@ -33285,22 +33300,18 @@ adbetnet.com
 ||itrack.it^
 ||jink.de^
 ||kingads.net^
-||klammwerbung.de^
 ||klick4u.de^
 ||klicktausch.com^
 ||komplads.net^
 ||ktxtr.com^
-||layerpark.com^
 ||letvertise.com^
 ||liferd.de^
 ||lilaelefant.de^
-||linkads.de^
 ||linkedads.de^
 ||linkstation.de^
 ||localpoint.ch^
 ||lose4admin.de^
 ||love-money.de^
-||loved-by.s3.amazonaws.com^
 ||luxyad.com^
 ||madsack-native.de^
 ||manughl.de^
@@ -33314,27 +33325,22 @@ adbetnet.com
 ||mename.de^
 ||mirando.de^
 ||mlsat04.de^
-||mmogtrade.de^
-||moneymakers.de^
 ||mupads.de^
 ||murcs.org^
 ||myad24.de^
 ||native-commerce.com^
 ||nativendo.de^
 ||neqty.net^
-||netbizzer.net^
 ||netwayer.de^
 ||network-marketing24.com^
 ||network-media.info^
 ||networx.me^
-||newtentionassets.net^
 ||nonstoppartner.net^
 ||notenpartner.de^
 ||nwave.de^
 ||onlymega.com^
 ||paidlinkz.net^
 ||paidsolution.de^
-||partner-versicherung.de^
 ||performance-netzwerk.de^
 ||performanceanalyser.net^
 ||planetactive.com^
@@ -33342,23 +33348,15 @@ adbetnet.com
 ||pornoprinzen.com^
 ||ppac.de^
 ||premiumbesucher.de^
-||premiumdownloaden.de^
 ||profiliate.net^
-||propaid.de^
 ||ptadsrv.de^
-||pushfeeds.com^
 ||qualigo.de^
 ||quality-channel.de^
-||qualityhitz.net^
 ||quartermedia.de^
 ||quarterserver.de^
 ||rapidads.de^
 ||revresrennab.de^
 ||rgadvert.com^
-||rockvertise.net^
-||rubrikator.de^
-||scash.de^
-||schlauli.de^
 ||selfpuc.com^
 ||server4ads.com^
 ||servertraffic.de^
@@ -33366,8 +33364,6 @@ adbetnet.com
 ||sexgoesmobile.com^
 ||shareifyoulike.com^
 ||siyl.net^
-||smartaffiliate.de^
-||software-archiv.com^
 ||solads.media^
 ||sparkads.ws^
 ||sparkassen-partner.de^
@@ -33379,16 +33375,13 @@ adbetnet.com
 ||superclix.de^
 ||superpromo24.de^
 ||szene-traffic.com^
-||td-tracker.com^
 ||textklicks.de^
-||textswap.de^
 ||tfppp.com^
 ||tip-ads.de^
 ||topiaserv.net^
 ||trabro.com^
 ||tracknet.twyn.com^
 ||trafficfabrik.com^
-||trafficlayer.de^
 ||traffictrack.de^
 ||transmatico.com^
 ||trmads.eu^
@@ -36934,7 +36927,6 @@ adbetnet.com
 @@||yzzkb.com.cn^*ad.
 ||immedlinkum.info^
 ||xayah.date^
-||a.78yx.net^
 ||003store.com^
 ||1.01fy.cn^
 ||1.1010pic.com^
@@ -37033,6 +37025,7 @@ adbetnet.com
 ||a.4aqq.com^
 ||a.52wubi.com^
 ||a.52zxw.com^
+||a.78yx.net^
 ||a.91nets.cn^
 ||a.91zhongkao.com^
 ||a.armystar.com^
@@ -37137,6 +37130,7 @@ adbetnet.com
 ||bd.beimap.com^
 ||bd.czxuexi.com^
 ||bd.ershenghuo.com^
+||bd.watu.cn^
 ||bd1-china.6789.com^
 ||bd1-china.xsfaya.com^
 ||bd1.365qilu.com^
@@ -37691,7 +37685,6 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||beizhoujt.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -38033,6 +38026,7 @@ adbetnet.com
 ||bdxnc.com^
 ||bei7.clewx.com^
 ||beifmu.com^
+||beizhoujt.cn^
 ||bentengcn.com^
 ||berfd.xyz^
 ||betohomeall.com^
@@ -39069,6 +39063,7 @@ adbetnet.com
 ||netfix8.info^
 ||newknowledge.cn^
 ||ngceq.cn^
+||nggwhyk.cn^
 ||ngmaul.cn^
 ||ngsaang.top^
 ||nickarini.com^
@@ -39666,6 +39661,7 @@ adbetnet.com
 ||whxhhjx.com^
 ||wikevs.cn^
 ||win999.com.cn^
+||wjaa23.com^
 ||wjdfv.com^
 ||wjyljl.cn^
 ||wkjava.top^
