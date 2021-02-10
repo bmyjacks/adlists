@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: y9eFWNUubgGzuhE+dkygtw
-! Version: 202102091620
+! Checksum: H0AfW3KYjcQQP9Hv2uTECg
+! Version: 202102092350
 ! Title: EasyList Cookie List
-! Last modified: 09 Feb 2021 16:20 UTC
+! Last modified: 09 Feb 2021 23:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16275,7 +16275,7 @@ yoigo.com#@#thor-cookies
 @@||eurosportplayer.com/cms/articles/cookie-banner?$xmlhttprequest
 @@||evbstatic.com^*/cookie_header.js
 @@||evidon.com/sitenotice/$domain=etonline.com|popsugar.co.uk|telegraph.co.uk
-@@||files.bbci.co.uk^*/cookie-banner/$script,~third-party
+@@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk
 @@||flowbox.io/wp-content/plugins/uk-cookie-consent/
 @@||gamersgate.com/js/cookieconsent.js$script,~third-party
 @@||gearbest.com/static/dist/minjs/jcookie.js

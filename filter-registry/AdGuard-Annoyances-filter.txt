@@ -81,6 +81,8 @@
 youtube.com,youtube-nocookie.com#%#//scriptlet('set-constant', 'ytInitialPlayerResponse.adPlacements', 'undefined')
 youtube.com,youtube-nocookie.com#%#//scriptlet('set-constant', 'playerResponse.adPlacements', 'undefined')
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/74143
+nono.games##.telegram__wraper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74043
 ||vidtech.cbsinteractive.com^$domain=metrolyrics.com
 metrolyrics.com##.video-container-inline
@@ -4050,6 +4052,7 @@ sonichits.com,thepostmillennial.com,muropaketti.com,visajourney.com,dennikn.sk,i
 @@||cdn.ligainsider.de/uploads/elements/*/js/ads.js
 !#safari_cb_affinity
 !
+desktophut.com##.ads
 extreme-down.tv##div[style="display:block;position:relative"] > p.lastpost-header + p[style="color:green;"] > b
 ||ytmp3.eu/*/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,important,domain=ytmp3.eu
 balticlivecam.com###ad_block_off
@@ -8017,6 +8020,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+yatego.com###ycwBg
+yatego.com###ycwMo
 kinopoisk.ru#?#body > div:has(> div[class^="sc-"] > div[data-id="popup"] > table td[data-id="types-content"] > div[data-id="common"] > div[class^="sc-"] > a[href="https://yandex.ru/legal/cookies_policy/"])
 inbox.lt###cmp-widget-wrapper
 ||msendpointmgr.com/wp-content/plugins/responsive-cookie-consent/includes/js/scripts.js
@@ -8126,9 +8131,9 @@ oneforall.de,ladige.it,rovio.com,aida64.com,sat1spiele.de##body > #sliding-popup
 gkv-spitzenverband.de##.cb-banner
 nuernberger.de###__tealiumGDPRecModal
 sbt.com.br##app-accept-cookie
-bauplan-bauanleitung.de#$##cookie-law-info-bar { display: none !important; }
-bauplan-bauanleitung.de#$##cookie-law-info-bar ~ div.cli-modal-backdrop { display: none !important; }
-bauplan-bauanleitung.de#$#body { overflow: auto !important; }
+lewento.de,bauplan-bauanleitung.de#$##cookie-law-info-bar { display: none !important; }
+lewento.de,bauplan-bauanleitung.de#$##cookie-law-info-bar ~ div.cli-modal-backdrop { display: none !important; }
+lewento.de,bauplan-bauanleitung.de#$#body { overflow: auto !important; }
 expressen.se##.pa-dialog
 italianfoodlovers.de##.lightbox-backdrop
 palit.com###cookieok
@@ -9973,7 +9978,7 @@ sueddeutsche.de,indigodergisi.com,tekyolbilim.com##amp-user-notification
 bluemarlinibiza.com##.basic--draw-message-bar-cookie-notice
 newacropol.ru##link[href="/styles_form.css"] ~ div[style*="width: 100%; text-align:center; border-top:"]
 hikvision.com##.consent-alert-cmp-container
-bier.de##.wt-cli-cookie-bar-container
+lewento.de,bier.de##.wt-cli-cookie-bar-container
 infranken.de##.eu-cookie-warning
 dazn.com##div[data-test-id="cookie-disclaimer-wrapper"]
 arcteryx.com##.cookies-disclaimer-bar
@@ -13479,6 +13484,9 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/74382
+lewento.de#@##cliSettingsPopup
+lewento.de#@##cookie-law-info-bar
 ! fix https://www.bbc.co.uk/iplayer
 @@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk|bbc.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74204
@@ -21718,6 +21726,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/73948
+douploads.net#%#//scriptlet('adjust-setTimeout', 'seconds', '', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74255
 uniqueten.net,ultraten.net#%#//scriptlet("adjust-setInterval", "wpsafe", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74031
@@ -22120,7 +22130,7 @@ filerio.in#%#//scriptlet("adjust-setTimeout", "tick()", "", "0.02")
 retrostic.com#%#//scriptlet("adjust-setInterval", "timeLeft--", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53145
 ! '#%#//scriptlet("set-constant", "blurred", "false")'
-profitlink.info,artipedia.id,gonety.com,viraloc.com,beautyram.info,freecrypto.cyou,cashearn.cc,go2.surf,cryptoads.space,adcorto.me,modapk.link,minilinks.in,holaurl.com,adbl.live,gplinks.co,miklpro.com,kutt.io,sanoybonito.club,adwork.us,afly.pro,cutlink.link,uplinks.in,dulinks.co,short88.com,pngit.live,exe.app,adsrt.click,adcorto.xyz,shortbled.com,cuturl.in,shorttey.link,womenhaircolors.review,srts.me,paidtomoney.com,rubtech.xyz,lite-link.xyz,apkshrt.com,linkshorts.me,joska.xyz,androidnougatapk.com,pureshort.link,cointracker.live,ashort1a.xyz,recipestutorials.com,droplink.co,tawiia.com,exy.ai,100count.net,lite-link.com,bdnewsx.com,eio.io,short-cash2.xyz,mealip.com,primevideo.digital,earnfasts.com,linksfire.co,giscr.ac.th,internewstv.com,ivn3.com,pslfive.com,bigb0ss.net,fedaro.me,linksly.co,illink.net,coin.mg,trinddz.com,proshort.gq,ilinks.in,shorttey.org,techupme.com,pinnstube.com,projecto2.xyz,bitfly.io,earnguap.com,news.techrfour.com,shortzzy.in,asiashort.link,imagenesderopaparaperros.com,c-ut.com,toroox.com,saungfirmware.id,shrinkme.in,fir3.net,xz2.xyz,softairbay.com,link1s.net,cashurl.in,doctor-groups.com,bitcoinly.in,clk.ink,abdeo8.com,apksvip.com,gibit.xyz,claimcrypto.cc,shortenbuddy.com,btcdot.xyz,zlink.xyz,pkr.pw,shrinkbtc.cc,todaynewspk.win,manikusa.com,cut.my.id,linkmit.us,try2link.net,stfly.me,dz4win.com,real-sky.com,bolssc.com,short2.cash,fx4vip.com,fcdot.lc,cutdl.xyz,shrinkurl.org,mediumarticles.com,asupload.com,exee.io,srt.leechpremium.link,adsrt.live,shorter.fun,cheappath.com,fcc.lc,shorthitz.com,savelink.site,linkshorten.xyz,sk-ip.tech,tmearn.com,pozvi.icu,samapro.me,adsy.pw,owllink.net,mondainai.moe,2ota.com,popimed.com,cut4fun.com,aii.sh,sekilastekno.com,miuiku.com,articlix.com,intothelink.com,newstomat.com,pingit.link,slink.bid,7r6.com,loptelink.vip,iir.ai,biroads.com,win10.vn,rozfly.com,mitly.us,adsrt.net,afly.us,bitconews.net,tii.ai,linkviet.xyz,coredp.com,linkrex.net,bit-url.com,adsrt.org,bestearnonline.com,dutchycorp.ovh,gamesrs.com,shorten.sh,shotly.io,ouofly.com,clicksbee.com,shorterall.com,dutchycorp.space,linkshrnk.com,linkad.in,fc.lc,adslinkfly.online,shrinkme.io#%#//scriptlet("set-constant", "blurred", "false")
+gainbtc.click,profitlink.info,artipedia.id,gonety.com,viraloc.com,beautyram.info,freecrypto.cyou,cashearn.cc,go2.surf,cryptoads.space,adcorto.me,modapk.link,minilinks.in,holaurl.com,adbl.live,gplinks.co,miklpro.com,kutt.io,sanoybonito.club,adwork.us,afly.pro,cutlink.link,uplinks.in,dulinks.co,short88.com,pngit.live,exe.app,adsrt.click,adcorto.xyz,shortbled.com,cuturl.in,shorttey.link,womenhaircolors.review,srts.me,paidtomoney.com,rubtech.xyz,lite-link.xyz,apkshrt.com,linkshorts.me,joska.xyz,androidnougatapk.com,pureshort.link,cointracker.live,ashort1a.xyz,recipestutorials.com,droplink.co,tawiia.com,exy.ai,100count.net,lite-link.com,bdnewsx.com,eio.io,short-cash2.xyz,mealip.com,primevideo.digital,earnfasts.com,linksfire.co,giscr.ac.th,internewstv.com,ivn3.com,pslfive.com,bigb0ss.net,fedaro.me,linksly.co,illink.net,coin.mg,trinddz.com,proshort.gq,ilinks.in,shorttey.org,techupme.com,pinnstube.com,projecto2.xyz,bitfly.io,earnguap.com,news.techrfour.com,shortzzy.in,asiashort.link,imagenesderopaparaperros.com,c-ut.com,toroox.com,saungfirmware.id,shrinkme.in,fir3.net,xz2.xyz,softairbay.com,link1s.net,cashurl.in,doctor-groups.com,bitcoinly.in,clk.ink,abdeo8.com,apksvip.com,gibit.xyz,claimcrypto.cc,shortenbuddy.com,btcdot.xyz,zlink.xyz,pkr.pw,shrinkbtc.cc,todaynewspk.win,manikusa.com,cut.my.id,linkmit.us,try2link.net,stfly.me,dz4win.com,real-sky.com,bolssc.com,short2.cash,fx4vip.com,fcdot.lc,cutdl.xyz,shrinkurl.org,mediumarticles.com,asupload.com,exee.io,srt.leechpremium.link,adsrt.live,shorter.fun,cheappath.com,fcc.lc,shorthitz.com,savelink.site,linkshorten.xyz,sk-ip.tech,tmearn.com,pozvi.icu,samapro.me,adsy.pw,owllink.net,mondainai.moe,2ota.com,popimed.com,cut4fun.com,aii.sh,sekilastekno.com,miuiku.com,articlix.com,intothelink.com,newstomat.com,pingit.link,slink.bid,7r6.com,loptelink.vip,iir.ai,biroads.com,win10.vn,rozfly.com,mitly.us,adsrt.net,afly.us,bitconews.net,tii.ai,linkviet.xyz,coredp.com,linkrex.net,bit-url.com,adsrt.org,bestearnonline.com,dutchycorp.ovh,gamesrs.com,shorten.sh,shotly.io,ouofly.com,clicksbee.com,shorterall.com,dutchycorp.space,linkshrnk.com,linkad.in,fc.lc,adslinkfly.online,shrinkme.io#%#//scriptlet("set-constant", "blurred", "false")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53141
 4shared.com#%#(function(){-1==document.cookie.indexOf("exUserId")&&(document.cookie="exUserId=1; domain=.4shared.com; path=/;")})();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52771
