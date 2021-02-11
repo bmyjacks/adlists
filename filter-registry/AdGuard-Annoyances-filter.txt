@@ -5927,8 +5927,6 @@ dailyherald.com##.innerAd300
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=megagames.com
 !+ PLATFORM(ios, ext_android_cb)
 @@||megagames.com^$generichide
-!+ PLATFORM(ios, ext_android_cb)
-@@||postandcourier.com^$generichide
 !
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=genesisowners.com
@@ -6056,6 +6054,7 @@ thehindubusinessline.com#%#//scriptlet("set-constant", "Adblock", "false")
 ! Common safari_cb_affinity(general)
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 !#safari_cb_affinity(general)
+@@||postandcourier.com^$generichide
 @@||ytmp3.eu/*/pagead/js/adsbygoogle.js$domain=ytmp3.eu
 myfxbook.com###popupAdBlockPageContainer
 myfxbook.com##.modal-backdrop
@@ -8019,7 +8018,7 @@ jneurosci.org,medrxiv.org,novartis.com.tr,royal.uk,transcom.com,netcologne.de,be
 ! Sourcepoint cookie consent
 theguardian.com##div[id^="sp_message_"]
 preis.de,vorname.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,motorcyclenews.com,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[id^="sp_message_"] { display: none !important; }
-faz.net,chip.de,preis.de,giga.de,motorcyclenews.com,finanzen.net,vorname.com,jezebel.com,theonion.com,theinventory.com,thetakeout.com,theroot.com,avclub.com,deadspin.com,lifehacker.com,computerbild.de,techbook.de,lvz.de,sueddeutsche.de,gutefrage.net,shieldsgazette.com,spieletipps.de,ekstrabladet.dk,focus.de,demorgen.be,volkskrant.nl,trouw.nl,parool.nl,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#html.sp-message-open { overflow: visible !important; position: static !important; margin-top: 0!important; }
+haz.de,rnd.de,faz.net,chip.de,preis.de,giga.de,motorcyclenews.com,finanzen.net,vorname.com,jezebel.com,theonion.com,theinventory.com,thetakeout.com,theroot.com,avclub.com,deadspin.com,lifehacker.com,computerbild.de,techbook.de,lvz.de,sueddeutsche.de,gutefrage.net,shieldsgazette.com,spieletipps.de,ekstrabladet.dk,focus.de,demorgen.be,volkskrant.nl,trouw.nl,parool.nl,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#html.sp-message-open { overflow: visible !important; position: static !important; margin-top: 0!important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[class^="sp_veil"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#body { overflow: visible !important; }
 !
@@ -8028,6 +8027,11 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+tesa.com#$#.cookie-notice { display: none !important; }
+tesa.com#$#html { overflow: auto !important; }
+tesa.com#$#body::after { opacity: 0 !important; }
+billiger.de#$#body { overflow: auto !important; }
+billiger.de#$##cookie-banner-overlay { display: none !important; }
 georgeforemangrills.com##.cookie__notice
 frankana.de##.cookie-consent--wrap
 schaefer-shop.de###modal-cookie-setting
@@ -13503,6 +13507,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/74295
+tesa.com#@#.cookie-notice:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74383
 @@||cdn.cookielaw.org^$domain=rp-online.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74382
@@ -16373,6 +16379,7 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+wuxiaworld.com#%#(function() { try { if ("undefined" != typeof localStorage) { localStorage.setItem("visitedChapterSet", "[]") } } catch (ex) {} })();
 believermag.com##.subscriber-popup-container
 believermag.com##.limited-time-violator
 yahoo.com##div[class^="loginbannerpromo"]
