@@ -2387,6 +2387,7 @@ outlook.live.com###OwaContainer
 www-androidauthority-com.cdn.ampproject.org##.andro-in-article-mobile-placement
 stileproject.com##.stage-promo
 stileproject.com##.mobile-vda
+/x-3111-33.js$domain=pianku.li
 onet.pl##.slot-placeholder--active
 sexkvartal.net##div[style^="text-align: center;"][style*="background-color: #FFFFFF;"][style*="overflow: hidden;"]
 dict.cc##div[style="text-align:center;width:728px"]
@@ -2489,7 +2490,7 @@ profile.ru###test_mob_ad
 www-tellows-de.cdn.ampproject.org###singlecomments > li[style="padding:0px 5px 0px 5px;"]
 forum.golem.de##div[id^="mob_forum"]
 nation.africa##.ad-mobile-leaderboard_wrap
-google.*###kp-wp-tab-overview > .mnr-c > div[class*="__wholepage-card"] > div > div[class] > div[class][lang]:not([style]):not([data-attrid])
+! google.*###kp-wp-tab-overview > .mnr-c > div[class*="__wholepage-card"] > div > div[class] > div[class][lang]:not([style]):not([data-attrid])
 m.sports.ru##div[data-control="Common.Poll"]
 asahi.com##.ArticleRectangleAd
 asahi.com##.list-adL
