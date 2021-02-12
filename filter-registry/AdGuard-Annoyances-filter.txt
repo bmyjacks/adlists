@@ -1759,6 +1759,8 @@ bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustanti
 ! ###mc_embed_signup
 cachevalleydaily.com,bisnis.com,ilpost.it,bsblog.info,alcoparty.com.ua,codastory.com,informazionefiscale.it,kerch.fm,cinemablend.com,prostofinovo.ru,comss.ru,majorgeeks.com,buhgalter.com.ua,providr.com,24tv.ua,babylonbee.com,dexerto.com,football365.com,menrec.com,netdoktor.de,ottawamatters.com,retail-insider.com,walterfootball.com,wweek.com,zozhnik.ru###mc_embed_signup
 !
+ttt.ua##.subscribe-layout__mailer > *
+esquire.com###journey-inline
 theregister.com#?##index_page > .srow > .faux-article > .newsletter_signup_unit:upward(1)
 haz.de##.pdb-newsletter
 rnd.de##div[data-vars-event-category="newsletter_widget"]
@@ -8056,6 +8058,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+ccoo.es#$#.snigel-cmp-framework { display: none !important; }
+ccoo.es#$#body { overflow: auto !important; }
+ccoo.es#$#html { overflow: auto !important; }
 tetsudo.com###footer-gdpr-box
 pilotpen.ch##div[data-role="gdpr-cookie-container"]
 mywot.com##div[class*="CookiesConsentContainer-"]
@@ -13543,6 +13548,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/74365
+@@||ccoo.es/cms/css/cookieconsent.css$domain=ccoo.es
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74471
 @@||carport-diagnose.de/script/cookieconsent.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74295
@@ -15505,7 +15512,6 @@ m.thehipstore.co.uk#$##main > header { margin-top: 0!important; }
 tim.com.br###incentivo-app
 epoznan.pl###epoznan-apk-banner-container
 c.mi.com##.qr-box
-tekstilbank.com.tr,icbc.com.tr,212.109.224.91###mobileAppPanel
 g1.globo.com##.app-banner
 papara.com###smart
 homify.com.tr##.layout--app-banner
@@ -16014,8 +16020,8 @@ svyaznoy.ru#%#//scriptlet('remove-class', 'android-banner-on-page')
 !
 ebay.*###gh-appBanner
 !
-! CSS
-!
+!+ NOT_OPTIMIZED
+tekstilbank.com.tr,icbc.com.tr,212.109.224.91###mobileAppPanel
 !+ NOT_OPTIMIZED
 championat.com#$#.smartbanner { display: none !important; }
 !+ NOT_OPTIMIZED
@@ -16420,6 +16426,8 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+facens.br##.facens__unbouncer--overlay
+facens.br##.facens__unbouncer
 google.*##iframe[role="presentation"][src*="ogs.google."][src*="widget/callout?"]
 wuxiaworld.com#%#(function() { try { if ("undefined" != typeof localStorage) { localStorage.setItem("visitedChapterSet", "[]") } } catch (ex) {} })();
 believermag.com##.subscriber-popup-container
@@ -21198,6 +21206,7 @@ aliexpress.ru,aliexpress.com##iframe[src^="https://campaign.aliexpress.com/"]
 ! Working rule, but JS: is.alicdn.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('2', '"{\"2USD_coupon_popup\":1}"'); }
 aliexpress.ru,aliexpress.com#$?##newuser-activity-config { remove: true; }
 !
+support.microsoft.com##.m365trial_railbanner
 nzherald.co.nz##.premium-toaster
 mozilla.org##.mzp-c-sticky-promo
 cryptocompare.com###big-info-section-top
@@ -23338,7 +23347,6 @@ streamonsport.info##.chatango
 139.99.120.222,indoxxi.show##.chatango-btn
 !
 ! Exchange rates widgets
-penzainform.ru###divCurrency
 volyninfa.com.ua#?##sidebar div.widget:has(> div.textwidget > div[id^="kurs-com-ua-"])
 volyninfa.com.ua###custom_html-3
 ||widgets.coingecko.com^$third-party
