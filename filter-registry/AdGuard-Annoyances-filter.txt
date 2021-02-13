@@ -1759,6 +1759,7 @@ bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustanti
 ! ###mc_embed_signup
 cachevalleydaily.com,bisnis.com,ilpost.it,bsblog.info,alcoparty.com.ua,codastory.com,informazionefiscale.it,kerch.fm,cinemablend.com,prostofinovo.ru,comss.ru,majorgeeks.com,buhgalter.com.ua,providr.com,24tv.ua,babylonbee.com,dexerto.com,football365.com,menrec.com,netdoktor.de,ottawamatters.com,retail-insider.com,walterfootball.com,wweek.com,zozhnik.ru###mc_embed_signup
 !
+myfirstcomp.ru#?#.tm-sidebar-a > div.uk-panel:has(> form[action^="https://feedburner.google.com/"])
 itsfoss.com##.ml-subscribe-form
 kaplunoff.com##.block__subscibe
 7info.ru##.td_separator_center
@@ -9735,7 +9736,7 @@ wg-elbtal.de##.cw_ov
 leonardo-hotels.de##.cookie-holder
 wix.com###cookieNotificationBannerWrapper
 underarmour.com###ccpa-prompt-wrapper
-enucuztoptan.com,uraw.com.tr##.notification[data-options*="cookie"]
+yagsepetim.com,enucuztoptan.com,uraw.com.tr##.notification[data-options*="cookie"]
 amp.n-tv.de###cookie-banner
 erdinger.de#$#body { overflow: visible!important; }
 mepasenerji.com###dataPolicies
@@ -11522,7 +11523,7 @@ movieplayer.it,hwupgrade.it,iphoneitalia.com,mediaset.it###iubenda-cs-banner
 telekom.de###j-cookie-notification
 poweruser.guru,askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###js-gdpr-consent-banner
 supremecard.no###js-notify.notification
-spam404.com,bieralp.de,carlsonlabs.com,linuxandubuntu.com,popkedi.com,weebly.com,wicar.org###kb-container
+irreverentbible.com,spam404.com,bieralp.de,carlsonlabs.com,linuxandubuntu.com,popkedi.com,weebly.com,wicar.org###kb-container
 loreal-paris.de###loreal-cookie
 blikk.hu,glamour.hu###mainPrivacyDiv
 reizdarmselbsthilfe.de,pflanzenfreunde.com,ingolstadt-today.de,dslr-forum.de,seitenreport.de###mbmcookie
@@ -21232,6 +21233,7 @@ aliexpress.ru,aliexpress.com##iframe[src^="https://campaign.aliexpress.com/"]
 ! Working rule, but JS: is.alicdn.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('2', '"{\"2USD_coupon_popup\":1}"'); }
 aliexpress.ru,aliexpress.com#$?##newuser-activity-config { remove: true; }
 !
+forum.miuiturkiye.net###iframeurun
 qq.co.kr,pandalive.co.kr###rightBanner
 flaticon.com###banner-guest
 support.microsoft.com##.m365trial_railbanner
