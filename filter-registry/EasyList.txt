@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: vcOfeZLU/bMpw4pS9vXcbg
-! Version: 202102122350
+! Checksum: mGscpjw3OpZKE14psTdR2A
+! Version: 202102130750
 ! Title: EasyList
-! Last modified: 12 Feb 2021 23:50 UTC
+! Last modified: 13 Feb 2021 07:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7007,7 +7007,6 @@
 /utep/ad/*
 /utep_ad.js
 /utils~ads~
-/v1/ads.
 /v1/ads/*
 /v2/ads.
 /v2/ads/*
@@ -31967,6 +31966,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||233fb5b59351.com^
 ||24-sportnews.com^
 ||2444efc8cd8e.com^
+||247898edad.com^
 ||24ad89fc2690ed9369.com^
 ||24smile.org^
 ||24x7adservice.com^
@@ -31978,6 +31978,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||2894c9d5b32.com^
 ||29ae58661b9c7178.com^
 ||29d65cebb82ef9f.com^
+||2a186ff2746.com^
 ||2b43cb6a34a.com^
 ||2b815136jjjv.com^
 ||2bbb379103988619ef.com^
@@ -32705,6 +32706,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||apestsagai.club^
 ||aphicbouncil.club^
 ||apiafubb.com^
+||apiecelee.com^
 ||apologixopyr.site^
 ||apostropheemailcompetence.com^
 ||apparentsav.club^
@@ -33327,6 +33329,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||butexythe.pro^
 ||buxmllzyoxnr.com^
 ||buyeasy.by^
+||buytieposer.com^
 ||buzzvids-direct.com^
 ||bvahezakk.com^
 ||bvflzrtmcssyea.com^
@@ -34710,6 +34713,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||f4906b7c15ba.com^
 ||f4f32de8e64d.com^
 ||f5080f5cee5a00.com^
+||f5178aec06cc.com^
 ||f56e3ea35a4.com^
 ||f6bd46bbc8a.com^
 ||f71bxwn500lj.com^
@@ -34971,6 +34975,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||foxrevenue.com^
 ||foydnzdtjcjg.com^
 ||fpesoigpyes.com^
+||fpiikkttbl.com^
 ||fpomyspwepxxe.com^
 ||fqbucxkfcya.com^
 ||fqhltvwpl.com^
@@ -39482,6 +39487,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||redirect2719.ws^
 ||redolymerse.top^
 ||redresseducatedage.com^
+||redreven.fun^
 ||reducatedc.top^
 ||reductingds.club^
 ||reembrasserait.website^
@@ -41422,6 +41428,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||venetrigni.com^
 ||venuegirtjive.com^
 ||veodxsimctsgs.com^
+||veopvpgxcrt.com^
 ||veoujrnenng.com^
 ||verageousarra.site^
 ||veralother.fun^
@@ -51119,7 +51126,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||grscty.com/images/banner/$third-party
 ||gsniper.com/images/$third-party
 ||gstatic.com/0emm/
-||gstatic.com/0emn/
 ||gstaticadssl.l.google.com^$~font,third-party,~xmlhttprequest
 ||guim.co.uk/guardian/thirdparty/tv-site/side.html
 ||gulfsat.com^$domain=flysat.com
@@ -53117,6 +53123,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 !
 /^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|mixdrop.co|mixdrop.to|ovagames.com
 !
+! Buff sites
+/^https?:\/\/[a-z0-9]{4,}\.(dotabuff|trackdota|speedrun|overbuff|dotabuff)\.com\/[a-z0-9]{1,6}.*/$script,~third-party,xmlhttprequest
 ! coincodex.com
 |https://$script,subdocument,third-party,domain=coincodex.com
 ! prebid specific

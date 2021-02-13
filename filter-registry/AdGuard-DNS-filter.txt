@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-02-12T22:36:04.890Z
+! Last modified: 2021-02-13T06:03:33.429Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.8
 !
@@ -2328,6 +2328,7 @@ vkcdnservice.appspot.com^
 ||233fb5b59351.com^
 ||24-sportnews.com^
 ||2444efc8cd8e.com^
+||247898edad.com^
 ||24ad89fc2690ed9369.com^
 ||24smile.org^
 ||24x7adservice.com^
@@ -2339,6 +2340,7 @@ vkcdnservice.appspot.com^
 ||2894c9d5b32.com^
 ||29ae58661b9c7178.com^
 ||29d65cebb82ef9f.com^
+||2a186ff2746.com^
 ||2b43cb6a34a.com^
 ||2b815136jjjv.com^
 ||2bbb379103988619ef.com^
@@ -3049,6 +3051,7 @@ vkcdnservice.appspot.com^
 ||apestsagai.club^
 ||aphicbouncil.club^
 ||apiafubb.com^
+||apiecelee.com^
 ||apologixopyr.site^
 ||apostropheemailcompetence.com^
 ||apparentsav.club^
@@ -3662,6 +3665,7 @@ vkcdnservice.appspot.com^
 ||butashasp.site^
 ||butexythe.pro^
 ||buxmllzyoxnr.com^
+||buytieposer.com^
 ||buzzvids-direct.com^
 ||bvahezakk.com^
 ||bvflzrtmcssyea.com^
@@ -5036,6 +5040,7 @@ vkcdnservice.appspot.com^
 ||f4906b7c15ba.com^
 ||f4f32de8e64d.com^
 ||f5080f5cee5a00.com^
+||f5178aec06cc.com^
 ||f56e3ea35a4.com^
 ||f6bd46bbc8a.com^
 ||f71bxwn500lj.com^
@@ -5294,6 +5299,7 @@ vkcdnservice.appspot.com^
 ||foxrevenue.com^
 ||foydnzdtjcjg.com^
 ||fpesoigpyes.com^
+||fpiikkttbl.com^
 ||fpomyspwepxxe.com^
 ||fqbucxkfcya.com^
 ||fqhltvwpl.com^
@@ -9757,6 +9763,7 @@ vkcdnservice.appspot.com^
 ||redirect2719.ws^
 ||redolymerse.top^
 ||redresseducatedage.com^
+||redreven.fun^
 ||reducatedc.top^
 ||reductingds.club^
 ||reembrasserait.website^
@@ -11666,6 +11673,7 @@ vkcdnservice.appspot.com^
 ||venetrigni.com^
 ||venuegirtjive.com^
 ||veodxsimctsgs.com^
+||veopvpgxcrt.com^
 ||veoujrnenng.com^
 ||verageousarra.site^
 ||veralother.fun^
@@ -18988,6 +18996,7 @@ vkcdnservice.appspot.com^
 ||imp.dmm.com^
 ||track.edu-info.jp^
 ||a.wishabi.com^
+||pepperjam.com^
 ||pj.l.a8723.com^
 ||pj.l.admedo.com^
 ||tr.infopanel.jp^
@@ -23080,7 +23089,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||peep1alea.com^
 ||peerius.com^
 ||pendo.io^
-||pepperjam.com^
 ||percentmobile.com^
 ||perf-serving.com^
 ||perfdrive.com^
@@ -24993,6 +25001,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||collector.roistat.com^
 ||collector.sspinc.io^
 ||confiant-integrations.global.ssl.fastly.net^
+||container.pepperjam.com^
 ||contents-tracking.beop.io^
 ||control.cityofcairns.com^
 ||conversions.genieventures.co.uk^
@@ -25366,6 +25375,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||newsanalytics.com.au^
 ||ninja.onap.io^
 ||noflake-aggregator-http.narvar.com^
+||nojscontainer.pepperjam.com^
 ||nol.yahoo.com^
 ||nova.dice.net^
 ||ns.rvmkitt.com^
@@ -25700,6 +25710,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.*.miui.com^
 ||tracking.adalyser.com^
 ||tracking.aegpresents.com^
+||tracking.americaneagle.com^
 ||tracking.badgeville.com^
 ||tracking.brandmentions.com^
 ||tracking.customerly.io^
@@ -36419,12 +36430,12 @@ adbetnet.com
 @@||youku.com^*^adshow
 @@||youku.com^*^showAd
 @@||yzzkb.com.cn^*ad.
-||3338808.com^
-||5551895.com^
 ||3336672.com^
 ||3337729.com^
 ||3337751.com^
 ||3337783.com^
+||3338808.com^
+||5551895.com^
 ||wofjhs.com^
 ||immedlinkum.info^
 ||xayah.date^
