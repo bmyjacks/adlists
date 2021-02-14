@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: arfi6tzxYdcUXAApNj1gEA
-! Version: 202102140742
+! Checksum: qaaasMsvIrYRKftYHzoyIw
+! Version: 202102141542
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 14 Feb 2021 07:42 UTC
+! Last Modified: 14 Feb 2021 15:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -3038,7 +3038,6 @@ ubmcmm.baidustatic.com
 ||poijugh.top^
 ||poke88.com^
 ||polkoa.com^
-||popin.cc^$third-party
 ||pos.baidu.com^
 ||poxzyu.com^$third-party
 ||poyang.cn^$third-party
@@ -8335,7 +8334,6 @@ _yad_jsonp_
 ||tw.buy.yahoo.com/?z=
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||twavtv.com/js/jquery.colorbox
-||twproxy*.svc.litv.tv/cdi/v2/rpc
 ||twunbbs.com/images/
 ||txahz.com/static/image/tp/
 ||txzqw.*/js/float.js
@@ -12039,7 +12037,7 @@ ylfx.com##.info_logrt
 riaway.com##.info_message_container
 autohome.com.cn##.information-adv
 chinabidding.com.cn##.innovate + .layer
-litv.tv##.internal_banner
+litv.tv##.internal_bn
 baidu.com##.intro-adv
 people.com.cn##.ipc_none
 iqiyi.com##.iqiyi-shangcheng
