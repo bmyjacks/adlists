@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202102142307
+! Version: 202102150724
 ! Title: Fanboy's Annoyance List
-! Last modified: 14 Feb 2021 23:07 UTC
+! Last modified: 15 Feb 2021 07:24 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -344,6 +344,7 @@
 /newsletter_widget.
 /newsletterbanner3.
 /newsletterbg4.
+/newsletterBundle.
 /newsletterbutton.
 /newslettericon2.
 /newsletteroverlay/*
@@ -5772,6 +5773,7 @@ _vpcookieconsent/
 ###rightNavNewsletter
 ###rightNewsLetterAsset
 ###rr-newsletter-signup
+###rss-newsletter
 ###sailthru-basic-newsletter-form
 ###sailthru-email-form-wrapper
 ###sailthru-newsletters-email-form-wrapper
@@ -6907,6 +6909,7 @@ _vpcookieconsent/
 ##.plugin-newsletter__inner
 ##.pmc-newsletter
 ##.pop-subscribe
+##.popin-newsletter
 ##.popinNewsletter-content
 ##.popinNewsletter-overlay
 ##.popup-newsletter
@@ -8260,6 +8263,7 @@ _vpcookieconsent/
 ##div[class^="backToTop_"]
 ##div[ng-click^="animateToTop"]
 ##div[onclick^="scrollToTop"]
+##div[title="Go to top"]
 ##div[title="Scroll Back to Top"]
 ##div[title="Scroll To Top"]
 ##div[title="Scroll to Top"]
@@ -12196,6 +12200,8 @@ _vpcookieconsent/
 ##.bg-facebook
 ##.bg-facebook-blue
 ##.bg-googleplus
+##.bg-icon-linkedin
+##.bg-icon-twitter
 ##.bg-linkedin
 ##.bg-pinterest
 ##.bg-tumblr-blue
@@ -17676,6 +17682,7 @@ _vpcookieconsent/
 ##.share_bottom
 ##.share_bottons
 ##.share_box
+##.share_box_content_wrapper
 ##.share_box_text
 ##.share_box_to_scrool
 ##.share_boxes_box_block_b_wraper
@@ -29277,6 +29284,7 @@ _vpcookieconsent/
 ##.ccp-overlay-fullscreen
 ##.ccpa-banner-container
 ##.ccpa-consent-bar
+##.ccpa-notice-wrapper
 ##.ccpa-popup
 ##.ccwrap
 ##.cczcook_banner-wrapper
@@ -41770,6 +41778,7 @@ zien.tv###cbar
 ubs.com###cboxContent
 evaair.com,play.tv,ubs.com###cboxOverlay
 ipaddress.com###cc
+armorgames.com###cc-alert
 yellow.place###cc-bar
 skargards.com###cc_dialog
 disclose.tv###ccc-login-signup
@@ -42100,6 +42109,7 @@ makeprintable.com##.banner-hints
 nuget.org##.banner-notice
 23andme.com,tunnelbear.com##.banner-wrap
 worthpoint.com##.bannerContainer
+deno.land##.bg-black
 caymanchem.com##.bg-darker-gray
 bagigia.com##.bica-content
 seikowatches.com##.blk-Disclaimer

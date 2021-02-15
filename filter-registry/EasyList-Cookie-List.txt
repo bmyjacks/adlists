@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OXSmLTC0dRuQrdtWxFsO5g
-! Version: 202102142350
+! Checksum: r7Ni9RkdyVSTKclAtGn2Gg
+! Version: 202102150750
 ! Title: EasyList Cookie List
-! Last modified: 14 Feb 2021 23:50 UTC
+! Last modified: 15 Feb 2021 07:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Redirect: https://fanboy.co.nz/fanboy-cookiemonster.txt
@@ -8452,6 +8452,7 @@ _vpcookieconsent/
 ##.ccp-overlay-fullscreen
 ##.ccpa-banner-container
 ##.ccpa-consent-bar
+##.ccpa-notice-wrapper
 ##.ccpa-popup
 ##.ccwrap
 ##.cczcook_banner-wrapper
@@ -13585,6 +13586,7 @@ zien.tv###cbar
 ubs.com###cboxContent
 evaair.com,play.tv,ubs.com###cboxOverlay
 ipaddress.com###cc
+armorgames.com###cc-alert
 yellow.place###cc-bar
 skargards.com###cc_dialog
 disclose.tv###ccc-login-signup
@@ -13915,6 +13917,7 @@ makeprintable.com##.banner-hints
 nuget.org##.banner-notice
 23andme.com,tunnelbear.com##.banner-wrap
 worthpoint.com##.bannerContainer
+deno.land##.bg-black
 caymanchem.com##.bg-darker-gray
 bagigia.com##.bica-content
 seikowatches.com##.blk-Disclaimer
