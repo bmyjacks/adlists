@@ -15253,6 +15253,7 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#$#.XPromoPopup { display: none!important; }
 reddit.com#$#body.scroll-disabled { overflow: visible!important; position: static!important; }
 !
+video.fc2.com##.c-app-sp2
 zhihu.com#$?#.ContentItem > div.ModalWrap:has(> div > div.ModalExp-content > div.ModalWrap-content > div:contains(继续浏览内容)) { display: none!important; }
 zhihu.com#$#body { overflow: visible!important; }
 myflixerhd.ru###gift-top
@@ -16444,6 +16445,8 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+video.fc2.com##.login-footer
+video.fc2.com#?#a[href^="http://fc2information"][data-link][style]:upward(1)
 softwarekeep.com###main-content > .news-helpcenter
 kaplunoff.com#$#.mfp-bg { display: none !important; }
 kaplunoff.com#$#.mfp-wrap { display: none !important; }
@@ -20570,6 +20573,8 @@ realty.yandex.ru##.Offer__taxiBannerContainer
 !-----------------------------------------------
 !
 !
+! self-promo banners on video.fc2.com
+||fc2.com/video/img/banner/
 ! self-promo ads on iwate-np.co.jp
 iwate-np.co.jp#?#.news-box-article-list > li:has(span.date:contains(広告))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73668

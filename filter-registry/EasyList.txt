@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DhllSpKCKaxOoWcMv8ObZg
-! Version: 202102141550
+! Checksum: Lm5XBefog9Tq1o4JqulJpg
+! Version: 202102142350
 ! Title: EasyList
-! Last modified: 14 Feb 2021 15:50 UTC
+! Last modified: 14 Feb 2021 23:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -56423,7 +56423,6 @@ smallseotools.com#?#.col-sm-12 > :-abp-has(p:-abp-contains(Advertisement))
 solarmovie.ink#?#.row:-abp-contains(in HD)
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
 tumblr.com#?#._1DxdS:-abp-has( > div > header[role="banner"])
-twitter.com#?#div[data-testid="UserCell"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Mainostettu|推廣|推广|プロモーション/)
 twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|sponsorluğunda|Mainostettu|推廣|推广/)
 twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
 twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|sponsorluğunda|Mainostettu|推廣|推广/)
