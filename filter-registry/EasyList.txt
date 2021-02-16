@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IebImoO7OHfOKJlxm41BqQ
-! Version: 202102151550
+! Checksum: 6iaS2H0stMg2dwSjndKJJA
+! Version: 202102152350
 ! Title: EasyList
-! Last modified: 15 Feb 2021 15:50 UTC
+! Last modified: 15 Feb 2021 23:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -55797,8 +55797,8 @@ coincodex.com#a[href*="window.open"]
 python-graph-gallery.com##div > [href^="https://www.datacamp.com"]
 python-graph-gallery.com##div > [href^="https://www.dataquest.io/course/"]
 healthline.com##div.css-0 > div[class]:not([id])
+amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_widget_id*="_SponsoredProducts"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_widget_id*="_ad-placements-"]
-amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_widget_id="desktop-dp-sims_SponsoredProductsSimsDpDesktop"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_widget_id="desktop-dp-sims_sb-dp-id"]
 issuu.com##div[class*="adPlacement"]
 issuu.com##div[class*="adSkyscraper"]
@@ -56990,6 +56990,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg
 @@||brid.tv/player/build/plugins/adunit.js$script,domain=escapistmagazine.com
+@@||britannica.com/resources/js/libs/prebid*.js$script,~third-party
 @@||britishairways.com/cms/global/styles/*/openx.css
 @@||brocraft.net/js/banners.js
 @@||business-supply.com/images/adrotator/
