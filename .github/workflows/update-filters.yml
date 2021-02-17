@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '0 */8 * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   update-list-and-push-to-github:
@@ -22,7 +22,7 @@ jobs:
           file-name: 'AdAway.txt'
           location: './filter-registry'
 
-    
+
       # Adguard Home
       - name: AdGuard Base filter
         uses: carlosperate/download-file-action@v1.0.3
@@ -30,21 +30,21 @@ jobs:
           file-url: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt'
           file-name: 'AdGuard-Base-filter.txt'
           location: './filter-registry'
-      
+
       - name: AdGuard Tracking Protection filter
         uses: carlosperate/download-file-action@v1.0.3
         with:
           file-url: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt'
           file-name: 'AdGuard-Tracking-Protection-filter.txt'
           location: './filter-registry'
-      
+
       - name: AdGuard Social media filter
         uses: carlosperate/download-file-action@v1.0.3
         with:
           file-url: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_4_Social/filter.txt'
           file-name: 'AdGuard-Social-media-filter.txt'
           location: './filter-registry'
-      
+
       - name: AdGuard Annoyances filter
         uses: carlosperate/download-file-action@v1.0.3
         with:
@@ -58,7 +58,7 @@ jobs:
           file-url: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt'
           file-name: 'AdGuard-Filter-unblocking-search-ads-and-self-promotions.txt'
           location: './filter-registry'
-      
+
       - name: AdGuard Experimental filter
         uses: carlosperate/download-file-action@v1.0.3
         with:
