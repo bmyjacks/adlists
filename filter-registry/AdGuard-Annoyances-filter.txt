@@ -4075,6 +4075,7 @@ sonichits.com,thepostmillennial.com,muropaketti.com,visajourney.com,dennikn.sk,i
 @@||di.se/scripts/advertisement__*.js
 !#safari_cb_affinity
 !
+||studopedia.net/ggl/
 haberolduk.com###kanews-modal-adblock
 insider.com#$#div[class="tp-modal"][style="z-index: 300050; display: block;"] { display: none !important; }
 insider.com#$#div[class="tp-modal"][style="z-index: 300050; display: block;"] ~ div.tp-backdrop { display: none !important; }
@@ -15284,6 +15285,7 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#$#.XPromoPopup { display: none!important; }
 reddit.com#$#body.scroll-disabled { overflow: visible!important; position: static!important; }
 !
+decrypt.co#?##__next > div[class^="sc-"] > div[class^="sc-"] > div[class^="sc-"]:has(> div[class] > a[href^="https://apps.apple.com/"][title="app-store-link"])
 video.fc2.com##.c-app-sp2
 zhihu.com#$?#.ContentItem > div.ModalWrap:has(> div > div.ModalExp-content > div.ModalWrap-content > div:contains(继续浏览内容)) { display: none!important; }
 zhihu.com#$#body { overflow: visible!important; }
@@ -17223,7 +17225,7 @@ bahiskilavuzu.com##div[id^="onerilen"]
 niketalk.com##div[id^="avantisContainer"]
 researchgate.net###exit-modal
 fullhub.ru###floating-block
-graduateguru.in##.woocommerce-store-notice
+baddogbooks.com,graduateguru.in##.woocommerce-store-notice
 wotexpress.info##.twitch_prime_battlepass2
 tube8.com,tube8.es###catFishBanner
 tube8.com,tube8.es###announcement_ticker
@@ -20040,6 +20042,7 @@ macwelt.de,pcwelt.de#%#AG_setConstant('firebase.messaging', 'noopFunc');
 ||gstatic.com/firebasejs/*/firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org
 ||gstatic.com/firebasejs/*/firebase-messaging.js$domain=ukranews.com|comments.ua|meduza.io|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org
 !
+||g.alicdn.com/gfe-ug/web-push-client*/*/iframeMessage.js
 ||band.uol.com.br/webalert-notification.js
 ||static.folha.uol.com.br/folha/js/push/
 wkyc.com##.page__notifications
