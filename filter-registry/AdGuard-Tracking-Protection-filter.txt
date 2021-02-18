@@ -1531,7 +1531,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||emetriq.de^$third-party
 ||emjcd.com^$third-party
 ||emltrk.com^$third-party
-||emsecure.net^$third-party
 ||enecto.com^$third-party
 ||engageya.com^$third-party
 ||engine212.com^$third-party
@@ -4612,8 +4611,6 @@ nethunt.com/api/v1/track/email/$image
 ||tracking.epicgames.com^
 ||t*.zcvh.net^
 ||adj.st^
-||app.adjust.net.in^
-||app.adjust.world^
 ||d3nq5jrakcyw1w.cloudfront.net^
 ||tracking.netdoktor.at^
 ||targeting.tbt.arcpublishing.com^
@@ -6168,6 +6165,12 @@ charlestownwyllie.oaklawnnonantum.com^
 !-------------------------------------------------------------------------------!
 !-------------- General (unsorted) url blocking --------------------------------!
 !-------------------------------------------------------------------------------!
+!
+! Blocking conversion tracking URLs that are used by WebKit
+! More info: https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/
+! Content blockers can prevent this: https://bugs.webkit.org/show_bug.cgi?id=197183
+!+ NOT_OPTIMIZED
+/.well-known/private-click-measurement
 !
 ! webtrekk
 /wt?p=
@@ -8613,6 +8616,7 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||events.claspws.tv^
 ||tracking-receiver.prod-general.stocard-backend.com^
 ||metrics.happycolor.app^
 ||digianalytics.airtel.in^

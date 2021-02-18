@@ -78,6 +78,9 @@
 ! ||mobileapptracking.com^ - don't block this domain with all subdomains. https://forum.adguard.com/index.php?threads/23917/
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/74651
+! com.opera.app.newslite
+||s.adx.opera.com^
 ! Apps by Ketchapp
 ||ketchapp.org^
 ||cdn-ketchapp.akamaized.net^
@@ -1297,6 +1300,9 @@ westseattleblog.com#@#.header-ad
 lxax.com#?#article > div.in-row > iframe[src^="/_ad#"]:upward(2)
 ! mildch.com placeholder
 mildch.com#?##container > div.free-area > div[align="center"] > script[src*="adingo.jp"]:upward(2)
+! https://github.com/AdguardTeam/AdguardFilters/issues/74759
+fontanka.ru#?#div[class]:has(> div[id^="div-gpt-ad-"])
+fontanka.ru#?##app > div > div[class]:has(> div[class] > div[id^="adfox_"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74013
 standard.co.uk#?##main > div[class]:has(> div#taboola-carousel-thumbnails)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72944
@@ -2367,6 +2373,11 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+m.vz.ru##.header-banner
+pocketpc.ch##.mrf-adv__wrapper
+||googleadservices.com/pagead/conversion_async.js$redirect=nooptext,domain=orcd.co
+news.rambler.ru##._1ErId
+the-village.com.ua##.banners
 novelmultiverse.com##.adace-slideup-slot-wrap
 vg247.com###last-mpu-slot
 vg247.com###last-mpu-slot + #recommendations
