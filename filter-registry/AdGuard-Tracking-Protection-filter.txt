@@ -222,6 +222,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||uncn.jp^$third-party
+||ad-spire.net^
+||f-counter.net^$third-party
 ||moshimo.com^$third-party
 ||counter.monkeybanana3.com^
 ||analytic-client.playful-fairies.com^
@@ -1785,7 +1788,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||halldata.com^$third-party
 ||halstats.com^$third-party
 ||haveamint.com^$third-party
-||haymarket.com^$third-party
 ||heapanalytics.com^$third-party
 ||heatmap.it^$third-party
 ||hellosherpa.com^$third-party
@@ -4532,6 +4534,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||t.lidyana.com^
+||stats.muasamcong.gov.vn^
+||beacon.watch.impress.co.jp^
 ||media.fc2.com^$image
 ||metrics-broker.prod.p.tf1.fr^
 ||pappagallu.onefootball.com^
@@ -6453,6 +6458,7 @@ _analytics.js?
 /player_counter.ashx?
 /plista.js
 /pvcountup.
+/RankingLogging.
 /sayac.html
 /shareCounts.
 /shinystat.
@@ -6554,6 +6560,10 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||sex-studentki.pro/system/stat/
+/static/peg_utils/peg_logger$domain=parship.de|elitepartner.de
+||ikaclo.jp/api/admin/access_logs
+||n11scdn.akamaized.net/assets/javascripts/ha.js
 ||playbrain.io/analytics/
 ||linkwithin.com/pixel.png
 ||livedoor.jp/js/c2.js
@@ -6672,7 +6682,7 @@ the-ans.jp##.side-reccomend
 ||webryblog.biglobe.ne.jp/beacon/
 ||wowgame.jp/countup.asp
 inside-games.jp##.cx-subhead
-||bongacams.com/track?$document
+||bongacams*.com/track?$document
 ||xxxbunker.com/ajax/guestlog
 ||xxxbunker.com/ajax/viewlog
 ||media.kaspersky.com/tracking/
@@ -8474,6 +8484,12 @@ link.gmapp*.net$image
 ||hh.ru/analytics^
 ! End: cnet.com trackers
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/75799
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+||cdn.optimizely.com^$redirect=nooptext,domain=alaskaair.com
+||cdn.appdynamics.com/adrum$redirect=nooptext,domain=alaskaair.com
+||alaskaair.com/javascripts/adrum.js$redirect=nooptext,domain=alaskaair.com
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53722
 ||google-analytics.com/analytics.js$important,domain=unique-tutorials.info|getintopc.com|solvetube.site|tech-platform.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43140
@@ -8616,6 +8632,9 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||analytics.mobilegamestats.com^
+||p.statp.com^
+||api.imqtyik.com^
 ||events.claspws.tv^
 ||tracking-receiver.prod-general.stocard-backend.com^
 ||metrics.happycolor.app^
@@ -9087,6 +9106,25 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/75675
+||xinnet.com/dcp/javascript/fingerprint2.min.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/75425
+@@||googletagmanager.com/gtag/js$domain=roman.com.tr
+! https://github.com/AdguardTeam/AdguardFilters/issues/75303
+! fix for long page loading
+@@||googletagmanager.com/gtm.js$domain=whatcar.com
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=whatcar.com,important
+@@||google-analytics.com/analytics.js$domain=whatcar.com
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=whatcar.com,important
+! https://github.com/AdguardTeam/AdguardFilters/issues/75260
+@@||googletagmanager.com/gtm.js$domain=ymobile.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/75194
+||pvtag.yahoo.co.jp^$script,redirect=noopjs,domain=paypayfleamarket.yahoo.co.jp
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||pvtag.yahoo.co.jp^$script,domain=paypayfleamarket.yahoo.co.jp
+!#endif
+! https://github.com/AdguardTeam/AdguardFilters/issues/75154
+@@||analysys.cn^$domain=analysys.cn
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74614
 @@||se.monetate.net/js/*/entry.js$domain=debenhams.com
 @@||se.monetate.net/js/*/custom.js$domain=debenhams.com
@@ -9097,6 +9135,10 @@ link.gmapp*.net$image
 ||googletagmanager.com/gtag/js$script,other,redirect=googletagmanager-gtm,domain=guardaserie.*
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||googletagmanager.com/gtag/js$domain=guardaserie.ink|guardaserie.kim
+! https://github.com/AdguardTeam/AdguardFilters/issues/74712
+@@||cdn.taboola.com/libtrc/*/loader.js$domain=ilmeteo.it
+@@||cdn.taboola.com/libtrc/impl.*.js$domain=ilmeteo.it
+@@||trc.taboola.com/ilmeteo-*/trc/$domain=ilmeteo.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73794
 @@||gapt.hit.gemius.pl/gplayer.js$domain=radiocomercial.iol.pt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73701
