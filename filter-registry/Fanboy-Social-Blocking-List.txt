@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202102260820
+! Version: 202102270010
 ! Title: Fanboy's Social Blocking List
-! Last modified: 26 Feb 2021 08:20 UTC
+! Last modified: 27 Feb 2021 00:10 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -10281,6 +10281,7 @@ _youtube_social_
 ##.m-social-media__share
 ##.m-social-share
 ##.m-socialIcons__icon
+##.m-socialbar
 ##.m-socials
 ##.m-socials--top
 ##.m-socials__button
@@ -18247,6 +18248,7 @@ gmx.net,web.de##iframe[src^="https://www.facebook.com/plugins/like.php"]
 ||widgets.getsitecontrol.com^*/script.js$domain=winfuture.de
 ! Specific hiding filters necessary for sites allowlisted with $generichide filter option
 jetzt.de##.social-channels
+bz-berlin.de##.social-media-icons
 pcwelt.de##.social_media_buttons
 ! Spiegel.de
 spiegel.de##.social-bar

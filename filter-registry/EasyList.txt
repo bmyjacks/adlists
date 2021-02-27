@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rnR2qgZTb0FlZczAshfxLw
-! Version: 202102260850
+! Checksum: Avj5uVzYTqYmNVcOXAB/8g
+! Version: 202102270021
 ! Title: EasyList
-! Last modified: 26 Feb 2021 08:50 UTC
+! Last modified: 27 Feb 2021 00:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6044,6 +6044,7 @@
 /plugins/wp_actionpop/*
 /plugins_ads_
 /plus/ad_
+/pm_ads/*
 /poker-ad.
 /poki-ads.
 /poll-ad-
@@ -7369,6 +7370,7 @@
 =oas_tag.
 =PAGE_AD_
 =partnerad&
+=pm_ads&
 =pmd-advertising-
 =rightAds_
 =searchadslider|
@@ -23180,6 +23182,7 @@ _popunder+$popup
 ##.banner-ad-wrapper
 ##.banner-ads
 ##.banner-ads-300x250
+##.banner-ads-right
 ##.banner-ads-sidebar
 ##.banner-adsense
 ##.banner-adv
@@ -28328,6 +28331,7 @@ _popunder+$popup
 ##.single-ad-anchor
 ##.single-ad-wrap
 ##.single-ads
+##.single-ads-section
 ##.single-google-ad
 ##.single-item-page-ads
 ##.single-mpu
@@ -30437,6 +30441,7 @@ _popunder+$popup
 ##a[href^="http://zevera.com/afi.html"]
 ##a[href^="https://8a1ccf65f2b1302.com/"]
 ##a[href^="https://a.adtng.com/"]
+##a[href^="https://a.bestcontentfood.top/"]
 ##a[href^="https://aaucwbe.com/"]
 ##a[href^="https://ad.atdmt.com/"]
 ##a[href^="https://ad.doubleclick.net/"]
@@ -31826,7 +31831,7 @@ mrskin.com#@#a[href^="http://www.mrskin.com/tour"]
 socialsex.com#@#a[href^="http://www.socialsex.com/"]
 buzzfeed.com,guide-epargne.be,spaargids.be,yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
-book.isleofskye.com#@#a[href^="https://prf.hn/click/"][href*="/camref:"]
+book.isleofskye.com,realsimple.com#@#a[href^="https://prf.hn/click/"][href*="/camref:"]
 healthmeans.com#@#a[href^="https://servedbyadbutler.com/"]
 trust.zone#@#a[href^="https://trust.zone/"]
 financeads.de#@#a[href^="https://www.financeads.net/tc.php?"]
@@ -37319,6 +37324,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nklrfqgz.com^
 ||nklwltrpzhy.com^
 ||nknxugrndmf.com^
+||nktorpmpbhvb.com^
 ||nlbnegea.com^
 ||nlkspjjcxyvr.com^
 ||nlz0ini5uz9t.com^
@@ -41470,6 +41476,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zwigjtgnzfn.com^
 ||zwmauyerfotyh.com^
 ||zwmunz.com^
+||zwnxzckwihg.com^
 ||zwprxzbnzxc.com^
 ||zwwbvpwd.com^
 ||zwzfujusmwsbun.com^
@@ -45164,7 +45171,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||publicityclerks.com^$third-party
 ||publift.com^$third-party
 ||publir.com^$third-party
-||publish0x.com^$third-party
 ||publisheradnetwork.com^$third-party
 ||publited.com^$third-party
 ||pubmatic.com^$third-party
@@ -47559,6 +47565,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||latest-news.life^$popup
 ||latheendsmoo.com^$popup
 ||lcentntel.com^$popup
+||lerroyje.xyz^$popup
 ||letshareus.com^$popup
 ||letzonke.com^$popup
 ||lie2anyone.com^$popup
@@ -50373,6 +50380,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pubexchange.com/module/*-prod$third-party
 ||pubexchange.com/modules/display/$script,third-party
 ||public.porn.fr^$third-party
+||publish0x.com^$image,script,third-party
 ||pubs.hiddennetwork.com^
 ||puntersparadise.com.au/banners/
 ||purevpn.com/affiliates/$third-party
@@ -54931,6 +54939,8 @@ resetera.com##.samCodeUnit
 beermoneyforum.com##.samTextUnit
 teamfortress.tv##.sau
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##.sbv-video-single-product
+independent.co.uk##.sc-pscky.kBPJSk.sc-qQYBZ
+independent.co.uk##.sc-qZtCU.wIkUb.sc-qQYBZ
 newindianexpress.com##.scc
 minecraftservers.org##.second-banner
 wbur.org##.section--breakout
@@ -55459,6 +55469,7 @@ autoaction.com.au,elitepvpers.com,irishcatholic.com##img[width="728"]
 elitepvpers.com##img[width="968"]
 broadbandforum.co##ins[data-ad-client]
 monova.org##script + [class] > [class]:first-child
+bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id="MAIN-CARDS-0"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[class*="widgetId=loom-desktop-brand-footer-slot_hsa-id"]
@@ -56370,6 +56381,7 @@ eskimotube.com##a[href^="http://www.tjoobvip.com/"]
 xxxprivates.com##a[href^="http://www.xxxprivates.com/out-sponsor-"]
 sxyprn.com##a[href^="https://ab.advertiserurl.com/"]
 pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
+redgifs.com##a[href^="https://camsfinders.com/"]
 smutr.com##a[href^="https://smutr.com/?action=trace"]
 yaoimangaonline.com##a[href^="https://www.gaming-adult.com/"]
 gotporn.com##a[href^="https://www.gotporn.com/click.php?id="]
@@ -56653,7 +56665,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ikea.com^*/img/ads/
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=abc.com|api.screen9.com|audiomack.com|blastingnews.com|bloomberg.com|cbc.ca|cbsnews.com|cbssports.com|cdnmedia.tv|chicagotribune.com|clipsliver.com|cnet.com|comicbook.com|complex.com|cwtv.com|dailybreeze.com|distro.tv|forbes.com|fox35orlando.com|freep.com|gamejolt.com|goodhousekeeping.com|goodmorningamerica.com|healthmeans.com|iheart.com|independent.co.uk|indystar.com|insideedition.com|kizi.com|metacritic.com|metrolyrics.com|mobg.io|navbharattimes.indiatimes.com|news.sky.com|nflgamepass.com|nytimes.com|nytimes3xbfgragh.onion|play.ludigames.com|player.abacast.net|player.earthtv.com|player.performgroup.com|powr.com|rumble.com|snopes.com|thestreet.com|theverge.com|truvid.com|tvguide.com|ultimedia.com|usatoday.com|video.foxbusiness.com|video.foxnews.com|vidyomani.com|womenshealthmag.com|wsj.com|yiv.com|zeebiz.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=bloomberg.co.jp|bloomberg.com|sbs.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=bloomberg.co.jp|bloomberg.com|cbc.ca|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||imdb-video.media-imdb.com^$domain=imdb.com
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
