@@ -8855,10 +8855,9 @@ link.gmapp*.net$image
 ||loadus.exelator.com^
 ||tracking.viewster.com^
 ||logcollector.viewster.com^
-||api.mixpanel.com/track
-||api.mixpanel.com/engage
+||api.mixpanel.com^
 ||decide.mixpanel.com^
-||api.segment.io/v1/
+||api.segment.io^
 ||applog.uc.cn^
 ||dispatcher.upmc.uc.cn^
 ||gj.applog.uc.cn^
@@ -9129,7 +9128,8 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
-!
+! Unblocking everything on check-in confirmation pages - blocking tracking breaks it
+@@||pobeda.aero/*/check-in/$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75643
 @@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75675
