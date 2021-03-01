@@ -1803,6 +1803,7 @@ nubank.com.br##.newsletter-box-widget
 nubank.com.br###newsletter-experiment
 mywot.com##div[data-automation="floating-add-wot"]
 pnas.org##.signup-for-alerts
+lastpass.com##.marketo-wrap
 psyjournal.ru##.block-webform
 thepalmierireport.com#?##secondary > div.widget:has(> div.textwidget > div.ifklicked-subscribe)
 debenhams.com##.t-footer__newsletter
@@ -16687,6 +16688,7 @@ video.fc2.com#?#a[href^="http://fc2information"][data-link][style]:upward(1)
 softwarekeep.com###main-content > .news-helpcenter
 loftblog.ru#$##gift_book { display: none !important; }
 loftblog.ru#$#body { overflow: visible !important; }
+lastpass.com##.marketo
 wenku.baidu.com#$#.vip-member-pop-content { display: none !important; }
 wenku.baidu.com#$#body { overflow: visible !important; }
 myflixerhd.ru###site-notice
