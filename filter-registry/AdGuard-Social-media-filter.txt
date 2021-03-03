@@ -85,7 +85,7 @@
 ||mediabuttons.ru^$third-party
 ||tgwidget.com^$third-party
 ||share.itraffic.su^$third-party
-||d.line-scdn.net^$third-party,domain=~line.me|~linecorp.com
+||d.line-scdn.net^$third-party,domain=~line.me|~linecorp.com|~chat.line.biz
 ||widgets-code.websta.me^$third-party
 ||po.st/share/$script
 ||po.st/static/$third-party
@@ -1094,6 +1094,16 @@ giantbomb.com,strefainwestorow.pl,narcity.com,lingohut.com,mtlblog.com,tesisatma
 ||platform.twitter.com/widgets.js$domain=govoritmoskva.ru|kevinpurcell.org|015.by|airkule.com|altyazi.net|asyaspor21.tv|bartinolay.com|bedava-film.com|belaruspartisan.by|belgeselciyiz.com|belsat.eu|brauer-bund.de|btcnewz.com|businessturkeytoday.com|cj3z.com|corgit.xyz|creatorlabs.net|cwbaltimore.com|daemon-hentai.com|der-postillon.com|desimartini.com|discoverskills.com|discoverychannel.com.tr|dizilara.org|dizitube.net|dizivay.com|efelerhaber.com|egeyonhaber.com|elazigyenihaber.com|ellegirl.ru|erkekadam.org|erzurumajans.com|eurolab.ua|filmakinesi.net|filmold.com|fontanka.ru|forums.flyer.co.uk|fox38corpuschristi.com|fox47.com|foxkansas.com|foxrichmond.com|gazetaby.com|gercekizmir.com|gidavitrini.com.tr|halklailiskiler.com.tr|hizlifilmizlehd.com|inforesist.org|jetvis.ru|karsolay.com|kbsi23.com|kdsm17.com|kg-portal.ru|kinopoisk.userecho.com|kp.ua|losst.ru|magazinekibi.com|manisamanset.gen.tr|mforos.com|mogilev.online|muchohentai.com|multifilemirror.com|mvs.gov.ua|mywebtimes.com|news-journalonline.com|nk.org.ua|noticierodigital.com|ntp-servers.net|obltv.ru|orbita.dn.ua|pctip.ru|podrobnosti.ua|ppt.ru|proglang.su|queenbet4.tv|raleighcw.com|real-vin.com|rmj.ru|rusvesna.su|sanatatak.com|seirsanduk.us|simdifilmizle.com|sonkaleizmir.com|sp-mobile-blog.com|star64.tv|tomiks33.ru|torrentbe.net|torrentrg.org|tqm.com.ua|tva.in.ua|utofiles.com|wcti12.com|womanel.com.ua|wpgh53.com|wtto21.com|wutv29.com|xn----8sbcm1bmcar0m.xn--p1ai|earthsky.org|hentairules.net|actualcomment.ru|nkj.ru|tayga.info|hornygamer.com|blog.jetbrains.com|namemc.com|kachelmannwetter.com|jeotermalhaberler.com|raider.io
 jeotermalhaberler.com,govoritmoskva.ru,namemc.com,kevinpurcell.org,015.by,airkule.com,altyazi.net,asyaspor21.tv,bartinolay.com,bedava-film.com,belaruspartisan.by,belgeselciyiz.com,belsat.eu,brauer-bund.de,btcnewz.com,businessturkeytoday.com,cj3z.com,corgit.xyz,creatorlabs.net,cwbaltimore.com,daemon-hentai.com,der-postillon.com,desimartini.com,discoverskills.com,discoverychannel.com.tr,dizilara.org,dizitube.net,dizivay.com,efelerhaber.com,egeyonhaber.com,elazigyenihaber.com,ellegirl.ru,erkekadam.org,erzurumajans.com,eurolab.ua,filmakinesi.net,filmold.com,fontanka.ru,forums.flyer.co.uk,fox38corpuschristi.com,fox47.com,foxkansas.com,foxrichmond.com,gazetaby.com,gercekizmir.com,gidavitrini.com.tr,halklailiskiler.com.tr,hizlifilmizlehd.com,inforesist.org,jetvis.ru,karsolay.com,kbsi23.com,kdsm17.com,kg-portal.ru,kinopoisk.userecho.com,kp.ua,losst.ru,magazinekibi.com,manisamanset.gen.tr,mforos.com,mogilev.online,muchohentai.com,multifilemirror.com,mvs.gov.ua,mywebtimes.com,news-journalonline.com,nk.org.ua,noticierodigital.com,ntp-servers.net,obltv.ru,orbita.dn.ua,pctip.ru,podrobnosti.ua,ppt.ru,proglang.su,queenbet4.tv,raleighcw.com,real-vin.com,rmj.ru,rusvesna.su,sanatatak.com,seirsanduk.us,simdifilmizle.com,sonkaleizmir.com,sp-mobile-blog.com,star64.tv,tomiks33.ru,torrentbe.net,torrentrg.org,tqm.com.ua,tribundergi.com,tva.in.ua,utofiles.com,wcti12.com,womanel.com.ua,wpgh53.com,wtto21.com,wutv29.com,xn----8sbcm1bmcar0m.xn--p1ai,earthsky.org,hentairules.net,actualcomment.ru,nkj.ru,tayga.info,hornygamer.com,blog.jetbrains.com,raider.io##.twitter-timeline
 !
+indirimdemarket.com#$##social-media-modal { display: none!important; }
+indirimdemarket.com#$#body { overflow: visible!important; }
+cxid.info###overlay
+setlist.fm##.setlistHeader > div.row > div.pull-right
+donna.nanopress.it##.shareContHQ > ul > li > a:not(.icon-CM)
+bundesregierung.de##.bpa-share
+wallpaperaccess.com##a[href*="//assets.pinterest.com/"]
+dnaindia.com##.artlsocl
+hangikredi.com##.rate-share-article__share
+hangikredi.com##.blog-detail-full-content__social-share
 weatherford.com##a[href$="shareCurrentPage()"]
 rusplt.ru##.share-news-wrapper
 kyky.org##.article__social__share
@@ -1112,6 +1122,7 @@ news.biglobe.ne.jp##.sns-share
 videogameschronicle.com##div.vgc-socialshare
 tvn.pl##a[href^="http://www.facebook.com/sharer.php?"]
 hotline.ua##.instagram-media
+nownews.com##.userBlk > div.titleBlk > div.infoBlk > ul.share
 dailymail.co.uk##.share-comment
 biqle.org##.share42init_wrapper
 pplware.sapo.pt##.wp-embed-share-dialog-open
@@ -3604,7 +3615,7 @@ polityka.pl##.md-sharethis-toolbox_floatingbuttons > .md-sharethis-toolbox-float
 zapytaj.onet.pl###fbFixed
 mjakmama24.pl##body > #panel[style="left:0; position:fixed; top:30%; z-index:6000;"]
 app-time.ru##.wrap-social
-xn--eckhu0c0d1b5kcu5305ksfpb.com,focus.kr,otona-life.com,torrent-download.net,mac-torrent-download.net,f1-gate.com##.sns
+xn--eckhu0c0d1b5kcu5305ksfpb.com,focus.kr,otona-life.com,mac-torrent-download.net,f1-gate.com##.sns
 telegraf.com.ua##.soc_title
 telegraf.com.ua##.socials_tab
 telegraf.com.ua##.wrapper-single-social_block_content_height
@@ -6097,7 +6108,7 @@ cnnturk.com##.navbar-social > li:not([class="search"])
 thesun.co.uk##.naytev-share-toolbar
 cydiageeks.com,hackintosh.computer##.nc_socialPanel
 filehorse.com##.networking
-bigpara.com##.newSocialBar
+bigpara.hurriyet.com.tr,bigpara.com##.newSocialBar
 investing.com##.newSocialButtons
 makeuseof.com##.new_sharebar
 trabzonspor.org.tr##.newdetailsocialwrapper
@@ -7652,7 +7663,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.social-fp-widget
 ##.social-horizontal
 ~reformal.ru,~flex.orange.pl,~europapress.es,~norton.com,~avast.com,~sptrans.com.br,~linuxbabe.com,~backerclub.co,~germs.io,~kioskla.co,~minutouno.com,~domashniy.ru,~playboyrussia.com,~softhome.ru,~xn--90ablmekqdsdu6h.xn--p1ai,~licardo.cn,~breakbrunch.com,~ichip.ru,~popcornnews.ru,~autorambler.ru,~passion.ru,~quto.ru,~surfer.com,~ctvnews.ca,~merriam-webster.com,~expedia.com,~postnauka.ru,~dailystar.co.uk,~elderscrollsonline.com,~bombardir.ru,~letidor.ru,~pozdravtenas.ru,~rbkgames.com,~ferra.ru,~mvideo.ru,~anup.nz,~stradivarius.com,~iarex.ru,~speedtest.net,~pikabu.ru,~theatlantic.com,~ok.ru,~bett1.de,~gofeminin.de,~avito.ru,~cbsnews.com,~hh.ru,~spotify.com,~am-play.de##.social-icon
-~segmentnext.com,~tamindir.com,~bham.pl,~otopress.pl,~sptrans.com.br,~gofugyourself.com,~meditopia.com,~nippononline.ru,~onitsukatiger.com,~symfonycasts.com,~blog.avast.com,~slovnyk.ua,~obserwatorgospodarczy.pl,~militarytimes.com,~adn.com,~programmingwithmosh.com,~ctc.ru,~theweathernetwork.com,~gardenista.com,~kino.de,~theatlantic.com,~cont.ws,~ispo.com,~petri.com,~howtogeek.com,~diatribe.org,~acura.com,~avito.ru,~gamingbolt.com,~vanion.eu,~willdev.in,~am-play.de##.social-icons
+~maxkuchnie.pl,~segmentnext.com,~tamindir.com,~bham.pl,~otopress.pl,~sptrans.com.br,~gofugyourself.com,~meditopia.com,~nippononline.ru,~onitsukatiger.com,~symfonycasts.com,~blog.avast.com,~slovnyk.ua,~obserwatorgospodarczy.pl,~militarytimes.com,~adn.com,~programmingwithmosh.com,~ctc.ru,~theweathernetwork.com,~gardenista.com,~kino.de,~theatlantic.com,~cont.ws,~ispo.com,~petri.com,~howtogeek.com,~diatribe.org,~acura.com,~avito.ru,~gamingbolt.com,~vanion.eu,~willdev.in,~am-play.de##.social-icons
 ~sports.ru##.social-icons-big
 ##.social-icons-widget
 ~yogajournal.ru,~kinogo-2016.net##.social-likes

@@ -222,6 +222,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||tracking.adweb.co.kr^$third-party
+||tracking02.adweb.co.kr^$third-party
+||d-collector.jennifersoft.com^
 ||adsmetadata.mobileadexchange.net^$third-party
 ||adsmetadata.startappk8s.com^$third-party
 ||counter.yandro.ru^$third-party
@@ -4544,6 +4547,10 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||log.ttbc-hcm.gov.vn^
+||eventapi.afreecatv.com^
+||stat.nate.com^
+||hitweb2.chosun.com^
 ||track.clkfly.com^$document,popup
 ||pf.intuit.com^
 ||sci.intuit.com^
@@ -6587,6 +6594,12 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||wcs.naver.com^$image
+||las.danawa.com/log/
+||insight.danawa.com/InsightTrk/*.do
+||news.chosun.com/svc/fb_count.html
+||news.chosun.com/dhtm/*/collecter.js
+||openapi.tv.zum.com/logs/ad/
 ||intuitcdn.net/analytics/
 ||sex-studentki.pro/system/stat/
 /static/peg_utils/peg_logger$domain=parship.de|elitepartner.de
@@ -9139,6 +9152,12 @@ link.gmapp*.net$image
 @@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75675
 ||xinnet.com/dcp/javascript/fingerprint2.min.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/75576
+@@||userreport.com/computools/launcher.js$domain=csb.app
+@@||userreport.com/userreport.js$domain=csb.app
+@@||userreport.com/SystemSettings.js$domain=csb.app
+@@||userreport.com/*/settings.js$domain=csb.app
+@@||feedback.userreport.com/*/*.csb.app$domain=csb.app
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75425
 @@||googletagmanager.com/gtag/js$domain=roman.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75303
@@ -10862,7 +10881,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5056 https://github.com/AdguardTeam/AdguardFilters/issues/8110
 @@||googletagmanager.com/gtm.js$domain=bunte.de|stiefelparadies.de
 ! https://forum.adguard.com/index.php?threads/hiding-the-use-of-adguard.21983/#post-138159
-@@||googletagmanager.com/gtm.js?$domain=torrent-download.net|mac-torrent-download.net
+@@||googletagmanager.com/gtm.js?$domain=mac-torrent-download.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5034
 @@||cdn.krxd.net/amp/remote.min.js$domain=static.telegraph.co.uk
 ! news.rambler.ru - broken video player
