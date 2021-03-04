@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-03-02T18:02:41.164Z
+! Last modified: 2021-03-03T20:12:45.381Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.10
 !
@@ -19,6 +19,15 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||palasidesdoor.com^
+||cuttuberaxis.com^
+||waitmetrodeuce.casa^
+||scowpoppanasals.com^
+||retdaz.fun^
+||clxrggmghevqfu.com^
+||eybkcugat.com^
+||wivamyno.pro^
+||enflaquat.xyz^
 ||teenyreligious.com^
 ||start3dd0wnload.com^
 ||farteniuson.com^
@@ -502,7 +511,6 @@
 ||poemsdeucewee.com^
 ||resniks.pro^
 ||dudslubesviol.com^
-||urtirepor.com^
 ||jiltlargosirk.com^
 ||tk6if76q.ab1n.net^
 ||heauty-viesected.com^
@@ -1379,7 +1387,6 @@
 ||kenvam.online^
 ||wmwloejxww.com^
 ||givirsou.net^
-||aud3g.com^
 ||adtags.mobi^
 ||d0p21g2fep.com^
 ||push-tools-system.com^
@@ -1943,7 +1950,6 @@
 ||czlhgz.com^
 ||gitpw.com^
 ||lzwla.top^
-||sitemaji.com^
 ||prazpf.cn^
 ||wxbdfm.com^
 ||htyfmm.com^
@@ -4578,6 +4584,7 @@ vkcdnservice.appspot.com^
 ||atwoventre.fun^
 ||atyjvujxe.com^
 ||auberginises.xyz^
+||aud3g.com^
 ||audiblyactorisolation.com^
 ||audiesuree.club^
 ||audionews.fm^
@@ -8424,6 +8431,7 @@ vkcdnservice.appspot.com^
 ||motherhoodenhanced.com^
 ||mothhatekick.com^
 ||motille.com^
+||motionlesseasilypreserved.com^
 ||moulieres.xyz^
 ||mousescrupulousrow.com^
 ||moutoofa.com^
@@ -11252,6 +11260,7 @@ vkcdnservice.appspot.com^
 ||uropersag.club^
 ||urt7bpvfz4am.com^
 ||urthvisitoric.space^
+||urtirepor.com^
 ||urymiseshabe.club^
 ||urynnngdrt.com^
 ||uryobtainlyi.club^
@@ -13159,6 +13168,7 @@ vkcdnservice.appspot.com^
 ||adtgs.com^
 ||adthebest.online^
 ||adthrive.com^
+||adthurst.com^
 ||adtival.network^
 ||adtoadd.com^
 ||adtoll.com^
@@ -16245,6 +16255,7 @@ vkcdnservice.appspot.com^
 ||sitcom24.com^
 ||sitebrand.com^
 ||siteencore.com^
+||sitemaji.com^
 ||sitescoutadserver.com^
 ||sitesense-oo.com^
 ||sitethree.com^
@@ -17734,7 +17745,6 @@ vkcdnservice.appspot.com^
 ||news-whistleout.s3.amazonaws.com^
 ||news.fark.com^
 ||news.retire.ly^
-||news.smi2.ru^
 ||novadune.com^
 ||ntvcld-a.akamaihd.net^
 ||numb.hotshare.biz^
@@ -17937,7 +17947,6 @@ vkcdnservice.appspot.com^
 ||dw9uc6c6b8nwx.cloudfront.net^
 ||dxkkb5tytkivf.cloudfront.net^
 ||dxz454z33ibrc.cloudfront.net^
-||trust.zone^
 ||iadc.qwapi.com^
 ||d3ujids68p6xmq.cloudfront.net^
 ||noadblock.net^
@@ -18710,6 +18719,9 @@ vkcdnservice.appspot.com^
 ||visilabs.com^
 ||visilabs.net^
 !
+||log.gs3.goo.ne.jp^
+||static.karte.io^
+||wonder-ma.com^
 ||tracking.adweb.co.kr^
 ||tracking02.adweb.co.kr^
 ||d-collector.jennifersoft.com^
@@ -22645,6 +22657,7 @@ vkcdnservice.appspot.com^
 ||eulerian.belambra.fr^
 ||eulerian.belambra.be^
 ! Adobe Experience Cloud
+||data.adobedc.net^
 ! Commanders Act
 ||tagcommander.com^
 ||commandersact.com^
@@ -25514,6 +25527,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fkondate.com^
 ||foxpush.com^
 ||foxpush.net^
+||getpush.net^
 ||getpushmonkey.com^
 ||getsupernova.com^
 ||gravitec.net^
@@ -26843,7 +26857,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tgknt.com^
 ||triver.jp^
 ||ukw.jp^
-||wonder-ma.com^
 ! Korean
 ||adpick.co.kr^
 ||adtive.com^
@@ -27225,7 +27238,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lcs.livedoor.net^
 ||log.codemarketing.cloud^
 ||log.f-tra.com^
-||log.gs3.goo.ne.jp^
 ||log.nordot.jp^
 ||omt.shinobi.jp^
 ||ranking.apis.sankei-digital.co.jp^
@@ -32054,6 +32066,9 @@ adbetnet.com
 !
 ! Eimg.jp
 !
+||cro.fi-tsunagu.com^
+||admane.jp^
+||smaad.net^
 ||app.monetrack.com^
 ||bn.dxlive.com^
 ||mobee2.jp^
@@ -32286,6 +32301,7 @@ adbetnet.com
 !
 ! Section contains list of advertising networks
 !
+||acgshenshicha.cn^
 ||cdn.upthinking.cn^
 ||quxiangkeji.cn^
 ||tan1dian.com^
@@ -32991,26 +33007,25 @@ adbetnet.com
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 02 Mar 2021 15:08 UTC+7
-! OriginalVersion: 2103021508
-! Blocked: 786 rules
+! Last modified: 03 Mar 2021 16:33 UTC+7
+! OriginalVersion: 2103031633
+! Blocked: 798 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
-||24h*-ad.24hstatic.com^
-||ad*.24hstatic.com^
+||24h-ad.24hstatic.com^
+||24h-ipad-ad.24hstatic.com^
+||ad-us.24hstatic.com^
 ||ad.org.vn^
 ||ad.zing.vn^
 ||ad360.vn^
 ||adasiaholdings.com^
 ||adflex.vn^
 ||adfly.vn^
-||admicro*.vcmedia.com^
 ||admicro*.vcmedia.vn^
 ||adnetwork.vn^
 ||adrealclick.com^
 ||ads-target.coccoc.com^
-||ads.hosting.vcmedia.vn^
 ||ads.platform.zalo.me^
 ||ads.zalo.me^
 ||ads.zaloapp.com^
@@ -33022,7 +33037,10 @@ adbetnet.com
 ||adsplay.net^
 ||adsplay.xyz^
 ||adstracking.apps.zing.vn^
-||adtima*.zadn.vn^
+||adtima-common.zadn.vn^
+||adtima-media-td.zadn.vn^
+||adtima-media.zadn.vn^
+||adtima-static-td.zadn.vn^
 ||adtima.vn^
 ||adx.vn^
 ||ambient-platform.com^
@@ -33045,7 +33063,7 @@ adbetnet.com
 ||clickbuy.bz^
 ||codon.vn^
 ||donglogs.com^
-||eva*-ad.24hstatic.com^
+||eva-ad.24hstatic.com^
 ||ezimar.com^
 ||flygame.io^
 ||gafin.vn^
@@ -33090,7 +33108,7 @@ adbetnet.com
 ||novaonads.com^
 ||novaonx.com^
 ||nt-cdn.coccoc.com^
-||nv-ad*.24hstatic.com^
+||nv-ad.24hstatic.com^
 ||ohchat.net^
 ||oncustomer.asia^
 ||onfluencer.net^
@@ -33146,7 +33164,12 @@ adbetnet.com
 ||yeah1media.vn^
 ||yeah1publishing.com^
 ||younetmedia.com^
-||zalo-ads*.zadn.vn^
+||zalo-ads-240-td.zadn.vn^
+||zalo-ads-240.zadn.vn^
+||zalo-ads-480-td.zadn.vn^
+||zalo-ads-480.zadn.vn^
+||zalo-ads-td.zadn.vn^
+||zalo-ads.zadn.vn^
 ||zaloads-480.zdn.vn^
 ||zlog.mp3.zing.vn^
 ||zplayer-trk.zdn.vn^
@@ -33509,6 +33532,7 @@ adbetnet.com
 ||sv-api-event.headlines.pw^
 ||thongke.24h.com.vn^
 ||thongke.baotintuc.vn^
+||thongke.opencps.vn^
 ||thongke99.baogiaothong.vn^
 ||tka.tiki.vn^
 ||track-srv.vietnamnet.vn^
@@ -33637,6 +33661,7 @@ adbetnet.com
 ||m88cvf.com^
 ||m88my.com^
 ||m88vina.com^
+||m8winvip.com^
 ||macau.club^
 ||macauclub.fun^
 ||mansion66.com^
@@ -33655,6 +33680,7 @@ adbetnet.com
 ||nhatvip.net^
 ||one88.com^
 ||one88.fun^
+||one88.me^
 ||one88.us^
 ||one88.vn^
 ||oneday88.com^
@@ -33684,6 +33710,7 @@ adbetnet.com
 ||top88.club^
 ||top88.fun^
 ||top88.uk^
+||uw88vnd.com^
 ||v7ac.com^
 ||v8.club^
 ||v9bet.com^
@@ -33745,6 +33772,7 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||ax21pics.org^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -36845,6 +36873,12 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
+||jingyazhuangshi.com^
+||cxzudwk.com^
+||sctwny.com^
+||wangdaguanli.com^
+||chang555.cn^
+||tnl808z.cn^
 ||01w47q.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
@@ -39212,7 +39246,6 @@ adbetnet.com
 ||hy-dy.cn^
 ||liveappgirl.net^
 ||www.wifi588.net^*.gif
-||0937js.com^
 ||22588888.com^
 ||2481e.com^
 ||693836.com^
@@ -39323,6 +39356,9 @@ adbetnet.com
 ! `*-dnsotls-ds.metric.gstatic.com` (for instance, `a5a6380f-dnsotls-ds.metric.gstatic.com`).
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/pull/76413
+! whitelist as click-through
+@@||ac.ebis.ne.jp^
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/602
 ! Don't block clicks in AWS emails
 @@||email.awscloud.com^
