@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZLcAp5ugw5nRQM2OaFqxAw
-! Version: 202103040020
+! Checksum: zp5eiCJWNc5RbL5VuHbnzA
+! Version: 202103050020
 ! Title: EasyList
-! Last modified: 04 Mar 2021 00:20 UTC
+! Last modified: 05 Mar 2021 00:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30704,6 +30704,7 @@ _popunder+$popup
 ##aside[itemtype="https://schema.org/WPAdBlock"]
 ##bottomadblock
 ##div[aria-label="Ads"]
+##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
 ##div[class*="-storyBodyAd-"]
 ##div[class*="_AdInArticle_"]
 ##div[class*="_browserAdOuterContainer_"]
@@ -56657,6 +56658,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||bannersnack.net^$domain=bannersnack.com
 @@||basinnow.com^*/advertise-$image,domain=basinnow.com
 @@||bbc.co.uk^*/adverts.js
+@@||bbc.gscontxt.net^$script,domain=bbc.com
 @@||bigfishaudio.com/banners/$image
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||blizzardwatch.com^*/bw-ads.js
@@ -56736,6 +56738,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
 @@||dilbert.com/assets/ad-dependencies-$script,~third-party
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
+@@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com|speedtest.net
 @@||doubleclick.net/favicon.ico$image,domain=goal.com
 @@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|epaper.timesgroup.com|espn.com|etf.com|gamespot.com|nbcsports.com|webmd.com
