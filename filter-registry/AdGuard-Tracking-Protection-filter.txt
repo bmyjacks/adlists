@@ -222,6 +222,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||smart-bdash.com^$third-party
 ||analytics.contents.by-fw.jp^
 ||appier.net^$third-party
 ||depart.trinitymedia.ai^
@@ -10625,6 +10626,8 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||gtr1.yes24.com/wlo/Logging
+||analytics.fsho.st/tracker.js
 ||wcs.naver.com^$image
 ||las.danawa.com/log/
 ||insight.danawa.com/InsightTrk/*.do
@@ -10681,7 +10684,7 @@ the-ans.jp##.side-reccomend
 ||daumcdn.net/*/ba.min.js
 ||laurenhi.com/app/Eclog/
 /lcslog*.js$domain=playentry.org|modoo.at|~pulmuri.modoo.at
-/clickcr*.js$domain=naver.com|modoo.at
+/clickcr*.js$domain=naver.com|modoo.at|~help.naver.com
 ||ssl.pstatic.net/static.gn/js/clickcrD.js
 ||paypal.com/xoplatform/logger/$domain=tapas.io
 ||api-router.kaspersky-labs.com/logger2^
@@ -13988,6 +13991,8 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||api.taboola.com^$domain=samsung.com|thestartmagazine.com
 @@||trc.taboola.com/samsung-browser-feed$domain=samsung.com|thestartmagazine.com
 @@||trc.taboola.com/samsung-browser-us$domain=samsung.com|thestartmagazine.com
+! https://quickaccess.internet.apps.samsung.com/index.html?cc=br
+@@||images.taboola.com^$domain=samsung.com|thestartmagazine.com
 !+ PLATFORM(ext_android_cb)
 @@||news.internet.apps.samsung.com^$generichide
 ! https://forum.adguard.com/index.php?threads/36199/
@@ -15330,7 +15335,7 @@ mozilla-russia.org#@#img[width="88"][height="31"]
 @@/cdn-cgi/pe/bag2?*yieldbot.intent.js$domain=droid-life.com
 @@/cdn-cgi/pe/bag2?*nr-data.net$domain=dailycaller.com|realhardwarereviews.com|thepoliticalinsider.com
 @@||bam.nr-data.net^$script,domain=play.spotify.com
-@@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|change.org|cinemassacre.com|comingsoon.net|everydayhealth.com|dailyfreegames.com|dailysteals.com|donanimhaber.com|echo.msk.ru|ehow.com|eonline.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kaspersky.pl|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|media.zie.nl|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|videochart.net|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
+@@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|change.org|cinemassacre.com|comingsoon.net|everydayhealth.com|dailyfreegames.com|dailysteals.com|donanimhaber.com|echo.msk.ru|ehow.com|eonline.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kaspersky.pl|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|videochart.net|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
 @@||msn.com/c.gif?rid=$image,domain=my.msn.com
 @@||walmart.com/__ssobj/core.js
 @@||google.*/mapmaker/gen_204?$subdocument,xmlhttprequest
