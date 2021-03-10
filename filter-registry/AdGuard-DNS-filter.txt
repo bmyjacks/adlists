@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-03-08T18:05:02.218Z
+! Last modified: 2021-03-09T18:16:56.512Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.10
 !
@@ -19,6 +19,12 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||elathalobolo.com^
+||bayirksrap.com^
+||web-redirecting.com^
+||awardpodstab.com^
+||pertersacstyli.com^
+||capsheirspages.com^
 ||shrillbighearted.com^
 ||cpm.media^
 ||displayformatcontent.com^
@@ -146,7 +152,6 @@
 ||yourdestinationlink.com^
 ||localsnaughty.com^
 ||alawachi.net^
-||vessoupy.com^
 ||adshort.media^
 ||pockhopatone.com^
 ||3sk7d418al8u.com^
@@ -7858,6 +7863,7 @@ vkcdnservice.appspot.com^
 ||kwhsnwdpwsv.com^
 ||kwwxnzcielmpy.com^
 ||kxicxovlajgoct.com^
+||kxmvoppmbtzdi.com^
 ||kxqoiypoasab.com^
 ||kxswxnbr.com^
 ||kxuztynmbquxcf.com^
@@ -11465,6 +11471,7 @@ vkcdnservice.appspot.com^
 ||veremund-hon.com^
 ||versusberryoutdoor.com^
 ||veryoneresp.club^
+||vessoupy.com^
 ||veuzlkpnbujf.com^
 ||vexuchkhuin.com^
 ||vezipelsr.com^
@@ -12025,6 +12032,7 @@ vkcdnservice.appspot.com^
 ||xeafosrhjk.com^
 ||xebadu.com^
 ||xecbvdgmwsh.com^
+||xehcnpvqdicvx.com^
 ||xeiwcnwmlv.com^
 ||xel-xel-fie.com^
 ||xelllwrite.com^
@@ -16029,6 +16037,7 @@ vkcdnservice.appspot.com^
 ||qksz.net^
 ||qmkr7isp3o.com^
 ||qnsr.com^
+||qozveo.com^
 ||qrlsx.com^
 ||qservz.com^
 ||qualitypageviews.com^
@@ -18797,6 +18806,7 @@ vkcdnservice.appspot.com^
 ||visilabs.com^
 ||visilabs.net^
 !
+||click-plus.net^
 ||smart-bdash.com^
 ||analytics.contents.by-fw.jp^
 ||appier.net^
@@ -33703,6 +33713,7 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||miaolejieshui.cn^
 ||huataisangao.cn^
 ||00-gov.cn^
 ||0024aaaa.com^
@@ -34233,7 +34244,6 @@ adbetnet.com
 ||fexiaen.com^
 ||ffa9.cn^
 ||fghlmiaoqrtyfl65ha0ss22k3dqi6lng.com^
-||fijipic.xyz^
 ||fisher56.com^
 ||fjbzjc.com^
 ||fjdy.cc^
@@ -35690,6 +35700,7 @@ adbetnet.com
 ||zhimg.com^*adx
 ||zt2088.com^
 ||ztyumn.ifeng.com^
+||ad.byfuh.com^
 @@||95599.cn^*ad
 @@||abchina.com^*ad
 @@||ad.10010.com^

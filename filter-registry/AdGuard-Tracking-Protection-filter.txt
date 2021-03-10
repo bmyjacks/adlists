@@ -222,6 +222,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||click-plus.net^
 ||smart-bdash.com^$third-party
 ||analytics.contents.by-fw.jp^
 ||appier.net^$third-party
@@ -4558,6 +4559,10 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||log.tf.co.kr^
+||log.zdnet.co.kr^
+||weblog.zdnet.co.kr^
+||logger.tvchosun.com^
 ||log.ttbc-hcm.gov.vn^
 ||eventapi.afreecatv.com^
 ||stat.nate.com^
@@ -10626,6 +10631,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||gold.contentsfeed.com/lb/sd/nw$domain=sportsseoul.com
 ||gtr1.yes24.com/wlo/Logging
 ||analytics.fsho.st/tracker.js
 ||wcs.naver.com^$image
@@ -10674,6 +10680,7 @@ the-ans.jp##.side-reccomend
 ||macg.co/modules/statistics/statistics.php
 ||nelo2-col.navercorp.com/_store
 ||popin.cc/popin_discovery/$script
+||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
 ||dcf.espn.com/privacy/
 ||mhevent.segye.com/mbi/pvcount
@@ -13183,6 +13190,8 @@ link.gmapp*.net$image
 !
 ! Unblocking everything on check-in confirmation pages - blocking tracking breaks it
 @@||pobeda.aero/*/check-in/$document
+! https://github.com/AdguardTeam/AdguardFilters/issues/76810
+@@||geoloc.hurriyet.com.tr/api/country/$domain=hurriyet.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75643
 @@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75675
@@ -13349,6 +13358,8 @@ nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68350
 @@||google-analytics.com/analytics.js$domain=csub.edu
 @@||csub.edu/static/js/google-analytics.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/76582
+@@||cxense.com/cx.cce.js$domain=tn.com.ar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68108
 @@||app-sjf.marketo.com^$domain=live.altium.com
 ! fix broken glamusha.ru
