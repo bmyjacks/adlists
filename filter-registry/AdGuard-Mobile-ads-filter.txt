@@ -1297,6 +1297,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! amp.focus.de - ad texts
+amp.focus.de#?#.textBlock > .caption:has(> .source:contains(ANZEIGE))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74988
 lxax.com#?#article > div.in-row > iframe[src^="/_ad#"]:upward(2)
 ! mildch.com placeholder
@@ -1454,6 +1456,7 @@ nv.ua#?#.article__content__footer > div[class] > div[id]:contains(загрузк
 ! https://forum.adguard.com/index.php?threads/promoted-posts-on-reddit-mobile-pages.36796/
 reddit.com#?#.PostsList > div:not([class]):not([id]) > div:not([class]):not([id]) > article.Post:has(> .adLinkBar)
 reddit.com#?#.PostsList > span > article:has(> .adLinkBar)
+reddit.com#?#.CommentsPage > article[class][id]:has(> div[class] > a > div[class]:contains(Promoted))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46433
 uludagsozluk.com#?#.mobil_bugun > li:has(> a[href^="http://bit.ly/"][rel="nofollow"] + b[style="color: #a09f9f;"]:contains(reklam))
 ! m.news.de amp - left-over
@@ -2374,6 +2377,11 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+amp.reddit.com##div[class*="__Ad"]
+amp.focus.de##.textBlock > amp-embed[class*="notbuilt"]
+haberler.com##main > div[style^="width: 320px;"][style*="height: 100px;"]
+mobil.macwelt.de##body div#ad_mobile_top
+m.txtshuku.org##a[href^="https://m.yituo-patibao.cn/clk?"]
 m.freepressjournal.in##div[class^="amp_Ad"]
 infranken.de##div[class^="w4_Mobile_"]
 ameblo.jp##.skinBody2 > div[class=""] + div[class^="_"]
