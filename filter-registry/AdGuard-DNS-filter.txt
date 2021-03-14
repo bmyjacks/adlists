@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-03-12T18:05:09.331Z
+! Last modified: 2021-03-13T18:04:30.064Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.10
 !
@@ -19,6 +19,8 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||shindyadmittancemeal.com^
+||awecre.com^
 ||bhwcfwjz.com^
 ||asuppsttp.com^
 ||searsbushelbus.com^
@@ -6183,6 +6185,7 @@ vkcdnservice.appspot.com^
 ||eloquencer.com^
 ||elprogresse.top^
 ||elqsjecdav.com^
+||elsetormentshower.com^
 ||elsupposit.club^
 ||elyconsisterj.club^
 ||emagazing.fun^
@@ -24227,7 +24230,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d1r27qvpjiaqj3.cloudfront.net^
 ||d1rgnfh960lz2b.cloudfront.net^
 ||d1ros97qkrwjf5.cloudfront.net^
-||d1wscoizcbxzhp.cloudfront.net^
 ||d1yu5hbtu8mng9.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||d21o24qxwf7uku.cloudfront.net^
@@ -32329,7 +32331,6 @@ adbetnet.com
 !
 ! Section contains list of advertising networks
 !
-||wap.hfoyjg.cn^
 ||adserve.work^
 ||acgshenshicha.cn^
 ||cdn.upthinking.cn^
@@ -32560,7 +32561,6 @@ adbetnet.com
 ||biallo1.de^
 ||biallo2.de^
 ||biallo3.de^
-||big7.com^
 ||bitcoinpara.de^
 ||blogads.de^
 ||bsheute.de^
@@ -33040,9 +33040,9 @@ adbetnet.com
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 12 Mar 2021 20:30 UTC+7
-! OriginalVersion: 2103122030
-! Blocked: 811 rules
+! Last modified: 13 Mar 2021 20:59 UTC+7
+! OriginalVersion: 2103132059
+! Blocked: 816 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -33184,6 +33184,7 @@ adbetnet.com
 ||testcentre.vn^
 ||track.accesstrade.vn^
 ||tracking.api.media.zapps.vn^
+||tracking.banner.g6.zing.vn^
 ||tracking.playzing.g6.zing.vn^
 ||tracking.tv.zing.vn^
 ||trk-pcweb.api.zaloapp.com^
@@ -33268,6 +33269,7 @@ adbetnet.com
 ||ads.netlinkad.vn^
 ||ads.nghenhinvietnam.vn^
 ||ads.nhadatmoi.net^
+||ads.pcccdongduong.vn^
 ||ads.phunuonline.com.vn^
 ||ads.phunusuckhoe.vn^
 ||ads.phunuvagiadinh.vn^
@@ -33331,6 +33333,7 @@ adbetnet.com
 ||avoadsservices.com^
 ||banhtv.org^
 ||banner.5giay.vn^
+||banner.etargeting.mobifone.vn^
 ||banner.thadaco.vn^
 ||banner.trangvangvietnam.com^
 ||banner.vietnamfinance.vn^
@@ -33577,6 +33580,7 @@ adbetnet.com
 ||track.lapa.pub^
 ||track.pregmomvietnam.com^
 ||track.sendo.vn^
+||track.vio.edu.vn^
 ||tracker.anime47.com^
 ||tracker.bongngo.store^
 ||tracker.fado.vn^
@@ -33682,6 +33686,7 @@ adbetnet.com
 ||ibet889.com^
 ||income88.com^
 ||interwinvn.com^
+||jbo064.com^
 ||jbovn.com^
 ||k8vina17.com^
 ||k8vn03.com^
@@ -33815,9 +33820,7 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||3336673.com^
-||3338877.com^
-||simaoer.com^
+||hfoyjg.cn^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -33900,10 +33903,12 @@ adbetnet.com
 ||3336653.com^
 ||3336657.com^
 ||3336670.com^
+||3336673.com^
 ||3336691.com^
 ||3337706.com^
 ||3337739.com^
 ||3337781.com^
+||3338877.com^
 ||333dm.com^
 ||338336.com^
 ||3400.org^
@@ -34967,6 +34972,7 @@ adbetnet.com
 ||si9377.com^
 ||sicentlife.com^
 ||sigo99.com^
+||simaoer.com^
 ||sina-img.club^
 ||sinaalicdn.com^
 ||sinawbimg.com^
@@ -35424,7 +35430,6 @@ adbetnet.com
 ||zzwflxs.com^
 ||zzwpsm.cn^
 ||zzyonghao.com^
-||mm786.com^
 ||1024mzs.pw^
 ||1024wanzhai.
 ||133gp.com^
@@ -35444,6 +35449,7 @@ adbetnet.com
 ||ieeod0.com^
 ||jav321.com^
 ||kuheju.com^
+||mm786.com^
 ||p.ynb2dca.com^
 ||qx568.com^
 ||todayapp.tv^
@@ -36545,14 +36551,8 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||3yai2u.cn^
-||gycy2.com^
-||chuangjulm.cn^
-||dt02kc9.cn^
-||coroplastsheet.cn^
-||kuzexinxi.com^
-||2gz9nc.cn^
-||youpukeji.cn^
+||haomaiweb.com^
+||xunzhuo123.com^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
 ||027whht.com^
@@ -36604,6 +36604,7 @@ adbetnet.com
 ||282l1.cn^
 ||2bssjsq.com^
 ||2gvuukm1lm.com^
+||2gz9nc.cn^
 ||2ktd0.cn^
 ||2l1f.cn^
 ||2q5p.cn^
@@ -36615,6 +36616,7 @@ adbetnet.com
 ||381s.net^
 ||3hbox.com^
 ||3y0h.cn^
+||3yai2u.cn^
 ||3ye924.cn^
 ||40ic.cn^
 ||45le.cn^
@@ -36914,6 +36916,7 @@ adbetnet.com
 ||chinawms.cn^
 ||chinaxingyin.com^
 ||chinayutai.cn^
+||chuangjulm.cn^
 ||chuzrra.cn^
 ||cifree.xyz^
 ||cike666.com^
@@ -36949,6 +36952,7 @@ adbetnet.com
 ||continuefaf.top^
 ||cooltool.cc^
 ||cornplus.cn^
+||coroplastsheet.cn^
 ||couas.com^
 ||coyvzui.cn^
 ||cpcc.xyz^
@@ -37024,6 +37028,7 @@ adbetnet.com
 ||dsdsds8848.xyz^
 ||dsjre.com^
 ||dssdr.top^
+||dt02kc9.cn^
 ||dtxdwl.cn^
 ||dtzysm.com^
 ||du9zgx.cn^
@@ -37193,6 +37198,7 @@ adbetnet.com
 ||gxklsftz.cn^
 ||gxkyl.com^
 ||gybdtg.com^
+||gycy2.com^
 ||gyeet.com^
 ||gyrtg.com^
 ||gyt168.com.cn^
@@ -37467,6 +37473,7 @@ adbetnet.com
 ||kuaidibox.cn^
 ||kuaipaobiaoju.com^
 ||kunloveyu.cn^
+||kuzexinxi.com^
 ||kxvuv.com^
 ||kypzu.cn^
 ||kyxnz.cn^
@@ -38216,6 +38223,7 @@ adbetnet.com
 ||yoobest.cn^
 ||youkete.cn^
 ||youngalsobeautiful.com^
+||youpukeji.cn^
 ||youshouge513.cn^
 ||youweiprint.com^
 ||yqqlm.vip^
