@@ -222,6 +222,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||k-analytix.com^$third-party
+||i.btg360.com.br^$third-party
 ||tracdelight.io^$third-party
 ||goatcounter.com^$third-party
 ||gc.zgo.at^$third-party
@@ -10311,6 +10313,8 @@ charlestownwyllie.oaklawnnonantum.com^
 /rd-js-integration.min.js
 ! Plausible
 /plausible.js
+||plausible.io/js/p.js
+||plausible.io/api/event
 ! Umami
 /umami.js
 !
@@ -10760,6 +10764,7 @@ the-ans.jp##.side-reccomend
 ||zenback.jp^*/tracking.html
 ||cdn.retailrocket.ru/*/tracking.js
 ||ru-mi.com/*/ee_tracking.js
+||tozlu.com/Scripts/ticimax/analytics.js
 ||matchid.adfox.yandex.ru/getcookie$domain=vseinstrumenti.ru
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
 ||r.yna.co.kr/global/lib/*/js/nlogger.js

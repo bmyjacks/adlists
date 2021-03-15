@@ -1809,6 +1809,9 @@ revouninstaller.com,logincasino.com,borsagundem.com,officelife.media,kod.ru,mast
 ! ###mc_embed_signup
 voxukraine.org,pnas.org,cachevalleydaily.com,bisnis.com,ilpost.it,bsblog.info,alcoparty.com.ua,codastory.com,informazionefiscale.it,kerch.fm,cinemablend.com,prostofinovo.ru,comss.ru,majorgeeks.com,buhgalter.com.ua,providr.com,24tv.ua,babylonbee.com,dexerto.com,football365.com,menrec.com,netdoktor.de,ottawamatters.com,retail-insider.com,walterfootball.com,wweek.com,zozhnik.ru###mc_embed_signup
 !
+guichevirtual.com.br##.newsletter-form
+swarajyamag.com##div[class^="email-subscribe-"]
+revolt.tv##div[id="toaster"][data-cdata*="Subscribe"]
 flos.com###link-newsletter
 ||coop-land.ru/uploads/posts/*_telegram.jpg
 ultimateclassicrock.com##.tsq_sailthru_newsletter_widget
@@ -4381,7 +4384,6 @@ lesechos.fr#@#.adBanner
 lesechos.fr#@#.adbanner
 ||cloudfront.net/assets.sidearmsports.com/responsive/js/bettor_detector.*.js
 ||talkceltic.net/forums/js/Siropu/AM/
-||online-fix.me/templates/FixLand/js/helpus.js
 otempo.com.br##.adblock-info
 png.is#$#ins.adsbygoogle { height: 1px!important; }
 @@||poedb.tw/dfp.js
@@ -8188,7 +8190,12 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+guichevirtual.com.br##.gv-cookie-lgpd-alert-container
+||cdn.efilli.com/efl.js
+play.gll.gg###site-wrapper > div.Toastify + div[class^="sc-"]
+frontify.com##.cookieBannerWrapper
 ||production-cmp.isgprivacy.cbsi.com/cps/shamanNotifier.js$domain=last.fm
+dosgamers.com##.site_cookies_message
 secure.postimees.ee###pm-cookie-notif
 koelnerliste.com#$#body { overflow: auto !important; }
 koelnerliste.com#$##cookieman-modal { display: none !important; }
@@ -16839,6 +16846,9 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+stackoverflow.com##.js-dismissable-hero
+skyscanner.com.br#$#body { overflow: auto !important; }
+skyscanner.com.br#$##email-capture-trigger { display: none !important; }
 ||blog.crooz.jp/js/newLayout/popup.js
 bloglovin.com##.subscribe-email-banner-container
 komando.com##.k3-prefs-center-modal-background
@@ -21719,6 +21729,7 @@ experts-exchange.com##.interceptBackgroundBlocker
 experts-exchange.com##.adBanner-comment
 experts-exchange.com##.ctaSolutionStickyWrapper
 !
+tipspetani.com##.covid-box
 postimees.ee##.digipakett-branding-root-container
 blogs.scientificamerican.com##.house__home_ad
 yoomoney.ru##div[data-react-widget-id="AppPromo"]
@@ -22682,8 +22693,6 @@ dosya.co#%#//scriptlet("adjust-setTimeout", "countDown", "", "0.02")
 essek.gen.tr#%#//scriptlet("adjust-setInterval", "#pleasewait", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62956
 freewebcart.com#%#//scriptlet("adjust-setInterval", "counter", "", "0.02")
-! https://github.com/AdguardTeam/AdguardFilters/issues/60708
-@@||online-fix.me/templates/FixLand/$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60415
 rekonise.com#%#//scriptlet('remove-attr', 'disabled', '.unlock-button')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60113
