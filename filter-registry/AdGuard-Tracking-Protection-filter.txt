@@ -222,6 +222,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||logger.eigene.io^
+||receiver.eigene.io^
+||c-rings.net^$third-party
+||t.felmat.net^
 ||k-analytix.com^$third-party
 ||i.btg360.com.br^$third-party
 ||tracdelight.io^$third-party
@@ -4573,6 +4577,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||logcol.kyobobook.co.kr^
 ||uep.gaijin.net^
 ||event.impression-neo.naver.com^
 ||er.search.naver.com^
@@ -10651,6 +10656,10 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||api.eigene.io/rec/
+||snva.jp/javascripts/reco/
+||protagcdn.com^*/site.js$domain=lovehug.net
+||bloomberg.com/8FCGYgk4/init.js
 ||deovr.com/api_logs/
 ||70url.com/paody/js/count.js$domain=yingwangtv.com
 ||85st.com/static/js/logging.js
@@ -12557,7 +12566,7 @@ dreamprogs.net##td[width="88"][height="31"]
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 ||play.google.com/log?
 !+ NOT_PLATFORM(ios, ext_android_cb)
-||naver.net/wcslog.js
+||naver.net/wcslog.js$domain=~kyobobook.co.kr
 ! https://github.com/AdguardTeam/AdguardForAndroid/issues/249
 ||do-not-tracker.org^$third-party
 ||eviltracker.net^$third-party
@@ -13215,6 +13224,12 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/77321
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=lrytas.lt
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||google-analytics.com/analytics.js$domain=lrytas.lt
+! https://github.com/AdguardTeam/AdguardFilters/issues/77552
+@@||cdn.retailrocket.ru/content/javascript/tracking.js$domain=comfy.ua
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77157
 @@||p.typekit.net/*.css$domain=cfr.org
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org

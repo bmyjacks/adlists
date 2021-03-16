@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZwQ8igseFH7NyfFU5UG54g
-! Version: 202103150020
+! Checksum: Y5Apwag3RF3McsDCL+pbgA
+! Version: 202103160020
 ! Title: EasyList
-! Last modified: 15 Mar 2021 00:20 UTC
+! Last modified: 16 Mar 2021 00:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -23451,6 +23451,7 @@ _popunder+$popup
 ##.block--bean-artadocean300x250-1
 ##.block--bean-artadocean300x250-3
 ##.block--bean-artadocean300x250-6
+##.block--dfp
 ##.block--doubleclick
 ##.block--simpleads
 ##.block--views-premium-ad-slideshow-block
@@ -24063,6 +24064,7 @@ _popunder+$popup
 ##.clHeader_Ad
 ##.classifiedAdSplit
 ##.classifiedAdThree
+##.cldt-ad-content-banner2
 ##.cldt-ad-top
 ##.clearerad
 ##.clickforceads
@@ -31720,6 +31722,7 @@ ebayclassifieds.com,guloggratis.dk#@#.gallery-ad
 time.com#@#.google-sponsored
 gumtree.co.za#@#.googleAdSense
 nicovideo.jp#@#.googleAds
+musicweek.com#@#.googlead
 davidsilverspares.co.uk#@#.greyAd
 komando.com#@#.grid-item-ad
 forums.digitalspy.com,marketwatch.com,waer.org#@#.has-ad
@@ -36332,6 +36335,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||judgementinvincible.com^
 ||juggrounds.com^
 ||jukfpojq.com^
+||julrdr.com^
 ||jumperdeduction.com^
 ||jumperproprietaryfifth.com^
 ||junmediadirect.com^
@@ -51397,6 +51401,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||wptpoker.com^$popup
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
+||4fcams.com/in/?track=$subdocument,third-party
 ||4tube.com/iframe/$third-party
 ||69games.xxx/ajax/skr?
 ||adtrue24.com^$~stylesheet
@@ -53824,6 +53829,7 @@ espnscrum.com###scrumRhsBgMpu
 espnscrum.com###scrumRhsBgTxtLks
 hentai2read.com###sct_banner_980_60
 yahoo.com###sda-LDRB
+yahoo.com###sda-LDRB2
 yahoo.com###sda-MAST
 91mobiles.com###se_notification
 smarterfox.com###secondary-banner
@@ -55485,7 +55491,7 @@ solidfiles.com##.top-section
 belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,business-live.co.uk,cambridge-news.co.uk,chroniclelive.co.uk,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,dublinlive.ie,essexlive.news,football.london,gazettelive.co.uk,getreading.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leicestermercury.co.uk,lincolnshirelive.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,plymouthherald.co.uk,somersetlive.co.uk,stokesentinel.co.uk,walesonline.co.uk##.top-slot
 techcentral.ie,texteditor.co,versus.com##.topBanner
 giveawayoftheday.com##.top_ab
-tiresandparts.net,weta.org##.top_banner
+indy100.com,tiresandparts.net,weta.org##.top_banner
 joebucsfan.com##.top_banner_cont
 wallpapersmania.com##.top_pad_10
 roadtests.com##.topad
@@ -55506,6 +55512,7 @@ lasvegassun.com##.varWrapper
 tetris.com##.verticalAx
 videogameschronicle.com##.vgc-boxout
 vice.com##.vice-ad__container
+yahoo.com##.viewer-sda-container
 variety.com##.vip-banner
 op.gg##.vm-placement
 ebook-searcher.com##.w-100
@@ -55555,6 +55562,7 @@ bit-tech.net##.xtag_container
 pravda.ru##.yaRtbBlock
 imdb.com##.yesScript
 shockwave.com##.ympb_target_banner
+ign.com##.zad
 thehackernews.com##.zoho-box
 hltv.org##[class*="widget"]
 zerohedge.com##[class^="Advert_"]
@@ -56320,6 +56328,7 @@ hentai2w.com##.aff-col
 fapdu.com##.aff300
 porngals4.com##.affl
 pornsharing.com##.allIMwindow
+amateurbusters.com##.amod-section
 hotmovs.com##.annoying-container
 xnxxhd.pro##.approve
 blogvporn.com##.article-btn
