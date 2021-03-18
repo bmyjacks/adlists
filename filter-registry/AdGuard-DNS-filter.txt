@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-03-16T18:04:54.615Z
+! Last modified: 2021-03-17T18:04:09.242Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.10
 !
@@ -19,6 +19,14 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||bestcontentfund.top^
+||boasstylijoked.com^
+||emotersjervina.com^
+||kbyfbw6aaada.com^
+||falsemulticultural.com^
+||geruksom.net^
+||touphipt.com^
+||kyfunahi.pro^
 ||icdecidents.biz^
 ||hionedaugsbu.info^
 ||ompanythats.biz^
@@ -29,8 +37,13 @@
 ||jotpoolwarren.com^
 ||fikri-ayo.com^
 ||adsyou.pro^
+||seoclerkpro.com^
+||tecnikalsense.com^
+||adhoow.com^
 ||mopemodelingfrown.com^
 ||shindyadmittancemeal.com^
+||chichayen.com^
+||awecre.com^
 ||bhwcfwjz.com^
 ||asuppsttp.com^
 ||searsbushelbus.com^
@@ -176,7 +189,6 @@
 ||ppae8oe4eku9.com^
 ||psaughun.com^
 ||ptechait.com^
-||loopoohy.com^
 ||jcqwzssqks.com^
 ||vobquhydgvyqf.com^
 ||y0urf1rstd0wnl0ad.com^
@@ -1905,7 +1917,6 @@
 ||fuxoasim.link^
 ||oagudsey.uk^
 ||ukdtx.31202.fun^
-||nativepu.sh^
 ||glothouw.link^
 ||a.doko.moe^
 ||renaissanto.com^
@@ -3252,6 +3263,8 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||a.dphunters.com^
+||a.streamoupload.com^
 ||tontent.povwideo.me^
 ||ad.holmesmind.com^
 ||j83ad.speedrun.com^
@@ -5627,6 +5640,7 @@ vkcdnservice.appspot.com^
 ||d0efb7d9aeb478d.com^
 ||d194f913ee63.com^
 ||d1c4d437f10.com^
+||d24ak3f2b.top^
 ||d2850fafeb7.com^
 ||d2ab631af57.com^
 ||d2vybwwevieya6j.monster^
@@ -8180,6 +8194,7 @@ vkcdnservice.appspot.com^
 ||lomkgojdoeffl.com^
 ||loobusir.com^
 ||loohiwez.net^
+||loopoohy.com^
 ||lootynews.com^
 ||lopetgohou.cf^
 ||lophaszip.com^
@@ -9340,6 +9355,7 @@ vkcdnservice.appspot.com^
 ||pawheatyous.com^
 ||pawnorderpampas.work^
 ||pay2clik.cf^
+||payingnoodlescam.com^
 ||paymentdeceasedcommence.com^
 ||pb5oqguywycj.com^
 ||pbkhlczs.com^
@@ -11882,6 +11898,7 @@ vkcdnservice.appspot.com^
 ||whaudsur.net^
 ||whaustou.net^
 ||whdzxabhqsdnlc.com^
+||wheeptit.net^
 ||wheessoo.com^
 ||whendiscovery.com^
 ||whenedkom.club^
@@ -15564,6 +15581,7 @@ vkcdnservice.appspot.com^
 ||nativeads.com^
 ||nativeadsfeed.com^
 ||nativeleads.net^
+||nativepu.sh^
 ||nativeroll.tv^
 ||nativespot.com^
 ||nauhohag.net^
@@ -17664,6 +17682,7 @@ vkcdnservice.appspot.com^
 ! Source: https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_thirdparty.txt
 !
 ||a.livesportmedia.eu^
+||a.speedostream.com^
 ||a.ucoz.net^
 ||a04296f070c0146f314d-0dcad72565cb350972beb3666a86f246.r50.cf5.rackcdn.com^
 ||ad.about.co.kr^
@@ -18913,6 +18932,8 @@ vkcdnservice.appspot.com^
 ||visilabs.com^
 ||visilabs.net^
 !
+||px.za.zaloapp.com^
+||jg.wensixuetang.com^
 ||tapjoy.com^
 ||tapjoy.net^
 ||logger.eigene.io^
@@ -22913,6 +22934,8 @@ t.yesware.com
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||stat.5-tv.ru^
+||log.zingnews.vn^
 ||logcol.kyobobook.co.kr^
 ||uep.gaijin.net^
 ||event.impression-neo.naver.com^
@@ -24987,6 +25010,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||donreach.com^
 ||dotaki.com^
 ||dotjs.com^
+||driv-analytics.com^
 ||dtxngr.com^
 ||durationmedia.net^
 ||dynamicyield.com^
@@ -25378,6 +25402,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||soflopxl.com^
 ||soft-com.biz^
 ||soko.ai^
+||sol-data.com^
 ||solosegment.com^
 ||solutionshindsight.net^
 ||sophi.io^
@@ -27529,6 +27554,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||essokosi.com^
+||bspdyp.com^
 ||amads.xyz^
 ||leadgidads.ru^
 ||vioturallis.com^
@@ -33071,9 +33098,9 @@ adbetnet.com
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 16 Mar 2021 15:03 UTC+7
-! OriginalVersion: 2103161503
-! Blocked: 815 rules
+! Last modified: 17 Mar 2021 14:22 UTC+7
+! OriginalVersion: 2103171422
+! Blocked: 816 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -33121,6 +33148,7 @@ adbetnet.com
 ||cdn-qc.coccoc.com^
 ||cdn.comedia.coccoc.com^
 ||cdnstoremedia.com^
+||cdp.asia^
 ||centralized.zaloapp.com^
 ||cheap-ads.net^
 ||cityadstrack.com^
@@ -33186,7 +33214,6 @@ adbetnet.com
 ||pushdy.com^
 ||pushdy.vn^
 ||pushtimize.com^
-||px.za.zaloapp.com^
 ||qc-static.coccoc.com^
 ||qc.coccoc.com^
 ||qc.coccoc.vn^
@@ -33555,7 +33582,6 @@ adbetnet.com
 ||log.vovplus.vn^
 ||log.zamba.vn^
 ||log.zingmp3.vn^
-||log.zingnews.vn^
 ||log.zingtv.vn^
 ||log4x.nixcdn.com^
 ||logapi.misa.com.vn^
@@ -33850,6 +33876,8 @@ adbetnet.com
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||maidagu.com^
+||ysyjg.com^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||00880808.com^
@@ -35839,7 +35867,7 @@ adbetnet.com
 ||xc.mydrivers.com^
 ||xdyjt.com^
 ||xinjscn.oss-cn-hangzhou.aliyuncs.com^
-||xntk.net^*.html
+||xntk.org^*.html
 ||xs.houyi.baofeng.net^
 ||ya*.dwstatic.com^
 ||yktj.yzz.cn^
@@ -35885,6 +35913,7 @@ adbetnet.com
 ||wofjhs.com^
 ||xayah.date^
 ||003store.com^
+||88.yunqishi.net^
 ||1.01fy.cn^
 ||1.07swz.com^
 ||1.1010pic.com^
@@ -36593,6 +36622,10 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
+||r890x3.com^
+||stm65i8.com^
+||5fst22.cn^
+||xinyuanstudio.com^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
 ||027whht.com^
@@ -37575,7 +37608,6 @@ adbetnet.com
 ||lousivency.com.cn^
 ||lovepets70.com^
 ||lownguw.top^
-||lq.xsbooktxt.com^
 ||lq0s3c.cn^
 ||lq1.abcxs.com^
 ||lr96.top^
