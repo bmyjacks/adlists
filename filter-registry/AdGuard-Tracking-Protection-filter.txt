@@ -4581,13 +4581,13 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||clicks.wawlabs.com^
 ||stat.5-tv.ru^
 ||log.zingnews.vn^
 ||logcol.kyobobook.co.kr^
 ||uep.gaijin.net^
 ||event.impression-neo.naver.com^
 ||er.search.naver.com^
-||s.search.naver.com^
 ||log.tf.co.kr^
 ||log.zdnet.co.kr^
 ||weblog.zdnet.co.kr^
@@ -10663,6 +10663,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||collector.wawlabs.com/epttavm.js
 ||za.zalo.me/v*/brp?fts=
 ||za.zalo.me/v*/w/_zaf.gif
 ||freexcafe.com/js/analytics.js
@@ -13232,6 +13233,9 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/77565
+@@||cdn.segmentify.com^$domain=pttavm.com
+@@||gandalf.segmentify.com^$domain=pttavm.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77266
 @@||jsonip.com/?callback=$domain=hotelforex.com
 ! https://forum.adguard.com/index.php?threads/www-viu-com.42285/
@@ -15194,8 +15198,6 @@ epicwow.com#@#img[width="88"][height="31"]
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=ukr.net
 ! Fixing endless loding, caused by blocking of optimizely.com
 @@||cdn.optimizely.com/js/*.js$domain=ns.nl|compassion.com|creditsesame.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com|olx.ua|casper.com|dubizzle.com|pullandbear.com
-! http://forum.adguard.com/showthread.php?5974
-@@||mc.yandex.ru/metrika/watch.js$domain=101.ru
 ! smartresponder.ru broken registration form
 @@||mc.yandex.ru/metrika/watch.js$domain=smartresponder.ru
 ! https://forum.adguard.com/index.php?threads/11245/
