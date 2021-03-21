@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-03-19T20:00:07.861Z
+! Last modified: 2021-03-20T18:06:03.974Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.10
 !
@@ -19,6 +19,8 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||samplerpouch.com^
+||sketchinferiorunits.com^
 ||interceptstephen.com^
 ||go.loadingnow.me^
 ||wishjus.com^
@@ -289,7 +291,6 @@
 ||assets.netizen.co^
 ||bestcontenttrade.top^
 ||cpmnetworkcontent.com^
-||eatsidebicep.com^
 ||d3mzokty951c5w.cloudfront.net^
 ||qrirufliyj.com^
 ||dsnrkqbeqbyu.com^
@@ -6064,6 +6065,7 @@ vkcdnservice.appspot.com^
 ||e5d944a25e468d.com^
 ||e5f06193a7.com^
 ||e6916adeb7e46a883.com^
+||e702fa7de9d35c37.com^
 ||e7594ca72746.com^
 ||e7e776c1a8bf677.com^
 ||e85440ec98f04725.com^
@@ -6103,6 +6105,7 @@ vkcdnservice.appspot.com^
 ||easygoinghomesickimprobable.com^
 ||easylist-to.xyz^
 ||eatmenticha.top^
+||eatsidebicep.com^
 ||eatyfailiffacc.club^
 ||eawp2ra7.top^
 ||ebcpfsslht.com^
@@ -6786,6 +6789,7 @@ vkcdnservice.appspot.com^
 ||frpguidmetp.com^
 ||frpiksdeygy.com^
 ||frsuli.com^
+||frustratingtabletaltered.com^
 ||frustrationstudy.com^
 ||fryawlauk.com^
 ||fryirktan.com^
@@ -25119,6 +25123,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||geotargetly.co^
 ||getambassador.com^
 ||getblueshift.com^
+||getpublica.com^
 ||getrockerbox.com^
 ||getviously.com^
 ||gglscr.online^
@@ -35974,6 +35979,8 @@ adbetnet.com
 ||5551895.com^
 ||wofjhs.com^
 ||xayah.date^
+||aijiamao.top^
+||isu.weidianyuedu.com^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -36685,7 +36692,7 @@ adbetnet.com
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||qzmixun.com^
+||rvsosm.cn^
 ||0217qpineuxbcdhopswkvf.xyz^
 ||0224fqpowiuxybnmvdfghj.xyz^
 ||027whht.com^
@@ -37912,6 +37919,7 @@ adbetnet.com
 ||qyttl.cn^
 ||qzbxfs.com^
 ||qzdaren.com^
+||qzmixun.com^
 ||qzqyw.cn^
 ||qzyiming.cn^
 ||qzylyp.com^

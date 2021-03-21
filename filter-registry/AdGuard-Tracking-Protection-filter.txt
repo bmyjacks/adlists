@@ -224,6 +224,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||tm.msgs.jp^$third-party
 ||randiul.com^$third-party
 ||px.za.zaloapp.com^$third-party
 ||jg.wensixuetang.com^$third-party
@@ -13238,6 +13239,8 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! srek.net - adblock
+@@||googletagmanager.com/gtag/js$domain=srek.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77862
 @@||googletagmanager.com/gtm.js$domain=komputronik.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77565
