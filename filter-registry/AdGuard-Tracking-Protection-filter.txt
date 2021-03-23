@@ -224,6 +224,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||tracker.digitalcamp.co.kr^
+||tracker.adbinead.com^
+||burpee.xyz^
+||spnx.jp^$third-party
 ||ac.ecai-report.com^
 ||track.span-smt.jp^
 ||trk.fensi.plus^
@@ -2111,7 +2115,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||logdy.com^$third-party
 ||logentries.com^$third-party
 ||loger.ru^$third-party
-||logger.co.kr^$third-party
+||trk*.logger.co.kr^$third-party
 ||loggly.com^$third-party
 ||lognormal.net^$third-party
 ||logua.com^$third-party
@@ -4477,6 +4481,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||nelo2-col.navercorp.com^$domain=~map.naver.com
 ||metrika.lookmovie.io^
 ||s.deepl.com^
 ||clicks.wawlabs.com^
@@ -10561,6 +10566,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||discord.com/api/v*/science
 ||fensi.plus/*/tracking/
 ||collector.wawlabs.com/epttavm.js
 ||za.zalo.me/v*/brp?fts=
@@ -10624,7 +10630,6 @@ the-ans.jp##.side-reccomend
 ||scv.band.us/jackpotlog/*/logs
 ||gate.upclick.com/btn/visitor.min.js
 ||macg.co/modules/statistics/statistics.php
-||nelo2-col.navercorp.com/_store
 ||popin.cc/popin_discovery/$script
 ||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
@@ -13132,6 +13137,9 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/75939
+!+ PLATFORM(ios, ext_safari)
+@@||list-manage.com/track/click?u=
 ! srek.net - adblock
 @@||googletagmanager.com/gtag/js$domain=srek.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77862

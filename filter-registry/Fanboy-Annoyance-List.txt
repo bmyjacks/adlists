@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202103220001
+! Version: 202103222245
 ! Title: Fanboy's Annoyance List
-! Last modified: 22 Mar 2021 00:01 UTC
+! Last modified: 22 Mar 2021 22:45 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -6058,6 +6058,7 @@ _vpcookieconsent/
 ##.button-subscribe
 ##.buzzblock-newsletter
 ##.c-Footer__subscribe
+##.c-articleNewsletter_form
 ##.c-leaflet__content--sign-up
 ##.c-list-subscribe
 ##.c-newsletter
@@ -42134,6 +42135,7 @@ leti.com##.NoticesBox
 freeagent.com##.Notification
 jaguar.co.uk,landrover.co.uk##.NotificationBar
 userstyles.org##.NotificationLine
+powercolor.com##.Privacy
 fashionmodeldirectory.com##.PrivacyNotice
 accobrands.com##.Promotional-corner
 huawei.com##.ReadPolicy
