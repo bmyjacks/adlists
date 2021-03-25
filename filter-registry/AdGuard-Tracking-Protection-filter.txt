@@ -224,6 +224,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||mci1.co.kr^$third-party
+||vercel-insights.com^$third-party
 ||nave.foone.com.br^$third-party
 ||cdn-ra.rockcontent.com^$third-party
 ||ra.rockcontent.com^$third-party
@@ -10570,8 +10572,11 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||static.hankyung.com/js/ga/googleTagManager.js
+||hankyung.com/resource/js/w/view.gtmet.js
 ||cdn.thunderhead.com/one/rt/js/one-tag.js
 ||discord.com/api/v*/science
+||bataryapil.com/Scripts/ticimax/analytics.js
 ||fensi.plus/*/tracking/
 ||collector.wawlabs.com/epttavm.js
 ||za.zalo.me/v*/brp?fts=
@@ -13142,6 +13147,8 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78329
+@@||googletagmanager.com/gtm.js$domain=kakuyomu.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75939
 !+ PLATFORM(ios, ext_safari)
 @@||list-manage.com/track/click?u=
