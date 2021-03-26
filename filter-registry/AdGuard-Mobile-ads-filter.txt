@@ -203,6 +203,9 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||adpopcorn.com^
+||pangle.io^
+||pubnative.info^
 ||bifjicdigchgihajabb.ru^
 ||ad.leap.app^
 ||cl-ad.x-flow.app^
@@ -1298,6 +1301,9 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! google shopping
+google.*#?##views > div > div[class][decode-data-ved="1"] > div[class]:has(> div > div[class] > div[class] > div[class][jscontroller] > div[class^=" _-"])
+google.*#?#.sh-sr__blk > #sh-sr__results + div:has(> div > div > div > div > div[class][jscontroller] > div[class^=" _-"])
 ! t-online.de - sport ads
 t-online.de#?##Tcontboxi > .Tgbox > div[class][id]:has(> div[class]:not(:first-child) > ul > li > a[href^="https://sportwetten.t-online.de"])
 ! amp.focus.de - ad texts
@@ -2295,8 +2301,6 @@ deviantart.com#@#.mobile-ad
 @@||a.ligatus.com/?ids=*&t=js$script,domain=lachainemeteo.com
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/839
 @@||cm.ksmobile.com/api/GetCloudMsgAdv?pkg=com.cmcm.emoji
-! https://github.com/AdguardTeam/ExperimentalFilter/issues/747
-@@||eporner.com^$subdocument,~third-party
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/720
 @@||cnn.com^*/ad_policy.xml$domain=cnn.com
 ||turner.com/xslo/cvp/ads/$domain=cnn.com
@@ -2332,6 +2336,9 @@ deviantart.com#@#.mobile-ad
 ! https://forum.adguard.com/index.php?threads/10464/
 ||images-*.ssl-images-amazon.com/images/*/ape/sf/MAsf-*_.js
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78374
+!+ PLATFORM(ext_ublock)
+anond.hatelabo.jp###ad-overlay-bottom-sp-1
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69965
 !+ PLATFORM(ios, ext_android_cb)
 pussyspace.com,pussyspace.net##[style="display:none;height:0;width:0;"] + span[class]
@@ -2387,6 +2394,11 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+indy100.com###sticky-footer-root
+m.sobaka.ru##.b-brand-banner
+m.sobaka.ru##.b-post-view__banner
+m.sobaka.ru##.b-banner-point
+sportskeeda.com##.sticky-container
 m.cyber.sports.ru##.zen-adload-ad-wrapper
 sports.ndtv.com##.add_top-wrp-fl
 4pda.ru##amp-list[height="90"][width="728"]
@@ -4221,6 +4233,7 @@ auth.wi-fi.ru##.c-fullscreen-banner
 !
 cloud.mail.ru##div[class^="page-wrapper_"] > div[id="portal-menu-banner"] + div[style] + div[id]:empty
 !
+hi-tech.mail.ru##aside[data-adq-id]
 hi-tech.mail.ru##.wrapper_inner > aside[data-module="SlotModel"] > div[data-module="MyWidgetModel"] > div.block > a[href^="https://t.mail.ru/redir/"]
 hi-tech.mail.ru##.mailru-visibility-check-counter+center > a[href^="https://r.mail.ru/redir/"]
 hi-tech.mail.ru##div[id^="trg-fs-wrapper"]
@@ -4299,6 +4312,9 @@ livejournal.com##.mdspost-aside__item--banner
 ||graph.facebook.com^$app=com.booking
 !
 ! Blocking Facebook mobile ads
+||graph.facebook.com^$app=net.wordbit.entw
+||graph.facebook.com^$app=do.multiple.cloner
+||graph.facebook.com^$app=com.futbin
 ||graph.facebook.com^$app=com.truecaller
 ||graph.facebook.com^$app=com.fourdesire.spacewalk
 ||graph.facebook.com^$app=it.mirko.beta

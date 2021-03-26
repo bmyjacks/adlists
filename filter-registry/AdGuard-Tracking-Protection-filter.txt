@@ -224,6 +224,13 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||pensebig.com.br^$third-party
+||suite*.linximpulse.net^$third-party
+||retargeter.com.br^$third-party
+||shotarget.co.uk^$third-party
+||shopback.net^$third-party
+||shopconvert.com.br^$third-party
+||neemu.com^$third-party
 ||mci1.co.kr^$third-party
 ||vercel-insights.com^$third-party
 ||nave.foone.com.br^$third-party
@@ -394,6 +401,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||iesnare.com^$third-party
 ||lngtd.com^$third-party
 ||dw-eu.com.com^
+||counter.jdi5.com^$third-party
 ||indexww.com^$third-party
 ||i.viafoura.co^
 ||adsrvr.org^$third-party
@@ -4753,7 +4761,6 @@ nethunt.com/api/v1/track/email/$image
 ||pixel.welt.de^
 ||pixel.trackverify.com^$third-party
 ||cdn.contalyze.com^$third-party
-||log.news.zing.vn^
 ||px.gfycat.com^
 ||vhsrwd.aip24.pl^
 ||analytics.dpd.com^
@@ -10572,6 +10579,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||api.nvidia.partners/telemetry/
 ||static.hankyung.com/js/ga/googleTagManager.js
 ||hankyung.com/resource/js/w/view.gtmet.js
 ||cdn.thunderhead.com/one/rt/js/one-tag.js
@@ -10879,6 +10887,7 @@ android-tools.ru###text-8
 ||cdns.gigya.com/js/gigyaGAIntegration.js
 ||leadpages.net/*/tracking.js
 ||api.leadpages.io/analytics/$domain=~my.leadpages.net
+||heute.at/*/render/common/js/tracking.js
 ||pv.ltn.com.tw/impression?
 ||pv.ltn.com.tw/RI_Server?a=
 ||chesterstandard.co.uk/resources/static/standard/texts/js/VisitorAPI.js
@@ -13147,6 +13156,11 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78301
+||googletagmanager.com/gtm.js$script,xmlhttprequest,important,redirect=googletagmanager-gtm,domain=gazin.com.br
+@@||googletagmanager.com/gtm.js$domain=gazin.com.br
+! https://github.com/AdguardTeam/AdguardFilters/issues/78374
+@@||googletagmanager.com/gtm.js$domain=anond.hatelabo.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78329
 @@||googletagmanager.com/gtm.js$domain=kakuyomu.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75939
