@@ -1260,8 +1260,6 @@ m.postimees.ee#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.tex
 ! https://forum.adguard.com/index.php?threads/15378/
 @@||ads.dainikbhaskar.com/AdTech/ads/ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3067
-@@||javadecompilers.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/3067
 delfi.ee#@#.adbanner
 delfi.ee#%#Object.defineProperty(window, 'adblock_detect_run', { get: function() { return true; } });
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23128
@@ -1296,6 +1294,7 @@ blogdoiphone.com#@#.custom-ad
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/1709
 westseattleblog.com#@#.custom-ad
 westseattleblog.com#@#.header-ad
+
 !---------------------------------------------------------------------------!
 !-------------- Extended CSS rules -----------------------------------------!
 !---------------------------------------------------------------------------!
@@ -1756,6 +1755,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78598
+m.economictimes.com#$##btmNav { min-height: unset !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70505
 scmp.com#$##main-content > .home-page--slide-up { transform: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68853
@@ -2397,6 +2398,9 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+m.economictimes.com##.mrecSlot
+m.economictimes.com###error_msg + div[class] > div[class]:empty
+amp.tagesspiegel.de##.ts-article-content > amp-embed[class*="notbuilt"]
 amp.n-tv.de##div[class^="ad-wrapper-"]
 amp.n-tv.de##amp-fx-flying-carpet[height="300px"]
 goodhouse.ru##.a_-d-banner--mobile
