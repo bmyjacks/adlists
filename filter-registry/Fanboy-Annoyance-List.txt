@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202103292358
+! Version: 202103302157
 ! Title: Fanboy's Annoyance List
-! Last modified: 29 Mar 2021 23:58 UTC
+! Last modified: 30 Mar 2021 21:57 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -14710,6 +14710,7 @@ _vpcookieconsent/
 ##.homepage-facebook-widget
 ##.homepage-footer-share-buttons
 ##.homepage-social
+##.homepage-twitter
 ##.homepage-twitter-widget
 ##.homepage_social_link
 ##.horiz_share
@@ -32962,6 +32963,7 @@ _vpcookieconsent/
 ##.page__cookie
 ##.page__disclaimer--cookies
 ##.page__gdpr
+##.page__survey-cookie-info
 ##.pageinfo-cookie
 ##.pane-cookie-disclaimer
 ##.panel--cookie
@@ -32999,6 +33001,7 @@ _vpcookieconsent/
 ##.pg-cookie
 ##.ph-cookie-compliance
 ##.ph-cookie-info
+##.ph-cookies
 ##.ph-widget-target[data-widget*="cookie-popup"]
 ##.philadelphia-optin-visible
 ##.philoro_cookies--popover
@@ -39564,6 +39567,7 @@ independent.co.uk,standard.co.uk##.gigya-signup
 usatoday.com##.gnt_m_nls
 usatoday.com##.gnt_m_th_em
 aubizbuysell.com.au,nzbizbuysell.co.nz,nzcommercial.co.nz,nzfranchises.co.nz##.green-box-fern
+freshplaza.com##.grey_background
 wonkette.com##.grwf2-wrapper
 globalvoices.org##.gv-mailchimp-form-container
 garyvaynerchuk.com##.gv-widget-mailinglist
@@ -39689,6 +39693,7 @@ cybersecurityventures.com##.mpc-callout
 msmagazine.com##.ms-actions
 motorsport.com##.ms-footer_top
 msnbc.com##.msnbcDaily__footer
+itweb.co.za##.mt-3.itw-noprint
 ft.com##.n-sliding-popup
 nature.com##.nature-briefing
 nypost.com##.nav-header--email
@@ -40340,6 +40345,7 @@ fiercecable.com###pusher-ad
 airship.com##.PushNotification
 reddit.com##.XPromoInFeed
 aliexpress.com##._3KrBP
+investing.com##.allow-notifications-popup-wrapper
 manutd.com##.custom-popup
 chicagotribune.com##.met-flyout
 wowhead.com##.notifications-dialog
@@ -42530,6 +42536,7 @@ process.st##.pookie
 aboardtheworld.com##.popmake
 beiersdorf.com,efootwear.eu##.popup
 replicon.com##.popup-container
+fulhamfc.com##.popup-wrapper
 smartclient.com##.popupPolicies
 abplive.in##.popup_desktop
 cnn.com##.popup_tosEdition
@@ -46484,7 +46491,7 @@ blackboat.com#@#.sqs-announcement-bar
 xhamster.com#@#.subscribe-block
 humblebundle.com#@#.subscribe-box
 oneplus.com,stackexchange.com#@#.subscribe-container
-rapidgrab.pl#@#.subscribe-form
+last.fm,rapidgrab.pl#@#.subscribe-form
 oreilly.com,twit.tv#@#.subscribe-panel
 batenka.ru#@#.subscribe-popup
 redflagdeals.com,wtfast.com#@#.subscribe_box
@@ -47418,6 +47425,7 @@ yoigo.com#@#thor-cookies
 @@||yimg.com/uq/syndication/yad.js$domain=zdnet.com
 @@||zdnet.com/images/base/sprites-social.png
 ! *** easylist:fanboy-addon/fanboy_notifications_allowlist.txt ***
+@@||inevent.com/js/wizard/pushNotification.js$script,~third-party
 @@||st.mycdn.me/static/*/WebPush.js$script,domain=ok.ru
 ! *** easylist:easylist_cookie/easylist_cookie_allowlist.txt ***
 @@/cookie*/jquery.cookie.js$script,~third-party,domain=~albeco.com.pl
