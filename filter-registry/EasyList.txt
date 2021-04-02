@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: naKNQWT6m0b5SuFAHH/WQg
-! Version: 202104010000
+! Checksum: idar9BH5d4dr/F8Bzm2SIw
+! Version: 202104020010
 ! Title: EasyList
-! Last modified: 01 Apr 2021 00:00 UTC
+! Last modified: 02 Apr 2021 00:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5028,9 +5028,9 @@
 /googleadmanager-
 /googleadpush.
 /googleadright.
-/googleads-$domain=~github.com
-/googleads.$~script,domain=~googleads.github.io
-/googleads/*$domain=~github.com
+/googleads-$domain=~github.com|~github.io
+/googleads.$~script,domain=~github.com|~github.io
+/googleads/*$domain=~github.com|~github.io
 /googleads1.
 /googleads2.
 /googleads3widetext.
@@ -18548,7 +18548,9 @@ _popunder+$popup
 ##.ad-background-container
 ##.ad-background-intra-body
 ##.ad-banner
+##.ad-banner-250x600
 ##.ad-banner-300
+##.ad-banner-300x250
 ##.ad-banner-728x90
 ##.ad-banner-bkgd
 ##.ad-banner-bottom-container
@@ -24091,6 +24093,7 @@ _popunder+$popup
 ##.channel-adv
 ##.channel-icon--ad
 ##.channel-icon__ad-buffer
+##.channelBoxAds
 ##.channel_ad_2016
 ##.channel_brand_ad
 ##.chartad
@@ -30214,6 +30217,7 @@ _popunder+$popup
 ##a[href*=".red90121.com/"]
 ##a[href*=".revimedia.com/"]
 ##a[href*=".smartadserver.com"]
+##a[href*=".tfaln.com/"]
 ##a[href*=".trck5.com/"]
 ##a[href*=".udncoeln.com/"]
 ##a[href*=".xromp.com/landing/click/"]
@@ -30629,6 +30633,7 @@ _popunder+$popup
 ##a[href^="https://dediseedbox.com/clients/aff.php?"]
 ##a[href^="https://deliver.ptgncdn.com/"]
 ##a[href^="https://deliver.tf2www.com/"]
+##a[href^="https://dianches-inchor.com/"]
 ##a[href^="https://djtcollectorclub.org/"][href*="?affiliate_id="]
 ##a[href^="https://dltags.com/"]
 ##a[href^="https://dynamicadx.com/"]
@@ -32604,6 +32609,7 @@ menstennisforums.com#@#.top_ads
 ||abonmgghehh.com^
 ||aboybvnm.com^
 ||abridgeinputcontraceptive.com^
+||abrjsiuuhet.com^
 ||abroadlynijiz.site^
 ||abserv123.com^
 ||absolubleldan.site^
@@ -32973,6 +32979,7 @@ menstennisforums.com#@#.top_ads
 ||anticalser.club^
 ||antidotefoepersecution.com^
 ||antiterroristqueenjolly.com^
+||antpeelpiston.com^
 ||antrademic.club^
 ||anxdwq.com^
 ||anymad.com^
@@ -33093,6 +33100,7 @@ menstennisforums.com#@#.top_ads
 ||askbegrag.com^
 ||askewpatienceblameless.com^
 ||askinsoner.club^
+||aslaprason.com^
 ||asonaloccu.info^
 ||asoulrox.com^
 ||aspanyarc.club^
@@ -36063,6 +36071,7 @@ menstennisforums.com#@#.top_ads
 ||genergyothe.top^
 ||geniusdexchange.com^
 ||genuinealiaspuzzled.com^
+||genuschaseslowly.com^
 ||geodestricy.site^
 ||geras-con.com^
 ||gerskatimi.club^
@@ -36944,6 +36953,7 @@ menstennisforums.com#@#.top_ads
 ||jicmutse.com^
 ||jientlysome.top^
 ||jigdigtry.com^
+||jighucme.com^
 ||jikpijfebfflia.com^
 ||jiltlargosirk.com^
 ||jincreasteregy.site^
@@ -38463,6 +38473,7 @@ menstennisforums.com#@#.top_ads
 ||noaloheb.com^
 ||noamiagainst.pro^
 ||noamiscience.pro^
+||noawhupt.net^
 ||noblefun.net^
 ||noblemagnition.com^
 ||noclef.com^
@@ -39446,6 +39457,7 @@ menstennisforums.com#@#.top_ads
 ||ptauphiw.net^
 ||ptaussee.net^
 ||ptauvuph.com^
+||ptauxofi.net^
 ||ptavizap.net^
 ||ptawehex.net^
 ||ptechait.com^
@@ -39604,6 +39616,7 @@ menstennisforums.com#@#.top_ads
 ||qmnyjs7jd1jp.com^
 ||qmokxgfz.com^
 ||qmovnrphbgqr.com^
+||qmripebxljdey.com^
 ||qmvezbh0l28w.com^
 ||qmxkmsmkjxlar.com^
 ||qn-5.com^
@@ -39959,6 +39972,7 @@ menstennisforums.com#@#.top_ads
 ||rightnativecontent.com^
 ||rightstaredstun.com^
 ||rigourcrispblaspheme.com^
+||rigourflickmarketing.com^
 ||rilelogicbuy.com^
 ||rimezvsto.com^
 ||rincegath.fun^
@@ -40851,6 +40865,7 @@ menstennisforums.com#@#.top_ads
 ||talhundrewr.club^
 ||taljnpgg.com^
 ||talk4anyone.com^
+||talkingaboutfirms.ga^
 ||talkingdom.club^
 ||talsauve.com^
 ||tamechangekn.info^
@@ -40949,6 +40964,7 @@ menstennisforums.com#@#.top_ads
 ||tf2www.com^
 ||tfa5e.top^
 ||tfaa2.com^
+||tfaln.com^
 ||tfatalonepres.top^
 ||tfbqvqclg.com^
 ||tfiph.com^
@@ -41178,6 +41194,7 @@ menstennisforums.com#@#.top_ads
 ||tratefirearly.top^
 ||traumaticnoiseless.com^
 ||travangeind.club^
+||travelinskydream.ga^
 ||trawahdh2hd8nbvy09.com^
 ||trblocked.com^
 ||trc85.com^
@@ -41381,6 +41398,7 @@ menstennisforums.com#@#.top_ads
 ||ulzcieyihw.com^
 ||umannwig.com^
 ||umcbbt.com^
+||umdycgbklen.com^
 ||umehoars.club^
 ||umekana.ru^
 ||umekian.pw^
@@ -41933,6 +41951,7 @@ menstennisforums.com#@#.top_ads
 ||woovooza.net^
 ||wordshipopa.club^
 ||woredi.com^
+||worersie.com^
 ||workedlew.top^
 ||workplacehorse.com^
 ||workshirty.club^
@@ -42018,6 +42037,7 @@ menstennisforums.com#@#.top_ads
 ||xaxoro.com^
 ||xbaulknerte.club^
 ||xbcnvj2mdk1dn1.com^
+||xbnvucutpcq.com^
 ||xbrfevoe.com^
 ||xcelltech.com^
 ||xcelsiusadserver.com^
@@ -46644,6 +46664,7 @@ menstennisforums.com#@#.top_ads
 ||arielpri2nce8ss09.com^$popup
 ||arrlnk.com^$popup
 ||artpever.com^$popup
+||aslaprason.com^$popup
 ||atas.io^$popup
 ||atozdealinfo.com^$popup
 ||august15download.com^$popup,third-party
@@ -46776,6 +46797,7 @@ menstennisforums.com#@#.top_ads
 ||content.ad^$popup
 ||contentabc.com^$popup,third-party
 ||coostuni.com^$popup
+||correry.com^$popup
 ||cpa-offer.com^$popup
 ||cpayard.com^$popup,third-party
 ||cpm20.com^$popup
@@ -47409,6 +47431,7 @@ menstennisforums.com#@#.top_ads
 ||terralink.xyz^$popup
 ||tesdwpsdxcgsoj.com^$popup
 ||textsrv.com^$popup
+||tfaln.com^$popup
 ||tfiph.com^$popup
 ||thansendmaterial-14.live^$popup
 ||the-binary-trader.biz^$popup,third-party
@@ -47455,6 +47478,7 @@ menstennisforums.com#@#.top_ads
 ||trejar.com^$popup
 ||trellian.com^$popup
 ||trfsltions.info^$popup
+||trilema.com^$popup
 ||trklnks.com^$popup
 ||trw12.com^$popup
 ||tsyndicate.com^$popup
@@ -51209,7 +51233,7 @@ menstennisforums.com#@#.top_ads
 ||richardroeper.com/assets/banner/
 ||rpgcodex.net^*/gog_button.jpg
 ||s.radioreference.com/sm/$image
-||s3.reutersmedia.net/resources/r/?f=$image
+||s3.reutersmedia.net/resources/r/?g=$image
 ||saabsunited.com/wp-content/uploads/*banner
 ||sareunited.com/uploaded_images/banners/
 ||sat24.com/bannerdetails.aspx?

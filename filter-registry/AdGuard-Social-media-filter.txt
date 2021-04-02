@@ -325,6 +325,8 @@ lj_bookmarklet
 !
 ! Extended CSS rules
 !
+sravnismart.ru#?#h3.widget-title:contains(Поделиться ссылкой:)
+ardahanhaberi.com#$?#.SocialTools > ul > li:not(:has(> a[href^="javascript:"])) { visibility: hidden !important; }
 rambler.ru#?#div[data-blocks^="cluster_"] div[class]:has(> div[data-rambler-share])
 mshowto.org#?#.theiaStickySidebar > aside:has(> div.textwidget > center > a[href^="https://www.linkedin.com/in/mshowto/"])
 lamoda.ru#?#.ii-product__aside-wrapper > div.vue-widget:has(> div[class] > div:contains(Поделиться))
@@ -925,6 +927,8 @@ windowstechblog.nl#$#.onp-sl-blur-area[style="filter: blur(5px);"] { filter: non
 0lik.ru##.onp-sl-outer-wrap
 0lik.ru$replace=/locker:{\s+timer:\s'\d\d'/locker: { timer: '1'/
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/79043
+ardahanhaberi.com#$#.SocialTools > ul { background: #FFF !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70812
 einthusan.tv#$##social-wrapper { position: absolute!important; left: -3000px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69686
@@ -1058,6 +1062,7 @@ m-timesofindia-com.cdn.ampproject.org,rambler.ru$$amp-social-share
 seopult.tv$$script[tag-content="dialog("][max-length="300"]
 digitaltrends.com$$script[tag-content="facebook_like"][max-length="2000"]
 048.ua,62.ua,048.ua,057.ua,056.ua,061.ua,0642.ua,0629.com.ua,0512.com.ua,0564.ua,032.ua,0352.ua,0542.ua,05366.com.ua,0552.ua,0412.ua,0432.ua,0332.ua,0522.ua,0342.ua,0532.ua,44.ua,06274.com.ua,06153.com.ua,0462.ua,0362.ua,0372.ua,0472.ua,06252.com.ua,06255.com.ua,06239.com.ua,06239.com.ua,5692.com.ua,6264.com.ua,04868.com.ua,06432.in.ua,06434.com.ua,8422city.ru,8634city.ru,labaved.ru,gorodpushkin.ru,015.by,go31.ru,goroddomodedovo.ru,prokolpino.ru,86155city.ru,city3012.ru,go862.ru$$script[tag-content="showSocialPopup"][max-length="500"]
+
 !-------------------------------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !-------------- Specific web sites ---------------------------------------------!
@@ -1102,6 +1107,13 @@ donbosco-medien.de,giantbomb.com,strefainwestorow.pl,narcity.com,lingohut.com,mt
 ||platform.twitter.com/widgets.js$domain=larende.com|akhisarhaber.com|govoritmoskva.ru|kevinpurcell.org|015.by|airkule.com|altyazi.net|asyaspor21.tv|bartinolay.com|bedava-film.com|belaruspartisan.by|belgeselciyiz.com|belsat.eu|brauer-bund.de|btcnewz.com|businessturkeytoday.com|cj3z.com|corgit.xyz|creatorlabs.net|cwbaltimore.com|daemon-hentai.com|der-postillon.com|desimartini.com|discoverskills.com|discoverychannel.com.tr|dizilara.org|dizitube.net|dizivay.com|efelerhaber.com|egeyonhaber.com|elazigyenihaber.com|ellegirl.ru|erkekadam.org|erzurumajans.com|eurolab.ua|filmakinesi.net|filmold.com|fontanka.ru|forums.flyer.co.uk|fox38corpuschristi.com|fox47.com|foxkansas.com|foxrichmond.com|gazetaby.com|gercekizmir.com|gidavitrini.com.tr|halklailiskiler.com.tr|hizlifilmizlehd.com|inforesist.org|jetvis.ru|karsolay.com|kbsi23.com|kdsm17.com|kg-portal.ru|kinopoisk.userecho.com|kp.ua|losst.ru|magazinekibi.com|manisamanset.gen.tr|mforos.com|mogilev.online|muchohentai.com|multifilemirror.com|mvs.gov.ua|mywebtimes.com|news-journalonline.com|nk.org.ua|noticierodigital.com|ntp-servers.net|obltv.ru|orbita.dn.ua|pctip.ru|podrobnosti.ua|ppt.ru|proglang.su|queenbet4.tv|raleighcw.com|real-vin.com|rmj.ru|rusvesna.su|sanatatak.com|seirsanduk.us|simdifilmizle.com|sonkaleizmir.com|sp-mobile-blog.com|star64.tv|tomiks33.ru|torrentbe.net|torrentrg.org|tqm.com.ua|tva.in.ua|utofiles.com|wcti12.com|womanel.com.ua|wpgh53.com|wtto21.com|wutv29.com|xn----8sbcm1bmcar0m.xn--p1ai|earthsky.org|hentairules.net|actualcomment.ru|nkj.ru|tayga.info|hornygamer.com|blog.jetbrains.com|namemc.com|kachelmannwetter.com|jeotermalhaberler.com|raider.io|washingtontimes.com
 akhisarhaber.com,washingtontimes.com,jeotermalhaberler.com,govoritmoskva.ru,namemc.com,kevinpurcell.org,015.by,airkule.com,altyazi.net,asyaspor21.tv,bartinolay.com,bedava-film.com,belaruspartisan.by,belgeselciyiz.com,belsat.eu,brauer-bund.de,btcnewz.com,businessturkeytoday.com,cj3z.com,corgit.xyz,creatorlabs.net,cwbaltimore.com,daemon-hentai.com,der-postillon.com,desimartini.com,discoverskills.com,discoverychannel.com.tr,dizilara.org,dizitube.net,dizivay.com,efelerhaber.com,egeyonhaber.com,elazigyenihaber.com,ellegirl.ru,erkekadam.org,erzurumajans.com,eurolab.ua,filmakinesi.net,filmold.com,fontanka.ru,forums.flyer.co.uk,fox38corpuschristi.com,fox47.com,foxkansas.com,foxrichmond.com,gazetaby.com,gercekizmir.com,gidavitrini.com.tr,halklailiskiler.com.tr,hizlifilmizlehd.com,inforesist.org,jetvis.ru,karsolay.com,kbsi23.com,kdsm17.com,kg-portal.ru,kinopoisk.userecho.com,kp.ua,losst.ru,magazinekibi.com,manisamanset.gen.tr,mforos.com,mogilev.online,muchohentai.com,multifilemirror.com,mvs.gov.ua,mywebtimes.com,news-journalonline.com,nk.org.ua,noticierodigital.com,ntp-servers.net,obltv.ru,orbita.dn.ua,pctip.ru,podrobnosti.ua,ppt.ru,proglang.su,queenbet4.tv,raleighcw.com,real-vin.com,rmj.ru,rusvesna.su,sanatatak.com,seirsanduk.us,simdifilmizle.com,sonkaleizmir.com,sp-mobile-blog.com,star64.tv,tomiks33.ru,torrentbe.net,torrentrg.org,tqm.com.ua,tribundergi.com,tva.in.ua,utofiles.com,wcti12.com,womanel.com.ua,wpgh53.com,wtto21.com,wutv29.com,xn----8sbcm1bmcar0m.xn--p1ai,earthsky.org,hentairules.net,actualcomment.ru,nkj.ru,tayga.info,hornygamer.com,blog.jetbrains.com,raider.io##.twitter-timeline
 !
+gizbot.com###containerPop
+gizbot.com##.gibot-prod-specs-share
+gizbot.com##.footer-article-social-share
+gizbot.com##.one-head-share-block
+gizbot.com##.pssocialbtn
+livingetc.com,gardeningetc.com##.social__item--newsletter
+citywire.co.uk##.article-social-bottom
 teknolojihabercim.com##.post_social_share
 smotret-multfilmi.net##.ddsocial
 smotret-multfilmi.net##.podpleer-title-google
@@ -3332,8 +3344,9 @@ infoniac.ru##.sidebar_left .tabs_social
 2gis.ru,2gis.ua,2gis.kz##.share__popupSocial
 ktozvonit.com.ua##.tooltip-n > .icon_i
 mustget.ru##.post-share-count
-cinemablend.com,mustget.ru##.share-toggle
+mustget.ru##.share-toggle
 mustget.ru##.sticky-sidebar .widget_boombox_social
+cinemablend.com##.share-toggle > div.contents
 digi24.ro##.social-link
 rbc.ru##.article__header__share-block
 rbc.ru##.article__header__counter-block > .article__header__after
@@ -8105,6 +8118,8 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ||mailget.net^$third-party
 ||my.hellobar.com^$third-party
 !
+nurgsm.com##.sgpb-popup-overlay
+nurgsm.com##.sgpb-popup-dialog-main-div-wrapper
 easypdf.com#$#body { overflow: auto !important; }
 easypdf.com#$##social.modal { display: none !important; }
 easypdf.com#$##social.modal ~ div.modal-backdrop { display: none !important; }
@@ -8636,6 +8651,8 @@ designervn.net#@#.fb-share-button
 !#endif
 ! #End Social locker
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78858
+motionden.com#@#.social-buttons
 ! msi.com - incorrect blocking
 msi.com#@#.social-media
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78401

@@ -224,7 +224,13 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||hktracker.hankookilbo.com^
+||ibeat-analytics.com^$third-party
+||tag-based.s3.*.amazonaws.com^$third-party
 ||oeqirr.com^$third-party
+||cbdatatracker.com^$third-party
+||pages-stats.rbl.ms^$third-party
+||res.rbl.ms^$third-party
 ||hubble.netease.com^$third-party
 ||im.cbsileads.com^$third-party
 ||heymatic.com^$third-party
@@ -279,6 +285,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||stat.ustore.bz^
 ||logbor.com^$third-party
 ||click-plus.net^
+||stats.vliplatform.com^$third-party
 ||smart-bdash.com^$third-party
 ||analytics.contents.by-fw.jp^
 ||appier.net^$third-party
@@ -3358,6 +3365,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||fumblingform.com^$third-party
 ||aloofvest.com^$third-party
 ||bawdybalance.com^$third-party
 ||unwieldyhealth.com^$third-party
@@ -4508,6 +4516,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||cwt.citywire.info^
+||ua.indianexpress.com^
 ||a-reporting.nytimes.com^
 ||nelo2-col.navercorp.com^$domain=~map.naver.com
 ||metrika.lookmovie.io^
@@ -13625,6 +13635,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||content.viralize.tv/track/
+||tv-tokyo.co.jp/index/scatalyst/
 ||reach-id.orbit.tm-awx.com/analytics.js.gz
 ||kmib.co.kr/NetInsight/trace/track
 ||idm.skplanet.com/pixel
@@ -13662,6 +13674,8 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||ads-partners.coupang.com/log/
 ||lazimbana.com/product/hit-increment/
 ||pla.naver.com/log/
+/AppMeasurement.js$domain=channel4.com
+/AppMeasurement_Module_ActivityMap.js$domain=channel4.com
 ||gold.contentsfeed.com/lb/sd/nw$domain=sportsseoul.com
 ||gtr1.yes24.com/wlo/Logging
 ||analytics.fsho.st/tracker.js
@@ -15328,6 +15342,7 @@ dreamprogs.net##td[width="88"][height="31"]
 ||ms.computerbild.de/?event=
 ||ms.meta.ua/vast/cache_url.php?callback=
 ||msg.video.qiyi.com^$image
+||msn.com/collect/
 ||msn.com/ro.aspx?
 ||msn.com/script/tracking*.js
 ||msn.com/tracker/
@@ -16221,6 +16236,8 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! imgur.com - broken hypervote banner at top
+@@||googletagservices.com/tag/js/gpt.js$domain=imgur.com
 ! https://github.com/easylist/easylist/pull/7519
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78548
