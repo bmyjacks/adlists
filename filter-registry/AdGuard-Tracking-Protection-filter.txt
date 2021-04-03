@@ -317,6 +317,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||moshimo.com^$third-party
 ||counter.monkeybanana3.com^
 ||analytic-client.playful-fairies.com^
+||eventapi.libring.com^$third-party
 ||tk.promit.ru^$third-party
 ||ztest1track.com^$third-party
 ||phar.gu-web.net^
@@ -3365,6 +3366,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||warmafterthought.com^$third-party
 ||fumblingform.com^$third-party
 ||aloofvest.com^$third-party
 ||bawdybalance.com^$third-party
@@ -13284,7 +13286,9 @@ charlestownwyllie.oaklawnnonantum.com^
 /submission/pageview
 /collect-*/pageview|
 ! RD Station
+/lead-tracking/*
 /lead-tracking.
+/traffic-source-cookie/*
 /traffic-source-cookie.
 /rdstation-popup.min.js
 /rd-js-integration.min.js
@@ -13635,6 +13639,10 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||app.carnow.com/dealers/track_visitor
+||app.carnow.com/dealers/visitor_info?
+||hondacarsrockhill.com/pixall/pix-ddc-fp.min.js
+||servebom.com/event.js
 ||content.viralize.tv/track/
 ||tv-tokyo.co.jp/index/scatalyst/
 ||reach-id.orbit.tm-awx.com/analytics.js.gz
@@ -13699,10 +13707,14 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 club-opel.com##.toplist
 insider.com##.taboola
 ||byjus.com/byjusweb/js/tracking-2.min.js
+||ccpa.sp-prod.net/ccpa.js
+||embedly.com/widgets/xcomm.html^$third-party
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/mux.js
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/adobe/
 ||turner.com/analytics/comscore/streamsense.
 ||episerver.net/ia.gif?r=
+||wikihow.com/x/collect
+||wikihow.com/ev/
 ||peerius.episerver.net/tracker/
 ||gratis.com/ccstoreui/*/analytics/visitorsMetric
 ||h.seznam.cz/hit/?
@@ -13719,6 +13731,7 @@ the-ans.jp##.side-reccomend
 ||cdn.digitaloceanspaces.com/pixel/lp.js
 ||maillist-manage.com/wa/ActionLogger?
 ||softland.co.kr/exec/front/eclog/
+||virtual-dba.com/wp-json/pum/*/analytics/
 ||softland.co.kr/app/Eclog/js/cid.generate.js
 ||push.soft-com.biz/api/ui/metrics
 ||cdn.megadata.co.kr/dist/prod/enp_tracker_
@@ -15765,6 +15778,9 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||api*.amplitude.com^
+||conversions.appsflyer.com^
+||collect.serious.li^
 ||analytics.jodelapis.com^
 ||analytics.mobilegamestats.com^
 ||p.statp.com^
@@ -16236,6 +16252,10 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/79082
+@@||googletagmanager.com/gtm.js$domain=qrcode-monkey.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/78894
+@@||googletagmanager.com/gtm.js$domain=hipolink.net
 ! imgur.com - broken hypervote banner at top
 @@||googletagservices.com/tag/js/gpt.js$domain=imgur.com
 ! https://github.com/easylist/easylist/pull/7519

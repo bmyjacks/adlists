@@ -1758,6 +1758,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78062
+teleprogramma.pro#$#div[class^="yt-w amp-wp-inline-"] { padding-top: inherit !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78598
 m.economictimes.com#$##btmNav { min-height: unset !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70505
@@ -1868,7 +1870,7 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 $$amp-ad
 zoomtventertainment.com$$amp-embed[type="taboola"]
 24tv.ua$$div[class="within-ads"]
-dni.ru$$amp-iframe[src="https://news.gnezdo.ru/"]
+vokrug.tv,dni.ru$$amp-iframe[src="https://news.gnezdo.ru/"]
 vokrug.tv$$amp-embed[type="engageya"]
 finance.rambler.ru$$div[class="read-also__lentainform"]
 gordonua.com$$amp-iframe[src="https://recreativ.ru/"]
@@ -2401,8 +2403,12 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+sportmail.ru##.wrapper_banner
+glavred.info##amp-iframe[src^="https://html.redtram.com/"]
+m.habr.com##.tm-projects-blocks_courses
 gizbot.com##.ads-mobi-block
 m.nate.com###ad_mid
+||m.soxscc.net/wsc/los.*.js
 amp.theguardian.com##div[id^="ad-"]
 m.economictimes.com##.mrecSlot
 m.economictimes.com###error_msg + div[class] > div[class]:empty
@@ -4327,6 +4333,7 @@ livejournal.com##.mdspost-aside__item--banner
 ||graph.facebook.com^$app=com.booking
 !
 ! Blocking Facebook mobile ads
+||graph.facebook.com^$app=com.Seriously.Phoenix|com.Seriously.BestFiends
 ||graph.facebook.com^$app=com.stream.drakorindoawet
 ||graph.facebook.com^$app=net.wordbit.entw
 ||graph.facebook.com^$app=do.multiple.cloner
