@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202104022018
+! Version: 202104032358
 ! Title: EasyPrivacy
-! Last modified: 02 Apr 2021 20:18 UTC
+! Last modified: 03 Apr 2021 23:58 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11585,6 +11585,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mx.technolutions.net^
 ||mxmfb.com/rsps/img/
 ||myblueday.com^*/count.asp?
+||myfinance.com/widget/
 ||myfreecams.com/mfc2/lib/o-mfccore.js
 ||mymarketing.co.il/Include/tracker.js
 ||myscoop-tracking.googlecode.com^$third-party
@@ -12361,7 +12362,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||users.techtarget.com^*/GetCookiesWithCallback?
 ||usersegment.wpdigital.net^
 ||uservoice.com^*/track.js
-||userway.org/api/stats/
+||userway.org/api/seo-widget/
+||userway.org/api/v1/stats
 ||utils.global-e.com/set?
 ||utle.tech426.com^
 ||v.giantrealm.com/players/stats.swf?
@@ -13874,6 +13876,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.githubapp.com^
 ||collector.ksax.com^
 ||collector.kstptv5.com^
+||collector.pi.spectrum.net^
 ||collector.prod.expedia.com^
 ||collector.statowl.com^
 ||collector.tescocompare.com^
@@ -21343,7 +21346,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||bookoffonline.co.jp/files/tracking/
 ||bwbx.io^*/javelin/js/abba/abba-$script,domain=bloomberg.co.jp
 ||carview.co.jp/include_api/log/
-||cgi.tbs.co.jp^
 ||count.upc.rakuten.co.jp^
 ||dmm.com/analytics/
 ||dmm.com/imp?
@@ -21351,6 +21353,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
 ||i2i.jp/bin/
+||j1.ax.xrea.com^
 ||jen.jiji.com^
 ||ln.ameba.jp^
 ||log.suumo.jp^

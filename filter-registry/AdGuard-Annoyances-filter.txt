@@ -8305,6 +8305,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 !
 !
+dealabs.com#$#.overflow--hidden { overflow: visible !important; }
+dealabs.com#$#.popover { display: none !important; }
 ubisoft.com,ubi.com##.privacy__modal
 oeko-planet.com##div[id*="--cookie-permission"]
 schlaf-experten.com##div[data-borlabs-cookie-wrap]
@@ -14135,6 +14137,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://forum.adguard.com/index.php?threads/https-www-dealabs-com.42536/
+dealabs.com#@#.cookies-message
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79150
 comparethemarket.com#@#.cookie-consent:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78644
@@ -15967,6 +15971,7 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#$#.XPromoPopup { display: none!important; }
 reddit.com#$#body.scroll-disabled { overflow: visible!important; position: static!important; }
 !
+camphack.nap-camp.com,tsurihack.com,yamahack.com###header-banner
 m.economictimes.com#$#body { overflow: auto !important; }
 m.economictimes.com#$##prominentOverlay { display: none !important; }
 m.economictimes.com#$##prominentBanner { display: none !important; }
@@ -17209,6 +17214,7 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+bilibili.com##.login-tip
 brave.com##.announcement-banner
 manoramaonline.com##.profile_div#dragItem
 ||timesofindia.indiatimes.com/ad_free_nudge_text.cms
