@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TMiv4fN+OSDwbhmI31Vdug
-! Version: 202104032352
+! Checksum: rYpd2Wr6tyqHJTpVC3lnOw
+! Version: 202104042352
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 03 Apr 2021 23:52 UTC
+! Last Modified: 04 Apr 2021 23:52 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1191,8 +1191,10 @@ _xiuno_com_ad/
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".aiyou305.com/"]
+##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##img[onclick*="/c7.net/"]
 ##img[src$="/img/tianbo.gif"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
@@ -3612,6 +3614,7 @@ ubmcmm.baidustatic.com
 ||zd6789.com^$third-party
 ||ze5.com^$third-party
 ||zencu.com.cn^
+||zeroao.cn^
 ||zf678.com^
 ||zfkmw.com^
 ||zgbbtjt.com^
@@ -3633,6 +3636,7 @@ ubmcmm.baidustatic.com
 ||zhinengap.com^
 ||zhiong.net^
 ||zhixiuchang.com^
+||zhizhunbao.top^
 ||zhizones.com^
 ||zhjfad.com^
 ||zhmatou.com^
@@ -4486,6 +4490,8 @@ _yad_jsonp_
 ||7mmtv.tv/js/ad_js/
 ||7mmtv.tv/u_banner/
 ||7scs.com/Public/img/list-
+||7x7n.com/static/image/888.jpg
+||7x7n.com/static/pic/*.jpg
 ||7xdown.com/bz/
 ||7xdown.com/idcgg/
 ||7xsf3h.com1.z0.glb.clouddn.com^
@@ -6076,6 +6082,7 @@ _yad_jsonp_
 ||gtimg.com/ent/final2009/dp_tebu_logo.png
 ||gtimg.com/news/news/2014ad/
 ||gtimg.com/newsapp_bt/0/1846661534/641
+||gtimg.com/newsapp_ls/0/13369140468/0
 ||gtimg.com/newsapp_ls/0/27161189/0
 ||gtimg.com/pingjs/ext2020/dc/module/GJ/
 ||gtimg.com/qqlive/
@@ -8200,6 +8207,9 @@ _yad_jsonp_
 ||weihaojiaju.com/tu888/
 ||weike87.com/images/*0
 ||weike87.com/images/*1
+||weilekangnet.com:59188/wz/dingpiao_
+||weilekangnet.com:59188/wz/vod_shang.js
+||weilekangnet.com:59188/wz/wz.js
 ||wendangku.net/js/common.js
 ||wendellyu.com/banner/
 ||wenku.baidu.com/browse/interface/getrec?
@@ -8751,6 +8761,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+acfun.cn##.right-activity
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11205,6 +11216,8 @@ fx110.com##.down_Hx
 gz0668.com##.down_fixed
 188soft.com##.down_gaosu
 xiazaizhijia.com##.down_list
+7x7n.com##.down_load_1
+7x7n.com##.down_load_2
 yesky.com##.down_referer
 yesky.com##.down_referer + .bottom
 yesky.com##.down_referrer
@@ -13752,6 +13765,7 @@ da-fan-shu.cn##div[style*="468"][style*="60"]
 25xz.com##div[style*="724px;"]
 pchome.com.tw##div[style*="982"][style*="85"]
 blog.sina.com.cn##div[style*="WiDTH: 200px;"][style$="HeiGHT: 300px"]
+mypianku.net##div[style*="background:url"]
 bilibili.com##div[style*="height:"][data-loc-id]
 tucao.one##div[style*="height:10"][style*="width:964"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
@@ -13967,7 +13981,6 @@ mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> div > a)
 mydrivers.com#?#.news_info > p:last-of-type:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:nth-last-of-type(2):-abp-has(> br + a)
-mypianku.net##nav + div
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
@@ -17043,6 +17056,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||hongyangbg.com^
 ||houanjijuxie.cn^
 ||houfang8.com^
+||hougonw.com^
 ||hp0hnj.cn^
 ||hpsszw.cn^
 ||hqsjc.com^
