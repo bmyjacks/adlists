@@ -224,6 +224,13 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||sp.dpgmedia.net^$third-party
+||beak.bigdata.dpgmmservices.nl^$third-party
+||sat.public.bd.313.nl^$third-party
+||distillery.wistia.com^
+||pipedream.wistia.com^
+||mutinycdn.com^$third-party
+||estatcounter.co.uk^$third-party
 ||hktracker.hankookilbo.com^
 ||ibeat-analytics.com^$third-party
 ||tag-based.s3.*.amazonaws.com^$third-party
@@ -269,7 +276,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||logger.eigene.io^
 ||receiver.eigene.io^
 ||c-rings.net^$third-party
-||t.felmat.net^
+||t.felmat.net^$third-party
 ||k-analytix.com^$third-party
 ||i.btg360.com.br^$third-party
 ||tracdelight.io^$third-party
@@ -4518,6 +4525,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||temptation.ad.nl^
+||events.reclamefolder.nl^
+||analytics-api.smzdm.com^
 ||cwt.citywire.info^
 ||ua.indianexpress.com^
 ||a-reporting.nytimes.com^
@@ -4529,6 +4539,7 @@ nethunt.com/api/v1/track/email/$image
 ||log.zingnews.vn^
 ||logcol.kyobobook.co.kr^
 ||uep.gaijin.net^
+||huffingtonpost.fr/px.gif^
 ||event.impression-neo.naver.com^
 ||er.search.naver.com^
 ||log.tf.co.kr^
@@ -13299,6 +13310,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+.com/s.gif?
+/facebookPixel.
 /mooc/controllers/course_ajax.php
 /ajax/fdlogger/send
 /PhoenixGoogleAnalytics.min.js
@@ -13639,6 +13652,11 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||res-ga.smzdm.com/gtm.js
+||data.bilibili.com/log/
+||stuttgarter-zeitung.de/cms/hitcount
+||asahibeer.co.jp/tracking.js
+||livechatinc.com/tracking.js
 ||st-hatena.com/valve/
 ||app.carnow.com/dealers/track_visitor
 ||app.carnow.com/dealers/visitor_info?
@@ -13677,6 +13695,7 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||protagcdn.com^*/site.js$domain=lovehug.net
 ||bloomberg.com/8FCGYgk4/init.js
 ||deovr.com/api_logs/
+/dwanalytics-$domain=wefashion.de
 /js/tracking-*.js$domain=cinkciarz.pl|conotoxia.com
 ||70url.com/paody/js/count.js$domain=yingwangtv.com
 ||85st.com/static/js/logging.js
@@ -13688,6 +13707,7 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||gold.contentsfeed.com/lb/sd/nw$domain=sportsseoul.com
 ||gtr1.yes24.com/wlo/Logging
 ||analytics.fsho.st/tracker.js
+||poki.com/observer/t.js
 ||wcs.naver.com^$image
 ||las.danawa.com/log/
 ||tmgrup.com.tr/videojs/js/lib/streamsense.min.js
@@ -13709,6 +13729,7 @@ club-opel.com##.toplist
 insider.com##.taboola
 ||byjus.com/byjusweb/js/tracking-2.min.js
 ||ccpa.sp-prod.net/ccpa.js
+||static1.dmcdn.net/js/cpe/cpeEvent.min.js
 ||embedly.com/widgets/xcomm.html^$third-party
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/mux.js
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/adobe/
@@ -15676,7 +15697,7 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
-||smartworld.it^$cookie=/utag_main|__mx_log/
+||smartworld.it^$cookie=__mx_log
 ||gulfnews.com^$cookie=/incap_ses_|visid_incap_|NEW_VISITOR|nlbi_|___utmv/
 ||fusionmovies.to^$cookie=/^_tezer_|_on_page/
 ||imgur.com^$cookie=/^amplitude_id_/
@@ -15698,6 +15719,9 @@ link.gmapp*.net$image
 !------------------------------
 !---- Generic rules -----------
 !------------------------------
+!
+! Tealium Universal tag
+$cookie=utag_main
 !-------------------------------------------------------------------------------!
 !-------------- Mobile analytics  ----------------------------------------------!
 !-------------------------------------------------------------------------------!
