@@ -224,6 +224,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||c-api-bit.shopeemobile.com^$third-party
 ||sp.dpgmedia.net^$third-party
 ||beak.bigdata.dpgmmservices.nl^$third-party
 ||sat.public.bd.313.nl^$third-party
@@ -4525,6 +4526,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||dtrace.nvidia.com^
 ||temptation.ad.nl^
 ||events.reclamefolder.nl^
 ||analytics-api.smzdm.com^
@@ -13652,6 +13654,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||codeproject.com/a.min.js
+/yozons-lib/*$script,~third-party,domain=bradenton.com
 ||res-ga.smzdm.com/gtm.js
 ||data.bilibili.com/log/
 ||stuttgarter-zeitung.de/cms/hitcount
@@ -13738,6 +13742,7 @@ insider.com##.taboola
 ||wikihow.com/x/collect
 ||wikihow.com/ev/
 ||peerius.episerver.net/tracker/
+||imgsen.com/vtrack
 ||gratis.com/ccstoreui/*/analytics/visitorsMetric
 ||h.seznam.cz/hit/?
 ||dacota.tw/wp-content/plugins/wp-mop-analytics/
@@ -15697,6 +15702,7 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||iltalehti.fi^$cookie=sammio-bsid
 ||smartworld.it^$cookie=__mx_log
 ||gulfnews.com^$cookie=/incap_ses_|visid_incap_|NEW_VISITOR|nlbi_|___utmv/
 ||fusionmovies.to^$cookie=/^_tezer_|_on_page/
