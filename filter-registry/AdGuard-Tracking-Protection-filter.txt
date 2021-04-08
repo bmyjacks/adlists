@@ -237,6 +237,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||tag-based.s3.*.amazonaws.com^$third-party
 ||oeqirr.com^$third-party
 ||cbdatatracker.com^$third-party
+||hktracker.hankookilbo.com^$third-party
 ||pages-stats.rbl.ms^$third-party
 ||res.rbl.ms^$third-party
 ||hubble.netease.com^$third-party
@@ -246,12 +247,14 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||sitescout.com^$third-party
 ||ad-log.dable.io^
 ||pensebig.com.br^$third-party
+||analytics.ratopanda.com^$third-party
 ||suite*.linximpulse.net^$third-party
 ||retargeter.com.br^$third-party
 ||shotarget.co.uk^$third-party
 ||shopback.net^$third-party
 ||shopconvert.com.br^$third-party
 ||neemu.com^$third-party
+||prod-sb-appanalytics-us1.servicebus.windows.net^$third-party
 ||mci1.co.kr^$third-party
 ||analytics.sitewit.com^$third-party
 ||ecomm.events^$third-party
@@ -4526,6 +4529,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||crta.metro.co.uk^
 ||dtrace.nvidia.com^
 ||temptation.ad.nl^
 ||events.reclamefolder.nl^
@@ -13654,6 +13658,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||mcrypto.club/track
+||stats.autoscout24.ch/tp.gif
 ||codeproject.com/a.min.js
 /yozons-lib/*$script,~third-party,domain=bradenton.com
 ||res-ga.smzdm.com/gtm.js
@@ -13694,11 +13700,15 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||hltv.org/scripts/hltv-tracking.js
 ||za.zalo.me/v*/brp?fts=
 ||za.zalo.me/v*/w/_zaf.gif
+/duracelltomi-google-tag-manager/*$script,domain=adexchanger.com
 ||api.eigene.io/rec/
+||guj.de/js/gujTracker.js
+/tracking.js$domain=schoener-wohnen.de
 ||snva.jp/javascripts/reco/
 ||protagcdn.com^*/site.js$domain=lovehug.net
 ||bloomberg.com/8FCGYgk4/init.js
 ||deovr.com/api_logs/
+||hdfilmcehennemi.net/api/stats/watch-count
 /dwanalytics-$domain=wefashion.de
 /js/tracking-*.js$domain=cinkciarz.pl|conotoxia.com
 ||70url.com/paody/js/count.js$domain=yingwangtv.com
@@ -15702,6 +15712,7 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||producthunt.com^$cookie=/visitor_id|track_code|first_visit/
 ||iltalehti.fi^$cookie=sammio-bsid
 ||smartworld.it^$cookie=__mx_log
 ||gulfnews.com^$cookie=/incap_ses_|visid_incap_|NEW_VISITOR|nlbi_|___utmv/
@@ -16283,6 +16294,8 @@ $cookie=utag_main
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78785
+@@||googletagmanager.com/gtm.js$domain=gratis.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79082
 @@||googletagmanager.com/gtm.js$domain=qrcode-monkey.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78894
