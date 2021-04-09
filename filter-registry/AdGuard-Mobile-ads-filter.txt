@@ -2405,6 +2405,10 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+ezgif.com###hdr
+gulte.com##.awt_ads
+gulte.com###rw_top_sticky
+nikkei.com##[class*="adForSmall_"]
 belcy.jp###Ad_Overlay
 belcy.jp##.Ad_widget
 belcy.jp##.ads_textbox
@@ -4349,6 +4353,8 @@ livejournal.com##.mdspost-aside__item--banner
 ||graph.facebook.com^$app=com.booking
 !
 ! Blocking Facebook mobile ads
+||graph.facebook.com^$app=com.iend.hebrewcalendar
+||graph.facebook.com^$app=com.outfit7.talkinggingerfree
 ||graph.facebook.com^$app=com.Seriously.Phoenix|com.Seriously.BestFiends
 ||graph.facebook.com^$app=com.stream.drakorindoawet
 ||graph.facebook.com^$app=net.wordbit.entw
@@ -4628,6 +4634,8 @@ livejournal.com##.mdspost-aside__item--banner
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/79798
+||startup.mobile.yandex.net^$app=com.zigzag_mobile.skorolek
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76328
 @@||js-agent.newrelic.com^$app=com.jnj.acuvue.consumer
 ! https://t.me/adguard/106642

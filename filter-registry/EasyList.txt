@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bTOb5TQ1KCPhjD9lC2Ws2A
-! Version: 202104080010
+! Checksum: fJLVFQE0YwyhaksIjOsxJQ
+! Version: 202104090000
 ! Title: EasyList
-! Last modified: 08 Apr 2021 00:10 UTC
+! Last modified: 09 Apr 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -20669,6 +20669,8 @@ _popunder+$popup
 ##.ad_xrail_top
 ##.ad_zone
 ##.adace-adi-popup-wrapper
+##.adace-slot
+##.adace-slot-wrapper
 ##.adadded
 ##.adageunicorns
 ##.adalert-overlayer
@@ -24519,6 +24521,7 @@ _popunder+$popup
 ##.desktop-in-content-native-ad
 ##.desktop-postcontentad-wrapper
 ##.desktop-top-ad-wrapper
+##.desktopAd
 ##.desktop_ad
 ##.desktop_only_ad
 ##.desktopads
@@ -29897,6 +29900,7 @@ _popunder+$popup
 ##.widget_ad_layers_ad_widget
 ##.widget_ad_rotator
 ##.widget_ad_widget
+##.widget_adace_ads_widget
 ##.widget_admanagerwidget
 ##.widget_adrotate_widgets
 ##.widget_ads
@@ -30193,6 +30197,7 @@ _popunder+$popup
 ##[href^="http://raboninco.com/"]
 ##[href^="https://affect3dnetwork.com/track/"]
 ##[href^="https://go.affiliatexe.com/"]
+##[href^="https://go.nordvpn.net/aff"] > img
 ##[href^="https://join3.bannedsextapes.com"]
 ##[href^="https://refpahrwzjlv.top/"]
 ##[href^="https://secure.bmtmicro.com/servlets/"]
@@ -30687,7 +30692,6 @@ _popunder+$popup
 ##a[href^="https://go.hpyjmp.com/"]
 ##a[href^="https://go.hpyrdr.com/"]
 ##a[href^="https://go.julrdr.com/"]
-##a[href^="https://go.nordvpn.net/aff_c"] > img
 ##a[href^="https://go.onclasrv.com/"]
 ##a[href^="https://go.stripchat.com/"][href*="&campaignId="]
 ##a[href^="https://go.trackitalltheway.com/"]
@@ -32142,6 +32146,7 @@ menstennisforums.com#@#.top_ads
 ||13vm73vbmp.com^
 ||14nuzznszbdp.com^
 ||153105c2f9564.com^
+||153250f052d.com^
 ||157ita684j.com^
 ||15fa37b45d.com^
 ||16482f75cb.com^
@@ -32204,6 +32209,7 @@ menstennisforums.com#@#.top_ads
 ||23205523023daea6.com^
 ||2334ea708ab6d79.com^
 ||233fb5b59351.com^
+||23a6b8b0afb.com^
 ||24-sportnews.com^
 ||2444efc8cd8e.com^
 ||247realmedia.com^
@@ -32215,6 +32221,7 @@ menstennisforums.com#@#.top_ads
 ||254a.com^
 ||2559a303164ddde96.com^
 ||26554a376a71735.com^
+||272487a244.com^
 ||273920d845b.com^
 ||27vckaccbto7p761.pro^
 ||2894c9d5b32.com^
@@ -33150,6 +33157,7 @@ menstennisforums.com#@#.top_ads
 ||apologisehistoriancrackle.com^
 ||apologixopyr.site^
 ||apopgo.com^
+||apostlelinger.com^
 ||apostropheemailcompetence.com^
 ||appads.com^
 ||appaldishonestbribe.com^
@@ -33335,6 +33343,7 @@ menstennisforums.com#@#.top_ads
 ||aurjueeh.com^
 ||aurtooks.com^
 ||auspicealibis.com^
+||auspicionfr.fun^
 ||austrypulsory.club^
 ||auteboon.net^
 ||authorneratu.club^
@@ -34192,6 +34201,7 @@ menstennisforums.com#@#.top_ads
 ||choogeet.net^
 ||chooksee.net^
 ||choorgiw.net^
+||chooxaur.com^
 ||chopstick16.com^
 ||chordeez.net^
 ||chosensoothespeechless.com^
@@ -34834,6 +34844,7 @@ menstennisforums.com#@#.top_ads
 ||dbasedolas.club^
 ||dbbsrv.com^
 ||dbclix.com^
+||dbecreativea.biz^
 ||dblmove.com^
 ||dbmdoldiqf.com^
 ||dbrgmcjuf.com^
@@ -35129,6 +35140,7 @@ menstennisforums.com#@#.top_ads
 ||dmfadb.xyz^
 ||dmsqzqvuapb.com^
 ||dmvbdfblevxvx.com^
+||dmxftmoqz.com^
 ||dnbizcdn.com^
 ||dnemkhkbsdbl.com^
 ||doboacki.net^
@@ -35459,6 +35471,7 @@ menstennisforums.com#@#.top_ads
 ||eetyed.com^
 ||eeveniccoll.club^
 ||eevidespre.top^
+||eexaitie.net^
 ||eezavops.net^
 ||eezegrip.net^
 ||ef37e8027b.com^
@@ -35766,6 +35779,7 @@ menstennisforums.com#@#.top_ads
 ||etsmercisely.site^
 ||ettyjokilint.club^
 ||etvgjkyo.com^
+||etwxjufiijhk.com^
 ||etzhporcxprf.com^
 ||etzxnqfew.com^
 ||etzyzocznjd.com^
@@ -36156,6 +36170,7 @@ menstennisforums.com#@#.top_ads
 ||flomigo.com^
 ||flopinclose.com^
 ||flowerythug.com^
+||flowln.com^
 ||flowwiththetide.xyz^
 ||flrdra.com^
 ||fltfwrhpv.com^
@@ -36538,6 +36553,7 @@ menstennisforums.com#@#.top_ads
 ||glfrjgeco.com^
 ||glgcclcyz.com^
 ||glihargi.net^
+||glimtors.net^
 ||glitteringcourageous.com^
 ||glo-glo-oom.com^
 ||gloarowu.com^
@@ -36998,6 +37014,7 @@ menstennisforums.com#@#.top_ads
 ||hovermountedsulphur.com^
 ||howbyehid.site^
 ||howeverhou.fun^
+||howledmintier.com^
 ||howtubray.com^
 ||howubdgdt.com^
 ||hpeprovisioning17.live^
@@ -37819,6 +37836,7 @@ menstennisforums.com#@#.top_ads
 ||leftenvoy.com^
 ||leftoverdense.com^
 ||legalledgtjuj.club^
+||legcatastrophetransmitted.com^
 ||legedlunchar.top^
 ||leginsi2leopard1oviy1hf.com^
 ||legislands.club^
@@ -38806,6 +38824,7 @@ menstennisforums.com#@#.top_ads
 ||ndersotherei.site^
 ||ndikvccwz.com^
 ||ndincreateds.club^
+||nditlookslike.biz^
 ||ndkaxtyhxy.com^
 ||ndlegwynetc.fun^
 ||ndndasyo.com^
@@ -38893,6 +38912,7 @@ menstennisforums.com#@#.top_ads
 ||nfquhpzjh.com^
 ||nfwljgjva.com^
 ||ngallerydese.club^
+||ngbmrybpdtt.com^
 ||ngehochsi.fun^
 ||ngessupposi.club^
 ||ngholishingsm.info^
@@ -38947,6 +38967,7 @@ menstennisforums.com#@#.top_ads
 ||nitytolearnan.biz^
 ||nixyoungjay.com^
 ||njmkilpqzibv.com^
+||njzheqkcyr.com^
 ||nk26uvjrz0tt.com^
 ||nkjomdiztdy.com^
 ||nklrfqgz.com^
@@ -40165,6 +40186,7 @@ menstennisforums.com#@#.top_ads
 ||qpgjmdlq.com^
 ||qphxgwnqgbkzwh.com^
 ||qpljfpwdpk.com^
+||qppdqcid.com^
 ||qptqoylpxmqbz.com^
 ||qqatxipoki.com^
 ||qqdalrqzvukzto.com^
@@ -40964,6 +40986,7 @@ menstennisforums.com#@#.top_ads
 ||shiptoud.com^
 ||shitiphu.com^
 ||shiverconventwilful.com^
+||shlzfrcovqr.com^
 ||shoagnie.com^
 ||shoawhom.com^
 ||shockersheva.com^
@@ -41105,6 +41128,7 @@ menstennisforums.com#@#.top_ads
 ||sntjim.com^
 ||snwpqybkb.com^
 ||soagrist.net^
+||soaheeme.net^
 ||soalonie.com^
 ||soap-wash.com^
 ||soapproceeding.com^
@@ -41619,6 +41643,7 @@ menstennisforums.com#@#.top_ads
 ||third-tracking.com^
 ||thirgoad.top^
 ||thismetric.com^
+||thispositionw.biz^
 ||thkexopsciqums.com^
 ||thnqemehtyfe.com^
 ||thoaltie.net^
@@ -41632,6 +41657,7 @@ menstennisforums.com#@#.top_ads
 ||thoodsoy.net^
 ||thoorest.com^
 ||thorizinge.club^
+||thorsado.net^
 ||thoseads.com^
 ||thoudroa.net^
 ||thoughtthricecompress.com^
@@ -44501,6 +44527,7 @@ menstennisforums.com#@#.top_ads
 ||dianomi.com^$third-party
 ||digipathmedia.com^$third-party
 ||digitaladvertisingalliance.org^$third-party
+||digitalkites.com^$third-party
 ||digitalpush.org^$third-party
 ||digitalthrottle.com^$third-party
 ||disqusads.com^$third-party
@@ -46836,6 +46863,7 @@ menstennisforums.com#@#.top_ads
 ||abctrack.bid^$popup
 ||ablogica.com^$popup,third-party
 ||absoluteclickscom.com^$popup,third-party
+||actio.systems^$popup
 ||actiondesk.com^$popup,third-party
 ||ad-apac.doubleclick.net^$popup,third-party
 ||ad-emea.doubleclick.net^$popup,third-party
@@ -47191,6 +47219,7 @@ menstennisforums.com#@#.top_ads
 ||firstclass-download.com^$popup
 ||flixcontentshop.com^$popup
 ||flopinclose.com^$popup
+||flowln.com^$popup
 ||flrdra.com^$popup
 ||focuusing.com^$popup
 ||folmetor.com^$popup
@@ -48016,6 +48045,7 @@ menstennisforums.com#@#.top_ads
 ||fncnet1.com^$third-party
 ||forkjork12.com^$third-party
 ||freakads.com^$third-party
+||freevideos24h.com^$third-party
 ||freewebfonts.org^$third-party
 ||frestacero.com^$third-party
 ||frestime.com^$third-party
@@ -50437,6 +50467,7 @@ menstennisforums.com#@#.top_ads
 ||d2kadvyeq051an.cloudfront.net^
 ||d2lp70uu6oz7vk.cloudfront.net^
 ||d2na2p72vtqyok.cloudfront.net^
+||d2ojfulajn60p5.cloudfront.net^
 ||d2q52i8yx3j68p.cloudfront.net^
 ||d2r3rw91i5z1w9.cloudfront.net^
 ||d2sbzwmcg5amr3.cloudfront.net^
@@ -50494,6 +50525,7 @@ menstennisforums.com#@#.top_ads
 ||ds88pc0kw6cvc.cloudfront.net^
 ||dtv5loup63fac.cloudfront.net^
 ||du01z5hhojprz.cloudfront.net^
+||due5a6x777z0x.cloudfront.net^
 ||dw9uc6c6b8nwx.cloudfront.net^
 ||dwnm2295blvjq.cloudfront.net^
 ||dxgo95ahe73e8.cloudfront.net^
@@ -50978,6 +51010,7 @@ menstennisforums.com#@#.top_ads
 ||fling.com/enter.php?$popup
 ||flirt4free.com/_special/pops/$popup,third-party
 ||flirt4free.com^*&utm_campaign$popup,third-party
+||flirthits.com/landing/$popup
 ||fuckbookhookups.com/go/$popup
 ||fuckbooknet.net/dating/$popup,third-party
 ||fuckshow.org^*&adr=$popup
@@ -52998,6 +53031,8 @@ gumtree.com###vipBanner
 miami.com###visit
 browserleaks.com###vpn_img
 browserleaks.com###vpn_text
+censor.net###w1001
+censor.net###w1031
 anilinkz.to###waifu
 information-age.com###wallpaper-surround-outer
 eeweb.com###wallpaper_image
@@ -53076,6 +53111,7 @@ google.com##.GGQPGYLCD5
 google.com##.GGQPGYLCMCB
 google.com##.GISRH3UDHB
 timesofisrael.com##.HP_Top_m-wrap
+metservice.com##.Header
 sporcle.com##.IMGgi
 israelnationalnews.com##.InfoIn
 israelnationalnews.com##.InfoIn2
@@ -53334,6 +53370,7 @@ ecommercetimes.com,ectnews.com,linuxinsider.com,macnewsworld.com,technewsworld.c
 h-online.com##.bcadv
 fakenamegenerator.com##.bcsw
 myabandonware.com##.be
+censor.net##.beGrKXqw1r8uLq2pL
 thepointsguy.com##.beam-card-feature
 beckershospitalreview.com##.becker_doubleclick
 wgbh.org##.becomeSponsor
@@ -54088,6 +54125,7 @@ theportugalnews.com##.ppp-inner-banner
 presearch.org##.pr-4.max-w-2xl.mb-4.mt-4.md\:mt-0.md\:mb-6.ml-4
 planetrugby.com##.pr-art-betlinks
 sassymamahk.com##.pre_header_widget
+vivo.sx##.preload
 gcnlive.com##.premSponsor
 towersearch.com##.premier
 dramafever.com##.premium-overlay
@@ -54602,6 +54640,7 @@ kitguru.net##a[id^="href-ad-"]
 coincodex.com,home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
 searchenginejournal.com##aside[id^="SEJ_300x250_"]
 just-dice.com##body > .wrapper > .container:first-child
+psychnewsdaily.com##center
 coincodex.com#a[href*="window.open"]
 python-graph-gallery.com##div > [href^="https://www.datacamp.com"]
 python-graph-gallery.com##div > [href^="https://www.dataquest.io/course/"]
@@ -56564,6 +56603,7 @@ www.google.com#@##videoads
 @@||ads.affiliateclub.com/redirect.aspx?pid=$popup
 @@||ads.affiliatecruise.com/redirect.aspx?$popup
 @@||ads.affiliates-spinit.com/redirect.aspx?pid=*&bid=$popup
+@@||ads.amazon^$popup
 @@||ads.annapartners.com/redirect.aspx?pid=*&bid=$popup
 @@||ads.askgamblers.com^$popup
 @@||ads.betfair.com/redirect.aspx?$popup
