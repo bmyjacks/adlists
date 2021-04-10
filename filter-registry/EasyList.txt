@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fJLVFQE0YwyhaksIjOsxJQ
-! Version: 202104090000
+! Checksum: M0Uw7+NHuvtHwUKGZJwKDQ
+! Version: 202104100000
 ! Title: EasyList
-! Last modified: 09 Apr 2021 00:00 UTC
+! Last modified: 10 Apr 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -204,6 +204,7 @@
 -ad4.
 -ad5.
 -ad_125x125.
+-ad_970x90-
 -ad_banner-
 -ad_injector/
 -ad_leaderboard/
@@ -8198,6 +8199,7 @@ _prx/ba_$script
 /jppolPrebid.
 /js/prebid-
 /newPrebid.
+/npm/prebid-
 /pb.min.
 /pbjs-*.js
 /pbjsandwich-
@@ -25585,6 +25587,7 @@ _popunder+$popup
 ##.header-article-ads
 ##.header-banner-ad
 ##.header-banner-ads
+##.header-banner-advertising
 ##.header-bannerad
 ##.header-google-ads
 ##.header-google-adsense970
@@ -26783,6 +26786,7 @@ _popunder+$popup
 ##.mobile-ad-container
 ##.mobile-ad-nav
 ##.mobile-ad-negative-space
+##.mobile-ads
 ##.mobile-footer__ad
 ##.mobile-instream-ad-holder-single
 ##.mobile-related-ad
@@ -27288,6 +27292,7 @@ _popunder+$popup
 ##.page-ad-container
 ##.page-ads
 ##.page-advert
+##.page-advertisement
 ##.page-box-ad
 ##.page-content--ad-block
 ##.page-content__advert
@@ -30902,9 +30907,11 @@ _popunder+$popup
 ##div[class^="pane-google-admanager-"]
 ##div[class^="proadszone-"]
 ##div[data-ad-underplayer]
+##div[data-adname]
 ##div[data-adservice-param-tagid="contentad"]
 ##div[data-adunit-path]
 ##div[data-adunit]
+##div[data-adzone]
 ##div[data-content="Advertisement"]
 ##div[data-id-advertdfpconf]
 ##div[data-mediatype="advertising"]
@@ -32159,6 +32166,7 @@ menstennisforums.com#@#.top_ads
 ||1955dcb2fee1a13.com^
 ||196f25ce95a.com^
 ||1983c499735.com^
+||199b8977fc.com^
 ||19a782bc982.com^
 ||19b45a16170729.com^
 ||19beda38dc2ce42.com^
@@ -33822,6 +33830,7 @@ menstennisforums.com#@#.top_ads
 ||bruvwmrxudd.com^
 ||bsfnvvxjcisif.com^
 ||bsgimhqko.com^
+||bsjjtpkc.com^
 ||bszaoqzjyx.com^
 ||btagmedia.com^
 ||btblsyvqaxkkx.com^
@@ -34860,6 +34869,7 @@ menstennisforums.com#@#.top_ads
 ||dcrecycle.top^
 ||dcwgzqbfl.com^
 ||dcxtvftrdd.com^
+||dd6a902f1502ccf22557.com^
 ||dddomainccc.com^
 ||ddf67683e4778d.com^
 ||dditingwetlan.site^
@@ -35423,6 +35433,7 @@ menstennisforums.com#@#.top_ads
 ||edencourtbrita.info^
 ||edestrathergo.club^
 ||edfsqfaeenij.com^
+||edfuyyweyz.com^
 ||edgeads.org^
 ||edgevertise.com^
 ||edgreateria.info^
@@ -35812,6 +35823,7 @@ menstennisforums.com#@#.top_ads
 ||evgywgur.com^
 ||eviclick.pro^
 ||evidentlycaricatureinside.com^
+||evngfyljnes.com^
 ||evnoxawvqhda.com^
 ||evokeelbowsoil.com^
 ||evokeframingimpossible.com^
@@ -36753,6 +36765,7 @@ menstennisforums.com#@#.top_ads
 ||gz06x5tqlj.com^
 ||gzivryjzal.com^
 ||gzmlvrvkven.com^
+||gzoegouveqgxv.com^
 ||h-l.icu^
 ||h-l.xyz^
 ||h3btqpy2abc3.com^
@@ -37654,6 +37667,7 @@ menstennisforums.com#@#.top_ads
 ||knottishhuntilc.info^
 ||knowledgedc.club^
 ||kntswafuos.com^
+||knujamgz.com^
 ||knutenegros.pro^
 ||koacojus.net^
 ||koaptooh.net^
@@ -37661,6 +37675,7 @@ menstennisforums.com#@#.top_ads
 ||koemrbflufm.com^
 ||koertf.com^
 ||kogutcho.net^
+||koijwsixu.com^
 ||koimplishing.club^
 ||koocaucy.com^
 ||koora2live.com^
@@ -39134,6 +39149,7 @@ menstennisforums.com#@#.top_ads
 ||nvrblk.xyz^
 ||nvtbspcwhb.com^
 ||nvwqqlroj.com^
+||nvysyzemuvac.com^
 ||nwliko.com^
 ||nxcxithvcoeh.com^
 ||nxtuaeko.com^
@@ -39975,6 +39991,7 @@ menstennisforums.com#@#.top_ads
 ||psfmlcgzdtwfwf.com^
 ||psisalte.com^
 ||psitchie.com^
+||psiwaphado.pro^
 ||psixoglika.pro^
 ||pskidsqhsbfi.com^
 ||psoaghie.net^
@@ -40087,6 +40104,7 @@ menstennisforums.com#@#.top_ads
 ||putrr8.com^
 ||putstairboor.com^
 ||puttrotgob.com^
+||puuvpsveaskxzb.com^
 ||puwvuscm.com^
 ||puzzledchampagneaboninableaboninable.com^
 ||pvclouds.com^
@@ -40328,6 +40346,7 @@ menstennisforums.com#@#.top_ads
 ||rdtrck2.com^
 ||reacheffectsp.work^
 ||reachsowraspberry.com^
+||readingreflect.com^
 ||readiong.net^
 ||readly-renterval.icu^
 ||readvasturked.pro^
@@ -40890,6 +40909,7 @@ menstennisforums.com#@#.top_ads
 ||seeptoag.net^
 ||sehoweve.fun^
 ||seislational.club^
+||seizedbraggingdeceptive.com^
 ||sel-sel-fie.com^
 ||selectserialcage.com^
 ||selfbiological.com^
@@ -41219,6 +41239,7 @@ menstennisforums.com#@#.top_ads
 ||spendeivivar.site^
 ||sperans-beactor.com^
 ||sperconset.club^
+||spermparticipation.com^
 ||spherediary.com^
 ||spillsackterrified.com^
 ||spiritedirreparablemiscarriage.com^
@@ -42617,6 +42638,7 @@ menstennisforums.com#@#.top_ads
 ||wholesomeindians.com^
 ||whoostoo.net^
 ||whoshood.com^
+||whowhipi.net^
 ||whs82908.com^
 ||whudiphezy.pro^
 ||whugesto.net^
@@ -49103,6 +49125,7 @@ menstennisforums.com#@#.top_ads
 ||coinmama.com/assets/img/banners/$third-party
 ||colmwynne.com^$image,third-party
 ||colorlabsproject.com^*/banner_
+||commercial.daznservices.com^
 ||complexmedianetwork.com/js/cmnUNT.js
 ||comx-computers.co.za/banners/$third-party
 ||conduit.com//banners/$third-party
@@ -53267,6 +53290,7 @@ sciencealert.com##.article-fulltext > div
 scoop.co.nz##.article-left-box
 nintendolife.com,purexbox.com##.article-recommendations
 audizine.com##.articleIMG
+news18.com##.article_mad
 cnx-software.com##.asensor-single
 techweez.com##.asspp-single
 animalcrossingworld.com##.at-sidebar-1
@@ -53288,6 +53312,7 @@ dailyvoice.com##.b-banner
 revelist.com##.b-container
 china.ahk.de##.b-header__banner
 dnserrorassist.att.net,search.frontier.com,searchguide.level3.com##.b-links
+geekflare.com##.b-sticky-sidebar-wrapper-simple
 bizcommunity.com##.b-topbanner
 scorespro.com##.b160_600
 scorespro.com##.b300
@@ -53392,7 +53417,7 @@ theloop.ca##.bigBoxDesktop
 chipchick.com,megafileupload.com##.big_banner
 hellenicshippingnews.com,wasterecyclingnews.com##.bigbanner
 flyerland.ca,tcpalm.com,tiff.net##.bigbox
-9gag.com,sport360.fit##.billboard
+9gag.com,hotstar.com,sport360.fit##.billboard
 techspot.com##.billboard_placeholder
 techspot.com##.billboard_placeholder_home
 dailymail.co.uk,thisismoney.co.uk##.billboard_wrapper
@@ -54180,7 +54205,12 @@ catholic.net##.publicidad
 eitb.eus##.publicidad_robapaginas
 the18.com##.push-downv
 2conv.com##.push-offer
+giantfreakinrobot.com##.pw-leaderboard-atf-container
+giantfreakinrobot.com##.pw-leaderboard-btf-container
+giantfreakinrobot.com##.pw-med-rect-atf-container
+giantfreakinrobot.com##.pw-med-rect-btf-container
 thedirect.com##.pw-ph-leaderboard
+giantfreakinrobot.com##.pw-ph-med-rect
 thedirect.com##.pw-ph-sky
 tri247.com##.q2w3-fixed-widget-container
 qrobe.it##.qad
@@ -55037,11 +55067,11 @@ smallseotools.com#?#.col-sm-12 > :-abp-has(p:-abp-contains(Advertisement))
 solarmovie.ink#?#.row:-abp-contains(in HD)
 time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
 tumblr.com#?#._1DxdS:-abp-has( > div > header[role="banner"])
-twitter.com#?#div[data-testid="UserCell"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
-twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
-twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
-twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
-twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+twitter.com#?#div[data-testid="UserCell"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
+twitter.com#?#div[data-testid="eventHero"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+twitter.com#?#div[data-testid="placementTracking"]:-abp-has(svg + div[dir="auto"] > span:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/))
+twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
+twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 windowsbulletin.com#?#.code-block:-abp-has(a[href^="http://www.reimageplus.com/"])
 windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
@@ -55947,6 +55977,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||css.wpdigital.net/wpost/css/combo?*/ads.css
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
+@@||d12prgon3aw7l1.cloudfront.net^$image,domain=jiji.co.ke
 @@||dailymotion.com/embed/$subdocument,domain=~gum-gum-streaming.co|~gum-gum-streaming.com|~gum-gum-streaming.tv|~mavanimes.co|~streaming-vostfr.com
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
@@ -56010,6 +56041,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||island.lk/userfiles/image/danweem/island.gif
 @@||itv.com/itv/hserver/*/site=itv/$xmlhttprequest
 @@||itv.com/itv/jserver/$script,domain=itv.com
+@@||jiji.co.ke/api_web/v1/advert/$~third-party,xmlhttprequest
 @@||jwpcdn.com/player/plugins/googima/$script,domain=iheart.com|video.vice.com
 @@||kotaku.com^*/assets/new-client/adManager.$script,~third-party
 @@||lastpass.com/ads.php$subdocument,~third-party

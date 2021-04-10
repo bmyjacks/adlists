@@ -224,6 +224,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||durationmedia.net^$third-party
+||stats.myangular.life^
 ||pointmediatracker.com^$third-party
 ||c-api-bit.shopeemobile.com^$third-party
 ||sp.dpgmedia.net^$third-party
@@ -13661,7 +13663,7 @@ _tracking.php?b=
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
 ||analytics.google.com/g/collect?v=
-||google.*/ads/ga-audiences$image
+||google.*/ads/ga-audiences?v=
 ||mcrypto.club/track
 ||stats.autoscout24.ch/tp.gif
 ||codeproject.com/a.min.js
@@ -16302,6 +16304,8 @@ $cookie=utag_main
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! nnn.de - broken registration
+@@||track.nnn.de/cre-*/tracking/tracking.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79392
 @@||mcs.snssdk.com/*/user/webid$domain=lv.ulikecam.com
 @@||i.snssdk.com/log/sentry/$domain=lv.ulikecam.com
