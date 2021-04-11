@@ -224,6 +224,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||t.rainide.com^
 ||durationmedia.net^$third-party
 ||stats.myangular.life^
 ||pointmediatracker.com^$third-party
@@ -13662,6 +13663,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||s.cdin.me/i.php
+||ui-portal.de/pos-cdn/tracklib/
+||ui-portal.de/prompt/permission/latest/tracking.min.js
 ||analytics.google.com/g/collect?v=
 ||google.*/ads/ga-audiences?v=
 ||mcrypto.club/track
@@ -13723,6 +13727,7 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||ads-partners.coupang.com/log/
 ||lazimbana.com/product/hit-increment/
 ||pla.naver.com/log/
+/universal_analytics.$domain=foerde-sparkasse.de
 /AppMeasurement.js$domain=channel4.com
 /AppMeasurement_Module_ActivityMap.js$domain=channel4.com
 ||gold.contentsfeed.com/lb/sd/nw$domain=sportsseoul.com
@@ -16304,6 +16309,9 @@ $cookie=utag_main
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/80076
+! https://github.com/AdguardTeam/AdguardFilters/issues/80074
+@@||cdn.pool.st-hatena.com/valve/valve.js$domain=shonenmagazine.com|shonenjumpplus.com
 ! nnn.de - broken registration
 @@||track.nnn.de/cre-*/tracking/tracking.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79392
