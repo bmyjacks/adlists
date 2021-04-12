@@ -71,9 +71,11 @@
 !-------------------------------------------------------------------------------!
 !-------------- General javascript, CSS and HTML extensions --------------------!
 !-------------------------------------------------------------------------------!
-!-------------------
-!-------JS----------
-!-------------------
+!
+! This rule is for suppressing Google FLoC.
+! Read more about it here:
+! https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea
+#%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24789
 timesnownews.com#%#//scriptlet("set-constant", "ga", "noopFunc")
@@ -163,7 +165,8 @@ donnerwetter.de#?#.col-xs-12 > div.block.prepend-top[-ext-has='> div.blocktitle-
 hdreactor.club,hdreactor.su,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики)
 hdreactor.club,hdreactor.su,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики) + div.menu-head1
 !
-myfirstcomp.ru##.tm-sidebar-b > div.uk-panel:has(script[src^="https://adcounter"])
+automesseweb.jp#?##_popIn_ranking:upward(.code_php_in_widget)
+myfirstcomp.ru#?#.tm-sidebar-b > div.uk-panel:has(script[src^="https://adcounter"])
 musicrock24.ru#?#.art-layout-cell > div.art-box:has(> div.art-box-body > div.art-blockheader > h3:contains(Счётчики))
 pryamoj-efir.ru#?#.layout-post-right > h1.playmaker-list:contains(Статистика)
 elmundo.es#?#body > main[role="main"] > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__main-column > aside > div[id^="taboola"])
@@ -13663,6 +13666,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||estore.jp/beacon/
+||caliente.mx/integration-scripts/tracking.min.js
 ||s.cdin.me/i.php
 ||ui-portal.de/pos-cdn/tracklib/
 ||ui-portal.de/prompt/permission/latest/tracking.min.js
