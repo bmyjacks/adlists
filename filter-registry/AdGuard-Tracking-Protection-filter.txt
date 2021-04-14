@@ -227,6 +227,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||didna.io^$third-party
+||log.nordot.jp^
+||solutionshindsight.net^$third-party
+||d.wi-fi.ru^$third-party
 ||instapagemetrics.com^$third-party
 ||mas.protecmedia.com^$third-party
 ||t.rainide.com^
@@ -256,6 +260,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||sitescout.com^$third-party
 ||ad-log.dable.io^
 ||pensebig.com.br^$third-party
+||tracking.m6r.eu^$third-party
 ||analytics.ratopanda.com^$third-party
 ||suite*.linximpulse.net^$third-party
 ||retargeter.com.br^$third-party
@@ -4540,6 +4545,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||track.wattpad.com^
+||stat.download.xunlei.com^
 ||dmp.citiservi.es^
 ||crta.metro.co.uk^
 ||dtrace.nvidia.com^
@@ -13670,6 +13677,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||tasclap.jp/static/logger.js
+||dubox.com/statistics^
 ||fastcdn.co/js/sptw.js
 ||cloud.weborama.design/nonio.js
 ||comunidade.globalmediagroup.pt//tracker/tracker.ashx
@@ -13939,7 +13948,7 @@ koneta.nifty.com###custom_html-2
 ||ty90nwjc8wjt-a.akamaihd.net^$domain=nypost.com
 ||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
-||livingtraditionally.com/wp-content/cache/busting/1/gtm-*.js
+/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com
 ||newstm.in/stats?
 ||newstm.in/static/ase/at/at.js
 ||cnews.ru/inc/js/show_stat.js
