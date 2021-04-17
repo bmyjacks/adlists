@@ -227,11 +227,14 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||atom-log.3.cn^$third-party
+||ezodn.com^$third-party
 ||x-storage-a1.cir.io^
 ||didna.io^$third-party
 ||log.nordot.jp^
 ||solutionshindsight.net^$third-party
 ||d.wi-fi.ru^$third-party
+||api.ipdata.co^$third-party
 ||instapagemetrics.com^$third-party
 ||mas.protecmedia.com^$third-party
 ||t.rainide.com^
@@ -246,6 +249,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||pipedream.wistia.com^
 ||mutinycdn.com^$third-party
 ||estatcounter.co.uk^$third-party
+||statcollector.sidearmsports.com^$third-party
 ||hktracker.hankookilbo.com^
 ||ibeat-analytics.com^$third-party
 ||tag-based.s3.*.amazonaws.com^$third-party
@@ -4546,6 +4550,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||behave.noen.at^
+||tracking.noen.at^
 ||track.wattpad.com^
 ||stat.download.xunlei.com^
 ||dmp.citiservi.es^
@@ -15570,7 +15576,16 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||informazione.it/detroitchicago/cmb.js
+||tweakers.net^*&p=$image
+||forum.zuvio.com.tw/api/article/finish
 ||gamestar.de/*/index.cfm?event=tracking:
+||rihappy.com.br/Site/Track.aspx
+||rihappy.vteximg.com.br/scripts/track.js
+||vtex.com.br/portal-ui/*/scripts/vtex-analytics.js
+||vtex.com.br/rc/rc.js
+||rihappy.com.br/api/sessions?items
+||rihappy.vteximg.com.br/scripts/vtex.tagmanager.helper.js
 news.mynavi.jp##.articleList-along
 news.mynavi.jp##.articleList-attention
 ||t.rentcafe.com/rctv*.min.js
@@ -17685,6 +17700,92 @@ $cookie=_parsely_visitor
 $cookie=_parsely_session
 ! Tealium Universal tag
 $cookie=utag_main
+!
+! rubiconproject.com
+! https://rubiconproject.com/rubicon-project-advertising-technology-privacy-policy/platform-cookie-statement/
+! Analytics: Used to record cookie consent data
+$cookie=audit
+! Internal user identifier used for analytics
+$cookie=khaos
+!
+! Medallia
+! Profiling cookie, number between 0-1 used for percentage of users targeting
+$cookie=kampyleUserPercentile
+! Profiling cookie, tracks number of sessions user has been in the browser
+$cookie=kampyleUserSessionsCount
+! Profiling cookie, timestamp indicating when the user has started his session
+$cookie=kampyleUserSession
+! Profiling cookie, tracks the number of pages the user has been in the session
+$cookie=kampyleSessionPageCounter
+! Profiling cookie, UUID for identifying a user
+$cookie=kampyle_userid
+!
+! twitter.com
+! Collects anonymous data related to the user’s visits to the website(number of visits, average time spent on the website and which pages have been loaded)
+$cookie=external_referer
+$cookie=guest_id
+!
+! yahoo.com
+! Used in the targeting of relevant adverts and content on the Yahoo! platform
+||yahoo.com^$cookie=APIDTS
+! Yahoo Conversion Tracking
+||yahoo.com^$cookie=GUC
+!
+! 91app.com
+! Analytics(used on many sites)
+$cookie=gaClientId
+!
+! outbrain.com
+! Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement
+$cookie=obuid
+!
+! ezoic.com
+! Used to record the amount of time you have spent on this website
+$cookie=/^ezux_tos_/
+! Used to store the referring domain
+$cookie=/^ezoref_/
+! Used to record whether you have studied the content of this page
+$cookie=/^ezux_ifep/
+! Used to uniquely identify a visit by you to this website
+$cookie=/^ezovuuid_/
+! Used to record the time that you loaded the last page on this website
+$cookie=/^ezux_lpl_/
+! Used to record the time of your visit to this website so different visits can be differentiated from each other
+$cookie=/^ezovuuidtime_/
+! Used to record the amount of time that you engaged with content on this website
+$cookie=/^ezux_et_/
+! Used to store the pixel size of your browser to help personalize your experience and ensure content fits
+$cookie=ezohw
+$cookie=ezds
+!
+! vtex.io
+! Tracking
+$cookie=VtexFingerPrint
+!
+! linkedin.com
+! https://linkedin.com/legal/l/cookie-table?
+! These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented
+$cookie=spectroscopyId
+! Used to store information about the time a sync with the lms_analytics cookie took place for users in the Designated Countries
+$cookie=lms_analytics
+$cookie=AnalyticsSyncHistory
+! Provides page name value (URL) for use by Adobe Analytics
+$cookie=s_pltp
+! Used by Adobe Analytics to retain and fetch what percentage of a page was viewed
+$cookie=s_ppv
+! Unique identifier for Adobe Analytics
+$cookie=s_fid
+! Used to determine if cookies are enabled for Adobe Analytics
+$cookie=s_cc
+! Used to make a probabilistic match of a user's identity outside the Designated Countries
+$cookie=li_sugr
+! Set for ID sync for Adobe Audience Manager
+$cookie=aam_uuid
+!
+! adxns.com
+! Ads targeting cookie for AppNexus
+$cookie=anj
+!
 !-------------------------------------------------------------------------------!
 !-------------- Mobile analytics  ----------------------------------------------!
 !-------------------------------------------------------------------------------!
@@ -18252,6 +18353,8 @@ $cookie=utag_main
 @@||googletagmanager.com/gtm.js$domain=gratis.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79082
 @@||googletagmanager.com/gtm.js$domain=qrcode-monkey.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/80265
+@@||log.nordot.jp/js/beacon-*.js$domain=kiji.is
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78894
 @@||googletagmanager.com/gtm.js$domain=hipolink.net
 ! imgur.com - broken hypervote banner at top
