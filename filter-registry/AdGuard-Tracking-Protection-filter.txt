@@ -77,6 +77,9 @@
 ! https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea
 #%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/80625
+tweakers.net#%#//scriptlet('abort-on-property-read', 'WebTrekkClickMap')
+tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24789
 timesnownews.com#%#//scriptlet("set-constant", "ga", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69078#issuecomment-762889762
@@ -15576,6 +15579,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||google.*/imgevent?
 ||informazione.it/detroitchicago/cmb.js
 ||tweakers.net^*&p=$image
 ||forum.zuvio.com.tw/api/article/finish
