@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-04-18T18:17:10.231Z
+! Last modified: 2021-04-19T18:18:25.338Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -19,6 +19,19 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||injectlocum.com^
+||thongaspredo.com^
+||slakesshimtames.com^
+||fsznrodyocq.com^
+||zwqpqrtpjt.com^
+||wxhiojortldjyegtkx.bid^
+||kenskitscurt.com^
+||betrustkelping.com^
+||nerdolac.com^
+||cggeffgbbfgcefjhgbg.ru^
+||zwyymwy.com^
+||disturbedaccruesurfaces.com^
+||mothkennethaccomplish.com^
 ||riminghoggoofy.com^
 ||tightslowingpredictable.com^
 ||d3beefy8kd1pr7.cloudfront.net^
@@ -3127,6 +3140,7 @@ vkcdnservice.appspot.com^
 ||0265331.com^
 ||02aa19117f396e9.com^
 ||02b5da94a2bd4aea.com^
+||0376ddaf55.com^
 ||039ad0897e6da.com^
 ||048d36793b8.com^
 ||050y9lhe8p.com^
@@ -8294,6 +8308,7 @@ vkcdnservice.appspot.com^
 ||kikoucuy.net^
 ||killerjuke.xyz^
 ||killerparadehay.com^
+||kindlyfeebleremembered.com^
 ||kindsworthmp.club^
 ||kindznnd998.xyz^
 ||kingalkylbe.fun^
@@ -9363,6 +9378,7 @@ vkcdnservice.appspot.com^
 ||mz28ismn.com^
 ||mzol7lbm.com^
 ||mzvwhksbwnj.com^
+||n19.biz^
 ||n1ora14.online^
 ||n39hc7isp08t.com^
 ||n3x7.xyz^
@@ -10148,6 +10164,7 @@ vkcdnservice.appspot.com^
 ||pepperstretching.com^
 ||peppy2lon1g1stalk.com^
 ||perceivecatastrophe.com^
+||perceivednameless.com^
 ||perfordpetre.club^
 ||performanceonclick.com^
 ||performancetrustednetwork.com^
@@ -10871,6 +10888,7 @@ vkcdnservice.appspot.com^
 ||redreven.fun^
 ||reducatedc.top^
 ||reductingds.club^
+||redundancyphilosophicalwest.com^
 ||redvxjlmaehy.com^
 ||reenrageasse.xyz^
 ||refaucherais.site^
@@ -12427,6 +12445,7 @@ vkcdnservice.appspot.com^
 ||umiyyusldc.com^
 ||umwyfqgsg.com^
 ||umyijmhalvbk.com^
+||unableincludingrow.com^
 ||unacceptableclevercapable.com^
 ||uncessoryel.info^
 ||uncilsdegr.club^
@@ -12644,6 +12663,7 @@ vkcdnservice.appspot.com^
 ||videotapespecialize.com^
 ||vidpay.com^
 ||vidsdelivery.com^
+||vidsforuz.com^
 ||viewablemedia.net^
 ||viewclc.com^
 ||vignmvwjlyc.com^
@@ -12659,6 +12679,7 @@ vkcdnservice.appspot.com^
 ||vimjarawl.com^
 ||vimmenced.club^
 ||vindicosuite.com^
+||vinegarweb.com^
 ||violentthinner.com^
 ||vip-vip-vup.com^
 ||vipcpms.com^
@@ -17961,7 +17982,6 @@ vkcdnservice.appspot.com^
 ||ezodn.com^
 ||x-storage-a1.cir.io^
 ||didna.io^
-||log.nordot.jp^
 ||solutionshindsight.net^
 ||d.wi-fi.ru^
 ||instapagemetrics.com^
@@ -26281,6 +26301,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lcs.livedoor.net^
 ||log.codemarketing.cloud^
 ||log.f-tra.com^
+||log.nordot.jp^
 ||omt.shinobi.jp^
 ||ranking.apis.sankei-digital.co.jp^
 ||sync.shinobi.jp^
@@ -26532,6 +26553,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||istori.site^
+||mikla.site^
+||goryachie-foto.net^
 ||akolafovar.com^
 ||rbdiqz.com^
 ||the4.fun^
@@ -31131,6 +31155,8 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! Eimg.jp
 !
+||divscripty.net^
+||zxcvbnmasdfghjklqwertyuiop.work^
 ||ancientact.com^
 ||smv.to^
 ||geniee.jp^
@@ -35469,6 +35495,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
+||graypay1.cn^
+||cbyckdf.cn^
+||zyqtc.cn^
 ||adrian.net.cn^
 ||jituangongsi.cn^
 ||chkwwg.cn^

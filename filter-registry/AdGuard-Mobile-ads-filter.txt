@@ -2358,9 +2358,6 @@ deviantart.com#@#.mobile-ad
 !
 !+ NOT_OPTIMIZED
 pravda.com.ua##amp-iframe[src^="https://orbit4.lun.ua/"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/78374
-!+ PLATFORM(ext_ublock)
-anond.hatelabo.jp###ad-overlay-bottom-sp-1
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69965
 !+ PLATFORM(ios, ext_android_cb)
 pussyspace.com,pussyspace.net##[style="display:none;height:0;width:0;"] + span[class]
@@ -2416,6 +2413,7 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+mobile.twitter.com##div[data-testid="primaryColumn"] div[data-testid="placementTracking"] > div:not([data-testid="videoPlayer"])
 ameblo.jp##article > div[class^="_"] > div:not([class]) > div[class^="_"]:first-child > div[class^="_"]:only-child
 ameblo.jp##main > div > div.LazyLoad[style="height:80vw"]
 ameblo.jp##aside[class^="_"] > div[class^="_"] > div[class^="_"] > ul:last-child > div:empty
@@ -4377,6 +4375,7 @@ livejournal.com##.mdspost-aside__item--banner
 ||graph.facebook.com^$app=com.booking
 !
 ! Blocking Facebook mobile ads
+||graph.facebook.com^$app=com.labs367.fbvideodownloader|com.harry.wallpie|com.harry.stokie
 ||graph.facebook.com^$app=mediavision.handwallet
 ||graph.facebook.com^$app=com.iend.hebrewcalendar
 ||graph.facebook.com^$app=com.outfit7.talkinggingerfree
