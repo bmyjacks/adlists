@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202104192344
+! Version: 202104202204
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Apr 2021 23:44 UTC
+! Last modified: 20 Apr 2021 22:04 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -17145,6 +17145,7 @@ _vpcookieconsent/
 ##.share-badges
 ##.share-bar
 ##.share-bar--detail
+##.share-bar--side
 ##.share-bar-container
 ##.share-bar-decs
 ##.share-bar-highlight
@@ -18568,6 +18569,8 @@ _vpcookieconsent/
 ##.social-buttons
 ##.social-buttons--content
 ##.social-buttons--content-before
+##.social-buttons--follow
+##.social-buttons--uk
 ##.social-buttons-bottom
 ##.social-buttons-compact
 ##.social-buttons-contact
@@ -30852,6 +30855,7 @@ _vpcookieconsent/
 ##.cookiepopup-container
 ##.cookiepopupcontainer
 ##.cookiepopupwrapper
+##.cookiepreferences_popup
 ##.cookieprivacy
 ##.cookieprompt
 ##.cookiequestion
@@ -33586,6 +33590,7 @@ _vpcookieconsent/
 ##.taxcodeandprivacy-cookienotice-bar
 ##.tbcookie
 ##.tc-cookie-banner
+##.tc-cookie-compliance
 ##.tc-cookies-alerta
 ##.tc-privacy-banner
 ##.tc-privacy-overlay
@@ -35568,7 +35573,7 @@ _vpcookieconsent/
 ||emerse.com/consent.js
 ||freedoflondon.com/Styles/dialog-popup/jquery-ui.js
 ||freetls.fastly.net/main/sd-cmp-$domain=spanishdict.com
-||fundingchoicesmessages.google.com^$domain=androidpolice.com|apkmirror.com|gameblog.fr|liliputing.com|phonearena.com|quotes.net|smallseotools.com|telegram.hr|wordreference.com
+||fundingchoicesmessages.google.com^$domain=androidpolice.com|apkmirror.com|gameblog.fr|liliputing.com|makeuseof.com|phonearena.com|quotes.net|smallseotools.com|telegram.hr|wordreference.com
 ||gdpr.internetbrands.com^
 ||gdpr.prisa.com^
 ||government-and-constitution.org/js/consent.js
@@ -42001,10 +42006,12 @@ racquetballwarehouse.com,rogerfederer.com,tenniswarehouse-europe.com###data_prot
 corso-saunamanufaktur.com,schaeffler.com###dataprotection
 debenhams.com###debCNwrap
 tunngle.net###delirioBiscottoso
+morningstar.co.uk###dialog-mask
 binary.com###dialog_notification
 biodiv.be,bitmoji.com,clementoni.com,decisiondeskhq.com,greybox.com,liveradio.ie,snp.org,volksbuehne.berlin###disclaimer
 owasp.org###disclaimer-container
 ebu.ch###disclamerContainer
+morningstar.co.uk###divAudienceConfirmation
 goccl.co.uk###divMessage
 microsoft.com###divNRMain
 giftsandcare.com###divbottom
@@ -42787,7 +42794,7 @@ opentip.kaspersky.com##section[data-t="cks-dsc"] > div > div
 truecaller.com##span > .max-w-md.shadow-lg
 web.dev##web-snackbar
 ! googlefunding consent warning
-androidpolice.com,apkmirror.com,gameblog.fr,liliputing.com,phonearena.com,quotes.net,smallseotools.com,telegram.hr,wordreference.com##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
+androidpolice.com,apkmirror.com,gameblog.fr,liliputing.com,makeuseof.com,phonearena.com,quotes.net,smallseotools.com,telegram.hr,wordreference.com##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ! mobile.twitter.com
 mobile.twitter.com###react-root > div > div > .rn-gvpnoh
 twitter.com##.r-13qz1uu.r-tvv088.css-1dbjc4n
@@ -44440,6 +44447,7 @@ gds.it###data[style="overflow:hidden; height: 246px; margin:10px 0px;"]
 bastabugie.it,tuttocampo.it###facebook
 gallorosso.it###flyingMenu
 valgardena.it###footerbottomlinks
+notebookitalia.it###gn_cta
 altamuralife.it,andriaviva.it,bariviva.it,barlettaviva.it,bisceglieviva.it,bitontoviva.it,canosaviva.it,cerignolaviva.it,coratoviva.it,giovinazzoviva.it,gravinalife.it,margheritaviva.it,materalife.it,minervinoviva.it,modugnoviva.it,molfettaviva.it,ruvoviva.it,sanferdinandoviva.it,spinazzolaviva.it,terlizziviva.it,traniviva.it,trinitapoliviva.it###header-fanpage
 ecodibergamo.it###iconz
 assopoker.com###more-less-btn
@@ -45673,7 +45681,7 @@ voloweb.it###popupDivC
 alceosalentino.it,chemistresearch.it,cinquantamila.it,compitoinclasse.org,metroservices.it,tastoeffeuno.it###privacy
 testisemplificati.com###privacy-modal
 jusan.it###privacy-popup
-coni.it,federnuoto.it###privacy-wrapper
+comitatoparalimpico.it,coni.it,federnuoto.it###privacy-wrapper
 pagomeno.it###privacyBanner
 cinquantamila.corriere.it,cinquantamila.it###privacy_advisor
 samaritansonlus.org###sB_injected
@@ -47518,7 +47526,7 @@ yoigo.com#@#thor-cookies
 @@||businessinsider.in/gdpr_js/version-12,minify-1.cms$script,~third-party
 @@||c.evidon.com/sitenotice/evidon-sitenotice-tag.js$script,domain=southpark.de|southparkstudios.nu
 @@||carport-diagnose.de/script/cookieconsent.min.js$script,~third-party
-@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|crfashionbook.com|doctoroz.com|eurogamer.net|gmx.com|gq-magazine.co.uk|mail.com|popculture.com|reuters.com|rockpapershotgun.com|rte.ie|trustpilot.com|tvn24.pl|vimeo.com|wargaming.net|worldsurfleague.com
+@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|crfashionbook.com|crunchyroll.com|doctoroz.com|eurogamer.net|gmx.com|gq-magazine.co.uk|mail.com|popculture.com|reuters.com|rockpapershotgun.com|rte.ie|trustpilot.com|tvn24.pl|vimeo.com|wargaming.net|worldsurfleague.com
 @@||chasecdn.com^*/cookie.js$script,domain=chase.com
 @@||civiccomputing.com^*/cookieControl-$script,domain=amplitude.com|msi.com
 @@||cloudflare.com^*/cookieconsent.min.js$domain=ehftv.com|pixieset.com|sammobile.com|xnview.com
@@ -47533,7 +47541,7 @@ yoigo.com#@#thor-cookies
 @@||cookie-cdn.cookiepro.com^$script,stylesheet,xmlhttprequest,domain=api.newsguardtech.com|giochi.it
 @@||cookielaw.org/consent/$other,xmlhttprequest
 @@||cookielaw.org/consent/cmp.stub.js$domain=reuters.com
-@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cbsnews.com|cnet.com|epicgames.com|eurogamer.net|gmx.com|gq-magazine.co.uk|popculture.com|reuters.com|rte.ie|trustpilot.com|tvn24.pl|wargaming.net|worldsurfleague.com|zdnet.com
+@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cbsnews.com|cnet.com|crunchyroll.com|epicgames.com|eurogamer.net|gmx.com|gq-magazine.co.uk|popculture.com|reuters.com|rte.ie|trustpilot.com|tvn24.pl|wargaming.net|worldsurfleague.com|zdnet.com
 @@||cookielawinfo.com^$~third-party
 @@||cookiepro.com/consent/$xmlhttprequest,domain=softgames.com
 @@||cookiepro.com/scripttemplates/$script,xmlhttprequest,domain=softgames.com

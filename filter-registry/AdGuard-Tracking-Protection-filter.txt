@@ -3399,6 +3399,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||ancientact.com^$third-party
 ||ticketaunt.com^$third-party
 ||warmafterthought.com^$third-party
 ||fumblingform.com^$third-party
@@ -4552,6 +4553,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||d2ieqaiwehnqqp.cloudfront.net^
+||lc.fresheye.com^
+||lcexp.fresheye.com^
 ||behave.noen.at^
 ||tracking.noen.at^
 ||track.wattpad.com^
@@ -15578,7 +15582,11 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
-||log.nordot.jp^$xmlhttprequest
+||cdn.calltrk.com/companies/
+||fresheye.com/s.gif
+viva.ua##.footer-counters
+||browser.events.data.microsoft.com/OneCollector/
+||log.nordot.jp^$~script
 ||google.*/imgevent?
 ||informazione.it/detroitchicago/cmb.js
 ||tweakers.net^*&p=$image
@@ -15606,6 +15614,7 @@ news.mynavi.jp##.articleList-attention
 ||ui-portal.de/prompt/permission/latest/tracking.min.js
 ||analytics.google.com/g/collect?v=
 ||google.*/ads/ga-audiences?v=
+||events.genndi.com/tracker
 ||mcrypto.club/track
 .php?p=stats$domain=ahwaktv.tv
 ||stats.autoscout24.ch/tp.gif
@@ -15867,7 +15876,7 @@ koneta.nifty.com###custom_html-2
 ||ty90nwjc8wjt-a.akamaihd.net^$domain=nypost.com
 ||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
-/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|kediportal.com
+/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|kediportal.com|koinbulteni.com
 ||newstm.in/stats?
 ||newstm.in/static/ase/at/at.js
 ||cnews.ru/inc/js/show_stat.js
@@ -17877,7 +17886,8 @@ $cookie=/^_ym_visorc/
 ! Used for identifying site users.
 $cookie=_ym_uid
 ! Yandex service cookie.
-$cookie=yandex_gid
+! breaks manual location selection
+!$cookie=yandex_gid
 !
 ! piano.io (traq.li)
 $cookie=tqsdk_visitor
@@ -18054,6 +18064,10 @@ $cookie=rbzid
 ! This cookie is used to attribute an unique identifier for session.
 $cookie=rbzsessionid
 !
+! Alexa
+! Used to track and report visitor information to the Alexa analytics service.
+$cookie=__auc
+!
 !
 
 !-------------------------------------------------------------------------------!
@@ -18121,6 +18135,7 @@ $cookie=rbzsessionid
 !
 ! Appsflyer
 !
+||af-event-logger.appsflyer.com^
 ||inapps.appsflyer.com^
 ||gcdsdk.appsflyer.com^
 ||statsgoogle.appsflyer.com^

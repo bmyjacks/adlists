@@ -2581,7 +2581,6 @@ gadgetsnow.com##iframe[src^="https://timesofindia.indiatimes.com/affiliate_new.c
 gadgetsnow.com##amp-iframe[src^="https://timesofindia.indiatimes.com/affiliate_new.cms?"]
 gadgetsnow.com##div[class^="_"] > .mrecasadscode ~ div[class^="_"] > div[class*="_"] > h3 + ul > li > a[href^="https://www.gadgetsnow.com/affiliate_amazon.cms?"]
 ||timesofindia.indiatimes.com/affiliate_new.cms?$domain=gadgetsnow.com
-top.gg###modal-root
 hindustantimes.com##.m_ads_unit
 theblockcrypto.com##body .sponsorFooter
 scmp.com##.section-content-bottom__ad-container
@@ -2619,7 +2618,6 @@ gadgets-ndtv-com.cdn.ampproject.org##amp-iframe[src^="https://apis.kostprice.com
 gadgets-ndtv-com.cdn.ampproject.org##.kpframe
 gadgets-ndtv-com.cdn.ampproject.org##._ad
 24tv.ua##div[class="within-ads"]
-ndtv.com##.mx-spon
 ||obmenvsem.org/static/images/*banners*450x75.png
 republicworld.com,www-republicworld-com.cdn.ampproject.org##div[class^="ads_"]
 republicworld.com##.mainWrapper > .headerContainer ~ div[style^="overflow: hidden; justify-content: center;"]
@@ -4375,6 +4373,7 @@ livejournal.com##.mdspost-aside__item--banner
 ||graph.facebook.com^$app=com.booking
 !
 ! Blocking Facebook mobile ads
+||graph.facebook.com^$app=com.maybeyou|com.curvydating|com.evermatch
 ||graph.facebook.com^$app=com.labs367.fbvideodownloader|com.harry.wallpie|com.harry.stokie
 ||graph.facebook.com^$app=mediavision.handwallet
 ||graph.facebook.com^$app=com.iend.hebrewcalendar
