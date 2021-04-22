@@ -230,6 +230,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||tracking.atreemo.com^
+||collector-*.pxchk.net^$third-party
+||collector-*.px-cdn.net^$third-party
+||thrtle.com^$third-party
+||imhd.io^$third-party
 ||atom-log.3.cn^$third-party
 ||ezodn.com^$third-party
 ||x-storage-a1.cir.io^
@@ -3399,6 +3404,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||dockdigestion.com^$third-party
 ||ancientact.com^$third-party
 ||ticketaunt.com^$third-party
 ||warmafterthought.com^$third-party
@@ -4553,6 +4559,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||pla-tk.flipkart.net^
+||stat.myshows.me^
 ||d2ieqaiwehnqqp.cloudfront.net^
 ||lc.fresheye.com^
 ||lcexp.fresheye.com^
@@ -15240,6 +15248,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/js/ad_insight/*
 .com/s.gif?
 /facebookPixel.
 /mooc/controllers/course_ajax.php
@@ -15248,6 +15257,7 @@ charlestownwyllie.oaklawnnonantum.com^
 /.bootscripts/analytics.min.js
 /exactag_clientside.js
 /stats.php?*event=$image
+/google_tag/*$script
 /hawkeye.js
 -track-inview.
 /onetag/*
@@ -15582,6 +15592,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||insider.com/chunks/scripts/datadog-
+||webtoon.daum.net/common/click?
+||log.nordot.jp^$xmlhttprequest
 ||cdn.calltrk.com/companies/
 ||fresheye.com/s.gif
 viva.ua##.footer-counters
@@ -15630,7 +15643,9 @@ news.mynavi.jp##.articleList-attention
 ||app.carnow.com/dealers/visitor_info?
 ||hondacarsrockhill.com/pixall/pix-ddc-fp.min.js
 ||servebom.com/event.js
+||flipkart.net/*/*/tracker/
 ||content.viralize.tv/track/
+||reddit.com/counters/$xmlhttprequest
 ||duhnet.tv/*/*/stats/init.min.js
 /track-internal-links.js$domain=balkangunlugu.com.tr
 ||tv-tokyo.co.jp/index/scatalyst/
@@ -15661,7 +15676,7 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||hltv.org/scripts/hltv-tracking.js
 ||za.zalo.me/v*/brp?fts=
 ||za.zalo.me/v*/w/_zaf.gif
-/duracelltomi-google-tag-manager/*$script,domain=adexchanger.com|digiato.com
+/duracelltomi-google-tag-manager/*$script,domain=adexchanger.com|digiato.com|infosecinstitute.com
 ||api.eigene.io/rec/
 ||guj.de/js/gujTracker.js
 /tracking.js$domain=schoener-wohnen.de
@@ -17066,7 +17081,6 @@ versii.com##img[style="width: 88px; height: 31px; border: 0"]
 hentaiz.org##img[width="31"][height="31"]
 artmoney.ru##noindex > a
 dreamprogs.net##td[width="88"][height="31"]
-||2gis.ru/assets/apitracker-*.
 ||3dn.ru/stat/
 ||3dnews.ru/track?
 ||3sat.de/mediaplayer/*/plugins/IVWTrackingPlugin.swf
@@ -17673,25 +17687,23 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||coinbase.com^$cookie=coinbase_device_id
+||rshrt.com^$cookie=app_visitor
 ||indiatimes.com^$cookie=/deviceid|lgc_deviceid|_pubcid|ak_bmsc/
 ||producthunt.com^$cookie=/visitor_id|track_code|first_visit/
 ||iltalehti.fi^$cookie=sammio-bsid
 ||smartworld.it^$cookie=__mx_log
 ||gulfnews.com^$cookie=/incap_ses_|visid_incap_|NEW_VISITOR|nlbi_|___utmv/
 ||fusionmovies.to^$cookie=/^_tezer_|_on_page/
-||imgur.com^$cookie=/^amplitude_id_/
-||reddit.com^$cookie=session_tracker
 ||senmanga.com^$cookie=sen_manga_session
 ||theatlantic.com^$cookie=/atl_uuid|datadome|kppid/
-||businessinsider.com^$cookie=/traffic_src|_uetvid|^_ga_|^_sp_/
-! sophi.io
-||theglobeandmail.com^$cookie=sophiTrackerid.a05e
-||theglobeandmail.com^$cookie=sophiTrackerses.a05e
-||theglobeandmail.com^$cookie=sp_tgamid.a05e
-! https://forum.adguard.com/index.php?threads/31364/
-||moniteurautomobile.be^$cookie=/_dc_gtm_|_gat_/
-!
+||businessinsider.com^$cookie=/traffic_src|^_sp_/
 ||vc.ru^$cookie=/osnova-aid|fingerprint|adblock-state/
+! indiatimes.com - tracking, fingerprinting
+||indiatimes.com^$cookie=/pfuuid|fpid/
+! insider.com - tracking
+||insider.com^$cookie=/anonymous_id|fenrir_anonymous_id/
+!
 ! onthe.io cookies
 ||vc.ru^$cookie=/^__io/
 ||vc.ru^$cookie=/^io_/
@@ -17794,6 +17806,10 @@ $cookie=li_sugr
 $cookie=UserMatchHistory
 ! Set for ID sync for Adobe Audience Manager
 $cookie=aam_uuid
+! Used to identify LinkedIn Members off LinkedIn in the Designated Countries for advertising
+$cookie=lms_ads
+! Used to identify a LinkedIn Member for advertising through Google Ads
+$cookie=_guid
 !
 ! adxns.com
 ! Ads targeting cookie for AppNexus
@@ -18068,6 +18084,19 @@ $cookie=rbzsessionid
 ! Used to track and report visitor information to the Alexa analytics service.
 $cookie=__auc
 !
+! amplitude.com
+! These cookies are set by Amplitude analytics. Uniquely identify the user's machine.
+$cookie=/^amplitude_id_/
+!
+! DataDog
+! DataDog cookie used to provide web performance analytics
+$cookie=_dd_s
+!
+! sophi.io
+! Analytics
+$cookie=sophiTrackerid.a05e
+$cookie=sophiTrackerses.a05e
+$cookie=sp_tgamid.a05e
 !
 
 !-------------------------------------------------------------------------------!
@@ -18626,6 +18655,8 @@ $cookie=__auc
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/easylist/easylist/pull/7713
+@@||line-scdn.net/*/torimochi.js/$script,domain=demae-can.com
 ! https://github.com/easylist/easylist/pull/7600
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80623
@@ -20774,8 +20805,6 @@ epicwow.com#@#img[width="88"][height="31"]
 @@||partner.googleadservices.com/gpt/pubads_$domain=mlb.com
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/734
 @@||omtrdc.net^$domain=pcworld.com
-! https://github.com/AdguardTeam/ExperimentalFilter/issues/733
-@@||2gis.ru/assets/apitracker-*.$domain=2gis.ru
 ! https://forum.adguard.com/index.php?threads/14775/
 @@||asset.pagefair.com/measure.min.js$domain=www.gamespot.com
 @@||dw.cbsi.com/anonc.js$domain=gamespot.com
@@ -20995,7 +21024,6 @@ mozilla-russia.org#@#img[width="88"][height="31"]
 @@||google-analytics.com/urchin.js$domain=denverbroncos.com|muselive.com|streetfire.net|wickedthemusical.com
 @@||google.com/js/gweb/analytics/$domain=google.com
 @@||google.com/js/gweb/analytics/doubletrack.js$domain=android.com
-@@||googletagmanager.com/gtm.js?$domain=ebuyer.com|google.com
 @@||grapeshot.co.uk/image-resize/$image
 @@||grapeshot.co.uk/sare-api/
 @@||graphracer.com/js/libs/heatmap.js

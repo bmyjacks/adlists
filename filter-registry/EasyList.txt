@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ctI9SYHwQ2woApvPR+bRmQ
-! Version: 202104210000
+! Checksum: kUxeIEVX78xvguhOjAo4Dw
+! Version: 202104220000
 ! Title: EasyList
-! Last modified: 21 Apr 2021 00:00 UTC
+! Last modified: 22 Apr 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3739,6 +3739,7 @@
 /affiliate/promo/*
 /affiliate/script.php?
 /affiliate/small_banner/*
+/affiliate_amazon.
 /affiliate_banner/*
 /affiliate_banners/*
 /affiliate_base/banners/*
@@ -18771,6 +18772,7 @@ _popunder+$popup
 ##.ad-divider
 ##.ad-dog
 ##.ad-dt
+##.ad-dx_wrp
 ##.ad-dynamic-showcase-top
 ##.ad-e
 ##.ad-element
@@ -20848,6 +20850,7 @@ _popunder+$popup
 ##.add_300x250
 ##.add_728x90_teckpage
 ##.add_baner
+##.add_top-wrp-in
 ##.add_topbanner
 ##.addarea
 ##.addarearight
@@ -22126,6 +22129,7 @@ _popunder+$popup
 ##.adunitrd
 ##.adup-ad-container
 ##.adv--desktop-top
+##.adv--h600
 ##.adv--intermingled
 ##.adv--leaderboard
 ##.adv--square
@@ -30806,6 +30810,7 @@ _popunder+$popup
 ##a[href^="https://t.hrtyj.com/"]
 ##a[href^="https://t.mobtya.com/"]
 ##a[href^="https://tc.tradetracker.net/"] > img
+##a[href^="https://tm-offers.gamingadult.com/"]
 ##a[href^="https://topoffers.com/"][href*="/?pid="]
 ##a[href^="https://tour.mrskin.com/"]
 ##a[href^="https://track.52zxzh.com/"]
@@ -30840,6 +30845,7 @@ _popunder+$popup
 ##a[href^="https://watchmygirlfriend.tv/"]
 ##a[href^="https://weedzy.co.uk/"][href*="&utm_"]
 ##a[href^="https://windscribe.com/promo/"]
+##a[href^="https://wittered-mainging.com/"]
 ##a[href^="https://www.adskeeper.co.uk/"]
 ##a[href^="https://www.adultempire.com/"][href*="?partner_id="]
 ##a[href^="https://www.adxtro.com/"]
@@ -32879,6 +32885,7 @@ menstennisforums.com#@#.top_ads
 ||adrunnr.com^
 ||adsbr.info^
 ||adscarrot.com^
+||adsco.re^
 ||adserved.net^
 ||adservi.com^
 ||adskape.ru^
@@ -33086,6 +33093,7 @@ menstennisforums.com#@#.top_ads
 ||alliedsurfgrace.com^
 ||alliedthirteen.com^
 ||allottenuy.club^
+||allow-to-continue.com^
 ||allowfencelist.com^
 ||allowsscaffold.com^
 ||allpurposefrigilityfrigility.com^
@@ -33286,6 +33294,7 @@ menstennisforums.com#@#.top_ads
 ||asewlfjqwlflkew.com^
 ||asgclickkl.com^
 ||asgclickpop.com^
+||asgclickpp.com^
 ||ashcdn.com^
 ||ashingcontro.top^
 ||asiangfsex.com^
@@ -34261,6 +34270,7 @@ menstennisforums.com#@#.top_ads
 ||civiliargeord.club^
 ||civilizefrailoffhand.com^
 ||civralowjoifjy.com^
+||ciwhacheho.pro^
 ||cjf25jklrwqt.com^
 ||cjlqwfpkwi.com^
 ||cjotzbxtyxwplr.com^
@@ -34808,6 +34818,7 @@ menstennisforums.com#@#.top_ads
 ||damsoloist.com^
 ||dana123.com^
 ||danachings.club^
+||dangerinsignificantinvent.com^
 ||dangerprickly.com^
 ||danmeneldur.com^
 ||dantbritingd.club^
@@ -37046,6 +37057,7 @@ menstennisforums.com#@#.top_ads
 ||hxwgfumgg.com^
 ||hyconsistenb.space^
 ||hyinlegvghul.com^
+||hyperoi.com^
 ||hyphenion.com^
 ||hysntzdseidl.com^
 ||hzkachqd.com^
@@ -41492,6 +41504,7 @@ menstennisforums.com#@#.top_ads
 ||thursdayfeeemployee.com^
 ||thwhilecom.club^
 ||thxczhfzad.com^
+||thygrepuwo.pro^
 ||thyoaflucid.com^
 ||thywhapupi.pro^
 ||tibacta.com^
@@ -46618,6 +46631,7 @@ menstennisforums.com#@#.top_ads
 ||adrunnr.com^$popup
 ||ads.sexier.com^$popup
 ||adsbreak.com^$popup
+||adsco.re^$popup
 ||adscpm.net^$popup,third-party
 ||adserverplus.com^$popup,third-party
 ||adservme.com^$popup,third-party
@@ -46672,6 +46686,7 @@ menstennisforums.com#@#.top_ads
 ||algocashmaster.net^$popup
 ||allaptair.club^$popup
 ||allashark.site^$popup
+||allow-to-continue.com^$popup
 ||allsporttv.com^$popup
 ||alonghelper.com^$popup
 ||alpinedrct.com^$popup
@@ -46693,6 +46708,7 @@ menstennisforums.com#@#.top_ads
 ||arielpri2nce8ss09.com^$popup
 ||arrlnk.com^$popup
 ||artpever.com^$popup
+||asgclickpp.com^$popup
 ||aslaprason.com^$popup
 ||atas.io^$popup
 ||atozdealinfo.com^$popup
@@ -46785,6 +46801,7 @@ menstennisforums.com#@#.top_ads
 ||check-out-this.site^$popup
 ||checkabil.com^$popup
 ||circusbreadth.com^$popup
+||ciwhacheho.pro^$popup
 ||cjl58f3agc.com^$popup
 ||cl96rwprue.com^$popup
 ||cldrck.com^$popup
@@ -47414,6 +47431,7 @@ menstennisforums.com#@#.top_ads
 ||shinebliss.com^$popup
 ||shopeasy.by^$popup
 ||shortpixel.ai^$popup
+||shoubsee.net^$popup
 ||showcasead.com^$popup
 ||sifuglie.com^$popup
 ||significantlyentering.com^$popup
@@ -47491,6 +47509,7 @@ menstennisforums.com#@#.top_ads
 ||thebestgame2020.com^$popup
 ||thepornsurvey.com^$popup
 ||ths9j89.com^$popup
+||thygrepuwo.pro^$popup
 ||tjoomo.com^$popup
 ||tl2go.com^$popup
 ||tmdn2015x9.com^$popup
@@ -51054,7 +51073,11 @@ menstennisforums.com#@#.top_ads
 ||traditionalmusic.co.uk/images/banners/
 ||truck1.eu/_BANNERS_/
 ||trucknetuk.com^*/sponsors/
+||tubeoffline.com/hh/
+||tubeoffline.com/images/nerd.png
 ||tubeoffline.com/itbimg/
+||tubeoffline.com/js/hot.min.js
+||tubeoffline.com/vpn.php
 ||turbobit.net/fd1/js/brinpopup.js
 ||turbobit.net/pus/
 ||tympanus.net/codrops/wp-content/banners/
@@ -51527,7 +51550,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ! Rewrite to internal resources rules for Adblock Plus
 ||slacker.com^*/getspot/?spotid=$media,rewrite=abp-resource:blank-mp3,domain=slacker.com
 ! *** easylist:easylist/easylist_specific_block_popup.txt ***
-$popup,third-party,domain=cloudvideo.tv|loader.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
+$popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
 :text^$popup,domain=zippyshare.com
 ||adf.ly/_$popup
 ||beap.gemini.yahoo.com^$popup,domain=mail.yahoo.com
@@ -51562,9 +51585,9 @@ $popup,third-party,domain=cloudvideo.tv|loader.to|mystream.to|play.hydracdn.netw
 ||vpnfortorrents.app/*?$popup
 ||vpnfortorrents.how/*?$popup
 ! about:blank popups
-/about:blank#/$popup,domain=22pixx.xyz|9anime.to|disk.ly|dood.to|dood.video|dood.watch|fcdn.stream|fmovies.to|french-stream.lol|gogoanime.pro|hydracdn.network|imagetwist.com|meomeo.pw|mixdrop.co|mp4upload.com|mstream.xyz|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|upstream.to|uptostream.com|vev.io|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidup.io|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
+/about:blank#/$popup,domain=22pixx.xyz|9anime.to|disk.ly|dood.to|dood.video|dood.watch|fcdn.stream|fmovies.to|french-stream.lol|gogoanime.pro|hydracdn.network|imagetwist.com|meomeo.pw|mixdrop.co|mp4upload.com|mstream.xyz|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|tapecontent.net|upstream.to|uptostream.com|vev.io|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidup.io|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
 ! html/image popups
-/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|cmovies.ac|dood.to|dood.video|dood.watch|fcdn.stream|french-stream.lol|hqq.to|hulkstreams.com|jackstream.net|jackstreams.com|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamsb.net|streamtape.cc|streamtape.net|strikeout.nu|strtape.cloud|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
+/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|cmovies.ac|dood.to|dood.video|dood.watch|fcdn.stream|french-stream.lol|hqq.to|hulkstreams.com|jackstream.net|jackstreams.com|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamsb.net|streamtape.cc|streamtape.net|strikeout.nu|strtape.cloud|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
 !
 /^https?:\/\/.*\.(info|pro|icu|app|xyz|pet|win|live|me|io|cc|pw|is|zone|bid|cf|ovh|site|review|ml)\.?(\/|:|$)/$popup,domain=dood.watch|fcdn.stream|fmovies.to|idup.io|mixdrop.co|mixdrop.to|mp4upload.com|powvideo.net|powvldeo.cc|putlocker.style|streamsb.net|strtape.cloud|thepiratebay.org|upstream.to|uptostream.com|vev.io|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vortez.net|vshare.eu
 ! semi-generic popup block
@@ -51595,7 +51618,6 @@ $popup,third-party,domain=cloudvideo.tv|loader.to|mystream.to|play.hydracdn.netw
 ||8boobs.com/flr.js
 ||8boobs.com/images/8boobs.com/banners/
 ||8boobs.com/images/8boobs.com/istripper/
-||a.hyperoi.com^
 ||absoluporn.com/code/script/
 ||adult-sex-games.com/images/promo/
 ||adultasianporn.com/puty3s/
@@ -54176,7 +54198,7 @@ torlock.com##[class^="wrn"]
 gadgetsnow.com##[data-type="mtf"]
 naturalnews.com##[href*="/WBA-"]
 naturalnewsblogs.com##[href*="/WBA/"]
-libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com##[href*="://go.nordvpn.net/"]
+libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,dailypost.ng,digitallydownloaded.net,downturk.net,elitepvpers.com,fresherslive.com,gizmochina.com,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,mbauniverse.com,motachashma.com,mydramalist.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,techspot.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,yeyeboyz.net,zmescience.com##[href*="bit.ly/"]
 whatleaks.com##[href*="doublevpn.com"]
@@ -54271,6 +54293,7 @@ thesearchenginelist.com##a[href^="http://www.kqzyfj.com/"]
 2x4u.de##a[href^="http://www.myfreecams.com/?baf="]
 rpg.net##a[href^="http://www.rpg.net/ads/"]
 tundraheadquarters.com##a[href^="http://www.tkqlhce.com/"]
+qwant.com##a[href^="https://api.taboola.com/"]
 japantoday.com##a[href^="https://go.injapan.com/"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
 mmos.com##a[href^="https://mmos.com/play/"]
@@ -54283,6 +54306,7 @@ futbin.com##a[href^="https://www.eneba.com/"][href*="?af_id="]
 domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
+tubeoffline.com##a[href^="https://www.xvinlink.com/?a_"]
 krapps.com##a[href^="index.php?adclick="]
 kitguru.net##a[id^="href-ad-"]
 home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
@@ -54308,6 +54332,7 @@ games.dailymail.co.uk##div[class^="DisplayAd_"]
 issuu.com##div[class^="ExploreShelf__ad"]
 games.dailymail.co.uk##div[class^="GameTemplate__displayAdTop_"]
 games.dailymail.co.uk##div[class^="HomeCategory__adWrapper_"]
+qwant.com##div[class^="HomeFlag-module__CommercialFlagContainer"]
 games.dailymail.co.uk##div[class^="HomeTemplate__afterCategoryAd_"]
 versus.com##div[class^="LegendSingle__show"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
@@ -55686,6 +55711,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||z.moatads.com^$script,domain=reuters.com
 @@||zergnet.com^$image,script,stylesheet,domain=ci.craveonline.com|ci.gamerevolution.com|ci.momtastic.com|ci.thefashionspot.com|ci.totallyher.com
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
+! wordpress.org https://wordpress.org/plugins/woocommerce-google-adwords-conversion-tracking-tag/
+@@||ps.w.org^$image,domain=wordpress.org
+@@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
+@@||wordpress.org/plugins/$domain=wordpress.org
+@@||wordpress.org/stats/plugin/$domain=wordpress.org
 ! uBO-CNAME (Specific allowlists)
 @@||hwcdn.net^$script,domain=mp4upload.com
 ! ezfunnels.com (https://forums.lanik.us/viewtopic.php?f=64&t=44355)

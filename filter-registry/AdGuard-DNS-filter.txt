@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-04-20T18:19:42.554Z
+! Last modified: 2021-04-21T18:20:23.501Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -19,6 +19,8 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||ailrouno.net^
+||creamssicsite.com^
 ||kittenmilletfoggy.com^
 ||kglmcsivtqcbj.com^
 ||statementssupervisorthorough.com^
@@ -5215,6 +5217,7 @@ vkcdnservice.appspot.com^
 ||civiliargeord.club^
 ||civilizefrailoffhand.com^
 ||civralowjoifjy.com^
+||ciwhacheho.pro^
 ||cjf25jklrwqt.com^
 ||cjlqwfpkwi.com^
 ||cjotzbxtyxwplr.com^
@@ -5584,7 +5587,6 @@ vkcdnservice.appspot.com^
 ||craqueteriez.xyz^
 ||crazyhell.com^
 ||crazylead.com^
-||creamssicsite.com^
 ||creasureeffe.club^
 ||create2fear.com^
 ||createssque.club^
@@ -5746,6 +5748,7 @@ vkcdnservice.appspot.com^
 ||damsoloist.com^
 ||dana123.com^
 ||danachings.club^
+||dangerinsignificantinvent.com^
 ||dangerprickly.com^
 ||danmeneldur.com^
 ||dantbritingd.club^
@@ -12188,6 +12191,7 @@ vkcdnservice.appspot.com^
 ||thursdayfeeemployee.com^
 ||thwhilecom.club^
 ||thxczhfzad.com^
+||thygrepuwo.pro^
 ||thyoaflucid.com^
 ||thywhapupi.pro^
 ||tibacta.com^
@@ -18073,6 +18077,8 @@ vkcdnservice.appspot.com^
 ||visilabs.com^
 ||visilabs.net^
 !
+||thrtle.com^
+||imhd.io^
 ||atom-log.3.cn^
 ||ezodn.com^
 ||x-storage-a1.cir.io^
@@ -21004,6 +21010,7 @@ vkcdnservice.appspot.com^
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||dockdigestion.com^
 ||ancientact.com^
 ||ticketaunt.com^
 ||warmafterthought.com^
@@ -22032,6 +22039,8 @@ vkcdnservice.appspot.com^
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||stat.myshows.me^
+||d2ieqaiwehnqqp.cloudfront.net^
 ||lc.fresheye.com^
 ||lcexp.fresheye.com^
 ||behave.noen.at^
@@ -24224,7 +24233,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||i401xox.com^
 ||iaudienc.com^
 ||ifvox.com^
-||imhd.io^
 ||impactradius-event.com^
 ||impression.link^
 ||imtwjwoasak.com^
@@ -24558,7 +24566,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||thingswontend.com^
 ||thinktot.com^
 ||threat-analytics.com^
-||thrtle.com^
 ||tnctrx.com^
 ||topstat.cn^
 ||tp88trk.com^
@@ -26400,7 +26407,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lcs.livedoor.net^
 ||log.codemarketing.cloud^
 ||log.f-tra.com^
-||log.nordot.jp^
 ||omt.shinobi.jp^
 ||ranking.apis.sankei-digital.co.jp^
 ||sync.shinobi.jp^
@@ -31251,6 +31257,7 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! Eimg.jp
 !
+||ad.eloan.co.jp^
 ||divscripty.net^
 ||zxcvbnmasdfghjklqwertyuiop.work^
 ||smv.to^
@@ -32141,7 +32148,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mediab.uy^
 ||mesiniklan.andipublisher.com^
 ||naetoris.pw^
-||octafx.com^
 ||offerjuice.me^
 ||olenation.org^
 ||openadserving.com^
@@ -33024,7 +33030,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||cuilongsp.cn^
+||juvbzle.cn^
+||laoliulaoliu.com^
+||xgxq518.com^
+||agilehw.online^
+||imim.me^
+||hikin.online^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||008844.cc^
@@ -33426,6 +33437,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ct1985.com^
 ||ctrhfd.top^
 ||ctsywy.com^
+||cuilongsp.cn^
 ||cxfzw.cn^
 ||cxgh.net^
 ||cyacc.com^
@@ -35590,11 +35602,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||miyaluorenliziuan.cn^
-||l07m8gu.cn^
-||doulaihai.top^
-||hdsahfkja.top^
-||lhcqbim.cn^
+||jiuqihb.cn^
+||kinlivme.cn^
+||627sf.cn^
 ||027whht.com^
 ||0316dieroxiemzfjwmapk.xyz^
 ||0323wqpioutyuencsamxsd.xyz^
@@ -36037,6 +36047,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dodolive.cn^
 ||dodomo.info^
 ||dofkfhv.cn^
+||doulaihai.top^
 ||downcdn.top^
 ||dreamrecord.cn^
 ||dsdsds8848.xyz^
@@ -36242,6 +36253,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hchik.com^
 ||hdfdm.com^
 ||hdminfeng.com^
+||hdsahfkja.top^
 ||hdvwm3.cn^
 ||he3kz8.com^
 ||headwell.cn^
@@ -36480,6 +36492,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||kuzexinxi.com^
 ||kypzu.cn^
 ||kyxnz.cn^
+||l07m8gu.cn^
 ||l29qi.xyz^
 ||l4elb.cn^
 ||laiye315.top^
@@ -36502,6 +36515,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lfzxcp.com^
 ||lgjygg.com^
 ||lglady.cn^
+||lhcqbim.cn^
 ||lianfuhuang.cn^
 ||lianyicq.cn^
 ||liaotian4.com^
@@ -36574,6 +36588,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||miaos11.com^
 ||micreative-china.cn^
 ||mitjg.xyz^
+||miyaluorenliziuan.cn^
 ||mjita.cn^
 ||mjtowot.cn^
 ||ml44.cn^
@@ -37434,18 +37449,6 @@ charlestownwyllie.oaklawnnonantum.com^
 @@||oneline.nextday.media^|
 ! Reported via Telegram: https://t.me/AdGuard_chinese/13741
 @@|ftp.bmp.ovh^|
-!
-! Related to '||mkto-*.com^$third-party'
-! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/641
-@@||click.acloud.guru^|
-! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/627
-@@||email.questrade.com^|
-! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/582
-@@||email.awscloud.com^|
-!
-! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/510
-@@||c.digikey.com^|
-!
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/580
 @@||cloud.notification-naviextras.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/568
