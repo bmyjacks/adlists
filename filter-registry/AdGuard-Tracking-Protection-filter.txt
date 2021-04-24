@@ -4563,6 +4563,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||log.g-enews.com^
 ||pla-tk.flipkart.net^
 ||stat.myshows.me^
 ||d2ieqaiwehnqqp.cloudfront.net^
@@ -5093,7 +5094,6 @@ nethunt.com/api/v1/track/email/$image
 ||log.deutschegrammophon.com^
 ||log.mappy.net^
 ||log.newsvine.com^
-||log.optimizely.com^
 ||log.player.cntv.cn/stat.html?
 ||log.snapdeal.com^
 ||log.thevideo.me^
@@ -6114,7 +6114,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d5i9o0tpq9sa1.cloudfront.net^
 ||d6jkenny8w8yo.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
-||d8rk54i4mohrb.cloudfront.net^
 ||d9lq0o81skkdj.cloudfront.net^
 ||daq0d0aotgq0f.cloudfront.net^
 ||d3alqb8vzo7fun.cloudfront.net^
@@ -11829,6 +11828,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||zelten.fritz-berger.de^
 ||zug.sbb.ch^
 !
+! Branch.io : thirdparty.bnc.lt disguised trackers
+! not included
+!
 ! Commanders Act : tagcommander.com disguised trackers
 !
 ! Company name: Commanders Act
@@ -13432,6 +13434,227 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gi7a.structube.com^
 ||nym5c.laura.ca^
 ||pk1u.melanielyne.com^
+!
+! Fathom : fathomdns.com disguised trackers
+!
+! Company name: Fathom
+!
+! fathomdns.com disguised trackers
+!
+||aardwolf.bazaartracker.com^
+||alpaca.reclaimthenet.org^
+||angelfish.owlbear.rodeo^
+||anteater.benborgers.com^
+||ape.nusii.com^
+||armadillo.gothiacup.se^
+||armadillo.stacking.club^
+||badger.vbvf.org^
+||bass.goulet.dev^
+||beaver.brush.ninja^
+||bird.brondby.com^
+||bison.weitweit.at^
+||blackbird.westboroughcovidplan.com^
+||boar.indieweb.org^
+||bobcat.floriangaechter.com^
+||bobcat.snapshooter.io^
+||boom.laravel.io^
+||butterfly.rfortherestofus.com^
+||cat.gfx.io^
+||cat.laravel-news.com^
+||cattle.apisyouwonthate.com^
+||crayfish.fansubbing.com^
+||cuckoo.minaexplorer.com^
+||dakqbwpduu.coywolf.io^
+||dolphin.biodom.rs^
+||dolphin.maybe.co^
+||donkey.masteringfinland.com^
+||donkey.routinehub.co^
+||dragonfly.filmmakerfreedom.com^
+||echidna.honeybadger.io^
+||eel.aware7.de^
+||eel.transistor.fm^
+||elk.jonsully.net^
+||emu.pin13.net^
+||epfykmaw.opencagedata.com^
+||falcon.nutsandboltsmedia.com^
+||gerbil.buf.build^
+||goat.codeofar.ms^
+||goose.joelclermont.com^
+||goose.pooltogether.com^
+||grouse.textile.io^
+||guan.domainnamesanity.com^
+||hawk.makroskop.eu^
+||hedgehog.fightforthefuture.org^
+||heron.notability.com^
+||horse.ohseemedia.com^
+||horse.rmrk.app^
+||horse.zwei-bags.com^
+||hoverfly.dailyblocks.tv^
+||iamej24d.brianlovin.com^
+||ijderu.tr.af^
+||jaguar.stevenharman.net^
+||kaxlfq.testingwithtestcafe.com^
+||kite.open-contracting.org^
+||kiwi.railway.app^
+||koi.omnimove.health^
+||krill.jorijn.com^
+||ks42zt.spec.fm^
+||ladybug.paulstovell.com^
+||landfowl.worldeventsandthebible.com^
+||lion.kusama.network^
+||llama.growthinkers.nl^
+||louse.messengo.com^
+||louse.sigle.io^
+||mammal.polkadot.network^
+||marmot.theshootingcentre.com^
+||mastodon.thoughtbot.com^
+||moth.artsmia.org^
+||mule.caddyserver.com^
+||noapr1lsed.solo.to^
+||pa5xjc.m1guelpf.me^
+||panther.hoprnet.org^
+||panther.pit-pit.com^
+||parrot.matcha.xyz^
+||peafowl.projectstrackt.dev^
+||pelican.protomaps.com^
+||penguin.craftpeak.io^
+||pheasant.cadbooster.com^
+||porcupine.dvresolve.com^
+||porpoise.azettl.net^
+||primate.builds.gg^
+||reindeer.cablemod.com^
+||salamander.heydesigner.com^
+||spermwhale.thankbox.co^
+||spider.chrisshort.net^
+||squirrel.dynablogger.com^
+||squirrel.laravel-mix.com^
+||stingray.cryptovoxels.com^
+||stoat.death-to-ie11.com^
+||swordfish.sneakerdistrict.com^
+||swordtail.animeuknews.net^
+||swordtail.thocstock.com^
+||tiglon.beyondco.de^
+||toad.frontendmentor.io^
+||uktgg.dev-tester.com^
+||vampirebat.sharpend.io^
+||vole.noteapps.info^
+||vulture.downzeroky.com^
+||wallaby.cron.help^
+||wallaby.short1.link^
+||waterboa.midu.dev^
+||whitefish.finanzritter.com^
+||ycpkuophoy.vole.wtf^
+!
+! a2f41194651173ebf.awsglobalaccelerator.com disguised trackers
+!
+||aardwolf.bazaartracker.com^
+||alpaca.reclaimthenet.org^
+||alpaca.thesocialmedwork.com^
+||alpaca.wingmantracker.com^
+||angelfish.owlbear.rodeo^
+||ant.prefinery.com^
+||armadillo.gothiacup.se^
+||armadillo.stacking.club^
+||beaver.brush.ninja^
+||bison.weitweit.at^
+||bluejay.twelve70.com^
+||boar.indieweb.org^
+||bobcat.floriangaechter.com^
+||boom.laravel.io^
+||bovid.neural.love^
+||butterfly.scottspence.com^
+||caribou.color.io^
+||cat.gfx.io^
+||cat.laravel-news.com^
+||cattle.apisyouwonthate.com^
+||cattle.kumo.at^
+||cephalopod.polymath.net^
+||cheetah.songrender.com^
+||chinchilla.68keys.io^
+||coral.doublefine.com^
+||coyote.titlerun.xyz^
+||crayfish.fansubbing.com^
+||cuckoo.minaexplorer.com^
+||dakqbwpduu.coywolf.io^
+||dolphin.maybe.co^
+||donkey.masteringfinland.com^
+||donkey.routinehub.co^
+||dragonfly.filmmakerfreedom.com^
+||eel.aware7.de^
+||eel.beekeeperstudio.io^
+||emu.balsa.com^
+||emu.pin13.net^
+||falcon.nutsandboltsmedia.com^
+||flyingfish.jak-zrobic-strone.pl^
+||fox.visionaudiovisual.com^
+||gerbil.buf.build^
+||goldfish.shingle.fi^
+||goose.pooltogether.com^
+||guan.domainnamesanity.com^
+||hawk.makroskop.eu^
+||hedgehog.fightforthefuture.org^
+||heron.notability.com^
+||horse.adventurousmachines.com^
+||horse.rmrk.app^
+||hoverfly.dailyblocks.tv^
+||iamej24d.brianlovin.com^
+||ijderu.tr.af^
+||kiwi.railway.app^
+||koala.getslopes.com^
+||kxmye.event1.io^
+||limpet.padbury.app^
+||lion.kusama.network^
+||llama.moodgym.com.au^
+||louse.messengo.com^
+||lungfish.datadividendproject.com^
+||mammal.haglund.dev^
+||mammal.polkadot.network^
+||mastodon.thoughtbot.com^
+||meerkat.inprivy.io^
+||mollusk.saferingz.com^
+||moth.artsmia.org^
+||mouse.voyagefuneralhomes.com^
+||mule.caddyserver.com^
+||noapr1lsed.solo.to^
+||panther.datocms.com^
+||panther.hoprnet.org^
+||panther.pit-pit.com^
+||parrot.matcha.xyz^
+||penguin.craftpeak.io^
+||perch.searchwp.com^
+||pheasant.cadbooster.com^
+||pheasant.facetwp.com^
+||porpoise.azettl.net^
+||primate.builds.gg^
+||puffin.geocode.earth^
+||reindeer.cablemod.com^
+||rodent.kubernetesreadme.com^
+||salamander.heydesigner.com^
+||scorpion.byteside.com^
+||smelt.validator.pizza^
+||snake.kiramclean.com^
+||spider.chrisshort.net^
+||squirrel.laravel-mix.com^
+||stingray.cryptovoxels.com^
+||stoat.death-to-ie11.com^
+||swallow.pelias.io^
+||swift.jos.ht^
+||swordfish.sneakerdistrict.com^
+||swordtail.animeuknews.net^
+||swordtail.thocstock.com^
+||tahr.rasen.dev^
+||tiglon.beyondco.de^
+||toad.frontendmentor.io^
+||toad.kubenews.net^
+||vole.noteapps.info^
+||wallaby.cron.help^
+||waterboa.brooks.page^
+||waterboa.midu.dev^
+||whitefish.finanzritter.com^
+||wildcat.codesalt.io^
+||worm.paulstamatiou.com^
+||worm.usephantom.com^
+||ycpkuophoy.vole.wtf^
 !
 ! GENIEE : genieespv.jp disguised trackers
 !
@@ -16454,6 +16677,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/wp-content/plugins/google-analytics-premium/*
 /js/ad_insight/*
 .com/s.gif?
 /facebookPixel.
@@ -18900,7 +19124,7 @@ link.gmapp*.net$image
 ||indiatimes.com^$cookie=deviceid
 ||coinbase.com^$cookie=coinbase_device_id
 ||rshrt.com^$cookie=app_visitor
-||indiatimes.com^$cookie=/deviceid|lgc_deviceid|_pubcid|ak_bmsc/
+||indiatimes.com^$cookie=/deviceid|lgc_deviceid|ak_bmsc/
 ||producthunt.com^$cookie=/visitor_id|track_code|first_visit/
 ||iltalehti.fi^$cookie=sammio-bsid
 ||smartworld.it^$cookie=__mx_log
@@ -18963,6 +19187,10 @@ $cookie=kampyle_userid
 ! Collects anonymous data related to the user’s visits to the website(number of visits, average time spent on the website and which pages have been loaded)
 $cookie=external_referer
 $cookie=guest_id
+! Carries out information about how the end user uses the website and any advertising that the end user may have seen before visiting the said website.
+$cookie=personalization_id
+! Twitter is broken when this cookie is blocked - https://github.com/AdguardTeam/AdguardFilters/issues/80677#issuecomment-825625172
+!$cookie=ct0
 !
 ! yahoo.com
 ! Used in the targeting of relevant adverts and content on the Yahoo! platform
@@ -19165,6 +19393,9 @@ $cookie=adcloud
 $cookie=everest_g_v2
 ! This cookie is used to identify a unique visitor.
 $cookie=/^AMCVS?_.*AdobeOrg/
+! Used to identify return visitors to the same website.
+$cookie=clVisitorId
+$cookie=clRequestId
 !
 ! nbcuniversal.com
 $cookie=adEdition
@@ -19291,7 +19522,8 @@ $cookie=IDE
 !
 ! Reblaze
 ! This cookie is used to maintain an anonymised unique identifier for session.
-$cookie=rbzid
+! It causes that some websites don't load -  https://github.com/AdguardTeam/AdguardFilters/issues/81164 and https://github.com/AdguardTeam/AdguardFilters/issues/81232
+!$cookie=rbzid
 ! This cookie is used to attribute an unique identifier for session.
 $cookie=rbzsessionid
 !
@@ -19333,14 +19565,27 @@ $cookie=ss_cvt
 $cookie=ss_cvr
 $cookie=ss_cid
 !
+! Criteo
+! Ads targeting
+$cookie=cto_bundle
+$cookie=cto_bidid
+!
+! Prebid PubCid
+! Analytics, targeting
+$cookie=_pubcid
+$cookie=pbjs-unifiedid
+!
+! BrightFunnel
+! Used to identify unique users and for analytics.
+$cookie=bf_lead
+$cookie=bf_visit
+!
 !
 !
 !------------------------------
 !---- Fixing filtering errors -
 !------------------------------
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/81164
-@@||ebay-kleinanzeigen.de^$cookie=rbzid
 
 !-------------------------------------------------------------------------------!
 !-------------- Mobile analytics  ----------------------------------------------!
@@ -19898,6 +20143,15 @@ $cookie=ss_cid
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/80879
+@@||googletagmanager.com/gtm.js$domain=sk.club.iqos.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/80820
+!+ PLATFORM(ios, ext_safari)
+@@||thehulltruth.com/clientscript/vbulletin_analytics.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/80838
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=asicstr.com
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||googletagmanager.com/gtm.js$domain=asicstr.com
 ! https://github.com/easylist/easylist/pull/7713
 @@||line-scdn.net/*/torimochi.js/$script,domain=demae-can.com
 ! https://github.com/easylist/easylist/pull/7600
@@ -20259,7 +20513,7 @@ nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm
 @@||googletagmanager.com/gtm.js$domain=thecompanion.app
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79410
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63801
-@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|lexus.jp|peachjohn.co.jp|rtoaster.com|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|lexus.jp|peachjohn.co.jp|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63828#issuecomment-693360254
 @@||googletagmanager.com/gtm.js$domain=sport1.de
 ! https://github.com/uBlockOrigin/uAssets/issues/7899
