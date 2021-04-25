@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2V7uXLoppawPwou7ogoFyg
-! Version: 202104240000
+! Checksum: 6bd3Q4ictPIoAC630a4qsA
+! Version: 202104250000
 ! Title: EasyList
-! Last modified: 24 Apr 2021 00:00 UTC
+! Last modified: 25 Apr 2021 00:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2133,7 +2133,7 @@
 /admatcherclient.
 /admatik.
 /admaven.
-/admax.$domain=~admax.cn|~admax.co|~admax.co.jp|~admax.eu|~admax.fi|~admax.hu|~admax.info|admax.jp|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.shinobi.jp|~admax.us
+/admax.$domain=~admax.cn|~admax.co|~admax.co.jp|~admax.eu|~admax.fi|~admax.hu|~admax.info|~admax.jp|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.shinobi.jp|~admax.us
 /admax/*
 /admaxads.
 /admcoreext.
@@ -8220,6 +8220,7 @@ _prx/ba_$script
 /prebid?
 /prebid_$script
 /prebidAdcall.
+/prebidjs/*
 /prebidlink/*
 /prebidtest.
 /prodprebidheader-
@@ -20709,6 +20710,7 @@ _popunder+$popup
 ##.adb-728x90
 ##.adb-bottom-outer
 ##.adb-top
+##.adbTrkWt
 ##.adback
 ##.adbadge
 ##.adban-hold-narrow
@@ -29961,6 +29963,7 @@ _popunder+$popup
 ##.widget_ad_widget
 ##.widget_adace_ads_widget
 ##.widget_admanagerwidget
+##.widget_admania_adbuilder_widgets
 ##.widget_adrotate_widgets
 ##.widget_ads
 ##.widget_ads_entries
@@ -30064,6 +30067,7 @@ _popunder+$popup
 ##.wnIframeAd
 ##.wnMultiAd
 ##.wnad
+##.worldplus-ad
 ##.wp-block-tpd-block-tpd-ads
 ##.wp125_write_ads_widget
 ##.wp125ad
@@ -33856,6 +33860,7 @@ menstennisforums.com#@#.top_ads
 ||browsers.support^
 ||browsobsolete.com^
 ||brqvld0p.com^
+||brrcaqvz.com^
 ||brtsumthree.com^
 ||brucelead.com^
 ||bruceleadx.com^
@@ -50628,6 +50633,7 @@ menstennisforums.com#@#.top_ads
 ||extremefuse.com/out.php?$popup
 ||fakehub.com/tour/$popup
 ||fantasti.cc/ajax/gw.php?$popup
+||fapcandy.com^$popup,third-party
 ||fleshlight-international.eu^*?link=$popup,third-party
 ||fling.com/enter.php?$popup
 ||flirt4free.com/_special/pops/$popup,third-party
@@ -50996,6 +51002,7 @@ menstennisforums.com#@#.top_ads
 ||sdancelive.com/images/banners/
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||sermonaudio.com/images/sponsors/
+||services.fandom.com/knowledge-graph/affiliates/$xmlhttprequest
 ||sgtreport.com/wp-content/uploads/*Banner
 ||sharecad.org/content/banners/
 ||shtfplan.com/images/banners/
@@ -51700,6 +51707,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||hotpornfile.org/UIojIMf8ei.js
 ||hottubeclips.com/stxt/banners/
 ||hottystop.com/t33638ba5008.js
+||hqpornstream.com/pub/
 ||hypnohub.net/assets/hub.js
 ||idealnudes.com/tf40bbdd1767.js
 ||imagebam.com/files/tpd.png
@@ -51774,6 +51782,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||pornvideoq.com/zCpWaxDcYr.js
 ||pornxp.com/*.vtt
 ||pornxp.com/sp
+||pururin.io/assets/js/pop.js
 ||realgfporn.com/js/bbbasdffdddf.php
 ||redtube.com^$subdocument,~third-party
 ||rencontre31.fr/wp-content/themes/rencontre31/images/popupPerso/
@@ -54965,6 +54974,7 @@ japan-whores.com##.js-advConsole
 freeones.com##.js-track-event
 ts-tube.net##.js-uvb-spot
 zuzandra.com##.jx-bar
+hqpornstream.com##.lds-hourglass
 thehun.net##.leaderboard
 xxxpicss.com##.left-banners
 sextingpics.com##.leftMAIN
@@ -55029,7 +55039,7 @@ thefappening.wiki##.promo-2
 porntubevidz.com##.promo-block
 pornburst.xxx##.promo-gauleporno
 viptube.com##.promotion
-nakedtube.com,pornmaki.com##.promotionbox
+milf.dk,nakedtube.com,pornmaki.com##.promotionbox
 nuvid.com,nuvidselect.com##.puFloatLine
 dachix.com##.pub_right
 foxtube.com##.publi_pc
@@ -55081,7 +55091,7 @@ anyporn.com,fpo.xxx,pervertslut.com,pornoreino.com,sexpornimages.com,xbabe.com##
 tubepornclassic.com##.sponsor-container
 fux.com,pornerbros.com,porntube.com##.sponsored
 bravotube.net,camvideos.tv,dixyporn.com,hotmovs.com,smut6.com,tubepornclassic.com,vjav.com##.spot
-faptube.xyz,magicaltube.com##.spot-block
+faptube.xyz,hqpornstream.com,magicaltube.com##.spot-block
 qcock.com##.spot-thumbs
 homo.xxx##.spot.column
 drtuber.com##.spot_button_m
@@ -55692,6 +55702,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=abola.pt|gamestar.de|los40.com
 @@||amazon-adsystem.com/e/ir?$image,domain=kasi-time.com
 @@||amebame.com/pub/ads/$image,domain=ameba.jp|ameblo.jp
+@@||an.yandex.ru/system/video-ads-sdk/adsdk.js$domain=5-tv.ru|armdb.org|gisher.org|peers.tv|tele-sport.ru
 @@||anandabazar.com/js/anandabazar-bootstrap/$script
 @@||api.friends.ponta.jp/api/$~third-party
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
@@ -55750,7 +55761,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||mjhobbymassan.se/r/annonser/$image,~third-party
 @@||netmile.co.jp/ad/images/$image
 @@||news24.jp/ad-navi/$domain=search.news24.jp
-@@||nintendo.co.jp/ring/assets_top/img/adv/$~third-party
+@@||nintendo.co.jp/ring/*/adv$~third-party
 @@||nnmclub.to/forum/misc/html/advert.html$~third-party
 @@||ntv.co.jp/ad-navi/$domain=search.news24.jp
 @@||player-feedback.p7s1video.net^$script,domain=kabeleins.de|sat1.de
@@ -55758,6 +55769,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||politiken.dk/static/$script
 @@||portalbici.es^*-advertisement.$~third-party,xmlhttprequest
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
+@@||r10s.jp/share/themes/ds/js/show_ads_randomly.js$domain=travel.rakuten.co.jp
 @@||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js$domain=yahoo.co.jp
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=tilt.fi
 @@||samplefan.com/img/ad/$image

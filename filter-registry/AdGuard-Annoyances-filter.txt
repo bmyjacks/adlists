@@ -7707,7 +7707,7 @@ slate.com#@#.ad-container
 ##.cookieNotify
 ##.cookieOptIn
 ##.cookiePanel
-##.cookiePolicy:not(body):not(html)
+~elavon.pl##.cookiePolicy:not(body):not(html)
 ##.cookiePolicy-banner
 ##.cookiePolicyBannerOuter
 ##.cookiePolicyBnr
@@ -8474,6 +8474,15 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+nikon.ru###cookie_consent_wall
+elavon.pl#$#.cookiePopupOpen { overflow: visible !important; }
+elavon.pl#$#.cookiePolicy:not(body):not(html) { display: none !important; }
+takko.com#$#div[class*="cookie-policy-box"] { display: none !important; }
+takko.com#$#html { overflow: visible !important; }
+takko.com#$#body { overflow: visible !important; }
+tomshardware.com###article-body > p + .jwplayer__widthsetter
+tomsguide.com###article-body > p + script[src^="https://content.jwplatform.com"] + .future__jwplayer--carousel
+intersport.de##.cookie-banner--disable-overlay
 annualreviews.org##.ar-news-footer
 kodolamacz.pl###cookies_info_holder
 sk.club.iqos.com##.cookie-rubric
@@ -11315,7 +11324,8 @@ xe.com##.privacy-basic
 sanofi.com.tr,sanofi.com,famousfootwear.com##.privacy-warning
 today.it,tvtropes.org##.qc-cmp-showing
 inquirer.net##.qni-cookmsg
-realme.com##.r-cookie
+realme.com#$#.r-cookie { display: none !important; }
+realme.com#$#body { overflow: visible !important; }
 m.marketplace.asos.com##.reveal-modal-bg
 rossmann.de##.rm-cookie
 go.tvn24.pl##.rodo-notice
@@ -14471,6 +14481,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81203
+takko.com#@#.cookie-policy-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80651
 fiveguys.co.uk#@##cookieModal
 fiveguys.co.uk#@#.cookie-modal
@@ -16341,6 +16353,7 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#$#.XPromoPopup { display: none!important; }
 reddit.com#$#body.scroll-disabled { overflow: visible!important; position: static!important; }
 !
+genius.com##.apple_music_player_container
 680news.com##.div-app-alerts
 duzcerota.com##.app-area
 news.tv-asahi.co.jp##.sp-app-banner
@@ -21397,6 +21410,7 @@ macwelt.de,pcwelt.de#%#AG_setConstant('firebase.messaging', 'noopFunc');
 /firebase.js$domain=novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org|auslogics.com
 /firebase-messaging.js$domain=ukranews.com|comments.ua|meduza.io|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru
 !
+tomshardware.com,tomsguide.com##.onesignal-customlink-container
 zentralplus.ch##.grid-box-notification_info
 ||gadgetsnow.com/pn_manifest.cms
 przegladsportowy.pl##.pushPlatform
