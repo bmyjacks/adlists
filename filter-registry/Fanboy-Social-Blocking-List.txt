@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202104241745
+! Version: 202104252252
 ! Title: Fanboy's Social Blocking List
-! Last modified: 24 Apr 2021 17:45 UTC
+! Last modified: 25 Apr 2021 22:52 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -16293,8 +16293,8 @@ _youtube_social_
 ||assets.tumblr.com/assets/html/iframe/o.html$third-party
 ||assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
 ||b.hatena.ne.jp^$third-party
-||b.st-hatena.com/images/$image,third-party
-||b.st-hatena.com/js/$script,third-party
+||b.st-hatena.com/images/$image,third-party,domain=~b.hatena.ne.jp
+||b.st-hatena.com/js/$script,third-party,domain=~b.hatena.ne.jp
 ||badge.facebook.com^$third-party
 ||badges.instagram.com^$third-party
 ||bit.ly/TweetAndTrack.js

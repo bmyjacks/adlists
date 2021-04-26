@@ -4354,6 +4354,8 @@ animesonglyrics.com,lyrics.az,deckshop.pro,estadao.com.br,enmimaquinafunciona.co
 boston.com#@#.postad
 !#safari_cb_affinity
 !
+pikabu.ru##section[data-role="adb-warning"]
+numberempire.com##.perm_ad
 mod-wot.ru##div[class^="chp_ads_blocker"]
 jaanmusic.in###alertmsg
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=samfw.com
@@ -5887,6 +5889,7 @@ postimees.ee#$#.adblock-notif { display: none !important; }
 postimees.ee#%#//scriptlet('remove-class', 'cookie-paywall-visible', 'article[class^="root"]')
 !
 !#safari_cb_affinity(general)
+@@||static.baik.ru/static/js/apps-js/adv/google_advert.*.js$domain=irk.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=samfw.com
 fourtoutici.pro#@#.adsBox
 @@||tpc.googlesyndication.com/safeframe/*/html/container.html$domain=muyhistoria.es|marie-claire.es|miarevista.es|muynegociosyeconomia.es|serpadres.es|muyinteresante.es
@@ -17618,6 +17621,7 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+finance.sina.com.cn###sina-cont000
 annualreviews.org##.ar-newsletter-promo-fixed-footer
 ivacy.com#$#.limited-time-exitintent.showdiscount-modal  { display: none!important; }
 ivacy.com#$#.modal-backdrop  { display: none!important; }
@@ -22024,6 +22028,10 @@ disk.yandex.*##.mail360-banner
 !-----------------------------------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81462
+||fc2.com/js/blog/headbar_ad_load.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/81424
+finance.sina.com.cn###sina-pages-u
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80906
 ||brocardi.it/frontend/images/banner-quesito-libero-pensoso.gif
 brocardi.it#?##g_sidebar > .quesito:has(a[href*="utm_content=banner_"])

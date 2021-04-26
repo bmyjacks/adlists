@@ -212,6 +212,7 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||vrizead.com^
 ||iad-*.braze.com^
 ||adpopcorn.com^
 ||pangle.io^
@@ -1310,6 +1311,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! placeholder
+2chan.net#?#.ui-li > iframe[src^="//dec.2chan.net/bin/"]:upward(1)
 ! news.tv-asahi.co.jp placeholder
 news.tv-asahi.co.jp#?##common-header > #adbanner_spheader:upward(1)
 ! qiita.com placeholder
@@ -2413,6 +2416,9 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+||gamerch.com/s3-assets/js/system/gcad/
+||poiful.com/sdk/vrizeadsdk.
+gamerch.com##.wiki-head__menu--guide > a[href^="https://point.i2i.jp/"]
 kurashi-no.jp###Kurashino1-Billboard
 kurashi-no.jp##.Ad_Rectangle
 genius.com##.dfp_unit--interscroller
