@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-04-26T18:21:50.070Z
+! Last modified: 2021-04-27T18:22:09.844Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -19,6 +19,14 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||clerrrep.com^
+||wizardmarndl.com^
+||fhsmtrnsfnt.com^
+||softenedimmortalityprocedure.com^
+||mfk-cpm.com^
+||jycdnjnz.com^
+||xqzlgbbe.com^
+||bftrlhesrlfjp.com^
 ||lavageethion.com^
 ||lebilui.ru^
 ||momijoy.ru^
@@ -32,7 +40,6 @@
 ||eabids.com^
 ||kdkgwhntslalwj.com^
 ||outblowtewhit.com^
-||ailrouno.net^
 ||creamssicsite.com^
 ||kittenmilletfoggy.com^
 ||statementssupervisorthorough.com^
@@ -2977,6 +2984,8 @@ www.llllllllllll.net^
 .1.1.1.l80.js^
 .3.n.2.1.l50.js
 .3.n.2.2.l30.js
+!
+||monerominer.rocks^
 ||cloud-miner.de^
 ||webminepool.com^
 ||lasimakiz.xyz^
@@ -4033,6 +4042,7 @@ vkcdnservice.appspot.com^
 ||ailingglorify.com^
 ||ailingtonwh.club^
 ||ailpielei.com^
+||ailrouno.net^
 ||aimamparc.club^
 ||aimseerg.com^
 ||ainedprospe.club^
@@ -5255,7 +5265,6 @@ vkcdnservice.appspot.com^
 ||clearonclick.com^
 ||clearsettlementelegance.com^
 ||cleriendsev.club^
-||clerrrep.com^
 ||clevernt.com^
 ||clevv.com^
 ||clfvfumqqok.com^
@@ -8038,6 +8047,7 @@ vkcdnservice.appspot.com^
 ||instrumentatlasjacket.com^
 ||inswebt.com^
 ||intelligenceadx.com^
+||intentanalysis.com^
 ||interceptstephen.com^
 ||interdfp.com^
 ||interfacewarrefrain.com^
@@ -10995,6 +11005,7 @@ vkcdnservice.appspot.com^
 ||requestion.club^
 ||requiresdetached.com^
 ||requivalfun.club^
+||rereddit.com^
 ||rereegny.net^
 ||reroplittrewheck.pro^
 ||reschedulewizards.com^
@@ -12911,6 +12922,7 @@ vkcdnservice.appspot.com^
 ||webatam.com^
 ||webcontentassessor.com^
 ||webeatyouradblocker.com^
+||webgains.com^
 ||webmasterspub.com^
 ||webodu.com^
 ||webpinp.com^
@@ -14675,6 +14687,7 @@ vkcdnservice.appspot.com^
 ||city-ads.de^
 ||clash-media.com^
 ||cleafs.com^
+||cleverads.vn^
 ||click.scour.com^
 ||clickable.com^
 ||clickad.pl^
@@ -16753,6 +16766,7 @@ vkcdnservice.appspot.com^
 ||ad.reklamport.com^
 ||ad.valuecalling.com^
 ||ad.wsod.com^
+||ad.xiaomi.com^
 ||adingo.jp.eimg.jp^
 ||adlandpro.com^
 ||adn.ebay.com^
@@ -17085,6 +17099,8 @@ vkcdnservice.appspot.com^
 ||yieldmanager.edgesuite.net^
 ||yormedia.com^
 ||zapads.zapak.com^
+||ad.intl.xiaomi.com^
+||samsungadhub.com^
 ||ads.yahoo.com^
 ||tsbluebox.com^
 ||vidoplay.com^
@@ -17405,7 +17421,6 @@ vkcdnservice.appspot.com^
 ||newfeatureview.perfectionholic.com^
 ||featured.perfectionholic.com^
 ||crosspromo.voodoo.io^
-||abtest.mistat.xiaomi.com^
 ||liftoff.io^
 ||tapdaq-adverts.global.ssl.fastly.net^
 ||rtb.appbid.com^
@@ -20709,7 +20724,6 @@ vkcdnservice.appspot.com^
 ||webest.info^
 ||webflowmetrics.com^
 ||webforensics.co.uk^
-||webgains.com^
 ||webglstats.com^
 ||webgozar.com^
 ||webgozar.ir^
@@ -23585,9 +23599,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||an.batmobi.net^
 ||ustat.batmobi.net^
 ||analytics.any.do^
-||zeus.ad.intl.xiaomi.com^
-||api.ad.intl.xiaomi.com^
-||sdkconfig.ad.intl.xiaomi.com^
 ||alog.umeng.co^
 ||oc.umeng.co^
 ||m.vpadn.com^
@@ -23632,8 +23643,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gjapplog.uc.cn^
 ||mazu.sec.miui.com^
 ||shenghuo.xiaomi.com^
-||globalapi.ad.xiaomi.com^
-||api.ad.xiaomi.com^
 ||a.bitmango.com^
 ||tracking.directservices.it^
 ||onedrive-collection.device.mobileengagement.windows.net^
@@ -23697,7 +23706,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||counter.kingsoft.com^
 ||crasheye.cn^
 ||data.mistat.*.xiaomi.com^
-||data.mistat.xiaomi.com^
 ||data.sec.miui.com^
 ||ep.xone.com^
 ||etl.xlmc.sandai.net^
@@ -23734,7 +23742,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rlog-api.under9.co^
 ||rlog.9gag.com^
 ||sc-analytics.appspot.com^
-||sdkconfig.ad.xiaomi.com^
 ||ssl-google-analytics.l.google.com^
 ||stat.duokanbox.com^
 ||statistics.videofarm.daum.net^
@@ -23982,6 +23989,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||donreach.com^
 ||dotaki.com^
 ||dotjs.com^
+||doubleclick.net^
 ||driv-analytics.com^
 ||dtxngr.com^
 ||dynamicyield.com^
@@ -24761,7 +24769,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mmpool.org^
 ||mollnia.com^
 ||monerise.com^
-||monerominer.rocks^
 ||moneroocean.stream^
 ||munero.me^
 ||mutinyhq.com^
@@ -24890,6 +24897,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||analytics.developer.riotgames.com^
 ||analytics.dvidshub.net^
 ||analytics.erepublic.com^
+||analytics.facebook.com^
 ||analytics.favcy.com^
 ||analytics.foresee.com^
 ||analytics.groupe-seb.com^
@@ -24912,6 +24920,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||analytics.paddle.com^
 ||analytics.performable.com^
 ||analytics.piksel.com^
+||analytics.pinterest.com^
+||analytics.pointdrive.linkedin.com^
 ||analytics.prezly.com^
 ||analytics.prod.aws.ecnext.net^
 ||analytics.radiatemedia.com^
@@ -25576,6 +25586,27 @@ charlestownwyllie.oaklawnnonantum.com^
 ||x.disq.us^
 ||x.weather.com^
 ||xt.persosa.com^
+! https://d3ward.github.io/toolz/src/adblock.html
+||adsdk.yandex.ru^
+||analytics-api.samsunghealthcn.com^
+||analytics.samsungknox.com^
+||app.chat.xiaomi.net^
+||bigdata.ssp.samsung.com^
+||data.hicloud.com^
+||extmaps-api.yandex.net^
+||insights.samsung.com^
+||logbak.hicloud.com^
+||logservice.hicloud.com^
+||logservice1.hicloud.com^
+||metrics-dra.dt.hicloud.com^
+||metrics.icloud.com^
+||metrics.mzstatic.com^
+||mistat.xiaomi.com^
+||open.oneplus.net^
+||sa.api.intl.miui.com^
+||stat.xiaomi.com^
+||supportmetrics.apple.com^
+||trackingshipment.apple.com^
 ! Appcues
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js/
 ! taboola
@@ -26488,6 +26519,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||22pornz.site^
+||xuthid.com^
+||sharilon.site^
 ||istori.site^
 ||mikla.site^
 ||goryachie-foto.net^
@@ -32105,7 +32139,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cdp.asia^
 ||cheap-ads.net^
 ||cityadstrack.com^
-||cleverads.vn^
 ||clevernet.vn^
 ||clickbuy.bz^
 ||codon.vn^
@@ -32866,8 +32899,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
-||jikelian.xyz^
-||bsjgc.com^
+||wsmky.com^
+||quanxiaozi.com^
+||cao444cao.com^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||008844.cc^
@@ -33185,6 +33219,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bosiwangzi.cn^
 ||bozhixiang.top^
 ||braincf.com^
+||bsjgc.com^
 ||bskeye.com^
 ||btmp4.net^
 ||bts05.site^
@@ -33607,6 +33642,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jiasdart.cn^
 ||jiekc.com^
 ||jijunlongchengxinxi.cn^
+||jikelian.xyz^
 ||jimeilm.com^
 ||jindu179.com^
 ||jinglongtang.cn^
@@ -35450,10 +35486,11 @@ charlestownwyllie.oaklawnnonantum.com^
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
-||qwddcwmwqiqwd18.cn^
-||codelabbeijing.cn^
-||ylykd.cn^
-||k5p8f2.cn^
+||dpbyc.com^
+||hnxinkejg.com^
+||flmcju.cn^
+||suhusushi.com^
+||mbxt.net^
 ||027whht.com^
 ||0316dieroxiemzfjwmapk.xyz^
 ||0323wqpioutyuencsamxsd.xyz^
@@ -35824,6 +35861,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||cnzhqs.com^
 ||coccccc.cc^
 ||codejumps.com^
+||codelabbeijing.cn^
 ||coenr.com^
 ||cojia.net^
 ||comberry.cn^
@@ -36318,6 +36356,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||jzn360.cn^
 ||jzrzpump.com^
 ||k22x6.cn^
+||k5p8f2.cn^
 ||kaihutai.cn^
 ||kaiyiluye.com^
 ||kakam.info^
@@ -36630,6 +36669,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||quanjiapp.cn^
 ||quipin.cn^
 ||quxiandu.com^
+||qwddcwmwqiqwd18.cn^
 ||qxyu.top^
 ||qyhwqie.cn^
 ||qysyyg.com^
@@ -37062,6 +37102,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||yjxqy.com^
 ||ykanx.com^
 ||ykpbgqc.top^
+||ylykd.cn^
 ||ymxlm.cc^
 ||ynbzxh.com^
 ||ynhuya.cn^
@@ -37264,7 +37305,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Ads
 !
 ||adocean.cz^
-||doubleclick.net^
 ||tt.onthe.io^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||vahufapave.com^
