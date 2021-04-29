@@ -16063,6 +16063,7 @@ _analytics.js?
 /Web_JS_Stats.
 /mip-stats-cnzz/*
 /rtoaster.js
+/flying-analytics/js/analytics.js
 /fbevents.js
 /js/sync?visitor_id=
 /partner-analytics/*
@@ -16338,6 +16339,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||cyberpedia.su/count.php
 ||msgsndr.com/funnel/event
 ||con.arbeitsagentur.de/prod/matomo/
 ||appmifile.com^*/stat/
@@ -18931,6 +18933,7 @@ $cookie=bf_visit
 |http*$app=com.adups.fota.sysoper|com.adups.fota
 !
 ! For apps
+$app=com.fiberhome.wifiserver
 $app=com.miui.analytics
 ||bilanx.dcard.tw^$app=com.sparkslab.dcardreader
 ||analytics.kidoz.net^
@@ -19552,8 +19555,8 @@ $app=com.miui.analytics
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||sumologic.com^$domain=sumologic.com
 ! rambler.ru - blank page
-rambler.ru#%#//scriptlet("set-constant", "window.top100", "noopFunc")
-rambler.ru#%#//scriptlet("set-constant", "window.top100Counter.sendCustomVars", "noopFunc")
+~horoscopes.rambler.ru,rambler.ru#%#//scriptlet("set-constant", "window.top100", "noopFunc")
+~horoscopes.rambler.ru,rambler.ru#%#//scriptlet("set-constant", "window.top100Counter.sendCustomVars", "noopFunc")
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||st.top100.ru/top100/*/usability.js$domain=rambler.ru
 @@||st.top100.ru/top100/top100.js$domain=rambler.ru
