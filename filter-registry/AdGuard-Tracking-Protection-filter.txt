@@ -4592,6 +4592,7 @@ nethunt.com/api/v1/track/email/$image
 ||metrika.lookmovie.io^
 ||s.deepl.com^
 ||clicks.wawlabs.com^
+||collector.wawlabs.com^
 ||stat.5-tv.ru^
 ||log.zingnews.vn^
 ||logcol.kyobobook.co.kr^
@@ -16339,6 +16340,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||walmart.com/px/
 ||cyberpedia.su/count.php
 ||msgsndr.com/funnel/event
 ||con.arbeitsagentur.de/prod/matomo/
@@ -16348,6 +16350,7 @@ _tracking.php?b=
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||s3.ap-northeast-2.amazonaws.com/adpick.co.kr/apis/apTracker.v*.js
 ||cdn.pmweb.com.br/df/tag.js
+||smallpdf.com/build/track-js.js
 ||insider.com/chunks/scripts/datadog-
 ||webtoon.daum.net/common/click?
 ||log.nordot.jp^$xmlhttprequest
@@ -16428,7 +16431,6 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||discord.com/api/v*/science
 ||fensi.plus/*/tracking/
 ||tvid.in/log/logs
-||collector.wawlabs.com/epttavm.js
 ||intersc.igaming-service.io/hltv.org.js
 ||hltv.org/scripts/hltv-tracking.js
 ||za.zalo.me/v*/brp?fts=
@@ -19470,6 +19472,12 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81487
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=suwen.com.tr
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||googletagmanager.com/gtm.js$domain=suwen.com.tr
+! https://github.com/hirorpt/filters/commit/5b41ca5e9a58de697459ef5c98132f131e887c15#commitcomment-50154726
+@@||googletagmanager.com/gtm.js$domain=stage.parco.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81255
 @@||store.drweb.ru^$cookie=guest_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81504
