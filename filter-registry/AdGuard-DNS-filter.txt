@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-04-30T00:17:49.983Z
+! Last modified: 2021-05-01T00:19:15.472Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -19,6 +19,10 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||sorryfearknockout.com^
+||starvationpatio.com^
+||poetryhonourable.com^
+||aragontrack.com^
 ||beliefindefinite.com^
 ||luglestowha.pro^
 ||devozuyu.xyz^
@@ -112,7 +116,6 @@
 ||riotousgrit.com^
 ||dqjazjbqrmrnhb.com^
 ||giwzywnxnk.com^
-||greenplasticdua.com^
 ||qppdqcid.com^
 ||dmxftmoqz.com^
 ||thispositionw.biz^
@@ -866,7 +869,7 @@
 ||fixsirrod.site^
 ||kudzuphloemgunk.tech^
 ||madplypie.club^
-||adjarabet.com^
+||bms*.adjarabet.com^
 ||tqddgnqsrya.com^
 ||thefastpush.com^
 ||sauwoaptain.com^
@@ -4673,6 +4676,7 @@ vkcdnservice.appspot.com^
 ||bidiology.com^
 ||bidverdrd.com^
 ||bigbootymania.com^
+||bigprizesonline.com^
 ||bihamcurchef.cam^
 ||bihyteqy.xyz^
 ||bikesseafoodchewing.com^
@@ -6124,6 +6128,7 @@ vkcdnservice.appspot.com^
 ||dosveggietotem.casa^
 ||dotandad.com^
 ||dotandads.com^
+||dothbognib.com^
 ||dotnxdomain.net^
 ||dotrkme.com^
 ||double.net^
@@ -7494,6 +7499,7 @@ vkcdnservice.appspot.com^
 ||greedrum.net^
 ||greedysafely.com^
 ||greemeek.net^
+||greenplasticdua.com^
 ||greeptax.com^
 ||greetingscompassbough.com^
 ||greetpanda.org^
@@ -10514,6 +10520,7 @@ vkcdnservice.appspot.com^
 ||profitablecpmnetwork.com^
 ||profitabledisplaycontent.com^
 ||profitabletrustednetwork.com^
+||programminghonourable.com^
 ||prograph.club^
 ||prographiciko.site^
 ||projectagoralibs.com^
@@ -11378,6 +11385,7 @@ vkcdnservice.appspot.com^
 ||secretate.club^
 ||secretexts.club^
 ||secure-12.com^
+||secureclickers.com^
 ||securecloud-dt.com^
 ||securecloud-smart.com^
 ||securecontentssl.com^
@@ -12104,6 +12112,7 @@ vkcdnservice.appspot.com^
 ||thinnerlessenfounded.com^
 ||third-tracking.com^
 ||thirgoad.top^
+||thisisyourprize.site^
 ||thismetric.com^
 ||thoaltie.net^
 ||thoartuw.com^
@@ -12303,6 +12312,7 @@ vkcdnservice.appspot.com^
 ||tripsbooth.com^
 ||trireacteurs.xyz^
 ||triumphalslide.com^
+||triumphantplace.com^
 ||trkinator.com^
 ||trkunited.com^
 ||trlf8mmpbfz1.com^
@@ -12700,6 +12710,7 @@ vkcdnservice.appspot.com^
 ||viighj.com^
 ||viihot.com^
 ||viirad.com^
+||villageeatable.com^
 ||villandopingcon.site^
 ||vimjarawl.com^
 ||vimmenced.club^
@@ -17898,6 +17909,8 @@ vkcdnservice.appspot.com^
 ||visilabs.com^
 ||visilabs.net^
 !
+||analytics.omniscientai.com^
+||omnitag.omniscientai.com^
 ||backend.turtlemobile.com.tw^
 ||batmobile.com.tw^
 ||analytik.xyz^
@@ -24822,6 +24835,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||disturbedquiet.com^
 ||dogcollarfavourbluff.com^
 ||enormousearth.com^
+||fallaciousfifth.com^
 ||glisteningguide.com^
 ||impulsejewel.com^
 ||lameletters.com^
@@ -26175,10 +26189,12 @@ charlestownwyllie.oaklawnnonantum.com^
 ||counter.cnw.cz^
 ||fimg-resp.seznam.cz^
 ||h.imedia.cz^
+||h.seznam.cz^
 ||hit.skrz.cz^
 ||i.imedia.cz^
 ||log.idnes.cz^
 ||pixel.cpex.cz^
+||ssp.seznam.cz^
 ||stat.cncenter.cz^
 ||stat.ringier.cz^
 ||t.leady.com^
@@ -26506,6 +26522,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||hedseted.ru^
+||skopzijkari.mobi^
+||fcwuye.com^
 ||jqk2me2mzf.ru^
 ||22pornz.site^
 ||xuthid.com^
@@ -31342,6 +31361,10 @@ charlestownwyllie.oaklawnnonantum.com^
 !
 ! Section contains list of advertising networks
 !
+||angryme.cn^
+||gzhying1.cn^
+||kebi1.top^
+||ddgjjj.com^
 ||bdcanef.cn^
 ||sofseo.cn^
 ||fo.iphonevip.cn^
@@ -31356,7 +31379,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||p.eikuaitao.com^
 ||p.gmkykj.com^
 ||fuoo1.top^
-||kebi1.top^
 ||tonghao.ltd^
 ||adserve.work^
 ||acgshenshicha.cn^
@@ -32898,6 +32920,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Source name: EasyList China ad servers
 ! Source: https://easylist-downloads.adblockplus.org/easylistchina.txt
 !
+||363lm.com^
 ||00-gov.cn^
 ||0024aaaa.com^
 ||008844.cc^
@@ -34780,6 +34803,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ||5551895.com^
 ||wofjhs.com^
 ||xayah.date^
+||js.98158.com^
+||image66.top2099.com^
 ||003store.com^
 ||1.01fy.cn^
 ||1.07swz.com^
@@ -35486,6 +35511,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||runkao.net^
 ||stunninglover.com^
 ||watakaw133.xyz^
+||maosengss.cn^
+||pingyuanshenghuo.cn^
+||qwddcwmwqiqwd20.cn^
+||liaoningo.cn^
 ||027whht.com^
 ||0316dieroxiemzfjwmapk.xyz^
 ||0323wqpioutyuencsamxsd.xyz^
@@ -37400,8 +37429,6 @@ charlestownwyllie.oaklawnnonantum.com^
 @@||official.paymaya.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/381
 @@||gs.statcounter.com^|
-! Fixing NordVPN mobile app launching
-@@||launches.appsflyer.com^|
 ! Blocked by exacttarget.com alias
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/333
 @@||click.virt.s*.exacttarget.com^|

@@ -78,6 +78,7 @@
 #%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80625
+tweakers.net#%#//scriptlet('abort-current-inline-script', '_wtq', 'trackId')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'WebTrekkClickMap')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24789
@@ -230,6 +231,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||analytics.omniscientai.com^$third-party
+||omnitag.omniscientai.com^$third-party
 ||backend.turtlemobile.com.tw^$third-party
 ||batmobile.com.tw^$third-party
 ||analytik.xyz^$third-party
@@ -16340,6 +16343,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||cdn.gamedock.io/gamedock-web-tracker/
 ||walmart.com/px/
 ||cyberpedia.su/count.php
 ||msgsndr.com/funnel/event
@@ -19472,6 +19476,9 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81071
+@@||google-analytics.com/analytics.js$domain=dirkzwager.nl
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=dirkzwager.nl,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81487
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=suwen.com.tr
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
