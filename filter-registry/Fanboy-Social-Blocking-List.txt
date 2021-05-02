@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202104302358
+! Version: 202105011614
 ! Title: Fanboy's Social Blocking List
-! Last modified: 30 Apr 2021 23:58 UTC
+! Last modified: 01 May 2021 16:14 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -18085,6 +18085,8 @@ google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,
 ndtv.com##a[href^="https://twitter.com/intent/tweet?"]
 ndtv.com##a[href^="https://www.facebook.com/sharer.php?u="]
 bbc.com##div[class*="TagShareWrapper"]
+! *** easylist:fanboy-addon/fanboy_social_specific_ABP.txt ***
+! ABP Sepecific fixes
 ! ------------------------Rules for international sites------------------------!
 ! *** easylist:fanboy-addon/fanboy_social_international.txt ***
 ! 

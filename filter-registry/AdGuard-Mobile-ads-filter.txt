@@ -1238,6 +1238,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81933
+grapee.jp#?#aside > div[class^="mod-ads-area"]:upward(1)
 ! placeholder
 2chan.net#?#.ui-li > iframe[src^="//dec.2chan.net/bin/"]:upward(1)
 ! news.tv-asahi.co.jp placeholder
@@ -2343,6 +2345,7 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+grapee.jp##div[id^="guno-m"]
 hdblog.it##.news-blocks > div[style^="margin: 16px;height: 90px;background: #000;"]
 hdblog.it##.related-news > .notizie_list > div[style="padding: 0px 16px;height: 250px;"]
 m.sabah.com.tr##.advers-box

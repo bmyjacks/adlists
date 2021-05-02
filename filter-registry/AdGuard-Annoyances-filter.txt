@@ -8554,6 +8554,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+cryptoquant.com##.ant-row-center[style$="display: block; color: rgb(255, 255, 255); padding: 20px; width: 100%; z-index: 10;"]
 wieland-electric.com##wieland-cookie-banner
 bmel.de#$#html { overflow: visible !important; }
 bmel.de#$#body > div[class^="mfp-"] { display: none !important; }
@@ -10346,7 +10347,7 @@ l2db.info##.access-cookies
 deezer.com##.cookie-banner-layer
 ||swoodoo.com/s/horizon/common/gdpr/CookieConsentV2?scriptsMetadata=
 packagecloud.io##.cookie-popover
-web.tresorit.com###notification-wrapper
+send.tresorit.com,web.tresorit.com###notification-wrapper
 londonreal.tv##.lr-consent
 casinoonline.de###policy-once
 gamblejoe.com##.c-area
@@ -12047,7 +12048,7 @@ kurzgesagt.org,arcor.de,thedodo.com,thrillist.com##.gdpr-cookie-notice
 dn.se##.gdpr-header
 dn.se##.gdpr-header-container
 wsj.com##.gdpr-message
-verywellfit.com,2ememain.be,cyclegear.com,verywellhealth.com##.gdpr-notification
+ascm.org,verywellfit.com,2ememain.be,cyclegear.com,verywellhealth.com##.gdpr-notification
 moduscreate.com##.gdpr-show
 hikvision.com,norway.no,radiozu.ro##.gdpr-wrapper
 skins.cash##.gdpr__container
@@ -17805,6 +17806,8 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+send.tresorit.com#$#.upload-redirect-promo { display: none!important; }
+send.tresorit.com#$#body.modal-open { overflow: auto!important; }
 vtimes.io##div[y-use="modals.SignUp"]
 edh.tw###omnisegment-iframe
 doruk.net.tr##div[id^="modal-"]
@@ -23674,6 +23677,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !######### JS tweaks ##########
 !##############################
 !
+! py.md boost
+py.md#%#//scriptlet("adjust-setInterval", "countdown", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81296
 ninjastream.to#%#//scriptlet("adjust-setTimeout", "-=0x1", "", "0.02")
 ninjastream.to#%#AG_onLoad(function(){if(location.pathname.startsWith("/download/")){var a=document.querySelector(".jumbotron > .text-center > button.btn-block");if(a)for(var b=0;15>b;b++)a.click()}});
