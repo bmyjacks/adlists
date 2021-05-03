@@ -6645,6 +6645,10 @@ slate.com#@#.ad-container
 !######### General element hiding rules ################
 !#######################################################
 !
+##.cookie-dialog-wrapper
+###uo_cookie_banner
+###cookieSettingsDialog
+###tx-emhcookiebanner-bannerwidget
 ###ck_dsclr_v2
 ###ac-cookie-compliance
 ##.grt-cookie-active
@@ -8102,6 +8106,8 @@ slate.com#@#.ad-container
 !######### General URL blocking rules ##################
 !#######################################################
 !
+/cm4all.com.widgets.CookiePolicy/show.
+/emh_cookiebanner/*
 ||up-cookiemon.wavecdn.net^$third-party
 ||cdn-cookieyes.com/client_data/*.js
 ||cdn.privacytools.com.br^$third-party
@@ -8544,7 +8550,7 @@ inrim.it,jneurosci.org,medrxiv.org,novartis.com.tr,royal.uk,transcom.com,netcolo
 ! Sourcepoint cookie consent
 theguardian.com##div[id^="sp_message_"]
 tag24.de,kochbar.de,tvmovie.de,tvspielfilm.de,desired.de,t-online.de,preis.de,vorname.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,motorcyclenews.com,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[id^="sp_message_"] { display: none !important; }
-cyberport.de,motorsport-magazin.com,tag24.de,kochbar.de,tvmovie.de,tvspielfilm.de,shz.de,bz-berlin.de,rblive.de,macworld.co.uk,welt.de,desired.de,sportbuzzer.de,fitbook.de,t-online.de,wunderweib.de,hitc.com,haz.de,rnd.de,faz.net,chip.de,preis.de,giga.de,motorcyclenews.com,finanzen.net,vorname.com,jezebel.com,theonion.com,theinventory.com,thetakeout.com,theroot.com,avclub.com,deadspin.com,lifehacker.com,computerbild.de,techbook.de,lvz.de,sueddeutsche.de,gutefrage.net,shieldsgazette.com,spieletipps.de,ekstrabladet.dk,focus.de,demorgen.be,volkskrant.nl,trouw.nl,parool.nl,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#html.sp-message-open { overflow: visible !important; position: static !important; margin-top: 0!important; }
+stuttgarter-nachrichten.de,cyberport.de,motorsport-magazin.com,tag24.de,kochbar.de,tvmovie.de,tvspielfilm.de,shz.de,bz-berlin.de,rblive.de,macworld.co.uk,welt.de,desired.de,sportbuzzer.de,fitbook.de,t-online.de,wunderweib.de,hitc.com,haz.de,rnd.de,faz.net,chip.de,preis.de,giga.de,motorcyclenews.com,finanzen.net,vorname.com,jezebel.com,theonion.com,theinventory.com,thetakeout.com,theroot.com,avclub.com,deadspin.com,lifehacker.com,computerbild.de,techbook.de,lvz.de,sueddeutsche.de,gutefrage.net,shieldsgazette.com,spieletipps.de,ekstrabladet.dk,focus.de,demorgen.be,volkskrant.nl,trouw.nl,parool.nl,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#html.sp-message-open { overflow: visible !important; position: static !important; margin-top: 0!important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[class^="sp_veil"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#body { overflow: visible !important; }
 !
@@ -8554,6 +8560,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+ubuntu18.com##.footer > div.notice
+johannische-kirche.org#$##cookie-manager { display: none !important; }
+johannische-kirche.org#$#body.noscroll { overflow: auto!important; }
 cryptoquant.com##.ant-row-center[style$="display: block; color: rgb(255, 255, 255); padding: 20px; width: 100%; z-index: 10;"]
 wieland-electric.com##wieland-cookie-banner
 bmel.de#$#html { overflow: visible !important; }
@@ -8738,9 +8747,9 @@ censor.net###usage_notice
 pixiv.net#?#div[class^="of"] > div[class^="of"] > span[class^="of"] + a[class^="of"][href="https://policies.pixiv.net/#privacy"]:upward(2)
 odamax.com###kvkk-cookie-notification
 thesimsresource.com###consent-banner
-koelnerliste.com,denkmalschutz.de,tuwien.at,gew.de#$##cookieman-modal { display: none !important; }
-koelnerliste.com,denkmalschutz.de,tuwien.at,gew.de#$#.modal-backdrop { display: none !important; }
-koelnerliste.com,denkmalschutz.de,tuwien.at,gew.de#$#body { overflow: visible !important; padding-right: 0 !important; }
+smb.museum,koelnerliste.com,denkmalschutz.de,tuwien.at,gew.de#$##cookieman-modal { display: none !important; }
+smb.museum,koelnerliste.com,denkmalschutz.de,tuwien.at,gew.de#$#.modal-backdrop { display: none !important; }
+smb.museum,koelnerliste.com,denkmalschutz.de,tuwien.at,gew.de#$#body { overflow: visible !important; padding-right: 0 !important; }
 auroralabs3d.com##.gdpr_notice_popup
 nytimes.com###pz-gdpr
 autoscout24.ch##.global-banner
@@ -8917,7 +8926,7 @@ sport-plus-online.com#$##cookieModal { display: none !important; }
 sport-plus-online.com#$##cookieModal ~ div.modal-overlay { display: none !important; }
 sport-plus-online.com#$#body { overflow: auto !important; }
 hommeprive.com###idxrcookies
-gq-magazine.co.uk,gamefaqs.gamespot.com##body #onetrust-consent-sdk
+formel1.de,gq-magazine.co.uk,gamefaqs.gamespot.com##body #onetrust-consent-sdk
 ndmais.com.br###aviso-info
 support.forzamotorsport.net##.ns-box
 zoobedarf24.de##div[class^="alternative_cookie_layer_"]
@@ -8969,7 +8978,7 @@ enel.com.br##footer + .module.message-notification
 rshb.ru###alert.bottom
 kaggle.com###site-content + div
 arztkonsultation.de###ak-cookie-consent
-superrtl.de###cookieInformation
+toggo.de,superrtl.de###cookieInformation
 hangikredi.com###cookiepolicypopup
 medizin-transparent.at###mt-cookie-banner
 autohero.com##header > div[class^="container_"] > div[class^="body_"] + div[class^="root_"]
@@ -10661,7 +10670,7 @@ gut-riedelsbach.de###bb_cookieconsent
 dak.de##.notification[data-handler-notification^='{"case": "cookie"']
 jever.de,radeberger.de,hasen-braeu.de##.age-cookie-req__privacy
 123gold.at,123gold.de###OptOut
-probier-club.de###cookiedingsbums
+ev-kirchenkreis-suedharz.de,probier-club.de###cookiedingsbums
 stiftsbrauerei-schlaegl.at##.sisu-cookie-notice
 ba.no##amedia-privacybox
 alpirsbacher.de##._pm-banner
@@ -11264,7 +11273,7 @@ ratengoods.com###popup-policy
 pacman.io###priv_notice
 disturbia.co.uk,sling.com,tutorialspoint.com###privacy-banner
 hp.com,mynet.com###privacy-notification
-blendtec.com,musicmap.info###privacy-policy-banner
+bistum-aachen.de,blendtec.com,musicmap.info###privacy-policy-banner
 yelp.com,yelp.com.br###privacy-policy-notice
 philharmonia.co.uk###privacy_message
 godaddy.com###privacy_widget
@@ -11945,7 +11954,7 @@ jagex.com##.c-cookie-consent
 ria.com##.c-notifier-container
 check24.de##.c24-cookie
 jaybirdsport.com##.cGDPR_Notice_Community
-linkvertise.com,formel1.de##.cc-window[aria-label="cookieconsent"]
+linkvertise.com##.cc-window[aria-label="cookieconsent"]
 tf1.fr##.ccbar
 coinkeeper.me##.ck-landing__personal-data-block
 reviews.org##.cl_gdpr_banner
@@ -22561,8 +22570,13 @@ freiepresse.de###aboBanner
 flipkart.com##div[data-id][style] > div[data-tkid^="en_"]
 flipkart.com#?#div[style] > div[class*="col-"] > div[class] > div[data-id][style]:has(> div[data-tkid^="en_"])
 flipkart.com#?#div[class^="css-"] > div:has(> div[dir]:contains(/^AD$/))
+! golem.de - jobs
+golem.de##.media__teaser-list > li[style="min-height:4em; padding-left:0;"]:not([class]):not([id])
 ! golem.de - abo
 golem.de##.section-gpure
+! golem.de - golem academy
+golem.de##a[href^="https://ads.golem.de"]
+golem.de###seminars
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43586
 ngoisao.net##.box_store_ns
 ngoisao.net##.box_thuongmai4
@@ -22621,8 +22635,6 @@ kachelmannwetter.com##.dkpw-deleteads
 gmx.net###promoline
 web.de##html[data-status="nomessage"] #promoline
 web.de#$#html.hasMessage #promoline { visibility: hidden!important; }
-! golem.de main page - golem academy
-golem.de##a[href^="https://ads.golem.de"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37893
 escortbook.com##.escortbook_banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37391
