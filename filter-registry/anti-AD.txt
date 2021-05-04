@@ -1,7 +1,7 @@
 !Title: anti-AD
-!Version: 20210502225211
+!Version: 20210503213122
 !Homepage: https://github.com/privacy-protection-tools/anti-AD
-!Total lines: 38087
+!Total lines: 38090
 @@||ads.taboola.com^
 @@||tracker.eu.org^
 @@||stats.uptimerobot.com^
@@ -3858,6 +3858,7 @@
 ||abtest.alibaba.com^
 ||dmtracking.alibaba.com^
 ||p4psearch.china.alibaba.com^
+||fourier.alibaba.com^
 ||zconfig.alibabausercontent.com^
 ||alibdl.xyz^
 ||alibdm.xyz^
@@ -18141,6 +18142,7 @@
 ||jiyan.net^
 ||jiyuanzixun.com^
 ||jizzads.com^
+||stat.m.jj.cn^
 ||jj0453.com^
 ||jj123.com.cn^
 ||fp.jj59.com^
@@ -29723,8 +29725,9 @@
 ||log.m.sm.cn^
 ||sugs.m.sm.cn^
 ||dns.m.sm.cn^
-||image.zzd.sm.cn^
+||zzd.sm.cn^
 ||video-ad.sm.cn^
+||huichuan-mc.sm.cn^
 ||sm077.com^
 ||sm3na.com^
 ||smaato.com^
@@ -33328,6 +33331,8 @@
 ||hao.uc.cn^
 ||puds.test.uae.uc.cn^
 ||wmedia-track.uc.cn^
+||coral-task.uc.cn^
+||applogios.uc.cn^
 ||gm.uc003.com^
 ||uc123.com^
 ||1.uc129.com^
@@ -33356,8 +33361,6 @@
 ||ucweb.cn^
 ||ucweb.com^
 ||ucxgg.com^
-||iflow.uczzd.cn^
-||m.uczzd.cn^
 ||uczzd.com^
 ||iflow.uczzd.com.cn^
 ||uczzd.net^
