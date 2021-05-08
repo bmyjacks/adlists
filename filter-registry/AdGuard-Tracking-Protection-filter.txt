@@ -234,6 +234,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||logger.co.kr^$third-party
 ||t.afi-b.com^$third-party
 ||newrrb.bid^$third-party
 ||plavxml.com^$third-party
@@ -2204,7 +2205,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||logdy.com^$third-party
 ||logentries.com^$third-party
 ||loger.ru^$third-party
-||trk*.logger.co.kr^$third-party
 ||loggly.com^$third-party
 ||lognormal.net^$third-party
 ||logua.com^$third-party
@@ -4580,6 +4580,10 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||logcollect.totalcms.ncloud.or.kr^
+||discovery.newspic.kr^
+||discovery-script.newspic.kr^
+||rake.11st.co.kr^
 ||log.ajunews.com^
 ||dsb.yahoo.co.jp^
 ||pac.thetimes.co.uk^
@@ -15690,8 +15694,10 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
-/analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net
+/analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||deszczowce.pl/licznik/licznik.php
+techmaniachd.pl###sidebar-right-1 > #HTML6
 ||parte.tv/static/assets/js/pa/lp.js
 ||k-crm.jp/tracking.js
 ||k-crm.jp/web.tracking.js
@@ -18361,6 +18367,7 @@ $app=com.miui.analytics
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||usertrack.appcpi.net^
 ||api*.amplitude.com^
 ||conversions.appsflyer.com^
 ||collect.serious.li^
@@ -18838,6 +18845,8 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82566
+@@||tm.jsuol.com.br/uoltm.js$domain=noticias.uol.com.br
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82485
 @@||walmart.com/px/*/captcha/captcha.js
 @@||collector-*.px-client.net/res/uc$domain=walmart.com
