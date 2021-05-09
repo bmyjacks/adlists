@@ -83,6 +83,9 @@ youtube.com,youtube-nocookie.com#%#//scriptlet('set-constant', 'playerResponse.a
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 youtube.com#%#AG_onLoad(function() {var a = new MutationObserver(function() {if (document.querySelector('yt-upsell-dialog-renderer')) {var b = document.querySelector('.ytd-popup-container[popup-size="UPSELL_DIALOG_RENDERER_POPUP_SIZE_LARGE"] #dismiss-button:not(.dismissed), .upsell-dialog-lightbox .upsell-dialog-dismiss-button button:not(.dismissed)');setTimeout(function() {b&&b.click()}, 3E2)}});a.observe(document, {childList: !0,subtree: !0});setTimeout(function() {a.disconnect()}, 3E3)});
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82706
+mag2.com##.in_alm
+mag2.com###text-18
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82274
 techradar.com##.ad-unit + .van_vid_carousel
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81352
@@ -102,6 +105,7 @@ lidl.de#$?#style#kameleoonLoadingStyleSheet { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80898
 chromeunboxed.com##a[href="https://patreon.com/chromeunboxed/"] > img
 ! newsletter banner
+dailyshincho.jp##.l-contents__section > dl.p-entry
 bunshun.jp###mail-magazine
 bunshun.jp###main-content > .fw-media-thum
 cbsnews.com##.newsletter_signup
@@ -8593,6 +8597,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+/onetrust/consent/*$domain=mag2.com
 hdg.de###hdg-cookie-accept
 tu-darmstadt.de#$##cookie-modal { display: none !important; }
 tu-darmstadt.de#$#.modal-backdrop { display: none !important; }
@@ -10848,7 +10853,7 @@ eventbrite.com.au,eventbrite.com.br,eventbrite.de,eventbrite.com##.eds-notificat
 neff-home.com,bosch-home.*#$#body.cookielaw-blur-background>*:not([data-t-decorator="CookieLaw"]) { -webkit-filter: none !important; filter: none !important; }
 neff-home.com,bosch-home.*#$#.cookielaw-modal-layer { display:none !important; }
 neff-home.com,bosch-home.*#$#.cookielaw-blur-background { overflow: visible !important; }
-bergbier.de,starmoney.de,bucer.de,bucer.ch,easybell.de##.tx-om-cookie-consent
+rheumazentrum-rlp.de,bergbier.de,starmoney.de,bucer.de,bucer.ch,easybell.de##.tx-om-cookie-consent
 otelo.de##.GlobalConsentBar
 spigen.com##.js-notification-cookies
 truckscout24.de###cookieInfoLayer
@@ -16702,6 +16707,7 @@ amp-reddit-com.cdn.ampproject.org##.AppSelectorModal__body
 reddit.com#$#.XPromoPopup { display: none!important; }
 reddit.com#$#body.scroll-disabled { overflow: visible!important; position: static!important; }
 !
+||tver.jp/img/sd_to_app_banner.png
 admin.blog.fc2.com##.gtm-h_bnr
 reverso.net###mobileAppZone
 booking.com##div[data-item-id="gta_smart_banner"]
@@ -17978,6 +17984,10 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+golem.de###nl-banner
+mainichi.jp###pi-pc-all-footerfix
+mainichi.jp##div[id^="pi-"][id$="-article-slidein"]
+mainichi.jp###pi-sp-all-popup
 bild.de#$#body > .cover { display: none !important; }
 bild.de#$#.no-scroll { overflow: visible !important; }
 it-actual.ru##.wrap3
@@ -22451,6 +22461,8 @@ disk.yandex.*##.mail360-banner
 !-----------------------------------------------
 !
 !
+! native ad article
+mag2.com##.pf_relatedpost
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81636
 honeysanime.com##.side-gutter > a[target="_blank"][onclick]
 ! native ad articles of the own site
