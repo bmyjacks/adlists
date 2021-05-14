@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202105122333
+! Version: 202105132305
 ! Title: Fanboy's Annoyance List
-! Last modified: 12 May 2021 23:33 UTC
+! Last modified: 13 May 2021 23:05 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -706,8 +706,8 @@ _backToTop.
 /jquery.particleground.
 /particles-sel.js
 ! *** easylist:fanboy-addon/fanboy_notifications_general_block.txt ***
--push-notification.
--push-notification/
+-push-notification.$domain=~github.com
+-push-notification/$domain=~github.com
 -push-notifications/
 /amp-user-notification-
 /av/push-
@@ -5128,6 +5128,7 @@ _vpcookieconsent/
 ###block-boxes-taboola-article-right-rail
 ###js-Taboola-Container-0
 ###moduleTaboolaRightRail
+###possible_taboola
 ###taboola
 ###taboola-above-homepage-thumbnails
 ###taboola-autosized-1r
@@ -6737,6 +6738,7 @@ _vpcookieconsent/
 ##.newsletterSignup-wrapper
 ##.newsletterSignupBox
 ##.newsletterSlideIn
+##.newsletterSub
 ##.newsletterSubscribe
 ##.newsletterSubscribeContainer
 ##.newsletterSubscription
@@ -7873,6 +7875,7 @@ _vpcookieconsent/
 ##.btn-scroll-top
 ##.btn-scroll-up
 ##.btn-to-top
+##.btn-top[href^="#"]
 ##.btn-tw-backtotop
 ##.btn.gotop
 ##.btn2top
@@ -34815,6 +34818,7 @@ _vpcookieconsent/
 ||jubi.ai/buttonbot/$script,third-party
 ||krakenoptimize.com^$third-party
 ||luravius.com^$third-party
+||mab.mediaset.es^$xmlhttprequest
 ||news2day.me^$third-party
 ||notification-time.com^$third-party
 ||notification.tubecup.net^
@@ -35016,6 +35020,7 @@ _vpcookieconsent/
 ||dailymotion.com/badge/user/$third-party
 ||digg.com^$script,subdocument,third-party
 ||diggstatic.com^*/follow_buttons/
+||digitiminimi.com^$third-party
 ||encrypted-tbn2.gstatic.com/images?$domain=vitorrent.org
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/connect/connect.*connections$third-party,domain=~farmville.com
@@ -36791,6 +36796,7 @@ favbrowser.com,iphoneincanada.ca###related
 pcmag.com###related-container
 sfist.com###related-module
 mtv.com,nextmovie.com###related-post
+girlonthenet.com###related-posts > div
 boston.com###relatedContent
 merchantcircle.com###relatedPopupBlock
 cafemom.com###relatedStories
@@ -37970,6 +37976,7 @@ askubuntu.com,mathoverflow.net,serverfault.com,stackexchange.com,stackoverflow.c
 hotukdeals.com##.js-keyword-alerts
 wired.com##.js-prefooter-rad
 medium.com##.js-promoCardWrapper
+euronews.com##.js-swiper-button
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_commerce-inset-permalink
 haaretz.com##.jumping-jack-wrapper
 itwire.com##.jwDisqusArticleCounter
@@ -40367,6 +40374,7 @@ japantimes.co.jp##.pagetop-wrap
 oki.com##.pagetopInner
 simpleflying.com##.pk-icon-up
 sexuria.com##.pull-right
+muslimshop.fr##.return-top
 communist-party.org.uk##.rt-totop
 nexusmods.com##.scroll
 thehill.com##.scroll-down-to-next
@@ -40524,6 +40532,7 @@ inquisitr.com##.stay-in-touch
 telegram.org##.tg_try_desktop
 reddit.com##.upsell_banner
 barandbench.com##div[class^="header-two-m__download-links_"]
+! #include fanboy_notifications_specific_uBO.txt
 ! *** easylist:fanboy-addon/fanboy_social_specific_hide.txt ***
 schufa.de###AC_layout
 pcb.cc###Cntnr6
@@ -42610,6 +42619,7 @@ oranum.com##.modal-inner
 digimobil.es##.modal-overlay
 barclays.net##.modal-pecr
 usnews.com##.modal-window
+sekwens.com##.module-abovebox
 motorsport.com##.ms-footer-messages
 motorsport.com##.ms-header-messages
 faapy.com##.msg
@@ -42801,6 +42811,7 @@ etletstalk.com##.ulp-window-top-center
 tcm.com##.universal-footer__ribbon
 anisearch.com##.urgent-msg
 cnn.com,liveuamap.com##.user-msg
+shine.cn##.user-terms-hint
 fxsolver.com##.userMessage
 arksurvivalevolved.zone##.userNotice
 fontspring.com##.user_notice
@@ -44886,6 +44897,8 @@ capital.ro,europages.ro##.social
 ! 
 ! ---------- Ukrainian Site Specific Hiding Rules ----------
 ! 
+avtosale.ua###backgroundPopup
+avtosale.ua###popup
 donpatriot.news##.wrapper__search
 ! 
 ! ---------- Russian Site Specific Hiding Rules ----------
@@ -45647,6 +45660,7 @@ blogit.fi,ilmainensanakirja.fi,telsu.fi##.cookies
 matkahuolto.fi##.css-jlvvqa
 ifolor.fi##.dialogBanner--align-bottom
 vr.fi##.headerContents > .infoMessages
+timma.fi##.modal-backdrop.in
 lidl.fi,pelit.fi,telia.fi##.notification
 helmet.fi##.notifier_warning
 suomi24.fi##.s24_cc_banner-wrapper
@@ -46490,6 +46504,7 @@ infiniti-vietnam.com.vn##.c_128
 ||googletagmanager.com/gtm.js$script,domain=stihl.fr
 ||jeu.video^*/partners.js
 ||thesiteoueb.net/js/cm-head.js
+||var.uicdn.net/shopsshort/privacy/v1/bundle.
 ! 
 ! ---------- Bulgarian ----------
 ! 
@@ -47045,6 +47060,7 @@ ida2at.com#@#.share-holder
 app.degoo.com,app.sococo.com,iherb.com,vimeo.com#@#.share-icon
 app.degoo.com#@#.share-icon-container
 1ab.ru,dikidi.net,golem.de,tumblr.com#@#.share-item
+r-ulybka.ru#@#.share-item-container
 vimeo.com#@#.share-label
 recite.com#@#.share-left
 askubuntu.com,baidu.com,broadcast.app.net,dubox.com,imgur.com,kuechenstud.io,logbuch-netzpolitik.de,mammothhq.com,mathoverflow.net,minkorrekt.de,openstreetmap.org,pinksluts.com,pomponik.pl,sale.aliexpress.com,serverfault.com,stackapps.com,stackexchange.com,stackoverflow.com,superuser.com,yadi.sk,yandex.com,yandex.com.tr,yandex.ru,yandex.ua#@#.share-link
@@ -47389,6 +47405,7 @@ dcinside.com,totalwar.com#@##privacy_policy
 repostuj.pl#@##rodo-modal
 forgeandfortune.com#@##toasts > #toastsWrapper
 litebit.eu#@#.CookieConsent
+what3words.com#@#.CookieNotice-Drawer
 boekmeter.nl,gamesmeter.nl,moviemeter.nl,musicmeter.nl,nzherald.co.nz#@#.Cookies
 bancaifis.it#@#.Cookies:not(body)
 telegraaf.nl#@#.CookiesOK
@@ -47560,6 +47577,7 @@ apple.com#@#consent.consent
 mymuesli.com#@#cookies_consent
 litebit.eu#@#div[class*="CookieConsent"]
 telenor.se#@#div[class*="cookie-consent-modal_"]
+what3words.com#@#div[class^="CookieNotice"]
 ee.co.uk,monese.com,ukvcas.co.uk#@#div[class^="cookie-banner"]
 dovoba.de#@#div[class^="cookie-consent_"]
 coolblue.be#@#div[class^="cookie-notification_"]

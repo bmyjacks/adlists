@@ -236,6 +236,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||monitor.azure.com^
+||static.herr.io^$third-party
 ||cli2020.com^$third-party
 ||logger.co.kr^$third-party
 ||t.afi-b.com^$third-party
@@ -4583,6 +4585,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||l.da-te.jp^
 ||log.shufoo.net^
 ||logcollect.totalcms.ncloud.or.kr^
 ||discovery.newspic.kr^
@@ -15860,6 +15863,7 @@ charlestownwyllie.oaklawnnonantum.com^
 /astrack.js
 /gv-analytics/*
 /gapro.js
+/duracelltomi-google-tag-manager/*$script
 /img.gif?
 /mtracking.
 /sr.gif?
@@ -16188,6 +16192,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+da-te.jp##.counter
 ||dop3jnx8my3ym.cloudfront.net/sg-track-sdk.js
 ||kgnews.co.kr/weblog/gtracker.
 ||l2.revotas.com/trc/api/rvts*_tracker.js
@@ -16295,7 +16300,6 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||hltv.org/scripts/hltv-tracking.js
 ||za.zalo.me/v*/brp?fts=
 ||za.zalo.me/v*/w/_zaf.gif
-/duracelltomi-google-tag-manager/*$script,domain=adexchanger.com|digiato.com|infosecinstitute.com
 ||api.eigene.io/rec/
 ||guj.de/js/gujTracker.js
 /tracking.js$domain=schoener-wohnen.de
@@ -19342,6 +19346,8 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82604
+@@||stuttgarter-zeitung.de/cre-*/tracking/tracking.js
 ! jolie.de - picture gallery broken
 jolie.de/sites/default/files/google_tag/google_tag_manager/google_tag.script.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82566

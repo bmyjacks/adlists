@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202105122333
+! Version: 202105132305
 ! Title: Fanboy's Social Blocking List
-! Last modified: 12 May 2021 23:33 UTC
+! Last modified: 13 May 2021 23:05 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -16327,6 +16327,7 @@ _youtube_social_
 ||dailymotion.com/badge/user/$third-party
 ||digg.com^$script,subdocument,third-party
 ||diggstatic.com^*/follow_buttons/
+||digitiminimi.com^$third-party
 ||encrypted-tbn2.gstatic.com/images?$domain=vitorrent.org
 ||facebook.com*/plugins/like.php?$third-party
 ||facebook.com/connect/connect.*connections$third-party,domain=~farmville.com
@@ -18892,6 +18893,8 @@ capital.ro,europages.ro##.social
 ! 
 ! ---------- Ukrainian Site Specific Hiding Rules ----------
 ! 
+avtosale.ua###backgroundPopup
+avtosale.ua###popup
 donpatriot.news##.wrapper__search
 ! 
 ! ---------- Russian Site Specific Hiding Rules ----------
@@ -19313,6 +19316,7 @@ ida2at.com#@#.share-holder
 app.degoo.com,app.sococo.com,iherb.com,vimeo.com#@#.share-icon
 app.degoo.com#@#.share-icon-container
 1ab.ru,dikidi.net,golem.de,tumblr.com#@#.share-item
+r-ulybka.ru#@#.share-item-container
 vimeo.com#@#.share-label
 recite.com#@#.share-left
 askubuntu.com,baidu.com,broadcast.app.net,dubox.com,imgur.com,kuechenstud.io,logbuch-netzpolitik.de,mammothhq.com,mathoverflow.net,minkorrekt.de,openstreetmap.org,pinksluts.com,pomponik.pl,sale.aliexpress.com,serverfault.com,stackapps.com,stackexchange.com,stackoverflow.com,superuser.com,yadi.sk,yandex.com,yandex.com.tr,yandex.ru,yandex.ua#@#.share-link
