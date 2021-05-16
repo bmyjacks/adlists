@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cxOwkapLmzLkOFGJhJJVDQ
-! Version: 202105150030
+! Checksum: R3ko9lXDtXvsoHNiUYIhEw
+! Version: 202105160040
 ! Title: EasyList
-! Last modified: 15 May 2021 00:30 UTC
+! Last modified: 16 May 2021 00:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7929,6 +7929,7 @@ _google_ads_
 _googlead.
 _googleads_
 _googleDFP.
+_gpt_ads.
 _grid_ad?
 _header_ad.
 _header_ad_
@@ -15229,6 +15230,7 @@ _popunder+$popup
 ###imgad1
 ###imu_ad_module
 ###in-article-ad
+###in-article-mpu
 ###in-content-ad
 ###in-story-ad-wrapper
 ###in-video-ad-center-main
@@ -25281,6 +25283,7 @@ _popunder+$popup
 ##.gallery_post--interstitial_ad
 ##.galleryads
 ##.gam-300x250-default-ad-container
+##.gam-ad
 ##.gam_ad_slot
 ##.game-ads
 ##.game-category-ads
@@ -45105,6 +45108,7 @@ menstennisforums.com#@#.top_ads
 ||partypartners.com^$third-party
 ||partypoker.com^$third-party
 ||pas-rahav.com^$third-party
+||paslsa.com^$third-party
 ||passionfruitads.com^$third-party
 ||passive-earner.com^$third-party
 ||patiskcontentdelivery.info^$third-party
@@ -46870,6 +46874,7 @@ menstennisforums.com#@#.top_ads
 ||infra.systems^$popup
 ||inigusyou.fun^$popup
 ||injuredcandy.com^$popup
+||innovid.com^$popup,third-party
 ||insigit.com^$popup
 ||insta-cash.net^$popup
 ||installcdnfile.com^$popup
@@ -50610,6 +50615,7 @@ menstennisforums.com#@#.top_ads
 ||bundesliga.com/assets/partners/
 ||buscando.heavenmedia.com^
 ||c21media.net/wp-content/plugins/sam-images/
+||calcalistech.com^*/labsNew.gif
 ||calguns.net/images/ad
 ||canyoublockit.com/wp-content/uploads/nzraxtwifgbg/
 ||carfinderph.com/popup/
@@ -50646,6 +50652,7 @@ menstennisforums.com#@#.top_ads
 ||datum.blockchair.io^
 ||delivery.smashing.services^
 ||designtaxi.com/i-combine.php
+||designtaxi.com/js/dt-seo.js
 ||designtaxi.com/small-dt.php$subdocument
 ||dg-premium.com/wp-content/themes/dg-premium/img/siemens.svg
 ||dhakatribune.com/dynamics/dhakaadvs/
@@ -50710,6 +50717,7 @@ menstennisforums.com#@#.top_ads
 ||gounlimited.to/js/pop.js
 ||govevents.com/display-file/
 ||graphicdesignforums.co.uk/banners/
+||hamodia.co.uk/images/worldfirst-currencyconversion.jpg
 ||hawk.pcgamer.com^
 ||herzeleid.com/files/images/banners/
 ||hltv.org//images/retina2/
@@ -52118,6 +52126,7 @@ active.com###med_rec_bottom
 active.com###med_rec_top
 gismeteo.com###media-right
 kavogaming.com###media_image-3
+palestinechronicle.com###media_image-4
 mostlyblogging.com###media_image-5
 ostatic.com###media_partner_gallery
 cgchannel.com###mediumRectangle
@@ -52387,7 +52396,7 @@ comicbookrealm.com###tad
 google.com###tadsc
 geeky-gadgets.com###text-105335641
 ssbcrack.com###text-11
-cathnews.co.nz###text-12
+cathnews.co.nz,net-load.com###text-12
 radiosurvivor.com###text-13
 planetinsane.com###text-14
 electronicshub.org,thesurvivalistblog.net###text-16
@@ -52396,8 +52405,8 @@ ganzworld.com###text-18
 ganzworld.com,naturalnews.com###text-19
 naturalnews.com###text-20
 naturalnews.com###text-22
-electronicshub.org###text-25
-2smsupernetwork.com###text-26
+electronicshub.org,net-load.com###text-25
+2smsupernetwork.com,net-load.com###text-26
 2smsupernetwork.com###text-28
 2smsupernetwork.com,zambiareports.com###text-3
 electronicshub.org###text-34
@@ -52689,6 +52698,7 @@ uploadvr.com##.ai-sticky-widget
 androidpolice.com,techporn.ph##.ai-track
 unfinishedman.com##.ai-viewport-1
 bizpacreview.com,windowslatest.com##.ai_widget
+net-load.com##.ai_widget.widget
 majorgeeks.com##.alford > tbody > tr
 livejournal.com##.allbanners
 music-news.com,nintendolife.com##.amazon
@@ -53071,6 +53081,7 @@ gearlive.com##.double
 readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com##.double-mpu
 capitalfm.com,radiox.co.uk,smoothradio.com##.download
 kickasstorrents.to##.dssdffds
+designtaxi.com##.dt_rcjs
 digitaltrends.com##.dtads-slot
 googleping.com##.dtext
 yts.mx##.durs-bordered
@@ -53260,6 +53271,7 @@ igorslab.de##.herald-sidebar
 provideocoalition.com##.hero-promotions
 daijiworld.com##.hidden-xs > [href]
 moneycontrol.com##.hide-mobile
+designtaxi.com##.highlight-news-notice
 majorgeeks.com##.highlight.content > center > font
 duckduckgo.com##.highlight_sponsored
 dailycurrant.com##.highswiss
@@ -53392,6 +53404,7 @@ bikeroar.com##.lower-panel
 greatbritishlife.co.uk##.lp_track_vertical2
 hltv.org##.luckbox-firstcol-box
 politifact.com##.m-billboard
+net-load.com##.m7s-81.m7s
 nagpurtoday.in##.main-logo + div[style="float:right;"]
 designtaxi.com##.masonry-brick
 pushsquare.com,songlyrics.com##.masthead
@@ -53410,6 +53423,7 @@ allnurses.com##.medrec
 techrepublic.com##.medusa_right-rail
 2ip.me##.menu_banner
 eawaz.com##.metaslider
+palestinechronicle.com##.mh-header-widget-2
 investing.com##.midHeader
 newsday.com##.midPg
 edutourism.in##.middMain
@@ -53457,12 +53471,14 @@ hulkshare.com##.nhsBotBan
 fiercetelecom.com,fiercevideo.com##.node--type-embed-promo
 ferrarichat.com##.node_sponsor
 cookingforengineers.com##.nothing
+designtaxi.com##.nt-text
 nplusonemag.com##.nurble
 cheezburger.com##.nw-rail-min-250
 marineelectronics.com,marinetechnologynews.com,maritimeprofessional.com##.nwm-banner
 comicbook.com##.oas
 distractify.com##.obIeh
 softexia.com##.offer
+hamodia.com##.oiomainlisting
 forums.somethingawful.com##.oma_pal
 thedigitalfix.com##.ot-widget-banner
 out.com##.ourSponsors
@@ -53822,7 +53838,7 @@ debka.com##.top-full-width-sidebar
 speedtest.net##.top-placeholder
 donedeal.ie##.top-placement-container
 belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,business-live.co.uk,cambridge-news.co.uk,chroniclelive.co.uk,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,dublinlive.ie,essexlive.news,football.london,gazettelive.co.uk,getreading.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leicestermercury.co.uk,lincolnshirelive.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,plymouthherald.co.uk,somersetlive.co.uk,stokesentinel.co.uk,walesonline.co.uk##.top-slot
-techcentral.ie,texteditor.co,versus.com##.topBanner
+globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
 click2houston.com,clickondetroit.com,clickorlando.com##.topWrapper
 giveawayoftheday.com##.top_ab
 indy100.com,tiresandparts.net##.top_banner
@@ -54051,6 +54067,7 @@ python-graph-gallery.com##div > [href^="https://www.datacamp.com"]
 python-graph-gallery.com##div > [href^="https://www.dataquest.io/course/"]
 healthline.com##div.css-0 > div[class]:not([id])
 guru99.com##div.custom > .hidden-phone
+designtaxi.com##div.masonry-brick.nt
 website.informer.com##div[align="center"]
 nexusradio.com##div[align=center]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[cel_widget_id*="_SponsoredProducts"]
