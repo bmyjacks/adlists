@@ -129,6 +129,7 @@ popmech.ru#%#AG_onLoad(function() { window.POPMECH.increaseCounters = function()
 accountkiller.com#%#window.ga = function(){var a = arguments[5];a&&a.hitCallback&&a.hitCallback();}
 !-------------------
 !-------CSS---------
+biteki.com#$?#.slick-slide > div[id] + script:upward(1)  { remove: true; }
 !-------------------
 !
 !-------------------
@@ -2611,6 +2612,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||predictivedna.com^$third-party
 ||predictiveresponse.net^$third-party
 ||prfct.co^$third-party
+||privacycounter.com^$third-party
 ||prnetwork.de^$third-party
 ||prnx.net^$third-party
 ||proclivitysystems.com^$third-party
@@ -4590,6 +4592,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||trackdb.go3.tv^
 ||collector.rn.de^
 ||l.da-te.jp^
 ||log.shufoo.net^
@@ -15599,6 +15602,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/plugins/aurora-heatmap$stylesheet,script
 /logExecutionStats?
 /busting/*/gtm-
 /wordpress/wp-json/pum/*/analytics/*
@@ -15690,6 +15694,7 @@ _analytics.js?
 /_CPiX/art
 /counter?id=
 /autotrack.js
+/trackad.$third-party
 /playertracking/*
 /pixel.*/track/*
 /mendelstats.
@@ -15949,6 +15954,11 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+mag.osdn.jp##div[id^="logly-lift-"]
+||mangapedia.com/js/abb.
+||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
+||play.tv3.lt/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
+||analytics.google.com/g/collect?*&tid=
 ||ssl.kaptcha.com/collect/
 ||cornelsen.de/*/tracking.min.js
 ||r.popin.cc/log.gif
@@ -15986,6 +15996,7 @@ viva.ua##.footer-counters
 ||browser.events.data.microsoft.com/OneCollector/
 ||log.nordot.jp^$~script
 ||google.*/imgevent?
+||arstechnica.com/keys/arstechnica.com/p.js
 ||informazione.it/detroitchicago/cmb.js
 ||tweakers.net^*&p=$image
 ||forum.zuvio.com.tw/api/article/finish
@@ -19109,6 +19120,9 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! www.kanaloco.jp あなたにおすすめの記事 (recommended articles)
+@@||googletagmanager.com/gtm.js$script,domain=kanaloco.jp
+@@||rtoaster.jp^$script,domain=kanaloco.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83103
 @@||ssl.geoplugin.net/javascript.gp$domain=imalentstore.com
 ! https://github.com/hirorpt/filters/commit/7944b88a85ae9674deba8a4b375f457be6ed552a
@@ -19519,7 +19533,7 @@ nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm
 @@||googletagmanager.com/gtm.js$domain=thecompanion.app
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79410
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63801
-@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|lexus.jp|peachjohn.co.jp|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|hikaritv.net|lexus.jp|peachjohn.co.jp|rurubu.jp|melonbooks.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63828#issuecomment-693360254
 @@||googletagmanager.com/gtm.js$domain=sport1.de
 ! https://github.com/uBlockOrigin/uAssets/issues/7899

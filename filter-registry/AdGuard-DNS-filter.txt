@@ -4,7 +4,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2021-05-18T00:20:42.947Z
+! Last modified: 2021-05-19T00:18:24.028Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.12
 !
@@ -19,6 +19,12 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||aftjohnanodes.com^
+||melinaeability.casa^
+||hgzuqrtzt.com^
+||jonasahalockup.com^
+||fopushegi.com^
+||fogsham.com^
 ||bollroaches.com^
 ||ad.utop.ir^
 ||bmfads.com^
@@ -5505,6 +5511,7 @@ vkcdnservice.appspot.com^
 ||conflictslashact.com^
 ||confoundcoinghosts.com^
 ||confrontationproximity.com^
+||congestit.com^
 ||conjeller-chikemon.com^
 ||connectad.io^
 ||connectignite.com^
@@ -6541,6 +6548,7 @@ vkcdnservice.appspot.com^
 ||enhancereviewpacket.com^
 ||enhucherions.xyz^
 ||eniousirre.top^
+||enjoyingbind.com^
 ||enkayijamal.club^
 ||enlnks.com^
 ||enmisindingat.info^
@@ -19950,6 +19958,7 @@ vkcdnservice.appspot.com^
 ||predictivedna.com^
 ||predictiveresponse.net^
 ||prfct.co^
+||privacycounter.com^
 ||prnetwork.de^
 ||prnx.net^
 ||proclivitysystems.com^
@@ -21762,6 +21771,7 @@ vkcdnservice.appspot.com^
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/344
 ! Disabled in DNS filter
 !
+||trackdb.go3.tv^
 ||collector.rn.de^
 ||l.da-te.jp^
 ||log.shufoo.net^
@@ -24309,6 +24319,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||traceless.me^
 ||track-re01.com^
 ||track-server-100.com^
+||trackadm.com^
 ||trackcb.com^
 ||trackertest.org^
 ||trackingpro.pro^
@@ -24767,6 +24778,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||amplify.outbrain.com^
 ||an.yandex.ru^
 ||analyse.bcovery.com^
+||analytic.rollout.io^
 ||analytic.xingcloud.com^
 ||analyticcdn.globalmailer.com^
 ||analytics-beacon-*.amazonaws.com^
@@ -25222,6 +25234,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pr.blogflux.com^
 ||prd-collector-auth.playbuzz.com^
 ||prd-collector-platform.ex.co^
+||privacy.outdoorsg.com^
 ||processor.asccommunications.com^
 ||production.mcs.delve.cust.lldns.net^
 ||projop.dnsalias.com^
@@ -33089,6 +33102,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ahlxxx.com^
 ||ahrefa.com^
 ||ahszgog.com^
+||ahuano.com^
 ||ahwangtao.com^
 ||ahyau.com^
 ||ahyuns.com^
@@ -33973,6 +33987,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||shucaihangjia.com^
 ||shuccn.com^
 ||shukongshebei.net^
+||shunlidl.online^
 ||shypqc.com^
 ||si9377.com^
 ||sicentlife.com^
@@ -34492,6 +34507,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||ad.ccement.com^
 ||ad.cdnjm.cn^
 ||ad.fx168api.com^
+||ad.gmw.cn^
 ||ad.walkgame.com^
 ||ad.wurangxian.top^
 ||adadmin.house365.com^
@@ -34773,7 +34789,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||1.glook.cn^
 ||1.hnyouneng.com^
 ||1.idc100.com^
-||1.ideng.com^
 ||1.isanxia.com^
 ||1.jeasyui.net^
 ||1.jiqie.cn^
@@ -35403,6 +35418,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||z1.chezhuzhinan.com^
 ||z1.cyla.cn^
 ||z1.o8h7d.cn^
+||z1.pclady.com.cn^
 ||z1hihu.xmcimg.com^
 ||zg.mmyuer.com^
 ||zhihu.xmcimg.com^
@@ -35731,6 +35747,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bigcoon.xyz^
 ||binkens.cn^
 ||bio-lifehealth.com^
+||biquter.xyz^
 ||birthcaker.cn^
 ||bishufang.cn^
 ||bixuyao.com.cn^
@@ -36170,6 +36187,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hk50606.cn^
 ||hk9600.com^
 ||hkdyys.cn^
+||hkosgxn.cn^
 ||hldwmly.com^
 ||hlgglm.com^
 ||hlhulu.com^
@@ -36560,6 +36578,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||njguluyu.cn^
 ||njhuashidai.cn^
 ||njohvxs.cn^
+||njsbzc.cn^
 ||njxczy.com^
 ||nkyyls.cn^
 ||nkzjc.cn^
@@ -36605,6 +36624,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||opyyy.com^
 ||orvibum.cn^
 ||osndy.com^
+||osqoglv.cn^
 ||ouhwjdv.cn^
 ||ow*.biqugego.com^
 ||ox11.com^
