@@ -82,7 +82,7 @@ connect.de#%#//scriptlet("abort-on-property-read", "trConfig")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80625
 tweakers.net#%#//scriptlet('abort-current-inline-script', 'AbStats', 'trackId')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'GlobalSnowplowNamespace')
-tweakers.net#%#//scriptlet('abort-on-property-read', 'WebTrekkClickMap')
+tweakers.net#%#//scriptlet('set-constant', 'WebTrekkClickMap', 'noopFunc')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24789
 timesnownews.com#%#//scriptlet("set-constant", "ga", "noopFunc")
@@ -237,6 +237,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||rum.conde.io^
+||ana.mediable.info^
+||campaigns-collector.albacross.com^$third-party
+||new-collect.albacross.com^$third-party
 ||pv.kuaizhan.com^$third-party
 ||eventsapi.grocerkey.com^$third-party
 ||dc-tag.jp^$third-party
@@ -15619,7 +15623,6 @@ charlestownwyllie.oaklawnnonantum.com^
 /js/ad_insight/*
 .com/s.gif?
 /facebookPixel.
-/mooc/controllers/course_ajax.php
 /ajax/fdlogger/send
 /PhoenixGoogleAnalytics.min.js
 /.bootscripts/analytics.min.js
@@ -15962,6 +15965,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||bilanx.dtto.com/*/configs
+||bilanx.dtto.com/*/events
 ||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif
 mag.osdn.jp##div[id^="logly-lift-"]
 ||mangapedia.com/js/abb.
@@ -18586,6 +18591,7 @@ $cookie=bf_visit
 |http*$app=com.adups.fota.sysoper|com.adups.fota
 !
 ! For apps
+||bilanx.dtto.com^$app=com.dtto.app
 ||track.*.roku.com^
 ||traces.sr.roku.com^
 $app=com.fiberhome.wifiserver
@@ -19134,6 +19140,16 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82199
+@@||s.go-mpulse.net/boomerang/$domain=royalmail.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/83450
+@@||personaclick.com^$domain=skechers.com.tr
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=skechers.com.tr
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||googletagmanager.com/gtm.js$domain=skechers.com.tr
+@@||google-analytics.com/analytics.js$domain=skechers.com.tr
+@@||google-analytics.com/plugins/ua/ec.js$domain=skechers.com.tr
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82461
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||allmusic.com/images/tracking/tracking_pixel.jpg
