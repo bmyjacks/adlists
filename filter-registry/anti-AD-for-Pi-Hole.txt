@@ -1,7 +1,7 @@
 #TITLE=anti-AD
-#VER=20210519095139
+#VER=20210521210546
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=47980
+#TOTAL_LINES=47991
 00-gov.cn
 kwcdn.000dn.com
 kwcscdn.000dn.com
@@ -22863,6 +22863,8 @@ stat.m.jd.com
 u-x.jd.com
 u.x.jd.com
 mercury.jd.com
+blackhole.m.jd.com
+firevent.jd.com
 pic.jdbbs.com
 rmw.jdburl.com
 dyb.jdcbuy.com
@@ -27406,7 +27408,6 @@ i1.services.social.microsoft.com
 ieonline.microsoft.com
 ieonlinews.microsoft.com
 mobile.pipe.aria.microsoft.com
-events.data.microsoft.com
 nw-umwatson.events.data.microsoft.com
 oca.telemetry.microsoft.com
 redir.metaservices.microsoft.com
@@ -40019,10 +40020,20 @@ ea.telecommandeonline.com
 stats.teledyski.info
 omnistats.teleflora.com
 stats.sec.telefonica.com
+telegram-cn.org
+www.telegram-cn.org
+telegram-vip.com
+www.telegram-vip.com
+telegramcn.org
+www.telegramcn.org
 telegramspun.com
+telegramsvip.com
+www.telegramsvip.com
 analytics.eip.telegraph.co.uk
 gcpdata.telegraph.co.uk
 metrics.telegraph.co.uk
+telegrcn.org
+www.telegrcn.org
 pix.telekom-dienste.de
 web-track.telekom-dienste.de
 pix.telekom.de

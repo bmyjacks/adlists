@@ -1,7 +1,7 @@
 #TITLE=anti-AD
-#VER=20210519095139
+#VER=20210521210546
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=42371
+#TOTAL_LINES=42379
 DOMAIN-SUFFIX,00-gov.cn
 DOMAIN-SUFFIX,kwcdn.000dn.com
 DOMAIN-SUFFIX,kwcscdn.000dn.com
@@ -19922,6 +19922,8 @@ DOMAIN-SUFFIX,policy.jd.com
 DOMAIN-SUFFIX,stat.m.jd.com
 DOMAIN-SUFFIX,u-x.jd.com
 DOMAIN-SUFFIX,mercury.jd.com
+DOMAIN-SUFFIX,blackhole.m.jd.com
+DOMAIN-SUFFIX,firevent.jd.com
 DOMAIN-SUFFIX,pic.jdbbs.com
 DOMAIN-SUFFIX,rmw.jdburl.com
 DOMAIN-SUFFIX,dyb.jdcbuy.com
@@ -23869,7 +23871,7 @@ DOMAIN-SUFFIX,i1.services.social.microsoft.com
 DOMAIN-SUFFIX,ieonline.microsoft.com
 DOMAIN-SUFFIX,ieonlinews.microsoft.com
 DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com
-DOMAIN-SUFFIX,events.data.microsoft.com
+DOMAIN-SUFFIX,nw-umwatson.events.data.microsoft.com
 DOMAIN-SUFFIX,redir.metaservices.microsoft.com
 DOMAIN-SUFFIX,settings-sandbox.data.microsoft.com
 DOMAIN-SUFFIX,settings-win-ppe.data.microsoft.com
@@ -23880,6 +23882,7 @@ DOMAIN-SUFFIX,statsfe1.ws.microsoft.com
 DOMAIN-SUFFIX,statsfe2.ws.microsoft.com
 DOMAIN-SUFFIX,telemetry.urs.microsoft.com
 DOMAIN-SUFFIX,teredo.ipv6.microsoft.com
+DOMAIN-SUFFIX,umwatsonc.events.data.microsoft.com
 DOMAIN-SUFFIX,vortex-sandbox.data.microsoft.com
 DOMAIN-SUFFIX,vortex-win-sandbox.data.microsoft.com
 DOMAIN-SUFFIX,vortex.data.glbdns2.microsoft.com
@@ -35283,10 +35286,15 @@ DOMAIN-SUFFIX,ea.telecommandeonline.com
 DOMAIN-SUFFIX,stats.teledyski.info
 DOMAIN-SUFFIX,omnistats.teleflora.com
 DOMAIN-SUFFIX,stats.sec.telefonica.com
+DOMAIN-SUFFIX,telegram-cn.org
+DOMAIN-SUFFIX,telegram-vip.com
+DOMAIN-SUFFIX,telegramcn.org
 DOMAIN-SUFFIX,telegramspun.com
+DOMAIN-SUFFIX,telegramsvip.com
 DOMAIN-SUFFIX,analytics.eip.telegraph.co.uk
 DOMAIN-SUFFIX,gcpdata.telegraph.co.uk
 DOMAIN-SUFFIX,metrics.telegraph.co.uk
+DOMAIN-SUFFIX,telegrcn.org
 DOMAIN-SUFFIX,pix.telekom-dienste.de
 DOMAIN-SUFFIX,web-track.telekom-dienste.de
 DOMAIN-SUFFIX,pix.telekom.de

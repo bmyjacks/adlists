@@ -1,7 +1,7 @@
 !Title: anti-AD
-!Version: 20210519095139
+!Version: 20210521210546
 !Homepage: https://github.com/privacy-protection-tools/anti-AD
-!Total lines: 39296
+!Total lines: 39310
 @@||ads.taboola.com^
 @@||tracker.eu.org^
 @@||stats.uptimerobot.com^
@@ -39,6 +39,12 @@
 @@||tracking-protection.cdn.mozilla.net^
 @@||skydrivesync.policies.live.net^
 @@||dxcloud.episerver.net^
+@@||static3.iask.cn^
+@@||login-ishare.iask.com.cn^
+@@||wechat.ishare.iask.com.cn^
+@@||dw.iask.com.cn^
+@@||settings-win.data.microsoft.com^
+@@||insideruser.microsoft.com^
 /^(\S+\.)?9377[a-z0-9]{2}\.com$/$dnstype=A
 /^(\S+\.)?ad(s?[\d]+|m|s)?\./
 @@||ads.amazon^
@@ -18442,6 +18448,8 @@
 ||stat.m.jd.com^
 ||u-x.jd.com^
 ||mercury.jd.com^
+||blackhole.m.jd.com^
+||firevent.jd.com^
 ||pic.jdbbs.com^
 ||rmw.jdburl.com^
 ||dyb.jdcbuy.com^
@@ -22162,7 +22170,7 @@
 ||ieonline.microsoft.com^
 ||ieonlinews.microsoft.com^
 ||mobile.pipe.aria.microsoft.com^
-||events.data.microsoft.com^
+||nw-umwatson.events.data.microsoft.com^
 ||redir.metaservices.microsoft.com^
 ||settings-sandbox.data.microsoft.com^
 ||settings-win-ppe.data.microsoft.com^
@@ -22173,6 +22181,7 @@
 ||statsfe2.ws.microsoft.com^
 ||telemetry.urs.microsoft.com^
 ||teredo.ipv6.microsoft.com^
+||umwatsonc.events.data.microsoft.com^
 ||vortex-sandbox.data.microsoft.com^
 ||vortex-win-sandbox.data.microsoft.com^
 ||vortex.data.glbdns2.microsoft.com^
@@ -32757,8 +32766,13 @@
 ||stats.teledyski.info^
 ||omnistats.teleflora.com^
 ||stats.sec.telefonica.com^
+||telegram-cn.org^
+||telegram-vip.com^
+||telegramcn.org^
 ||telegramspun.com^
+||telegramsvip.com^
 ||gcpdata.telegraph.co.uk^
+||telegrcn.org^
 ||pix.telekom-dienste.de^
 ||web-track.telekom-dienste.de^
 ||pix.telekom.de^
