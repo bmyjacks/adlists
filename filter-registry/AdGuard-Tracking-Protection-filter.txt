@@ -4613,6 +4613,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||datalytics.utair.io^
 ||appsanalytics.appideas.it^
 ||api-adservices.apple.com^
 ||analytics.atlassian.com^
@@ -16496,6 +16497,7 @@ directtrack.*.js
 /watch.*.js?key=*&kw=*&refer=
 /pv_count.
 _analytics.js?
+/tracking/call.$script
 /static/js/analytics-helper.js
 /js/counter.js
 /cls_report?
@@ -16806,6 +16808,10 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||hepsiburada.com/webcontent/
+||images.hepsiburada.net/webtrekk/webtrekk.js
+||hardwarezone.com.sg/js/hwz/hwzgtm.js
+||img*.en25.com/i/elqCfg.min.js
 ||tweakers.net/*/event-tracking/
 ||ajinomoto.co.jp/shared_file/js/header_log.js
 ||ajinomoto.co.jp/shared_file/js/log.js
@@ -16815,6 +16821,7 @@ _tracking.php?b=
 mag.osdn.jp##div[id^="logly-lift-"]
 ||mangapedia.com/js/abb.
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
+||tv3play.skaties.lv/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
 ||play.tv3.lt/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
 ||analytics.google.com/g/collect?*&tid=
 ||ssl.kaptcha.com/collect/
@@ -18972,6 +18979,20 @@ $cookie=wuuid,domain=duolingo.com|duolingo.cn
 !---- Generic rules -----------
 !------------------------------
 !
+! vk.com
+! VK Pixel tracking
+$cookie=remixstid,domain=~vk.com
+$cookie=remixlhk,domain=~vk.com
+$cookie=remixgp
+$cookie=remixrefkey
+$cookie=remixscreen_depth
+$cookie=remixscreen_dpr
+$cookie=remixscreen_height
+$cookie=remixscreen_orient
+$cookie=remixscreen_winzoom
+$cookie=remixscreen_width
+$cookie=remixseenads
+!
 ! piano.io(tinypass)
 ! Used for analytics purpose.
 $cookie=__tbc
@@ -19501,6 +19522,10 @@ $app=com.miui.analytics
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||umengcloud.com.gds.alibabadns.com^
+||umeng.com.gds.alibabadns.com^
+||umengjmacs.m.taobao.com^
+||umengacs.m.taobao.com^
 ||sdk-api-v1.singular.net^
 ||analytics-api.liveapp.com^
 ||log-collector.shopee.
@@ -19985,6 +20010,15 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/83956
+@@||googletagmanager.com/gtm.js$script,domain=radiko.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/83221
+@@||googletagmanager.com/gtm.js$domain=m.kinomax.ru
+@@||google-analytics.com/analytics.js$domain=m.kinomax.ru
+! https://github.com/AdguardTeam/AdguardFilters/issues/83946
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=morningstar.nl
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||googletagmanager.com/gtm.js$domain=morningstar.nl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83910
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=index.hr,important
 @@||google-analytics.com/analytics.js$domain=index.hr
