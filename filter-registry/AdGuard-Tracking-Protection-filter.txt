@@ -288,6 +288,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||didna.io^$third-party
 ||solutionshindsight.net^$third-party
 ||d.wi-fi.ru^$third-party
+||simpleanalyticscdn.com^$third-party
 ||api.ipdata.co^$third-party
 ||instapagemetrics.com^$third-party
 ||mas.protecmedia.com^$third-party
@@ -20010,6 +20011,8 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/83427
+@@||oriflame.ru^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83956
 @@||googletagmanager.com/gtm.js$script,domain=radiko.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83221

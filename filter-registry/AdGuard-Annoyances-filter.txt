@@ -81,6 +81,8 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76987
 youtube.com#%#AG_onLoad(function() {var a = new MutationObserver(function() {if (document.querySelector('yt-upsell-dialog-renderer')) {var b = document.querySelector('.ytd-popup-container[popup-size="UPSELL_DIALOG_RENDERER_POPUP_SIZE_LARGE"] #dismiss-button:not(.dismissed), .upsell-dialog-lightbox .upsell-dialog-dismiss-button button:not(.dismissed)');setTimeout(function() {b&&b.click()}, 3E2)}});a.observe(document, {childList: !0,subtree: !0});setTimeout(function() {a.disconnect()}, 3E3)});
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82715#issuecomment-847745704
+google.*#%#(function() { try { if ("undefined" != typeof localStorage) { window.localStorage.setItem("gtButterbarDismissalExpiry", ((new Date).getTime() + 6048E5).toString()) } } catch (ex) {} })();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83731
 reuters.com##div[class^="OldSiteBanner_"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83480
@@ -1938,6 +1940,8 @@ censor.net,fizzicseducation.com.au,fparf.ru,revouninstaller.com,logincasino.com,
 ! ###mc_embed_signup
 mobidea.com,honeysanime.com,circuitdigest.com,worldhistory.org,bizreport.com,wristreview.com,kosicednes.sk,tinyprojects.dev,cambio16.com,voxukraine.org,pnas.org,cachevalleydaily.com,bisnis.com,ilpost.it,bsblog.info,alcoparty.com.ua,codastory.com,informazionefiscale.it,kerch.fm,cinemablend.com,prostofinovo.ru,comss.ru,majorgeeks.com,buhgalter.com.ua,providr.com,24tv.ua,babylonbee.com,dexerto.com,football365.com,menrec.com,netdoktor.de,ottawamatters.com,retail-insider.com,walterfootball.com,wweek.com,zozhnik.ru###mc_embed_signup
 !
+antipub.org##.sidebar .wpcf7
+timesofindia.indiatimes.com##.et_newsletter_widget
 ramsaydiagnostics.ru##.mailing-box_wide
 redditgifts.com#$#.exchanges-notify-form { visibility: hidden !important; }
 morningstar.nl###iSharesSignupWrapperEx
@@ -2507,7 +2511,7 @@ proagro.com.ua##table[style="border:1px solid #d0d0d0;"]
 gazetadopovo.com.br#?#.container > div.c-botao-flutuante:has(> a.btn-flutuante-newsletter)
 gazetadopovo.com.br##.box-promo-newsletter
 gazetadopovo.com.br###end-post > div.c-box-news
-feedspot.com##.fixedBar
+recruitingtools.com,feedspot.com##.fixedBar
 feedspot.com##.et_pb_extra_column_sidebar > div.widget_custom_html
 360tv.ru##amp-img[alt="google_news_image"]
 360tv.ru$$amp-img[alt="google_news_image"]
@@ -4188,6 +4192,14 @@ rp5.ru,rp5.ua,rp5.by,rp5.kz,rp5.co.uk,rp5.md#$?##content > div > div[id]:has(> i
 @@||adservice.google.*/adsid/integrator.js$domain=m.rp5.ru|m.rp5.ua|m.rp5.by|m.rp5.kz|m.rp5.co.uk|rp5.md
 !#endif
 !
+echo.msk.ru##div.first[style]
+echo.msk.ru##*:not(div)[class] > div[style^="overflow:"]
+echo.msk.ru#?#*:not(div)[class] > div[style^="overflow:"] ~ div[class]:not(:has(> a[href]))
+echo.msk.ru##div[style="padding: 10px 0px 0px;"]:empty
+echo.msk.ru##div[id]:empty
+echo.msk.ru#%#//scriptlet("set-constant", "Object.prototype.hasShadowDomSupport", "undefined")
+echo.msk.ru#%#//scriptlet("set-constant", "Object.prototype.BannerDirect", "undefined")
+!
 ! rambler with side-projects: autorambler.ru,wmj.ru,passion.ru,eda.ru,quto.ru,rns.online,championat.com,gazeta.ru,lenta.ru
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
 afisha.ru,letidor.ru,autorambler.ru,wmj.ru,motor.ru,passion.ru,quto.ru,eda.ru,rns.online,championat.com,gazeta.ru,lenta.ru,rambler.ru#%#//scriptlet("abort-on-property-write", "Object.prototype.getPlaceSelectorByBannerId")
@@ -4565,6 +4577,7 @@ dmax.de#@#.container > .ads
 dmax.de#@#.showads
 !#safari_cb_affinity
 !
+online-fix.me#%#//scriptlet('prevent-setTimeout', 'u_count')
 lowcygier.pl#%#//scriptlet("abort-current-inline-script", "document.createElement", "adsbygoogle.js")
 filezipa.com##div[style*="height: 100%;"][style*="opacity: .7"][style*="z-index:"]
 t-hsn.com###block-message
@@ -8739,6 +8752,16 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+monese.com#$#.cookie-banner__wrapper { display: none !important; }
+monese.com#$#body { overflow: auto !important; }
+keil.com###privacymodule
+vitra.com#?#body > div:not([id]):not([class]):has(> div.modal__wrapper)
+meteoblue.com#$#.gdpr_message { display: none !important; }
+meteoblue.com#$#body { overflow: auto !important; }
+creditreports.ee##.kred-cookie-consent
+conti-online.ro,conti.com.br,continental-afghanistan.com,continental-bahrain.com,continental-banden.be,continental-daek.dk,continental-egypt.com,continental-gume.rs,continental-jordan.com,continental-kuwait.com,continental-lastikleri.com.tr,continental-me.com,continental-na.com,continental-neumaticos.es,continental-oman.com,continental-pneumatici.it,continental-pneumatiky.cz,continental-pneumatiky.sk,continental-pneus.fr,continental-pneus.pt,continental-pnevmatike.si,continental-reifen.ch,continental-reifen.de,continental-rengas.fi,continental-riepas.lv,continental-tire.jp,continental-tires.cn,continental-tires.co.id,continental-tires.co.kr,continental-tires.com,continental-tires.gr,continental-tyres.asia,continental-tyres.co.uk,continental-tyres.co.za,continental-tyres.com.au,continental-tyres.com.my,continental-tyres.com.sg,continental-tyres.in,continental-uae.com,continental.at,continental.bg,continental.co.th,continental.com.gh,continental.com.hr,continental.hu,continental.lt,continental.no,continental.ru,continental.tw,continental.ua,continentaltire-andina.com,continentaltire.ca,continentaltire.com.co,continentaltire.com.ec,continentaltire.mx,continentaltirechile.cl,neumaticos-conti.com.ar,xn--continental-dck-dlb.se#$#body { overflow: auto !important; }
+conti-online.ro,conti.com.br,continental-afghanistan.com,continental-bahrain.com,continental-banden.be,continental-daek.dk,continental-egypt.com,continental-gume.rs,continental-jordan.com,continental-kuwait.com,continental-lastikleri.com.tr,continental-me.com,continental-na.com,continental-neumaticos.es,continental-oman.com,continental-pneumatici.it,continental-pneumatiky.cz,continental-pneumatiky.sk,continental-pneus.fr,continental-pneus.pt,continental-pnevmatike.si,continental-reifen.ch,continental-reifen.de,continental-rengas.fi,continental-riepas.lv,continental-tire.jp,continental-tires.cn,continental-tires.co.id,continental-tires.co.kr,continental-tires.com,continental-tires.gr,continental-tyres.asia,continental-tyres.co.uk,continental-tyres.co.za,continental-tyres.com.au,continental-tyres.com.my,continental-tyres.com.sg,continental-tyres.in,continental-uae.com,continental.at,continental.bg,continental.co.th,continental.com.gh,continental.com.hr,continental.hu,continental.lt,continental.no,continental.ru,continental.tw,continental.ua,continentaltire-andina.com,continentaltire.ca,continentaltire.com.co,continentaltire.com.ec,continentaltire.mx,continentaltirechile.cl,neumaticos-conti.com.ar,xn--continental-dck-dlb.se#$#.js-cookie-banner { display: none !important; }
+cudmoda.pl#?#.iqitcookielaw-showed
 hotmovs.com##.header__cookie
 honeygain.com##footer[class^="WrapperView-"] + div > div[class^="CardView-"]
 exodus.com##.x-cookies-banner
@@ -9044,7 +9067,7 @@ rs-online.com,rsdelivers.com#$#body[style^="margin-top:"] { margin-top: 0 !impor
 rs-online.com,rsdelivers.com#$##ensNotifyBanner[aria-label="Consent Banner"] { display: none !important; }
 m.livehindustan.com#$#body { overflow: auto !important; }
 m.livehindustan.com#$#.cookiesbg { display: none !important; }
-europeanresolverpolicy.com##.widget-cookie-banner
+419.consulting,europeanresolverpolicy.com##.widget-cookie-banner
 gorsovet.com.ua##.cookie-consent
 instalguru.com##div[class^="styles__cookie-panel"]
 tatgida.com###topbar-hide
@@ -9816,8 +9839,8 @@ heimgourmet.com#$#body.gaBarShown { margin-top: 0 !important; }
 swyrl.tv##.tsch--cookie-warning
 polishbrief.pl###simplecookienotification_v01
 centrerockland.com##._legal-alert_eryle1
-br.answers.yahoo.com###guce-inline-consent-iframe
-||guce.yahoo.com/br/collectConsentInline*consent.yahoo.com$domain=br.answers.yahoo.com
+br.noticias.yahoo.com###guce-inline-consent-iframe
+||guce.yahoo.com/br/collectConsentInline?brandType=nonEu$subdocument,domain=br.noticias.yahoo.com
 spelsberg.de##.swCookieBannerWarpper
 connect.coron.tech###noticemessage
 ||deutsche-apotheker-zeitung.de/_Resources/Static/Packages/CRON.DazSite/js/cookie-approval.js
@@ -13690,7 +13713,6 @@ stihl.de##.privacyTop
 bleacherreport.com##.privacy_notice
 askmen.com##.privacy_popup__container
 lieferando.de,lieferservice.at,lieferservice.ch,pizza.fr,pizza.lu,pizza.pt,pyszne.pl,takeaway.com,thuisbezorgd.nl,vietnammm.com##.privacybanner_notice
-conti-online.ro,conti.com.br,continental-afghanistan.com,continental-bahrain.com,continental-banden.be,continental-daek.dk,continental-egypt.com,continental-gume.rs,continental-jordan.com,continental-kuwait.com,continental-lastikleri.com.tr,continental-me.com,continental-na.com,continental-neumaticos.es,continental-oman.com,continental-pneumatici.it,continental-pneumatiky.cz,continental-pneumatiky.sk,continental-pneus.fr,continental-pneus.pt,continental-pnevmatike.si,continental-reifen.ch,continental-reifen.de,continental-rengas.fi,continental-riepas.lv,continental-tire.jp,continental-tires.cn,continental-tires.co.id,continental-tires.co.kr,continental-tires.com,continental-tires.gr,continental-tyres.asia,continental-tyres.co.uk,continental-tyres.co.za,continental-tyres.com.au,continental-tyres.com.my,continental-tyres.com.sg,continental-tyres.in,continental-uae.com,continental.at,continental.bg,continental.co.th,continental.com.gh,continental.com.hr,continental.hu,continental.lt,continental.no,continental.ru,continental.tw,continental.ua,continentaltire-andina.com,continentaltire.ca,continentaltire.com.co,continentaltire.com.ec,continentaltire.mx,continentaltirechile.cl,neumaticos-conti.com.ar,xn--continental-dck-dlb.se##.privacyhint
 tommy.com##.privacypolicymessagebox_header_cookies
 obozrevatel.com##.privasypolicy-info
 etstur.com,mngkargo.com.tr##.protectionOfData
@@ -13836,6 +13858,10 @@ wykop.pl#$#.type-permanent+#nav { top: 0!important; }
 ||static.canal-plus.net/gitlab/infoslegales/production/cnil_top.js
 ||tol.postnl.nl/toestemming
 ||unsertirol24.com/analytics/analytics_cookie.js
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/83583
+! Website is broken if "display: none" is used - ##div[class*="consent-banner__"]
+xe.com#$#div[class*="consent-banner__"] { position: absolute !important; left: -3000px !important; }
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81056
 ||consent.gameforge.com/cookiebanner.js$important
@@ -14619,7 +14645,7 @@ gala.de,schoener-wohnen.de#%#AG_onLoad(function() {if (!document.cookie.includes
 space.com#%#AG_onLoad(function() {var b=new MutationObserver(function() {var c=document.querySelector('button[mode="primary"]'); c&&(b.disconnect(),c.click()) });b.observe(document, {childList: !0,subtree: !0});setTimeout(function() {b.disconnect()}, 1E4)})
 daenischesbettenlager.de#%#//scriptlet('remove-class', 'noScroll', 'html')
 mail.com#%#//scriptlet('set-cookie', 'euconsent-bypass', '1')
-antena3.com#%#AG_onLoad(function(){if("undefined"!=typeof localStorage)try{if(!localStorage.getItem("euconsent-v2")){var b=new MutationObserver(function(){var a=document.querySelector(".sibbo-panel__aside__buttons > a.sibbo-cmp-button[data-accept-all]");a&&(b.disconnect(),a.click())});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)}}catch(a){}});
+ondacero.es,antena3.com#%#AG_onLoad(function(){if("undefined"!=typeof localStorage)try{if(!localStorage.getItem("euconsent-v2")){var b=new MutationObserver(function(){var a=document.querySelector(".sibbo-panel__aside__buttons > a.sibbo-cmp-button[data-accept-all]");a&&(b.disconnect(),a.click())});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)}}catch(a){}});
 elearningindustry.com#%#AG_onLoad(function(){if(!document.cookie.includes("cookie_preferences")){var a=new MutationObserver(function(){var b=document.querySelector("#cookie-consent-modal button.btn-success");b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 kinopoisk.ru,yandex.*#%#//scriptlet("set-cookie", "gdpr", "0")
 selgros.pl#%#//scriptlet('set-cookie', 'cookie_new_msg', '1')
@@ -15025,7 +15051,7 @@ cubbiescrib.com#%#AG_onLoad(function() { setTimeout(function() { if(document.get
 si.com#%#AG_onLoad(function() { setTimeout(function() { if(document.getElementsByClassName("gdpr")[0].isvisible = true) { document.cookie = "euConsent=true"; location.reload(); }; }, 1000); });
 bt.dk#%#document.cookie = "CookieConsent=1";
 myprivacy.medialaan.be#%#AG_onLoad(function() { setTimeout(function() { document.getElementsByClassName("form__button-group")[0].submit(); }, 300); });
-cmp.ad.nl,cmp.dpgmedia.be#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("euconsent-v2")){var a=new MutationObserver(function(){var b=document.querySelector('.message-component > button[aria-label="Akkoord"]');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
+cmp.ad.nl,cmp.dpgmedia.be#%#AG_onLoad(function(){if(-1==document.cookie.indexOf("euconsent-v2")){var a=new MutationObserver(function(){var b=document.querySelector('.message-component > button[aria-label="Akkoord"]') || document.querySelector('.message-component > button[aria-label="D’accord"]');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 evaair.com#%#document.cookie = "_EVAcookieaccept=Y";
 hbvl.be#%#document.cookie = "C_05 = {%22C%22:%221.0%22%2C%22ID%22:%229dee0a48-e1b7-475f-9456-da27157e009e%22%2C%22P%22:%22' + location.href + '%22%2C%22T%22:%222018-08-04T17:54:39.929Z%22%2C%22V%22:%22Y%22%2C%22F%22:1}; path=/; domain=.hbvl.be";
 standaard.be#%#document.cookie = "C_05 = {%22C%22:%221.0%22%2C%22ID%22:%229dee0a48-e1b7-475f-9456-da27157e009e%22%2C%22P%22:%22' + location.href + '%22%2C%22T%22:%222018-08-04T17:54:39.929Z%22%2C%22V%22:%22Y%22%2C%22F%22:1}; path=/; domain=.standaard.be";
@@ -15128,6 +15154,10 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/83805
+monese.com#@#.cookie-banner:not(body):not(html)
+! https://github.com/AdguardTeam/AdguardFilters/issues/83495
+@@||sibboventures.mgr.consensu.org^$domain=ondacero.es
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83380
 lasprovincias.es#@##didomi-notice
 @@||sdk.privacy-center.org^$domain=lasprovincias.es
@@ -18383,6 +18413,8 @@ sodapdf.com##.be-tooltip
 !
 ! Specific sites
 !
+chaturbate.com##body > div.tooltip.modern
+discord.com##div[class^="notice-"]
 theoryandpractice.ru##div[class*="popup__popoverWrapper-"]
 goal-life.com###sysModal
 goal-life.com##.reveal-modal-bg
@@ -22961,6 +22993,7 @@ disk.yandex.*##.mail360-banner
 !
 !
 ! promo banner
+sankei.com###piano_information_Article
 ||news.sod.co.jp/wp-content/uploads/*/prime_cp_$image,~third-party
 nicovideo.jp##.TagRelatedBannerContainer.Card
 photo-ac.com##.belt-banner-exl
@@ -23739,6 +23772,9 @@ experts-exchange.com##.interceptBackgroundBlocker
 experts-exchange.com##.adBanner-comment
 experts-exchange.com##.ctaSolutionStickyWrapper
 !
+diskpart.com##.am-promotion-entry
+diskpart.com##.promo-sidebar
+diskpart.com##.promo-rightbox-mini
 startpage.com##.widget-install-sp
 neilpatel.com###bottom-box-cta
 neilpatel.com##.widget-glbg
@@ -24214,6 +24250,8 @@ reports.adguard.com##.flash-wrapper
 !######### CSS tweaks #########
 !##############################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/83335
+gidonline.fun#$#body { padding-top: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83303
 zshort.cc#$##showContainer { display: none !important; }
 zshort.cc#$##showMe div[id][style="display:none;"] { display: block !important; }
@@ -25667,7 +25705,7 @@ kino-city.net#%#AG_onLoad(function() { document.onselectstart=function(){return 
 themeslide.com,bvb09fans.ru#%#AG_onLoad(function() { document.ondragstart = document.onselectstart = document.oncontextmenu = null; });
 7lafa.com#%#AG_onLoad(function() {setTimeout(function(){document.getElementsByTagName('body')[0].removeAttribute("oncopy"); document.getElementsByTagName('body')[0].removeAttribute("onselectstart");}, 300);});
 antenasport.eu,bilenlerkabilesi.com,half-musiq.blogspot.com#%#Object.defineProperty(document, 'onmousedown', { get: function() { return; } });
-bloombergquint.com,kinogo-net-hd.ru,bigcinema-online.net,bigcinema-tv.club,gidonline-kino.club,kinogo-2017.com,kinogo-720.club,kinogo.club,kinogoonline.club,season-var.net,topcinema.tv,kinogo2.net,kino-kingdom.com,hd-kinogo.co#%#//scriptlet("abort-on-property-read", "getSelection")
+championat.com,bloombergquint.com,kinogo-net-hd.ru,bigcinema-online.net,bigcinema-tv.club,gidonline-kino.club,kinogo-2017.com,kinogo-720.club,kinogo.club,kinogoonline.club,season-var.net,topcinema.tv,kinogo2.net,kino-kingdom.com,hd-kinogo.co#%#//scriptlet("abort-on-property-read", "getSelection")
 bobfilm.online#%#AG_onLoad(function() { document.body.removeAttribute('oncopy'); });
 matematikcifatih.com,bodrumgundem.com,ceplik.com,dijitalx.com,ilife97.com,teknokasif.com,z-news.link,stupdroid.com#%#Object.defineProperty(document, 'oncontextmenu', { get: function() { return; } });
 kinogo-net-2017.ru,cheater-top.ru,discussio.ru,kino-zal.net,tvfru.ru,kinogoonline.club#%#AG_onLoad(function() { document.onselectstart=function(){return true}; document.oncontextmenu=function(){return true}; });
@@ -26117,6 +26155,7 @@ spiegel.de##div[data-settings*="https://widget.civey.com/"]
 !
 ! Chat widgets
 !
+||cdn.carrotquest.app^$third-party
 ||widget.chatbullet.com^$third-party
 freesexyindians.com##div[style^="bottom: 0;right:0;position: fixed; z-index:"]
 ||effect.com/widget$third-party
