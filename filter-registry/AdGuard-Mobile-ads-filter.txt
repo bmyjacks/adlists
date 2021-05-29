@@ -1997,7 +1997,6 @@ mrmoneymustache.com#@#.custom-ad
 @@||ala.durasite.net/DuraUidSegmentMap.js$domain=passnavi.evidus.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59127#issuecomment-658119835
 ||yads.c.yimg.jp/js/yads-async.js$script,redirect=noopjs,important,domain=map.yahoo.co.jp
-@@||yads.c.yimg.jp/js/yads-async.js$script,domain=map.yahoo.co.jp|weather.yahoo.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54357
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=as-selection.net
 as-selection.net#@#.adsbygoogle
@@ -2384,6 +2383,10 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+mobimaniak.pl##.alead
+mobimaniak.pl##div[style="margin:0px auto 10px auto; text-align:center; font-size:6px;"]
+mobimaniak.pl,gsmmaniak.pl##div[style="margin:10px auto; text-align:center; font-size:8px;"]
+mobimaniak.pl,gsmmaniak.pl##div[style="margin:0 auto 10px auto; text-align:center; font-size:6px;"]
 m.sport-express.ru##div[style*="width:325px; height: 260px;"]
 woman.ru##.creative-sticky
 tokyo-sports.co.jp##.ad-sp-bil

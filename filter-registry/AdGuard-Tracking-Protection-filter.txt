@@ -221,6 +221,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! ||admob-app-id-*.firebaseio.com^
 ! ||events.split.io^
 ! ||apptrace.com^
+! ||opentelemetry.io^
 !
 !
 ! ||ensighten.com^$third-party - not a tracker
@@ -4617,6 +4618,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||track.eadv.it^
 ||datalytics.utair.io^
 ||appsanalytics.appideas.it^
 ||api-adservices.apple.com^
