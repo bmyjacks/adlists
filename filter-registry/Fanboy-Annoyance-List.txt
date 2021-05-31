@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202105300103
+! Version: 202105310119
 ! Title: Fanboy's Annoyance List
-! Last modified: 30 May 2021 01:03 UTC
+! Last modified: 31 May 2021 01:19 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -5903,6 +5903,8 @@ _vpcookieconsent/
 ##.DFNewsletterSignup
 ##.DivNewsLetter
 ##.DnnModule-eps-NewsletterOptInv2
+##.GRDC_newsletters
+##.GSOC_newsletterRegistration
 ##.HB-Takeover
 ##.Homepage-newsletter
 ##.InArticleSignup:not(html):not(body)
@@ -6072,6 +6074,7 @@ _vpcookieconsent/
 ##.button-newsletter
 ##.button-subscribe
 ##.buzzblock-newsletter
+##.bx-form--newsletter
 ##.c-Footer__subscribe
 ##.c-articleNewsletter_form
 ##.c-leaflet__content--sign-up
@@ -6129,6 +6132,7 @@ _vpcookieconsent/
 ##.comNewsletterSignup
 ##.component-emailsubscription
 ##.component-newsletter-cta
+##.component-newsletter-signup
 ##.component-newsletter-subscribe
 ##.connect_newsletter
 ##.cont-newsletter
@@ -12621,6 +12625,7 @@ _vpcookieconsent/
 ##.buzzfeed-social-outlets
 ##.bw-social
 ##.bw_sharetom
+##.bx-footer__social-links
 ##.byline-share
 ##.byline-shares
 ##.byline-sharing
@@ -14223,6 +14228,7 @@ _vpcookieconsent/
 ##.footer_sprite_facebook
 ##.footer_sprite_twitter
 ##.footer_sshare
+##.footerbottomsocial
 ##.footerlinks.social
 ##.footernav-social
 ##.footernavigation__social
@@ -14920,6 +14926,7 @@ _vpcookieconsent/
 ##.icon--facebook-simple
 ##.icon--facebook__white
 ##.icon--flickr
+##.icon--footer-social
 ##.icon--google-plus
 ##.icon--googleplus
 ##.icon--googleplus__white
@@ -23936,6 +23943,7 @@ _vpcookieconsent/
 ###cookieBandeau
 ###cookieBandeauConsentement
 ###cookieBanner
+###cookieBanner-gdpr
 ###cookieBanner-main
 ###cookieBannerBG
 ###cookieBannerContainer
@@ -28112,6 +28120,7 @@ _vpcookieconsent/
 ###tmPrivacyStyle
 ###tmp_legal_bar
 ###tmrc_cookie_footer_info
+###tnw_cookieconsent
 ###toasts > #toastsWrapper
 ###tofino-notification
 ###toog-cookies
@@ -33726,6 +33735,7 @@ _vpcookieconsent/
 ##.tmb-cookie-choice
 ##.tmcookienotice
 ##.tn-cookieInfo-area
+##.tnw_cookieconsent
 ##.tnzcookie_container
 ##.toast-cookie
 ##.toast-primary.toast
@@ -39039,7 +39049,9 @@ briefing.com##table[style="vertical-align: top; text-align: left;\a \9          
 osnews.com##table[width="285"]
 finestdaily.com##table[width="642"]
 ! Self-promo Ads
+theguardian.com###contact-the-guardian
 designtaxi.com###fancybar_link
+theguardian.com###g200-banner
 alternet.org###kindest-container
 insidethegames.biz###top-story-alert
 theweek.com###us77-test
@@ -39528,6 +39540,7 @@ cointelegraph.com##.b-post-subscription
 oilprice.com##.background_lozad
 hopesandfears.com,osu.edu##.banner
 bloombergquint.com##.banner-link
+thedriven.io##.basic_mailchimp_widget
 wired.co.uk##.bb-button
 apnews.com##.bellow-article
 catchnews.com##.bg-col-blue
@@ -41212,11 +41225,12 @@ shoutmeloud.com##.floaticons
 remezcla.com##.floating-menu
 etfdailynews.com##.floating-menuG
 ryot.org##.floating_ryot_share
-alarabiya.net,amd.com,batman-news.com,bbcamerica.com,bgr.com,californiasunday.com,catholic.org,cheapies.nz,cnet.com,espnmediazone.com,esquire.com,fandango.com,flashbak.com,fox10phoenix.com,fromthegrapevine.com,geeksaresexy.net,goodnet.org,grindtv.com,independent.co.uk,indiatimes.com,inverse.com,itworld.com,kpopstarz.com,mashable.com,nbcnews.com,newindianexpress.com,nhl.com,opposingviews.com,pawnation.com,phys.org,pulsenews.co.kr,qnb.com,shazam.com,silicon.co.uk,skatehut.co.uk,sky.com,statnews.com,symmetrymagazine.org,tribuneindia.com,tvnz.co.nz,unz.com,usatoday.com,vagabomb.com,verisigninc.com,wanda-group.com,winbeta.org,wonderwall.com##.follow
+alarabiya.net,amd.com,batman-news.com,bbcamerica.com,bgr.com,californiasunday.com,catholic.org,cheapies.nz,cnet.com,espnmediazone.com,esquire.com,fandango.com,flashbak.com,fox10phoenix.com,fromthegrapevine.com,fstoppers.com,geeksaresexy.net,goodnet.org,grindtv.com,independent.co.uk,indiatimes.com,inverse.com,itworld.com,kpopstarz.com,mashable.com,nbcnews.com,newindianexpress.com,nhl.com,opposingviews.com,pawnation.com,phys.org,pulsenews.co.kr,qnb.com,shazam.com,silicon.co.uk,skatehut.co.uk,sky.com,statnews.com,symmetrymagazine.org,tribuneindia.com,tvnz.co.nz,unz.com,usatoday.com,vagabomb.com,verisigninc.com,wanda-group.com,winbeta.org,wonderwall.com##.follow
 aikenstandard.com##.follow-aiken-standard
 aol.com##.follow-aol
 breakingnews.ie##.follow-bn
 ein-herz-fuer-kinder.de##.follow-container
+fstoppers.com##.follow-fstoppers
 autocarindia.com##.follow-google-news-p
 indiancountrytodaymedianetwork.com##.follow-home
 talabat.com##.follow-i
@@ -42641,6 +42655,7 @@ wiley.com##.l-notification
 instagram.com##.lOPC8
 inoreader.com##.landing_promo_banner_top
 evs.com##.language-switcher
+gfbv.ch##.layout-messages
 airlinecheckins.com##.layout-row
 hertz247.co.uk,hertz247.com,hertzcarsales.co.uk##.lbContainer
 hertz247.co.uk,hertz247.com,hertzcarsales.co.uk##.lb_overlay
@@ -42842,6 +42857,7 @@ abcnews.go.com##.terms-alert-fixed
 kambly.com##.terms-cond
 fijiairways.com##.terms-of-use
 adelaidenow.com.au,cairnspost.com.au,couriermail.com.au,dailytelegraph.com.au,geelongadvertiser.com.au,goldcoastbulletin.com.au,heraldsun.com.au,ntnews.com.au,themercury.com.au,townsvillebulletin.com.au,weeklytimesnow.com.au##.tgc-footer_disclaimer
+thomannmusic.ch##.thomann-cookie-consent-overlay
 tastedive.com##.tk-Footer
 bidvestbank.co.za,byutv.org,fantrax.com,tbs.com,tntdrama.com##.toast
 ikea.com##.toast-container

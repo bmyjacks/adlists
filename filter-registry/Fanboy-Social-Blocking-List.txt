@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202105300103
+! Version: 202105310119
 ! Title: Fanboy's Social Blocking List
-! Last modified: 30 May 2021 01:03 UTC
+! Last modified: 31 May 2021 01:19 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -7025,6 +7025,7 @@ _youtube_social_
 ##.buzzfeed-social-outlets
 ##.bw-social
 ##.bw_sharetom
+##.bx-footer__social-links
 ##.byline-share
 ##.byline-shares
 ##.byline-sharing
@@ -8627,6 +8628,7 @@ _youtube_social_
 ##.footer_sprite_facebook
 ##.footer_sprite_twitter
 ##.footer_sshare
+##.footerbottomsocial
 ##.footerlinks.social
 ##.footernav-social
 ##.footernavigation__social
@@ -9324,6 +9326,7 @@ _youtube_social_
 ##.icon--facebook-simple
 ##.icon--facebook__white
 ##.icon--flickr
+##.icon--footer-social
 ##.icon--google-plus
 ##.icon--googleplus
 ##.icon--googleplus__white
@@ -17295,11 +17298,12 @@ shoutmeloud.com##.floaticons
 remezcla.com##.floating-menu
 etfdailynews.com##.floating-menuG
 ryot.org##.floating_ryot_share
-alarabiya.net,amd.com,batman-news.com,bbcamerica.com,bgr.com,californiasunday.com,catholic.org,cheapies.nz,cnet.com,espnmediazone.com,esquire.com,fandango.com,flashbak.com,fox10phoenix.com,fromthegrapevine.com,geeksaresexy.net,goodnet.org,grindtv.com,independent.co.uk,indiatimes.com,inverse.com,itworld.com,kpopstarz.com,mashable.com,nbcnews.com,newindianexpress.com,nhl.com,opposingviews.com,pawnation.com,phys.org,pulsenews.co.kr,qnb.com,shazam.com,silicon.co.uk,skatehut.co.uk,sky.com,statnews.com,symmetrymagazine.org,tribuneindia.com,tvnz.co.nz,unz.com,usatoday.com,vagabomb.com,verisigninc.com,wanda-group.com,winbeta.org,wonderwall.com##.follow
+alarabiya.net,amd.com,batman-news.com,bbcamerica.com,bgr.com,californiasunday.com,catholic.org,cheapies.nz,cnet.com,espnmediazone.com,esquire.com,fandango.com,flashbak.com,fox10phoenix.com,fromthegrapevine.com,fstoppers.com,geeksaresexy.net,goodnet.org,grindtv.com,independent.co.uk,indiatimes.com,inverse.com,itworld.com,kpopstarz.com,mashable.com,nbcnews.com,newindianexpress.com,nhl.com,opposingviews.com,pawnation.com,phys.org,pulsenews.co.kr,qnb.com,shazam.com,silicon.co.uk,skatehut.co.uk,sky.com,statnews.com,symmetrymagazine.org,tribuneindia.com,tvnz.co.nz,unz.com,usatoday.com,vagabomb.com,verisigninc.com,wanda-group.com,winbeta.org,wonderwall.com##.follow
 aikenstandard.com##.follow-aiken-standard
 aol.com##.follow-aol
 breakingnews.ie##.follow-bn
 ein-herz-fuer-kinder.de##.follow-container
+fstoppers.com##.follow-fstoppers
 autocarindia.com##.follow-google-news-p
 indiancountrytodaymedianetwork.com##.follow-home
 talabat.com##.follow-i
