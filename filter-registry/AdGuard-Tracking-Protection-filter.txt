@@ -237,6 +237,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||pbjs.sskzlabs.com^$third-party
+||mediarithmics.com^$third-party
+||ivitrack.com^$third-party
+||prisma-tr.prismamedia.com^
+||pandg.tapad.com^
 ||track.list-finder.jp^
 ||inaftracker.com^$third-party
 ||log.codemarketing.cloud^
@@ -3465,6 +3470,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||livelylaugh.com^$third-party
 ||hystericalcloth.com^$third-party
 ||caringcast.com^$third-party
 ||selfishsnake.com^$third-party
@@ -4624,6 +4630,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||fly.ohmymag.com^
+||fly.gentside.com^
 ||tr.namu.wiki^
 ||track.eadv.it^
 ||datalytics.utair.io^
@@ -4830,7 +4838,6 @@ nethunt.com/api/v1/track/email/$image
 ||d2u1npnnqecmpq.cloudfront.net^
 ||beam.remp.impresa.pt^
 ||d2wlwbnaa4keje.cloudfront.net^
-||api.mediarithmics.com^
 ||d5etv3akk3gsa.cloudfront.net^
 ||tracker.thinkindot.com^
 ||ttauri.laptopmag.com^
@@ -4922,9 +4929,7 @@ nethunt.com/api/v1/track/email/$image
 ||krum.vsct.fr^
 ||tracking.oui.sncf^
 ||ea.officedepot.fr^
-||events.mediarithmics.com^
 ||f7ds.liberation.fr^
-||cookie-matching.mediarithmics.com^
 ||engagefront.theweathernetwork.com^
 ||d2dq2ahtl5zl1z.cloudfront.net^
 ||d18p8z0ptb8qab.cloudfront.net^
@@ -16933,6 +16938,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||terabox.com/statistics^
+||terabox.com/api/analytics
+||video-library.showheroes.com/player/ad_tag?
 ||cs.pikabu.ru/apps/ub/*/main/analytics.js
 ||pikabu.ru/ajax/save_stories_stat.php
 ||arca.live/cdn-cgi/rum?
@@ -17034,7 +17042,6 @@ news.mynavi.jp##.articleList-attention
 ||data.bilibili.com/log/
 ||stuttgarter-zeitung.de/cms/hitcount
 ||asahibeer.co.jp/tracking.js
-||livechatinc.com/tracking.js
 ||info.ryte.com/analytics
 ||app.carnow.com/dealers/track_visitor
 ||app.carnow.com/dealers/visitor_info?
@@ -19658,6 +19665,10 @@ $app=com.miui.analytics
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||logupdate.avlyun.sec.miui.com^
+||log.avlyun.sec.intl.miui.com^
+||log.avlyun.com^
+||api-analytics.prod.birdapp.com^
 ||mpianalytics.com^
 ||umengcloud.com.gds.alibabadns.com^
 ||umeng.com.gds.alibabadns.com^
@@ -20146,6 +20157,9 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/83795
+!+ PLATFORM(ios, ext_safari)
+@@||analytics.tiktok.com/*/pixel/sdk.js$domain=wopilo.com
 ! https://github.com/Yuki2718/adblock/issues/20
 @@||api.docodoco.jp^$script,domain=jrtours.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83997

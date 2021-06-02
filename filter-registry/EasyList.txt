@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GHC1qHNIUkuTOWy3ec4png
-! Version: 202106010150
+! Checksum: 5y6WUtQeSWwDTa16Ln4ugQ
+! Version: 202106020201
 ! Title: EasyList
-! Last modified: 01 Jun 2021 01:50 UTC
+! Last modified: 02 Jun 2021 02:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25590,6 +25590,7 @@ _popunder+$popup
 ##.header-ads-container
 ##.header-ads-holder
 ##.header-ads-wrap
+##.header-ads-wrapper
 ##.header-adsense
 ##.header-adv
 ##.header-advert
@@ -27901,6 +27902,8 @@ _popunder+$popup
 ##.reportAdLink
 ##.res_ad
 ##.resads-adspot
+##.reserved_box_ads
+##.reserved_box_ads_2
 ##.residentialads
 ##.resourceImagetAd
 ##.respAds
@@ -33614,6 +33617,7 @@ menstennisforums.com#@#.top_ads
 ||bcvutcks.com^
 ||bd1617dbbc28f.com^
 ||bd202457b.com^
+||bd44.fun^
 ||bdtwxreri.com^
 ||bdyjxghwfbyups.com^
 ||beachrule.com^
@@ -33910,6 +33914,7 @@ menstennisforums.com#@#.top_ads
 ||bruvwmrxudd.com^
 ||bsdaban.com^
 ||bsjjtpkc.com^
+||bst-offers.com^
 ||btagmedia.com^
 ||btblsyvqaxkkx.com^
 ||btdciuqcsvjjt.com^
@@ -34935,6 +34940,7 @@ menstennisforums.com#@#.top_ads
 ||daurmonb.com^
 ||dayanygold.com^
 ||daysaristocracy.com^
+||daytrading.solutions^
 ||dazhantai.com^
 ||db03f3c62eb.com^
 ||db52cc91beabf7e8.com^
@@ -36105,6 +36111,7 @@ menstennisforums.com#@#.top_ads
 ||fetchinstalmenttraffic.com^
 ||fethungi.com^
 ||feverhappyjack.com^
+||fewrfie.com^
 ||ff5bd8d9f8df.com^
 ||ffhwzaenzoue.com^
 ||ffkdxymyji.com^
@@ -37911,6 +37918,7 @@ menstennisforums.com#@#.top_ads
 ||lilacdefencelessroyal.com^
 ||liliy9aydje10.com^
 ||limbloyal.com^
+||limelightcopper.com^
 ||limetreenearly.com^
 ||limitagesdidjet.site^
 ||limitaterer.club^
@@ -41351,9 +41359,7 @@ menstennisforums.com#@#.top_ads
 ||tacklesuggestindoors.com^
 ||tadsitblimp.com^
 ||tagbom.com^
-||tagdatax.com^
 ||taghaugh.com^
-||tagstaticx.com^
 ||taifouwo.com^
 ||taigrooh.net^
 ||takeslobsgel.com^
@@ -41512,6 +41518,7 @@ menstennisforums.com#@#.top_ads
 ||thisisyourprize.site^
 ||thismetric.com^
 ||thispositionw.biz^
+||thistracknet.com^
 ||thliptruhzaed.com^
 ||thnqemehtyfe.com^
 ||thoaltie.net^
@@ -42712,6 +42719,7 @@ menstennisforums.com#@#.top_ads
 ||xqheb9yszyrd.com^
 ||xqiaqb.com^
 ||xqzlgbbe.com^
+||xr117.xyz^
 ||xrbmomiow.com^
 ||xrhobrrgwhtlu.com^
 ||xroynaxvqvouy.com^
@@ -46737,6 +46745,7 @@ menstennisforums.com#@#.top_ads
 ||bringmesports.com^$popup
 ||broomboxmain.com^$popup
 ||brucelead.com^$popup
+||bst-offers.com^$popup
 ||btpnav.com^$popup
 ||bullads.net^$popup
 ||busyroughly.com^$popup
@@ -46913,6 +46922,7 @@ menstennisforums.com#@#.top_ads
 ||fast-redirecting.com^$popup
 ||fastdlr.com^$popup
 ||femvxitrquzretxzdq.info^$popup
+||fewrfie.com^$popup
 ||fhserve.com^$popup
 ||filestube.com^$popup,third-party
 ||findbetterresults.com^$popup
@@ -50619,7 +50629,6 @@ menstennisforums.com#@#.top_ads
 ||ad.itweb.co.za^
 ||ad.khan.co.kr^
 ||ad.masteranime.es^
-||ad.woolworths.com.au^
 ||adaderana.lk/banners/
 ||adblock-tester.com/banners/
 ||ads.leovegas.com^
@@ -51437,6 +51446,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||kick4ss.com/*?$popup
 ||kick4ss.net/*?$popup
 ||mp3-convert.org/p/$popup
+||nhentai.net/api/$popup
 ||nordvpn.com^$popup,domain=browserleaks.com
 ||nordvpn.net^$popup,domain=browserleaks.com
 ||notube.lol/p/$popup
@@ -53789,6 +53799,7 @@ krebsonsecurity.com##.themonic-ad1
 krebsonsecurity.com##.themonic-ad3
 coub.com##.timeline-banner
 aardvark.co.nz##.tinyprint
+trademe.co.nz##.tm-display-ad__wrapper
 last.fm##.tonefuze
 euobserver.com##.top
 artistdirect.com##.top-add
@@ -54078,6 +54089,7 @@ reddit.com##div[data-before-content="advertisement"]
 pushsquare.com##div[data-dfp-id]
 livejournal.com##div[data-google-query-id]
 windowsreport.com##div[data-insertion]
+google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[data-section-id$="__adb"]
 qwant.com##div[data-testid^="snippet"]
 quora.com##div[id$="content_box"]
 buzzfeednews.com##div[id^="BF_ADX_"]
@@ -54216,6 +54228,7 @@ tixati.com##td[style="vertical-align: top; text-align: right; width: 346px; font
 itnewsonline.com##td[width="120"]
 eurometeo.com##td[width="738"]
 planetinsane.com,radiosurvivor.com##text-18
+trademe.co.nz##tm-display-ad
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##tr > td + td[style*="height:"]
 uvnc.com##tr > td[valign="middle"][style="width: 10px;"]:first-child + td[valign="top"][style="width: 180px;"]
 opensubtitles.org##tr[style^="height:115px;text-align:center;margin:0px;padding:0px;background-color:"]
@@ -54396,7 +54409,7 @@ facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[data-hovercard^="/ajax/hovercard/page.php?id=931112240236154&"])
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href*="is_sponsored"])
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(input[data-next-question-id])
-google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span.section-place-summary-ad-badge-container > span[class$="-badge"])
+google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="mouseover:pane"]:-abp-has(span[class$="-badge-haAclf"] > span[class$="-badge"])
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#div[jsaction^="pane.place.carousel.card"]:-abp-has(span.ARktye-badge)
 guru99.com#?#.content2:-abp-has(div[id^="div-gpt-ad"])
 guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
@@ -55186,8 +55199,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||cloud.google.com^$~third-party
 @@||cloudfront.net/ad/$image,domain=buzzmath.com|netmaths.net|scolab.com
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
-@@||connatix.com/connatix.player.js$script,domain=funker530.com|washingtonexaminer.com
-@@||connatix.com^*/connatix.player.js$script,domain=funker530.com|washingtonexaminer.com
+@@||connatix.com/connatix.player.js$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
+@@||connatix.com^*/connatix.player.js$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
 @@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||css.wpdigital.net/wpost/css/combo?*/ads.css
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
@@ -55495,6 +55508,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||book.com.tw/image/getImage?$domain=books.com.tw
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
+@@||cdn.adsafeprotected.com/iasPET.1.js$script,domain=gentside.com
 @@||ced.sascdn.com/tag/*/smart.js$domain=dr.dk
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
 @@||cloudinary.com/portalbici/advertisements/$domain=portalbici.es
@@ -55520,13 +55534,13 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||fwmrm.net/ad/g/$script,domain=viafree.se
 @@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|pccomponentes.com|video.tv-tokyo.co.jp|voici.fr
-@@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|pccomponentes.com|voici.fr
+@@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|gentside.com|pccomponentes.com|voici.fr
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
 @@||gamestar.de/gs_cb/assets/core/js/libs/dfp/prebid.$script,domain=gamestar.de
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
-@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|voici.fr
+@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|voici.fr
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||iejima.org/ad-banner/$image,~third-party
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|filmweb.pl|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|niusdiario.es|rtlnieuws.nl|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|video.tv-tokyo.co.jp|vlive.tv|webdunia.com|wtk.pl
@@ -55551,6 +55565,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||nnmclub.to/forum/misc/html/advert.html$~third-party
 @@||ntv.co.jp/ad-navi/$domain=search.news24.jp
 @@||pia.jp/feature/rss/ad.xml|$~third-party,xmlhttprequest
+@@||pixel.adsafeprotected.com^$xmlhttprequest,domain=gentside.com
 @@||player-feedback.p7s1video.net^$script,domain=kabeleins.de|sat1.de
 @@||player.vodgc.net^*/videojs-contrib-ads/dist/videojs.ads.min.js$script
 @@||politiken.dk/static/$script
