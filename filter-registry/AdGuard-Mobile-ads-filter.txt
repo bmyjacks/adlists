@@ -2388,6 +2388,9 @@ o2.pl,onet.pl,whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+2chan.net##iframe[src*=".net/bin/ad"] + hr
+reuters.com##div[class^="ArticlePage-mobile-mpu-"]
+m.ndtv.com###header_ads
 girlschannel.net##.topic-items > div[style="height:93px;"]
 hoiclue.jp##.ad-SP
 fontanka.ru##.JFev
@@ -2455,7 +2458,7 @@ m.bild.de##.gutschein-anzeigen-wrapper
 t-online.de##.Tml6--anz
 t-online.de###Tgb-88799072
 golem.de##.media__teaser-list > li[class*="li-hb-"]
-golem.de###screen > div.clearfix[style^="margin: 20px 0; clear: both; max-width: 360px;"]
+golem.de###screen > div.clearfix[style*="margin:"][style*="clear:"][style*="min-height"]
 grapee.jp##div[id^="guno-m"]
 hdblog.it##.news-blocks > div[style^="margin: 16px;height: 90px;background: #000;"]
 hdblog.it##.related-news > .notizie_list > div[style="padding: 0px 16px;height: 250px;"]
