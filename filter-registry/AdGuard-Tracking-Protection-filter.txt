@@ -237,6 +237,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||n-analytics.io^
+||b97.yahoo.co.jp^
+||count.webstatistik-bw.de^$third-party
 ||log.ma-jin.jp^
 ||reingod.com^$third-party
 ||pbjs.sskzlabs.com^$third-party
@@ -4630,6 +4633,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||analytics.maileon.com^
 ||logs.51cto.com^
 ||fly.ohmymag.com^
 ||fly.gentside.com^
@@ -16940,6 +16944,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||wazzup.me/libs/track.js
+||imstream.jp/analytics/js/
+||5-fifth.com/assets/js/pc/analytics.js
 ||stbbs.afreecatv.com/api/*_log.php
 ||wataugademocrat.com/shared-content/art/stats/common/tracker.js
 ||shutto.com/images/pv_beacon.gif
@@ -20160,6 +20167,8 @@ $app=com.miui.analytics
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/84479
+@@||googletagmanager.com/gtm.js$domain=keramundo-onlineshop.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84162
 @@||googletagmanager.com/gtm.js$domain=renault.ru
 ! https://github.com/easylist/easylist/pull/7998
