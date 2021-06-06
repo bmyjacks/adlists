@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 */3 * *'
 
 jobs:
   update-list-and-push-to-github:
@@ -20,7 +20,7 @@ jobs:
         with:
           file-url: 'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt'
           file-name: 'AdAway.txt'
-          location: './filter-registry'
+          location: './filter-registry/universal'
 
 
       # Adguard Home
@@ -151,6 +151,43 @@ jobs:
           location: './filter-registry'
 
 
+      # Specific area
+      - name: AdGuard Russian Filter
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt'
+          file-name: 'AdGuard-Russian-Filter.txt'
+          location: './specific-area'
+
+      - name: AdGuard English Filter
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt'
+          file-name: 'AdGuard-English-Filter.txt'
+          location: './specific-area'
+
+      - name: AdGuard Japanese Filter
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt'
+          file-name: 'AdGuard-Japanese-Filter.txt'
+          location: './specific-area'
+
+      - name: AdGuard French Filter
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt'
+          file-name: 'AdGuard-French-Filter.txt'
+          location: './specific-area'
+
+      - name: AdGuard Chinese Filter
+        uses: carlosperate/download-file-action@v1.0.3
+        with:
+          file-url: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt'
+          file-name: 'AdGuard-Chinese-Filter.txt'
+          location: './specific-area'
+
+
       - name: Commit Updates
         run: |
           if [ -z "$(git status --porcelain)" ]; then
@@ -159,7 +196,7 @@ jobs:
               git add .
               git config --local user.email "bmyjacks@outlook.com"
               git config --local user.name "bmyjacks"
-              git commit -m "Update filters at $(date +"%Y-%m-%d")" -a
+              git commit -m "Update filters at $(date)" -a
             fi
 
       - name: Push to GitHub

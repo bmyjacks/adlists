@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: '0 0 */3 * *'
+    - cron: '0 0 0 * *'
 
 jobs:
   create-a-release:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-             
+
       - name: Set Time
         run: |
           echo "TIME=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
