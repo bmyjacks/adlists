@@ -14,13 +14,13 @@ Select the list you want from the different categories below and add it to your 
 
 ## For specific area
 
-| Name                                                         | Official link                                                | CDN link     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
-| [AdGuard Russian Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_1_Russian) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt) | [CDN link]() |
-| [AdGuard English Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_2_English) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt) | [CDN link]() |
-| [AdGuard Japanese Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_7_Japanese) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt) | [CDN link]() |
-| [AdGuard French Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_16_French) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt) | [CDN link]() |
-| [AdGuard Chinese Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_224_Chinese) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | [CDN link]() |
+| Name                                                         | Official link                                                | CDN link                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [AdGuard Russian Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_1_Russian) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_1_Russian/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/specific-area/AdGuard-Russian-Filter.txt) |
+| [AdGuard English Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_2_English) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/specific-area/AdGuard-English-Filter.txt) |
+| [AdGuard Japanese Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_7_Japanese) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/specific-area/AdGuard-Japanese-Filter.txt) |
+| [AdGuard French Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_16_French) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_16_French/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/specific-area/AdGuard-French-Filter.txt) |
+| [AdGuard Chinese Filter](https://github.com/AdguardTeam/FiltersRegistry/tree/master/filters/filter_224_Chinese) | [Official link](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | [CDN link](https://cdn.jsdelivr.net/gh/bmyjacks/adlists@master/specific-area/AdGuard-Chinese-Filter.txt) |
 
 # Problem feedback
 
