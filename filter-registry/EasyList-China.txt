@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FmLowp2+8Il4fYeQjbw5DA
-! Version: 202106050053
+! Checksum: uEZGlgoFuLDSl+KbwUGoAA
+! Version: 202106060043
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 05 Jun 2021 00:53 UTC
+! Last Modified: 06 Jun 2021 00:43 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -505,6 +505,7 @@
 /websales_push_*_big.php?id=
 /wp-content/themes/iMovies/js/tc_
 /wscdn/*$subdocument
+/wxhfm.html?cid=
 /xgrghru981_23.js
 /xiaoyi/360_
 /xiaoyi/960_
@@ -1239,6 +1240,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||yunchong6.cn^
+||qingsedhhh.xyz^$third-party
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/d/*-*-*.ap|$script,third-party
@@ -3861,9 +3864,6 @@ $websocket,domain=5nj.com|cechi8.com
 /webcam.mp4$domain=91porn.com
 /webcam600.mp4$domain=91porn.com
 /wp-content/uploads/2016/10/2016103005450610.jpg
-/wxh.js$domain=1kkk.com|dm5.com|dm5.hk
-/wxh_asy.js$domain=1kkk.com|dm5.com|dm5.hk
-/wxhfm.html$domain=1kkk.com|dm5.com|dm5.hk
 /ysm.ezprice.net/*
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
@@ -5066,6 +5066,7 @@ _yad_jsonp_
 ||bccnsoft.com/aac/
 ||bceapp.com/jj/1716mid.js
 ||bcebos.com/ad/
+||bcebos.com/im-cs/202ae4a7746e37f7c903ff037f896230.gif
 ||bcebos.com/im-cs/79fb7a5e77433a8760e4ba703ef71154.png
 ||bcebos.com/im-cs/a69c0123ae867534560f1a0df1b6b2a8.png
 ||bcquan.me/front/*_ad
@@ -5515,6 +5516,7 @@ _yad_jsonp_
 ||csdnimg.cn/check-adblock/
 ||csdnimg.cn/public/common/indexSuperise/1.1.1/indexSuperise.js
 ||csdnimg.cn^*#/preview/
+||css.huvmi.com^
 ||cssqt.com/a/images/indexsd.gif
 ||cssqt.com/a/images/right
 ||ctags.cn/9/j2.js
@@ -7473,6 +7475,7 @@ _yad_jsonp_
 ||qpix.com/2021/05/20/Aqcp.gif
 ||qq.com/bbs/bbs_topgg.htm
 ||qq.com/coral/ADS
+||qq.com/fsnb/kf-file/kf_pic/20210412/KFPIC_1218208844_WXIMAGE_66122ef1245747f097b7cedcbb298910.gif
 ||qq.com/game/footerbar$subdocument
 ||qq.com/games/videogame.htm
 ||qq.com/getadv.
@@ -8762,6 +8765,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||b1.cdn.mh3666.com/html/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -9059,6 +9063,7 @@ uestc.edu.cn###bar
 qq.com###barrageBase
 c114.com.cn###barrage_ad
 c114.com.cn###barrage_bg
+mangabz.com###bb1
 hao.rising.cn###bbTao
 my0511.com###bbdcc
 gamme.com.tw###bd
@@ -9127,6 +9132,8 @@ bitauto.com###carshow
 bbs-mychat.com###cate_top > tr > .f_one
 cnbeta.com###cb_share > .fl
 sina.com.tw###cboxOverlay
+mangabz.com###cc1
+mangabz.com###cc2
 dapenti.com###center > div[align="center"][target="_blank"]
 55188.com###center-pic
 huarenjie.com###cftoutiao
@@ -14264,7 +14271,7 @@ ishangman.com#@#.bottom_ad
 douban.com#@#.download-ad
 typecho.wiki#@#.downloadad
 petrochina.com.cn#@#.ggbox
-1090ys2.com,bbt.tv,btbt.tv,nixingle.com#@#.google-ad
+1090ys2.com,bbt.tv,btbt.tv,mmiyue.com,nixingle.com#@#.google-ad
 apk.tw#@#.google_ad
 adbug.cn#@#.google_ads
 mobile01.com#@#.googlead
@@ -14763,6 +14770,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||mmee04.com^$generichide
 @@||mmff30.com^$generichide
 @@||mmgd.xyz^$generichide
+@@||mmiyue.com/zhenbuka2/statics/js/guanggao.js
 @@||mmuu22.link^$generichide
 @@||mmy.la^*300*250
 @@||mnighthk.net/template/*/ad
@@ -17537,6 +17545,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||nlyjs2015.com^
 ||nmlhkj.com^
 ||nmqdnykj.com^
+||nmrlx.cn^
 ||nmtouzi.com^
 ||nnsbbd.com^
 ||nongfumg.com^
