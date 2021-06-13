@@ -185,7 +185,6 @@ salutbonjour.ca#%#//scriptlet("set-constant", "initDetectAdBlock", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49203
 ! https://github.com/AdguardTeam/AdguardFilters/issues/45402
 ! https://github.com/AdguardTeam/AdguardFilters/issues/45401
-||cheezwhiz.z9.web.core.windows.net^
 silo57.ca,7jours.ca,pesesurstart.com,billie.ca,journaldequebec.com,journaldemontreal.com,guideauto.tv,guideautoweb.com#@#.adSense
 silo57.ca,7jours.ca,pesesurstart.com,billie.ca,journaldequebec.com,journaldemontreal.com,guideauto.tv,guideautoweb.com#@#.AdSense
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51380
@@ -963,6 +962,8 @@ lesfrontaliers.lu##.ad-listing
 @@||api.flymenu.fr/js/*$domain=marmiton.org
 ! END: Temporary
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/85172
+@@||assets.blocketcdn.se/my-ads/static/MyAds.*.browser.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85131
 @@||linksredirect.com/?pub_id=$popup,domain=desidime.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84018
