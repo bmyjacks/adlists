@@ -6609,14 +6609,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|VTouhmwR|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|HOhdORSx|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|VTouhmwR|computer/');
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|HOhdORSx|computer/');
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|VTouhmwR|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|HOhdORSx|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|VTouhmwR|computer/');
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|HOhdORSx|computer/');
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -11596,6 +11596,12 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+myshows.me##.DefaultLayout-promo
+spletnik.ru##.external_banner
+spletnik.ru##.marker_ads
+||abw.by/images/static/banners/
+abw.by###banner_service
+newsoneua.tv##.opzg
 zannn.top,innal.top##center > a[target="_blank"] > img
 sportarena.com##[data-banner-name]
 ||112ua.tv/img/jpg/opzg
@@ -11628,6 +11634,10 @@ rifme.net###sverhuAd
 freetp.org##a[href="/dlink.php"][target="_blank"] > img
 uznayvse.ru##.ad_feed_side
 uznayvse.ru##.cls_placeholder_pulse
+yougame.biz##.sotka
+yougame.biz##.f_op
+yougame.biz##.sponsor-banners
+yougame.biz##.block-body > div.mr_first_post
 medialeaks.ru##.roxot-dynamic
 nikvesti.com##a[href="//mfc.mk.ua"] > img
 nikvesti.com##.important-news-block > ul > li > noindex
@@ -11638,6 +11648,7 @@ superplanshet.ru##span[itemprop="articleBody"] > script + div.ya-share2 ~ p
 ||lifedon.com.ua/uploads/posts/2020-05/1590220940_krym.gif
 lifedon.com.ua##.sidebar > section.quote_block ~ section.side_block > a
 3652.ru##.f-banner
+popcake.tv###post-sidebar
 ||tengrinews.kz/ajax/getBanners
 ||xn-----8kcrqilbdemdcgxntc3b9jpae.xn--p1ai/uploads/banner-
 igrozor.org###sideAdv
@@ -11652,6 +11663,8 @@ citydog.by##div[class$="-banner"]
 pnk.tv##.outside-banner
 irecommend.ru##.adfox_block
 ||kraj.by/banners/
+psy.su##.content-column > ul.banners
+psy.su##.advert-aside
 magazine.skyeng.ru##div[id^="ske_banner_sidebar"]
 profile.ru##.special
 ||112ua.tv/img/banner-new/
@@ -11684,6 +11697,7 @@ klops.ru##div[class^="banner-"]
 klops.ru##div[style^="margin-bottom: 20px;"][style*="min-height: 280px;"]
 winitpro.ru###banner_registrator
 rutracker.ru##td[style="logoads"]
+wday.ru##.app div[data-notification-text][class^="creative-wrapper-"]
 ||compendium.com.ua/arts/*.html
 ok-magazine.ru##.fixed_banners
 compendium.com.ua###branding-box
@@ -21847,14 +21861,14 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-coxtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-coxtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-coxtent div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-coxtent div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-coxtent div.product-header ~ div[style^="position:"] ~ div[class]
-otzovik.com##.produkt-coxtent div.review-contents + [class]
-otzovik.com##.produkt-coxtent div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-coxtent div.review-contents > div.review-body > span[style]
+otzovik.com##.produkt-cottent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-cottent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-cottent div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-cottent div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-cottent div.product-header ~ div[style^="position:"] ~ div[class]
+otzovik.com##.produkt-cottent div.review-contents + [class]
+otzovik.com##.produkt-cottent div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-cottent div.review-contents > div.review-body > span[style]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
@@ -22313,6 +22327,7 @@ news.tut.by##.branding_bottom_links
 ||img.tyt.by/*/680x190_*.png
 !
 ! kp.ru,kp.by,kp.kg,kp.kz,kp.md
+kp.ru##div[class^="ad-slot_"]
 kp.ru##div[class^="styled__LayoutWrapper-"] div[data-slot-name] ~ div:not([class]) > div[class*="styled__DigestGrid-"]
 kp.ru##div[data-slot-name] ~ div:not([class]) > div[class^="styled__Wrapper-sc-"][class*=" styled__Wrapper-sc-"]
 kp.ru,kp.by,kp.kg,kp.kz,kp.md##div[data-slot-name]
