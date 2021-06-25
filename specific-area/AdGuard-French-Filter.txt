@@ -101,6 +101,11 @@ capital.fr#@#.plainAd
 @@||bilan.ch^$generichide
 !--------------------------
 !
+!
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/86084
+@@||wakanim.tv/*/advertisement?idepisode=
+||wakanim.tv/*/advertisement?idepisode=$xmlhttprequest,redirect=noopvmap-1.0,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34943
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=trackr.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84223
@@ -972,6 +977,11 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! mz.de - main content hidden
+mz.de#@#.ads-container
+! https://github.com/AdguardTeam/AdguardFilters/issues/85810
+!+ PLATFORM(ext_safari, ios)
+@@||lemonde.fr/*/article/*/publicite-*.html
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85091
 @@||api.delivery-club.ru/api*/ads?
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85131
