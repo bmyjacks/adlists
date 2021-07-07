@@ -685,6 +685,7 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 !-------------------- Specific rules --------------------!
 !--------------------------------------------------------!
 !
+montorrent.com##a[href^="#"].btn-fastest
 jeuxvideo.com##.sideWootbox
 actu-environnement.com##.module_annonce
 orange.fr##.autopromo-prospect
@@ -977,6 +978,8 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/86891
+montorrent.com#@#a[href^="#"]
 ! mz.de - main content hidden
 mz.de#@#.ads-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85810
