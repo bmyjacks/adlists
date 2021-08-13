@@ -611,10 +611,6 @@ basketusa.com#%#//scriptlet("abort-on-property-read", "__yget_ad_list")
 lindependant.fr#%#//scriptlet("abort-on-property-read", "_adb")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30968
 actu17.fr#%#//scriptlet("abort-on-property-write", "td_ad_background_click_link")
-! https://github.com/AdguardTeam/AdguardFilters/issues/25619
-mac4ever.com#%#//scriptlet('abort-current-inline-script', 'document.getElementsByTagName', '/\(\(false\?"https:":document\.location\.protocol\)\+"\/\/"\+/')
-! https://github.com/AdguardTeam/AdguardFilters/issues/25407
-laprovence.com#%#//scriptlet('abort-current-inline-script', 'document.getElementsByTagName', '/\(\(false\?"https:":document\.location\.protocol\)\+"\/\/"\+/')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13192
 jacquieetmicheltv.net#%#var _st = window.setTimeout; window.setTimeout = function(a, b) { if(!/target_url/.test(a)){ _st(a,b);}};
 ! https://forum.adguard.com/index.php?threads/22023/
@@ -977,6 +973,9 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! zeit.de - unable to accept cookies
+@@||consent-cdn.zeit.de/wrapper/tcfv2/*/gdpr/native-message
+@@||consent-cdn.zeit.de/mms/choice_select
 ! focus.de - unable to accept cookies
 @@||cmp.focus.de/wrapper/tcfv2/*/gdpr/native-message
 @@||cmp.focus.de/mms/choice_select
@@ -1265,7 +1264,7 @@ pixiv.net#@#.with-ad
 @@||clipwatching.com/embed-*.html$domain=alltube.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48730
 ! Hdrezka
-@@/script.*.js$domain=hdrezkaonline.com|drhdrezka.com|mrhdrezka.com|hdrezka.sh|livekinopoisk.com|betahdrezka.com|cokinopoisk.com|hdrezka-ag.com|hdrezka.club|hdrezka.cm|hdrezka.co|hdrezka.com.ua|hdrezka.host|hdrezka.lol|hdrezka.name|hdrezka.site|hdrezka.today|hdrezka.tv|hdrezka.website|hdrezkaag.net|hdrezkaweb.com|hdrezkayou.com|instahdrezka.com|myhdrezka.com|rezka.ag|tryhdrezka.com
+@@/script.*.js$domain=hdrezkaonline.com|drhdrezka.com|mrhdrezka.com|hdrezka.sh|livekinopoisk.com|betahdrezka.com|cokinopoisk.com|hdrezka-ag.com|hdrezka.club|hdrezka.cm|hdrezka.co|hdrezka.com.ua|hdrezka.host|hdrezka.lol|hdrezka.name|hdrezka.site|hdrezka.today|hdrezka.tv|hdrezka.website|hdrezkaag.net|hdrezkaweb.com|hdrezkayou.com|instahdrezka.com|myhdrezka.com|freehdrezka.com|rezka.ag|tryhdrezka.com
 @@||static.hdrezka.ac^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46671
 @@||uii.io/links/go$domain=uii.io
@@ -7011,6 +7010,7 @@ debugger:$popup
 ||asharbutdints.info^
 ||askcoobaa.club^
 ||askshopmyna.com^
+||asmodeusfields.com^
 ||aspbateayes.com^
 ||aspparart.com^
 ||associeta.com^
@@ -7100,6 +7100,7 @@ debugger:$popup
 ||c545d86c18d22.com^
 ||caligula.pro^
 ||camatasisal.com^
+||campjupiterjul.com^
 ||canonsnonnoble.com^
 ||caressleazy.com^
 ||cawkyhouhere.com^
@@ -7119,6 +7120,7 @@ debugger:$popup
 ||chiartbar.com^
 ||chidsimp.com^
 ||chimeaverthem.com^
+||chioneflake.com^
 ||choongou.com^
 ||chouftak.net^
 ||cimoghuk.net^
@@ -7338,6 +7340,7 @@ debugger:$popup
 ||fdgdfgfrfg.com^
 ||fdsur.com^
 ||fe7qygqi2p2h.com^
+||feastoffortuna.com^
 ||fedcaperg.com^
 ||feelingsreekpleasantly.com^
 ||feethatterlow.work^
@@ -7345,6 +7348,7 @@ debugger:$popup
 ||femefaih.com^
 ||fergemcot.com^
 ||festads.com^
+||festusthedrag.com^
 ||fewergkit.com^
 ||feyl4mh5to.com^
 ||ffe5bd4c787357c.com^
@@ -7509,6 +7513,7 @@ debugger:$popup
 ||hussarsestop.com^
 ||hvooyieoei.com^
 ||hydrax.net^
+||hynteroforion.com^
 ||i027m.top^
 ||iciernovacods.com^
 ||icyyapemu.com^
@@ -7604,6 +7609,7 @@ debugger:$popup
 ||jquery-cdn.download^
 ||jsyefc.com^
 ||jtpc2pa9o2n7.com^
+||judjetheminos.com^
 ||jugerfowells.com^
 ||jugjetwok.com^
 ||jumpsite.vip^
@@ -7614,6 +7620,7 @@ debugger:$popup
 ||kantiwl.com^
 ||kapronucra.xyz^
 ||kaseine.info^
+||katoptristhemirr.com^
 ||kaunairu.net^
 ||kdjkfjekrkjer.xyz^
 ||keenravenousabsorbed.com^
@@ -7639,8 +7646,10 @@ debugger:$popup
 ||kpqnj.top^
 ||kr8gqjtnos3y.com^
 ||kriscaryn.xyz^
+||kronosspell.com^
 ||ktf5kbl2m4.com^
 ||ktyog.com^
+||kuloffer.com^
 ||kxpdajoet.com^
 ||kzws02uffs.com^
 ||l61wtst3dax5.com^
@@ -7716,6 +7725,7 @@ debugger:$popup
 ||mament.co^
 ||mamminindues.com^
 ||marketwatchjpm.xyz^
+||markofathenaluk.com^
 ||masguydouse.icu^
 ||mattoadbayed.icu^
 ||mauledinsruff.com^
@@ -7727,6 +7737,7 @@ debugger:$popup
 ||meaningevidentlygo.com^
 ||mediadate.net^
 ||medicalcandid.com^
+||medusasglance.com^
 ||megartb.com^
 ||megbuzzedaid.com^
 ||mekstolande.com^
@@ -7904,6 +7915,7 @@ debugger:$popup
 ||peehotim.com^
 ||peekcogentpope.com^
 ||peevopoy.com^
+||pegablackjal.com^
 ||pekreecy.com^
 ||pelidescarga.com^
 ||pelis24.com.es^
@@ -8097,6 +8109,7 @@ debugger:$popup
 ||sawnowepage.com^
 ||saworbpox.com^
 ||schborg.com^
+||scillathemons.com^
 ||sckxppzdm.com^
 ||scrimertigris.com^
 ||scrollhandful.com^
@@ -8370,6 +8383,7 @@ debugger:$popup
 ||wawoalte.com^
 ||waymapbud.com^
 ||wdt9iaspfv3o.com^
+||webadv.co^
 ||webair.com^
 ||webgekeniuos.com^
 ||webytom.com^
@@ -9791,6 +9805,7 @@ debugger:$popup
 ||watch-now.club^$popup
 ||wct.link^$popup,third-party
 ||web-affiliation.com^$popup,third-party
+||webadv.co^$popup
 ||webmasterspub.com^$popup,third-party
 ||weborama.fr^$popup,third-party
 ||webprod.cybertesteurs.com^$popup,third-party,domain=~iss.net
