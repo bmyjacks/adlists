@@ -133,6 +133,8 @@
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||adcent.jp^$third-party
+||pokoran.com^$third-party
 ||world-ad.jp^$third-party
 ||qrclevrfjw.com^$third-party
 ||waqool.com^
@@ -159,7 +161,6 @@
 ||blogparts.dgpot.com^$third-party
 ||af-110.com^$third-party
 ||advack.net^$third-party
-||ad-cheers.com^$third-party
 ||ad-generation.jp^$third-party
 ||adflare.jp^
 ||ad.kodansha.pub^
@@ -239,7 +240,6 @@
 ||bannerfarm.aolp.jp^
 ||koukoku.red^
 ||afi-b.com^$third-party
-||storage-ad.com^
 ||amaprop.net^$third-party
 ||gyro-n.com^$third-party
 ||amoad.com^$third-party
@@ -289,7 +289,6 @@
 ||ad.adpon.jp^$third-party
 ||sdqoi2d.com^$third-party
 ||v4dwkcv.com^$third-party
-||appollo-plus.com^$third-party
 ||fam-ad.com^$third-party
 ||ap.ad-feed.com^$third-party
 ||b16.nakanohito.jp^$third-party
@@ -298,7 +297,6 @@
 ||uh.nakanohito.jp^$third-party
 ||c.nakanohito.jp^$third-party
 ||blog.livelog.biz^$third-party
-||ad-nex.com^$third-party
 ||js.isboost.co.jp^$third-party
 ||appollo.jp^$third-party
 ||ad-tag.biz^$third-party
@@ -783,6 +781,7 @@ nordot.app,animeanime.jp,autocar.jp,cinemacafe.net,gakumado.mynavi.jp,getnavi.jp
 sp.uta-net.com,otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad:upward(1)
 otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad_reserved:upward(1)
 !
+gadget2ch.com#?#.posts-inner:contains(/スポンサードリンク|関連コンテンツ|他サイト様人気記事|最新記事|こちらもオススメ/)
 libae.jp#?#.post > div.pc_display > div[id^="logly"]:upward(1)
 2ch-c.net#?#.nend_text_ad:upward(li)
 altema.jp#?#.slick-track > li:not(:has(> div))
@@ -1147,6 +1146,8 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !-------JS----------
 !-------------------
 !
+! popup on play
+ero-video.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showPopUpBanner')
 ! popup ad
 mjoato3uion.ky-3.net,qaacacthlive.omaww.net#%#//scriptlet('prevent-eval-if', 'hoihoi')
 ! random ads
@@ -1376,6 +1377,13 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.tv,crank-in
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+||digiket.com/xml/ad/$third-party
+moeeki.net###sub > br
+ero-video.net##.base__advert-container
+gadget2ch.com###sidebar-scroll
+gadget2ch.com##.article-text-rss-box
+smt-cinema.com##.prBanner
+nukemanga.com##.scroll
 ||chouseisan.com/assets/js/ad/
 chouseisan.com##.post-top-ad-div
 chouseisan.com##.right-ad-div
