@@ -74,6 +74,7 @@
 !
 ! Section contains list of advertising networks
 !
+||fristminyas.com^$third-party
 ||ukslphcgs.com^$third-party
 ||rozivpxtl.com^$third-party
 ||habrox.xyz^$third-party
@@ -103,6 +104,8 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/91538
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tirexo.work
 ! https://github.com/easylist/listefr/issues/16
 @@||ddl-francais.com/adv/ads/popunder.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86084
@@ -975,6 +978,8 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/90825#issuecomment-902040297
+@@||cdn.bigsv.ru^$domain=seasonvar.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91225
 $subdocument,third-party,domain=cloudvideo.tv,badfilter
 ! zeit.de - unable to accept cookies
@@ -5947,6 +5952,7 @@ debugger:$popup
 ||hentaiheroes.com^$third-party
 ||hexaweb.net^$third-party
 ||hibamedia.com^$third-party
+||hilltopads.com^$third-party
 ||hipercontas.com.br^$third-party
 ||hla-media.com^$third-party
 ||holyclock.com^$third-party
@@ -7113,6 +7119,7 @@ debugger:$popup
 ||ccumhss.com^
 ||cdcwn.xyz^
 ||cepailru.com^
+||ceptavou.net^
 ||cfpushsdevpw.com^
 ||chamsoop.net^
 ||charmstroy.info^
@@ -7186,6 +7193,7 @@ debugger:$popup
 ||cyphersvalure.com^
 ||d0p21g2fep.com^
 ||d2ergeh3ul.com^
+||d300c7cd7d0747f5e21.com^
 ||d4q8zgf756.com^
 ||daccroi.com^
 ||daezorwyn.xyz^
@@ -7238,6 +7246,7 @@ debugger:$popup
 ||doeownfeed.icu^
 ||doghauky.net^
 ||dogiedimepupae.com^
+||dompegho.net^
 ||donbagput.com^
 ||dornpush.com^
 ||doterusksbomb.work^
@@ -7416,6 +7425,7 @@ debugger:$popup
 ||gayonerot.com^
 ||gcontentdelivery.info^
 ||geebicom.net^
+||geesopso.net^
 ||geiey.com^
 ||getcoder.me^
 ||gfgixev3d4.com^
@@ -7430,6 +7440,7 @@ debugger:$popup
 ||glenprejudice.com^
 ||gloojouz.net^
 ||gloorajo.com^
+||glothouw.link^
 ||gluchair.net^
 ||gmidkz5tgm.com^
 ||gobeerta.net^
@@ -7441,9 +7452,11 @@ debugger:$popup
 ||goodbookbook.com^
 ||goofsyoudell.com^
 ||gotsopyam.com^
+||grainsox.net^
 ||gramombird.com^
 ||greatedo.com^
 ||greatene.com^
+||greerlies.pro^
 ||greetham.net^
 ||gregnobs.com^
 ||grimpils.com^
@@ -7467,6 +7480,7 @@ debugger:$popup
 ||hamlipboat.com^
 ||hamtitwet.com^
 ||hartlocalgod.com^
+||hartookr.link^
 ||hathick.info^
 ||haupsoti.net^
 ||hauthain.com^
@@ -7483,6 +7497,7 @@ debugger:$popup
 ||hgub2polye.com^
 ||hicpm5.com^
 ||hicpm6.com^
+||hilltopads.com^
 ||himanyo.com^
 ||himdipsad.com^
 ||himpoipot.com^
@@ -7593,6 +7608,7 @@ debugger:$popup
 ||jbhle.com^
 ||jbm6c54upkui.com^
 ||jeconotinhi.info^
+||jeeshapi.net^
 ||jehudf.com^
 ||jennyunfit.com^
 ||jeoyehkc7z.com^
@@ -7604,6 +7620,7 @@ debugger:$popup
 ||jkolp.com^
 ||joannamadura.pro^
 ||jogdosoaf.com^
+||joheeptaicat.com^
 ||joinhiesnext.com^
 ||joolupid.com^
 ||jotpoolwarren.com^
@@ -7703,6 +7720,7 @@ debugger:$popup
 ||lopefurjay.com^
 ||loppjod.online^
 ||loralana.com^
+||lovacmar.click^
 ||loverayeyard.com^
 ||lowoureat.com^
 ||loxgodpus.com^
@@ -7796,6 +7814,7 @@ debugger:$popup
 ||ndjelsefd.com^
 ||ndyzz.com^
 ||nej7wwpp1u.com^
+||nepsauss.net^
 ||netcpms.com^
 ||netfoxplus.com^
 ||neveryone.club^
@@ -7818,6 +7837,7 @@ debugger:$popup
 ||nfkd2ug8d9.com^
 ||nhqqv.space^
 ||nighting.info^
+||nigrebud.net^
 ||nipwaghue.com^
 ||nishoagn.com^
 ||nittorcub.com^
@@ -7934,6 +7954,7 @@ debugger:$popup
 ||phengung.net^
 ||phenver.com^
 ||phexetos.com^
+||phichaus.top^
 ||picmedia.biz^
 ||pigereboa.site^
 ||pimmuter.com^
@@ -7946,6 +7967,7 @@ debugger:$popup
 ||playhydrax.com^
 ||playurbano.com^
 ||plemil.info^
+||pndelfast.com^
 ||podsupboater.com^
 ||poisom.com^
 ||pojulo.com^
@@ -7978,6 +8000,7 @@ debugger:$popup
 ||psourgem.com^
 ||psughooy.com^
 ||ptigjkkds.com^
+||ptocmaux.com^
 ||pubfruitlesswording.com^
 ||publishgoaling.casa^
 ||punchpeasspat.com^
@@ -8255,6 +8278,7 @@ debugger:$popup
 ||targetan.com^
 ||tarjetarojaonline.tv^
 ||tarsuscaul.com^
+||tauptaup.com^
 ||taxdintcat.com^
 ||tczzzlwpss.com^
 ||technotology.com^
@@ -8271,6 +8295,7 @@ debugger:$popup
 ||tesd2x9bpqjd.com^
 ||teser.net^
 ||texterra.me^
+||thaihary.link^
 ||thiksikr.com^
 ||thoarauy.net^
 ||threepi.de^
@@ -8321,6 +8346,7 @@ debugger:$popup
 ||tuvvpas.com^
 ||tuxhagsol.com^
 ||tweestagamis.com^
+||tweightment.pro^
 ||twk20rw5v1.com^
 ||twospawnmad.com^
 ||tz301.xyz^
@@ -8329,6 +8355,7 @@ debugger:$popup
 ||ubeestis.net^
 ||udncoeln.com^
 ||ughrighug.com^
+||ugrastes.uk^
 ||uh3ye6ux.com^
 ||uitopadxdo.com^
 ||uj0g7.com^
@@ -8489,6 +8516,7 @@ debugger:$popup
 ||zoacaups.net^
 ||zoonoapt.net^
 ||zordough.com^
+||zostofou.link^
 ||zuzodoad.com^
 ||zvetokr2hr8pcng09.com^
 ||zvhuevqkmv.com^
@@ -10171,7 +10199,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||centreautos.com/contents//annonce/$third-party
 ||centredecontrole.biz^$subdocument
 ||centreimmo.com/contents//annonce/$third-party
-||century21.fr^$subdocument,third-party
+||century21.fr^$subdocument,third-party,domain=~lesmeilleurstalents.com
 ||cex.io/rb/$third-party
 ||chaturbate.com^*/?track=$subdocument,third-party
 ||checkout.hidemyass.com/images/merchant/$third-party
@@ -11452,6 +11480,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||img2.uploadhouse.com/fileuploads/26724/2672462255c765ea07696bfef2677aca6cddc275.gif
 ||img4.hostingpics.net/pics/592497Untitled1.jpg
 ||imgshare.info/images/2018/07/21/4FFURwf.png
+||imgshare.info/images/2018/11/14/banner-2.png
 ||jiopic.com/images/2018/10/07/urdu.jpg
 ||oi66.tinypic.com/hvs36e.jpg
 ||s.ynet.me/assets/images/website/vpns.jpg
