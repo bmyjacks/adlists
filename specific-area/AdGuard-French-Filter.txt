@@ -531,6 +531,8 @@ smarthomearea.de#@#.an-advert-banner
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/91892
+zoneseries.stream#$?#a[href="/streaming-video.html"] { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74754
 tv5unis.ca#?#div[style="min-height: 0px;"] > div[class^="css-"] > div[class^="css-"] > div[data-m32-ad]:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69716
@@ -595,6 +597,8 @@ jeuxvideo.com#?#.list-actu-home > li[-ext-has='span.officiel']
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/91892
+zoneseries.stream#%#//scriptlet("adjust-setTimeout", "#regarder", "7000", "0.02")
 ! https://github.com/easylist/listefr/issues/16
 ddl-francais.com#%#//scriptlet('prevent-window-open')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76272
@@ -627,6 +631,9 @@ generation-nt.com#%#Object.defineProperty(window, 'AdvertBay', { get: function()
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/91892
+vf-serie.org,vf-film.org#$#.TPlayer.on::after { display: none !important; }
+vf-serie.org,vf-film.org#$##ads_player_inside { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76814
 forum-airguns.com#$#.three-col tr > td > div[style*="visibility: visible !important; display: block !important; opacity:"]:not([class]):not([id]) { position: absolute !important; left: -3000px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74493
@@ -685,6 +692,12 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 !-------------------- Specific rules --------------------!
 !--------------------------------------------------------!
 !
+zustream.org###plyb
+zustream.org###contenedor > div[class] > a[target="_blank"]
+vf-serie.org,vf-film.org##.bnr
+zoneseries.stream##.movie-aye
+zoneseries.stream##a[href="/streaming-video.html"]
+||zoneseries.stream/streaming-video.html
 montorrent.com##a[href^="#"].btn-fastest
 jeuxvideo.com##.sideWootbox
 actu-environnement.com##.module_annonce
@@ -978,6 +991,12 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/92325
+@@||dailymotion.com*autoplay=1$third-party
+! https://github.com/AdguardTeam/AdguardFilters/issues/91892
+@@||vudeo.net/embed-$subdocument
+@@||uqload.com/embed-$subdocument
+$subdocument,third-party,domain=zustream.org|zoneseries.stream|vf-film.org|vf-serie.org,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90825#issuecomment-902040297
 @@||cdn.bigsv.ru^$domain=seasonvar.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91225
@@ -3356,6 +3375,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /it/adv/*
 /ivdisclaimer.*?aff=
 /iwadserver.
+/jad-money.
 /javascript/ads_
 /jp_display.
 /jquery.adsenseloader.
@@ -6935,6 +6955,7 @@ debugger:$popup
 ||9purdfe9xg.com^
 ||9tumza4dp4o9.com^
 ||9xeqynu3gt7c.com^
+||a-staticwebedia.com^
 ||a0a28d3c97a4e566.com^
 ||a33bb68b84b.com^
 ||a418d4f43c3a32.com^
@@ -6997,9 +7018,11 @@ debugger:$popup
 ||amuckstyvain.com^
 ||amuseer.com^
 ||anansycoses.com^
+||annexere.top^
 ||antecedentponderoverweight.com^
 ||apeassape.com^
 ||appearch.info^
+||appeng.website^
 ||aptantasp.site^
 ||aptgumlack.casa^
 ||aptyoubit.com^
@@ -7397,6 +7420,7 @@ debugger:$popup
 ||freecounter.ovh^
 ||freecounterstat.ovh^
 ||fridric.com^
+||fripe.website^
 ||frmsafe.com^
 ||frodalupri.xyz^
 ||frofanvied.com^
@@ -7452,6 +7476,7 @@ debugger:$popup
 ||goodbookbook.com^
 ||goofsyoudell.com^
 ||gotsopyam.com^
+||goutee.top^
 ||grainsox.net^
 ||gramombird.com^
 ||greatedo.com^
@@ -7757,6 +7782,7 @@ debugger:$popup
 ||mdvkn.com^
 ||mdyhb.com^
 ||meaningevidentlygo.com^
+||mediaathay.org.uk^
 ||mediadate.net^
 ||medicalcandid.com^
 ||medusasglance.com^
@@ -8097,6 +8123,7 @@ debugger:$popup
 ||roletan.com^
 ||roojouma.com^
 ||roolgage.com^
+||rotiqucdne.me.uk^
 ||rouinfernapean.com^
 ||roupsouk.com^
 ||rrtcfwmvhs.com^
@@ -8230,6 +8257,7 @@ debugger:$popup
 ||starsvanslimpid.com^
 ||startmode.biz^
 ||stat.ovh^
+||staticbhyravabhotl.red^
 ||stephn.xyz^
 ||steptaik.net^
 ||sticans.pro^
@@ -8455,6 +8483,7 @@ debugger:$popup
 ||ww2.imgadult.com^
 ||ww2.imgtaxi.com^
 ||ww2.imgwallet.com^
+||wwwtatonnai.uk^
 ||wwznqib.com^
 ||wx61m0tmvh.com^
 ||wynrieth.pw^
@@ -11277,20 +11306,24 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||lickroll.xyz^
 ||nextwesst.xyz^
 ||nextwest.xyz^
-/acceptable.$domain=750g.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|jeuxvideo.com|lestream.fr|musiquemag.com|ozap.com|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com
+/acceptable.$domain=750g.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|jeuxvideo.com|lebonguide.com|lestream.fr|musiquemag.com|ozap.com|plurielles.fr|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com|villaschweppes.com
 /acceptable.$~script
-/autopromo.$domain=750g.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|lestream.fr|millenium.gg|musiquemag.com|ozap.com|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com
+/autopromo.$domain=750g.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|lebonguide.com|lestream.fr|millenium.gg|musiquemag.com|ozap.com|plurielles.fr|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com|villaschweppes.com
 /autopromo.$~script,domain=jeuxvideo.com
-/autopromotion.$domain=750g.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|get-the-look.fr|jeuxactu.com|jeuxvideo.com|lestream.fr|millenium.gg|musiquemag.com|ozap.com|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com
-||a-staticwebedia.com^$third-party
-||annexere.top^$third-party
-||appeng.website^$third-party
-||fripe.website^$third-party
-||goutee.top^$third-party
-||mediaathay.org.uk^$third-party
-||rotiqucdne.me.uk^$third-party
-||staticbhyravabhotl.red^$third-party
-||wwwtatonnai.uk^$third-party
+/autopromotion.$domain=750g.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|get-the-look.fr|jeuxactu.com|jeuxvideo.com|lebonguide.com|lestream.fr|millenium.gg|musiquemag.com|ozap.com|plurielles.fr|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com|villaschweppes.com
+||bdds.jeuxvideo.com^
+||eu1.wbdds.com^
+||internal.750g.com^
+||internal.terrafemina.com^
+||n1.webedia.fr^
+||videos.allocine.fr^
+||videos.beyazperde.com^
+||videos.filmstarts.de^
+||wads.ozap.com^
+||wads.plurielles.fr^
+||wbdds.fr.ign.com^
+||wbdds.lebonguide.com^
+||wbdds.villaschweppes.com^
 .damoh.$media,~third-party
 ||damoh.commentcamarche.net^$media
 /^https?:\/\/(www\.desinhibition\.com|www\.jacquieetmichel\.net|www\.jacquieetmicheltv\.net|www\.jacquieetmicheltv2\.net|www\.lavideodujourjetm\.net|www\.pornovoisines\.com|www\.tonpornodujour\.com|www\.voyeurfrance\.net)\/[0-9a-z]+(.html)?$/$script,subdocument,~third-party
@@ -12197,6 +12230,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||asse.fr^*/bandeau_ok.swf
 ||asse.fr^*/banniere_mcc_billetterie.gif
 ||asset.begeniplus.com/images/banner.png
+||assets.allocine.fr/js/website/webedia-money.
 ||asso-web.com/pub/
 ||astuces-grand-mere.fr/wp-content/uploads/2015/12/cdiscount.gif
 ||astuces-pratiques.fr/users/leplanb
@@ -12911,6 +12945,8 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||idurarweb.com/file/manual/conception_site_
 ||idurarweb.com/file/manual/formation_infographie_
 ||iframe.lachainemeteo.com^
+||ign.com/s/js/zad.js
+||ign.com/zdadkit2.js
 ||iiv.pl/banner/
 ||ijero.com/assets/partners/
 ||imabox.fr/pub/
@@ -14159,8 +14195,6 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||vuplus4k.com/wp-content/uploads/2017/11/02.png
 ||vuplus4k.com/wp-content/uploads/2017/12/cccam.png
 ||wabyle.com/data/sponsors/
-||wads.ozap.com^
-||wads.plurielles.fr^
 ||walfoot.be/pub/
 ||wallagain.cc/content/themes/mft/foo/
 ||wallpapergratuit.org/scripts.inc.js
@@ -18513,6 +18547,7 @@ mavieencouleurs.fr##.logo-brand
 caradisiac.com##.logosPartenaires
 cdiscount.com##.lpTradeRegie
 marmiton.org##.m_amazon_product_bloc
+allocine.fr##.main-banner
 parlonspiscine.com##.margin_bottom[style="padding:5px;border:1px solid #8F8F8F;border-radius:5px 0px 5px 0px;box-shadow: 0px 0px 10px #000000;"]
 aujourdhui-en-france.fr,leparisien.fr##.marketingParisien
 driverscloud.com##.mcdescresumepub
