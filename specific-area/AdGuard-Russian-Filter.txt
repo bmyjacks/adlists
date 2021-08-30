@@ -10294,6 +10294,8 @@ province.ru#$#.flexbannergroup { visibility: hidden !important; height: 1px !imp
 province.ru#$#body div#wrapper { margin-top: -175px !important; }
 !
 ! sports.ru / ua.tribuna.com,by.tribuna.com
+! sports.ru top branding margin
+sports.ru#$#.layout > div.branding-margin { padding-top: 24px!important }
 ! sports.ru - body branding background
 sports.ru#$#body { background: #e5e7e9!important; }
 ! https://forum.adguard.com/index.php?threads/27027/
@@ -11716,6 +11718,7 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 !
 !
+sports.ru##.factoid-coefficient
 youla.ru##div[data-test-component="ProductOrAdCard"] > span[class*=" "]
 ||drugoigorod.ru/banners/
 a.pr-cy.ru##[class*="Ad_"][class*="Link"]
