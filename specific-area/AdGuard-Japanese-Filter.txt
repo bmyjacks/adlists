@@ -781,6 +781,9 @@ nordot.app,animeanime.jp,autocar.jp,cinemacafe.net,mynavi.jp,getnavi.jp,media.mo
 sp.uta-net.com,otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad:upward(1)
 otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad_reserved:upward(1)
 !
+bokuslog.com#?#.readmoreWrap > p > ins.adsbygoogle:upward(1)
+bokuslog.com#?#.widget_text ins.adsbygoogle:upward(.widget_text)
+bokuslog.com#?#.widget_text script[src*="zucks.net"]:upward(.widget_text)
 manga100ka.jp#?#.contents_ad01:upward(1)
 matomecup.com#?#.plugin1_outline > div.plugin1_title:contains(PR):upward(1)
 matomecup.com#?#.plugin3_body > div.ta_center > div.plugin-freearea:upward(3)
@@ -1389,6 +1392,8 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.tv,crank-in
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+my-best.com###ad-product
+bokuslog.com##.adPost
 tenmusume.com##.home_block > div.pc.clearfix
 ear-phone-review.com##.hatena-module-html:first-child
 ear-phone-review.com##.hatena-module-html:nth-last-child(-n+2)
@@ -2030,7 +2035,7 @@ kisspress.jp###footer_adbanner
 kisspress.jp##.adLandscape
 ||vcomi.jp/page_ad/
 l-media.tokyo###text-4
-alpaca76.com,l-media.tokyo###text-5
+roadbike-labo.com,alpaca76.com,l-media.tokyo###text-5
 l-media.tokyo,jj-blues.com###text-8
 l-media.tokyo##.post > .section-in > div[align=center]
 l-media.tokyo##.post > .section-in > table
@@ -2871,7 +2876,7 @@ ekilog.info###widget-under-article
 mammemo.net##.aaprad_con
 mammemo.net##.side_pc_con > div[style="text-align:center; margin-bottom:30px; padding:10px; overflow:hidden"]
 line-emoji.com##div[style="height:90px;;width:100%;"]
-comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
+crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
 pontako.com##div[id^="msmaflink-"]
 wws-channel.com###top-banner
 ||a.toremaga.com/ad/
@@ -3387,7 +3392,7 @@ mantan-web.jp##.ad-rec
 mantan-web.jp##.ad-fb
 yahoo.co.jp##.Module > .Banner
 punisoku.blogo.jp##.main-column-inner > a[href^="https://www.dlsite"]
-l-media.tokyo,jj-blues.com###text-6
+roadbike-labo.com,l-media.tokyo,jj-blues.com###text-6
 ||webcartop.jp/wp-content/themes/cartop/images/banner-motorsports.com.jpg
 webcartop.jp##div[style="min-height: 250px;"]
 webcartop.jp###category-tms2019-ad-hide
