@@ -997,6 +997,8 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/93087
+@@||ahcdn.com^$domain=txxx.com
 ! multiup.org - blocked download
 @@||multiup.org/download
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92325
