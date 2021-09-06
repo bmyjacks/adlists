@@ -784,6 +784,9 @@ nordot.app,animeanime.jp,autocar.jp,cinemacafe.net,mynavi.jp,getnavi.jp,media.mo
 sp.uta-net.com,otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad:upward(1)
 otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad_reserved:upward(1)
 !
+ac-illust.com#?#.ac-mb-3.text-center > div[id^="div-gpt-ad-side"]:upward(1)
+ac-illust.com#?#.ac-p-2.bg-e6e6e6.donation-box-right:has(> .ad-center)
+photo-ac.com#?#.noads-link:upward(1)
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src*="//adm.shinobi.jp/"]:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src^="//j.microad.net/"]:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > ins.adsbygoogle:upward(2)
@@ -1410,6 +1413,18 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.tv,crank-in
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+||financial-c.net/img/am.png
+financial-c.net###custom_html-13
+erogamemod.com##.custom-box3
+erogamemod.com##.eroga-widget
+erogamemod.com###custom_html-14
+erogamemod.com###custom_html-15
+silhouette-ac.com###adsensehpsx
+silhouette-ac.com###adsenseside
+ac-illust.com,photo-ac.com###voting-taboola-wrapper
+ac-illust.com,photo-ac.com##.ac-p-2.bg-light.ac-mt-3
+ac-illust.com##.ad-colored-wrapper
+ac-illust.com##.ad-fluid
 zatugaku-gimonn.com##span[style="font-size:11px;"]
 useful-notes.com##.entry-content > div[align="center"]
 win-tab.net##a[href^="https://www.banggood.com/"]
@@ -1631,7 +1646,7 @@ dragonball-neta.com##.boxzilla-overlay
 gadgetdamage.blog.fc2.com##.admax-ads
 gadgetdamage.blog.fc2.com##.rtbox_tri_rec
 kimootoko.net###custom_html-12.head-under
-kimootoko.net###custom_html-5
+erogamemod.com,kimootoko.net###custom_html-5
 kimootoko.net##.posts-list-upper-widget
 kimootoko.net##div[style^=" width:620px; max-width: 100%"]
 kimootoko.net##div[style=" max-width:90%; margin-top:25px;"]
@@ -2450,7 +2465,6 @@ front-row.jp##.after-btn-fb-nice-ad-pc
 theriver.jp##.related-posts
 alphapolis.co.jp##.ad-long
 newsphere.jp##.wprt-container > center
-photo-ac.com##.ac-p-2.bg-light.ac-mt-3
 bike-news.jp##.left.box300
 cazual.tv##.bnr_wd_wrap
 3751chat.com###chatroom_right
