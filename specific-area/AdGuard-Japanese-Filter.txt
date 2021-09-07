@@ -133,6 +133,7 @@
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||postaffiliatepro.com^$third-party
 ||ads.ressp.net^$third-party
 ||resad.mediaid.click^$third-party
 ||a.overlay.top^$third-party
@@ -402,7 +403,7 @@
 ||i2idata.com^$third-party
 ||i2iserv.com^$third-party
 ||image-rentracks.com^$third-party
-||impact-ad.jp^
+||impact-ad.jp^$third-party
 ||itgear.jp^$third-party
 ||jpassport.jp^
 ||jpg-server.com^$third-party
@@ -443,6 +444,8 @@
 !
 ! These rules are against all kinds of ad blocking reinjection/circumvention scripts
 !
+! health.joyplot.com anti-adb
+||health.joyplot.com/HealthWordsWiki/skin/foradblock.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90462
 warui.intaa.net#$#body[style="margin:5%;"] > #content { color:initial!important;text-shadow:none!important; }
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
@@ -779,11 +782,19 @@ zoku-sei.com#?#.entryinner #ninja-blog-inactive:upward(.entryinner)
 nikkan-gendai.com#?#._popIn_recommend_article_wrapper > a._popIn_recommend_article_ad:first-child + a._popIn_recommend_article_ad:upward(1)
 topics.or.jp#?##_popIn_recommend ul._popIn_infinite_page:has(> li > a._popIn_recommend_article_ad)
 daily.co.jp#?#._popIn_recommend_container a._popIn_recommend_article_ad:upward(._popIn_recommend_container)
-bestcarweb.jp,matome.response.jp,nordot.app,komachi.yomiuri.co.jp,animeanime.jp,books.j-cast.com,cafend.net,chosunonline.com,cinemacafe.net,citicpressjapan.com,cyzo.com,dailyportalz.jp,danshihack.com,mynavi.jp,gamespark.jp,getnavi.jp,gow.asia,honey-mag.jp,iionna.tokyo,inside-games.jp,japanese.joins.com,kanaloco.jp,lamire.jp,macaro-ni.jp,mag.digle.tokyo,media.mamatenna.jp,moneyforward.com,mirror.asahi.com,mxtv.jp,news.tv-asahi.co.jp,realsound.jp,ryukyushimpo.jp,saitama-np.co.jp,smart-flash.jp,taishu.jp,the-uranai.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp#?#li > ._popIn_recommend_article_ad:upward(1)
+goldenyokocho.jp,bestcarweb.jp,matome.response.jp,nordot.app,komachi.yomiuri.co.jp,animeanime.jp,books.j-cast.com,cafend.net,chosunonline.com,cinemacafe.net,citicpressjapan.com,cyzo.com,dailyportalz.jp,danshihack.com,mynavi.jp,gamespark.jp,getnavi.jp,gow.asia,honey-mag.jp,iionna.tokyo,inside-games.jp,japanese.joins.com,kanaloco.jp,lamire.jp,macaro-ni.jp,mag.digle.tokyo,media.mamatenna.jp,moneyforward.com,mirror.asahi.com,mxtv.jp,news.tv-asahi.co.jp,realsound.jp,ryukyushimpo.jp,saitama-np.co.jp,smart-flash.jp,taishu.jp,the-uranai.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp#?#li > ._popIn_recommend_article_ad:upward(1)
 nordot.app,animeanime.jp,autocar.jp,cinemacafe.net,mynavi.jp,getnavi.jp,media.moneyforward.com,the-uranai.jp#?#li > ._popIn_recommend_article_ad_reserved:upward(1)
 sp.uta-net.com,otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad:upward(1)
 otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad_reserved:upward(1)
 !
+blog.fc2.com#?#.plugin1_outline > div.plugin1_body > div.plugin-freearea > script[src*="//adm."]:upward(3)
+blog.fc2.com#?#.plugin2_outline > div.plugin2_body > div.plugin-freearea > div[id^="blz_"]:upward(3)
+blog.fc2.com#?#.plugin2_outline > div.plugin2_body > div.plugin-freearea > iframe[src^="http://customize.dtiserv"]:upward(3)
+blog.fc2.com#?#.plugin2_outline > div.plugin2_body > div.plugin-freearea > iframe[src*="mmaaxx.com/"]:upward(3)
+blog.fc2.com#?#.plugin2_outline > div.plugin2_body > div.plugin-freearea > script[src$="/show_ads.js"]:upward(3)
+blog.fc2.com#?#.plugin1_outline > div.plugin1_body > div.plugin-freearea > div[id^="i2i"]:upward(3)
+blog.fc2.com#?#.plugin1_outline > div.plugin1_body > div.plugin-freearea > script[src*="//adm.shinobi.jp/"]:upward(3)
+majikichi.com#?#.plugin-memo:has(> div.sidetitlebody > div.sidetitle:contains(広告))
 ac-illust.com#?#.ac-mb-3.text-center > div[id^="div-gpt-ad-side"]:upward(1)
 ac-illust.com#?#.ac-p-2.bg-e6e6e6.donation-box-right:has(> .ad-center)
 photo-ac.com#?#.noads-link:upward(1)
@@ -1174,6 +1185,8 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !-------JS----------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/93604#issuecomment-913651082
+blog.livedoor.jp#%#//scriptlet('abort-current-inline-script', 'jmp', 'Math')
 ! popup on play
 ero-video.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showPopUpBanner')
 ! popup ad
@@ -1241,6 +1254,7 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------------------
 !
 ! placeholder
+otajo.jp#$##writerprofile + aside.adsense { height: 90px!important;width: 0!important; }
 togetter.com#$#.clearfix.contents { min-height: auto!important; }
 ! ads
 nukiez.tv#$?#.grid > div[id^=div_fam_async_]:upward(1) { remove: true; }
@@ -1413,6 +1427,10 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.tv,crank-in
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+lifehack2ch.livedoor.biz###right_a
+lifehack2ch.livedoor.biz##.yahoo-ad1b
+majikichi.com##.comment_rank_widget_root + div.main
+||majikichi.com/js/rad_head_
 ||financial-c.net/img/am.png
 financial-c.net###custom_html-13
 erogamemod.com##.custom-box3
@@ -1423,6 +1441,7 @@ silhouette-ac.com###adsensehpsx
 silhouette-ac.com###adsenseside
 ac-illust.com,photo-ac.com###voting-taboola-wrapper
 ac-illust.com,photo-ac.com##.ac-p-2.bg-light.ac-mt-3
+ac-illust.com##.section-creator-ads
 ac-illust.com##.ad-colored-wrapper
 ac-illust.com##.ad-fluid
 zatugaku-gimonn.com##span[style="font-size:11px;"]
@@ -3270,7 +3289,7 @@ zaif.jp##.banner-kv
 buhidoh.net###center-left > .plugin3_outline
 buhidoh.net###center-left > .plugin3box
 buhidoh.net###right > .plugin2_outline:last-child
-l-media.tokyo,javprice.com,buhidoh.net###text-3
+rensai.jp,l-media.tokyo,javprice.com,buhidoh.net###text-3
 ||file.dousyoko.net/uploads/$subdocument
 dousyoko.net##.floatbox1
 dousyoko.net##.floatbox2
