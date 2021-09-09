@@ -997,6 +997,8 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/93910
+otomoto.pl#@#div[data-ad-id]
 ! userload.co - incorrect blocking
 @@||userload.co/embed/$subdocument
 $subdocument,third-party,domain=userload.co,badfilter
