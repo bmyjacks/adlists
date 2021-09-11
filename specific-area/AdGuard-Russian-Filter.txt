@@ -74,6 +74,8 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||banner.aismo.ru^$third-party
+||mainad-codpp.com^$third-party
 ||aeowrb.com^$third-party
 ||apedah.com^$third-party
 ||octonew.me^$third-party
@@ -5836,7 +5838,7 @@ wss://s.zmctrack.net/
 forumodua.com#$?#head > iframe[name] { remove: true; }
 strana.ua#$?#body > iframe[style="display:none"] { remove: true; }
 !
-buhgalter.com.ua,nv.ua,pravda.com.ua,nbnews.com.ua,viva.ua,zn.ua,bigmir.net,glavcom.ua,hvylya.net,inforesist.org,nnovosti.info,obyava.ua,smak.ua,strana.ua,tochka.net,u-news.com.ua,ukr.net,vesti.ua#$?#body > iframe:not([class]):not([id]):not([src]) { remove: true; }
+i.ua,buhgalter.com.ua,nv.ua,pravda.com.ua,nbnews.com.ua,viva.ua,zn.ua,bigmir.net,glavcom.ua,hvylya.net,inforesist.org,nnovosti.info,obyava.ua,smak.ua,strana.ua,tochka.net,u-news.com.ua,ukr.net,vesti.ua#$?#body > iframe:not([class]):not([id]):not([src]) { remove: true; }
 kriminal.tv,i.ua,lifedon.com.ua,football24.ua,vsetv.com,112.ua,gorod.dp.ua,autoua.net,beauty.ua,besplatka.ua,enovosty.com,facenews.ua,forumodua.com,hvylya.net,kolobok.ua,kp.ua,liga.net,orakul.com,real-vin.com,segodnya.ua,tv.ua,ubr.ua,vesti.ua,vgorode.ua#$?#body iframe[name]:not([class]):not([id]):not([src]) { remove: true; }
 newsyou.info,4mama.ua,autoua.net,censor.net,eurointegration.com.ua,gagadget.com,internetua.com,okino.ua,orakul.com,ringside24.com,toneto.net,tvgid.ua#$?#head > iframe[name]:not([class]):not([id]):not([src]) { remove: true; }
 !
@@ -6930,15 +6932,11 @@ razlozhi.ru#$?#div:matches-css(right:235px) { remove: true; }
 razlozhi.ru#$?#body > div[class][style^="background: url"][style*="rgb"][style*="; width:"][style*="; height:"] { width: 100% !important; }
 razlozhi.ru#$?#body[class] { margin-right: 0 !important; overflow: visible !important; }
 !#endif
-! https://github.com/AdguardTeam/AdguardFilters/issues/60777
-2gis.*#$?#div[style^="position: relative; overflow: hidden; width: 100%; height: 100%;"] div:has(> header:contains(Организации рядом)) { remove: true; }
-2gis.*#$?#div[style^="position:relative;overflow:hidden;width:100%;height:100%"] div:has(> header:contains(Организации рядом)) { remove: true; }
-2gis.*#$?#div[style^="position: relative; overflow: hidden; width: 100%; height: 100%;"] div:has(> header:contains(Организации рядом)) { remove: true; }
-2gis.*#$?#div[style^="position:relative;overflow:hidden;width:100%;height:100%"] div[style*="cubic-bezier"] > div[style="min-width: 100%; max-width: 100%;"]:has(div[title^="Реклама"]) { remove: true; }
-2gis.*#$?#div[style^="position: relative; overflow: hidden; width: 100%; height: 100%;"] div[style*="cubic-bezier"] > div[style="min-width: 100%; max-width: 100%;"]:has(div[title^="Реклама"]) { remove: true; }
-2gis.*#?#div[style="position:relative;overflow:hidden;width:100%;height:100%"] div:has(> header:contains(Похожие организации)) + div[style*="ms cubic-bezier"]
-2gis.*#?#div[style="position: relative; overflow: hidden; width: 100%; height: 100%;"] div:has(> header:contains(Похожие организации)) + div[style*="ms cubic-bezier"]
-2gis.*#?#header > a[href^="http://redirect.2gis.com/adv/"]:upward(2)
+! https://github.com/AdguardTeam/AdguardFilters/issues/93452
+2gis.*#?#div[style^="transform:none;"] div[style*="transition:"][style*="cubic-bezier"]:has(div[title="Реклама"])
+2gis.*#?#div[style^="transform:none;"] span:contains( — реклама):upward(2)
+2gis.*#?#div[class] > div[style*="transition:"][style*="cubic-bezier"]:has(div[title^="Реклама."])
+2gis.*#?#div[style^="--bg-color:"] + div > div + div > div:has(> div > span:contains( — реклама))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71482
 astrosfera.ru#?#.grid-box > div.module:has(> div[id^="yandex_rtb_"])
 astrosfera.ru#?#.grid-box > div.module:has(> p > script[src^="//bhghfsa.info"])
@@ -8652,8 +8650,6 @@ iguides.ru#%#//scriptlet("json-prune", "recs_group.*.tiles")
 meteocenter.net#%#//scriptlet("abort-current-inline-script", "ar_Tail")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91310
 car.ru#%#//scriptlet("set-constant", "car__idle", "false")
-! popunder on click
-doramakun.ru#%#//scriptlet("abort-current-inline-script", "document.createElement", "utarget_script")
 ! 80-e.ru ad scripts
 80-e.ru#%#//scriptlet("abort-current-inline-script", "document.createElement", "document.createElement('script');")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88530
@@ -8877,7 +8873,7 @@ windowspro.ru#%#//scriptlet("abort-current-inline-script", "document.createEleme
 ! utarget
 jetvis.ru#%#//scriptlet("abort-on-property-read", "u_global_data")
 narod.ru,at.ua#%#//scriptlet("abort-current-inline-script", "u_global_data")
-kinogo.eu,kino-live2.org#%#//scriptlet("abort-on-property-read", "utarget_script")
+friends-online.me,doramakun.ru,kinogo.eu,kino-live2.org#%#//scriptlet("abort-on-property-read", "utarget_script")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/36662
 web-ru.net#%#window.open=function(){};
 web-ru.net#%#//scriptlet("prevent-window-open")
@@ -11748,6 +11744,7 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 !
 !
+||friends-online.me/tj.js
 ||3ost.ru/banners/
 zadereyko.info##table[width="242"][height="402"]
 zadereyko.info##td[align="center"][height="405"]
@@ -15355,7 +15352,7 @@ gamesubject.com##.advb
 kidstaff.com.ua##.advers
 turizm.ru##.adversing_block
 turizm.ru##.adversing_operator_count
-kommersant.ru,dvnovosti.ru,kubnews.ru,turbopages.org,chernozem.info,flashgames.ru,footballreview.ru,inforesist.org,msgforum.ru,newsland.com,province.ru,tenews.org.ua,tltorrent.ru,zab.ru##.advert
+lubertsyriamo.ru,kommersant.ru,dvnovosti.ru,kubnews.ru,turbopages.org,chernozem.info,flashgames.ru,footballreview.ru,inforesist.org,msgforum.ru,newsland.com,province.ru,tenews.org.ua,tltorrent.ru,zab.ru##.advert
 odnako.org##.advert-main-page
 apostrophe.ua##.advertinline
 film.ru##.adverts-banner
