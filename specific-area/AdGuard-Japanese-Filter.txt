@@ -789,6 +789,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+pointmall.rakuten.co.jp#?#.side-box > div[id^="rdn-adspot"]:upward(1)
 karapaia.com#?#.readmore-header:has(> div.ads-label)
 hattatu-matome.ldblog.jp#?#.plugin-memo > div.side > ins.adsbygoogle:upward(2)
 hattatu-matome.ldblog.jp#?#.plugin-memo > div.side > div.osusume-side:upward(2)
@@ -1190,6 +1191,8 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !-------JS----------
 !-------------------
 !
+! tokyomotion.net ad initiator
+tokyomotion.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window[')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94352
 shikaku2ch.doorblog.jp#%#//scriptlet("prevent-setTimeout", "floatingAd", "1000")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93604#issuecomment-913651082
@@ -1450,6 +1453,15 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+cgames.jp##.PR300_box
+cgames.jp##div[style="min-width: 728px; min-height: 90px;"]
+pointmall.rakuten.co.jp##.mypage-ads
+pointmall.rakuten.co.jp##.side-mypage-ad-wrap
+pointmall.rakuten.co.jp##.gamelist-ads
+pointmall.rakuten.co.jp##div[style="width:300px;height:250px;"]
+pointmall.rakuten.co.jp##div[style="width:728px;height:90px;"]
+butsuyoku-gadget.com##.dp-widget-header-title
+butsuyoku-gadget.com##div[id*="-"][style="margin-left: auto; margin-right: auto; text-align: center; "]
 ||mdn.co.jp/adModules/
 mdn.co.jp##.modAdBanner-3
 nichepcgamer.com###side-fixed a[href^="https://www.amazon.co.jp/"]
@@ -2849,7 +2861,6 @@ famitsu.com##.banner-top-header
 eromovie-s.com###fanza_recommend
 ||dmm.co.jp/af/
 ||mgstage.com/afscript/
-||video.fc2.com/api/v3/videoplay/$domain=tokyomotion.net
 ||tokyo-motion.net/bnr/
 tokyomotion.net##.junk-ad-body
 ||tsumanne.net/maniax.js
@@ -3103,9 +3114,10 @@ tv-asahi.co.jp##.common-box-ad-rectangle
 tv-asahi.co.jp##.analytics_pr_rect
 tv-asahi.co.jp##.newHeaderBanner
 nurumayu.net##img[width="300"][height="250"]
-tmall.dropgame.jp##.bottom-rectangle
-tmall.dropgame.jp##.ssp_300_01
-tmall.dropgame.jp,tmall.wamgame.jp##.ssp_300_02
+dropgame.jp##.bottom-rectangle
+dropgame.jp##.ssp_300_01
+dropgame.jp##.ssp_728_01
+dropgame.jp,wamgame.jp##.ssp_300_02
 cmnw.jp##.add_2
 cmnw.jp##.prtxt
 cmnw.jp##.side_pr
@@ -3338,6 +3350,7 @@ news.goo.ne.jp##.gn-partition.sp-padding15
 heartlife-matome.com##.arttop
 gamejksokuhou.com##.side_amazon
 getnews.jp##.custom-html-widget > center > a[target="_blank"] > img
+moeimg.net##.news
 moeimg.net###sp_list_recommend_frame + div.pc_only > div.pc_only.post:first-child
 moeimg.net##.pc_ad
 h723.blog.fc2.com##div[align="left"]
