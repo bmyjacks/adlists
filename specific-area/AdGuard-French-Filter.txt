@@ -605,6 +605,10 @@ jeuxvideo.com#?#.list-actu-home > li[-ext-has='span.officiel']
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/95087
+dl-protect.info#%#//scriptlet("prevent-setInterval", "var _0x")
+! https://github.com/AdguardTeam/AdguardFilters/issues/95088
+wawacity.one#%#//scriptlet("prevent-setInterval", "var _0x")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91892
 zoneseries.stream#%#//scriptlet("adjust-setTimeout", "#regarder", "7000", "0.02")
 ! https://github.com/easylist/listefr/issues/16
@@ -702,6 +706,10 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 !-------------------- Specific rules --------------------!
 !--------------------------------------------------------!
 !
+letemps.ch##.ad-container
+dl-protect.info##.blkad
+||dl-protect.info/170921.js
+||wawacity.one/170921.js
 ||core.unit-sense.net/app-booter?slotId=
 zustream.org###plyb
 zustream.org###contenedor > div[class] > a[target="_blank"]
@@ -940,6 +948,11 @@ lefigaro.fr##.fig-adgps
 ||homad-global-configs-eu-fra.schneevonmorgen.com.s3.amazonaws.com/www.clubic.com/config.json?cache=player.m6web.fr
 ||static.lequipe.fr/v6/js/popinVideo.js
 playerhd2.pw###micontenedor > div#total
+! https://github.com/AdguardTeam/AdguardFilters/issues/95052
+! A service worker loads all request using fetch, so all requests are detected as a xmlhttprequest and a rule like this:
+! "$third-party,xmlhttprequest,domain=...|fmovie..." causes that these requests are blocked.
+! It doesn't happen when service worker is blocked.
+||fmovies.*/sw.js
 ! added when wadsBlocking is set to 1
 ||static1.purepeople.com/skins/autop.png
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34483
@@ -1002,6 +1015,11 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/95052
+@@||bunnycdn.ru^$xmlhttprequest,domain=fmovies.*
+@@||cdnjs.cloudflare.com/ajax/libs/$xmlhttprequest,domain=fmovies.*
+! https://github.com/AdguardTeam/AdguardFilters/issues/95087
+@@||uptostream.com^$csp=worker-src 'none'
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93910
 otomoto.pl#@#div[data-ad-id]
 ! userload.co - incorrect blocking
