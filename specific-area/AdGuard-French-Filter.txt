@@ -144,7 +144,10 @@ fourtoutici.pro#%#//scriptlet("prevent-setTimeout", "test.offsetHeight")
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lecourrier-du-soir.com
 !+ NOT_OPTIMIZED
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_*.js$domain=lecourrier-du-soir.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/95534
 ! https://forum.adguard.com/index.php?threads/41486/
+commentcamarche.net#%#//scriptlet("json-prune", "siteParams.aabMessage")
+commentcamarche.net#%#//scriptlet("set-constant", "integrityObserver.corrupted", "false")
 @@||astatic.ccmbg.com/fc/js/prebid?v=$domain=commentcamarche.net
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=commentcamarche.net
 ||c.amazon-adsystem.com/aax2/apstag.js$script,redirect=noopjs,important,domain=commentcamarche.net
@@ -706,6 +709,7 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 !-------------------- Specific rules --------------------!
 !--------------------------------------------------------!
 !
+commentcamarche.net##.ads--insertor-casper
 seriecenter.com##a[class^="ebooks_orange_72890"]
 letemps.ch##.ad-container
 dl-protect.info##.blkad

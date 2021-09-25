@@ -9486,7 +9486,7 @@ sovetromantica.com#$#.sbrand--back { background-image: none !important; }
 sovetromantica.com#$#.mainContainer { padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44207
 ! background is used for ads, so moved from Annoyances filter
-lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.tw,lostfilm.tv#$#body { background: #000000!important; }
+lostfilm.pro,lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.tw,lostfilm.tv#$#body { background: #000000!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43591
 animevost-org.com#$#body > div#wrap { margin: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43330
@@ -11762,6 +11762,9 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 !
 !
+2shemi.ru##.mh-sidebar > div[id^="text-"]
+mp3mn.net##.onesongblock-down[target="_blank"]
+thecode.media##.praktikum-b-content-wrp
 zr.ru##.header_banner
 ua.news##.single-sidebar > a[target="_blank"]
 hitagro.ru##img[width="200"][height="360"]
@@ -13335,6 +13338,7 @@ dekapusta.com.ua##.feed-adv
 zik.ua##.finpamp
 apteka.ua##main + aside > hr
 os-helper.ru##img[src*="-315x560-"]
+koko.by##.widget_banner
 koko.by##div[adv_banner]
 koko.by##.elementor-widget-sidebar a:not([href^="https://koko.by/"]) > img
 ||severpost.ru/img/matrix51/
@@ -21689,9 +21693,10 @@ fastpic.ru,fastpic.org###bleft
 fastpic.ru,fastpic.org###bright
 !
 ! lostfilm.tv, mirrors: lostfilm.tw,lostfilm.run
-lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.tw,lostfilm.tv##.oi_papa_oi
-lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.tw,lostfilm.tv##body > a[onclick]
-lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.tw,lostfilm.tv##div[style="padding-top:240px;width: 100%;"]
+lostfilm.pro,lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.tw,lostfilm.tv##a[onclick^="backToCshponk"]
+lostfilm.pro,lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.tw,lostfilm.tv##.oi_papa_oi
+lostfilm.pro,lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.tw,lostfilm.tv##body > a[onclick]
+lostfilm.pro,lostfilmtv.site,lostfilm.uno,lostfilm.run,lostfilm.tw,lostfilm.tv##div[style="padding-top:240px;width: 100%;"]
 ||lostfilm.tv/css*/b/
 ||lostfilm.tv/pereP/?a=
 ||lostfilm.tv/?a=$script
