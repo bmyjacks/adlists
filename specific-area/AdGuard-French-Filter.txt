@@ -10705,8 +10705,8 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||img.fasttechcdn.com$domain=trackitonline.org|trackitonline.ru
 ||img.grouponcdn.com/gpn/$image,third-party
 ||img.nuxit.com/banners/
-||img.pmdstatic.net/scale/*/300xauto/*/picture.gif
-||img.pmdstatic.net/scale/*/360xauto/*/picture.gif
+||img.pmdstatic.net/scale/*/300xauto/*/picture.$image,xmlhttprequest
+||img.pmdstatic.net/scale/*/360xauto/*/picture.$image,xmlhttprequest
 ||img.root-top.com/topsite/$third-party
 ||img.webme.com/pic/p/piriketseverler/
 ||img6.bricozone.be/jquery-1.2.6.min.js
@@ -16274,6 +16274,9 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.cadrepubfooter
 ##.campagnePUBcoldroite
 ##.cap-ads
+##.cap-ads-mobile
+##.cap-ads-placeholder
+##.cap-ads-text
 ##.carbon-ad
 ##.card--row-ads
 ##.carouselpub
