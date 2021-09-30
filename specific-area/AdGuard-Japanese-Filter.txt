@@ -146,7 +146,7 @@
 ||world-ad.jp^$third-party
 ||qrclevrfjw.com^$third-party
 ||waqool.com^
-||ad.nwi.jp^
+||ad.nwi.jp^$third-party
 ||devo.jp^$third-party
 ||ad.ddo.jp^
 ||blogroll.click^
@@ -445,6 +445,8 @@
 !
 ! These rules are against all kinds of ad blocking reinjection/circumvention scripts
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/95723
+tabtter.jp#@##googlead
 ! health.joyplot.com anti-adb
 ||health.joyplot.com/HealthWordsWiki/skin/foradblock.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90462
@@ -1482,6 +1484,7 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+wiki.yjsnpi.nu##div[style$="min-height:250px;"]
 oshiete-kun.net##.goods
 michaelsan.livedoor.biz##.main > div > a[style][href*="amazon.co.jp/"]
 dragonquestwalk.blog.jp##.l-sidebar-b > div.plugin-memo:last-of-type
