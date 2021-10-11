@@ -446,6 +446,10 @@
 !
 ! These rules are against all kinds of ad blocking reinjection/circumvention scripts
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/96832
+g-pc.info#%#//scriptlet('set-constant', 'adsbygoogle.loaded', 'true')
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=g-pc.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87846
 musenboya.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
@@ -800,6 +804,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+realtime-chart.info#?#.nbox1-1[style]:contains(広告):upward(tr[bgcolor="#fff"])
 smart-flash.jp#?#.section > h3:contains(今、あなたにおすすめの記事)
 momiage.work#?#.hatena-module-html > div.hatena-module-body > a[href^="https://tradingview"]:upward(2)
 momiage.work#?#.hatena-module-html > div.hatena-module-body > ins.adsbygoogle:upward(2)
@@ -1238,6 +1243,8 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !-------JS----------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/96864
+realtime-chart.info#%#//scriptlet('abort-current-inline-script', 'document.write', 'RakutenVictory')
 ! popup on mobile
 embed.share-videos.se#%#//scriptlet('prevent-window-open')
 ! skip in-game ad
@@ -1513,6 +1520,10 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+yorozoonews.jp##.module-ad-header
+yorozoonews.jp##.module-list-articles__ad
+yorozoonews.jp##.module-list-articles__item--ad
+yorozoonews.jp##div[id^="yzpc"]
 fujossy.jp##.story__header-adbox
 crossbike-navi.com##.divAD_L
 pakosen.com###scrollfix > div.widget_custom_html
@@ -1603,6 +1614,7 @@ re-doing.com###st_custom_html_widget-8
 radiolife.com###a-banner
 radiolife.com###banner
 radiolife.com###side-banner
+lionmaru.blog###primary-sidebar > aside.widget_text:last-child
 lionmaru.blog###content-sidebar > aside.widget_custom_html
 lionmaru.blog###text-12
 lionmaru.blog##.entry-content > a[href^="https://www.amazon.co.jp/"]
@@ -1936,6 +1948,7 @@ gorin.jp###entranceAD
 ||gorin.jp/tokyo-assets/static/entrance/gorin_tead_prd/$subdocument
 icon.jp##.post-box-ad
 php.co.jp##.ad-pr
+anime-torrent.com###block-2
 anime-torrent.com###custom_html-43
 anime-torrent.com###media_image-3
 4ka.net##.as-center-468px
@@ -2414,6 +2427,8 @@ aniplexplus.com##.hotentry
 sekai-kabuka.com##div[style^="width:728px;height:90px"]
 sekai-kabuka.com##div[style*="width:160px;height:600px"]
 sekai-kabuka.com###link_url_td > div[class]:last-of-type
+realtime-chart.info##.news_l
+realtime-chart.info##div[style="height:340px;background:#fff;"]
 realtime-chart.info,sekai-kabuka.com###neko_ad
 realtime-chart.info##div[id][style="font-size:28px;background:#fff"]
 realtime-chart.info##div[style*="width:728px;height:90px"]
