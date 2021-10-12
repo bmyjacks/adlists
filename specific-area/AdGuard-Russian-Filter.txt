@@ -697,6 +697,7 @@
 ||icbwyfg.pro^$third-party
 ||6esfc37938pur4.com^$third-party
 ||vast.videocdn.tv^
+||adfinity.pro^$third-party
 ||ackhoo.com^$third-party
 ||gadgettest.ru^$third-party
 ||portakamus.com^$third-party
@@ -7317,6 +7318,7 @@ sports.ru#?#main > article.material-list__item:has(> a[href^="https://redirect.a
 sports.ru#?#.aside-news-list > li.aside-news-list__item:has(> a[href^="https://redirect.appmetrica.yandex.com/"])
 sports.ru#?#.columns-layout__right > section:has(> div[data-is-ad-poll="1"])
 !
+ng.ru#?#.sideitem > h3 > a:contains(/^Другие новости$/)
 allbasketball.org#?#aside > div.block-sidebar-wrapper > div.block-sidebar > div.card-header > h5[class]:contains(Рекомендуем):upward(div.block-sidebar-wrapper)
 gazeta.ru#?#.b_rightcol > div[style]:has(> div[style] > noindex + div[id^="rnet_gazeta"])
 studopedia.info#?#td[width] > center:has(> div[class^="link"] > ins.adsbygoogle)
@@ -11762,6 +11764,14 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 !
 !
+tonkosti.ru##div[class^="sys-pwd__"][class*="-spacer"]
+tonkosti.ru##.azorella-header
+tonkosti.ru##.footer-azorella
+tonkosti.ru##.azorella-slider
+tonkosti.ru##.grid__item--sky
+tonkosti.ru##div[data-antares="true"]
+||tonkosti.ru/JS/js2mem.js.php
+gazeta.ru##a[href^="https://winline.ru/"]
 ixbt.com##.company-block
 ||allbasketball.org/*-360-640-rub.gif
 allbasketball.org##aside > div.block-sidebar-wrapper.sticky
@@ -12328,12 +12338,13 @@ animeonline.cc##.wrap > a[target="_blank"]
 animeonline.cc##.side > a[target="_blank"] > img
 agroter.com.ua##.site-main > img
 cripo.com.ua###ai_widget-2
+itznaniya.ru##.ai_widget
 miasskiy.ru##.papexreka
 miasskiy.ru##.papexrec-adlabel
 /\/(banner.*|d[0-9]-[0-9]|perepis-czvetnaya)\.jpg/$domain=miasskiy.ru
 habr.com##.promo-block_courses
 doctorrouter.ru##.mymodal
-smotret-multfilmi.net##.dnewrr
+torrenther.com,smotret-multfilmi.net##.dnewrr
 rmnt.ru##div[id^="ad-in-content-"]
 ideaprog.download##.new_yapr
 ||kod.ru/assets/images/promo/
