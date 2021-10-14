@@ -806,6 +806,9 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+akb48taimuzu.livedoor.biz#?##extra div.plugin-memo > div.side > div[id]:upward(.plugin-memo)
+akb48taimuzu.livedoor.biz#?##extra div.plugin-memo script[src*="i-mobile.co.jp/"]:upward(.plugin-memo)
+akb48taimuzu.livedoor.biz#?##extra div.plugin-memo script[src^="https://js.gsspcln.jp/"]:upward(.plugin-memo)
 blog.fc2.com#?##reserve > section.side-menu > div.sidebar-style ins.adsbygoogle:upward(section.side-menu)
 4gamer.net#?#.DISPLAY.NODELIST.RECENT_NEWS_CONTAINER:has(> article[id^="BANNER-4gamersp-Contents_Bottom_"])
 realtime-chart.info#?#.nbox1-1[style]:contains(広告):upward(tr[bgcolor="#fff"])
@@ -1526,6 +1529,10 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+cookpad.com##div[data-ad-slot]
+saruwakakun.com###custom_html-2:last-child
+saruwakakun.com##.infeedads
+akb48taimuzu.livedoor.biz###sub
 gamebiz.jp##.takeover
 gamebiz.jp##.footer__banners
 ||00m.in/banner/
