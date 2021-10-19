@@ -1539,6 +1539,9 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+||suzaka.ne.jp/ban/banner_rt.php
+||suzaka.ne.jp/bb/
+japanese.engadget.com##img[style="width: 600px; height: 100px;"]
 eromanga-mainichi.com##.adadtitle
 ||rss-loader.com/channel/dnallmedia/adfeedmai/$domain=eromanga-mainichi.com
 hotfrog.jp##div.bg-white.text-center
@@ -4162,6 +4165,7 @@ itest.5ch.net###js-cardview_ad
 itest.5ch.net##.js-cardview_ad-320x180 > div
 itest.5ch.net##.js-cardview_ad-320x180 > iframe
 itest.5ch.net##.js-cardview_ad-320x50
+itest.bbspink.com##div[style^="height: 250px"]
 itest.bbspink.com##.js-cardview_ad-320x50 > div
 itest.5ch.net##.js-overlay_ad
 itest.5ch.net##.ranking > div[style^="height: 320px;"]
@@ -4230,6 +4234,8 @@ gtoys.blog.fc2.com###adright
 !
 ! White list. Fixing filtration errors(false-positive)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/97511
+@@||thumbnail.thench.net/thumb/$image,domain=itest.5ch.net
 ! game.yomipo.yomiuri.co.jp - fixing quiz
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=game.yomipo.yomiuri.co.jp
 ! whole breakage
