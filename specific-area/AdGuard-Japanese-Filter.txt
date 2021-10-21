@@ -568,7 +568,7 @@ manga1000.com#@#iframe[width="300"][height="250"]
 @@||ad.ad-stir.com/ad$domain=h-ken.net
 @@||js.ad-stir.com/js/adstir_magnify.js$domain=h-ken.net
 !#endif
-!+ PLATFORM(android)
+!+ PLATFORM(android, ext_chromium, ext_ff, ext_ublock)
 h-ken.net#%#//scriptlet("abort-current-inline-script", "onload", "ad")
 ! https://github.com/AdguardTeam/AdguardFilters/pull/61513/
 @@||my0nio.seesaa.net^$generichide
@@ -1540,6 +1540,9 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+warorince.com###sidemenu_widget-2 ~ .widget_st_custom_html_widget.ad
+biz-journal.jp##.rankpr
+biz-journal.jp###adEntryMainBottom
 doktornakanoblog.com##.mainbox > .adbox + .widget_text
 sugi9532.com###custom_html-47
 sugi9532.com###custom_html-50
@@ -1869,7 +1872,7 @@ itmedia.co.jp##div[style^="font-family:Gill Sans;"][style*="font-size:12px;"][st
 gamewith.jp###js-ad-jack
 tarosoku.com###execphp-3
 birori-blog.com,tarosoku.com##.side-topad
-tarosoku.com##.st-infeed-adunit
+motifyublog.com,tarosoku.com##.st-infeed-adunit
 wikinis.net##.entry-content > table[style="border-style: none;"][border="1"]
 ||digiket.com/xml/ad/$third-party
 moeeki.net###sub > br
@@ -2666,7 +2669,7 @@ nijifeti.com##.topdmm
 nijifeti.com##div[style="width: 300px;height: 250px;"]
 advertimes.com###top-banner-base
 ||jjazz.net/img/banner/dynabook_sb.jpg
-corriente.top,sundaygamer.net,shinumae.oops.jp,app-story.net##.adbox
+warorince.com,motifyublog.com,corriente.top,sundaygamer.net,shinumae.oops.jp,app-story.net##.adbox
 business.nikkei.com##.dag_bunner
 adminweb.jp,dbonline.jp,howtonote.jp,javadrive.jp###adbottom_box
 adminweb.jp,dbonline.jp,howtonote.jp,javadrive.jp###adcenter_box

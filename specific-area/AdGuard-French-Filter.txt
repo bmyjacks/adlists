@@ -19984,6 +19984,7 @@ heures.be,hours.be,openingstijdengids.nl,openingsurengids.be##a[class^="aff"]
 @@||bibed-concept.com/modules/blockadvertising/advertising_custom.jpg
 @@||bourgogne-publicite.com/jeuxconcours/_bienpublic/$image,domain=bienpublic.com
 @@||bs.serving-sys.com/Serving/adServer.bs?$popup,domain=guide-epargne.be
+@@||cdn.adsafeprotected.com/iasPET.$script,domain=gentside.com|maxisciences.com|ohmymag.com
 @@||cdn.adswizz.com/adswizz/js/SynchroClient2.js$script,domain=nrj.fr
 @@||cdn.ay.gy/static/image/$image,~third-party
 @@||cdn.inskinmedia.com/isfe/*/swfs/core.swf$domain=rfi.fr
@@ -20038,6 +20039,7 @@ heures.be,hours.be,openingstijdengids.nl,openingsurengids.be##a[class^="aff"]
 @@||partner.skiset.com/js/partnerIntegration.js$script
 @@||partners.doctolib.fr/doctors/detect_partner_profile?$script,third-party,domain=aphp.fr
 @@||partners.doctolib.fr^$subdocument,third-party
+@@||pixel.adsafeprotected.com/services/pub?anId=$xmlhttprequest,domain=gentside.com|maxisciences.com|ohmymag.com
 @@||planet-casio.com/images/ad/$image,~third-party
 @@||premiere.fr/inextenso/uploads/300x150_$image,domain=premiere.fr
 @@||prime-journal.online^*=com_acymailing&*&mailid=$popup
@@ -20047,6 +20049,8 @@ heures.be,hours.be,openingstijdengids.nl,openingsurengids.be##a[class^="aff"]
 @@||restoconnection.fr/wp-content/uploads/2014/12/publicite-$domain=restoconnection.fr
 @@||rockman.fr/Ads/$image
 @@||s3.amazonaws.com/homad-global-configs.schneevonmorgen.com/hd-main.js?cache=$xmlhttprequest,domain=gmx.at|gmx.net|web.de|welt.de
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=gentside.com|maxisciences.com|ohmymag.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$other,script,domain=gentside.com|maxisciences.com|ohmymag.com
 @@||serrurier-menuisier-31-ad2.fr^$~third-party
 @@||serrurier-menuisier-31-ad2.site-privilege.pagesjaunes.fr^$image,third-party
 @@||static.caradisiac.com/img_site/autopromo/300x90_autopromo_depot_avis.png|$image
