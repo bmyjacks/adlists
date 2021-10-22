@@ -281,7 +281,6 @@
 ||okbp.xyz^
 ||primead.jp^
 ||advert.punyu.com^
-||js.blozoo.info^$third-party
 ||xxxxxxxx.jp^$third-party
 ||act1-1.info^$third-party
 ||ueuodgnrhb.com^$third-party
@@ -815,6 +814,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+futabagumi.com#?#.under_content > .box > .textwidget > p > .adsbygoogle:upward(3)
 gadgerba.com#?#.cardtype > article.cardtype__article:has(> ins.adsbygoogle)
 heim.jp#?#.l-section > div.u-alignCenter > ins.adsbygoogle:upward(2)
 akb48taimuzu.livedoor.biz#?##extra div.plugin-memo > div.side > div[id]:upward(.plugin-memo)
@@ -840,6 +840,8 @@ mizugigurabia.com#?##sidebarbody-l > .sidebar-body:has(> div > div > a[href^="ht
 pokemon.gamerstand.net#?#.classic-text-widget > ins.adsbygoogle:upward(1)
 michaelsan.livedoor.biz#?#.plugin-memo > div.side:has(> a[href*="amazon.co.jp/"])
 michaelsan.livedoor.biz#?#.plugin-memo > div.side > div[class^="alistcloud-"]:upward(2)
+blog.livedoor.jp#?##left_wrapper > div.area01 > p[style="”font-size:5pt;"] + center:has-text(スポンサードリンク)
+blog.livedoor.jp#?#.plugin-memo > div.side > script[src^="//z-fe."]:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > div.gad-fixed:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src^="https://i-section"]:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > div.ad-center:upward(2)
@@ -857,7 +859,6 @@ hattatu-matome.ldblog.jp#?#.plugin-memo > div.side > ins.adsbygoogle:upward(2)
 hattatu-matome.ldblog.jp#?#.plugin-memo > div.side > div.osusume-side:upward(2)
 enuchi.jp#?#li > div.related-ad > ins.adsbygoogle:upward(2)
 blog.fc2.com#?#.plugin1_outline > div.plugin1_body > div.plugin-freearea > script[src*="//adm."]:upward(3)
-blog.fc2.com#?#.plugin2_outline > div.plugin2_body > div.plugin-freearea > div[id^="blz_"]:upward(3)
 blog.fc2.com#?#.plugin2_outline > div.plugin2_body > div.plugin-freearea > iframe[src^="http://customize.dtiserv"]:upward(3)
 blog.fc2.com#?#.plugin2_outline > div.plugin2_body > div.plugin-freearea > iframe[src*="mmaaxx.com/"]:upward(3)
 blog.fc2.com#?#.plugin2_outline > div.plugin2_body > div.plugin-freearea > script[src$="/show_ads.js"]:upward(3)
@@ -1540,6 +1541,11 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+||blozoo.info/js/amatool/
+||blozoo.info/js/dmmtool/
+||blozoo.info/js/linktool/
+||blozoo.info/js/restool/
+luchs.fxproject-blog.com###sidebar-scroll > aside#text-2
 warorince.com###sidemenu_widget-2 ~ .widget_st_custom_html_widget.ad
 biz-journal.jp##.rankpr
 biz-journal.jp###adEntryMainBottom
