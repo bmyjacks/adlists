@@ -814,6 +814,9 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+oshiete.goo.ne.jp#?#.articlePhotoList_articleNormal > a[data-osccid^="recommend_qa_ad"] > div.img_crown:upward(2)
+suzukikenichi.com#?##side > div > .widget-wrap > h3:contains(/^Ads$/):upward(1)
+suzukikenichi.com#?#.entry-footer > p[style]:contains([Ads & Featured Articles])
 futabagumi.com#?#.under_content > .box > .textwidget > p > .adsbygoogle:upward(3)
 gadgerba.com#?#.cardtype > article.cardtype__article:has(> ins.adsbygoogle)
 heim.jp#?#.l-section > div.u-alignCenter > ins.adsbygoogle:upward(2)
@@ -1228,6 +1231,7 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ##.master-post-advert
 ##.p-entry__ad
 ##.rectangle > div.rectangle__item + .rectangle__title
+##.related-ad-area
 ##.seesaa-cmn__pr
 ##.sponsor-h2-center
 ##.sponsor-top
@@ -1541,6 +1545,10 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+||eroimg.net/webp/kok/$domain=eroterest.net
+cardfreaks.jp##div[style="min-height: 280px; height: auto;"]
+around30ol.com##.side-topad > .ad.widget_custom_html
+suzukikenichi.com###side > div > .widget-wrap > .textwidget > .al-c > a[target="_blank"] > img
 ||blozoo.info/js/amatool/
 ||blozoo.info/js/dmmtool/
 ||blozoo.info/js/linktool/
@@ -1768,7 +1776,7 @@ lifehack2ch.livedoor.biz##.yahoo-ad1b
 majikichi.com##.comment_rank_widget_root + div.main
 ||majikichi.com/js/rad_head_
 ||financial-c.net/img/am.png
-financial-c.net###custom_html-13
+cardfreaks.jp,financial-c.net###custom_html-13
 erogamemod.com##.custom-box3
 erogamemod.com##.eroga-widget
 erogamemod.com###custom_html-14
@@ -2160,7 +2168,7 @@ cman.jp##.tmAdGaid
 spoen.net##.banner3
 xn--o9jx06gxedxziu2np5bluqts8d30r.net##.hentry div[style="text-align:center;"]
 oursounds.net##.kijinai_ad
-macha795.com,namatamago.net###custom_html-10
+a-da-co-da.com,macha795.com,namatamago.net###custom_html-10
 fpsjp.net,tokyolucci.jp,namatamago.net###custom_html-8
 english.talk-sense.net##td[style="background-color: #ffffff; text-align: center; border: 1px solid #ffffff; height: 65px;"][colspan="3"]
 ||tenhou.net/ad1.js
@@ -2349,6 +2357,8 @@ gaccom.jp##div[style="padding:25px 10px;display:inline-block;"]
 ||enoge.org/js/amazon_sale_
 cinema.ne.jp##.ad-pc
 cinema.ne.jp##.articleDetailAdd
+oshiete.goo.ne.jp##.sponcer
+oshiete.goo.ne.jp##.pickUpAdBox
 oshiete.goo.ne.jp###gheader
 moneyzine.jp##.pickupBlock
 moneyzine.jp##.specialBlock
@@ -2675,7 +2685,7 @@ nijifeti.com##.topdmm
 nijifeti.com##div[style="width: 300px;height: 250px;"]
 advertimes.com###top-banner-base
 ||jjazz.net/img/banner/dynabook_sb.jpg
-warorince.com,motifyublog.com,corriente.top,sundaygamer.net,shinumae.oops.jp,app-story.net##.adbox
+wagtechblog.com,warorince.com,motifyublog.com,corriente.top,sundaygamer.net,shinumae.oops.jp,app-story.net##.adbox
 business.nikkei.com##.dag_bunner
 adminweb.jp,dbonline.jp,howtonote.jp,javadrive.jp###adbottom_box
 adminweb.jp,dbonline.jp,howtonote.jp,javadrive.jp###adcenter_box

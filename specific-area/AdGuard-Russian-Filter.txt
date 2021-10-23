@@ -5865,7 +5865,7 @@ wss://s.zmctrack.net/
 forumodua.com#$?#head > iframe[name] { remove: true; }
 strana.ua#$?#body > iframe[style="display:none"] { remove: true; }
 !
-i.ua,buhgalter.com.ua,nv.ua,pravda.com.ua,nbnews.com.ua,viva.ua,zn.ua,bigmir.net,glavcom.ua,hvylya.net,inforesist.org,nnovosti.info,obyava.ua,smak.ua,strana.ua,tochka.net,u-news.com.ua,ukr.net,vesti.ua#$?#body > iframe:not([class]):not([id]):not([src]) { remove: true; }
+ivona.ua,i.ua,buhgalter.com.ua,nv.ua,pravda.com.ua,nbnews.com.ua,viva.ua,zn.ua,bigmir.net,glavcom.ua,hvylya.net,inforesist.org,nnovosti.info,obyava.ua,smak.ua,strana.ua,tochka.net,u-news.com.ua,ukr.net,vesti.ua#$?#body > iframe:not([class]):not([id]):not([src]) { remove: true; }
 kriminal.tv,i.ua,lifedon.com.ua,football24.ua,vsetv.com,112.ua,gorod.dp.ua,autoua.net,beauty.ua,besplatka.ua,enovosty.com,facenews.ua,forumodua.com,hvylya.net,kolobok.ua,kp.ua,liga.net,orakul.com,real-vin.com,segodnya.ua,tv.ua,ubr.ua,vesti.ua,vgorode.ua#$?#body iframe[name]:not([class]):not([id]):not([src]) { remove: true; }
 newsyou.info,4mama.ua,autoua.net,censor.net,eurointegration.com.ua,gagadget.com,internetua.com,okino.ua,orakul.com,ringside24.com,toneto.net,tvgid.ua#$?#head > iframe[name]:not([class]):not([id]):not([src]) { remove: true; }
 !
@@ -8724,7 +8724,7 @@ allsports-tv.ru,channels247.net,sport7.biz,sporting77.com,barsportbar.com,sportb
 penzainform.ru#%#//scriptlet("abort-on-property-write", "u0")
 penzainform.ru#$#body { cursor: auto!important; }
 ! fastpic - ad redirect
-fastpic.ru,fastpic.org#%#//scriptlet("abort-on-property-read", "store.get")
+fastpic.ru,fastpic.org#%#//scriptlet("abort-on-property-read", "utrgLabel")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73296
 2-ip.online,2ip.io,2ip.ru#%#//scriptlet('set-cookie', 'anonymizer_ads', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73390
@@ -11791,6 +11791,7 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 !
 !
+/u-news.com.ua\/templates\/NewsCastleRed_u-news\/js\/n\d+.js/$domain=u-news.com.ua
 epravda.com.ua##div[class^="banner_right"]
 ||fbc.ua/wp-content/uploads/2020/07/banner_KMZ.jpg
 allergology.ru##div[data-region] > div.group
@@ -11958,7 +11959,7 @@ banki24.by##.yandex-news-text
 ||porno-island.*/engine/style_code.php?sid=
 womanhit.ru##div[class^="banner__"]
 officelife.media##a[id^="banner-"]
-officelife.media##.banner-section
+ivona.ua,officelife.media##.banner-section
 grodno24.com##.similar
 ||tv.kyiv.media/wp-content/uploads/sites/*/w1-min-baner.gif
 kyiv.media##.hg-adv-item
@@ -11971,8 +11972,6 @@ calorizator.ru###site-branding-header
 calorizator.ru###site-branding-block
 calorizator.ru###block-block-44
 calorizator.ru###block-block-24
-houzz.ru##div[data-component="Brand Ad"]
-houzz.ru##div[data-container="Ad Placement"]
 ||rlocman.ru/ban/
 24tv.ua##div[id^="mobileBrandingPlace"]
 ||gordonua.com/pub/banners/
@@ -18711,7 +18710,7 @@ dom-filmov.ru##div[id^="baner"]
 rusplt.ru##div[id^="banganet_"]
 go64.ru,news29.ru,radio-online.com.ua,fc-amkar.org,sxem.org,thekievtimes.ua##div[id^="banner"]
 lotzon.co,lotzon.com,lurkmo.re,lurkmore.to,nk-online.com.ua,novosti-n.org,sport.ua##div[id^="banner-"]
-rabota66.ru##div[id^="banner-place-"]
+ivona.ua,rabota66.ru##div[id^="banner-place-"]
 new-rutor.org,fedpress.ru,talks.by,tayga.info,turbina.ru##div[id^="banner_"]
 list-org.com##div[id^="bl_"]
 sobesednik.ru##div[id^="block-advert-"]
@@ -22797,6 +22796,7 @@ sports.ru###branding-layout>.page-layout:empty
 ! Another way to inject clickable links
 cyber.sports.ru##.match-summary__betting-bar
 cyber.sports.ru##.match-teaser__betting-bar
+sports.ru##a[rel="nofollow"]> img[height="151"][width="731"]
 sports.ru##p > a[rel="nofollow"] > img[height="40"][width="450"]
 sports.ru,tribuna.com###branding-layout > *:not(div):not([class]):not(id):not(style)
 sports.ru##.ufc-wink
