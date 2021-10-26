@@ -133,6 +133,7 @@
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||velawhagru.com^$third-party
 ||cy-s.click^$third-party
 ||af-next.com^$third-party
 ||pr-agent.jp^$third-party
@@ -846,6 +847,7 @@ mizugigurabia.com#?##sidebarbody-l > .sidebar-body:has(> div > div > a[href^="ht
 pokemon.gamerstand.net#?#.classic-text-widget > ins.adsbygoogle:upward(1)
 toushichannel.net,michaelsan.livedoor.biz#?#.plugin-memo:has(> div.side > a[href*="amazon.co.jp/"])
 michaelsan.livedoor.biz#?#.plugin-memo > div.side > div[class^="alistcloud-"]:upward(2)
+blog.livedoor.jp#?#.left-column-inner > div.plugin-memo:has(> div.side > ins.widget-banner)
 blog.livedoor.jp#?##left_wrapper > div.area01 > p[style="”font-size:5pt;"] + center:has-text(スポンサードリンク)
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src^="//z-fe."]:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > div.gad-fixed:upward(2)
@@ -1553,6 +1555,8 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+animeanime.jp##.cynergi-widget
+blog.livedoor.jp##.article-body-inner > div#more > a[rel="noopener sponsored"][href^="https://www.dlsite.com/maniax/dlaf/"]
 blue-archive.doorblog.jp##.plugin-memo:last-child
 atsumori-tanukichi.com##.side-section[style]
 atsumori-tanukichi.com##div[style="text-align: center;margin-bottom: 24px;"]
