@@ -74,6 +74,8 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||azfitn.com^$third-party
+||phsyqy.com^$third-party
 ||zysheptany.com^$third-party
 ||mybmrtrg.com^$third-party
 ||sitewithg.com^$third-party
@@ -6729,14 +6731,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|adequate|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|Silver|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|adequate|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|Silver|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|adequate|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|Silver|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|adequate|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|Silver|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -6850,7 +6852,7 @@ livejournal.com#%#//scriptlet("set-constant", "begun_new_callbacks", "undefined"
 ! Kinopoisk
 ||strm.yandex.ru/get/$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/
 !+ NOT_PLATFORM(windows, mac, android, ext_ff)
-||strm.yandex.ru/get/$script,xmlhttprequest,other,redirect=noopvast-3.0,domain=yastatic.net|kinopoisk.ru
+||strm.yandex.ru/get/$script,xmlhttprequest,other,redirect=noopvast-3.0,domain=yastatic.net|kinopoisk.ru|frontend.vh.yandex.ru
 !
 !#if (!adguard_ext_firefox)
 ||echo.msk.ru^$replace=/Ya.*\[{"attributes".*"blockId".*//,script
@@ -11792,13 +11794,16 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 ! For URL shorteners or simple sites with frequently changed ad servers.
 ! Incorrectly blocked domains can be excluded using regex(synchronize this regexp in all filters)
-/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com)).*$/$third-party,script,domain=pornosuk.com|ebalovo.pro|yarnews.net|pornohype.mobi|pornomoll.net|4ertik.mobi|porno-dojki.mobi|mobila.guru|manesu.com|sovetov.su|krot.info|sad24.ru|web-shpargalka.ru|pornolavka.xxx|pornona.me|tureckiy-serial.ru|crast.ru|sobytiya.net|bazliter.ru|swoofe.ru|maximp3.ru|carlasart.ru|torrent-bro.ru|dv-gazeta.info|tiviha.ru|great-tv.tv|ovgorskiy.ru|next.2yxa.mobi|xxxlatinki.com|rybkies.ru|doctorhouse.tv|ruspornvideos.net|art-textil.ru|agronomu.com|gorodarmavir.ru|kormushka-burg.ru|ua.news|uniondht.org|seksoeb.com|hdxclub.tv|porno-vhd.com|incestporno.tv|mypornolab.site|zporno.porn|inspectrum.su|zavtra.ru|newsyou.info|infohome.com.ua|tdnu.ru|ruspolitnews.ru|kinokordon.net|politpuzzle.ru|4rl.ru|tolknews.ru|tvvse.my1.ru|lifedon.com.ua|pornogolod.net|seksvideo.tv|volkovysk.by|pro100tv.my1.ru|pornoham.net|bestweapon.ru|pronpic.org|mosgorsait.ru|apnews.com.ua|tipsforyou.ru|peoples.ru|minus-on.ru|nudecelebs.pro|sexicelebs.su|vchaspik.ua|sekreta.net|chelny-izvest.ru|newsbel.by|theageoffootball.com|iptvmaster.ru|kztarif.ru|4systems.ru|rus24.tv|homesantehnica.ru|xpmuxznuxcuxcxyczczxcxb.lupka.ru|kinovideo.tv|torren.eu|kriminal.net.ua|obmenvsem.org|ero-top.info|kinohru.ru|vazhno.ru|stars-top.ru|srrb.ru|sosalkino.art|imag.one|socportal.info|russexvideo.com|vashynogi.com|ria-m.tv|porno-chiks.org|kontrakty.ua|glavpost.ua|sex-studentki.pro|poleznii-site.ru|slavinfo.dn.ua|saucyintruder.org|pravoslavy.ru|jjjo.ru|kinovilka.ru|trans.firm.in|coronavirus-monitor.ru|zbirna.com|showdream.org|actual.today|real-vin.com|tksilver.ru|z-torrents.ru|hd01.ru|my-calend.ru|parnuha.video|nbnews.com.ua|nocopyright.ru|e-news.su|mister-robot.online|blackpantera.ru|waysi.ru|freehat.cc|kuhniclub.ru|mirvdochnovenia.ru|altyn-orda.kz|voyeyrist.com|mashmaster.ru|medsovukrpro.ru|ringtondom.ru|math-prosto.ru|ebalovo.porn|nicetits.fun|vteple.xyz|sharij.net|headphone-review.ru|kraj.by|7ogorod.ru|nashbryansk.ru|porno-island.*|xn--80axn1a.xn--p1ai|greensotka.ru|rivnepost.rv.ua|xn--29-6kcd5bg.xn--p1ai|programmy-dlya-android.ru|relasko.ru|molitvy.guru|selomoe.ru|slavasozidatelyam.ru|livekavkaz.ru|lentaroos.ru
+/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com)).*$/$third-party,script,domain=pornosuk.com|ebalovo.pro|yarnews.net|pornohype.mobi|pornomoll.net|4ertik.mobi|porno-dojki.mobi|mobila.guru|manesu.com|sovetov.su|krot.info|sad24.ru|web-shpargalka.ru|pornolavka.xxx|pornona.me|tureckiy-serial.ru|crast.ru|sobytiya.net|bazliter.ru|swoofe.ru|maximp3.ru|carlasart.ru|torrent-bro.ru|dv-gazeta.info|tiviha.ru|great-tv.tv|ovgorskiy.ru|next.2yxa.mobi|xxxlatinki.com|rybkies.ru|doctorhouse.tv|ruspornvideos.net|art-textil.ru|agronomu.com|gorodarmavir.ru|kormushka-burg.ru|ua.news|uniondht.org|seksoeb.com|hdxclub.tv|porno-vhd.com|incestporno.tv|mypornolab.site|zporno.porn|inspectrum.su|zavtra.ru|newsyou.info|infohome.com.ua|tdnu.ru|ruspolitnews.ru|kinokordon.net|politpuzzle.ru|4rl.ru|tolknews.ru|tvvse.my1.ru|lifedon.com.ua|pornogolod.net|seksvideo.tv|volkovysk.by|pro100tv.my1.ru|pornoham.net|bestweapon.ru|pronpic.org|mosgorsait.ru|apnews.com.ua|tipsforyou.ru|peoples.ru|minus-on.ru|nudecelebs.pro|sexicelebs.su|vchaspik.ua|sekreta.net|chelny-izvest.ru|newsbel.by|theageoffootball.com|iptvmaster.ru|kztarif.ru|4systems.ru|rus24.tv|homesantehnica.ru|xpmuxznuxcuxcxyczczxcxb.lupka.ru|kinovideo.tv|torren.eu|kriminal.net.ua|obmenvsem.org|ero-top.info|kinohru.ru|vazhno.ru|stars-top.ru|srrb.ru|sosalkino.art|imag.one|socportal.info|russexvideo.com|vashynogi.com|ria-m.tv|porno-chiks.org|kontrakty.ua|glavpost.ua|sex-studentki.pro|poleznii-site.ru|slavinfo.dn.ua|saucyintruder.org|pravoslavy.ru|jjjo.ru|kinovilka.ru|trans.firm.in|coronavirus-monitor.ru|zbirna.com|showdream.org|actual.today|real-vin.com|tksilver.ru|z-torrents.ru|hd01.ru|my-calend.ru|parnuha.video|nbnews.com.ua|nocopyright.ru|e-news.su|mister-robot.online|blackpantera.ru|waysi.ru|freehat.cc|kuhniclub.ru|mirvdochnovenia.ru|altyn-orda.kz|voyeyrist.com|mashmaster.ru|medsovukrpro.ru|ringtondom.ru|math-prosto.ru|ebalovo.porn|nicetits.fun|vteple.xyz|sharij.net|headphone-review.ru|kraj.by|7ogorod.ru|nashbryansk.ru|porno-island.*|xn--80axn1a.xn--p1ai|greensotka.ru|rivnepost.rv.ua|xn--29-6kcd5bg.xn--p1ai|programmy-dlya-android.ru|relasko.ru|molitvy.guru|selomoe.ru|slavasozidatelyam.ru|livekavkaz.ru|lentaroos.ru|100popugaev.ru
 !
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/([a-z-]{6}\.)?(?!aniqit)[a-z0-9]{4,}\.(com|in\.net|link|tech|ru)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
 !
 !
+/inoe/player/*.mp4$domain=erocadr.com|xcadr.tv
+xcadr.tv##.adv
+||drive.google.com^$domain=anilibria.tv
 akket.com##.adsense
 /\.ru\/\d{10,}.js/$domain=animemoon.org
 ||xukru.net/img/booblex/booblexBottom
@@ -17263,7 +17268,7 @@ shikimori.one,shikimori.org##.spns_advrtr_240x400
 volosnya.com,pornognomik.com,pornognomik.org,zalupok.com,porno90.me,peretrah.com,fcdnipro.ua,forexsystemsru.com,hawk.ru,itweek.ru,spartak.ru##.sponsor
 reibert.info##.sponsorBanner
 zi.ua##.sponsors-holder
-masturbationgirl.com,porn0sex.net##.spot
+erocadr.com,masturbationgirl.com,porn0sex.net##.spot
 101android.ru,yablyk.com##.spu-bg
 101android.ru,yablyk.com##.spu-box
 rabota.vse42.ru##.srcform-ad
@@ -17641,7 +17646,7 @@ livesport.ru##.zz_ya_twin
 /images/sidebar$domain=pirat.ca
 /img/b/*$domain=eserver.ru|mctop.su|meta.ua|texnic.ru|timeweb.com|topcraft.ru
 /img/ban/*$domain=ongab.ru|plan7.ru|realty-guide.ru|reference-audio-analyzer.pro
-/img/banners/*$domain=avtoudostoverenie.ru|bukovina.biz.ua|firtka.if.ua|fullfreepoker.ru|gadgetblog.ru|grinkod.spb.ru|grivna.ks.ua|intermedia.ru|mediametrics.ru|megamult.net|novosti-n.org|nuz.uz|podrobnosti.mk.ua|primpress.ru|rbc.ru|revision.ru|track24.ru|vestifinance.ru|xuk.net|sq.com.ua|megaresheba.ru|champion.com.ua|gotoshop.ua|sobaka.ru|mytriface.com
+/img/banners/*$domain=avtoudostoverenie.ru|bukovina.biz.ua|firtka.if.ua|fullfreepoker.ru|gadgetblog.ru|grinkod.spb.ru|grivna.ks.ua|intermedia.ru|mediametrics.ru|megamult.net|novosti-n.org|nuz.uz|podrobnosti.mk.ua|primpress.ru|rbc.ru|revision.ru|track24.ru|vestifinance.ru|xuk.net|sq.com.ua|megaresheba.ru|champion.com.ua|gotoshop.ua|sobaka.ru|mytriface.com|chelseablues.ru
 /img/branding/*$domain=vlasti.net
 /init.js^$domain=comp-doctor.ru|lafemmod.ru|nashaplaneta.su|nitkoy.ru|oppps.ru|prjaga.ru|sama-sama-sama.ru|appspot.flibusta.site
 /jopastik.com/js/[a-z0-9]{6}.js/$domain=jopastik.com
@@ -22406,14 +22411,14 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-coxtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-coxtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-coxtent div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-coxtent div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-coxtent div.product-header ~ div[style^="position:"] ~ div[class]
-otzovik.com##.produkt-coxtent div.review-contents + [class]
-otzovik.com##.produkt-coxtent div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-coxtent div.review-contents > div.review-body > span[style]
+otzovik.com##.produkt-cohtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-cohtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-cohtent div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-cohtent div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-cohtent div.product-header ~ div[style^="position:"] ~ div[class]
+otzovik.com##.produkt-cohtent div.review-contents + [class]
+otzovik.com##.produkt-cohtent div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-cohtent div.review-contents > div.review-body > span[style]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
