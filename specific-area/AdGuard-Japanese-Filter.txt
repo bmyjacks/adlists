@@ -133,6 +133,7 @@
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||ad.primead.jp^$third-party
 ||velawhagru.com^$third-party
 ||cy-s.click^$third-party
 ||af-next.com^$third-party
@@ -817,6 +818,9 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+akb48rompen.com#?#.plugin-memo > div.side > script[src*="amazon-adsystem.com/"]:upward(2)
+akb48rompen.com#?#.plugin-memo > div.side > a > img[src*="dmm.com/af/"]:upward(3)
+akb48rompen.com#?#blockquote:has(> .amazon)
 wiki3.jp#?##right_menu > h1:first-child:contains(/^Information$/)
 wiki3.jp#?##wiki_menu.left_side > h2:only-of-type:contains(/^管理者のススメ$/)
 wiki3.jp#?##wiki_menu.left_side > p > a[href^="https://www.amazon.co.jp/gp/"]:upward(1)
@@ -873,7 +877,7 @@ japanese.engadget.com#?#ul[data-testid="DeepLinkStreams"] > li:has(> article div
 medibang.com#?#.mdModal div.mdbnViewer__ad:upward(.mdModal)
 pointmall.rakuten.co.jp#?#.side-box > div[id^="rdn-adspot"]:upward(1)
 karapaia.com#?#.readmore-header:has(> div.ads-label)
-hattatu-matome.ldblog.jp#?#.plugin-memo > div.side > ins.adsbygoogle:upward(2)
+akb48rompen.com,hattatu-matome.ldblog.jp,blog.livedoor.jp#?#.plugin-memo > div.side > ins.adsbygoogle:upward(2)
 hattatu-matome.ldblog.jp#?#.plugin-memo > div.side > div.osusume-side:upward(2)
 enuchi.jp#?#li > div.related-ad > ins.adsbygoogle:upward(2)
 blog.fc2.com#?#.plugin1_outline > div.plugin1_body > div.plugin-freearea > script[src*="//adm."]:upward(3)
@@ -887,7 +891,6 @@ ac-illust.com#?#.ac-p-2.bg-e6e6e6.donation-box-right:has(> .ad-center)
 photo-ac.com#?#.noads-link:upward(1)
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src*="//adm.shinobi.jp/"]:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src^="//j.microad.net/"]:upward(2)
-blog.livedoor.jp#?#.plugin-memo > div.side > ins.adsbygoogle:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > p.gad:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src*="i-mobile.co.jp/"]:upward(2)
 nofootynolife.blog.fc2.com#?##side_r > div[class^="plugin"]:has(a[name="amazletlink"])
@@ -1219,6 +1222,7 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ##.ad_textlink_box
 ##.ad_thumbnail_header
 ##.ad_top
+##.adbox
 ##.adgoogle
 ~hgh14x.com##.adlist
 ##.admax-ads
@@ -1566,6 +1570,12 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+||famitsu.com/wp-content/themes/famitsu/js/ad/ad_
+www.ne.jp##td[width="100%"][valign="top"][nowrap][bgcolor="#B0BCFF"] > div[align="left"] > div[align="center"]
+www.ne.jp##td[width="100%"][valign="top"][nowrap][bgcolor="#B0BCFF"] > div[align="left"] > p[align="center"]
+akb48rompen.com##.autopagerize_page_element > b
+akb48rompen.com##.left-container > div.plugin-memo:last-child
+/\/bnr_side_(kiso3|octopass)\.jpg/$domain=proengineer.internous.co.jp
 ||wiki3.jp/assets/image/yomoyama_advertisement.png
 twisave.com##div[style="padding-top: 15px; margin-bottom: 15px; height: 60px; text-align: center"]
 twisave.com##div[style="padding-top: 15px; text-align: center; margin-bottom: -8px"]
@@ -1747,7 +1757,7 @@ radiolife.com###banner
 radiolife.com###side-banner
 lionmaru.blog###primary-sidebar > aside.widget_text:last-child
 lionmaru.blog###content-sidebar > aside.widget_custom_html
-lionmaru.blog###text-12
+xn--eckl0bk7f7cc4od8az005k0ssb.xyz,lionmaru.blog###text-12
 lionmaru.blog##.entry-content > a[href^="https://www.amazon.co.jp/"]
 tkgstrator.work###product
 hentai.9ketsuki.info###popup
@@ -2638,7 +2648,7 @@ oceans-nadia.com##.c-side-block--banner
 ||e-earphone.jp/html/template/default/assets_time/01_tm2020/banner/*_980_100.
 at-a-gallop.net###text-134
 ||sexyvoice.org/banner/
-nemotohiroyuki.jp,sexyvoice.org###text-17
+xn--eckl0bk7f7cc4od8az005k0ssb.xyz,nemotohiroyuki.jp,sexyvoice.org###text-17
 media-innovation.jp##.vc_widget_sidebar
 /topsr_300_$image,domain=escapeclub.jp|kakkun.jp|nonotore.jp|wowgirls.jp
 wowkorea.jp##table[cellpadding="2"][bgcolor="#CCCCCC"]
@@ -2742,7 +2752,6 @@ nijifeti.com##.topdmm
 nijifeti.com##div[style="width: 300px;height: 250px;"]
 advertimes.com###top-banner-base
 ||jjazz.net/img/banner/dynabook_sb.jpg
-wagtechblog.com,warorince.com,motifyublog.com,corriente.top,sundaygamer.net,shinumae.oops.jp,app-story.net##.adbox
 business.nikkei.com##.dag_bunner
 adminweb.jp,dbonline.jp,howtonote.jp,javadrive.jp###adbottom_box
 adminweb.jp,dbonline.jp,howtonote.jp,javadrive.jp###adcenter_box
@@ -2903,7 +2912,7 @@ gogo.gs##.ad4
 1048s.com##.first.fblock
 1048s.com##.last.fblock
 biz.hino-tama.com##span.lastChild.small_letter[style^="position:absolute;right:10px;"]
-2week.net,nullnote.com###scrollad
+xn--eckl0bk7f7cc4od8az005k0ssb.xyz,2week.net,nullnote.com###scrollad
 ||ac-affiliate.com/data.php?
 news.dwango.jp##.bnrs
 news.dwango.jp##.side-ranking
@@ -3376,7 +3385,7 @@ ekilog.info###widget-under-article
 mammemo.net##.aaprad_con
 mammemo.net##.side_pc_con > div[style="text-align:center; margin-bottom:30px; padding:10px; overflow:hidden"]
 line-emoji.com##div[style="height:90px;;width:100%;"]
-genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
+mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
 pontako.com##div[id^="msmaflink-"]
 wws-channel.com###top-banner
 ||a.toremaga.com/ad/
@@ -3408,6 +3417,7 @@ whotwi.com###header_ad_area
 whotwi.com##.stats_ad_300x250_2
 whotwi.com##div[style^="width: 728px;height:90px"]
 trends.whotwi.com##div[style$="width: 300px;height:250px;"]
+chiebukuro.yahoo.co.jp##div[class^="ErrorTypes_errorTypes__searchZeroHits__"] > div.SSContainer
 chiebukuro.yahoo.co.jp##div[class*="SearchResults_searchResults__"][data-device="smartphone"] > section[class*="SSContainer_SSContainer__"][role="complementary"] > ul[class^="SSContainer_SSContainer__list__"]
 garanger.net##div[class^="prcontents_"]
 garanger.net##a[target="_blank"][rel="nofollow"] > img
