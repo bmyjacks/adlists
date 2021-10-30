@@ -9194,6 +9194,9 @@ disk.yandex.*#%#//scriptlet('remove-class', 'has-fullscreen-banner','.public__ro
 !-----------------------
 !
 !
+! glavbukh.ru - убран отступ
+glavbukh.ru#$#.topAdvertize__wrapper { display: none !important; }
+glavbukh.ru#$?#body > div.container-fluid:has(> div.topAdvertize__wrapper) { margin-top: -150px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98070
 nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnmclub.to#$#body[style] { background: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96330
@@ -13059,7 +13062,6 @@ kokobums.com,kokobumbum.com##td[width="360"]
 ||fapality.com/assets/script.js
 360tv.ru##.line_item__commercial
 360tv.ru##.commercial_wrapper
-diletant.media##.banner-block
 diletant.media##.sidebar-banner-wrap
 amazingfacts.ru###sidebar
 kurufin.ru##.left_bl > div[class="floating fixed"]
@@ -15744,7 +15746,7 @@ klops.ru##.banner-aside
 finversia.ru##.banner-bdm
 poisklekarstv.com.ua##.banner-bg
 championat.com##.banner-billboard
-agravery.com,ast-news.ru,avtovod.com.ua,goodgame.ru,stroyvitrina.ru,usedcars.ru,visnyk.lutsk.ua,vpoltave.info,yapx.ru##.banner-block
+diletant.media,kp40.ru,agravery.com,ast-news.ru,avtovod.com.ua,goodgame.ru,stroyvitrina.ru,usedcars.ru,visnyk.lutsk.ua,vpoltave.info,yapx.ru##.banner-block
 klerk.ru##.banner-block-title
 zoon.ru##.banner-bordered
 kinoplex.ru,ntsk.ru,pornburst.xxx,prokazan.ru##.banner-bottom
