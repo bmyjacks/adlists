@@ -239,8 +239,6 @@ hack-life.net#%#//scriptlet("set-constant", "adBlockDetected", "false")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41480
 mtlurb.com#@#.adsbygoogle
 mtlurb.com#$#.adsbygoogle { display: block!important; position: absolute!important; left: -3000px!important; }
-! https://forum.adguard.com/index.php?threads/issue-with-mycanal-fr.34924/
-@@||proxy.ads.canalplus-bo.net/web/canal/*/adserver/info^$domain=mycanal.fr
 ! recreatisse.com - antiadblock
 recreatisse.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "adback")
 recreatisse.com$$script[tag-content="adback_configuration"][min-length="100000"][max-length="360000"]
@@ -313,10 +311,8 @@ sante.journaldesfemmes.fr,linternaute.com#$#.AdBox.Ligatus.pub_300x250.pub_300x2
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linternaute.com
 !#endif
 ! https://forum.adguard.com/index.php?threads/15884/
-@@||static.canal-plus.net/resources/adframe.html?adName=$domain=mycanal.fr|canalplus.com
-@@||proxy.ads.canalplus-bo.net/web/*/adserver/info/?asset=$domain=mycanal.fr|canalplus.com
-@@||v.fwmrm.net/ad/g/1?*&vpaid=on$domain=mycanal.fr|canalplus.com
-||v.fwmrm.net/ad/g/1?*&vpaid=on$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/,domain=mycanal.fr|canalplus.com
+@@||static.canal-plus.net/resources/adframe.html?adName=$domain=canalplus.com
+@@||proxy.ads.canalplus-bo.net/web/*/adserver/info/?asset=$domain=canalplus.com
 ! https://forum.adguard.com/index.php?threads/m-rtl-be-adguard-mobile.31398/
 @@||service.videoplaza.tv/proxy/bwtest.jpg$domain=rtl.be
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5^$domain=rtl.be
@@ -644,8 +640,8 @@ lindependant.fr#%#//scriptlet("abort-on-property-read", "_adb")
 actu17.fr#%#//scriptlet("abort-on-property-write", "td_ad_background_click_link")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13192
 jacquieetmicheltv.net#%#var _st = window.setTimeout; window.setTimeout = function(a, b) { if(!/target_url/.test(a)){ _st(a,b);}};
-! https://forum.adguard.com/index.php?threads/22023/
-canalplus.fr#%#(function() { var w_open = window.open, regex = /smartadserver.com/; window.open = function(a, b) { if (typeof a !== 'string' || !regex.test(a)) { w_open(a, b); } }; })();
+! https://github.com/AdguardTeam/AdguardFilters/issues/83543
+canalplus.com#%#//scriptlet('set-constant', '__data.application.settings.featPlayerAds', 'false')
 ! http://forum.adguard.com/showthread.php?6907
 generation-nt.com#%#Object.defineProperty(window, 'AdvertBay', { get: function() { return []; } });
 !
@@ -682,8 +678,6 @@ actu17.fr#$#body.td-ad-background-link { cursor: auto!important; }
 torrents9.cc#$#a[href^="magnet:?"] { width: 100%!important; }
 ! https://forum.adguard.com/index.php?threads/www-malekal-com.29657/
 malekal.com#$#.adsbygoogle { height: 1px!important; visibility:hidden!important; }
-! https://forum.adguard.com/index.php?threads/22023/
-canalplus.fr#$#body { background-image: none!important; cursor: auto!important; }
 ! https://forum.adguard.com/index.php?threads/18388/
 cityplug.be#$#.preview-tabs-controls li { height: auto!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/2947
@@ -943,7 +937,6 @@ forums.cnetfrance.fr##.postbitlegacy a[href^="https://click.linksynergy.com/"] >
 brusselslife.be##.bxl-advert
 lacoccinelle.net##div[id^="sas_"]
 numerama.com##.wrap > div.top-bloc
-canalplus.fr###habillage
 bdzmag.actualitte.com##body > a.lienExterne
 moustique.be##.block-artwhere-ads
 onvasortir.com###pub_rectangle
@@ -1043,6 +1036,10 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/98589#issuecomment-963077457
+@@||olx.ua/*/?ad_id=$xmlhttprequest
+! https://forums.lanik.us/viewtopic.php?p=162232#p162232
+@@||integration.graphcomment.com/*.js$domain=lephoceen.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98651
 gumtree.co.za#@#.ad-info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99134
@@ -1767,11 +1764,6 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 @@||pq-direct.revsci.net/pql?placementIdList=$domain=player.m6web.fr
 @@||cdn.videoplaza.tv/contrib/fr-m6/svm/homadConfigVideoplaza-clubic.json?cache=$domain=player.m6web.fr
 @@||cdn.videoplaza.tv/contrib/fr-m6/svm/vp_plugin.swf$domain=player.m6web.fr
-! https://github.com/AdguardTeam/ExperimentalFilter/issues/1415
-! broken by Adguard injections
-@@||mycanal.fr/library/Pelican/Ajax/$document
-! https://github.com/AdguardTeam/ExperimentalFilter/issues/794
-@@||cdn.videoplaza.tv/contrib/fr-canalplus/svm/homadConfigVideoplaza-itele.json$domain=itele.fr
 ! hifi.fr - advanced search is broken by Adguard injections
 @@||hifi.fr/pm_advancedsearch$document
 
