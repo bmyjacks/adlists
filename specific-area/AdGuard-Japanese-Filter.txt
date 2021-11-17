@@ -824,6 +824,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+nlab.itmedia.co.jp#?##cmsBody > div.inner > p:last-of-type:has(> * > a[href^="https://twitter.com/"][target="_blank"]):contains(作品提供) ~ div.cmsAmazonWrap
 mainichi.jp#?#.featurelist > li > div#ad-pc-top-sc:upward(1)
 souda-kansai.com#?#.entry-content > p > ins.adsbygoogle:upward(1)
 fnjpnews.com#?#.post-box > div.post-box-contents > ins.adsbygoogle:upward(2)
@@ -4238,7 +4239,6 @@ sonicch.com##div[id^="livedoor_blogroll_widget"]
 bakufu.jp###prBox
 nlab.itmedia.co.jp###globalHeader
 nlab.itmedia.co.jp##.admsg
-nlab.itmedia.co.jp##.cmsAmazonWrap
 anond.hatelabo.jp##.double-rectangle
 headlines.yahoo.co.jp##div[id^="taboola-below-article-thumbnails-"]
 togetter.com##.ad_custom
