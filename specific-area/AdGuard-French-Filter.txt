@@ -611,6 +611,8 @@ jeuxvideo.com#?#.list-actu-home > li[-ext-has='span.officiel']
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/99580
+zone-telechargement.work#%#//scriptlet('prevent-setInterval', 'this[_0x')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95087
 dl-protect.info#%#//scriptlet("prevent-setInterval", "var _0x")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95088
@@ -717,6 +719,9 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+zone-telechargement.work##a[href^="https://dl-protect.info/url-premium?"]
+||dl-protect.info/assets/images/dl1.png
+||zone-telechargement.work/*/images/dl/telechargement-direct.png
 liberation.fr##div[class^="StickyAd-"]
 oxtorrent.*###vpnvpn
 ||widget.publishub.optimhub.com/assets/widget/widget_mntzm.js$domain=closermag.fr
@@ -1037,6 +1042,8 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/99479
+instantdomainsearch.com#@#a[href*="://www.anrdoezrs.net/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98589#issuecomment-963077457
 @@||olx.ua/*/?ad_id=$xmlhttprequest
 ! https://forums.lanik.us/viewtopic.php?p=162232#p162232
@@ -1376,10 +1383,6 @@ pixiv.net#@#.with-ad
 @@||cam*-static.xcdnpro.com^$domain=cam4.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48812
 @@||clipwatching.com/embed-*.html$domain=alltube.pl
-! https://github.com/AdguardTeam/AdguardFilters/issues/48730
-! Hdrezka
-@@/script.*.js$domain=aghdrezka.com|hdrezkaonline.com|drhdrezka.com|mrhdrezka.com|hdrezka.sh|livekinopoisk.com|betahdrezka.com|cokinopoisk.com|hdrezka-ag.com|hdrezka.club|hdrezka.cm|hdrezka.co|hdrezka.com.ua|hdrezka.host|hdrezka.lol|hdrezka.name|hdrezka.site|hdrezka.today|hdrezka.tv|hdrezka.website|hdrezkaag.net|hdrezkaweb.com|hdrezkayou.com|instahdrezka.com|myhdrezka.com|freehdrezka.com|rezka.ag|tryhdrezka.com
-@@||static.hdrezka.ac^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46671
 @@||uii.io/links/go$domain=uii.io
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46143
@@ -3423,6 +3426,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /imgs/adv/*
 /imu-320x480/*
 /in-ad_desktop/*
+/in-stream-ad-
 /in_ad_new.
 /ina_ad_
 /inc/ezcl.
@@ -6981,6 +6985,7 @@ debugger:$popup
 ||3z6hirxo24.com^
 ||421npyd4nd.com^
 ||43yagowe3y.com^
+||442438f989.com^
 ||45eijvhgj2.com^
 ||49863d99e314a.com^
 ||49oa3o49b6.com^
@@ -7312,6 +7317,7 @@ debugger:$popup
 ||cbrykorvsqihfy.com^
 ||ccumhss.com^
 ||cdcwn.xyz^
+||cdnion.com^
 ||celebsreflect.com^
 ||cepailru.com^
 ||ceptavou.net^
@@ -7327,6 +7333,7 @@ debugger:$popup
 ||chimeaverthem.com^
 ||choongou.com^
 ||chouftak.net^
+||chuchoas.net^
 ||cimoghuk.net^
 ||cisscrive.com^
 ||cistamenise.com^
@@ -7375,6 +7382,7 @@ debugger:$popup
 ||crephorure.xyz^
 ||crushedwhistle.com^
 ||cryarkall.club^
+||cryptolabpro.com^
 ||crytyingcrutch.com^
 ||cs6hm.com^
 ||csjuq.com^
@@ -7400,6 +7408,7 @@ debugger:$popup
 ||d4q8zgf756.com^
 ||daccroi.com^
 ||daezorwyn.xyz^
+||daglatuw.com^
 ||dagnar.com^
 ||dagolor.pw^
 ||dailynews.support^
@@ -7407,6 +7416,7 @@ debugger:$popup
 ||dalita.org^
 ||dalseeds.net^
 ||dartimyl.com^
+||darvorn.com^
 ||databledieses.com^
 ||datadbs.com^
 ||datasecu.download^
@@ -7448,6 +7458,7 @@ debugger:$popup
 ||disturbedaccruesurfaces.com^
 ||divatraffic.bid^
 ||djrvqpg.com^
+||dmmbgglodpa.xyz^
 ||dmxxa.com^
 ||dnckawxatc.com^
 ||doaipomer.com^
@@ -7458,6 +7469,7 @@ debugger:$popup
 ||doflygonan.com^
 ||doghauky.net^
 ||dogiedimepupae.com^
+||dogolurkr.com^
 ||domankeyan.com^
 ||dompegho.net^
 ||donbagput.com^
@@ -7465,6 +7477,7 @@ debugger:$popup
 ||doterusksbomb.work^
 ||dothammes.com^
 ||dotsgalorepage.com^
+||dpyaareaqv.xyz^
 ||dqzuy.com^
 ||drawnfrail.com^
 ||dreamnews.biz^
@@ -7557,6 +7570,7 @@ debugger:$popup
 ||ey88k2770u.com^
 ||eyenider.com^
 ||eytreontqf.xyz^
+||f338113ad0.com^
 ||f64927dfde9be4.com^
 ||f754f81e3b6.com^
 ||f9c6cdb754b7.com^
@@ -8162,6 +8176,7 @@ debugger:$popup
 ||noesnillies.work^
 ||noksauxi.com^
 ||nomkb.com^
+||nomorepecans.com^
 ||nonestolesantes.com^
 ||noophaul.com^
 ||noqukjy.com^
@@ -9640,6 +9655,7 @@ debugger:$popup
 ||audify.io^$popup,third-party
 ||azerty.solutions^$popup,third-party
 ||azmobilestore.co^$popup
+||b7om8bdayac6at.com^$popup
 ||back996.com^$popup,third-party
 ||badoink.com^$popup,third-party
 ||baiduccdn1.com^$popup,third-party
