@@ -878,7 +878,6 @@ blog.livedoor.jp#?##left_wrapper > div.area01 > p[style="”font-size:5pt;"] + c
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src^="//z-fe."]:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > div.gad-fixed:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src^="https://i-section"]:upward(2)
-blog.livedoor.jp#?#.plugin-memo > div.side > div.ad-center:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > center > script[src$="ziyu.net/js/dqnplus.js"]:upward(3)
 lionmaru.blog#?#.entry-content > p + h2:contains(【PR】)
 s8a.jp#?#article > div > ins.adsbygoogle:upward(1)
@@ -1300,6 +1299,8 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !-------JS----------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/100858 fix sidebar
+blog.livedoor.jp#%#//scriptlet("prevent-setTimeout", "floatingAd", "1000")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99361
 javmix.tv#%#//scriptlet('abort-current-inline-script', 'addEventListener', 'style.display')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96864
@@ -1382,6 +1383,8 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/100858 fix sidebar
+blog.livedoor.jp#$?#.plugin-memo > div.side > div.ad-center:upward(2) { display: none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97959
 hiraganakeyaki.blog.jp#$#.right-column-inner > div.plugin-memo:first-child { display: none!important; }
 hiraganakeyaki.blog.jp#$#.right-column-inner > div.plugin-memo:last-of-type { display: none!important; }
@@ -1586,12 +1589,13 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+blog.livedoor.jp##.mainmore > div.Default.amazon
 appli-huguai-matome.com##.entry-content > div[style="text-align:center;"]
 ugtop.com##body > br + a
 5app-ch.com##.sidebar_content > div.widget_custom_html
 5app-ch.com##.widget_custom_html.single-top
 4ndan.com##.sponserdlink
-msn.com###main > div[aria-label="ショッピング"][data-section-id="stripe.special"]
+msn.com###main > div[data-section-id="stripe.special"]
 recochoku.jp##.ranking-tower-records-music-bnr
 kindou.info##.adad2
 rbbtoday.com##.aside-box-ad
