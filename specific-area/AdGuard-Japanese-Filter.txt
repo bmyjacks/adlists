@@ -824,6 +824,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+news.livedoor.com#?#.topicsList > li > i.pr:upward(1)
+hlsloader.com#?#section > center > span[style="opacity:0.7;font-size:xx-small"]:upward(1)
 nlab.itmedia.co.jp#?##cmsBody > div.inner > p:last-of-type:has(> * > a[href^="https://twitter.com/"][target="_blank"]):contains(作品提供) ~ div.cmsAmazonWrap
 mainichi.jp#?#.featurelist > li > div#ad-pc-top-sc:upward(1)
 souda-kansai.com#?#.entry-content > p > ins.adsbygoogle:upward(1)
@@ -1126,6 +1128,7 @@ iwate-np.co.jp#?#.article-list > li > script[src^="//yads."]:upward(1)
 erokolky.com#?#.mainTitle > h3:contains(FANZA関連動画)
 gigazine.net#?#section > div.card > div.thumb > script[src*="/www/delivery/"]:upward(3)
 gigazine.net#?#.rl-list-item > div[id^="div-gpt-ad"]:upward(1)
+douga-getter.com#?#.section > div > ins.adsbygoogle:upward(2)
 douga-getter.com#?#.section > div.container >  div.row > div > ins.adsbygoogle:upward(4)
 news.yahoo.co.jp#?##uamods-also_read + div[class^="sc-"]:has(> div.adWrap)
 blog.livedoor.jp#?##aside > div#fix_sidewrapper > div.sidewrapper:has(script[src*="i-mobile"])
@@ -1589,6 +1592,15 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+heavy-peat.com###HTML54
+heavy-peat.com###HTML61
+robokumac.com##iframe[src^="//rcm-fe.amazon-adsystem.com/"]
+manekai.ameba.jp##.block-asp
+crankyseven-k.com###keni_toc
+tokyoloader.com##section > div[align="center"] > font[size="-1"][color="#404040"]
+tripeditor.com##.ad-h-resp
+tripeditor.com##.post_ads_box
+tripeditor.com##.relatedAdBox
 blog.livedoor.jp##.mainmore > div.Default.amazon
 appli-huguai-matome.com##.entry-content > div[style="text-align:center;"]
 ugtop.com##body > br + a
@@ -1599,6 +1611,8 @@ msn.com###main > div[data-section-id="stripe.special"]
 recochoku.jp##.ranking-tower-records-music-bnr
 kindou.info##.adad2
 rbbtoday.com##.aside-box-ad
+ga-m.com##.entry-content > p > a[href^="https://hb.afl.rakuten.co.jp/hgc/"]
+ga-m.com##.entry-content > p > a[href^="https://www.amazon.co.jp/gp/search"]
 ga-m.com###text-38
 ||src.gigafile.nu/banner/
 ||src.gigafile.nu/images/contents_
@@ -3023,6 +3037,7 @@ tabelog.com##.side-adbanner-wrap
 tabelog.com##[class^="ad-min-size"]
 otekomachi.yomiuri.co.jp##div[id^="ad_gam_"]
 otekomachi.yomiuri.co.jp##.p-ads-middle-rec
+komachi.yomiuri.co.jp##.sidebar-ad-rakuten
 komachi.yomiuri.co.jp##._popIn_recommend_ad_section_articles
 komachi.yomiuri.co.jp##div[class^="p-ad_"]
 komachi.yomiuri.co.jp##.p-ads-center
@@ -3904,7 +3919,7 @@ hamakei.com##.partner
 ||matometanews.com/rss.html
 matometanews.com##iframe[src="http://matometanews.com/rss.html"]
 matometanews.com##.related-articles
-matometanews.com##a[href^="http://www.amazon.co.jp/"][target="_blank"]
+michaelsan.livedoor.biz,matometanews.com##a[href^="http://www.amazon.co.jp/"][target="_blank"]
 ||images-fe.ssl-images-amazon.com^$domain=matometanews.com
 ||cnobi.jp/*/recommend/
 akb48matomemory.com##.rss
