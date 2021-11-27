@@ -104,6 +104,9 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/101188
+vostfr.stream##div[id^="gothamadblock_"]
+vostfr.stream#%#//scriptlet("abort-on-property-read", "gothamBatAdblock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99887
 7sur7.be#%#//scriptlet("abort-on-property-read", "_sp_detection_")
 !+ PLATFORM(ios, ext_android_cb)
@@ -615,6 +618,8 @@ jeuxvideo.com#?#.list-actu-home > li[-ext-has='span.officiel']
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/100793
+filmstreamy.com#%#//scriptlet("abort-on-property-read", "adsurgeNode")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99580
 zone-telechargement.work#%#//scriptlet('prevent-setInterval', 'this[_0x')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95087
@@ -723,6 +728,9 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+filmstreamy.com###ads
+filmstreamy.com##div[style^="position:relative;"][style*="width:100%;max-width:467px;"][style*="height:60px; border:none !important; background:none; margin:auto; clear:both;"]
+vostfr.stream##.mvic-btn > a.btn-successful
 caradisiac.com###MegaBan
 caradisiac.com##.containerPub
 zone-telechargement.work##a[href^="https://dl-protect.info/url-premium?"]
@@ -1048,6 +1056,10 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/100793
+$subdocument,third-party,domain=filmstreamy.com,badfilter
+@@||embed.mystream.to^$subdocument,domain=filmstreamy.com
+@@||thevideo.me/embed-$subdocument,domain=filmstreamy.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99951
 iphonetweak.fr#@#.pubMobile
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100004
@@ -19748,7 +19760,6 @@ zone-telechargement1.life##a[href^="https://cutt.us/"]
 it-swarm-fr.com##a[href^="https://db.tt/"]
 hentai-paradise.fr,hentaifr.net##a[href^="https://drmanga.net/"]
 frenchweb.fr##a[href^="https://experiences.microsoft.fr/"]
-telechargerjeuxtorrent.com##a[href^="https://filesify.com/"]
 lefigaro.fr##a[href^="https://go.babbel.com/"]
 lamule.eu,yifyddl.co##a[href^="https://go.nordvpn.net/"]
 dailyuploads.net##a[href^="https://href.li/"]
