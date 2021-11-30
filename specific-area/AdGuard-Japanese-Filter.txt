@@ -1303,6 +1303,7 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ##div[class^="google-2ad"]
 ##div[id^="active_overlay"]
 ##div[id^="post-"][class*="post-"] > div[id*="-"][class*="%"]
+##[class^="post-"] div#content div[id*="-"][class*="%"]
 ##[id][class*="post-"] [class*="-content"] div[id*="-"][class*="%"]
 !
 ! uBO specific
@@ -1661,7 +1662,7 @@ tokyoloader.com##section > div[align="center"] > font[size="-1"][color="#404040"
 tripeditor.com##.ad-h-resp
 tripeditor.com##.post_ads_box
 tripeditor.com##.relatedAdBox
-blog.livedoor.jp##.mainmore > div.Default.amazon
+blog.livedoor.jp##.Default.amazon
 appli-huguai-matome.com##.entry-content > div[style="text-align:center;"]
 ugtop.com##body > br + a
 5app-ch.com##.sidebar_content > div.widget_custom_html
@@ -2159,7 +2160,7 @@ full-count.jp##.l-sidebar-ads-top
 urutike.com##.h2_bnr
 kiragamiteru.com,sugumiru18.com,urutike.com,l-media.tokyo,77hs.net###text-7
 urutike.com##section[id^="xeory_banner_manager-"]
-takamaru1219.net,wata-ridley.com##p[style="text-align: center;"]
+eigahitottobi.com,takamaru1219.net,wata-ridley.com##p[style="text-align: center;"]
 finance.yahoo.co.jp##.detail_bannerBlock
 finance.yahoo.co.jp###newslist > div[class^="_"] > div[class^="_"] > ul[class^="_"] > li[class^="_"]
 finance.yahoo.co.jp##div[id^="cat_"] > ul[class^="_"] > li[class^="_"]:last-child
@@ -4572,9 +4573,6 @@ hs-exp.jp#@##search-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53900
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||cmnw.jp^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/51175
-@@||l.logly.co.jp/lift_widget.js?adspot_id=$domain=qiita.com
-@@||l.logly.co.jp/lift.json$domain=qiita.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47520
 @@||static.rebates.jp/img/*_300x250.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43771
