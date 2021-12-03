@@ -104,6 +104,10 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/101696
+@@||abcbourse.com/scripts2/prebid.js
+abcbourse.com#$##mywraptest { height: 1px !important; }
+abcbourse.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "msg_ab")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101188
 vostfr.stream##div[id^="gothamadblock_"]
 vostfr.stream#%#//scriptlet("abort-on-property-read", "gothamBatAdblock")
@@ -198,7 +202,7 @@ adala-news.fr#@#.adBanner
 adala-news.fr#$##wrapfabtest { height: 1px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55068
 jardiner-malin.fr#%#//scriptlet("set-constant", "wIsAdBlocked", "false")
-||cdn-a.yieldlove.com/yieldlove-bidder.js$script,redirect=nooptext,domain=jardiner-malin.fr
+||cdn-a.yieldlove.com/yieldlove-bidder.js$script,redirect=noopjs,domain=jardiner-malin.fr
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||cdn-a.yieldlove.com/yieldlove-bidder.js$domain=jardiner-malin.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54079
@@ -1813,6 +1817,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 &ad.preroll=
 &ad.trans.
 &ad=*&bid=*&bn=
+&ad=*&buffer=
 &ad_*&idzone=
 &ad_*&zone=
 &ad_count=
@@ -5138,6 +5143,7 @@ _frontend_loader.$script
 /popup?sponsor=$popup
 /popupclick/*$popup
 /popuplp/btag/*$popup
+/promo.*/?nats=$popup
 /promo.php?compte=*&idealsite=$popup
 /promoRedirect?$popup
 /promos/popeachclick/*$popup
@@ -5196,6 +5202,7 @@ _frontend_loader.$script
 /syndication.*?idzone=$popup
 /t/?*&clickid=$popup
 /tour-web/*&tour=*&utm_$popup
+/tour/?nats=$popup
 /tradextrem/out.$popup
 /traffic.*&click_id=$popup
 /trk/|$popup
@@ -5903,6 +5910,7 @@ debugger:$popup
 ||copyop-ads.com^$third-party
 ||cougar-rencontre.net^$third-party
 ||cougarmessenger.com^$third-party
+||cpa-content.com^$third-party
 ||cpabuild.com^$third-party
 ||cpaofferstat.com^$third-party
 ||cpmstar.com^$third-party
@@ -6352,6 +6360,7 @@ debugger:$popup
 ||noxaffiliates.com^$third-party
 ||nr-data.net^$third-party
 ||nsfxaffiliates.com^$third-party
+||ntl.cloud^$third-party
 ||nturveev.com^$third-party
 ||ntwoad.co.kr^$third-party
 ||nuggad.net^$third-party
@@ -6785,6 +6794,7 @@ debugger:$popup
 ||uptopop.com^$third-party
 ||urban-media.com^$third-party
 ||url-redirect.co^$third-party
+||utl-1.com^$third-party
 ||utndln.com^$third-party
 ||uuuuuuuu.lol^$third-party
 ||vacature.com^$third-party
@@ -6972,6 +6982,8 @@ debugger:$popup
 ||01counter.com^
 ||01jud3v55z.com^
 ||0210bb49cd.com^
+||02fb858c60.com^
+||0346420d60.com^
 ||0750a40b0d.com^
 ||0byv9mgbn0.com^
 ||0dd8940efd.com^
@@ -6980,6 +6992,9 @@ debugger:$popup
 ||0pyn37dv3m.com^
 ||0ra5eylno4zs.com^
 ||0vsgqxbxk66w.com^
+||102c3607fc.com^
+||117d0d6899.com^
+||13e0df9b41.com^
 ||16yp1ji92a.com^
 ||1904fa460e12a2.com^
 ||19bk5lo5q2.com^
@@ -6997,6 +7012,7 @@ debugger:$popup
 ||2.biqle.ru^
 ||22f9ab9c23fb9073.com^
 ||24newstech.com^
+||25a2143174.com^
 ||268d61daa761.com^
 ||277ryf6nabi0.com^
 ||2bd3c9da116ed2907.com^
@@ -7014,7 +7030,9 @@ debugger:$popup
 ||3163c69273.com^
 ||3221dkf7m2.com^
 ||34pavouhj7.com^
+||3969aa67d1.com^
 ||39irqwnzlv.com^
+||3ac46b4f5a.com^
 ||3b26cbed75120f.com^
 ||3ba87e4828c5a95.com^
 ||3cdafa6f67.com^
@@ -7026,10 +7044,12 @@ debugger:$popup
 ||3z6hirxo24.com^
 ||421npyd4nd.com^
 ||426824a46c.com^
+||42ad8ba91b.com^
 ||43yagowe3y.com^
 ||442438f989.com^
 ||452428e4ea.com^
 ||45eijvhgj2.com^
+||48d58df525.com^
 ||49863d99e314a.com^
 ||49oa3o49b6.com^
 ||4at7qxbdty4y.com^
@@ -7045,11 +7065,14 @@ debugger:$popup
 ||532xcxypmpnp.com^
 ||534fd36740e66ca9c.com^
 ||540e1434fc717d0.com^
+||5cb9a301ae.com^
+||5f12bc6600.com^
 ||5odjin7ipi.com^
 ||5ovrmmmoubi71efvatfd.com^
 ||5u9vleiz1u4d.com^
 ||5vcl2z9la7.com^
 ||5xd3jfwl9e8v.com^
+||607399b0a8.com^
 ||61b50f2b935cbb6.com^
 ||64p3am9x95ct.com^
 ||65u0tvf9l4.com^
@@ -7066,6 +7089,7 @@ debugger:$popup
 ||7419fec8ce83.com^
 ||761a280af77152d.com^
 ||7713gsefc0.com^
+||7b0beeacad.com^
 ||7b48b71367a1b6c1.com^
 ||7ec977edb33b9dc.com^
 ||7f83ae5830.com^
@@ -7087,10 +7111,13 @@ debugger:$popup
 ||91aa46b949d20.com^
 ||9526s7bwd0.com^
 ||95p5qep4aq.com^
+||96e8abd9c4.com^
 ||96n5r5va.top^
+||976b97b6da.com^
 ||9a505e446b3cbc49ba0.com^
 ||9amq5z4y1y.com^
 ||9df4mz2kpm.com^
+||9ec1589ddb.com^
 ||9kkf51ovqex1.com^
 ||9lhc3x6whk.com^
 ||9nwg9sib9e.com^
@@ -7103,6 +7130,7 @@ debugger:$popup
 ||a418d4f43c3a32.com^
 ||a5e2ef28b5.com^
 ||a66675b6ab.com^
+||a997aa5071.com^
 ||aab-check.me^
 ||aahvz.top^
 ||aanqylta.com^
@@ -7141,6 +7169,8 @@ debugger:$popup
 ||adsmansion.com^
 ||adtracker2.com^
 ||advicethrew.com^
+||ae4c49d4be.com^
+||ae88625f96.com^
 ||afieldfluxplead.com^
 ||aftlogonamuse.com^
 ||agafurretor.com^
@@ -7259,6 +7289,8 @@ debugger:$popup
 ||azaipsee.com^
 ||azj57rjy.com^
 ||b0216dfdeb.com^
+||b26d946337.com^
+||b3ad0c7867.com^
 ||b42rracj.com^
 ||b55376b5e3.com^
 ||b6b4rhsbdawj.com^
@@ -7357,6 +7389,9 @@ debugger:$popup
 ||c0cd2idcl5.com^
 ||c11ff582fa2fd7dc.com^
 ||c1c41f193a.com^
+||c20f1f2292.com^
+||c29e083d1d.com^
+||c52d0ca9c5.com^
 ||c52llumx.com^
 ||c545d86c18d22.com^
 ||c7486c5c0a.com^
@@ -7461,10 +7496,13 @@ debugger:$popup
 ||cxmolk.com^
 ||cyijr.com^
 ||cyphersvalure.com^
+||d03165aacb.com^
 ||d0p21g2fep.com^
 ||d2ergeh3ul.com^
 ||d300c7cd7d0747f5e21.com^
+||d4110b7044.com^
 ||d4q8zgf756.com^
+||d6a801e08a.com^
 ||da31993232.com^
 ||daccroi.com^
 ||daezorwyn.xyz^
@@ -7561,6 +7599,7 @@ debugger:$popup
 ||dzxsqoh01i.com^
 ||e09f3e4ceda.com^
 ||e2b9jbowv7.com^
+||e4ea9cb229.com^
 ||e4npw6g7c9kk.com^
 ||e4w50tqnqk.com^
 ||e9geolgzk6.com^
@@ -7634,6 +7673,9 @@ debugger:$popup
 ||eytreontqf.xyz^
 ||f0586d435d.com^
 ||f338113ad0.com^
+||f340400b5b.com^
+||f43ffc31e1.com^
+||f53d8e67f8.com^
 ||f64927dfde9be4.com^
 ||f754f81e3b6.com^
 ||f9c6cdb754b7.com^
@@ -8305,6 +8347,7 @@ debugger:$popup
 ||offsigilyphor.com^
 ||ofseedotom.com^
 ||ofslakotha.com^
+||ogmghzpyq.com^
 ||ohsleakink.com^
 ||oicvgqrahaaejnx.xyz^
 ||oilwrypit.com^
@@ -8588,6 +8631,7 @@ debugger:$popup
 ||ripvowsag.com^
 ||rmawm7mw.top^
 ||rmndme.com^
+||rnakkaybh.com^
 ||rndchandelureon.com^
 ||rndchanseytor.club^
 ||rndhaunteran.com^
@@ -9742,6 +9786,7 @@ debugger:$popup
 ||arthygeo.info^$popup
 ||arthylndr.com^$popup,third-party
 ||aservtrack.com^$popup,third-party
+||aslnk.link^$popup
 ||ato.mx^$popup,third-party
 ||audify.io^$popup,third-party
 ||azerty.solutions^$popup,third-party
@@ -10816,6 +10861,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||cdnaz.win/300x100/
 ||cdnpark.com/registrar/*/loader.js
 ||cdnscreenshot.xyz^*/ban
+||cdnwh.com/cecash/
 ||cdscdn.com^*/banniere_
 ||cdscdn.com^*/partenaires/
 ||cdscdn.com^*/partners/
