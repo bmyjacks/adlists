@@ -5199,6 +5199,8 @@ electric-house.ru#@#.adsbygoogle
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/100466
+cdnpotok.com#?##oframeplayerjs > pjsdiv[style]:has(> pjsdiv + pjsdiv[style] > p[style]:contains(AdBlock))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100033
 ||studwood.ru/jquery.menu.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100125
@@ -11900,6 +11902,12 @@ meteo.ua,klops.ru,crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.
 !
 !
 !
+||assist.multiwork.org/Forms/js/mw-chatbot-widget.js$third-party
+||assist.multiwork.org/fast-form.aspx$third-party
+otherreferats.allbest.ru##.link_block_right > div.baner_yandex + div
+actualcomment.ru##.isbaner
+smartpress.by##a[href="https://www.100ballov.by/"] > img
+smartpress.by##a[href="https://groprinosin.by/"] > img
 glav.su##div[id^="js-y-rtb"]
 glav.su##.bl-ptrs + div.bl-a
 ||cxem.net/images/*_podv_
@@ -12557,7 +12565,7 @@ rusfootball.info###podarok_wrapper
 gidonline.fun###myShowBlock1
 gidonline.fun###s-side
 theoryandpractice.ru##a[href^="http://kampus.team/"] > img
-smartpress.by##body div.top-box
+smartpress.by###main > div.top-box
 worldclassmag.com##.b-banner__right
 xlib.info##.box-before-closing
 xlib.info###sideDynamicPopup
@@ -15509,7 +15517,7 @@ game-digest.com###text-3.widget.widget_text
 hsp.kz,izvestia.nikolaev.ua###text-31
 isroe.co.il###text-39
 mainview.ru,pcgramota.ru###text-4
-kermo.info,mainview.ru###text-5
+virtmachine.ru,kermo.info,mainview.ru###text-5
 volnorez.com.ua###text-59
 volnorez.com.ua###text-79
 voyagist.ru###text-8
