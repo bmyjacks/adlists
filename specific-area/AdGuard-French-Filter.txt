@@ -154,7 +154,10 @@ fourtoutici.pro#%#//scriptlet("prevent-setTimeout", "test.offsetHeight")
 @@#/ad_$image,domain=allfoot.info
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||streamonsport.info^$generichide
+! https://github.com/AdguardTeam/AdguardFilters/issues/101639
 ! https://forum.adguard.com/index.php?threads/40753/
+lecourrier-du-soir.com#%#//scriptlet("prevent-setInterval", "adsbygoogle")
+lecourrier-du-soir.com#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "adsbygoogle")
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=lecourrier-du-soir.com
 !+ NOT_OPTIMIZED
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lecourrier-du-soir.com
@@ -657,6 +660,15 @@ actu17.fr#%#//scriptlet("abort-on-property-write", "td_ad_background_click_link"
 jacquieetmicheltv.net#%#var _st = window.setTimeout; window.setTimeout = function(a, b) { if(!/target_url/.test(a)){ _st(a,b);}};
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83543
 canalplus.com#%#//scriptlet('set-constant', '__data.application.settings.featPlayerAds', 'false')
+! https://github.com/AdguardTeam/AdguardFilters/issues/100525
+! https://gist.github.com/ameshkov/265f353a816110e8b9d5fc37ad66c31a
+prod-player.tf1.fr#%#(function(){let callCounter=0;const nativeJSONParse=JSON.parse;const handler={apply(){callCounter++;const obj=Reflect.apply(...arguments);if(callCounter<=10){if(obj.hasOwnProperty('env')&&obj.env.hasOwnProperty('origin')){if(!obj.hasOwnProperty('ads')){obj.ads={};}obj.ads.enable=false;obj.ads._prerolls=false;obj.ads._midrolls=false;}}else{JSON.parse=nativeJSONParse;}return obj;}};JSON.parse=new Proxy(JSON.parse,handler);})();
+! TODO: Change AG_defineProperty to scriptlet when this issue will be fixed - https://github.com/AdguardTeam/Scriptlets/issues/65
+tf1.fr#%#AG_defineProperty('tv.freewheel.SDK.Util.pingURLWithForm', { get: function() { return function() {return true;}; } });
+tf1.fr#%#AG_defineProperty('tv.freewheel.SDK.Util.pingURLWithImage', { get: function() { return function() {return true;}; } });
+tf1.fr#%#AG_defineProperty('tv.freewheel.SDK.Util.pingURLWithScript', { get: function() { return function() {return true;}; } });
+tf1.fr#%#AG_defineProperty('tv.freewheel.SDK.Util.pingURLWithXMLHTTPRequest', { get: function() { return function() {return true;}; } });
+tf1.fr#%#AG_defineProperty('tv.freewheel.SDK.Util.sendAdRequestWithXMLHTTPRequest', { get: function() { return function() {return true;}; } });
 ! http://forum.adguard.com/showthread.php?6907
 generation-nt.com#%#Object.defineProperty(window, 'AdvertBay', { get: function() { return []; } });
 !
@@ -849,7 +861,11 @@ forumconstruire.com###ForumconstruireHB_ATF_300x600
 zone-annuaire.xyz##center > a[href="/telecharger.php"]
 expresso.1fr1.net##div[style*="height:90px;"][style*="728px"]
 lesoleil.com##div[omerlo-ad-formats]
+! https://github.com/AdguardTeam/AdguardFilters/issues/100525
+! https://github.com/AdguardTeam/AdguardFilters/issues/50546
 ||delivery.tf1.fr/pub$media,domain=tf1.fr
+||dnl-adv-ssl.tf1.fr^$media,domain=tf1.fr
+||slpubmedias.tf1.fr^$media,domain=tf1.fr
 dl-protect.xyz##a#lang_download[href="/download"]
 1001ebooks.com##.stream-item > div[class="box download  aligncenter"]
 sciencesetavenir.fr##.header-banner .pubs
@@ -1036,6 +1052,8 @@ lesfrontaliers.lu##.ad-listing
 ! https://forum.adguard.com/index.php?threads/7957/page-2#post-90715
 ||amazonaws.com/www.w9.fr/config.json$replace=/"enabled": true\,/"enabled": false\,/i
 ||amazonaws.com/www.w9.fr/config.json$replace=/"enabled": true\,/"enabled": false\,/i,important
+! https://github.com/AdguardTeam/AdguardFilters/issues/100525
+||prod-player.tf1.fr/*/Player/Player.js$script,xmlhttprequest,other,replace=/_prerolls:!(0|1)\,_midrolls:!(0|1)/enable:!1\,_prerolls:!1\,_midrolls:!1/
 !---------------------------------------------------------------------------!
 !-------------- White list. Fixing filtration errors (false-positive) ------!
 !---------------------------------------------------------------------------!
