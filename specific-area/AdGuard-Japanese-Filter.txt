@@ -837,6 +837,10 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+www2.odn.ne.jp#?##sidebar-in2 > div.contents > ins.adsbygoogle:upward(1)
+www2.odn.ne.jp#?##sidebar-in2 > h3:contains(/広告|PAKUTASO/)
+www2.odn.ne.jp#?##area01 > div.access > script[src$="/show_ads.js"]:upward(2)
+mj-news.net#?#a[id^="Type"]:upward(1)
 bunshun.jp#?#.sub-column-inner > div.block > div[class="block-header pc"]:has(> span:contains(SPECIAL))
 bunshun.jp#?#.sub-column-inner > div.block > div[class="block-header pc"]:has(> span:contains(SPECIAL)) + ul[class="list-thumb pc"]
 business.nikkei.com#?#.js-sticky > section.l-asideSection:has(> div.p-sideArticleList > ul > li > div[id^="div-gpt-ad-recommend_pr_"])
@@ -1632,13 +1636,19 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+724685.com##.linkwithin_div + div.thanks
+724685.com##div[style="margin:-5px auto 5px auto; height:130px;"]
+win-tab.net###media_image-10
+ma-jann.com##.type-page span.small
+mj-news.net##a[id^="Type"]
+||jannyumon.jp/static/images/banner/bannerNormal.jpg
 jan39.com##div[class^="box_banner_"]
 energydrinkmania.net###sub_navi > h4
 ero-gazou.jp,eroiro.info###ppsPopupBgOverlay
 ero-gazou.jp,eroiro.info##.ppsPopupListsShell
 ero-gazou.jp,eroiro.info##.widget_pc_text
-lv73.net,2week.net,oreteki-design.com,mohmongar.net,chiepedia.club,chem-station.com,sirabetter.com,fx-koryaku.com###custom_html-2
-lagcapa.org,useful-notes.com,mohmongar.net,chem-station.com###custom_html-3
+ma-jann.com,lv73.net,2week.net,oreteki-design.com,mohmongar.net,chiepedia.club,chem-station.com,sirabetter.com,fx-koryaku.com###custom_html-2
+ma-jann.com,lagcapa.org,useful-notes.com,mohmongar.net,chem-station.com###custom_html-3
 lv73.net,lagcapa.org,mohmongar.net,chem-station.com,48idol.tv###custom_html-4
 erogamemod.com,kimootoko.net###custom_html-5
 kindou.info,chem-station.com###custom_html-6
