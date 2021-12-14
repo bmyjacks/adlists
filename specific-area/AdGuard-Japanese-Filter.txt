@@ -837,6 +837,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+plaza.rakuten.co.jp#?##content-side > table div[id*="Rak_Blog_User_SideBanner"]:upward(table)
 erry.one,hikaritube.com,iqoo.me,poyopara.com,sugirl.info#?#div[style^="width:100%;box-sizing:border-box;padding:1em"] > a[href^="https://click.dtiserv2.com/"]:only-child:upward(1)
 sunri2525.blog.jp#?#.plugin-memo > div.side > iframe[src*="//rcm-fe.amazon-adsystem.com/"]:upward(2)
 sunri2525.blog.jp#?#.plugin-memo > div.side > a[href^="https://hb.afl.rakuten.co.jp/"]:upward(2)
@@ -1644,6 +1645,8 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+record-now.com##.my_ads
+hyperts.net###right-content2
 /caribian.jpg$image,domain=erry.one|hikaritube.com|iqoo.me|nukistream.com|poyopara.com|sugirl.info
 erry.one,hikaritube.com,iqoo.me,nukistream.com,poyopara.com,sugirl.info##.atop
 ||ero-video.net/advert/
@@ -1721,6 +1724,7 @@ travel-nippon.net##a[href^="https://click.linksynergy.com/fs-bin/click"]
 ||yogibo.jp/assets/affiliate/
 adultexpo.jp##.bfb_textBtnTextBtn
 nttdocomo.co.jp##.sec-crpTop-stop
+hinapishi.com##iframe[width="320"][height="100"]
 vipsister23.com##a[href*="https://al.dmm.com/"]
 vipsister23.com##a[href*="https://www.bybit.com/jpwelcome/"]
 blog.livedoor.jp##a[href^="http://sp.pun-c.jp/"]
@@ -2108,7 +2112,7 @@ photo-tea.com###r-fix
 photo-tea.com##.ad-footer-related
 photo-tea.com##.googleAdPost
 photo-tea.com##.googleAdSide
-animanch.com,trovivo.com,pokemongo-master.com,9ketsuki.info,umamusumelabo.com##.yyi-rinker-contents
+the-alter-ego.com,animanch.com,trovivo.com,pokemongo-master.com,9ketsuki.info,umamusumelabo.com##.yyi-rinker-contents
 ||yoyaku-top10.jp/uploads/rectangle_banner/
 yoyaku-top10.jp##.p-rectangle_banner_box
 ||amazonaws.com/adv-img.zucks.jp/$third-party
