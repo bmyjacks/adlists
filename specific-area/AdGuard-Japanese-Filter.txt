@@ -475,7 +475,9 @@ itby.net#%#//scriptlet('abort-current-inline-script', 'onload', 'innerHTML')
 g-pc.info#%#//scriptlet('set-constant', 'adsbygoogle.loaded', 'true')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=g-pc.info
+! https://github.com/AdguardTeam/AdguardFilters/issues/103488
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87846
+musenboya.com#@#.ads-area
 musenboya.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 musenboya.com#@#.adsbygoogle
@@ -2228,7 +2230,7 @@ itmedia.co.jp##div[style^="font-family:Gill Sans;"][style*="font-size:12px;"][st
 ||gamewith.jp^*/walkthrough/adjack.js
 gamewith.jp###js-ad-jack
 tarosoku.com###execphp-3
-birori-blog.com,tarosoku.com##.side-topad
+hobby-museum.com,birori-blog.com,tarosoku.com##.side-topad
 wikinis.net##.entry-content > table[style="border-style: none;"][border="1"]
 ||digiket.com/xml/ad/$third-party
 moeeki.net###sub > br
