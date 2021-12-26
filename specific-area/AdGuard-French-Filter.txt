@@ -1073,8 +1073,6 @@ lesfrontaliers.lu##.ad-listing
 @@||oasis-player.p7s1.io/web/monetization/*/monetization.js$domain=puls24.at|kabeleins.de|wetter.com|prosiebenmaxx.de|sixx.de|sat1.de|puls4.com|prosieben.de|kabeleinsdoku.de|kabeleinsdoku.at|zappn.tv
 !
 ! START: Temporary
-! https://github.com/easylist/listefr/issues/29
-javgg.net#@##clickfakeplayer
 ! https://forums.lanik.us/viewtopic.php?t=47049
 ||wikimonde.com/wmo.js$badfilter
 ||wikimonde.com^$xmlhttprequest,badfilter
@@ -2014,6 +2012,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 -90x728_
 -920x180.gif
 -960x80.
+-970-x-250.
 -970-x-90-
 -970x250.
 -970x250_
@@ -2651,6 +2650,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /ads.*/go.
 /ads.*/go2.
 /ads.*/www/*
+/ads.*?site=
 /ads.cgi?
 /ads.slot.
 /ads.xml
@@ -3206,6 +3206,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /cadre/728-$subdocument
 /campagne/redir/*
 /campaigns/banner?
+/cams/live-banners/*
 /CanvasAd.
 /carasexe.html$subdocument
 /carousel/*?site_id=*&niche=*&items=
@@ -3684,6 +3685,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /p_tools/rotation.
 /p_under.
 /p_under_
+/pab-ssl.js
 /packcpm.
 /packpopup.
 /pad_ban.
@@ -4177,6 +4179,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /sw.js?*%2E
 /sw.js?*&puid=
 /sw.js?tag_id=
+/sw/pub.js
 /syndication.*&idzone=
 /syndication/pub/*
 /Tag/go2?url=$subdocument
@@ -7160,8 +7163,11 @@ _zoneid=*/rel/index.cfm?$popup
 ||761f1b3960.com^
 ||7705a9f168.com^
 ||7713gsefc0.com^
+||7882f4ee63.com^
+||7995238c64.com^
 ||7b0beeacad.com^
 ||7b48b71367a1b6c1.com^
+||7c617f8a7e.com^
 ||7dc60853ca.com^
 ||7eaf2aa8c1.com^
 ||7ec977edb33b9dc.com^
@@ -7208,12 +7214,14 @@ _zoneid=*/rel/index.cfm?$popup
 ||a-staticwebedia.com^
 ||a0a28d3c97a4e566.com^
 ||a33bb68b84b.com^
+||a3f75e78e5.com^
 ||a40c129de3.com^
 ||a418d4f43c3a32.com^
 ||a5e2ef28b5.com^
 ||a66675b6ab.com^
 ||a882299d44.com^
 ||a997aa5071.com^
+||aa9aa8ae44.com^
 ||aab-check.me^
 ||aahvz.top^
 ||aanqylta.com^
@@ -7231,6 +7239,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||abtaurosa.club^
 ||abtyroguer.com^
 ||abyamaskor.com^
+||ac2e81c7b8.com^
 ||academand.com^
 ||acbfe90836.com^
 ||acedacc160.com^
@@ -7316,6 +7325,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||arabic-life.buzz^
 ||aralomomolachan.com^
 ||arautsod.com^
+||arbaloseyepit.com^
 ||arbourspankappetite.com^
 ||arcaptart.site^
 ||ardspalkiator.com^
@@ -7396,6 +7406,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||balsascotleak.com^
 ||banalbjar.com^
 ||basetts.com^
+||bastingestival.com^
 ||bayfenlee.com^
 ||bayirksrap.com^
 ||bd55f6d385.com^
@@ -7433,6 +7444,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||bf3c1229dc6f28b2.com^
 ||bff76ca63a.com^
 ||bgxmq.com^
+||bhabhiporn.pro^
 ||bhrbbwup.xyz^
 ||bighticeate.com^
 ||bigosearch.com^
@@ -7715,6 +7727,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||e4ea9cb229.com^
 ||e4npw6g7c9kk.com^
 ||e4w50tqnqk.com^
+||e5asyhilodice.com^
 ||e7cc2c5329.com^
 ||e9geolgzk6.com^
 ||e9kv7bhnzt.com^
@@ -8418,6 +8431,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||noakauhe.com^
 ||noblemandrovebreeches.com^
 ||noelsdoc.cam^
+||noerwe5gianfor19e4st.com^
 ||noesnillies.work^
 ||noksauxi.com^
 ||nomkb.com^
@@ -9284,6 +9298,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||yonomastara.com^
 ||yougotacheck.com^
 ||ypqy3sgq.com^
+||yqmxfz.com^
 ||yrxrbha.com^
 ||ys3e965d.top^
 ||ytbapi.com^
@@ -9291,6 +9306,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ytubemp3.net^
 ||ytvracu.com^
 ||yu6v3nhnsl.com^
+||yulunanews.name^
 ||yupsittoms.work^
 ||z48gntbbu9pl.com^
 ||z6naousb.com^
@@ -12199,12 +12215,14 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||i.imgur.com/4FFURwf.png
 ||i.imgur.com/55mWBYv.mp4
 ||i.imgur.com/5tS8GcN.png
+||i.imgur.com/6pBbPcM.png
 ||i.imgur.com/7hsNsFq.png
 ||i.imgur.com/A4Kwg6k.png
 ||i.imgur.com/aQZFKkV.gif
 ||i.imgur.com/B6HYXCJ.png
 ||i.imgur.com/bbY9BQl.png
 ||i.imgur.com/BZVxEYl.png
+||i.imgur.com/DeNQC6g.gif
 ||i.imgur.com/e6FJxIZ.png
 ||i.imgur.com/eXPCkwg.gif
 ||i.imgur.com/FinBqT8.jpg
@@ -12225,6 +12243,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||i.imgur.com/LjJzcZk.png
 ||i.imgur.com/MBfizp9.jpg
 ||i.imgur.com/nUEuHxd.png
+||i.imgur.com/NzCgETU.png
 ||i.imgur.com/o7VgXT5.png
 ||i.imgur.com/pCcLL3S.png
 ||i.imgur.com/pJJx0o1.gif
@@ -12250,6 +12269,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||i.imgur.com/yHKDYZT.mp4
 ||i.imgur.com/YJfDBUt.png
 ||i.imgur.com/Yqo2mgc.jpg
+||i.imgur.com/ZqIRV0I.gif
 ||i.imgur.com/ZRfTayV.gif
 ||i.imgur.com^$domain=nintendo-master.com|pornqd.net|protect-stream.com
 ||i.postimg.cc/cLGhjvQr/large.jpg
@@ -13833,7 +13853,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||jeux-hentai.com/videos/
 ||jeux-mmorpg.com/habillage/
 ||jeux-mmorpg.fr/media/habillage/
-||jeux-porno.net^$script,~third-party
+||jeux-porno.net^*/assets/img/banners/
 ||jeux-sexe-gratuit.com/img/
 ||jeux-sexe-gratuit.com^$media
 ||jeux-sexe-gratuit.fr/images/banners/
@@ -15486,6 +15506,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ###advertisePlacement
 ###advertisement-2
 ###advertisement-3
+###advertising-disclosure-block
 ###advertising2-postroll
 ###advertising_label
 ###advertising_label_1
@@ -15626,7 +15647,6 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ###carre-pub
 ###carre_pub
 ###carrepubHome
-###clickfakeplayer
 ###colgauche_pub
 ###comment-ad
 ###commentad
@@ -16736,6 +16756,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.advertisement-pub
 ##.advertisement_120x600
 ##.advertisement_250x250
+##.advertiser-disclosure-block
 ##.advertising-box
 ##.advertising-box-full
 ##.advertising-item-bottom
@@ -17771,6 +17792,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.widget_publicite
 ##.widgetadv
 ##.widgetpub
+##.wio-xbanner
 ##.with-ad
 ##.with-ad-top
 ##.with-corner-ad
@@ -19280,7 +19302,7 @@ le2minutes.com##.habillage-top
 turfomania.fr##.habillageLien
 cbanque.com##.habpage
 envertetcontretous.fr##.halfpage
-quotisexe.com##.happy-inside-player
+jeux-porno.net,quotisexe.com##.happy-inside-player
 frandroid.com##.hb__ad
 refurbgeneration.com##.head_ebay
 avis-express.com,lnr-dz.com##.header-banner
@@ -20136,7 +20158,6 @@ copine-coquine.com##div[style^="width:300px;height:250px"]
 echoroukonline.com##div[style^="width:728px;height:90px;"]
 vpngratuit.fr##h1 > a[href^="http://vpngratuit.fr/choisir-service-vpn-gratuit/"]
 vpngratuit.fr##h2 > a[href^="http://vpngratuit.fr/choisir-service-vpn-gratuit/"]
-jeux-porno.net##iframe[src]
 developpez.net##iframe[width="300"][height="250"]
 developpez.net##iframe[width="728"][height="90"]
 freemindparlexemple.fr##img[alt="Banniere_ENI"]

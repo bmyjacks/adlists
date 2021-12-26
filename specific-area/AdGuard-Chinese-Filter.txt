@@ -2395,7 +2395,6 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
 .com/myjs/mys_alljs.js
-.com/O/*O1O.js$third-party
 .com/pc/ad/$domain=~yoogame.com
 .com/piaozi/*.js
 .com/pp.php?uid=$script,third-party
@@ -2600,7 +2599,6 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /cpm/i.ashx?
 /cpmShopAds^
 /cpro/ui/*
-/cpv/i.php?z=
 /crifan_com/padaili.png
 /css/78dfj/*.js
 /d/*-*-*.ap|$script,third-party
@@ -2687,7 +2685,6 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /html/taobao_focus_
 /huya/main/widget/roomGg
 /huya_promotion_content_
-/i.php?z=$script,third-party
 /ifeng_jdttemplate.js
 /ifengRotatorAd.js
 /iframe/baidu_*.html
@@ -2757,7 +2754,6 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /js_php/ajsf.php?id=$third-party
 /jsadv/*
 /jsui/ads/*
-/k.com?g=$third-party
 /k120g270.
 /k300g250.
 /k960g90.
@@ -2815,7 +2811,6 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /nForum/files/adv/*
 /nowscore/ad/*
 /ntes-ad-cloud.
-/o.php?u=*|*$script,third-party
 /opbb/float.js
 /opbb/obpp.tpl
 /page/?s=$third-party
@@ -2942,7 +2937,6 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 /uploads/setting/ad/*
 /uu114/ad/*
 /V.aspx?Bln=$script,third-party
-/v.php?z=$script,third-party
 /variety.tc.qq.com/*.mp4?
 /videoJS/video-conrtib-ads.js
 /view/image/ngps1.gif
@@ -11447,6 +11441,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+yiche.com##div[class*="-adv"]
+yiche.com##div[class*="words-ad"]
+yiche.com##.ad
+hsck.org##IMG[height="60px"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13689,7 +13687,7 @@ firefox.com.cn,firefoxchina.cn##.btn-email-show + p
 pornbest.org,ptt.sex##.btn-group + .row
 cssmoban.com##.btn-host
 subku.net##.btn-success
-zdfans.com##.btn11 + .btn11
+zdfans.com##.btn11[onclick]
 mydrivers.com##.btnNext + div:last-child
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.bus-top-activity-wrap
 qq.com##.business-Article-QQ
@@ -19225,6 +19223,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||minchikeji.cloud^
 ||jiazhenghangye.pw^
 ||xhfya.cn^
+||skmtyaw.cn^
+||pvgzoqc.cn^
+||wangchuijun.cn^
+||sbqsftz.cn^
+||seobeginners.wiki^
+||ykwh.store^
+||fowft.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
