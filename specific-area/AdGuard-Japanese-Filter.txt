@@ -133,6 +133,7 @@
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||tag.surpha.jp^$third-party
 ||adtest.pages.dev^$third-party
 ||connead.net^$third-party
 ||goldenssp.com^$third-party
@@ -745,6 +746,12 @@ off-soft.net#@#.adsbygoogle
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/104224#issuecomment-1002865063
+! TODO: replace the rule below after the release of the extension 4.0
+! [$domain=gigazine.net,path=/^\/$/]#?#section > div.card > div.date > a[class] > span.catab:contains(広告):upward(section)
+gigazine.net#?#section > div.card > div.date > a[class] > span.catab:contains(広告):upward(section)
+gigazine.net#?#section > div.card > div.thumb > script[src*="/www/delivery/"]:upward(3)
+gigazine.net#?#.rl-list-item > div[id^="div-gpt-ad"]:upward(1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98391
 lifehacker.jp#?#.lh-slideInner > li:has(> .lh-summary > .lh-summary-meta > .lh-summary-sponsored)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90433
@@ -834,6 +841,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+hochi.news#?#.csw-content-box:not(.ise-ad) > div.csw-content-footer:not(.csw-off) > span.csw-ad-icon:contains(PR):upward(2)
 xtech.nikkei.com#?##sticky1 > section.l-asideSection:has(div[id^="div-gpt-"])
 xtrend.nikkei.com#?#.articles-list-item > div[id^="div-gpt-"]:upward(1)
 globe.asahi.com#?#.module-list-articles__item > div[id^="div-gpt-"]:upward(1)
@@ -1189,8 +1197,6 @@ marumie.name#?#.table_line:has(iframe[src])
 iwate-np.co.jp#?#li[id^="top-news-article-"] > a.article-ad:upward(1)
 iwate-np.co.jp#?#.article-list > li > script[src^="//yads."]:upward(1)
 erokolky.com#?#.mainTitle > h3:contains(FANZA関連動画)
-gigazine.net#?#section > div.card > div.thumb > script[src*="/www/delivery/"]:upward(3)
-gigazine.net#?#.rl-list-item > div[id^="div-gpt-ad"]:upward(1)
 douga-getter.com#?#.section > div > ins.adsbygoogle:upward(2)
 douga-getter.com#?#.section > div.container >  div.row > div > ins.adsbygoogle:upward(4)
 news.yahoo.co.jp#?##uamods-also_read + div[class^="sc-"]:has(> div.adWrap)
@@ -1678,6 +1684,10 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+pepy.jp##div[style$="min-height: 250px;"]
+glam.jp###recommend
+glam.jp###other
+glam.jp##.a-img_add_header
 tripnote.jp##.same_theme
 tripnote.jp##div[style="border:1px solid #aaa; border-radius:10px; padding:0px 15px; margin:0px auto 10px; width:90%; max-width:700px;"]
 tripnote.jp##div[style="width:970px; height:90px; margin:20px auto 30px;"]
