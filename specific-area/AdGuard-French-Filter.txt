@@ -646,6 +646,8 @@ tf1.fr#%#AG_defineProperty('tv.freewheel.SDK.Util.pingURLWithScript', { get: fun
 tf1.fr#%#AG_defineProperty('tv.freewheel.SDK.Util.pingURLWithXMLHTTPRequest', { get: function() { return function() {return true;}; } });
 tf1.fr#%#AG_defineProperty('tv.freewheel.SDK.Util.sendAdRequestWithXMLHTTPRequest', { get: function() { return function() {return true;}; } });
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/105459
+mapcustomizer.com#%#//scriptlet('remove-class', 'with-ad', 'div')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100793
 filmstreamy.com#%#//scriptlet("abort-on-property-read", "adsurgeNode")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99580
@@ -754,6 +756,8 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+mapcustomizer.com##.ad-pane
+lesnumeriques.com##.ln__sb__second > a[href^="/publicite/"]
 radio-canada.ca##.styled__AdAttachmentWrapperNoPrint
 onaregarde-pourvous.com##center > div[style="font-size:5px; color: #777; text-align: center;text-transform: uppercase;"]
 ||plus.wikimonde.com/get_aff.php
@@ -1103,6 +1107,8 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/105459
+mapcustomizer.com#@#.with-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102873
 @@||olx.pl/api/v*/*/?ad_id=$xmlhttprequest
 ! https://github.com/uBlockOrigin/uAssets/issues/10628#issuecomment-980589304
