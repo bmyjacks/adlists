@@ -810,7 +810,6 @@
 ||wwsphj.com^$third-party
 ||shpovaw8wu.ru.com^$third-party
 ||abeets.ru^$third-party
-||viadata.store^$third-party
 ||adwels.ru^$third-party
 ||xshop3.ru^$third-party
 ||gxxcbj.com^$third-party
@@ -5216,6 +5215,11 @@ sinoptik.ua#@#div[id^="adsLeftZone"]
 sinoptik.ua#@##left-slot1
 sinoptik.ua#@#div[id^="bn_"]
 !#endif
+! https://github.com/AdguardTeam/AdguardFilters/issues/104692
+studref.com#%#//scriptlet("set-constant", "abl", "noopFunc")
+||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,redirect=nooptext,domain=studref.com
+!+ PLATFORM(ios, ext_android_cb)
+@@||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,domain=studref.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100466
 cdnpotok.com#?##oframeplayerjs > pjsdiv[style]:has(> pjsdiv + pjsdiv[style] > p[style]:contains(AdBlock))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100033
@@ -5415,6 +5419,10 @@ sinoptik.ua$$script[tag-content="div-gpt-ad"]
 freefotohelp.ru#%#//scriptlet("set-constant", "pra", "123")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49286
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wifire.tv
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/102060
+!+ NOT_PLATFORM(windows, mac, android)
+@@||pubads.g.doubleclick.net/gampad/ads?sz=640x360&ad_rule=0&iu=%2F82479101%2FTsn.ua%2FPREroll-1_Cut&cust_params=$domain=imasdk.googleapis.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48882#issuecomment-584208221
 ||1plus1.video/static/player/js/ovva.$script,replace=/\.abMessage\(\)//
 @@||pubads.g.doubleclick.net/gampad/ads?*1plus1.video$domain=imasdk.googleapis.com
@@ -5428,6 +5436,7 @@ freefotohelp.ru#%#//scriptlet("set-constant", "pra", "123")
 @@||gaua.hit.gemius.pl/gplayer.js$domain=unian.net
 @@||gaua.hit.gemius.pl/gemiuslib.js$domain=unian.net
 !#safari_cb_affinity
+!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/45543
 baskino.me#@#.pub_300x250
 baskino.me#@#.pub_300x250m
@@ -6957,6 +6966,8 @@ sdamgia.ru#?#center > script[src^="https://pagead2.googlesyndication.com/"]:upwa
 ! riamo.ru - leftovers
 riamo.ru#?#aside > div.mt1x:not(:has(> div.most-read))
 riamo.ru#?#.article--footer > div.mt1x:has(> div[id] > div[class] > div[class^="container"]:contains(Новости партнеров))
+! https://github.com/AdguardTeam/AdguardFilters/issues/104853
+fotkaew.ru#?#.sidebar > .widget:has(> h3 > span:contains(/^Реклама$/))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100361
 obzorovik.com#?#.widget-area > aside.widget:has(> div.textwidget > div[id^="adfox"])
 obzorovik.com#?#.widget-area > aside.widget:has(> div.textwidget > div[id*="ScriptRoot"])
@@ -11270,7 +11281,6 @@ http://*.ru/leftunit.pl?
 -336x280
 -360x110.
 -ad-manager/
--ad.html
 -ad1.jpg
 -bin/ivw/cp
 -blog.org/layer/layer.js
@@ -11936,6 +11946,13 @@ dota2.ru,meteo.ua,klops.ru,crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru
 !
 !
 !
+doctorpiter.ru##.creative-sticky
+bankchart.com.ua###modal-cpa
+mv.org.ua##.divider
+sport-express.ru##div[data-portal-id="brandedButton"]
+sport-express.ru##div[style="width: calc(100% - 215px) !important;"] + span
+sport-express.ru##.specButtons
+sport-express.ru##.se-banner
 forbes.ru##._3UJki
 forbes.ru##div[data-title="Реклама на Forbes"]
 sportbox.ru##.olimpbet_koef
@@ -23727,8 +23744,6 @@ lacentrale.fr#@#.adContainer
 dribbble.com#@#.advertising
 ! https://github.com/AdguardTeam/AdguardFilters/issues/36161
 watsons.ua#@#.banners-block
-! https://github.com/AdguardTeam/AdguardFilters/issues/35339
-@@||fanserials.*/*-*-ad.html
 ! https://github.com/AdguardTeam/AdguardFilters/issues/36285
 @@/assets/ads/*$domain=obozrevatel.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35101
@@ -23822,8 +23837,6 @@ escland.proboards.com#@##banner-container
 @@||imasdk.showjet.ru/js/sdkloader/ima3.js$domain=showjet.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14906
 @@||blackboard.hillsdale.edu/branding/
-! https://github.com/AdguardTeam/AdguardFilters/issues/14112
-@@||vipthz.com/imc_attachad-ad.html
 ! fishki.net - исключаем обычные новости
 @@||fishki.net/informer*hot^$domain=fishki.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/12714
@@ -23957,8 +23970,6 @@ kino-kingdom.com#@##rekl
 iloveenglish.ru#@#.banner-top
 ! rutracker - fixing logo
 @@||rutrk.org/logo/
-! https://github.com/AdguardTeam/AdguardFilters/issues/3949
-@@||allkharkov.info/post-ad.html
 ! life.ru - player is broken by content blocker (Android)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=life.ru
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=life.ru
