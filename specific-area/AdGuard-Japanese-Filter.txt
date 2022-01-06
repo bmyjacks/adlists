@@ -1476,6 +1476,8 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 blog.livedoor.jp#$?#.plugin-memo > div.side > div.gad-fixed:upward(2) { display: none!important; }
 blog.livedoor.jp#$##side-column[style^="position: fixed"] { position: static!important; }
 !
+! placeholder on top
+security-next.com#$#.header { height: 50px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102812
 !+ PLATFORM(android, ios)
 gigafile.nu#$##main_panel { height: 0 !important; }
@@ -1685,6 +1687,11 @@ news24.jp,michill.jp,fnn.jp,bengo4.com,zigsow.jp,navitime.com,cazual.shufu.co.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+giocox.jp##.gc_ad
+security-next.com##.h_section2
+security-next.com##.sbboxad
+security-next.com##.sbboxadmini
+security-next.com##.sbboxadsp
 ||msin.jp/ifram/banner_fanza?
 report.clinic##.card_pr
 okanenews24.com##.article-body-more > span[style="color: #ff0000;"]
