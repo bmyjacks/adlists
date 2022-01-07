@@ -4424,7 +4424,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 ://promoimage.
 ://pub.*?zoneid=
 ://reclame.
-://regiepub.
+://regiepub.$domain=~regiepub.pcl.ch
 ://report-ads-to.
 ://res.ads.
 ://rotator.
@@ -17294,6 +17294,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.padscreen
 ##.page-head-ad
 ##.pageLoadAdBox
+##.pagin_pub
 ##.pane-st-dfp-ads
 ##.panel-ads
 ##.panel_pub
@@ -17552,6 +17553,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.pub_topright
 ##.pub_vertical
 ##.pub_video
+##.pub_vignette
 ##.pub_visuel
 ##.pub_voyage_1
 ##.pub_voyage_2
@@ -17640,6 +17642,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.push-service-pub
 ##.quads-ad2_widget
 ##.quickads_table
+##.r-pub--leader
 ##.ratio-ad-header
 ##.rd-widget-ads
 ##.recipe-col-droite-ad
@@ -18552,7 +18555,7 @@ betaseries.com###banner_top
 nticweb.com###banners
 aliceadsl.fr###bannershop
 cowcotland.com###bannertop
-france-pittoresque.com,matchendirect.mobi,radiofrance.fr###banniere
+france-pittoresque.com,matchendirect.mobi,paruvendu.fr,radiofrance.fr###banniere
 cap-public.fr###banniereGoogle
 actu-environnement.com,emploi-environnement.com###banniereRight
 lafranceagricole.fr###banniereTop
@@ -19520,7 +19523,6 @@ planeterenault.com##.p300
 nautiljon.com##.pad
 intermarche.com##.page-background
 laposte.fr##.page-pub
-paruvendu.fr##.pagin_pub
 lequotidiendumedecin.fr##.pane-ad
 lefigaro.fr##.pane-bloc-ad
 lesoir.be##.pane-bloc-partenaires
@@ -19627,7 +19629,6 @@ influencia.net##.pub_large
 dzsat.org##.pub_logo
 space-blogs.net##.pub_ra
 jeuxvideopc.com##.pub_refonte
-paruvendu.fr##.pub_vignette
 loisirados.com##.pub_vip_0
 internetparsatellite.net##.pubbas
 seriesaddict.fr##.pubbox
@@ -19719,7 +19720,7 @@ echoroukonline.com##.soundcloud-related
 playtv.fr##.span-sidebar
 lefigaro.fr##.spec-ops-box
 lagazettedescommunes.com##.spons
-jeuxvideo.com##.sponso
+jeuxvideo.com,phonandroid.com##.sponso
 findmysexfriend.com##.sponsoInside
 blogduwebdesign.com,channelbiz.fr,europages.fr,itespresso.fr,shake.events,silicon.fr##.sponsor
 yahoo.com##.sponsor-dd
@@ -20130,6 +20131,7 @@ paruvendu.fr##div[class^="auto2010_"]
 frandroid.com##div[class^="container_native_"]
 maison-et-domotique.com##div[class^="deals"]
 gamekult.com##div[class^="gk__ads"]
+paruvendu.fr##div[class^="partloc"]
 algerie360.com##div[class^="pub300"]
 algerie360.com##div[class^="pub600"]
 algerie360.com##div[class^="pub728"]
