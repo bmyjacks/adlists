@@ -105,9 +105,11 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/105651
+crunchyscan.fr#%#//scriptlet("abort-current-inline-script", "Promise", "alert")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103164
 chat.babel.com#%#//scriptlet('prevent-setTimeout', 'ShowAdvertising')
-!#if (!adguard_app_ios && !adguard_ext_android_cb)
+!#if (adguard_app_ios || adguard_ext_android_cb)
 @@||googletagmanager.com/gtag/js$domain=chat.babel.com
 @@||adv.123multimedia.com/AdConfig.aspx$domain=chat.babel.com
 !#endif
@@ -570,6 +572,8 @@ smarthomearea.de#@#.an-advert-banner
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/105651
+crunchyscan.fr#?#.body-wrap > .c-sidebar:not(:has([id*="manga"]))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104938
 scan-manga.com#$?#body > #all > style:contains(cdn.scanmanga.eu/img/bans/) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91892
