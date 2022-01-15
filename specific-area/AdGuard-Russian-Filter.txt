@@ -5941,7 +5941,7 @@ wss://s.zmctrack.net/
 ://s.zmctrack.net^$websocket
 ||zmctrack.net^$third-party
 @@://s.zmctrack.net/z|$xmlhttprequest,third-party
-||mail.ukr.net/desktop/js/compiled.js$replace=/\,s\(37690\)//
+||mail.ukr.net/desktop/js/compiled.js$replace=/if\(n\)\{/if(n){return;/
 ! for `zmctrack` if iframe isn't in ShadowRoot
 forumodua.com#$?#head > iframe[name] { remove: true; }
 strana.ua#$?#body > iframe[style="display:none"] { remove: true; }
@@ -7473,7 +7473,6 @@ kinonews.ru#?##maincolumn div[id^="KNS_"]:upward(2)
 remontcompa.ru#?#.sidebar > div.widget:has(> h3:contains(Рекламный блок))
 b-g.by#?#.central-wrapper > div.related-block:has(> div.col-md-12 > ins.adsbygoogle)
 alexbruni.ru#?#.container > div.container:has(> div[align="center"] > video)
-memepedia.ru#?#body > div[class]:has(div[id^="adfox_"])
 spec-komp.com#?#.sidebox > div.sidetitle:contains(/Реклама|Рекламные ссылки/i)
 yougame.biz#?#.block-body > article.message:has(> div.message-inner div.messageNotice:contains(Это рекламный пост))
 tv.ua#?#.fix310 > div.stiky > div.row:has(> div.col-24 > div[id^="holder_"])
@@ -11961,6 +11960,10 @@ dota2.ru,meteo.ua,klops.ru,crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru
 !
 !
 !
+vesti.ua##img[style="width:980px; height:90px;"]
+||exkavator.ru/js/*/common-teasers.js
+exkavator.ru##.bnr-side
+tproger.ru##div[id^="fix-tproger_ads_widget-"]
 rusvpn.com##.overlay
 chelseanews.ru##.fullscreen-pari
 buhonline.ru##a[href^="https://kontur.ru/"]
@@ -11972,6 +11975,7 @@ dmosk.ru##.ads-head
 alvin-almazov.ru##.book_banner
 radiotrek.rv.ua##a[title="Реклама"]
 kto-chto-gde.ru##.aside-banner-list
+naked-science.ru##.native-banner-header
 mc.bk55.ru##.right-col.bg-light-gray
 ||embed.twitch.tv/?channel=$domain=gamer-mods.ru
 gamer-mods.ru##div.xopo-player-container

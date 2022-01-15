@@ -784,6 +784,8 @@ meteofrance.com##a[href*="https://www.ardoiz.com/"]
 actu.fr##.ac-banner-ad
 lavoixdunord.fr###hp_banniere_haute
 calendrier.com##.promo_link
+purepeople.com##.article-page-sticky
+purepeople.com##.ad__holder
 filmstreamy.com###ads
 filmstreamy.com##div[style^="position:relative;"][style*="width:100%;max-width:467px;"][style*="height:60px; border:none !important; background:none; margin:auto; clear:both;"]
 vostfr.stream##.mvic-btn > a.btn-successful
@@ -1125,6 +1127,9 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/104237
+@@||wgplayer.com/friv5online.com/js/*/wgAds.js$domain=friv5online.com
+@@||wgplayer.com/friv5online.com/wgAds.*.conf.js$domain=friv5online.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102922
 @@||trplus.com.tw/_ui/responsive/*/trplusLcatePage_ADV.js$domain=trplus.com.tw
 ! https://github.com/uBlockOrigin/uAssets/issues/11271
