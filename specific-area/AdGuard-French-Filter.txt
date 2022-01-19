@@ -1300,7 +1300,7 @@ humblebundle.com#@#.marketing-container
 @@||vidnext.net/player/js/$domain=vidcloud9.com
 $script,third-party,domain=vidcloud9.com,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80361
-@@||streamtape.com^$domain=voiranime.com
+@@||streamtape.*^$domain=voiranime.com
 ! go.leechpremium.link - incorrect blocking
 ||leechpremium.link^$popup,third-party,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78257
@@ -20412,7 +20412,7 @@ nextinpact.com#?#app-home-item:-abp-has(.article:-abp-has(.sponsored))
 nextinpact.com#?#li[class="ng-star-inserted"]:-abp-has(.sponsored)
 numerama.com#?#.container_native_sidebar:-abp-has(.sponsoring-icon)
 numerama.com#?#.post-grid:-abp-has(.sponsoring-icon)
-ouedkniss.com#?#.container:-abp-has(.o-section-heading:-abp-contains(/Sponsored Stores|Stores à la une/))
+ouedkniss.com#?#.container:-abp-has(.o-section-heading:-abp-contains(/Sponsored|sponsorisées/))
 oxtorrent.cx,oxtorrent.me,torrent9.gg,torrent9.is,torrent9.ninja,torrent9.so#?#div[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
 oxtorrent.cx,oxtorrent.me,torrent9.gg,torrent9.is,torrent9.ninja,torrent9.so#?#table[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
 paruvendu.fr#?#.lazyload_bloc:-abp-has([class*="sponsorise"])
