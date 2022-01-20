@@ -884,6 +884,7 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !
 ! Section contains list general hiding rules
 !
+##.Zi_ad_a_H
 ##a[href^="https://adm.beimg.com/"]
 !---------------------------------------------------------------------------!
 !-------------- General javascript, CSS and HTML extensions ----------------!
@@ -892,6 +893,8 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/105042
+btbdys.com#%#//scriptlet("adjust-setInterval", "_0x", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105329
 51zxw.net#%#//scriptlet("adjust-setTimeout", "adCountDown", "", "0.02")
 ! tangdoucdn.com - skip ad timer
@@ -1130,7 +1133,6 @@ zhangxinxu.com##div[class^="col-left"] > a[href^="https://item.jd.com/"][style="
 ||movieclassic.net/pub/js_min.js
 ||2114.com/api.php?a=get_adv
 kkbox.com##.google-ad-manager
-tech-girlz.com,popdaily.com.tw##.Zi_ad_a_H
 apk.tw##.postlist > div > div[style="margin:0px 0px 0px 0px;width:300px;height:250px;overflow:hidden;"]
 bella.tw##.hide-mobile[style]
 12377.cn###notice
@@ -2344,6 +2346,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+/wob*?frm=0&url=
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -3934,10 +3937,13 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##a[href*=".sjzbqnxx.com/"]
 ##img[onclick*="/c7.net/"]
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||shanxicloud.net^
+||7znpl4sa.top^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -11581,6 +11587,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 szxx.com.cn###A0
+3dmgame.com#?#style+span+p+div[class]:-abp-has(>div[class]:-abp-contains(下载器))
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -19398,6 +19405,26 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||xsdizch.cn^
+||giotlsi.cn^
+||xinhuayin.biz^
+||7znpl4sa.top^
+||xrecord.xyz^
+||keqcte.cn^
+||2laezi9.cn^
+||skwenq.cn^
+||i9zkiqn.cn^
+||wvjjnb.cn^
+||rctxobb.cn^
+||bincun.xyz^
+||mjyjt.biz^
+||rktupt.cn^
+||qxtwkq.cn^
+||6899.fun^
+||xhx.design^
+||gblvuim.cn^
+||qtrwwov.cn^
+||ftvqvv.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
