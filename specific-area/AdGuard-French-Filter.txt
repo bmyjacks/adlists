@@ -105,6 +105,9 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/108132
+tf1info.fr#%#//scriptlet('prevent-fetch', 'ads.stickyadstv.com')
+@@||ads.stickyadstv.com^|$xmlhttprequest,domain=tf1info.fr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105651
 crunchyscan.fr#%#//scriptlet("abort-current-inline-script", "Promise", "alert")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103164
@@ -20372,6 +20375,7 @@ nextinpact.com#?#li[class="ng-star-inserted"]:-abp-has(.sponsored)
 numerama.com#?#.container_native_sidebar:-abp-has(.sponsoring-icon)
 numerama.com#?#.post-grid:-abp-has(.sponsoring-icon)
 ouedkniss.com#?#.container:-abp-has(.o-section-heading:-abp-contains(/Sponsored|sponsorisées|Stores à la une/))
+ouedkniss.com#?#.v-dialog--fullscreen:-abp-has(.v-toolbar-promo)
 oxtorrent.cx,oxtorrent.me,torrent9.gg,torrent9.is,torrent9.ninja,torrent9.si,torrent9.so#?#div[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
 oxtorrent.cx,oxtorrent.me,torrent9.gg,torrent9.is,torrent9.ninja,torrent9.si,torrent9.so#?#table[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
 paruvendu.fr#?#.lazyload_bloc:-abp-has([class*="sponsorise"])
