@@ -359,6 +359,12 @@
 ! These rules are against all kinds of ad blocking reinjection/circumvention scripts
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/107446
+linovelib.com#$##byspider { display: none !important; }
+linovelib.com#$#body[style] { overflow: auto !important; }
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=linovelib.com
+!+ PLATFORM(ios, ext_android_cb)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11152
 @@||hm.baidu.com/hm.js?$script,domain=rjno1.com
 @@||home.163.com/special/$script,redirect=noopjs,domain=rjno1.com
@@ -738,10 +744,12 @@ bde4.com#%#//scriptlet("set-constant", "canRunAds", "true")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54689
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52753#issuecomment-610411070
 ! https://github.com/AdguardTeam/AdguardFilters/pull/72215
+@@||cocomanga.com/js/ad_/$image
 @@||cocomanga.com/js/ad*/*.js
 @@||ohmanhua.com/js/*.js
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
 @@||runative-syndicate.com/do2/*$domain=onemanhua.com
+cocomanga.com,ohmanhua.com,onemanhua.com#@#.gg_300
 cocomanga.com,ohmanhua.com,onemanhua.com#@#.adBanner
 cocomanga.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "NativeAd", "noopFunc")
 cocomanga.com,ohmanhua.com,onemanhua.com#%#//scriptlet("set-constant", "__jsadsuccess", "true")
@@ -13441,8 +13449,6 @@ szonline.net##.ad_1000_90
 ifeng.com##.ad_12
 51wangdai.com##.ad_123_AD
 jurong.cn##.ad_190_60_5s
-manhuadb.com##.ad_1_wrap
-manhuadb.com##.ad_2_wrap
 1688.com.au##.ad_300_p
 eol.cn##.ad_490
 qq.com##.ad_670_90
@@ -16249,6 +16255,7 @@ kisssub.org##a > img[src*=".0o0.ooo/"]
 ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.net,acgnx.se##a > img[src^="/images/"]
 zol.com.cn##a#downloader_main
+manhuadb.com##a.d-block
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
 maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
@@ -19473,8 +19480,6 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||ditaow.cn^
-||slgo.club^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -19734,6 +19739,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||8911101.com^
 ||895cje7.cn^
 ||8bnwuz.cn^
+||8gustis.xyz^
 ||8hpay.cn^
 ||8jrc564wtf.cn^
 ||8o9m.cn^
@@ -20486,6 +20492,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||dianyingmi1.cn^
 ||diaoda.xyz^
 ||dibyc.com^
+||ditaow.cn^
 ||diuleilou.top^
 ||dj0ts1x.cn^
 ||dj930.cn^
@@ -20679,6 +20686,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||gwmaajp.cn^
 ||gwmeinq.cn^
 ||gwyvvjj.cn^
+||gyrenmai.icu^
 ||gywiqnmn.cn^
 ||gz5931-llm0.cn^
 ||gzgxbmh.cn^
@@ -20755,6 +20763,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||ih740.cn^
 ||iiiuuu.top^
 ||iipbuas.cn^
+||ikcdhqh.cn^
 ||il133.cn^
 ||ilgze.cn^
 ||ilmwi.cn^
@@ -20823,6 +20832,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||jwvjcr.cn^
 ||jx3yixi.club^
 ||jxin.xyz^
+||jxxiangyujinshu.com^
 ||jxzz.tech^
 ||jycwqeo.cn^
 ||jyigozm.cn^
@@ -20967,6 +20977,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||mtxs.xyz^
 ||muybjar.cn^
 ||muyijia.shop^
+||mx98.xyz^
 ||mxxgs.cn^
 ||myfengyi.xyz^
 ||myline1.club^
@@ -21192,6 +21203,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||skmtyaw.cn^
 ||skwenq.cn^
 ||sl00ufi.cn^
+||slgo.club^
 ||sltcp.cn^
 ||smh.ink^
 ||smncden.cn^
@@ -21290,6 +21302,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||umihecd.cn^
 ||umis.top^
 ||unfzclg.cn^
+||uni-king.cn^
 ||uqakkye.cn^
 ||uqbmzwv.cn^
 ||uqjflmw.cn^
