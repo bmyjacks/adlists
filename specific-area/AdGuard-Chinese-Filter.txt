@@ -4286,6 +4286,7 @@ ubmcmm.baidustatic.com
 ||835551.com^
 ||85tgw.com^
 ||860010.com^
+||87uq.com^
 ||88-baidu.com^
 ||887251.com^
 ||887591.com^
@@ -6975,7 +6976,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||360.cn/int/getadurls?
 ||360.cn/popup/popinfo/
 ||360buyimg.com/jzt/temp/js/
-||360buyimg.com^$domain=1024ph.com|chdbits.co|qianggou5.com|xgw5.com
+||360buyimg.com^$domain=1024ph.com|chdbits.co|gw54.com|qianggou5.com|xgw5.com
 ||360doc.com^*.html?t=
 ||360kan.com/special/
 ||365kl.net/data/attachment/portal/
@@ -7206,6 +7207,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||66e.cc/d/
 ||66huacai.com/d/js/v/hc
 ||66rd.cn/pic/*.swf
+||66wwvv.com/js/
 ||66wz.com/adv2/
 ||66wz.com/data/attachment/portal/
 ||66wz.com/eap/
@@ -7271,6 +7273,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||7xsf3h.com1.z0.glb.clouddn.com^
 ||8*.tianya.cn^
 ||801.tianyaui.com^
+||8070kk.com/statics/js/guo
 ||8090app.com/js/right.js
 ||80s.la/m/js/
 ||80s.so/9*.JS
@@ -9391,7 +9394,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jd.com/exsites?spread_type=
 ||jd.com/static/js/auto.js
 ||jd.com/static/js/cpc.js
-||jd.com^$domain=xgw5.com
+||jd.com^$domain=gw54.com|xgw5.com
 ||jd100.com/cwmpc/
 ||jdwx.info/api.php?mod=ad&
 ||jia.com/js/common/article_home_adv.js
@@ -11808,6 +11811,7 @@ hur.cn###ad810_2
 hur.cn###ad810_6
 dahe.cn###adArea1
 baidu.com###adCard
+boyboy.cc###adDisabledBtn
 yeecloud.com###adFirefox
 oeeee.com###adImg
 qq.com###adImgHref
@@ -11974,6 +11978,7 @@ bitauto.com###bitAd_background
 bitauto.com###bitAd_floatFlash
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
+boyboy.cc###bl_mobile_float
 w3cplus.com###block-block-49
 e-learn.cn###block-gyouer
 zaobao.com###block-views-zb2016-freefrom-block-1
@@ -12019,6 +12024,8 @@ fuli.us###callboard
 ck101.com###canvas-section
 crx4.com,galacg.me,moneyweekly.com.tw###carousel-example-generic
 bitauto.com###carshow
+boyboy.cc###cat_intro_first_ad
+boyboy.cc###cat_intro_second_ad
 bbs-mychat.com###cate_top > tr > .f_one
 cnbeta.com###cb_share > .fl
 sina.com.tw###cboxOverlay
@@ -13536,7 +13543,7 @@ cww.net.cn##.adlinkL
 cww.net.cn##.adlinkR
 ca168.com##.admarket
 mobile01.com##.admicrobtn
-ccoo.cn,hackhome.com,vipcn.com,xgw5.com##.adn
+ccoo.cn,gw54.com,hackhome.com,vipcn.com,xgw5.com##.adn
 zj.com##.adnav
 zj.com##.adnav2
 gaokao.com##.adout116
@@ -13566,7 +13573,7 @@ lenovo.com.cn##.adsense-wrap
 3dmgame.com##.adshop
 qinbing.cn##.adspic_mid2
 av.movie##.adss-160x600
-chinaz.com,ofweek.com,xgw5.com,yawin.cn##.adtext
+chinaz.com,gw54.com,ofweek.com,xgw5.com,yawin.cn##.adtext
 92sucai.com##.adtg2
 gdmm.com##.adtop > .module
 nfuwow.com##.adtopnewnewbox
@@ -14120,7 +14127,7 @@ xingkbjm.com##.d_postlist > ul > li:nth-child(-n+2)
 qingdaonews.com##.da30050
 qingdaonews.com##.da66050
 zhangxinxu.com##.da_bottom
-xbyuan.com,xgw5.com##.dad
+gw54.com,xbyuan.com,xgw5.com##.dad
 lenovo.com.cn##.daily-hotwords
 map.baidu.com##.damoce-search-item
 acfun.cn##.danmu-activity
@@ -14716,7 +14723,7 @@ hoteastday.com##.incentive
 caixin.com##.incubator
 qqyy.com##.ind_ad
 faxingw.cn##.indadv1
-jojf.cn,x6k.com,xgw5.com,ziyuanyo.com##.index-ad
+gw54.com,jojf.cn,x6k.com,xgw5.com,ziyuanyo.com##.index-ad
 oschina.net##.index-ad-wrap
 cndesign.com##.index-add
 py.cn##.index-advert
@@ -17270,7 +17277,7 @@ wuhaozhan.net#?#.l-box:-abp-has(.l-a > span[style="margin-left:-5px;"])
 x3cn.com#?#.commonDiv:-abp-has(.ad)
 x6d.com#?#li:-abp-has(>.myad)
 xbyuan.com#?#li:-abp-has(>.myad)
-xgw5.com#?#li:-abp-has(>.ads)
+xgw5.com,gw54.com#?#li:-abp-has(>.ads)
 xiazai.zol.com.cn#?#.tanceng:-abp-contains(高速)
 yahoo.com#?#.js-stream-content:-abp-has(div:-abp-contains(雅虎搜尋))
 yahoo.com#?#.js-stream-content:-abp-has(p:-abp-contains(熱門搜尋))
@@ -19485,6 +19492,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*=".233787.com/"]
 ##a[href*=".bfq04.com/"]
 ##a[href*=".hjneng.com/"]
+##a[href*=".hmwang.cc"]
 ##a[href*=".hxctiao.com:"]
 ##a[href*=".hxsp331.com"]
 ##a[href*=".jiq339.com/"]
@@ -19498,6 +19506,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ##a[href*=".xmluodi.com/"]
 ##a[href*=".xxmh727.com/"]
 ##a[href*=".yixing-hb.com"]
+##a[href*="/blfanss.com"]
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/nomvzs.com/"]
@@ -20739,6 +20748,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||htds.vip^
 ||htsj.vip^
 ||huasuihz.top^
+||huawuhui.club^
 ||huaxiaozhang.club^
 ||hugvr.cn^
 ||hulewangsi.cn^
@@ -20848,6 +20858,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||jyzba.cn^
 ||jyzbv.cn^
 ||jyzce.cn^
+||jyzcv.cn^
 ||jzpffierce.cloud^
 ||jzuyfp8.cn^
 ||k7ab5n4.cn^
@@ -20913,6 +20924,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||lnwhh.com^
 ||lofe.shop^
 ||log57.top^
+||lonpoyf.cn^
 ||lppwnue.cn^
 ||lpwx.xyz^
 ||lrqugqq.cn^
@@ -20962,6 +20974,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||mnsd.xyz^
 ||mocc.ltd^
 ||mokopoio.shop^
+||morfine.vip^
 ||mori.ink^
 ||moxiaoqihuoguo.com^
 ||mphbvtw.cn^
@@ -21020,6 +21033,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||nylynp.top^
 ||nzsknxo.cn^
 ||oajxkah.cn^
+||obihmnb.cn^
 ||octhkas.cn^
 ||ocznxv.cn^
 ||oelco.cn^
@@ -21380,6 +21394,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||wwddgg.work^
 ||wwshxc.cn^
 ||wxkouem.cn^
+||wxqcshgc.icu^
 ||wzxzy.icu^
 ||wzytop.top^
 ||wzzb.club^
@@ -23600,9 +23615,10 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 !#onemanhua.com
 $script,stylesheet,subdocument,third-party,xmlhttprequest,domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
-@@.com/js/ad_/pic.png$domain=cocomanga.com|cocomanhua.com
+@@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
 cocomanga.com,cocomanhua.com##iframe[style*="important"]
 cocomanga.com,cocomanhua.com#@#.gg430
+cocomanga.com,cocomanhua.com#@#.gg_300
 ||cocomanhua.com/sw.js
 ||oaftaijo.net^
 ||sheeroop.com^
@@ -23863,7 +23879,6 @@ douyu.com,oschina.net#@#.follow-btn
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 readmoo.com#@#.navbar-social
 youdao.com#@#.open-share
-music.163.com#@#.p-share
 weiyun.com#@#.page-share
 skyarea.cn#@#.post-share
 dongtw.com#@#.post-share-container
@@ -23874,7 +23889,6 @@ aiqicha.baidu.com#@#.share-label
 baidu.com#@#.share-line
 189.cn,vua.sh,weiyun.com,youdao.com#@#.share-link
 meidebi.com,weicaixun.com#@#.share-list
-kuaishou.com#@#.share-page
 189.cn#@#.share-panel
 youdao.com#@#.share-text
 aiqicha.baidu.com#@#.share-title
