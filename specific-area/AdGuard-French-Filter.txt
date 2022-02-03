@@ -593,7 +593,7 @@ smarthomearea.de#@#.an-advert-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105651
 crunchyscan.fr#?#.body-wrap > .c-sidebar:not(:has([id*="manga"]))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104938
-scan-manga.com#$?#body > #all > style:contains(cdn.scanmanga.eu/img/bans/) { remove: true; }
+scan-manga.com#$?#body > #all > style:contains(#ban_center) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91892
 zoneseries.stream#$?#a[href="/streaming-video.html"] { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74754
@@ -786,10 +786,13 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+lavie.fr##.bloc-payant
+lavie.fr##.if-abo
+lavie.fr##.bandeau-abo
 qub.ca##legend[data-testid="adTag"]
 purepeople.com##body .ad__placeholder
 scan-manga.com###dt_bg
-scan-manga.com##.top_body
+scan-manga.com##body .top_body
 ||cdn.scanmanga.eu/img/bans/$domain=scan-manga.com
 /nwm-fp.min.js$domain=streamonsport.to
 ||streamonsport.to/telefoot.gif
@@ -1147,6 +1150,8 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/11544
+gamekult.com#@#div[data-ad-sticky-follow]
 ! https://github.com/uBlockOrigin/uAssets/issues/11514
 marmiton.org#@#div[data-ad-sticky-follow]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107956
