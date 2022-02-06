@@ -3908,6 +3908,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /post/*&pstool=*&psid=$third-party
 /prebid-dfp.
 /prebid-dfp/*
+/prebidLibrary.
 /prebidtad_
 /previews/ads/*
 /pro_ad.
@@ -11045,6 +11046,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||autosurf.me/promo/
 ||autosurf4u.com/images/autosurf*.gif
 ||autotrack.be/scripts/partner/
+||autotrends.be^*/widget/$third-party
 ||avefront.akamaized.net/extra/static/images/partners/
 ||awhoer.net^*/vpn_
 ||awin1.com/awclick.php?
@@ -11591,6 +11593,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||localbitcoins.com/affiliate-
 ||location-vacances-bretagne.eu/location_
 ||logic-immo.be/embed/$third-party
+||logic-immo.be^*/widget/$third-party
 ||login.meexy.com^
 ||logo.gralon.net/plogo-gralon-$third-party
 ||lotebo.com^$script,third-party
@@ -14571,6 +14574,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||play.js.vidoza.net^
 ||playe.vidto.
 ||plx.gameblog.fr^
+||plx.tukif.com^
 ||pmd-vp-aka.canal-plus.com^
 ||pme-dz.com/wp-content/uploads/2019/07/01.jpg
 ||pme-dz.com/wp-content/uploads/2019/07/02-1.jpg
@@ -15014,6 +15018,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||tube-x-matures.com/catcher/
 ||tubeanal.fr^*/images/banniere_
 ||tubixe.com/site/images/*.gif
+||tukif.com/webcams/
 ||turbo.fr/themes/turbo/img/333x50-
 ||turbobit.net/vbxpvz/
 ||turf-fr.com/images/*x250.
@@ -15928,6 +15933,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ###inlineaddesktop
 ###innerpub
 ###insidepage_ads
+###intextad
 ###ipBlock-LargeAdBox
 ###ipBlock-mainAdBox
 ###j_ads
@@ -16546,6 +16552,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.ad.isSticky
 ##.ad.leaderboard
 ##.ad.onlyMobile
+##.ad.placeholder
 ##.ad160b
 ##.ad300d
 ##.ad336b
@@ -18693,7 +18700,10 @@ manga-news.com###block-up
 lanutrition.fr###block-views-remote-products-block-home
 voyages-sncf.com###block-vsct_vsca-megabanner
 franceinfo.fr###block-zerobloc-pub-ftv-carre
+dhnet.be###block26
+dhnet.be###block31
 bricoleurdudimanche.com###block_a_decouvrir
+cowcotland.com###blocpub1
 explorimmo.com###bob
 soudure.fr###bodytopbanner
 memoclic.com###bom_ban
@@ -18702,6 +18712,7 @@ silicon.fr###boostToaster
 liligo.fr###bottom-banner-smart
 000webhost.com###bottom-banner-with-counter-holder-desktop
 rugbyfederal.com###bottom_768x90
+cowcotland.com###bottom_pubN2
 magicmaman.com###boutiqueRight
 meilleurmobile.com###bouyguestelecom
 moov.mg###box-link-left
@@ -19094,6 +19105,7 @@ algeriepatriotique.com###topbanner_wrapper
 forumbismillah.com,freepik.com###topbar
 embed.tune.pk###tpkp-toolbar
 savefrom.net###tplInstallNow + .install-now
+dhnet.be###trackuity
 cbanque.com###trk_promoforum
 zimbra.free.fr###troiscents
 portail.free.fr###trousse
@@ -19429,6 +19441,7 @@ tube8.fr##.footerBanner
 gameblog.fr##.footer__partners
 orange.fr##.footer_autopromo
 legagnant.com##.footer_banners
+tukif.com##.footer_partner_container_wrapper
 realmadrid.com##.footer_sponsors
 voila.fr##.footer_tr
 gratuit-xxx.com##.footerboost
@@ -19892,7 +19905,7 @@ valeursactuelles.com##.view-horizons-valeurs-actuelles
 geste.fr##.view-id-partenaires
 geste.fr##.view-partenaires
 bioalaune.com##.view-pub
-pornovore.fr##.vjs-toolbar
+pornovore.fr,tukif.com##.vjs-toolbar
 elmoudjahid.com##.vpub
 brain-magazine.fr##.vv-hide
 rtl.be##.w-content-details-ligatus
@@ -20206,6 +20219,9 @@ forexmt4indicators.com##a[target="_blank"] > img[width="728"][height="90"]
 footpy.fr##a[target^="_blank"] > [style="width:303px"]
 footpy.fr##a[target^="_blank"] > [style="width:584px"]
 gamergen.com,generation-nt.com##article .product
+dhnet.be##aside[id^="HALFPAGE_"]
+dhnet.be##aside[id^="LEADERBOARD_"]
+dhnet.be##aside[id^="RECTANGLE_"]
 tchatche.com##banner
 auto-utilitaire.com,mobilealgerie.com##body > a > img
 trictrac.net##body > div + .row.align-center.section
@@ -20747,6 +20763,7 @@ reseauforum.org#@#.html-advertisement
 msf.fr#@#.image-advertisement
 750g.com#@#.js-ad
 20minutes.fr#@#.onf-ad
+don24.ru#@#.pub-container
 pharmasite.fr#@#.pub300
 kiosque.canardpc.com#@#.pub468
 cifraclub.com.br#@#.pub_header
