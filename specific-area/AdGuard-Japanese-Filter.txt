@@ -72,7 +72,13 @@
 !-------------- Advertising networks ---------------------------------------!
 !---------------------------------------------------------------------------!
 !
-! Section contains list of advertising networks
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23113
 ! ||weblio.jp^$third-party
@@ -458,7 +464,14 @@
 !-------------- Anti-adblock rules -----------------------------------------!
 !---------------------------------------------------------------------------!
 !
-! These rules are against all kinds of ad blocking reinjection/circumvention scripts
+! First of all, this section has common rules that prevent most known ad block detections. In that case domain should be added to the common rules.
+! The section contains the list of the rules are against all kinds of ads reinjection or ad-blocking circumvention scripts. If such a script does not cripple the website, we add rules to the Annoyances filter.
+! Rules should generally be domain-specific. In some exceptional cases, it's allowed to add generic ones, but this should be approved by most of the maintainers.
+!
+! Good: ||example.org/adblock/detect.js
+! Good: @@/adblocker/detect.js$domain=example.org
+! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
+!
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108229
 friday.kodansha.co.jp#$#body { overflow: visible !important; }
@@ -753,7 +766,11 @@ off-soft.net#@#.adsbygoogle
 !-------------- Extended CSS rules -----------------------------------------!
 !---------------------------------------------------------------------------!
 !
-! Extended CSS rules
+! This section contains the list of extended CSS rules against ads.
+! Note, that rules should be domain-specific and you have to use special syntax `#?#` instead of `##`.
+!
+! Good: example.org#?#main > div.row:has(> div.ad)
+! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104224#issuecomment-1002865063
 ! TODO: replace the rule below after the release of the extension 4.0
@@ -851,6 +868,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+koro-pokemon.com#?##side > h2.h2s:contains(スポンサーリンク)
+pente.koro-pokemon.com#?#.h2s:last-of-type:contains(ポケモン関連)
 tokai-tv.com#?#.contents_right > div.box > div#ad_rectangle_1:upward(1)
 wired.jp#?#div[class*="ContentFooterWrapper-"]:has(> div > div.wide-adrail)
 simtaro.com#?#.entry-content > div[style^="box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);"] > ins.adsbygoogle:upward(1)
@@ -1265,7 +1284,11 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !-------------- General element hiding rules -------------------------------!
 !---------------------------------------------------------------------------!
 !
-! Section contains list general hiding rules
+! This section contains generic element hiding rules that block ads.
+!
+! Good: ##.adv
+! Bad: example.org##.adv (should be in specific.txt)
+!
 !
 ##._popIn_infinite_ad
 ##._popIn_infinite_video
@@ -1407,6 +1430,13 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !---------------------------------------------------------------------------!
 !-------------- General javascript, CSS and HTML extensions ----------------!
 !---------------------------------------------------------------------------!
+!
+! This section contains the list of ad blocking rules that fall under "advanced" category.
+! By advanced we mean the following rule types: CSS, scriptlets, HTML filtering (`$$` marker), JS.
+!
+! Good: example.org#$##rek { display: none !important; }; example.org#%#//scriptlet('set-cookie', 'ad', '0'); example.org#%#document.cookie = "ad =0"; ; example.org$$script[tag-content="ad"][max-length="3000"].
+! Bad: example.org###rek (should be in specific.txt)
+!
 !-------------------
 !-------JS----------
 !-------------------
@@ -1652,7 +1682,11 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 !-------------- General URL blocking rules ---------------------------------!
 !---------------------------------------------------------------------------!
 !
-! Banner names
+! This section contains the list of generic blocking rules.
+!
+! Good: .org/ads/
+! Bad: .org/ads/$domain=example.org (for instance, should be in general_extensions.txt)
+!
 !
 /plugins/betube-ads/*
 .com/ufo/$script,third-party
@@ -1701,7 +1735,10 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 !-------------- Rules for specific websites --------------------------------!
 !---------------------------------------------------------------------------!
 !
-! Section contains rules for specific websites
+! This section contains the list of domain-specific rules that block ads.
+!
+! Good: example.org###rek; ||example.com/ads/
+! Bad: example.org#$##rek { display: none !important; } (for instance, should be in speficic.txt)
 !
 ! /banner/banner_ - if it is necessary, make this rule domain specific
 !
@@ -1734,6 +1771,9 @@ ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakuk
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+koro-pokemon.com###sadr
+koro-pokemon.com##div[id^="ad"]
+transit.yahoo.co.jp##.pos-infeed
 danshihack.com##[class^="c-ad"]
 gigazine.net###Google_Index_Middle
 chobit.cc##.ads:not(.ads-row > .ads)
@@ -4282,6 +4322,7 @@ nikkei.com##.k-ad__text
 nikkei.com##.k-hub-pr
 nikkei.com##.search__promo
 nikkei.com##[class*="adForLarge_"]:not([class^="anchor_"])
+jorudan.co.jp##div[id^="Ads_google_"]
 ||jorudan.co.jp/com/img/bnr/w685_
 ||smtgvs.weathernews.jp/s/topics/img/banner/
 alc.co.jp###news > ul
@@ -4920,7 +4961,11 @@ gtoys.blog.fc2.com###adright
 !------ White list. Fixing filtration errors (false-positive)---------------!
 !---------------------------------------------------------------------------!
 !
-! White list. Fixing filtration errors(false-positive)
+! This section contains the list of rules that fix incorrect blocking. Rules must be domain-specific.
+!
+! Good: example.org#@#.ad
+! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
+!
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107680
 @@||ias.global.rakuten.com/adv/$script,domain=24.rakuten.co.jp

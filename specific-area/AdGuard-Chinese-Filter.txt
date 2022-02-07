@@ -72,7 +72,13 @@
 !-------------- Advertising networks ---------------------------------------!
 !---------------------------------------------------------------------------!
 !
-! Section contains list of advertising networks
+! This section contains the list of third-party advertising networks domains.
+! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+!
+! Good: ||doubleclick.net^$third-party
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
+!
 !
 ||bjjabc.com^$third-party
 ||bbs.kiiqnnx.cn^
@@ -348,7 +354,13 @@
 ||yqrta.xyz^$third-party
 ||zjgfq.com^$third-party
 !
-! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
 !
 ||ad.juksy.com^
 ||ads.tvb.com^
@@ -356,7 +368,13 @@
 !-------------- Anti-adblock rules -----------------------------------------!
 !---------------------------------------------------------------------------!
 !
-! These rules are against all kinds of ad blocking reinjection/circumvention scripts
+! First of all, this section has common rules that prevent most known ad block detections. In that case domain should be added to the common rules.
+! The section contains the list of the rules are against all kinds of ads reinjection or ad-blocking circumvention scripts. If such a script does not cripple the website, we add rules to the Annoyances filter.
+! Rules should generally be domain-specific. In some exceptional cases, it's allowed to add generic ones, but this should be approved by most of the maintainers.
+!
+! Good: ||example.org/adblock/detect.js
+! Good: @@/adblocker/detect.js$domain=example.org
+! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107446
@@ -785,7 +803,11 @@ nfmovies.com#$#a[onclick*="openurl"][target="_blank"] img[src^="/static/"] { pos
 !-------------- Extended CSS rules -----------------------------------------!
 !---------------------------------------------------------------------------!
 !
-! Extended CSS rules
+! This section contains the list of extended CSS rules against ads.
+! Note, that rules should be domain-specific and you have to use special syntax `#?#` instead of `##`.
+!
+! Good: example.org#?#main > div.row:has(> div.ad)
+! Bad: example.org##main > div.ad (should be in specific.txt)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105485
 ct.999wan.wang#?#.container .card:has(> .card-body > .flex-fill > #ad_text)
@@ -890,13 +912,24 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !-------------- General element hiding rules -------------------------------!
 !---------------------------------------------------------------------------!
 !
-! Section contains list general hiding rules
+! This section contains generic element hiding rules that block ads.
+!
+! Good: ##.adv
+! Bad: example.org##.adv (should be in specific.txt)
+!
 !
 ##.Zi_ad_a_H
 ##a[href^="https://adm.beimg.com/"]
 !---------------------------------------------------------------------------!
 !-------------- General javascript, CSS and HTML extensions ----------------!
 !---------------------------------------------------------------------------!
+!
+! This section contains the list of ad blocking rules that fall under "advanced" category.
+! By advanced we mean the following rule types: CSS, scriptlets, HTML filtering (`$$` marker), JS.
+!
+! Good: example.org#$##rek { display: none !important; }; example.org#%#//scriptlet('set-cookie', 'ad', '0'); example.org#%#document.cookie = "ad =0"; ; example.org$$script[tag-content="ad"][max-length="3000"].
+! Bad: example.org###rek (should be in specific.txt)
+!
 !--------------------------------------!
 !------- JS rules ---------------------!
 !--------------------------------------!
@@ -1074,6 +1107,12 @@ mobile01.com$$script[tag-content="$.cookie(""fullscreenad"""][max-length="550"]
 !-------------- General URL blocking rules ---------------------------------!
 !---------------------------------------------------------------------------!
 !
+! This section contains the list of generic blocking rules.
+!
+! Good: .org/ads/
+! Bad: .org/ads/$domain=example.org (for instance, should be in specific.txt)
+!
+!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35526
 ://m.*.cn/*.xmtl?$third-party
 ://m.*.cn/*/*.js?ssid=_
@@ -1100,7 +1139,10 @@ _click*(com?
 !-------------- Rules for specific websites --------------------------------!
 !---------------------------------------------------------------------------!
 !
-! Section contains rules for specific websites
+! This section contains the list of domain-specific rules that block ads.
+!
+! Good: example.org###rek; ||example.com/ads/
+! Bad: example.org#$##rek { display: none !important; } (for instance, should be in general_extensions.txt)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88097
 ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
@@ -2185,7 +2227,10 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 !-------------- Content replacement rules ----------------------------------!
 !---------------------------------------------------------------------------!
 !
-! The content replacement rules
+! This section contains the list of the content replacement rules that block ads. Rules must be domain-specific.
+!
+! Good: ||example.org/video-links$replace=/vast":/vast_":/
+! Bad:  ||example.org/video-links (should be in specific.txt)
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87176
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54359
@@ -2197,7 +2242,11 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 !------ White list. Fixing filtration errors (false-positive)---------------!
 !---------------------------------------------------------------------------!
 !
-! White list. Fixing filtration errors (false-positive)
+! This section contains the list of rules that fix incorrect blocking. Rules must be domain-specific.
+!
+! Good: example.org#@#.ad
+! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
+!
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105329
 @@||51zxw.net/getvutf.asp?$domain=51zxw.net
@@ -3867,6 +3916,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/33hth.cn"]
 ##a[href*="/3400com-o15.com/"]
 ##a[href*="/445.ee/"]
+##a[href*="/5537220.com/"]
 ##a[href*="/602034.com"]
 ##a[href*="/7267224.com/"]
 ##a[href*="/7699j.com:"]
@@ -4943,6 +4993,7 @@ ubmcmm.baidustatic.com
 ||govguilin.cn^
 ||govhechi.cn^
 ||govkunming.cn^
+||govqingdao.cn^
 ||govshenzhen.cn^
 ||govxian.cn^
 ||govyunfu.cn^
@@ -5185,6 +5236,7 @@ ubmcmm.baidustatic.com
 ||jfsm5.top^
 ||jgchq.com^
 ||jghcy.com^
+||jghklz.xyz^
 ||jgwsmqx.com^
 ||jhtcdj.com^
 ||jiaheyonggu.com^
@@ -10040,6 +10092,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||newasp.net/static/js/foot_
 ||news.cn/2018/images/2018rbqj_
 ||news.cn/2021detail/js/booklist.js
+||news.cn^*_tlad.js
 ||news.sina.com.cn/js/792/*head*.js
 ||news.sina.com.cn/pfpnews/js/libweb.js$domain=~www.sina.com.cn
 ||news.sina.com.tw/js/ti.js
@@ -16591,6 +16644,7 @@ aishoujizy.com,xd0.com##a[target="_blank"] > img[src^="/upload/1/"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
 pinggu.org##a[target="_blank"][href*=".cda.cn"]
+939394.xyz##a[target="_blank"][href*="/images/"]
 muchong.com##a[target="_blank"][style="display: inherit!important;"]
 pixiv.net##a[target="premium_noads"]
 youz4.com##a[title*="广告"]
@@ -17585,6 +17639,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||85tube.com^$generichide
 @@||88box.com/images/ad_images/
 @@||930mh.com/js/config.js
+@@||939394.xyz^$generichide
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
@@ -19507,6 +19562,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||lf666.xyz^
+||taopiaopiao.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -20360,6 +20417,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||clfmm.cn^
 ||clmmw.com^
 ||cloudassistant.vip^
+||cloudzhuge.cn^
 ||clxxkz.com.cn^
 ||clzgd.com^
 ||cmall.club^
@@ -20753,6 +20811,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||hdsjk.cc^
 ||hebeiyichen.com^
 ||hello211.top^
+||hexin.city^
 ||hexp.xyz^
 ||heyi.shop^
 ||hgbvtax.cn^
@@ -21222,6 +21281,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||rsvffmn.cn^
 ||rsykksw.cn^
 ||rt354.cn^
+||rtreyyf.cn^
 ||ruif.xyz^
 ||runtai369.cn^
 ||rylcbwg.cn^
@@ -21425,6 +21485,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||wnet.ink^
 ||wojv.club^
 ||woniu1314520.vip^
+||word168.cn^
 ||wppei.cn^
 ||wpqsmse.cn^
 ||ws-expo.cn^
@@ -21442,6 +21503,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||wwshxc.cn^
 ||wxkouem.cn^
 ||wxqcshgc.icu^
+||wzjs.me^
 ||wzxzy.icu^
 ||wzytop.top^
 ||wzzb.club^
@@ -21609,6 +21671,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zrwba.cn^
 ||zsshlsh.cn^
 ||zthhhbb.cn^
+||zuibandao.club^
 ||zuoyouyu.cn^
 ||zwdq.xyz^
 ||zxakeax.cn^
