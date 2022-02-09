@@ -377,6 +377,15 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/109829
+@@||mm.520cc.cc/ad/ad_1.php
+520cc.cc#%#//scriptlet("set-constant", "all520dddaaa2022ccc", "undefined")
+! https://github.com/AdguardTeam/AdguardFilters/issues/109813
+yodu.org#$##byspider { display: none !important; }
+yodu.org#$#body[style] { overflow: auto !important; }
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=yodu.org
+!+ PLATFORM(ios, ext_android_cb)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yodu.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107446
 linovelib.com#$##byspider { display: none !important; }
 linovelib.com#$#body[style] { overflow: auto !important; }
@@ -401,9 +410,6 @@ tingfm.com#%#//scriptlet("prevent-setTimeout", "adblock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102824
 movieclassic.net###billboard-modal
 movieclassic.net##.modal-backdrop
-! https://github.com/AdguardTeam/AdguardFilters/issues/102171
-@@||mm.520cc.cc/api/jspopunder.min.js$domain=mm.520cc.cc
-520cc.cc#%#//scriptlet("set-constant", "all520dddaaa222", "undefined")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101672
 freedidi.com#@#.adsBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98258
@@ -934,6 +940,8 @@ csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 !------- JS rules ---------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/109829 popunder
+520cc.cc#%#//scriptlet("prevent-setTimeout", "location.href", "3000")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105042
 btbdys.com#%#//scriptlet("adjust-setInterval", "_0x", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105329
@@ -4453,6 +4461,7 @@ ubmcmm.baidustatic.com
 ||adnow.cc^$third-party
 ||adomv.com^
 ||adondemand.com^$third-party
+||adorazanna.com^
 ||adpro.cn^$third-party
 ||adpush.cn^$third-party
 ||adreal.cn^
@@ -5734,7 +5743,7 @@ ubmcmm.baidustatic.com
 ||qingniao.me^$third-party
 ||qingsedhhh.xyz^$third-party
 ||qingyanmjg.com^
-||qinqiaotrade.com
+||qinqiaotrade.com^
 ||qiqivv.com^
 ||qiqiww.com^
 ||qiqiyii.com^
@@ -6681,7 +6690,6 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 ||xingshenfang.cn^$popup
 ||xiyouence.com^$popup,third-party
 ||yy18.info^*thanks$popup
-$image,domain=ip.cn
 $image,third-party,domain=lady1.top
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,websocket,domain=52codes.net|m.ting56.com
@@ -9353,7 +9361,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||iocoder.cn/alert/js/alert.js
 ||ioio.cc*/dm/*.swf
 ||ioio.cc/adtui/
-||ip.cn^$csp=style-src 'self' https:
 ||ip138.com/banner/
 ||ip138.com/idc/
 ||ipeen.com.tw/js/frame/ad-actions.js
@@ -10834,6 +10841,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||szhk.com/iframe/
 ||szhk.com/include/taobao
 ||szhongzi.com/js/
+||szjjzs.com/js/as.js
 ||szjjzs.com/js/dd.js
 ||szjjzs.com/js/zb.js
 ||sznews.com/*.files/$image,object
@@ -11489,6 +11497,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ylnet.com.cn/gj.js
 ||ylnet.com.cn/inc/ad$subdocument
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
+||yodu.org/scripts/code.
 ||yoka.com/s?z=
 ||yongjiuzy.cc/yongjiu.gif
 ||yorkbbs.ca/crm/section/v1/get/list/open
@@ -19564,35 +19573,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||zgbtw.mobi^
-||zyhx.ltd^
-||jipezy.cn^
-bxwx888.org###addiv3
-bxwx888.org###bdstatic
-55shuba.com###botDiv
-bisowu.com##.a-row
-.lu/js/wap_billing.js
-.m.biduoxs.com^
-.m.boluoxs.com^
-.m.bookben.com^
-.m.d8qu.com^
-.m.fhxiaoshuo.com^
-.m.gxwztv.com^
-.m.kanshuzw.com^
-.m.muyuge.com^
-.m.qiuwu.net^
-.m.wenxuemi.cc^
-.m.xs222.com^
-.m.zineworm.com^
-yemancomic.com##.ncl_img > :not(#cp_img)
-duanwenxue.com##.qgzdwx
-.wap.x4399.com^
-.wap.yb3.cc^
-/socket?platform=*&href=$third-party,websocket
-@@||230book.com/images/bqg.js$domain=230book.net
-@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
-jx.la##[onclick*="apk"]
-52biquge.com##[onclick*="app"]
+||shenkun.xyz^
+||zhudao.shop^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -19616,13 +19598,39 @@ jx.la##[onclick*="apk"]
 ##a[href*="/huojugg.com"]
 ##a[href*="/hxzfcz.com/"]
 ##a[href*="/nomvzs.com/"]
-bookrb.com##a[href="/rmtj.html"]
+.lu/js/wap_billing.js
+.m.biduoxs.com^
+.m.boluoxs.com^
+.m.bookben.com^
+.m.d8qu.com^
+.m.fhxiaoshuo.com^
+.m.gxwztv.com^
+.m.kanshuzw.com^
+.m.muyuge.com^
+.m.qiuwu.net^
+.m.wenxuemi.cc^
+.m.xs222.com^
+.m.zineworm.com^
+.wap.x4399.com^
+.wap.yb3.cc^
+/socket?platform=*&href=$third-party,websocket
+52biquge.com##[onclick*="app"]
 52biquge.com##a[href^="http://html.350.com/"]
-bixia.org##dd[style*="bottom:"]
-smjb.net##div[style*="height: 50%"]
-biqugee.com##div[style="width:976px;"]
-piaotian5.net##script + div[style="padding:15px;"]
+55shuba.com###botDiv
+@@||230book.com/images/bqg.js$domain=230book.net
+@@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
 ah123z.com##script + div[style]
+biqugee.com##div[style="width:976px;"]
+bisowu.com##.a-row
+bixia.org##dd[style*="bottom:"]
+bookrb.com##a[href="/rmtj.html"]
+bxwx888.org###addiv3
+bxwx888.org###bdstatic
+duanwenxue.com##.qgzdwx
+jx.la##[onclick*="apk"]
+piaotian5.net##script + div[style="padding:15px;"]
+smjb.net##div[style*="height: 50%"]
+yemancomic.com##.ncl_img > :not(#cp_img)
 ||000123456789.online^
 ||000123456789.space^
 ||01tn.cn^
@@ -19763,6 +19771,7 @@ ah123z.com##script + div[style]
 ||51wxyx.cn^
 ||51zdwy.cn^
 ||52homie.cn^
+||52kshu.info/mgb.
 ||52lty.store^
 ||52pipaxing.com^
 ||52tushuo.com^
@@ -20029,6 +20038,7 @@ ah123z.com##script + div[style]
 ||aslro.top^
 ||aspaz.cn^
 ||aspwg.cn^
+||astep.info^
 ||astyk.cn^
 ||atomicfile.cn^
 ||atuehome.cn^
@@ -20761,6 +20771,7 @@ ah123z.com##script + div[style]
 ||gdzxsoft.cn^
 ||genfar.club^
 ||gengsang.me^
+||geoparker.net^
 ||gfncg.cn^
 ||gggwv.cn^
 ||gh1024.xyz^
@@ -20917,6 +20928,7 @@ ah123z.com##script + div[style]
 ||jinlianchengwhcm.cn^
 ||jinxiangyu.ltd^
 ||jinyihui.vip^
+||jipezy.cn^
 ||jiucaishuo.cn^
 ||jiuji.ltd^
 ||jiujiinc.top^
@@ -21062,6 +21074,7 @@ ah123z.com##script + div[style]
 ||mexcel.info^
 ||mfagqah.cn^
 ||mgnb.xyz^
+||mhqx.store^
 ||mhtky.cn^
 ||midy.me^
 ||minchikeji.cloud^
@@ -21272,6 +21285,7 @@ ah123z.com##script + div[style]
 ||rgt0hv5.cn^
 ||rh447.cn^
 ||rhxshop.com^
+||richman100.ltd^
 ||rjhtrjb.cn^
 ||rjnjjin.cn^
 ||rktupt.cn^
@@ -21337,6 +21351,7 @@ ah123z.com##script + div[style]
 ||soorbka.cn^
 ||soquan.xyz^
 ||soulshape.cn^
+||sphntyj.cn^
 ||spjxwlkj.com^
 ||spscwlw.cn^
 ||spzxgcw.com^
@@ -21629,6 +21644,7 @@ ah123z.com##script + div[style]
 ||zdzk0371.cn^
 ||zengwx.cn^
 ||zfw.me^
+||zgbtw.mobi^
 ||zgxieshou.com^
 ||zgyso.cn^
 ||zgystsd.com^
@@ -21685,6 +21701,7 @@ ah123z.com##script + div[style]
 ||zxyonlybelongstolym.xyz^
 ||zyam.club^
 ||zyezhz.cn^
+||zyhx.ltd^
 ||zyjy.ink^
 ||zzkbsm.cn^
 ||zzuzcy.cloud^
