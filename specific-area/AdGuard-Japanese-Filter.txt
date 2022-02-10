@@ -949,7 +949,7 @@ news.livedoor.com#?#.topicsList > li > i.pr:upward(1)
 hlsloader.com#?#section > center > span[style="opacity:0.7;font-size:xx-small"]:upward(1)
 valorantchannel.livedoor.blog#?#div[class*="column-inner"] > div.plugin-memo:has(> div.sidetitlebody > div.sidetitle:contains(スポンサードリンク))
 nlab.itmedia.co.jp#?##cmsBody > div.inner > p:last-of-type:has(> * > a[href^="https://twitter.com/"][target="_blank"]):contains(作品提供) ~ div.cmsAmazonWrap
-mainichi.jp#?#.featurelist > li > div#ad-pc-top-sc:upward(1)
+mainichi.jp#?#.featurelist > li > div[id^="ad-"]:upward(1)
 nilcollection.net,souda-kansai.com#?#.entry-content > p > ins.adsbygoogle:upward(1)
 fnjpnews.com#?#.post-box > div.post-box-contents > ins.adsbygoogle:upward(2)
 sekisei.click#?#.module--free ins.adsbygoogle:upward(.module--free)
@@ -1634,8 +1634,9 @@ asahi.com#$#.vjs-modal-dialog.vjs-error-display { display: none !important; }
 asahi.com#$#.vjs-controls-disabled.vjs-error .vjs-control-bar { display: block !important; }
 ! automaton-media.com ads
 automaton-media.com#$#body { background: none !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/109834
 ! video.fc2.com placeholder
-video.fc2.com#$#.with-ad.only-one-row.main { width: auto !important; }
+video.laxd.com,video.fc2.com#$#.with-ad.only-one-row.main { width: auto !important; }
 ! mail.yahoo.co.jp placeholder
 mail.yahoo.co.jp#$#body.withsky div#shellcontent[style] { right: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72416
@@ -1771,6 +1772,11 @@ pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+||mobareco.jp/wp-content/uploads/*_300_250_
+web.save-editor.com##.set_wrapper
+web.save-editor.com##.set_wrapper_absolute_right
+||ver-net.jp/ad/js/
+zatsugaku-company.com###st_custom_html_widget-36
 roshutu-shuuti.net##.entry-content > div[style="margin:0;padding:5px;font-size:14px;word-break: break-all;"]
 mag.digle.tokyo##.p-table__contents--full.u-pt30vw-down-md
 movie.digle.tokyo##.u-dib
@@ -1779,7 +1785,8 @@ admin.blog.fc2.com###ad_sidebody
 admin.blog.fc2.com##.column-left_ad
 koro-pokemon.com###sadr
 ||appbank.net/wp-content/uploads/*/appape.png
-koro-pokemon.com##div[id^="ad"]
+biz-journal.jp,koro-pokemon.com##div[id^="ad"]
+biz-journal.jp###relationEntry > div[style="min-height: 100px;"]
 transit.yahoo.co.jp##.pos-infeed
 danshihack.com##[class^="c-ad"]
 gigazine.net###Google_Index_Middle
@@ -2187,7 +2194,7 @@ blog.livedoor.jp##.article-body-inner > div#more > a[rel="noopener sponsored"][h
 vipstyle.tokyo,blue-archive.doorblog.jp##.plugin-memo:last-child
 atsumori-tanukichi.com##.side-section[style]
 atsumori-tanukichi.com##div[style="text-align: center;margin-bottom: 24px;"]
-yugioh-resaler.com##p[style="color:#666;margin-bottom:5px;"]
+zatsugaku-company.com,yugioh-resaler.com##p[style="color:#666;margin-bottom:5px;"]
 vtubersokuhou.com###diver_widget_pcsp-2
 vtubersokuhou.com###diver_widget_pcsp-13
 monhan-mhw.com###main div.column-inner-2 div[style="text-align:center;"]
@@ -4863,13 +4870,15 @@ livedoor.jp##a[href^="http://track.xmax.jp/"]
 ||yomiuri.co.jp/ad/
 !
 ! video.fc2.com - sync shanxivideo.net in Chinese filters
+||video.laxd.com/a/pagead/
+||video.laxd.com/static/video/js/plr/tg/
 ||video.fc2.com/static/video/js/plr/tg/
 video.fc2.com##.ad_panelAR
 video.fc2.com##.list-subCont > li[style$="height: 98px;"]
-video.fc2.com##.ads-container
+video.laxd.com,video.fc2.com##.ads-container
 video.fc2.com##.banner
 video.fc2.com##div[style^="width: 300px; height: 250px"]
-video.fc2.com##[class^="c-ad"]
+video.laxd.com,video.fc2.com##[class^="c-ad"]
 ! porn sites
 /btm.js$domain=cho-hentaimura.work|choechiechimura.work|dochaero.com|doujin-darake.xyz|echiechi-land.work|echiechi-navi.xyz|echiechikissa.site|ero-hihou.work|ero-hotdog.work|ero-okazu.work|ero-road.work|ero-sogu.work|erodokoro.xyz|erodoujin-biyori.work|erodoujin-honpo.work|erodoujin-mecca.xyz|erodoujin-search.work|erodoujin-zanmai.xyz|erogajo.work|erogaki.site|erogakuen.site|erogakure.work|erogazone.work|erogazou-doujin.work|erogazou-eden.xyz|erogazou-march.com|erogazou-nijigen.work|erogazou-paradise.work|erogazouhouko.work|erogazoutch.work|erogetchu.xyz|erohakubutukan.work|eromanyon.work|eromotion.site|eromura.xyz|eroniji-gzu.xyz|eronijinomori.xyz|eronomanimani.xyz|eropippi.xyz|eroseiiki.xyz|erotic-company.work|hjanight.site|kindan-kjt.com|milk-boya.xyz|moenijierogazou.xyz|moroero.xyz|night-time.xyz|nijiechichi.xyz|nijiero-favorite.xyz|nijiero-house.work|nijiero-hunter.xyz|nijiero-jimu.work|nijiero-kantei.xyz|nijiero-mamire.xyz|nijiero-master.work|nijiero-park.xyz|nijiero-spot.work|nijiero-station.work|nijiero-suki.work|nijiero-watch.com|nijiero-world.work|nijierobox.site|nijierogazou.com|nijierogazou.xyz|nijierosuana.site|nijierosyukai.work|nijigazouhokan.xyz|nijigen-daisuki.work|nijigen-farm.work|nijigenero-matome.xyz|nijigennoero.xyz|nijimomo-antenna.com|nijincho.xyz|nijinokinsyoko.xyz|nikkan-doujin.work|pink-world.site|shikoraseya.work|shikotomo.work|tokuno-eromilk.xyz|fatede-go.com
 /res.js$domain=cho-hentaimura.work|choechiechimura.work|dochaero.com|doujin-darake.xyz|echiechi-land.work|echiechi-navi.xyz|echiechikissa.site|ero-hihou.work|ero-hotdog.work|ero-okazu.work|ero-road.work|ero-sogu.work|erodokoro.xyz|erodoujin-biyori.work|erodoujin-honpo.work|erodoujin-mecca.xyz|erodoujin-search.work|erodoujin-zanmai.xyz|erogajo.work|erogaki.site|erogakuen.site|erogakure.work|erogazone.work|erogazou-doujin.work|erogazou-eden.xyz|erogazou-march.com|erogazou-nijigen.work|erogazou-paradise.work|erogazouhouko.work|erogazoutch.work|erogetchu.xyz|erohakubutukan.work|eromanyon.work|eromotion.site|eromura.xyz|eroniji-gzu.xyz|eronijinomori.xyz|eronomanimani.xyz|eropippi.xyz|eroseiiki.xyz|erotic-company.work|hjanight.site|kindan-kjt.com|milk-boya.xyz|moenijierogazou.xyz|moroero.xyz|night-time.xyz|nijiechichi.xyz|nijiero-favorite.xyz|nijiero-house.work|nijiero-hunter.xyz|nijiero-jimu.work|nijiero-kantei.xyz|nijiero-mamire.xyz|nijiero-master.work|nijiero-park.xyz|nijiero-spot.work|nijiero-station.work|nijiero-suki.work|nijiero-watch.com|nijiero-world.work|nijierobox.site|nijierogazou.com|nijierogazou.xyz|nijierosuana.site|nijierosyukai.work|nijigazouhokan.xyz|nijigen-daisuki.work|nijigen-farm.work|nijigenero-matome.xyz|nijigennoero.xyz|nijimomo-antenna.com|nijincho.xyz|nijinokinsyoko.xyz|nikkan-doujin.work|pink-world.site|shikoraseya.work|shikotomo.work|tokuno-eromilk.xyz|fatede-go.com

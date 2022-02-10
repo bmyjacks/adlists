@@ -826,6 +826,7 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+aeroports-voyages.fr##.adsenseContentBottom
 lalibre.be##.ap-AdContainer
 belle-positive.mariefrance.fr##.placeholder-pub_dfp
 lavie.fr##.bloc-payant
@@ -1179,9 +1180,6 @@ lesfrontaliers.lu##.ad-listing
 @@||oasis-player.p7s1.io/web/monetization/*/monetization.js$domain=puls24.at|kabeleins.de|wetter.com|prosiebenmaxx.de|sixx.de|sat1.de|puls4.com|prosieben.de|kabeleinsdoku.de|kabeleinsdoku.at|zappn.tv
 !
 ! START: Temporary
-! https://github.com/AdguardTeam/AdguardFilters/issues/109687
-! Reported to Smed79
-@@||ae01.alicdn.com/*.jpg_220x220.jpg$domain=aliexpress.ru
 ! https://forums.lanik.us/viewtopic.php?t=47049
 ||wikimonde.com/wmo.js$badfilter
 ||wikimonde.com^$xmlhttprequest,badfilter
@@ -11085,11 +11083,11 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||ali.pub^$subdocument,third-party
 ||ali.ski^$subdocument,third-party
 ||alicdn.com^$domain=adzeni.com
-||alicdn.com^*-300x250.$domain=~alibaba.com|~aliexpress.com
-||alicdn.com^*-725x90.$domain=~alibaba.com|~aliexpress.com
-||alicdn.com^*/725x90.$domain=~alibaba.com|~aliexpress.com
-||alicdn.com^*_220x220.$domain=~alibaba.com|~aliexpress.com
-||alicdn.com^*_320_480.$domain=~alibaba.com|~aliexpress.com
+||alicdn.com^*-300x250.$domain=~alibaba.com|~aliexpress.com|~aliexpress.ru
+||alicdn.com^*-725x90.$domain=~alibaba.com|~aliexpress.com|~aliexpress.ru
+||alicdn.com^*/725x90.$domain=~alibaba.com|~aliexpress.com|~aliexpress.ru
+||alicdn.com^*_220x220.$domain=~alibaba.com|~aliexpress.com|~aliexpress.ru
+||alicdn.com^*_320_480.$domain=~alibaba.com|~aliexpress.com|~aliexpress.ru
 ||aliencable.com/images/$third-party
 ||all-ladies.net/banners/
 ||allkeyshop.com/blog/wp-content/uploads/guide_a.
@@ -11789,7 +11787,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||multisurf.fr/upload/bannieres/
 ||mvchallenges.s3-website-eu-west-1.amazonaws.com^
 ||mwzip.com/banner.
-||my.aliexpress.com^$third-party
+||my.aliexpress.$third-party
 ||my24hourincome.com/img/banners/$third-party
 ||mynewblog.com/tracker.php?
 ||mynewsnet.ch^$subdocument
@@ -11834,7 +11832,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||nyu-nyu.com/banieres/
 ||ochze.com^$subdocument,third-party
 ||offer.alibaba.com^$subdocument
-||offer.aliexpress.com^$subdocument
+||offer.aliexpress.$subdocument
 ||oh-hyip.com/promo/
 ||ohlescoquins.com/promo/
 ||okpay.com/img/partners/$third-party
@@ -12932,7 +12930,6 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||ad.adriver.ru^$popup
 ||ad.apps.fm^$popup
 ||ad.zanox.com^$popup,domain=configspc.com
-||alibaba.com^*&aff_platform=$popup,third-party,domain=~aliexpress.com
 ||aliexpress.com^$popup,domain=dzsat.org
 ||altusmediagroupinc.go2cloud.org^$popup
 ||amazon.fr^$popup,domain=fdesouche.com
@@ -12952,7 +12949,6 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||ccbill.com/cgi-bin/clicks.cgi?$popup,third-party
 ||cdn.speedvid.$popup
 ||chaturbate.com/in/?*&tour=$popup,third-party
-||click.aliexpress.com^*&$popup,domain=~aliexpress.com|~dealabs.com
 ||click.besprod.com^$popup
 ||cloudfront.net^*&banner=$popup
 ||cloudfront.net^*?number=*&click_id=$popup
@@ -13017,7 +13013,6 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||mydirtyhobby.de/track/$popup
 ||mysharelink.fr^$popup,subdocument,third-party
 ||nolake.com^$popup,domain=animalcrossing-online.com
-||offer.alibaba.com^*&pid=$popup,third-party,domain=~aliexpress.com
 ||olp.snapdesexe.com^$popup
 ||oppo.com^$popup,domain=android-dz.com
 ||pdv.juste-pour-un-soir.com^$popup
@@ -13204,7 +13199,6 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||aliasdmc.fr/js/dmc_banniere.js
 ||aliasdmc.fr/publicsyst/
 ||aliceadsl.fr/modules/shopping.
-||aliexpress.com/p4pforlist.html?
 ||alimentation-france.com/*/pubs/
 ||all-musculation.com^*/images/home-AM/FZ/Trainer_
 ||all-musculation.com^*/images/pubs/
