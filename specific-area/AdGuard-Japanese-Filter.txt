@@ -1772,6 +1772,7 @@ pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+asahi.com##.sidebar__banner
 ||mobareco.jp/wp-content/uploads/*_300_250_
 web.save-editor.com##.set_wrapper
 web.save-editor.com##.set_wrapper_absolute_right
@@ -1787,6 +1788,7 @@ koro-pokemon.com###sadr
 ||appbank.net/wp-content/uploads/*/appape.png
 biz-journal.jp,koro-pokemon.com##div[id^="ad"]
 biz-journal.jp###relationEntry > div[style="min-height: 100px;"]
+biz-journal.jp##.entryBody > div[style$="min-height:280px;"]
 transit.yahoo.co.jp##.pos-infeed
 danshihack.com##[class^="c-ad"]
 gigazine.net###Google_Index_Middle
@@ -3456,6 +3458,7 @@ eigo.plus,news.sod.co.jp###text-24
 kaikore.blogspot.com##.bar-ads
 ||appget.com^*/wp-content/themes/twentyten/js/agad2.js
 appget.com##.adsence
+okwave.jp##.adfunnel_header_block
 okwave.jp##.adfunnel_special_large_under
 okwave.jp##div[style="width:640px;height:250px;"]
 okwave.jp###fluct-pc-sticky-ad
