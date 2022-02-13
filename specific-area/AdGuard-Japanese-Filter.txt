@@ -868,6 +868,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+otekomachi.yomiuri.co.jp#?#.wp-caption-text:contains(※楽天ブックスにリンクします)
 koro-pokemon.com#?##side > h2.h2s:contains(スポンサーリンク)
 pente.koro-pokemon.com#?#.h2s:last-of-type:contains(ポケモン関連)
 tokai-tv.com#?#.contents_right > div.box > div#ad_rectangle_1:upward(1)
@@ -1772,6 +1773,10 @@ pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+suki-kira.com##.text-xs-center[style="min-height: 90px;width:100%;"]
+10mtv.jp##.advertisement
+10mtv.jp##div[style^="width:610px; height:260px"]
+corriente.top##div[style="width: 970px; margin: 0 auto 30px;"]
 e-earphone.jp##.header-area-bn
 movies.yahoo.co.jp##div[class^="overlay-ad_"]
 asahi.com##.sidebar__banner
@@ -4487,6 +4492,7 @@ dhbr.net##.bn_trial a[href]:not([href^="http://www.dhbr.net/"]) > img
 solomon-review.net###right_folder > div.textwidget > a[rel^="nofollow"] > img
 news4vip.livedoor.biz##a[href^="https://www.amazon.co.jp/gp/"]
 ||moviead.cdnext.stream.ne.jp/player/latest/MovieADPlayer.js$domain=yomiuri.co.jp
+yomiuri.co.jp##.p-ad-feature-pr
 yomiuri.co.jp##.home-2020-ntvnews-ad
 yomiuri.co.jp##.p-ad-dfp-rec1
 yomiuri.co.jp##div[class^="p-ad-dfp"]
