@@ -792,6 +792,8 @@ all-stadium.net#$##layer2 {top:50px!important; left:950px!important;}
 !------- Content filtering rules ------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/110232
+voirseries.io$$script[src="KGZ1bmN0aW9uKCQsZG9jdW1lbnQp"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25619
 mac4ever.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*//*+*"][max-length="1000"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25407
@@ -15909,6 +15911,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ###content_pub
 ###content_pub_carre
 ###contenu-text-publicite
+###contenu_liens-sponso
 ###contextualAds
 ###contextuel-publicite-video
 ###coreads-wrapper
@@ -16658,6 +16661,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.ad-sponsored
 ##.ad-table-cell
 ##.ad-tablet
+##.ad-texte-intercale
 ##.ad-theme-content
 ##.ad-title-megaban
 ##.ad-title-pave
@@ -20601,6 +20605,7 @@ ouedkniss.com#?#.v-dialog--fullscreen:-abp-has(.v-toolbar-promo)
 paruvendu.fr#?#.lazyload_bloc:-abp-has([class*="sponsorise"])
 rakuten.com#?#[data-productid]:-abp-has(a[href^="/offer?action="])
 businessinsider.fr#?##related-post-:-abp-has(a[href*="/contenu-sponsorise"])
+santemagazine.fr#?#[data-identifier]:-abp-has(div:-abp-has(.sponsor-color))
 sketchucation.com#?#.post:-abp-has(.postprofile:-abp-has(strong:-abp-contains(Ad Machine)))
 sookbtp.com#?#.owl-item:-abp-has(figure:-abp-has(img[src^="publicites/"]))
 starbike.com#?#.post.has-profile:-abp-has(.postbody:-abp-has(.adsbygoogle))
