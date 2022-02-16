@@ -1,7 +1,7 @@
 #TITLE=anti-AD
-#VER=20220214023752
+#VER=20220215134030
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=52330
+#TOTAL_LINES=52325
 DOMAIN-SUFFIX,00-gov.cn
 DOMAIN-SUFFIX,000123456789.online
 DOMAIN-SUFFIX,000123456789.site
@@ -1125,7 +1125,6 @@ DOMAIN-SUFFIX,360jiaquan.com
 DOMAIN-SUFFIX,360kaixin.com
 DOMAIN-SUFFIX,360popads.com
 DOMAIN-SUFFIX,360protected.com
-DOMAIN-SUFFIX,down.360safe.com
 DOMAIN-SUFFIX,update.360safe.com
 DOMAIN-SUFFIX,inst.360safe.com
 DOMAIN-SUFFIX,kuaikan.netmon.360safe.com
@@ -8040,7 +8039,6 @@ DOMAIN-SUFFIX,bildirnet.com
 DOMAIN-SUFFIX,bildirt.com
 DOMAIN-SUFFIX,dataflow.biliapi.com
 DOMAIN-SUFFIX,web-player-tracker.biliapi.net
-DOMAIN-SUFFIX,live-trace.bilibili.com
 DOMAIN-SUFFIX,miniapp.bilibili.com
 DOMAIN-SUFFIX,cm.bilibili.com
 DOMAIN-SUFFIX,line1-log.biligame.net
@@ -13466,6 +13464,7 @@ DOMAIN-SUFFIX,hits.dealer.com
 DOMAIN-SUFFIX,dfanalytics.dealerfire.com
 DOMAIN-SUFFIX,ref.dealerinspire.com
 DOMAIN-SUFFIX,yh6u.dealeusedevoyages.com
+DOMAIN-SUFFIX,analytics.dealmoon.com
 DOMAIN-SUFFIX,dealspure.com
 DOMAIN-SUFFIX,dealtsowbite.com
 DOMAIN-SUFFIX,debadu.com
@@ -23487,7 +23486,6 @@ DOMAIN-SUFFIX,iovation.com
 DOMAIN-SUFFIX,t.iowawild.com
 DOMAIN-SUFFIX,ioxiyaff.xyz
 DOMAIN-SUFFIX,ip-label.net
-DOMAIN-SUFFIX,ip-tracker.org
 DOMAIN-SUFFIX,ip2c.org
 DOMAIN-SUFFIX,ip2map.com
 DOMAIN-SUFFIX,ip2phrase.com
@@ -27121,7 +27119,6 @@ DOMAIN-SUFFIX,rad.live.com
 DOMAIN-SUFFIX,ssw.live.com
 DOMAIN-SUFFIX,watson.live.com
 DOMAIN-SUFFIX,live4sport.net
-DOMAIN-SUFFIX,live800.com
 DOMAIN-SUFFIX,liveadexchanger.com
 DOMAIN-SUFFIX,liveadoptimizer.com
 DOMAIN-SUFFIX,liveadserver.net
@@ -36186,7 +36183,6 @@ DOMAIN-SUFFIX,sdksp.video.qq.com
 DOMAIN-SUFFIX,sec.video.qq.com
 DOMAIN-SUFFIX,sngapm.qq.com
 DOMAIN-SUFFIX,sngmta.qq.com
-DOMAIN-SUFFIX,soup.v.qq.com
 DOMAIN-SUFFIX,stat.y.qq.com
 DOMAIN-SUFFIX,statistic.qzone.qq.com
 DOMAIN-SUFFIX,szlong.weixin.qq.com
@@ -40507,7 +40503,6 @@ DOMAIN-SUFFIX,analytics.snssdk.com
 DOMAIN-SUFFIX,gecko-hl.snssdk.com
 DOMAIN-SUFFIX,gecko-lq.snssdk.com
 DOMAIN-SUFFIX,ic.snssdk.com
-DOMAIN-SUFFIX,is.snssdk.com
 DOMAIN-SUFFIX,temai.snssdk.com
 DOMAIN-SUFFIX,toutiao-frontier.snssdk.com
 DOMAIN-SUFFIX,xlog.snssdk.com

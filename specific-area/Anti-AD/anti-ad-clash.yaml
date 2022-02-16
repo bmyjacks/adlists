@@ -1,7 +1,7 @@
 #TITLE=anti-AD
-#VER=20220214023753
+#VER=20220215134031
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=52330
+#TOTAL_LINES=52325
 
 #RULE-SET,AntiAd,REJECT
 payload:
@@ -1128,7 +1128,6 @@ payload:
   - '+.360kaixin.com'
   - '+.360popads.com'
   - '+.360protected.com'
-  - '+.down.360safe.com'
   - '+.update.360safe.com'
   - '+.inst.360safe.com'
   - '+.kuaikan.netmon.360safe.com'
@@ -8043,7 +8042,6 @@ payload:
   - '+.bildirt.com'
   - '+.dataflow.biliapi.com'
   - '+.web-player-tracker.biliapi.net'
-  - '+.live-trace.bilibili.com'
   - '+.miniapp.bilibili.com'
   - '+.cm.bilibili.com'
   - '+.line1-log.biligame.net'
@@ -13469,6 +13467,7 @@ payload:
   - '+.dfanalytics.dealerfire.com'
   - '+.ref.dealerinspire.com'
   - '+.yh6u.dealeusedevoyages.com'
+  - '+.analytics.dealmoon.com'
   - '+.dealspure.com'
   - '+.dealtsowbite.com'
   - '+.debadu.com'
@@ -23490,7 +23489,6 @@ payload:
   - '+.t.iowawild.com'
   - '+.ioxiyaff.xyz'
   - '+.ip-label.net'
-  - '+.ip-tracker.org'
   - '+.ip2c.org'
   - '+.ip2map.com'
   - '+.ip2phrase.com'
@@ -27124,7 +27122,6 @@ payload:
   - '+.ssw.live.com'
   - '+.watson.live.com'
   - '+.live4sport.net'
-  - '+.live800.com'
   - '+.liveadexchanger.com'
   - '+.liveadoptimizer.com'
   - '+.liveadserver.net'
@@ -36189,7 +36186,6 @@ payload:
   - '+.sec.video.qq.com'
   - '+.sngapm.qq.com'
   - '+.sngmta.qq.com'
-  - '+.soup.v.qq.com'
   - '+.stat.y.qq.com'
   - '+.statistic.qzone.qq.com'
   - '+.szlong.weixin.qq.com'
@@ -40510,7 +40506,6 @@ payload:
   - '+.gecko-hl.snssdk.com'
   - '+.gecko-lq.snssdk.com'
   - '+.ic.snssdk.com'
-  - '+.is.snssdk.com'
   - '+.temai.snssdk.com'
   - '+.toutiao-frontier.snssdk.com'
   - '+.xlog.snssdk.com'
