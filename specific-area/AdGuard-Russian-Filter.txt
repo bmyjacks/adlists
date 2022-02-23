@@ -80,6 +80,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||cdn.umh.ua^$third-party
 ||brinaltrak.com^$third-party
 ||jdmodr.com^
 ||mibmcbm.com^
@@ -5272,6 +5273,13 @@ sinoptik.ua#@##left-slot1
 sinoptik.ua#@#div[id^="bn_"]
 !#endif
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/111120
+imena-znachenie.ru#%#//scriptlet('prevent-setTimeout', 'блокировщик')
+!#if (adguard_app_ios || adguard_ext_android_cb)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imena-znachenie.ru
+imena-znachenie.ru#@#.adsbygoogle
+imena-znachenie.ru#@#.admiddle
+!#endif
 ! bankbinlist.com
 bankbinlist.com###overlay
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107157
@@ -12075,6 +12083,7 @@ lenta.ru,gorodkirov.ru,kaktutzhit.by,karelia.news,sarnovosti.ru,liga.net,livemas
 !
 !
 !
+||news.bigmir.net/js/banners.js
 dostfilms.co##.banner4revshare3
 knews.kg##._ning_jss_zone
 protarif.info##.admitadNewsBlock
@@ -23782,6 +23791,11 @@ ut-1.alexbranding.com,unitheme.net#@#[class^="adv-"]
 @@||brontp-beta.yandex.ru^$extension
 @@||brontp-alpha.yandex.ru^$extension
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/102460#issuecomment-1042720191
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=rbc.ru
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=rbc.ru
+@@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=rbc.ru
+@@||securepubads.g.doubleclick.net/gampad/ads?$domain=rbc.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108599
 xpornium.net#@#.affiliate
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109702
