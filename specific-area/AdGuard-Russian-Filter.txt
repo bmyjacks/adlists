@@ -9437,6 +9437,8 @@ disk.yandex.*#%#//scriptlet('remove-class', 'has-fullscreen-banner','.public__ro
 !-----------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/111862
+protraffic.com#$#.site-main { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100197
 youla.ru#$#div[data-test-component="ProductOrAdCard"] > span[data-debug-info] { background-color: transparent!important; }
 youla.ru#$#div[data-test-component="ProductOrAdCard"] > span[data-debug-info]::before { content: none!important; }
@@ -12096,6 +12098,10 @@ lenta.ru,gorodkirov.ru,kaktutzhit.by,karelia.news,sarnovosti.ru,liga.net,livemas
 !
 !
 !
+protraffic.com##.popup_info
+protraffic.com##.rec_banners_item
+protraffic.com##.js-single-close-partner-slider
+tgrm.su##.b-renner
 m24.ru##.g-columns-right
 don24.ru##.fix-block
 cybersport.ru##a[href^="https://www.parimatch.ru/"]
@@ -22652,6 +22658,7 @@ https://rgqxbf.com/mn9l17912/ilvpm003y/oln/786/vqu768kypc01r
 !
 ! GisMeteo
 ! gismeteo (new design)
+gismeteo.ua##.placeholder
 gismeteo.ru##.content-column:not(.column1) section.section-rss
 gismeteo.ru,gismeteo.kz##.top-media-placeholder
 gismeteo.ru##body > div.media_top
