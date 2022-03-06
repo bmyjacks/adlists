@@ -858,7 +858,7 @@ zoku-sei.com#?#.entryinner #ninja-blog-inactive:upward(.entryinner)
 nikkan-gendai.com#?#._popIn_recommend_article_wrapper > a._popIn_recommend_article_ad:first-child + a._popIn_recommend_article_ad:upward(1)
 topics.or.jp#?##_popIn_recommend ul._popIn_infinite_page:has(> li > a._popIn_recommend_article_ad)
 daily.co.jp#?#._popIn_recommend_container a._popIn_recommend_article_ad:upward(._popIn_recommend_container)
-mensnonno.jp,watch.impress.co.jp,careerconnection.jp,news.nifty.com,play-life.jp,intojapanwaraku.com,goldenyokocho.jp,bestcarweb.jp,matome.response.jp,nordot.app,komachi.yomiuri.co.jp,animeanime.jp,books.j-cast.com,cafend.net,chosunonline.com,cinemacafe.net,citicpressjapan.com,cyzo.com,dailyportalz.jp,danshihack.com,mynavi.jp,gamespark.jp,getnavi.jp,gow.asia,honey-mag.jp,iionna.tokyo,inside-games.jp,japanese.joins.com,kanaloco.jp,lamire.jp,macaro-ni.jp,mag.digle.tokyo,media.mamatenna.jp,moneyforward.com,asahi.com,mxtv.jp,news.tv-asahi.co.jp,realsound.jp,ryukyushimpo.jp,saitama-np.co.jp,smart-flash.jp,taishu.jp,the-uranai.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp#?#li > ._popIn_recommend_article_ad:upward(1)
+am-our.com,mensnonno.jp,watch.impress.co.jp,careerconnection.jp,news.nifty.com,play-life.jp,intojapanwaraku.com,goldenyokocho.jp,bestcarweb.jp,matome.response.jp,nordot.app,komachi.yomiuri.co.jp,animeanime.jp,books.j-cast.com,cafend.net,chosunonline.com,cinemacafe.net,citicpressjapan.com,cyzo.com,dailyportalz.jp,danshihack.com,mynavi.jp,gamespark.jp,getnavi.jp,gow.asia,honey-mag.jp,iionna.tokyo,inside-games.jp,japanese.joins.com,kanaloco.jp,lamire.jp,macaro-ni.jp,mag.digle.tokyo,media.mamatenna.jp,moneyforward.com,asahi.com,mxtv.jp,news.tv-asahi.co.jp,realsound.jp,ryukyushimpo.jp,saitama-np.co.jp,smart-flash.jp,taishu.jp,the-uranai.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp#?#li > ._popIn_recommend_article_ad:upward(1)
 mensnonno.jp,nordot.app,animeanime.jp,autocar.jp,cinemacafe.net,mynavi.jp,getnavi.jp,media.moneyforward.com,the-uranai.jp#?#li > ._popIn_recommend_article_ad_reserved:upward(1)
 sp.uta-net.com,otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad:upward(1)
 otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad_reserved:upward(1)
@@ -1390,6 +1390,10 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ##.c-infeedAd
 ##.diver_widget_adarea
 ##.ggbox
+##.i2i-content-bottom
+##.i2i-content-middle
+##.i2i-content-top
+##.i2i-header
 ##.insentence-adsense
 ##.insentense-adsense
 ##.interstitial-ad
@@ -1422,6 +1426,7 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ##div[class^="_taxel_ad_article_"]
 ##div[class^="google-2ad"]
 ##div[id^="active_overlay"]
+##div[id^="crt-"][style]
 ##div[id^="post-"][class*="post-"] > div[id*="-"][class*="%e"]
 ##[class^="post-"] div#content div[id*="-"][class*="%e"]:not([itemtype])
 ##[id][class*="post-"] [class*="-content"] div[id*="-"][class*="%e"]:not([itemtype])
@@ -1758,7 +1763,7 @@ npn.co.jp,afpbb.com,2ch.pet,hamakei.com,keizai.biz,minkei.net,shibukei.com##.bnr
 ! ###ad
 travel.rakuten.co.jp,conciergedesk.jp,japan-iwate.info,anal-love.net###ad
 ! ##.rectangle
-bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
+purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
 ! ##.sponsored
 matome.eternalcollegest.com,ushigyu.net,nilcollection.net,gamers-info.net,appl-y.com,taisy0.com,netbusinessbox.net,autoc-one.jp,geek.sc##.sponsored
 ! ###fix_sidebar
@@ -1776,10 +1781,24 @@ pokemon-gsc.g-takumi.com,blog.with2.net,color-sample.com,8mato.jp,iromame-beans.
 ! ##.add
 ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakukosodate.work,kensho-zukan.com,oyakudachi2525.com,mazisuka.com,hetano-yokozuki.net,uruoistyle.com,moto-neta.com,bunkai.biz,yuraika.com,mupon.net,affiliate-ruby.com,amehappi.com,bge.jp,bonsai.shikoku-np.co.jp,boosting-site.com,dietmiler.com,dohack.jp,gameo.jp,higeojisan-lab.com,manga-comic-netabare.com,manga-netabare-kanso.com,mangafull.jp,multilingualtraveler.com,niko25niko.xyz,ou-kagai.com,pear-farmers.life,shiba-teire.com,vtub0.com,yukiq.com##.add
 ! ##.ad
-npn.co.jp,nicovideo-r18.com,pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp,gamewiki.jp,tripnote.jp,cinemacafe.net,smartlog.jp,otokomaeken.com,yakkun.com,weblio.jp,miuchan.jp,newpuru.doorblog.jp,pormo.me,hitoriblog.com,webcg.net,newsphere.jp,tver.jp,cyzowoman.com,gorin.jp,otakomu.jp,volante.info,e-mansion.co.jp,rakuten-seo.info,buzip.net,women.benesse.ne.jp,candyrock25.com,nachukichi.com,sedoru.com,sidelife.net,vegelifemiki.net,nikkan.co.jp,dogatch.jp,sai-zen-sen.jp,followmanager.net,ure.pia.co.jp,xn--n9jvd7d3d0ad5cwnpcu694dohxad89g.com,smt-cinema.com,thetv.jp,gaydebulog.com,guitarmagazine.jp,anime-hiroba.com,blogmura.com,55sedori.com,chat.shalove.net,vogue.co.jp,gogo.gs,bikebros.co.jp,qoly.jp,movie.jorudan.co.jp,ascii.jp,kanaloco.jp,horiemon.com,kamigame.jp,e-words.jp,otona-life.com,gundam-futab.info,twi55.com,mindhack2ch.com,vippers.jp,repeat-drama.info##.ad
+dokuha.jp,npn.co.jp,nicovideo-r18.com,pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp,gamewiki.jp,tripnote.jp,cinemacafe.net,smartlog.jp,otokomaeken.com,yakkun.com,weblio.jp,miuchan.jp,newpuru.doorblog.jp,pormo.me,hitoriblog.com,webcg.net,newsphere.jp,tver.jp,cyzowoman.com,gorin.jp,otakomu.jp,volante.info,e-mansion.co.jp,rakuten-seo.info,buzip.net,women.benesse.ne.jp,candyrock25.com,nachukichi.com,sedoru.com,sidelife.net,vegelifemiki.net,nikkan.co.jp,dogatch.jp,sai-zen-sen.jp,followmanager.net,ure.pia.co.jp,xn--n9jvd7d3d0ad5cwnpcu694dohxad89g.com,smt-cinema.com,thetv.jp,gaydebulog.com,guitarmagazine.jp,anime-hiroba.com,blogmura.com,55sedori.com,chat.shalove.net,vogue.co.jp,gogo.gs,bikebros.co.jp,qoly.jp,movie.jorudan.co.jp,ascii.jp,kanaloco.jp,horiemon.com,kamigame.jp,e-words.jp,otona-life.com,gundam-futab.info,twi55.com,mindhack2ch.com,vippers.jp,repeat-drama.info##.ad
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+pillowycafe.com##.aicp
+free-erobooks.*###right-side > div.side-box > div.side-title:first-child
+free-erobooks.*##.open
+purple-novel.com###side > aside.widget
+milk-key.com###fanza-slider
+milk-key.com##.i2i-header-text
+||milk-key.com/ad/
+||milk-key.com/af/
+||caramel-sp.com/feed/
+caramel-sp.com###dlsite_native
+caramel-sp.com###liver_native
+||caramel-sp.com/ad/
+dokuha.jp##.col-xs-12.margin-bottom-lg > a[href^="https://search.rakuten.co.jp/search/mall/"][rel="nofollow"]
+comic.nan-net.com###tuibi
 rkb.jp###footer_banner .ftr1
 rkb.jp###footer_banner .ftr3
 jav380.com##div[style="position: fixed; bottom: 5px; right: 5px; width: 300px; z-index: 9999;"]
@@ -1965,7 +1984,10 @@ q.hatena.ne.jp##.sidebar-banner
 ||manga-mill.com/fanza/
 ||adult-storage.net/ad/$third-party
 ||yomi-mo.com/wp/wp-content/themes/yomimo/ad/fanza_
+manga-mill.com###ai-eroge-lp
+manga-mill.com##.list-inter
 manga-mill.com##.adrectangle
+yomi-mo.com##.fanza
 manga-mill.com,yomi-mo.com##li[id$="_native"]
 manga-mill.com,yomi-mo.com##li[id^="fanza_"]
 japan-railway.com###bigfooter
@@ -2531,6 +2553,7 @@ news.tennis365.net##.header-bn
 anna-media.jp##.tgad
 ||ecx.images-amazon.com/images/i/*._sx160_.jpg$domain=blog.livedoor.jp
 uraaka.com##div[class="koukoku overlay"]
+lifehack2ch.livedoor.biz##.p_img
 lifehack2ch.livedoor.biz##.r2 > a[href^="https://www.amazon.co.jp/"]
 lifehack2ch.livedoor.biz###right_a
 lifehack2ch.livedoor.biz##.yahoo-ad1b
