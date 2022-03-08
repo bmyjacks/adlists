@@ -403,6 +403,7 @@ linovelib.com#$#body[style] { overflow: auto !important; }
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11152
+rjno1.com#%#//scriptlet('abort-on-stack-trace', 'setTimeout', '/google|inlineScript/')
 rjno1.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', 'inlineScript')
 rjno1.com#$?#style:contains(@keyframes) { remove: true; }
 !+ NOT_PLATFORM(ios, ext_android_cb)
@@ -4853,6 +4854,7 @@ ubmcmm.baidustatic.com
 ||dianwenwang.com^
 ||dianxin.com^$third-party
 ||dibaiweiai.com^
+||dikematou.com^
 ||dilidd.com^
 ||displink.com^$third-party
 ||diuling.com^
@@ -10138,8 +10140,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||mysteelcdn.com/common/*/js/img_ad.
 ||mysteelcdn.com/gg/
 ||myweb.hinet.net/menu.htm
-||myyan.cc/js/qz.js
-||myyan.cc/js/sj
 ||mzhhdn.com/hongbao.jpg
 ||mzyfz.*/modules/46/
 ||mzyz.com/image*/tj/
@@ -19818,6 +19818,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||51foodsafe.cn^
 ||51gpt.com^
 ||51lx.ink^
+||51niu.pro^
 ||51showmy.com^
 ||51teach.club^
 ||51vs.club^
@@ -20797,6 +20798,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||elvfdnj.cn^
 ||elvx.top^
 ||emgwq.com^
+||emotionally.wang^
 ||engpeng.cn^
 ||enidie.cn^
 ||enihongo.cn^
@@ -20904,6 +20906,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||fll007.com^
 ||flmcju.cn^
 ||flydog.club^
+||flyleaf.biz^
 ||flyly.cc^
 ||fmketang.cn^
 ||fnbocll.cn^
@@ -21283,6 +21286,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||hnwjlhg.cn^
 ||hnxahz.com^
 ||hnxinkejg.com^
+||hnycwh.cn^
 ||hnyczs.club^
 ||hnylb8.cn^
 ||hnyoufan.com^
@@ -21781,6 +21785,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ks67.com^
 ||ksdr.xyz^
 ||ksvftk.cn^
+||ksxb.ltd^
 ||kszhmzp.cn^
 ||ktzte.cn^
 ||kuaidibiaoju.com^
@@ -22203,6 +22208,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ndusa.cn^
 ||nernv.com^
 ||netfix8.info^
+||netshare.ltd^
 ||neudata.cloud^
 ||newknowledge.cn^
 ||ngceq.cn^
@@ -23130,9 +23136,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||uaxyutpxh.xyz^
 ||ubt573.org^
 ||ububyiw6655.xyz^
+||ubxqerc.cn^
 ||uc4a.cn^
 ||ucaii.com^
 ||ugmvoys.cn^
+||uguhpfo.cn^
 ||uidndas.cn^
 ||uissm.com^
 ||ujiasm.com^
@@ -23189,6 +23197,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||vicustom.cn^
 ||vik.cx^
 ||vinuxhome.com^
+||violates.wang^
 ||viphdk.xyz^
 ||vivi87.cn^
 ||vjptye.cn^
@@ -23950,6 +23959,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zncat.cn^
 ||zongjiangc.top^
 ||zongjiangd.top^
+||zonmxej.cn^
 ||zougg.com^
 ||zoujuhonglawyer.com^
 ||zouxinyan.xyz^
