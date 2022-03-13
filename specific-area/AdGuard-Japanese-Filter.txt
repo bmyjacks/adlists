@@ -133,6 +133,8 @@
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||affiliate.konibet.com^$third-party
+||hananokai.tv^$third-party
 ||ad.presco.asia^$third-party
 ||m-live.jp^$third-party
 ||ad-track.jp^$third-party
@@ -865,6 +867,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+nukeruerodouga.com#?##main-right > div.right_area > div.ninja-recommend-block:upward(2)
+mangalifewin.takeshobo.co.jp#?#.hsNormal > div.bJava:upward(1)
 fpcafe.jp###sideNavi div.banner:has(> a[href^="https://h.accesstrade.net/sp/cc?"])
 wa3.i-3-i.info#?#div[class^="word_label"]:contains(スポンサーリンク)
 h1g.jp#?#.mainbody > h2:contains(おすすめ関連記事)
@@ -1772,13 +1776,13 @@ npn.co.jp,afpbb.com,2ch.pet,hamakei.com,keizai.biz,minkei.net,shibukei.com##.bnr
 ! ###ad
 travel.rakuten.co.jp,conciergedesk.jp,japan-iwate.info,anal-love.net###ad
 ! ##.rectangle
-shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
+eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
 ! ##.sponsored
 matome.eternalcollegest.com,ushigyu.net,nilcollection.net,gamers-info.net,appl-y.com,taisy0.com,netbusinessbox.net,autoc-one.jp,geek.sc##.sponsored
 ! ###fix_sidebar
 sugi9532.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com###fix_sidebar
 ! ##.code-block
-chietoku.jp,rere.jp,bazurecipe.com,frozen.analyst.jp,entano.jp,mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
+travel.spot-app.jp,chietoku.jp,rere.jp,bazurecipe.com,frozen.analyst.jp,entano.jp,mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
 ! ##.amazon
 ebitsu.net,news.2chblog.jp,chomagireko.blog.jp,tarosoku.com,0taku.livedoor.biz,kabumatome.doorblog.jp,haijin-boys.com,hamusoku.com,ascii2d.net##.amazon
 ! ##.adsense
@@ -1793,6 +1797,18 @@ ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakuk
 yomiuri.co.jp,fujinkoron.jp,mikle.jp,onayamifree.com,ytranking.net,dokuha.jp,npn.co.jp,nicovideo-r18.com,pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp,gamewiki.jp,tripnote.jp,cinemacafe.net,smartlog.jp,otokomaeken.com,yakkun.com,weblio.jp,miuchan.jp,newpuru.doorblog.jp,pormo.me,hitoriblog.com,webcg.net,newsphere.jp,tver.jp,cyzowoman.com,gorin.jp,otakomu.jp,volante.info,e-mansion.co.jp,rakuten-seo.info,buzip.net,women.benesse.ne.jp,candyrock25.com,nachukichi.com,sedoru.com,sidelife.net,vegelifemiki.net,nikkan.co.jp,dogatch.jp,sai-zen-sen.jp,followmanager.net,ure.pia.co.jp,xn--n9jvd7d3d0ad5cwnpcu694dohxad89g.com,smt-cinema.com,thetv.jp,gaydebulog.com,guitarmagazine.jp,anime-hiroba.com,blogmura.com,55sedori.com,chat.shalove.net,vogue.co.jp,gogo.gs,bikebros.co.jp,qoly.jp,movie.jorudan.co.jp,ascii.jp,kanaloco.jp,horiemon.com,kamigame.jp,e-words.jp,otona-life.com,gundam-futab.info,twi55.com,mindhack2ch.com,vippers.jp,repeat-drama.info##.ad
 !
 !
+travel.spot-app.jp##.banner-rectangl
+eromon.net##a[href^="https://a-affiliate.net/login/link.php"]
+eromon.net##section > aside > div.movie
+||movie-rush.com/files/js/ad/
+movie-rush.com##.top_upper
+volumy.com##.blank_box
+johotaxi.com##p[style="color: #666; text-align: center;"]
+eventernote.com##.gb_ad_300_250
+eventernote.com##.gb_ad_footer
+eventernote.com##.gb_ad_lrec:first-child
+storia.takeshobo.co.jp###r-googleads
+||mangalifewin.takeshobo.co.jp/usr-data/units/bJava/disp.php
 media.moneyforward.com##div[class^="mp-fixed-ads"]
 saruwakakun.com##.ct
 fpcafe.jp##.adsenceArea
@@ -2065,7 +2081,7 @@ billionwallet.com##.adsense_center
 ushigyu.net##div[class^="ad-"]
 news.biglobe.ne.jp##.news-cpl
 biglobe.ne.jp###join-bnr
-kai-you.net##.l-side-banner_list
+kai-you.net##.l-pc_resp_all_inhouse_1st
 kai-you.net##div[class*="-ad"]
 niigata-nippo.co.jp##.md_adsCover
 ||cinemacafe.net/adimgs/
@@ -2178,7 +2194,7 @@ tohaz.com,kamome21.site,erogamemod.com,kimootoko.net###custom_html-5
 larksan.wp.xdomain.jp,kindou.info,chem-station.com###custom_html-6
 studiosero.net,fpsjp.net,tokyolucci.jp###custom_html-7
 fnjpnews.com,fpsjp.net,tokyolucci.jp,namatamago.net###custom_html-8
-larksan.wp.xdomain.jp,dq.h1g.jp,otakaranet.com,macha795.com,namatamago.net,chem-station.com###custom_html-9
+ssaits.jp,larksan.wp.xdomain.jp,dq.h1g.jp,otakaranet.com,macha795.com,namatamago.net,chem-station.com###custom_html-9
 trip-2ch.kokohenjp.mixh.jp,a-da-co-da.com,macha795.com,namatamago.net###custom_html-10
 valorantnews.jp###custom_html-38
 valorantnews.jp###custom_html-45
@@ -3962,6 +3978,8 @@ clutch-s.jp##.reccomendArc
 anniversarys-mag.jp###gowp-native
 famitsu.com##.banner-pc
 famitsu.com##.banner-top-header
+eromovie-s.com##.adcontent
+eromovie-s.com##.native
 ||eromovie-s.com/fanza/
 eromovie-s.com###fanza_recommend
 ||dmm.co.jp/af/
@@ -5104,7 +5122,6 @@ avgle.com##div[class*="__bn-container"]
 avgle.com##.well#ps32-container
 .info/*/*/*/*/$domain=avgle.com
 /sound?cver*refer*avgle.com$popup
-||avgle.com$popup,domain=avgle.com
 $popup,domain=avgle.com,third-party
 avgle.com##.container > div[style*="overflow: hidden"]
 !
