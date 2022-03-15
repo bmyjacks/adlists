@@ -903,7 +903,7 @@ montorrent.com##a[href^="#"].btn-fastest
 jeuxvideo.com##.sideWootbox
 actu-environnement.com##.module_annonce
 orange.fr##.autopromo-prospect
-sante.journaldesfemmes.fr##.OUTBRAIN
+gala.fr,sante.journaldesfemmes.fr##.OUTBRAIN
 developpez.com###colonneDroite > aside > #encart_droite > div[class^="dvpb"][style^="display: inline-block; width:"]
 windsurfjournal.com##.right-pub-zone
 windsurfjournal.com##.megabanner-container
@@ -1212,6 +1212,10 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/112809
+@@||code.jquery.com/jquery-*.min.js$domain=onepiece-streaming.co
+@@||unpkg.com/@silvermine/videojs-quality-selector/dist/js/silvermine-videojs-quality-selector.min.js$domain=onepiece-streaming.co
+$script,third-party,domain=onepiece-streaming.co,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112295
 filerio.in#@#a[onclick]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112176
@@ -14247,8 +14251,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||cdn.flvto.biz/js/*_popup_
 ||cdn.flvto.biz/push_app.js
 ||cdn.mgig.fr/2020/03/mg-955d46a3-59d5-462b-9a97-full.jpg
-||cdn.ouedkniss.com/medias/images/
-||cdn.ouedkniss.com/medias/promotions/
 ||cdn.tirage-gagnant.com/js/dynamic-ban-
 ||cdn.tirage-gagnant.com/js/popup.js
 ||cdn.wpformation.com/wp-content/uploads/*/wpserveur-banner
@@ -15400,6 +15402,8 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||otaku-attitude.net^*/okazu-manga.gif
 ||otakufr.com/wp-content/uploads/*-300x115-
 ||otakufr.com/wp-content/uploads/*/banner.
+||ouedkniss.com/medias/images/
+||ouedkniss.com/medias/promotions/
 ||ouest-annonces.com/widgethomePAOFM.php
 ||ouest-france.fr/*ploads/banner/
 ||ouestfrance-auto.com/widget/$third-party
@@ -16992,6 +16996,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ###pubPosition1
 ###pubPosition2
 ###pubRight
+###pubRight-show
 ###pubSidebarHaut
 ###pubTop
 ###pubTopPage
@@ -17214,6 +17219,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ###spaceForPub
 ###splashbox-advcorner
 ###sponsor-block
+###sponsor_google
 ###sponsor_sidebar
 ###sponsored-container
 ###sponsoredContainer
@@ -19870,7 +19876,6 @@ amazon.fr###sp_detail
 amazon.fr###sp_detail2
 animeka.com,europages.fr###sponsor
 blogduwebdesign.com###sponsor250
-jeuxvideo.com###sponsor_google
 boursier.com###sponsored
 esi.dz,sfr.fr###sponsors
 forumconstruire.com###st_ad
@@ -21200,12 +21205,14 @@ gameblog.fr#?#.highlight-item:-abp-has(.word-wrapper:-abp-contains(sponso))
 gameblog.fr#?#.item.full.gameblog:-abp-has(.post-details:-abp-contains(sponsorisé))
 gktorrents.net,oxtorrent.cx,oxtorrent.me,torrent9.gg,torrent9.is,torrent9.ninja,torrent9.si,torrent9.so#?#div[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
 gktorrents.net,oxtorrent.cx,oxtorrent.me,torrent9.gg,torrent9.is,torrent9.ninja,torrent9.si,torrent9.so#?#table[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
+hitek.fr#?#.news-bloc:-abp-has(.article-type:-abp-contains(Sponsorisé))
 homify.fr#?#.photo__m:-abp-has(.top-label)
 homify.fr#?#.premium-card:-abp-has(.top-label)
 ici-londres.com#?#.articles_list_item:-abp-has(.category:-abp-contains(Sponsorisé))
 igen.fr,macg.co,watchgeneration.fr#?#article:-abp-has(.sidebar-artitle:-abp-contains(/📣|📌/))
 igen.fr,macg.co,watchgeneration.fr#?#article:-abp-has(h2:-abp-contains(/📣|📌/))
 indeed.fr#?#.jobsearch-SerpJobCard:-abp-has(.sponsoredGray)
+jeuxvideo.com#?#.card:-abp-has(.badge:-abp-contains(Sponsorisé))
 jeuxvideo.com#?#.item-small-pres:-abp-has(a:-abp-has(.sponsored-prefix))
 jeuxvideo.com#?#li:-abp-has(a:-abp-has(.sponsored-prefix))
 journaldugeek.com#?#.entry__item:-abp-has(.entry__img-container--sponso)
@@ -21234,8 +21241,10 @@ nextinpact.com#?#app-home-item:-abp-has(.article:-abp-has(.sponsored))
 nextinpact.com#?#li[class="ng-star-inserted"]:-abp-has(.sponsored)
 numerama.com#?#.container_native_sidebar:-abp-has(.sponsoring-icon)
 numerama.com#?#.post-grid:-abp-has(.sponsoring-icon)
-ouedkniss.com#?#.container:-abp-has(.o-section-heading:-abp-contains(/Sponsored|sponsorisées|Stores à la une/))
+ouedkniss.com#?#.container:-abp-has(.o-section-heading:-abp-contains(/Sponsored|Sponsorisées|Stores à la une/))
+ouedkniss.com#?#.ok-swiper:-abp-has(.swiper-slide[style^="width: 960px;"])
 ouedkniss.com#?#.v-dialog--fullscreen:-abp-has(.v-toolbar-promo)
+ouedkniss.com#?#a:-abp-has(div:-abp-has(.adsbygoogle))
 paruvendu.fr#?#.lazyload_bloc:-abp-has([class*="sponsorise"])
 rakuten.com#?#[data-productid]:-abp-has(a[href^="/offer?action="])
 businessinsider.fr#?##related-post-:-abp-has(a[href*="/contenu-sponsorise"])

@@ -133,6 +133,7 @@
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||d1yt8zt4633tzi.cloudfront.net^
 ||affiliate.konibet.com^$third-party
 ||hananokai.tv^$third-party
 ||ad.presco.asia^$third-party
@@ -867,6 +868,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+zakzak.co.jp#?#.p-10px > div.OUTBRAIN:upward(1)
 xn--u9j3iub5080abs7bxbc.com#?#.clearfix > p > span[style="color: #ff0000;"]:contains(3千円プレゼント！):upward(1)
 xn--u9j3iub5080abs7bxbc.com#?#.clearfix > p > strong:contains(↓)
 nukeruerodouga.com#?##main-right > div.right_area > div.ninja-recommend-block:upward(2)
@@ -1799,6 +1801,9 @@ ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakuk
 yomiuri.co.jp,fujinkoron.jp,mikle.jp,onayamifree.com,ytranking.net,dokuha.jp,npn.co.jp,nicovideo-r18.com,pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp,gamewiki.jp,tripnote.jp,cinemacafe.net,smartlog.jp,otokomaeken.com,yakkun.com,weblio.jp,miuchan.jp,newpuru.doorblog.jp,pormo.me,hitoriblog.com,webcg.net,newsphere.jp,tver.jp,cyzowoman.com,gorin.jp,otakomu.jp,volante.info,e-mansion.co.jp,rakuten-seo.info,buzip.net,women.benesse.ne.jp,candyrock25.com,nachukichi.com,sedoru.com,sidelife.net,vegelifemiki.net,nikkan.co.jp,dogatch.jp,sai-zen-sen.jp,followmanager.net,ure.pia.co.jp,xn--n9jvd7d3d0ad5cwnpcu694dohxad89g.com,smt-cinema.com,thetv.jp,gaydebulog.com,guitarmagazine.jp,anime-hiroba.com,blogmura.com,55sedori.com,chat.shalove.net,vogue.co.jp,gogo.gs,bikebros.co.jp,qoly.jp,movie.jorudan.co.jp,ascii.jp,kanaloco.jp,horiemon.com,kamigame.jp,e-words.jp,otona-life.com,gundam-futab.info,twi55.com,mindhack2ch.com,vippers.jp,repeat-drama.info##.ad
 !
 !
+huffingtonpost.jp##.ad-right-rail-native-ad
+huffingtonpost.jp##.entry__right-rail-width-placeholder
+huffingtonpost.jp##.right-rail-sticky__native-ad-container
 ||cheerup.jp/ads_gets?
 sotokabe.net###footer_cta
 xn--u9j3iub5080abs7bxbc.com##.external
@@ -4738,6 +4743,7 @@ magnet.so###p_ad
 magnet.so###AD
 ceron.jp##div[style="width:320px;min-height:100px;margin: 0 auto;background:#eee;"]
 itmedia.co.jp###cmsBody > div.inner > div > div[style="text-align:center;margin:40px 0;"]
+gendai.ismedia.jp###MG_pc_2nd_Rectangle + div[style="width:300px; margin-top:15px;"]
 gendai.ismedia.jp##.ad-slider
 gendai.ismedia.jp##.dontprint[style="min-height: 250px; overflow: hidden;"]
 gendai.ismedia.jp##.dontprint[style="min-height:90px;margin-bottom:45px;"]
@@ -5074,8 +5080,8 @@ livedoor.jp##a[href^="http://track.xmax.jp/"]
 ||video.fc2.com/static/video/js/plr/tg/
 video.fc2.com##.ad_panelAR
 video.fc2.com##.list-subCont > li[style$="height: 98px;"]
-video.laxd.com,video.fc2.com##.ads-container
-video.laxd.com,video.fc2.com##.banner
+video.fc2.com##.ads-container
+video.fc2.com##.banner
 video.fc2.com##div[style^="width: 300px; height: 250px"]
 video.laxd.com,video.fc2.com##[class^="c-ad"]
 ! porn sites
@@ -5088,6 +5094,7 @@ cho-hentaimura.work,choechiechimura.work,dochaero.com,doujin-darake.xyz,echiechi
 ||nijigen-erogazou.com^$script,third-party
 !
 ! itest.5ch.net,itest.bbspink.com
+itest.5ch.net,itest.bbspink.com###js-imageview-ad
 itest.5ch.net###js-thread-subback-top-ad
 itest.5ch.net##.ranking > div#js-topics-top.flex_center[style^="height: calc"]
 itest.5ch.net###ad_network
