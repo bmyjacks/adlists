@@ -130,6 +130,7 @@ rustica.fr#%#//scriptlet("abort-on-property-write", "dtctAB")
 @@||systemed.fr/*.iads.js
 systemed.fr#%#//scriptlet("abort-on-property-write", "dtctAB")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105651
+crunchyscan.fr#%#//scriptlet("abort-current-inline-script", "setTimeout", "bloqueur")
 crunchyscan.fr#%#//scriptlet("abort-current-inline-script", "Promise", "alert")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103164
 chat.babel.com#%#//scriptlet('prevent-setTimeout', 'ShowAdvertising')
@@ -700,6 +701,8 @@ jeuxvideo.com#?#.list-actu-home > li[-ext-has='span.officiel']
 !
 ! French-language catch-up TV web apps
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/112961
+seriepourvous.com#%#//scriptlet("remove-attr", "href", "a[href]#clickfakeplayer")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104938
 scan-manga.com#%#//scriptlet("abort-current-inline-script", "document.getElementById", "window.open")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83543
@@ -1212,6 +1215,10 @@ lesfrontaliers.lu##.ad-listing
 !
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/12321
+@@$csp=worker-src 'none',domain=uptostream.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/112953
+nova.rs#@#div[data-ad]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112809
 @@||code.jquery.com/jquery-*.min.js$domain=onepiece-streaming.co
 @@||unpkg.com/@silvermine/videojs-quality-selector/dist/js/silvermine-videojs-quality-selector.min.js$domain=onepiece-streaming.co
@@ -4734,6 +4741,7 @@ _300%20x%20250$image
 _300-x-250_
 _300_600.
 _300x250/
+_300x250@
 _300x250v1.
 _300x300.gif
 _300x400.gif
@@ -4751,6 +4759,7 @@ _648x60_
 _725_90.
 _728-x-90_
 _728x350.
+_728x90@
 _728x90pxl_
 _728x90v2.
 _758x60.
@@ -11210,6 +11219,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||adxprts.com^$popup,third-party
 ||adyieldoptimizer.com^$popup,third-party
 ||adzs.com^$popup,third-party
+||affcpatrk.com^$popup
 ||affforce.com^$popup,third-party
 ||affilanity.com^$popup,third-party
 ||affiliation-france.com^$popup,third-party
@@ -19207,6 +19217,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##a[href^="https://ad.propellerads.com/"]
 ##a[href^="https://admin.thrixxx.com/affiliates/"]
 ##a[href^="https://ads.regie24h00.com"]
+##a[href^="https://affcpatrk.com/"]
 ##a[href^="https://afflat3d1.com/"]
 ##a[href^="https://app.monetizze.com.br/"]
 ##a[href^="https://badoinkvr.com/?"]
@@ -19218,7 +19229,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##a[href^="https://clickadilla.com/?"]
 ##a[href^="https://clk.notallowedscripttradedoubler.com/click?"]
 ##a[href^="https://clk.pvnsolutions.com/"]
-##a[href^="https://dl-protect.info/url4premium?"]
+##a[href^="https://dl-protect.info/url"]
 ##a[href^="https://dl11a.club/"]
 ##a[href^="https://go.alvexo.com/"]
 ##a[href^="https://go.blackbullmarkets.com/"] > img
@@ -21022,7 +21033,6 @@ algerie360.com##div[class^="pub600"]
 algerie360.com##div[class^="pub728"]
 la-tendinite.fr##div[class^="snp-"]
 algeriepatriotique.com##div[class^="spu-"]
-leboncoin.fr##div[class^="styles_ad__"]
 mahjong.fr##div[class^="sub_jeu_160"]
 mahjong.fr##div[class^="sub_jeu_300"]
 mahjong.fr##div[class^="sub_jeu_72890"]
@@ -21226,6 +21236,7 @@ korben.info#?#div[class*="sous-article"]:-abp-has(a[href^="http://amzn.to/"])
 latribune.fr#?#.article-wrapper:-abp-has(.subheading:-abp-contains(Partenaire))
 latribune.fr#?#.homepage-section.supplement-section:-abp-has(span:-abp-contains(Partenaires))
 lebigdata.fr#?#.elementor-widget-wrap:-abp-has(a[href^="http://clickmetertracking.com/"])
+leboncoin.fr#?#div[class^="styles_ad"]:-abp-has([color]:-abp-contains(Sponsorisé))
 lemonde.fr#?#.area--ops:-abp-has(p:-abp-contains(Contenus partenaires))
 lemonde.fr#?#.bd__bloc:-abp-has(.bd__header:-abp-contains(Barnebys.fr))
 leseclaireuses.com#?#.article.small:-abp-has(a[href*=".smartadserver.com"])
@@ -21514,6 +21525,7 @@ whatpub.com#@#.pub_left
 bsv.admin.ch#@#.pub_outer
 lechainonmanquant.com,love-hinax.com#@#.publicite
 ta-meteo.fr,xn--mto-bmab.fr#@#.topbanneradvertise
+gala.fr#@#[data-ads-core]
 kijiji.ca#@#div[data-ad-id]
 gamekult.com#@#div[data-ad-sticky-follow]
 &adbIsActive=
