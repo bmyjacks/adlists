@@ -468,6 +468,8 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/690
+g-pc.info#%#//scriptlet('set-constant', 'adsbygoogle.loaded', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111528
 ma-bank.net#@#.ad_div
 ma-bank.net#@##ad_area
@@ -869,6 +871,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+financial-field.com#?#.entry_main_body > p.contentText:contains(【PR】)
+kakaku.com#?##ct004 > div.contMain > table.tblPRbn:upward(2)
 asiatravelnote.com#?#.td-post-content > div > ins.adsbygoogle:upward(1)
 biteki.com#?#.items > div.item > div[id^="logly-"]:upward(1)
 jisakuhibi.jp##.column-inner-2 > div.plugin-memo:has(> div.sidetitlebody > div.sidetitle:contains(Amazon))
@@ -1813,9 +1817,15 @@ pokemon-gsc.g-takumi.com,blog.with2.net,color-sample.com,8mato.jp,iromame-beans.
 ! ##.add
 ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakukosodate.work,kensho-zukan.com,oyakudachi2525.com,mazisuka.com,hetano-yokozuki.net,uruoistyle.com,moto-neta.com,bunkai.biz,yuraika.com,mupon.net,affiliate-ruby.com,amehappi.com,bge.jp,bonsai.shikoku-np.co.jp,boosting-site.com,dietmiler.com,dohack.jp,gameo.jp,higeojisan-lab.com,manga-comic-netabare.com,manga-netabare-kanso.com,mangafull.jp,multilingualtraveler.com,niko25niko.xyz,ou-kagai.com,pear-farmers.life,shiba-teire.com,vtub0.com,yukiq.com##.add
 ! ##.ad
-spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp,onayamifree.com,ytranking.net,dokuha.jp,npn.co.jp,nicovideo-r18.com,pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp,gamewiki.jp,tripnote.jp,cinemacafe.net,smartlog.jp,otokomaeken.com,yakkun.com,weblio.jp,miuchan.jp,newpuru.doorblog.jp,pormo.me,hitoriblog.com,webcg.net,newsphere.jp,tver.jp,cyzowoman.com,gorin.jp,otakomu.jp,volante.info,e-mansion.co.jp,rakuten-seo.info,buzip.net,women.benesse.ne.jp,candyrock25.com,nachukichi.com,sedoru.com,sidelife.net,vegelifemiki.net,nikkan.co.jp,dogatch.jp,sai-zen-sen.jp,followmanager.net,ure.pia.co.jp,xn--n9jvd7d3d0ad5cwnpcu694dohxad89g.com,smt-cinema.com,thetv.jp,gaydebulog.com,guitarmagazine.jp,anime-hiroba.com,blogmura.com,55sedori.com,chat.shalove.net,vogue.co.jp,gogo.gs,bikebros.co.jp,qoly.jp,movie.jorudan.co.jp,ascii.jp,kanaloco.jp,horiemon.com,kamigame.jp,e-words.jp,otona-life.com,gundam-futab.info,twi55.com,mindhack2ch.com,vippers.jp,repeat-drama.info##.ad
+financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp,onayamifree.com,ytranking.net,dokuha.jp,npn.co.jp,nicovideo-r18.com,pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp,gamewiki.jp,tripnote.jp,cinemacafe.net,smartlog.jp,otokomaeken.com,yakkun.com,weblio.jp,miuchan.jp,newpuru.doorblog.jp,pormo.me,hitoriblog.com,webcg.net,newsphere.jp,tver.jp,cyzowoman.com,gorin.jp,otakomu.jp,volante.info,e-mansion.co.jp,rakuten-seo.info,buzip.net,women.benesse.ne.jp,candyrock25.com,nachukichi.com,sedoru.com,sidelife.net,vegelifemiki.net,nikkan.co.jp,dogatch.jp,sai-zen-sen.jp,followmanager.net,ure.pia.co.jp,xn--n9jvd7d3d0ad5cwnpcu694dohxad89g.com,smt-cinema.com,thetv.jp,gaydebulog.com,guitarmagazine.jp,anime-hiroba.com,blogmura.com,55sedori.com,chat.shalove.net,vogue.co.jp,gogo.gs,bikebros.co.jp,qoly.jp,movie.jorudan.co.jp,ascii.jp,kanaloco.jp,horiemon.com,kamigame.jp,e-words.jp,otona-life.com,gundam-futab.info,twi55.com,mindhack2ch.com,vippers.jp,repeat-drama.info##.ad
 !
 !
+financial-field.com##.compact_coop
+financial-field.com##a[href*="https://ads-field.com/ad/p/r?"]
+yomiuri.co.jp##.p-ad-news-txt
+studyhacker.net###popup_area
+studyhacker.net##.p-side-banner-lists
+eroterest.net##iframe[src^="//okbp.xyz/"]
 kmansin03.com##.widget-img
 kmansin03.com##div[style^="width:100%; min-height:280px"]
 netkeiba.com##.Ad-main_footer
@@ -2286,7 +2296,7 @@ yakkun.com##.side_top_ad
 ||virusbuster.jp/aff/banner/
 ||ana.co.jp/travel/af_banner/
 ||bellemaison.jp/pc/premoni/ad/
-||kakaku.com/ad/$third-party
+||kakaku.com/ad/
 pokema.net##.pr_box
 ||pics.premoa.co.jp/photo/Feature/affiliate/$third-party,domain=~pokema.net
 ||wp.com/pics.premoa.co.jp/photo/Feature/affiliate/
@@ -4251,8 +4261,10 @@ garanger.net##a[target="_blank"][rel="nofollow"] > img
 ||secure.spox.com/daznpic/$subdocument,domain=the-ans.jp
 the-ans.jp##.content-box-2col > ul
 the-ans.jp##.side-box
+||k-img.com/script/libs/kkkns.des/jack.js
 ||k-img.com/images/renet/ad/$domain=kakaku.com
 ||kakaku.com/script/itemview/RdmReviewAd.js
+kakaku.com##.bnrAd
 kakaku.com###yAuctionBox
 kakaku.com##.prTitle
 kakaku.com##.c-box-adBox
