@@ -615,7 +615,7 @@ h-ken.net#%#//scriptlet("abort-current-inline-script", "onload", "ad")
 ! https://github.com/AdguardTeam/AdguardFilters/pull/61513/
 @@||my0nio.seesaa.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60864
-/modal-dist/index.js$script,domain=ananweb.jp|diamond.jp|iza.ne.jp|lifehacker.jp|newsweekjapan.jp
+/modal-dist/index.js$script,domain=ananweb.jp|newsweekjapan.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54027
 @@||pointservice.com/res/media/common/ad/adframe.js$script,domain=goldencocco.jp|mottonoutore.jp
 goldencocco.jp#%#//scriptlet("set-constant", "adblock", "false")
@@ -782,8 +782,6 @@ off-soft.net#@#.adsbygoogle
 gigazine.net#?#section > div.card > div.date > a[class] > span.catab:contains(広告):upward(section)
 gigazine.net#?#section > div.card > div.thumb > script[src*="/www/delivery/"]:upward(3)
 gigazine.net#?#.rl-list-item > div[id^="div-gpt-ad"]:upward(1)
-! https://github.com/AdguardTeam/AdguardFilters/issues/98391
-lifehacker.jp#?#.lh-slideInner > li:has(> .lh-summary > .lh-summary-meta > .lh-summary-sponsored)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90433
 11songs.info,3rin.net,7narabe.net,99ing.net,anime-cosplay.com,anime-festa.com,anime-japan.net,anime-life.com,anime-movie.net,anime-navi.net,anime-report.com,anime-voice.com,animegoe.com,asukablog.net,atgj.net,bangalog.com,bangofan.com,bijual.com,blog-fps.com,blog-mmo.com,blog-rpg.com,blog-sim.com,blog.shinobi.jp,blog.tkooler.net,coelacanth108.com,cooklog.net,cos-live.com,cos-mania.net,coslife.net,cosplay-festa.com,cosplay-navi.com,dankanoko.com,darumasangakoronda.com,dou-jin.com,edoblog.net,en-grey.com,escapepower.com,fukuwarai.net,futatsutomoe.com,game-ss.com,game-waza.net,gg-blog.com,ginoushi.jp,gjgd.net,gjpw.net,guhaw.com,hyakunin-isshu.net,ichi-matsu.net,iga-log.com,iku4.com,indiesj.com,janken-pon.net,kagome-kagome.com,kai-seki.net,kakuren-bo.com,kamakurablog.com,kazamidori-o.com,ko-me.com,komochijima.com,koushijima.com,kuizu.net,kurofuku.com,ky-3.net,kyotolog.net,mamagoto.com,manga-cosplay.com,mangadou.net,mangalog.com,misujitate.com,mmo-fps.com,moe-cosplay.com,nari-kiri.com,ni-3.net,ni-moe.com,no-mania.com,o-oi.net,omaww.net,or-hell.com,outisigoto.com,p-kin.net,pazru.com,ria10.com,ryorika.com,sakeblog.net,samwisegamgee.net,sankuzushi.com,satsumablog.com,sekigaharablog.com,side-story.net,sjisjis.com,sugo-roku.com,syoyu.net,take-uma.net,tosalog.com,tou3.com,tsuyushiba.com,tyoshublog.com,v-kei.net,vi-lab.com,visualfan.com,visualshoxx.net,wa-syo-ku.com,ya-gasuri.com,yamatoblog.net,yamauchinet.com,yotsumeyui.com,yugioh2.com,zoku-sei.com#?#.EntryInnerBlock:not(.EntryInnerBlock:last-child) #ninja-blog-inactive:upward(.EntryInnerBlock)
 2012rinsho-eiyo.org,3rin.net,99ing.net,akashicdesign.org,anime-life.com,asukablog.net,b0ne.me,bangalog.com,bijual.com,blog-mmo.com,blog-rpg.com,blog.shinobi.jp,dankanoko.com,edoblog.net,en-grey.com,futatsutomoe.com,game-waza.net,gg-blog.com,gjgd.net,go-th.net,guhaw.com,hyakunin-isshu.net,ichi-matsu.net,indiesj.com,kai-seki.net,kakuren-bo.com,kamakurablog.com,kimamana-theater.info,ko-me.com,koushijima.com,koyo-kochi.com,kuizu.net,kurofuku.com,ky-3.net,mamagoto.com,mangalog.com,mmo-fps.com,nari-kiri.com,ni-3.net,o-oi.net,omaww.net,or-hell.com,pazru.com,ria10.com,sakeblog.net,satsumablog.com,sugo-roku.com,totheworld.net,tsuyushiba.com,v-kei.net,visualfan.com,wa-syo-ku.com,yotsumeyui.com,zoku-sei.com#?##EntryListBlock > .EntryTextBox #ninja-blog-inactive:upward(.EntryTextBox)
@@ -872,6 +870,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+lifehacker.jp#?#div[class^="recommendArticles_pRecommend_"] > div#cxMorePc:upward(1)
 jbpress.ismedia.jp#?#.m-article-colm-list > div#recommend_pc:upward(1)
 lnews.jp#?#.post-block > div#taboola-below-article-thumbnails:upward(1)
 financial-field.com#?#.entry_main_body > p.contentText:contains(【PR】)
@@ -1685,7 +1684,9 @@ asahi.com#$#.vjs-controls-disabled.vjs-error .vjs-control-bar { display: block !
 automaton-media.com#$#body { background: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109834
 ! video.fc2.com placeholder
-video.laxd.com,video.fc2.com#$#.with-ad.only-one-row.main { width: auto !important; }
+video.laxd.com,video.fc2.com#$#.app-container[aria-expanded="false"] section.with-ad { width: calc(100% - 20px) !important; }
+video.fc2.com#$#.with-ad[data-layout="list"] .main-header { width: 100% !important; }
+video.fc2.com#$#.with-ad[data-layout="list"][data-section-type="new-video"] .content-wrap:nth-child(-n+2) { width: 100% !important; }
 ! mail.yahoo.co.jp placeholder
 mail.yahoo.co.jp#$#body.withsky div#shellcontent[style] { right: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72416
@@ -1822,6 +1823,10 @@ ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakuk
 financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp,onayamifree.com,ytranking.net,dokuha.jp,npn.co.jp,nicovideo-r18.com,pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp,gamewiki.jp,tripnote.jp,cinemacafe.net,smartlog.jp,otokomaeken.com,yakkun.com,weblio.jp,miuchan.jp,newpuru.doorblog.jp,pormo.me,hitoriblog.com,webcg.net,newsphere.jp,tver.jp,cyzowoman.com,gorin.jp,otakomu.jp,volante.info,e-mansion.co.jp,rakuten-seo.info,buzip.net,women.benesse.ne.jp,candyrock25.com,nachukichi.com,sedoru.com,sidelife.net,vegelifemiki.net,nikkan.co.jp,dogatch.jp,sai-zen-sen.jp,followmanager.net,ure.pia.co.jp,xn--n9jvd7d3d0ad5cwnpcu694dohxad89g.com,smt-cinema.com,thetv.jp,gaydebulog.com,guitarmagazine.jp,anime-hiroba.com,blogmura.com,55sedori.com,chat.shalove.net,vogue.co.jp,gogo.gs,bikebros.co.jp,qoly.jp,movie.jorudan.co.jp,ascii.jp,kanaloco.jp,horiemon.com,kamigame.jp,e-words.jp,otona-life.com,gundam-futab.info,twi55.com,mindhack2ch.com,vippers.jp,repeat-drama.info##.ad
 !
 !
+crefan.jp##.wrapper > div.container > div[align="center"]:not([class]):not([id])
+||cravelweb.com/wp-content/uploads/*-banner.jpg
+||cravelweb.com/wp-content/uploads/*_banner_336x280.jpg
+keisan.casio.jp##a[id^="honkaku"]
 ura-akiba.jp###rank_goods
 hobbylog.jp###bottom_bnr
 hobbylog.jp##.right-container > div.plugin-memo:first-child
@@ -2253,6 +2258,7 @@ hrs-game.main.jp,main-hrs-game.ssl-lolipop.jp##.ads_336x280
 hrs-game.main.jp,main-hrs-game.ssl-lolipop.jp##.ads_970x90
 valorantnews.jp###amgatti_sk-2
 monayoblog.com##.kaisetsu-box2
+news.denfaminicogamer.jp##aside[id^="ad_jack"]
 wiki.denfaminicogamer.jp,wiki.dengekionline.com###ad-wiki-content-lower
 wiki.denfaminicogamer.jp,wiki.dengekionline.com###ad-wiki-footer-upper
 record-now.com##.my_ads
@@ -4653,8 +4659,9 @@ hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadia
 hatenablog.com##.serviceTop-recommend-ad
 homes.co.jp##.adPremium
 infoseek.co.jp###bannerblock
+lifehacker.jp##a[class^="articles_pArticles_HeroLink"]:not([href])
+lifehacker.jp##div[class^=articles_pArticles_List_] > a:not([href])
 lifehacker.jp##div[class^="bodyAd_"]
-lifehacker.jp##.lh-banner
 mainichi.jp##.apply-link + .ad
 mainichi.jp##.article .ad
 min.dododori.com###fix-space
