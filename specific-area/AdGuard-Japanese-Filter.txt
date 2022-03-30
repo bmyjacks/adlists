@@ -871,9 +871,11 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 lifehacker.jp#?#div[class^="recommendArticles_pRecommend_"] > div#cxMorePc:upward(1)
+apollomaniacs.com#?#.kk_sidebar_items > div.item_box_sdb:has(> p.item_box-image > a[href^="https://www.amazon.co"])
 jbpress.ismedia.jp#?#.m-article-colm-list > div#recommend_pc:upward(1)
 lnews.jp#?#.post-block > div#taboola-below-article-thumbnails:upward(1)
 financial-field.com#?#.entry_main_body > p.contentText:contains(【PR】)
+baby-calendar.jp#?#.center-xs:has(> div[id^="JP_BABY_resp"])
 tanoshiiosake.jp#?#.list-recommend > h2:has(> span.line:contains(おすすめ情報))
 tanoshiiosake.jp#?#.list-recommend > ul:has(> li > a[href^="http://socialife.sony.net"] > img)
 kakaku.com#?##ct004 > div.contMain > table.tblPRbn:upward(2)
@@ -1798,13 +1800,13 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 ! ##.pr
 ceron.jp,kids.gakken.co.jp,5chan.jp,toyokeizai.net,twpf.jp,chunichi.co.jp,tokyo-np.co.jp,db.msin.jp,ladiesfashion.jp,minpo.jp##.pr
 ! ##.bnr
-npn.co.jp,afpbb.com,2ch.pet,hamakei.com,keizai.biz,minkei.net,shibukei.com##.bnr
+baby-calendar.jp,npn.co.jp,afpbb.com,2ch.pet,hamakei.com,keizai.biz,minkei.net,shibukei.com##.bnr
 ! ###ad
 travel.rakuten.co.jp,conciergedesk.jp,japan-iwate.info,anal-love.net###ad
 ! ##.rectangle
 eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
 ! ##.sponsored
-gaddet.com,matome.eternalcollegest.com,ushigyu.net,nilcollection.net,gamers-info.net,appl-y.com,taisy0.com,netbusinessbox.net,autoc-one.jp,geek.sc##.sponsored
+yuu01.jp,gaddet.com,matome.eternalcollegest.com,ushigyu.net,nilcollection.net,gamers-info.net,appl-y.com,taisy0.com,netbusinessbox.net,autoc-one.jp,geek.sc##.sponsored
 ! ###fix_sidebar
 sugi9532.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com###fix_sidebar
 ! ##.code-block
@@ -1823,11 +1825,16 @@ ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakuk
 financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp,onayamifree.com,ytranking.net,dokuha.jp,npn.co.jp,nicovideo-r18.com,pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp,gamewiki.jp,tripnote.jp,cinemacafe.net,smartlog.jp,otokomaeken.com,yakkun.com,weblio.jp,miuchan.jp,newpuru.doorblog.jp,pormo.me,hitoriblog.com,webcg.net,newsphere.jp,tver.jp,cyzowoman.com,gorin.jp,otakomu.jp,volante.info,e-mansion.co.jp,rakuten-seo.info,buzip.net,women.benesse.ne.jp,candyrock25.com,nachukichi.com,sedoru.com,sidelife.net,vegelifemiki.net,nikkan.co.jp,dogatch.jp,sai-zen-sen.jp,followmanager.net,ure.pia.co.jp,xn--n9jvd7d3d0ad5cwnpcu694dohxad89g.com,smt-cinema.com,thetv.jp,gaydebulog.com,guitarmagazine.jp,anime-hiroba.com,blogmura.com,55sedori.com,chat.shalove.net,vogue.co.jp,gogo.gs,bikebros.co.jp,qoly.jp,movie.jorudan.co.jp,ascii.jp,kanaloco.jp,horiemon.com,kamigame.jp,e-words.jp,otona-life.com,gundam-futab.info,twi55.com,mindhack2ch.com,vippers.jp,repeat-drama.info##.ad
 !
 !
+japan-secure.com##.ad-top-label
+sabatech.jp##iframe[style="width:120px;height:240px;"]
 crefan.jp##.wrapper > div.container > div[align="center"]:not([class]):not([id])
 ||cravelweb.com/wp-content/uploads/*-banner.jpg
 ||cravelweb.com/wp-content/uploads/*_banner_336x280.jpg
 keisan.casio.jp##a[id^="honkaku"]
 ura-akiba.jp###rank_goods
+apollomaniacs.com##.kk_gen_top_h
+apollomaniacs.com##.kk_sdb_vertical
+javarchive.com##.all_banner_box_left_top_view_news
 hobbylog.jp###bottom_bnr
 hobbylog.jp##.right-container > div.plugin-memo:first-child
 ||3-559.com/data/ad/
@@ -1854,6 +1861,8 @@ japan.cnet.com##.content-article-pr
 okmusic.jp##.banner_frame
 forbesjapan.com##div[class^="sp_ad"]
 cosme.net##.atcosme-HeaderAdContent
+baby-calendar.jp##div[id^="JP_BABY_resp"]
+baby-calendar.jp###sp
 financial-field.com##.compact_coop
 financial-field.com##a[href*="https://ads-field.com/ad/p/r?"]
 businessinsider.jp##.f-content-secondary > div[style="margin-top:1em"]
@@ -2076,7 +2085,7 @@ furugi1717.net,androplus.org,rensai.jp,l-media.tokyo,javprice.com,buhidoh.net###
 campify.jp,56s.thick.jp,l-media.tokyo###text-4
 ai-myon.com,sound-tv.net,xn--glay-yn4c8b9a8lo661apz3h.com,n-switch.com,pokemongo-master.com,roadbike-labo.com,alpaca76.com,l-media.tokyo###text-5
 takapon.net,roadbike-labo.com,l-media.tokyo,jj-blues.com###text-6
-idiom-encyclopedia.com,shinoyon.com,kiragamiteru.com,sugumiru18.com,urutike.com,l-media.tokyo,77hs.net###text-7
+yuu01.jp,idiom-encyclopedia.com,shinoyon.com,kiragamiteru.com,sugumiru18.com,urutike.com,l-media.tokyo,77hs.net###text-7
 idiom-encyclopedia.com,xn--glay-yn4c8b9a8lo661apz3h.com,l-media.tokyo,jj-blues.com###text-8
 pinapopo.com,boin.pink###text-9
 campify.jp##.p-entry__body > table[style="border:none;"]

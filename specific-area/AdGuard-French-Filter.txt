@@ -3740,10 +3740,11 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /jquery.linkshrink.js
 /js.adv.
 /js//dfp.
-/js/468.$domain=~mail.zoho.com
+/js/468.$domain=~mail.zoho.com|~urban.arcgis.com
 /js/adv_
 /js/infopop_
 /js/marketing/marketing.js
+/js/monetization.
 /js/pub.js
 /js/sda-
 /js/tc_loader.js
@@ -4578,7 +4579,6 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 ://get.*&clickid=
 ://get.*?pid=*&subid=
 ://go.*&zoneid=
-://go.*/|$script,subdocument,third-party,xmlhttprequest
 ://go.*?af_sub=
 ://go.*?zoneid=
 ://goto.*&zoneid=
@@ -5170,6 +5170,7 @@ _frontend_loader.$script
 &pubzone=*&subid=$popup
 &redid=*&pop=$popup
 &refer=*&key=*&adb=$popup
+&request_*&zoneid=$popup
 &runauction=$popup
 &skip_oapopup=$popup
 &src_*=clickadu.$popup
@@ -5761,6 +5762,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||adaccess.fr^$third-party
 ||adaraby.com^$third-party
 ||adback.co^$third-party
+||adbison.com^$third-party
 ||adbox.lt^$third-party
 ||adc-lc.eu^$third-party
 ||adcapt.com^$third-party
@@ -7371,6 +7373,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ahuygpusfbywl.xyz^
 ||aidgiltreef.casa^
 ||aidrapani.com^
+||aienpbfjkbrwpti.com^
 ||aijiboft.com^
 ||aileddipgird.cam^
 ||ailkeyair.com^
@@ -7384,6 +7387,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||aj2178.online^
 ||ajbqxivmdl.xyz^
 ||ajdkksdnnnsfrk.com^
+||ajedqxic.xyz^
 ||ajestigie.com^
 ||ajevigie.com^
 ||ajtdosbrnt.com^
@@ -7505,6 +7509,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||attcnkvkby.xyz^
 ||attenhance.com^
 ||attentionswhisperingkeynote.com^
+||attlwoqolnl.xyz^
 ||au79nt5wic4x.com^
 ||audacitycompare.com^
 ||audroury.net^
@@ -7789,6 +7794,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ccinsilmw.xyz^
 ||ccqecqbdstaxc.com^
 ||ccumhss.com^
+||ccvamdynbpuxjtn.com^
 ||ccylwsitethmct.com^
 ||cd28cfe4e8.com^
 ||cd2fc38b13.com^
@@ -7817,6 +7823,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||cggdqkkyxfuxitg.com^
 ||cggseaaspxjc.com^
 ||cgjksufsotuh.xyz^
+||cgjlnqvgs.xyz^
 ||cgnrgotc.xyz^
 ||ch4a6r9t1rveuux.com^
 ||chamsoop.net^
@@ -7939,6 +7946,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||credishe.com^
 ||cresfpho2ntesepapillo3.com^
 ||crhagihr.com^
+||crlvucdkfs.com^
 ||crrnvbdobm.xyz^
 ||crushingthoughtless.com^
 ||cryarkall.club^
@@ -7970,6 +7978,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||curmaphow.club^
 ||currepush.com^
 ||cvksqwtoasydkoj.xyz^
+||cvspbwahf.xyz^
 ||cwgdfjeosokn.xyz^
 ||cwxdxtim.xyz^
 ||cwynqltcyctt.xyz^
@@ -8031,6 +8040,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ddc08eb47c.com^
 ||ddnkxmduab.xyz^
 ||ddnmbydtnfebyd.com^
+||ddpwkqbtiff.com^
 ||ddvxqfnddicipe.com^
 ||de-mi-nis-ner.info^
 ||de-ner-mi-nis4.info^
@@ -8202,6 +8212,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||eb4b188b26.com^
 ||eb5e6ff41b.com^
 ||ebfxrxhixp.xyz^
+||eblytohxbgvxt.xyz^
 ||ebmegpahti.com^
 ||ebnlsigphtumyyd.com^
 ||ec3d33ea03.com^
@@ -8216,6 +8227,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||educedsteeped.com^
 ||edyobtbnalv.com^
 ||eedwsbvltqu.xyz^
+||eekxdelvold.xyz^
 ||eemgl.com^
 ||eemsaurt.com^
 ||eereegly.com^
@@ -8303,6 +8315,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||etpsn.com^
 ||ettnrrkg.xyz^
 ||etymonsibycter.com^
+||euafiwrwdfkuuab.xyz^
 ||eudhghxcgag.xyz^
 ||eugenerhachi.com^
 ||euizhltcd6ih.com^
@@ -8550,6 +8563,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||gcoxigggu.xyz^
 ||gcwhjvqwvpqv.xyz^
 ||gdblhuaqevoh.xyz^
+||gdkxololvkj.xyz^
 ||gdprhmoxpoqw.com^
 ||geebicom.net^
 ||geesopso.net^
@@ -8566,6 +8580,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||gewwnbhmr.xyz^
 ||gfgixev3d4.com^
 ||gfntlmuhfao.xyz^
+||gfooktdjmceecs.xyz^
 ||gfscmompjlivnhs.xyz^
 ||ggxrigjp.xyz^
 ||ghafirkuhnia.com^
@@ -8586,6 +8601,8 @@ _zoneid=*/rel/index.cfm?$popup
 ||gjjvkmngeo.com^
 ||gjnbhvnbmxxv.com^
 ||gkdhhbwherinfw.xyz^
+||gkmriksh.xyz^
+||gkqfnydy.xyz^
 ||glacuhegly.com^
 ||glaphechemy.pro^
 ||glaxaukr.net^
@@ -8645,6 +8662,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||gralexobo.com^
 ||gramombird.com^
 ||granarybroughtfun.com^
+||grbyxeqgc.xyz^
 ||greatedo.com^
 ||greatene.com^
 ||gredabhsmv.xyz^
@@ -8722,6 +8740,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||hceyycgbulddaar.com^
 ||hcmxhfohf.xyz^
 ||hdcabmqp.com^
+||hdccatcyoxp.com^
 ||heartilylassitude.com^
 ||heewuque.com^
 ||heirchurchill.com^
@@ -8767,6 +8786,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||hkoccmcdq.com^
 ||hlpjsypdvxu.com^
 ||hmbvvktsegufhbh.xyz^
+||hnabdooyiwj.com^
 ||hnnywtxvmcyaagp.xyz^
 ||hoaiig.com^
 ||hoapsouz.net^
@@ -8792,6 +8812,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||hormorel.com^
 ||hotrnodxjcnpeaa.xyz^
 ||housekeeperemptiness.com^
+||housemaiddevolution.com^
 ||hoveoilnoun.casa^
 ||howdogwag.com^
 ||hpaxamwej.com^
@@ -8805,11 +8826,13 @@ _zoneid=*/rel/index.cfm?$popup
 ||hrcnrgtsfahdxxk.com^
 ||hretabbtgrutmxp.com^
 ||hrojhwrbpkgacs.com^
+||hrxhdlyryumymt.xyz^
 ||hsauoenjanphsng.com^
 ||hsnkgljeclt.xyz^
 ||htcxgh.com^
 ||htobnkbgovpinet.xyz^
 ||httpp.gdn^
+||htwipwdcunp.xyz^
 ||hubsptgqvx.com^
 ||hubypaphy.com^
 ||hueakmcp.xyz^
@@ -8824,6 +8847,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||hvufseudljnr.com^
 ||hwujnmtov.com^
 ||hxmgprub.xyz^
+||hxuchkqg.com^
 ||hydrax.net^
 ||hyloistmithan.com^
 ||hyorkdpmialyu.xyz^
@@ -8929,6 +8953,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ip42.ip-146-59-188.eu^
 ||ip43.ip-146-59-188.eu^
 ||ip44.ip-146-59-188.eu^
+||iprtwgffds.com^
 ||iqbkxlja.com^
 ||iqcpm.com^
 ||iqkbi.top^
@@ -8975,7 +9000,9 @@ _zoneid=*/rel/index.cfm?$popup
 ||iuvdwottyg.xyz^
 ||ivcweksqd.com^
 ||ivfjrwowytvyod.xyz^
+||ivtsqjxkwq.xyz^
 ||ivwfypkvdfdmvk.com^
+||iwuwfwhqmmhmxh.com^
 ||iwxflnhdarelp.xyz^
 ||iwxlfesffeestle.xyz^
 ||ixbolodojo.xyz^
@@ -8998,6 +9025,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||jbcmeevlpoqwk.xyz^
 ||jbhle.com^
 ||jbm6c54upkui.com^
+||jcbmwllnc.xyz^
 ||jcccqwdwdqjomcp.xyz^
 ||jdclredir.com^
 ||jdikwsyyvut.xyz^
@@ -9043,6 +9071,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||jlclkqwxre.com^
 ||jlpopmunawwdo.com^
 ||jlpvimvijbgrvjn.com^
+||jlpwfmtwjnbvxq.xyz^
 ||jmcrcytbdgycsrm.com^
 ||jmmpcvmwlbqy.com^
 ||jmnqfavdohkpuw.com^
@@ -9075,6 +9104,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||jqsonhooa.com^
 ||jquery-cdn.download^
 ||jravgsyjjcbjos.xyz^
+||jrhkxsvw.com^
 ||jrplytmsrowjslr.com^
 ||jrtvxcecw.xyz^
 ||jryjyjbnno.xyz^
@@ -9096,6 +9126,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||jwihubtml.com^
 ||jwmxumtyqiyj.xyz^
 ||jxduvvspocugqjm.com^
+||jxldsesiiljktp.xyz^
 ||jxutotiwvbh.com^
 ||jycloafotekplm.com^
 ||jyjukyse.pro^
@@ -9184,6 +9215,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||kqvryfqkgv.xyz^
 ||krhgverfxda.com^
 ||krigschh.xyz^
+||krwupofi.com^
 ||kstllbkqjns.xyz^
 ||kstylxkx.xyz^
 ||ktf5kbl2m4.com^
@@ -9195,9 +9227,11 @@ _zoneid=*/rel/index.cfm?$popup
 ||kvezz.com^
 ||kvhaaa.top^
 ||kvhuxqatip.xyz^
+||kvjlujtw.xyz^
 ||kvoyqpxsirr.com^
 ||kw3y5otoeuniv7e9rsi.com^
 ||kxpdajoet.com^
+||kxwdmnibmxj.com^
 ||kycusova.com^
 ||kyllgvvgwrxa.com^
 ||kyshygiwe.pro^
@@ -9271,6 +9305,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||lkpksjtvjbw.xyz^
 ||lktnejyavxqfk.com^
 ||llofmcdyyp.com^
+||llquwnordxxobcx.xyz^
 ||llt7f8tomvkb.com^
 ||lltjfawqaicvf.com^
 ||llytoeovwsbuffv.com^
@@ -9296,6 +9331,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||lowdodrioon.com^
 ||lowgraveleron.com^
 ||lowleafeontor.com^
+||lowtyruntor.com^
 ||loxgodpus.com^
 ||lpgodhyrsbqrha.com^
 ||lpqamdnmvmva.xyz^
@@ -9406,6 +9442,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||mfio.cf^
 ||mfjcvtyx.xyz^
 ||mfotj.com^
+||mgfakbndoxe.com^
 ||mgqlmmrmedgvi.com^
 ||mheok.com^
 ||mhnpiuruj.com^
@@ -9438,6 +9475,8 @@ _zoneid=*/rel/index.cfm?$popup
 ||mllyrwrkuvajo.com^
 ||mltoaurywsj.xyz^
 ||mlzutqzgyuxb.com^
+||mmiylwxaykdrceb.xyz^
+||mmjtptorvgd.xyz^
 ||mmnfrlxqknv.com^
 ||mmrslfdkinv.xyz^
 ||mmsuuhtktvps.xyz^
@@ -9445,6 +9484,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||moakaumo.com^
 ||moancollegepal.com^
 ||moatauly.net^
+||mobapsmob.com^
 ||mobibiobi.com^
 ||mobiledevel.com^
 ||mobpushup.com^
@@ -9464,6 +9504,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||mousheen.net^
 ||mppegwckbtp.com^
 ||mpxbfivfu.xyz^
+||mqcuurwr.xyz^
 ||mqirfkiwbgqifeg.com^
 ||mqpiorkowf.xyz^
 ||mqvgkrtppupi.xyz^
@@ -9523,6 +9564,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||nbppenllmbiyen.com^
 ||nbvbqsggvu.xyz^
 ||ndjelsefd.com^
+||ndurrqnqowej.xyz^
 ||ndyzz.com^
 ||nebbishbraeman.com^
 ||nedestablish.com^
@@ -9559,6 +9601,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||nfpsibsspsbxqpc.xyz^
 ||ngbwyygn.com^
 ||ngeoziadiyc4hi2e.com^
+||ngjrntbl.xyz^
 ||ngqhqbpfpecchtq.com^
 ||nhqqv.space^
 ||niasubhrlm.xyz^
@@ -9581,6 +9624,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||nlcptrcvscxh.com^
 ||nld0jsg9s9p8.com^
 ||nlfsqvqf.com^
+||nlkeppisxchivbr.com^
 ||nlwquqyiwjylm.xyz^
 ||nlxiuuhswf.xyz^
 ||nmvmffulvnyyb.xyz^
@@ -9601,6 +9645,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||notificationallow.com^
 ||notiksio.com^
 ||notixio.com^
+||nouadbpimmdk.com^
 ||noucoush.net^
 ||nougacoush.com^
 ||nowfbpcxuju.com^
@@ -9608,6 +9653,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||npaiurgpelr.xyz^
 ||npbnj.com^
 ||npftsftpcrmq.xyz^
+||nqmqmminjyjo.com^
 ||nrciwnfhkv.xyz^
 ||nrged.com^
 ||nrpytlwohljfjgc.xyz^
@@ -9636,6 +9682,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||nwmum.com^
 ||nwpvywljoxnn.xyz^
 ||nwqsxndlawka.xyz^
+||nwuwkjuictkaw.com^
 ||nxhkie.com^
 ||nydocypi.pro^
 ||nyifpthoqgwr.com^
@@ -9655,12 +9702,15 @@ _zoneid=*/rel/index.cfm?$popup
 ||oawoccctsbydxvl.xyz^
 ||obedientrock.com^
 ||obeyroman.com^
+||obiwhkidcfsqxb.xyz^
 ||obnoxiouspatrolassault.com^
 ||obpihwmnb.xyz^
 ||obqdefya.xyz^
 ||obstanceder.pro^
 ||obvkhvfontna.com^
 ||ocardoniel.com^
+||occume.com^
+||ocfwcbdfrtcyh.xyz^
 ||odourprop.com^
 ||odumbulvrweboa.xyz^
 ||oecuaprwid.com^
@@ -9743,6 +9793,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||orgalso.com^
 ||orjzy.com^
 ||orntffsn.xyz^
+||osjilijp.com^
 ||osjnkhvjx.xyz^
 ||osprmnv.com^
 ||osshydreigonan.com^
@@ -9762,6 +9813,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||oukrocky.com^
 ||oumtoujo.net^
 ||oungimuk.net^
+||ouorhxolxdqqf.com^
 ||oupe71eiun.com^
 ||ouradse.com^
 ||ourteeko.com^
@@ -9900,6 +9952,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||placingstandardanthem.com^
 ||planesglensituated.com^
 ||planningunavoidablenull.com^
+||platformstaticcdn.website^
 ||playhydrax.com^
 ||playurbano.com^
 ||plemil.info^
@@ -10023,6 +10076,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||pwblfgydahivs.xyz^
 ||pwnwiltpear.com^
 ||pwshxqwqraqdp.xyz^
+||pwxkfllq.xyz^
 ||pxfvedgufm.xyz^
 ||pxvmudtehelvac.com^
 ||pyfjaaywneye.com^
@@ -10097,6 +10151,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||quintag.com^
 ||qutcsouvuclkm.com^
 ||qvtlgvemqvipdf.xyz^
+||qwcsarxsbsxfwtv.xyz^
 ||qwihtqojhod.xyz^
 ||qwqbjarooiym.xyz^
 ||qxfyohrhcnon.com^
@@ -10256,6 +10311,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||rwqbilrg.xyz^
 ||rwrwyjso.xyz^
 ||rxfttmmtljpt.xyz^
+||rxhrlimarwdw.com^
 ||rxjfh.com^
 ||rxubmccmxhlpa.xyz^
 ||rydlvobb.xyz^
@@ -10350,6 +10406,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||shredassortmentmood.com^
 ||shuffele.com^
 ||shuhushahe.com^
+||shwbqwkuffrsxde.com^
 ||shyhueslues.work^
 ||sifflettreetop.com^
 ||sigilsspeiss.com^
@@ -10382,6 +10439,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||slopeac.com^
 ||smartpush0.info^
 ||smartpush1.info^
+||smaubfes.com^
 ||smcfqykd.com^
 ||smfiyoixskporks.com^
 ||smithylampong.com^
@@ -10735,6 +10793,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||uanuiiww.com^
 ||uapvdjfoejxv.com^
 ||uavsgklwxsx.xyz^
+||uayluejtd.xyz^
 ||ubeestis.net^
 ||ubrvrmdfslpemf.com^
 ||ubtnqmonurmor.com^
@@ -10782,6 +10841,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||unfaithfulmakeryearly.com^
 ||unflamewandoo.com^
 ||unflesholchi.com^
+||unhdeagqmq.com^
 ||unhorseaa.com^
 ||unhtoyqpqnkakt.com^
 ||unitshandbookconsulate.com^
@@ -10814,6 +10874,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||upwardsearnest.com^
 ||uqawruaceixqgj.xyz^
 ||uqnwhvsykqxiq.com^
+||uqtsmptxkgcfdm.com^
 ||urbanodecalle.com^
 ||urechar.com^
 ||uriren.pw^
@@ -10912,6 +10973,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||vncgatvelmf.xyz^
 ||vneffwecka.com^
 ||vnldaly8r5.com^
+||voberphvte.com^
 ||vodlgaarknlkfxh.xyz^
 ||volvejudgetneig.info^
 ||voqfowggj.xyz^
@@ -10936,6 +10998,8 @@ _zoneid=*/rel/index.cfm?$popup
 ||vugnubier.com^
 ||vuqlwdmiygl.xyz^
 ||vuurnfmp.xyz^
+||vuyyvkwxhvbmv.com^
+||vvnruopychccxn.com^
 ||vvpcdke43x.com^
 ||vwecqqqbnevcn.xyz^
 ||vwqeyirspk.com^
@@ -10967,6 +11031,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||wbsijnruj.xyz^
 ||wbucfnofctnhtji.com^
 ||wbylyjaweyb.xyz^
+||wcfjfsjtlkha.com^
 ||wdgbinxtxsnbeu.xyz^
 ||wdhcejacnwj.com^
 ||wdt9iaspfv3o.com^
@@ -11021,6 +11086,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||wjbrinsb.com^
 ||wjknmftiknqvg.xyz^
 ||wjlftscm.com^
+||wjpnnhlpgxvwitq.com^
 ||wkacpqtl.com^
 ||wkjaaaduw.com^
 ||wkmjxftmsibvx.xyz^
@@ -11029,6 +11095,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||wlvupulqadyuhr.xyz^
 ||wmrubpdhoqe.xyz^
 ||wmunrcfolemruum.com^
+||wmynuyogbwrm.xyz^
 ||wnbaiojthwrq.xyz^
 ||woathail.net^
 ||wodojqcxwmix.xyz^
@@ -11087,6 +11154,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ww2.imgwallet.com^
 ||wwagyeytfov.com^
 ||wwblhuikgj.xyz^
+||wwow.xyz^
 ||wwtrxjctjhhu.com^
 ||wwznqib.com^
 ||wx61m0tmvh.com^
@@ -11110,6 +11178,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||xctwbnui.xyz^
 ||xdsaiqoqegxwwta.com^
 ||xdserv.com^
+||xehinnrh.com^
 ||xfb00.com^
 ||xfgmosvesua.xyz^
 ||xfhykgowayd.xyz^
@@ -11142,6 +11211,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||xmxgvfjyrvr.xyz^
 ||xnlehgdpvsslk.xyz^
 ||xo28pclotovi.com^
+||xomtxqbxekqvqya.com^
 ||xotpunwcabeijft.xyz^
 ||xowedsxmdd.com^
 ||xowelamcwijxp.com^
@@ -11161,6 +11231,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||xtssfsmpfdgyrw.com^
 ||xucbybnrognides.com^
 ||xuknrafhe.xyz^
+||xumuhxwgn.com^
 ||xuqowuab.com^
 ||xutyatxan.com^
 ||xuujyppmhgyyhv.com^
@@ -12000,6 +12071,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||cobalten.com^$popup,third-party
 ||cogleapad.com^$popup
 ||coloredview.com^$popup,third-party
+||com-1.pro^$popup
 ||compazenad.com^$popup,third-party
 ||conceau.co^$popup,third-party
 ||configs-pc.com^$popup,third-party
@@ -12078,6 +12150,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||exoclick.com^$popup,third-party
 ||explodedigital.com^$popup,third-party
 ||exporder-patuility.com^$popup,third-party
+||fbmedia-bls.com^$popup
 ||feboni.info^$popup
 ||femtoads.com^$popup,third-party
 ||fftrk.com^$popup,third-party
@@ -12611,6 +12684,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||webmasterspub.com^$popup,third-party
 ||weborama.fr^$popup,third-party
 ||webprod.cybertesteurs.com^$popup,third-party,domain=~iss.net
+||wekiss.co^$popup
 ||wellmov.com^$popup,third-party
 ||wgoto.xyz^$popup
 ||white-eyes.com^$popup,third-party
@@ -12674,21 +12748,21 @@ _zoneid=*/rel/index.cfm?$popup
 ||plexop.scdn8.secure.raxcdn.com^$popup
 $csp=worker-src 'none',domain=123moviesgo.nl|300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv|annuaire-bleu.net|arnaques-internet.info|atk-exotics.com|atkebony.com|bamekoohrang.ir|bigspeeds.com|bmovies123.me|centrum-dramy.pl|chemikino.ru|clipwatching.com|coinfaucet.eu|cracklists.com|crictime.com|crictime.is|crimedocumentary.com|deltabit.co|descargas2020.com|domnuleprimar.ro|dragonballzpolo.blogspot.com|eduardolegatti.blogspot.com|extratorrent.si|fileone.tv|filmovix.com|filmovix.net|filmovix.org|firstone.tv|firstonetv.eu|firstonetv.live|flashx.net|flashx.pw|flashx.tv|fmoviesgo.me|full-mp3.com|funtik.tv|genashowalter.com|gomovie123.me|hdvid.fun|hdvid.tv|hospital.plus|ianimes.co|ianimes.org|ianimes.top|javbros.com|lewd.ninja|luckybitco.in|mobology.ir|movie4k.is|nahnoji.cz|neurozinzin.com|novator.az|ukpass.co|openload.cc|ovid.tv|ovid.xyz|pebx.pl|peliculas24.me|pelisplus.online|pezeshk.us|powvideo.net|protect-link.biz|salon.com|seriesenlinea.net|shush.se|sickrage.ca|skytorrents.me|sorteosrd.com|studio100.it|szukajka.tv|tapemovie.com|theappguruz.com|thepiratebay.vip|onion.pet|onion.ly|hdvid.online|thepiratebay.cr|thepiratebay.org|thepiratebay.se.net|thevideo.me|tomadivx.tv|torrentrapid.com|tubetitties.com|unblocked2.vip|unblocked.app|unblockit.dev|unblocked.gdn|unblocked.is|unblocked.lc|unblocked.vet|uptobox.com|uptostream.com|vidoza.co|vidoza.net|vidtod.com|vidtodo.com|vidop.icu|vidup.io|void.cat|wallpoper.com|wearesaudis.net|yazilir.com
 $websocket,domain=123moviesgo.nl|123movieshub.asia|300mbfilms.co|7tors.com|akvideo.stream|alltube.pl|annuaire-bleu.net|arnaques-internet.info|bamekoohrang.ir|bigspeeds.com|bmovies123.me|btstors.com|catrumahminimalis.me|ceesty.com|centrum-dramy.pl|chemikino.ru|cinemafacil.com|clipwatching.com|clkme.me|clkmein.com|cllkme.com|coinhub.win|coinminingonline.com|corneey.com|cracklists.com|crimedocumentary.com|datpiff.com|ddmix.net|dekoder.ws|deltabit.co|descargas2020.com|destyy.com|djs.sk|downlink.top|dp-stream.com|dragonballzpolo.blogspot.com|eduardolegatti.blogspot.com|extratorrent.si|festyy.com|filmai.ws|filmstreamvf.com|firstone.tv|firstonetv.eu|firstonetv.live|flashx.net|flashx.pw|full-mp3.com|gestyy.com|gomovie123.me|gomovies123.me|hospital.plus|hq-porns.com|ianimes.co|ianimes.org|ianimes.top|idope.tv|immunicity.st|ithepiratebay.com|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jkanime.net|kinogo.cc|kinogo.club|kinohabr.net|kinokrad.co|kinoprofi.org|kinotochka.club|kinotochka.net|lewd.ninja|logovo.net|love-drama.pl|luckybitco.in|macupload.net|mladipodnikatelia.sk|mobology.ir|monero-miner.com|movie4k.is|movies123.ac|myvidaanime.com|nahnoji.cz|netiap.com|neurozinzin.com|nod-key.su|onion.ly|onion.pet|onvid.pw|openload.cc|openload.fun|papstream.cc|papstream.co|papstream.com|papstream.info|papstream.net|papstream.xyz|pblv-plusbellelavie.fr|pebx.pl|peliculas24.me|piratebayblocked.com|primewire.ag|primewire.li|reactor.cc|rednubes.de|salon.com|sh.st|shorte.st|shrink-service.it|sickrage.ca|skiip.me|skipp.io|skytorrents.co|skytorrents.me|sleeptimer.org|sorteosrd.com|streambeam.io|streamplay.me|szukajka.tv|tainies.online|thepiratebay.cr|thepiratebay.vip|thevideo.ch|thevideo.io|thevideo.us|tpbay.xyz|tpbprox.com|tubetitties.com|tugaanimado.net|ukpass.co|unblockall.org|unblocked.app|unblocked.bid|unblocked.gdn|unblocked.is|unblocked.lc|unblocked.ms|unblocked.st|unblocked.vet|unblocked.wtf|unblocked2.vip|unblocker.cc|unblockit.dev|unblockproject.icu|unblockproject.info|unblockthe.net|vev.io|vev.red|vidbom.com|videowood.tv|vidfile.net|vido.fun|vidop.icu|vidoza.co|vidshare.tv|vidup.io|vidup.tv|vidwatch3.me|void.cat|wallpoper.com|watch-free.co|watchvideo.us|wiid.me|xvideosharing.com|yazilir.com|zenexplayer.com|zona.plus
-$webrtc,domain=11anim.com|1337x.st|1337x.to|2ddl.ms|300mbfilms.co|adyou.co|adyou.me|aflamfree.site|ajplugins.com|akoam.com|akoam.net|akvideo.stream|allitebooks.com|allpeliculas.com|alltube.pl|androidadult.com|animeid.tv|animekb.net|animeland.tv|animezone.pl|anitoonstv.com|annuaire-telechargement.com|annuaire-telechargement.net|arabseed.co|arabseed.com|arabseed.me|arabseed.tv|avametrie.fr|avgle.com|baixarsoftware.com|bdurls.com|best5link.co|best5link.com|bigspeeds.com|bindassbros.com|blizzboygames.net|bonstreams.net|catrumahminimalis.me|centrum-dramy.pl|cestpasbien.pro|chatytvgratis.net|chrt.pw|cineiz.io|cinemahd.co|cinemamkv.net|cinemitas.com|cinestrenostv.tv|clik.pw|cmacapps.com|cocostreaming.com|coinfaucet.io|coinhub.win|coinminingonline.com|convertinmp4.com|cpabien.ws|crictime.com|crictime.is|daclips.com|datpiff.com|ddl.to|ddmix.net|ddownload.com|dekoder.ws|deltabit.co|deportesmax.info|descargas2020.com|djs.sk|dl-protect.info|dl-protect1.com|dompl3.info|dood.la|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodstream.co|doodstream.com|downlink.top|draculastream.org|drakula.top|dropapk.com|dropapk.to|dualpaste.net|earnwithshortlink.com|ebook-planete.org|ebookdz.com|egy.best|egybest.asia|egybest.bid|egybest.biz|egybest.cheap|egybest.co|egybest.com|egybest.cool|egybest.fail|egybest.ist|egybest.life|egybest.ltd|egybest.name|egybest.net|egybest.network|egybest.ninja|egybest.nl|egybest.online|egybest.org|egybest.pw|egybest.rocks|egybest.site|egybest.xyz|egybest.zone|egybest2.com|entervideo.net|estream.to|estream.xyz|extratorrent.si|extreme-down.blue|extreme-down.in|extreme-down.link|extreme-down.live|extreme-down.ninja|extreme-down.one|extreme-down.plus|extreme-down.pro|extreme-down.top|extreme-down.tv|extreme-down.work|extreme-down.xyz|extreme-download.ninja|extreme-download.xyz|feed4u.eu|fileone.tv|filmcomplet.biz|filmcomplet.in|filmcomplet.vip|filmeserialeonline.org|filmstreamvf.com|filmstreamz.net|filmsvostfr.cc|filmsvostfr.io|filmsvostfr.ws|filmsvostfr.xyz|filmtelecharger.net|filmvf.cc|flashx.net|flashx.tv|fluvore.com|free-telechargement.co|free-telechargement.org|free-telecharger.com|free-telecharger.net|free-telecharger.org|free-telecharger.xyz|freecardano.com|freenem.com|fullmatchesandshows.com|gamestorrent.co|ganol.ru|ganool.im|ganool123.com|gktorrent.biz|gktorrent.co|gktorrent.io|gnula.biz|gtaall.com|gum-gum-stream.tv|gum-gum-streaming.co|gum-gum-streaming.com|hawklegend.org|hdvid.online|healthoptimizer.net|heapfiles.com|hindilinks4u.to|hq-porns.com|hulkstream.com|hulkstreamz.com|ianimes.co|ianimes.org|ianimes.top|iegy.best|imagenesmy.com|imgazure.com|imgking.xyz|immunicity.st|ithepiratebay.com|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|javher.com|jheberg.net|jkanime.net|k-streaming.cc|k-streaming.ch|k-streaming.com|kastream.biz|kinohabr.net|kinokrad.co|kinoprofi.org|kinosha.cc|kinostuff.com|kinox.me|kinox.tv|kiss-anime.ws|kissasian.ch|kissasian.sh|kooralive.info|kora-live.tv|kstreaming.info|kvid.org|l2s.io|lafmacun.net|lamule.eu|larati.net|latino-webtv.com|le-streaming.com|leggendaweb.com|leitor.net|lemondedekevin.fr|lewd.ninja|libertyvf.co|libertyvf.com|libertyvf.net|libertyvf.tv|liketvw.com|likeur.org|limpi.tv|linkgen.st|liveflashplayer.org|lkky.co|logovo.net|lordhd.com|love-drama.pl|ma-famille-dabord-streaming.com|macupload.net|mangaku.in|mejortorrent.org|mejortorrent1.com|mimaletamusical.blogspot.com|mitierratvco2.com|mkvcage.com|mladipodnikatelia.sk|modsbase.com|monero-miner.com|monova.org|movie4k.is|movie4k.org|movies123.ac|mp4mania.world|mp4mania.xyz|multiimg.com|myfeed4u.com|mywatchseries.stream|netiap.com|nicoblog.org|nonpiusolo.com|novom.ru|o2tvseries.com|oasivip.com|oceanoffgames.com|oipeirates.online|onion.ly|onion.pet|onvid.pw|openload.cc|openload.ch|openload.fun|opensubtitles.org|ovid.online|ovid.tv|ovid.xyz|papstream.cc|papstream.info|papstream.net|papstream.xyz|pastehere.xyz|pcgamestorrents.com|pdf-giant.com|peeplink.in|pelislatino3gp.biz|pinoybay.ch|piratebayblocked.com|planet-streaming.net|planet-streaming1.com|planetatvonlinehd.com|planete-bd.org|planetfools.com|povwideo.cc|povwideo.net|powvideo.cc|powvideo.net|protect-link.biz|putload.tv|radiofly.ws|reactor.cc|readmanga.today|regarder-attaque-des-titans-streaming.com|regarder-le-bureau-des-legendes-streaming.com|regarder-les-100-streaming.com|regarder-malcolm-streaming.com|regarder-mr-robot-streaming.com|regarder-my-hero-academia-streaming.com|regarder-peaky-blinders-streaming.xyz|regarder-prison-break-streaming.com|regarder-the-mandalorian-streaming.com|regarder-the-walking-dead-streaming.com|regarder-the-witcher-streaming-gratuit.com|regarder-vikings-streaming.com|rivosport.co|rojadirecta.fr|sawlive.tv|scan-vf.co|scan-vf.com|scr.cr|scuseami.net|senmanga.com|shaggyimg.pro|sharemods.com|sherlockonline.ru|shippuden.tv|short.pe|short2win.com|shrink-service.it|sintelevisor.com|skstream.biz|skstream.co|skstream.ws|sleeptimer.org|slyid.com|solarmovie.one|sorteosrd.com|srt.am|starmusiq.fun|starmusiq.one|stiffvip.com|strdef.world|stream.cr|stream2watch.org|stream4free.live|streambeam.io|streamcdn.to|streamcloud.eu|streamhunter.net|streamhunter.top|streamp1ay.cc|streamplay.me|streamplay.to|streamsfinder.com|subswiki.com|subtorrents.tv|supervideo.tv|szukajka.tv|tainies.online|tamilmv.biz|tamilmv.cz|tarjetarojatvonline.com|tazmovies.com|tchhd7.com|telerium.tv|teleriumtv.com|teleriumtv.net|theappguruz.com|thepiratebay.cr|thepiratebay.vip|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tomadivx.tv|topbestsite.live|topsimages.com|torlock.com|torlock.icu|torlock2.com|toros.co|torrent9.si|tpbprox.com|tubetitties.com|tvenganchado.com|tvpor-internet.com|tvshqiphd.com|uii.io|ukpass.co|unblockall.org|unblocked.app|unblocked.bid|unblocked.gdn|unblocked.is|unblocked.lc|unblocked.ms|unblocked.mx|unblocked.st|unblocked.vet|unblocked.wtf|unblocked2.fun|unblocked2.vip|unblocker.cc|unblockit.dev|unblockproject.icu|unblockproject.info|unblocksites.co|unblockthe.net|up-4.net|upbom.com|upbom.net|upload.ee|uploadfiles.eu|uploadocean.com|uppom.live|uptostream.com|upvid.host|uskip.me|vcrypt.net|veehd.com|vergol.com|verliga1.net|vertdtgratis.es|vertelevision.tv|vertelevisor.com|vev.io|vev.red|vidbom.com|videobin.co|videowood.tv|vidfile.net|vidop.icu|vidoza.co|vidoza.net|vidshare.tv|vidtod.com|vidtodo.me|vidup.io|vidup.tv|viewasian.tv|vup.to|watchers.to|watchonline.to|watchpornfree.ws|wawacity.one|wearesaudis.net|wlive.tv|wstream.to|wstream.video|x1337x.eu|x1337x.se|x1337x.ws|xclusivejams.com|xfilesharing.com|xrivonet.info|xvideosharing.com|yify-torrent.org|yifyddl.movie|yts.ag|yts.lt|yts.mx|yts.pm|zenexplayer.com|zeroshare.me|zipansion.com|zona.plus|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zone-ebook.com|zone-films.stream|zone-telechargement2.net|zooqle.me|zt-za.com|zt-za.net
-$script,third-party,domain=1anim.com|1fichier.com|2ddl.ms|2shrink.com|4anime.to|7-up.net|9xbuddy.app|9xbuddy.com|9xbuddy.org|9xlinks.net|9xupload.me|activetect.net|adblockstreamtape.art|adblockstreamtape.site|adf.ly|adkami.com|adshort.co|adshort.im|adshort.me|adshr.ink|adshrinks.com|adultproxy.men|adultvideoz.net|agence-webside.fr|ahlamtv.com|allmyvideos.net|allvid.ch|allvid.co|ally.sh|american-dad-streaming.com|anavids.com|android-zone.org|anime-gate.com|anime-hunter.com|anime-loads.org|anime-vf.fr|animecomplet.me|animecomplet.net|animecomplet.org|animedigitalnetwork.fr|animekaizoku.com|animemangaddl.com|animes-mangas-ddl.net|animevostfr.tv|anitube.cx|anitube.cz|annuaire-telechargement.com|annuaire-telechargement.net|apkmirrorfull.com|arabramadan.com|arabseed.co|arabseed.com|arabseed.tv|atabencot.net|atomcurve.com|atominik.com|avametrie.fr|ay.gy|ayefiles.com|babblecase.com|babystreaming.com|bdupload.asia|bidzen.co|bitigee.com|bluenik.com|bonstreams.net|brightvar.bid|buzzmonclick.com|cam4.com|cam4.fr|cartoonwire.to|casualient.com|cestpasbien.pro|channelstream.club|channelstream.me|chrt.pw|cinebo.net|cineiz.io|cinemavf.net|clicknupload.co|clicknupload.link|clicknupload.org|clicknupload.to|clicksfly.com|cloudemb.com|cloudvideo.tv|cloudy.ec|cmovies.la|cocostreaming.com|coginator.com|cogismith.com|convertinmp4.com|convertisseur-youtube-mp3.net|cpabien.co|cpabien.link|cpabien.ws|cpasbiens.to|cpasmieux.rip|cpmlink.net|cracksurl.com|crichd.com|crichd.info|crichd.to|crichd.xyz|d0stream.com|dadyflix.co|dailysport.pw|dailyuploads.net|databasegdriveplayer.co|datoporn.co|datpiff.com|dausel.co|dbs-streaming.com|ddl-francais.com|ddl.to|ddlfr.org|ddlfr.pw|ddownload.com|desiupload.in|despair-paradise.com|diasfem.com|digitaltendances.com|direct-torrents.com|discordbots.org|dl-protect.info|dl-protect1.com|dlapk4all.com|down-paradise.com|downlink.top|downloadgameps3.com|downloadhub.cc|downloadhub.trade|downloadhub.wiki|dpfilmz.com|dpstreaming.to|dramasjc.com|dz4link.com|dz4link1.com|dz4link2.xyz|easyload.io|ebookdz.com|ed-protect.org|elil.cc|elitegol.me|embedezcast.com|embedscr.com|embedscr.to|enstreaming.info|enstreaming.org|enstreaming.tv|enstreaming.ws|eplstream.xyz|espn-live.stream|ettv.to|ettvdl.com|europixhd.com|europixhd.net|evoload.io|exe.io|extramovies.casa|extratorrent.cd|extratorrent.si|extreme-down.al|extreme-down.blue|extreme-down.in|extreme-down.link|extreme-down.live|extreme-down.ninja|extreme-down.one|extreme-down.plus|extreme-down.pro|extreme-down.site|extreme-down.top|extreme-down.tv|extreme-down.video|extreme-down.vip|extreme-down.work|extreme-down.xyz|extreme-download.ninja|extreme-download.xyz|ezie.cc|fapdig.com|fc.lc|fcine.tv|femax20.com|feurl.com|file-up.org|file-upload.com|file-upload.net|filerio.in|filescdn.com|filescdn.net|film-streamingp.com|film-streamingvk.com|filmcomplet.biz|filmcomplet.in|filmcomplet.vip|filmenfr.com|filmesonlinegratis.com|filmlecteur.info|filmpornofrancais.fr|filmstoon.biz|filmstoon.stream|filmstreaming-vf.online|filmstreaming1.in|filmstreaming1vf.co|filmstreamingvk.co|filmstreamvf.com|filmstreamz.net|filmsvostfr.cc|filmsvostfr.io|filmsvostfr.ws|filmsvostfr.xyz|filmtelecharger.net|filmz.info|filmzenstream.to|flashx.net|flashx.pw|flowyourvideo.com|flystream.fr|force-download.com|force-download.es|force-download.fr|force-download.net|forumdz.com|foumovies.net|fr-streaming.com|free-telechargement.co|free-telechargement.org|free-telechargements.com|free-telecharger.com|free-telecharger.net|free-telecharger.org|free-telecharger.xyz|freedream.org|french-stream.re|french-stream.run|french-stream.so|frstreaming.biz|fullanimefr.com|fullmoviz.org|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|g5u.pw|gamecopyworld.click|gamecopyworld.eu|gcloud.live|gdriveplayer.me|gdriveplayer.us|geneafrance.com|getlink.pro|getsl.me|getsurl.com|gktorrent.biz|gktorrent.co|gktorrent.io|gktorrent.tv|gktorrents.net|gledajonline.net|gloyah.net|gnula.nu|gogoanimes.tv|gogomovies.to|gomostream.com|gomovies.guru|govid.me|gslink.co|gsurl.in|gsurl.me|guitare-luthier.fr|gum-gum-stream.tv|gum-gum-streaming.co|gum-gum-streaming.com|gurl.ly|haloani.ru|hdeuropix.com|hdeuropix.io|hdpopcorns.me|hds-stream.com|hds-stream.pro|hds-streaming.com|hds-streaming.su|hds-streamingvf.com|hds-streamingvf.net|hdss-to.com|hdss.la|hdss.to|hdvid.fun|hdvid.online|hdvid.tv|hentai-paradise.fr|hinata-online-community.fr|hindipix.in|holavid.com|hydrax.net|ianimes.co|ianimes.org|ianimes.top|illimitestreaming.net|immunicity.st|indishare.me|insta-stories.com|invictus.ws|itdmusic.com|itdmusic.in|ithepiratebay.com|j.gs|janjua.tv|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jawcloud.co|jetanimes.co|jetanimes.com|jetload.net|jeuxflash.com|k-streaming.cc|k-streaming.ch|k-streaming.com|k-vid.co|k-vid.net|kaitect.com|kializer.com|kibuilder.com|kickassanime.rs|kimechanic.com|kinogo.cc|kinotochka.club|kshows.to|kuma-film.com|kvid.org|lamule.eu|larati.net|le-streaming.com|lecpasbien.com|lelscan-vf.co|lemondedekevin.fr|lemonlemag.fr|lepetitlecteur.fr|libertyvf.co|libertyvf.com|libertyvf.net|libertyvf.tv|liivideo.com|likeur.org|likn.xyz|ling.online|link.tl|linkcaptcha.net|lirescan.me|lirescan.net|litepaste.com|loadsubs.net|ma-famille-dabord-streaming.com|macupload.net|magnet4you.me|mamega.com|manga-vf.fr|mangas-vostfr.pro|matures.porn|mavanimes.cc|mavanimes.co|mavavid.com|mavplay.com|mcloud.to|mcloud2.to|mega-p2p.net|mega-telechargements.com|memoireetvie.com|microify.com|mirrorace.com|mmoity.com|moshahda.net|moshahda.online|movcloud.net|movie-series.net|movie2konline.net|movies123.ac|moviescounter.io|movizland.biz|movstream.net|mp3-red.org|mp3-yt.com|mp3clan.com|mp3clan.it|mp3clan.to|mp3clan.us|mp3clan.ws|mp3converter.net|mp3guild.com|mp3guild.net|mp3red.cc|mp3red.me|mvs4u.tv|myvidaanime.com|myyouporn.com|natationpourtous.com|neko-san.fr|netflix-series.com|notube.net|novaflix.io|offmp3.app|offmp3.com|ohmovies.me|oload.party|onceddl.org|one-piece-streaming-vostfr.com|oneload.site|oneload.xyz|onepiece-streaming.co|onion.ly|onion.pet|onlystream.tv|onvid.pw|oomoviz.com|openload.cc|openload.fun|openloadmovies.ac|otakufr.com|otakufr.net|ouo.io|ouo.press|ourl.io|ovid.online|ovid.tv|ovid.xyz|oxtorrent.cc|oxtorrent.co|oxtorrent.com|oxtorrent.cx|oxtorrent.io|oxtorrent.me|oxtorrent.pw|p3g.tv|pandamovies.pw|papadustream.co|papstream.cc|papstream.co|papstream.com|papstream.info|papstream.net|papstream.xyz|partage-temporaire.fr|peliculas24.me|pelispedia.co|pelispedia.tv|pelispedia24.tv|pelisplus.online|petit-fichier.fr|picmoza.com|picocurl.com|picons.eu|pintient.com|piratebayblocked.com|piratebayproxies.cc|planet-series.co|planet-series.world|planet-streaming.net|planet-streaming1.com|planetevideos.xyz|player.freebiesforyou.net|pornbraze.com|prettyfast.to|primewire.ag|primewire.li|projectfreetv.ag|protect-link.biz|protect-mylinks.com|protect-stream.com|proxybay.buzz|ps4-torrent.ru|pstream.net|q.gs|quainator.com|quamiller.com|quedustreaming.com|queuecosm.bid|rapidvid.to|ream.co|regarder-attaque-des-titans-streaming.com|regarder-le-bureau-des-legendes-streaming.com|regarder-les-100-streaming.com|regarder-malcolm-streaming.com|regarder-mr-robot-streaming.com|regarder-my-hero-academia-streaming.com|regarder-peaky-blinders-streaming.xyz|regarder-prison-break-streaming.com|regarder-the-mandalorian-streaming.com|regarder-the-walking-dead-streaming.com|regarder-the-witcher-streaming-gratuit.com|regarder-vikings-streaming.com|rent2016.fr|replaymod.com|revivelink.com|riffhold.com|robindesdroits.me|rockfile.co|sandup.co|sapixmedia.com|scan-fr.cc|scan-vf.co|scan-vf.com|scispace.work|seasonvar.ru|security-links.com|sendspace.com|serialeonline.to|serie-en-streaming.co|serie-streaming.watch|serie-streaminghd.com|serie-streaminghd.org|series-cravings.li|series-en-streaming.xyz|series.movie|seriestreamings.com|seriestreamings.org|sexu.com|shink.me|shon.xyz|short.pe|sillonsdeculture.fr|simizer.com|simpson-en-streaming.com|site-de-streaming.com|skamaker.com|skamason.com|skstream.biz|skstream.co|skstream.ws|smoner.com|snowfiles.com|softmaroc.org|solarporn.net|sonyoutube.com|souqsky.net|south-park-streaming.biz|sportzonline.to|srt.am|strcloud.club|strcloud.link|stream-blog.org|stream-serie.cc|stream-vf.com|stream-zone.net|stream4free.live|stream4free.top|streamay.co|streambox.club|streamcdn.to|streamcomplet3.tv|streamelite.net|streaminfr.com|streaming-films-hd.com|streaming-films.tv|streaming-french.com|streaming-series.cx|streaming.re|streamingfrance.com|streamingfrance.net|streaminghd-serie.com|streamingk.com|streaminz.com|streamlive.to|streampourvous.com|streamtape.cc|streamtape.com|streamtape.net|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamty.com|streamup.xyz|streamwire.net|streamzt.com|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.club|subfb.us|superitu.com|supervideo.tv|swiftviz.net|sznpaste.net|t9.pe|tamilyogi.cc|tazmovies.com|telechargementz.co|telechargementz.me|telechargementz.net|telecharger-ebook-gratuit.org|telerium.digital|telerium.net|telerium.tv|tellerium.com|the-big-bang-theory-streaming.net|thepiratebay-proxylist.se|thepiratebay.vip|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|thouth.net|tii.ai|tilien.fr|time2watch.top|tinyium.com|tirexo.club|tirexo.com|tmearn.com|tntendirect.com|toncinema.online|toonanime.cc|toonanime.tv|toonanime.xyz|top.gg|topeuropix.com|topeuropix.net|torlock.com|torlock.icu|torlock2.com|torrent09.uno|torrent9.ac|torrent9.ai|torrent9.cc|torrent9.cz|torrent9.gg|torrent9.io|torrent9.is|torrent9.me|torrent9.ninja|torrent9.nl|torrent9.nz|torrent9.ph|torrent9.pl|torrent9.si|torrent9.support|torrent9.to|torrent911.com|torrent9uno.fr|torrentgalaxy.mx|torrentgalaxy.su|torrentgalaxy.to|torrents9.org|tpbay.xyz|txxx.com|ugmovies.org|uii.io|unblockvid.com|uploadrar.com|uppom.live|upvid.net|uqload.com|uqload.org|vidbem.com|vidcloud9.com|vidembed.cc|vidembed.io|vidembed.me|videobin.co|videospider.in|videowood.tv|vidhd.fun|vidhd.net|vidhdr.com|vidlo.us|vidnext.net|vidnode.net|vidshar.tv|vidspeed.net|vidtod.com|vidtodo.com|vodstream.pw|voir-films-series.net|voir-stream.com|voir-streaming.me|voiranime.com|voirfilm-vf.com|voirfilms.bz|voirfilmshd.net|voirseries.io|vostanimes.tv|vostanimez.com|vostfree.com|vostfrserie.biz|vostfrserie.net|vudeo.io|vudeo.net|vustream.co|waaw.tv|waaw1.tv|warez-serbia.com|watchseries.movie|wawacity.bz|wawacity.co|wawacity.ninja|wawacity.one|wawacity.vip|wstream.to|wstreaming.net|xfantazy.com|xfilesharing.com|xpaja.net|xvideosharing.com|yabuilder.com|yalla-shoot.com|yamechanic.com|yifyddl.co|yifyddl.com|yifymovies.tv|yoalizer.com|yobuilder.com|yoineer.com|yoitect.com|youwatch-serie.com|youwatch-series.com|youwatchfilm.net|yts.lv|yts.mx|yts.ws|zipansion.com|zo.ee|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zone-annuaire.website|zone-annuaire.xyz|zone-films.stream|zone-streaming.fr|zone-telechargement.cool|zone-telechargement.ws|zone-telechargement1.life|zone-telechargement2.net|zone-telechargements.com|zt-protect.com|zt-protect.net|zt-za.com|zt-za.net|zustream.com|zustream.net
+$webrtc,domain=11anim.com|1337x.st|1337x.to|2ddl.ms|300mbfilms.co|adyou.co|adyou.me|aflamfree.site|ajplugins.com|akoam.com|akoam.net|akvideo.stream|allitebooks.com|allpeliculas.com|alltube.pl|androidadult.com|animeid.tv|animekb.net|animeland.tv|animezone.pl|anitoonstv.com|annuaire-telechargement.com|annuaire-telechargement.net|arabseed.co|arabseed.com|arabseed.me|arabseed.tv|avametrie.fr|avgle.com|baixarsoftware.com|bdurls.com|best5link.co|best5link.com|bigspeeds.com|bindassbros.com|blizzboygames.net|bonstreams.net|catrumahminimalis.me|centrum-dramy.pl|cestpasbien.pro|chatytvgratis.net|chrt.pw|cineiz.io|cinemahd.co|cinemamkv.net|cinemitas.com|cinestrenostv.tv|clik.pw|cmacapps.com|cocostreaming.com|coinfaucet.io|coinhub.win|coinminingonline.com|convertinmp4.com|cpabien.ws|crictime.com|crictime.is|daclips.com|datpiff.com|ddl.to|ddmix.net|ddownload.com|dekoder.ws|deltabit.co|deportesmax.info|descargas2020.com|djs.sk|dl-protect.info|dl-protect1.com|dompl3.info|dood.la|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodstream.co|doodstream.com|downlink.top|draculastream.org|drakula.top|dropapk.com|dropapk.to|dualpaste.net|earnwithshortlink.com|ebook-planete.org|ebookdz.com|egy.best|egybest.asia|egybest.bid|egybest.biz|egybest.cheap|egybest.co|egybest.com|egybest.cool|egybest.fail|egybest.ist|egybest.life|egybest.ltd|egybest.name|egybest.net|egybest.network|egybest.ninja|egybest.nl|egybest.online|egybest.org|egybest.pw|egybest.rocks|egybest.site|egybest.xyz|egybest.zone|egybest2.com|entervideo.net|estream.to|estream.xyz|extratorrent.si|extreme-down.blue|extreme-down.in|extreme-down.link|extreme-down.live|extreme-down.ninja|extreme-down.one|extreme-down.plus|extreme-down.pro|extreme-down.top|extreme-down.tv|extreme-down.work|extreme-down.xyz|extreme-download.ninja|extreme-download.xyz|feed4u.eu|fileone.tv|filmcomplet.biz|filmcomplet.in|filmcomplet.vip|filmeserialeonline.org|filmstreamvf.com|filmstreamz.net|filmsvostfr.cc|filmsvostfr.io|filmsvostfr.ws|filmsvostfr.xyz|filmtelecharger.net|filmvf.cc|flashx.net|flashx.tv|fluvore.com|free-telechargement.co|free-telechargement.org|free-telecharger.com|free-telecharger.net|free-telecharger.org|free-telecharger.xyz|freecardano.com|freenem.com|fullmatchesandshows.com|gamestorrent.co|ganol.ru|ganool.im|ganool123.com|gnula.biz|gtaall.com|gum-gum-stream.tv|gum-gum-streaming.co|gum-gum-streaming.com|hawklegend.org|hdvid.online|healthoptimizer.net|heapfiles.com|hindilinks4u.to|hq-porns.com|hulkstream.com|hulkstreamz.com|ianimes.co|ianimes.org|ianimes.top|iegy.best|imagenesmy.com|imgazure.com|imgking.xyz|immunicity.st|ithepiratebay.com|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|javher.com|jheberg.net|jkanime.net|k-streaming.cc|k-streaming.ch|k-streaming.com|kastream.biz|kinohabr.net|kinokrad.co|kinoprofi.org|kinosha.cc|kinostuff.com|kinox.me|kinox.tv|kiss-anime.ws|kissasian.ch|kissasian.sh|kooralive.info|kora-live.tv|kstreaming.info|kvid.org|l2s.io|lafmacun.net|lamule.eu|larati.net|latino-webtv.com|le-streaming.com|leggendaweb.com|leitor.net|lemondedekevin.fr|lewd.ninja|libertyvf.co|libertyvf.com|libertyvf.net|libertyvf.tv|liketvw.com|likeur.org|limpi.tv|linkgen.st|liveflashplayer.org|lkky.co|logovo.net|lordhd.com|love-drama.pl|ma-famille-dabord-streaming.com|macupload.net|mangaku.in|mejortorrent.org|mejortorrent1.com|mimaletamusical.blogspot.com|mitierratvco2.com|mkvcage.com|mladipodnikatelia.sk|modsbase.com|monero-miner.com|monova.org|movie4k.is|movie4k.org|movies123.ac|mp4mania.world|mp4mania.xyz|multiimg.com|myfeed4u.com|mywatchseries.stream|netiap.com|nicoblog.org|nonpiusolo.com|novom.ru|o2tvseries.com|oasivip.com|oceanoffgames.com|oipeirates.online|onion.ly|onion.pet|onvid.pw|openload.cc|openload.ch|openload.fun|opensubtitles.org|ovid.online|ovid.tv|ovid.xyz|papstream.cc|papstream.info|papstream.net|papstream.xyz|pastehere.xyz|pcgamestorrents.com|pdf-giant.com|peeplink.in|pelislatino3gp.biz|pinoybay.ch|piratebayblocked.com|planet-streaming.net|planet-streaming1.com|planetatvonlinehd.com|planete-bd.org|planetfools.com|povwideo.cc|povwideo.net|powvideo.cc|powvideo.net|protect-link.biz|putload.tv|radiofly.ws|reactor.cc|readmanga.today|regarder-attaque-des-titans-streaming.com|regarder-le-bureau-des-legendes-streaming.com|regarder-les-100-streaming.com|regarder-malcolm-streaming.com|regarder-mr-robot-streaming.com|regarder-my-hero-academia-streaming.com|regarder-peaky-blinders-streaming.xyz|regarder-prison-break-streaming.com|regarder-the-mandalorian-streaming.com|regarder-the-walking-dead-streaming.com|regarder-the-witcher-streaming-gratuit.com|regarder-vikings-streaming.com|rivosport.co|rojadirecta.fr|sawlive.tv|scan-vf.co|scan-vf.com|scr.cr|scuseami.net|senmanga.com|shaggyimg.pro|sharemods.com|sherlockonline.ru|shippuden.tv|short.pe|short2win.com|shrink-service.it|sintelevisor.com|skstream.biz|skstream.co|skstream.ws|sleeptimer.org|slyid.com|solarmovie.one|sorteosrd.com|srt.am|starmusiq.fun|starmusiq.one|stiffvip.com|strdef.world|stream.cr|stream2watch.org|stream4free.live|streambeam.io|streamcdn.to|streamcloud.eu|streamhunter.net|streamhunter.top|streamp1ay.cc|streamplay.me|streamplay.to|streamsfinder.com|subswiki.com|subtorrents.tv|supervideo.tv|szukajka.tv|tainies.online|tamilmv.biz|tamilmv.cz|tarjetarojatvonline.com|tazmovies.com|tchhd7.com|telerium.tv|teleriumtv.com|teleriumtv.net|theappguruz.com|thepiratebay.cr|thepiratebay.vip|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tomadivx.tv|topbestsite.live|topsimages.com|torlock.com|torlock.icu|torlock2.com|toros.co|torrent9.si|tpbprox.com|tubetitties.com|tvenganchado.com|tvpor-internet.com|tvshqiphd.com|uii.io|ukpass.co|unblockall.org|unblocked.app|unblocked.bid|unblocked.gdn|unblocked.is|unblocked.lc|unblocked.ms|unblocked.mx|unblocked.st|unblocked.vet|unblocked.wtf|unblocked2.fun|unblocked2.vip|unblocker.cc|unblockit.dev|unblockproject.icu|unblockproject.info|unblocksites.co|unblockthe.net|up-4.net|upbom.com|upbom.net|upload.ee|uploadfiles.eu|uploadocean.com|uppom.live|uptostream.com|upvid.host|uskip.me|vcrypt.net|veehd.com|vergol.com|verliga1.net|vertdtgratis.es|vertelevision.tv|vertelevisor.com|vev.io|vev.red|vidbom.com|videobin.co|videowood.tv|vidfile.net|vidop.icu|vidoza.co|vidoza.net|vidshare.tv|vidtod.com|vidtodo.me|vidup.io|vidup.tv|viewasian.tv|vup.to|watchers.to|watchonline.to|watchpornfree.ws|wawacity.one|wearesaudis.net|wlive.tv|wstream.to|wstream.video|x1337x.eu|x1337x.se|x1337x.ws|xclusivejams.com|xfilesharing.com|xrivonet.info|xvideosharing.com|yify-torrent.org|yifyddl.movie|yts.ag|yts.lt|yts.mx|yts.pm|zenexplayer.com|zeroshare.me|zipansion.com|zona.plus|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zone-ebook.com|zone-films.stream|zone-telechargement2.net|zooqle.me|zt-za.com|zt-za.net
+$script,third-party,domain=1anim.com|1fichier.com|2ddl.ms|2shrink.com|4anime.to|7-up.net|9xbuddy.app|9xbuddy.com|9xbuddy.org|9xlinks.net|9xupload.me|activetect.net|adblockstreamtape.art|adblockstreamtape.site|adf.ly|adkami.com|adshort.co|adshort.im|adshort.me|adshr.ink|adshrinks.com|adultproxy.men|adultvideoz.net|agence-webside.fr|ahlamtv.com|allmyvideos.net|allvid.ch|allvid.co|ally.sh|american-dad-streaming.com|anavids.com|android-zone.org|anime-gate.com|anime-hunter.com|anime-loads.org|anime-vf.fr|animecomplet.me|animecomplet.net|animecomplet.org|animedigitalnetwork.fr|animekaizoku.com|animemangaddl.com|animes-mangas-ddl.net|animevostfr.tv|anitube.cx|anitube.cz|annuaire-telechargement.com|annuaire-telechargement.net|apkmirrorfull.com|arabramadan.com|arabseed.co|arabseed.com|arabseed.tv|atabencot.net|atomcurve.com|atominik.com|avametrie.fr|ay.gy|ayefiles.com|babblecase.com|babystreaming.com|bdupload.asia|bidzen.co|bitigee.com|bluenik.com|bonstreams.net|brightvar.bid|buzzmonclick.com|cam4.com|cam4.fr|cartoonwire.to|casualient.com|cestpasbien.pro|channelstream.club|channelstream.me|chrt.pw|cinebo.net|cineiz.io|cinemavf.net|clicknupload.co|clicknupload.link|clicknupload.org|clicknupload.to|clicksfly.com|cloudemb.com|cloudvideo.tv|cloudy.ec|cmovies.la|cocostreaming.com|coginator.com|cogismith.com|convertinmp4.com|convertisseur-youtube-mp3.net|cpabien.co|cpabien.link|cpabien.ws|cpasbiens.to|cpasmieux.rip|cpmlink.net|cracksurl.com|crichd.com|crichd.info|crichd.to|crichd.xyz|d0stream.com|dadyflix.co|dailysport.pw|dailyuploads.net|databasegdriveplayer.co|datoporn.co|datpiff.com|dausel.co|dbs-streaming.com|ddl-francais.com|ddl.to|ddlfr.org|ddlfr.pw|ddownload.com|desiupload.in|despair-paradise.com|diasfem.com|digitaltendances.com|direct-torrents.com|discordbots.org|dl-protect.info|dl-protect1.com|dlapk4all.com|down-paradise.com|downlink.top|downloadgameps3.com|downloadhub.cc|downloadhub.trade|downloadhub.wiki|dpfilmz.com|dpstreaming.to|dramasjc.com|dz4link.com|dz4link1.com|dz4link2.xyz|easyload.io|ebookdz.com|ed-protect.org|elil.cc|elitegol.me|embedezcast.com|embedscr.com|embedscr.to|enstreaming.info|enstreaming.org|enstreaming.tv|enstreaming.ws|eplstream.xyz|espn-live.stream|ettv.to|ettvdl.com|europixhd.com|europixhd.net|evoload.io|exe.io|extramovies.casa|extratorrent.cd|extratorrent.si|extreme-down.al|extreme-down.blue|extreme-down.in|extreme-down.link|extreme-down.live|extreme-down.ninja|extreme-down.one|extreme-down.plus|extreme-down.pro|extreme-down.site|extreme-down.top|extreme-down.tv|extreme-down.video|extreme-down.vip|extreme-down.work|extreme-down.xyz|extreme-download.ninja|extreme-download.xyz|ezie.cc|fapdig.com|fc.lc|fcine.tv|femax20.com|feurl.com|file-up.org|file-upload.com|file-upload.net|filerio.in|filescdn.com|filescdn.net|film-streamingp.com|film-streamingvk.com|filmcomplet.biz|filmcomplet.in|filmcomplet.vip|filmenfr.com|filmesonlinegratis.com|filmlecteur.info|filmpornofrancais.fr|filmstoon.biz|filmstoon.stream|filmstreaming-vf.online|filmstreaming1.in|filmstreaming1vf.co|filmstreamingvk.co|filmstreamvf.com|filmstreamz.net|filmsvostfr.cc|filmsvostfr.io|filmsvostfr.ws|filmsvostfr.xyz|filmtelecharger.net|filmz.info|filmzenstream.to|flashx.net|flashx.pw|flowyourvideo.com|flystream.fr|force-download.com|force-download.es|force-download.fr|force-download.net|forumdz.com|foumovies.net|fr-streaming.com|free-telechargement.co|free-telechargement.org|free-telechargements.com|free-telecharger.com|free-telecharger.net|free-telecharger.org|free-telecharger.xyz|freedream.org|french-stream.re|french-stream.run|french-stream.so|frstreaming.biz|fullanimefr.com|fullmoviz.org|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|g5u.pw|gamecopyworld.click|gamecopyworld.eu|gcloud.live|gdriveplayer.me|gdriveplayer.us|geneafrance.com|getlink.pro|getsl.me|getsurl.com|gktorrent.biz|gktorrent.org|gktorrents.net|gktorrents.org|gledajonline.net|gloyah.net|gnula.nu|gogoanimes.tv|gogomovies.to|gomostream.com|gomovies.guru|govid.me|gslink.co|gsurl.in|gsurl.me|guitare-luthier.fr|gum-gum-stream.tv|gum-gum-streaming.co|gum-gum-streaming.com|gurl.ly|haloani.ru|hdeuropix.com|hdeuropix.io|hdpopcorns.me|hds-stream.com|hds-stream.pro|hds-streaming.com|hds-streaming.su|hds-streamingvf.com|hds-streamingvf.net|hdss-to.com|hdss.la|hdss.to|hdvid.fun|hdvid.online|hdvid.tv|hentai-paradise.fr|hinata-online-community.fr|hindipix.in|holavid.com|hydrax.net|ianimes.co|ianimes.org|ianimes.top|illimitestreaming.net|immunicity.st|indishare.me|insta-stories.com|invictus.ws|itdmusic.com|itdmusic.in|ithepiratebay.com|j.gs|janjua.tv|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jawcloud.co|jetanimes.co|jetanimes.com|jetload.net|jeuxflash.com|k-streaming.cc|k-streaming.ch|k-streaming.com|k-vid.co|k-vid.net|kaitect.com|kializer.com|kibuilder.com|kickassanime.rs|kimechanic.com|kinogo.cc|kinotochka.club|kshows.to|kuma-film.com|kvid.org|lamule.eu|larati.net|le-streaming.com|lecpasbien.com|lelmanga.com|lelscan-vf.co|lemondedekevin.fr|lemonlemag.fr|lepetitlecteur.fr|libertyvf.co|libertyvf.com|libertyvf.net|libertyvf.tv|liivideo.com|likeur.org|likn.xyz|ling.online|link.tl|linkcaptcha.net|lirescan.me|lirescan.net|litepaste.com|loadsubs.net|ma-famille-dabord-streaming.com|macupload.net|magnet4you.me|mamega.com|manga-vf.fr|mangas-vostfr.pro|matures.porn|mavanimes.cc|mavanimes.co|mavavid.com|mavplay.com|mcloud.to|mcloud2.to|mega-p2p.net|mega-telechargements.com|memoireetvie.com|microify.com|mirrorace.com|mmoity.com|moshahda.net|moshahda.online|movcloud.net|movie-series.net|movie2konline.net|movies123.ac|moviescounter.io|movstream.net|mp3-red.org|mp3-yt.com|mp3clan.com|mp3clan.it|mp3clan.to|mp3clan.us|mp3clan.ws|mp3converter.net|mp3guild.com|mp3guild.net|mp3red.cc|mp3red.me|mvs4u.tv|myvidaanime.com|myyouporn.com|natationpourtous.com|neko-san.fr|netflix-series.com|notube.net|novaflix.io|offmp3.app|offmp3.com|ohmovies.me|oload.party|onceddl.org|one-piece-streaming-vostfr.com|oneload.site|oneload.xyz|onepiece-streaming.co|onion.ly|onion.pet|onlystream.tv|onvid.pw|oomoviz.com|openload.cc|openload.fun|openloadmovies.ac|otakufr.com|otakufr.net|ouo.io|ouo.press|ourl.io|ovid.online|ovid.tv|ovid.xyz|oxtorrent.cc|oxtorrent.co|oxtorrent.com|oxtorrent.cx|oxtorrent.io|oxtorrent.me|oxtorrent.pw|p3g.tv|pandamovies.pw|papadustream.co|papstream.cc|papstream.co|papstream.com|papstream.info|papstream.net|papstream.xyz|partage-temporaire.fr|peliculas24.me|pelispedia.co|pelispedia.tv|pelispedia24.tv|pelisplus.online|petit-fichier.fr|picmoza.com|picocurl.com|picons.eu|pintient.com|piratebayblocked.com|piratebayproxies.cc|planet-series.co|planet-series.world|planet-streaming.net|planet-streaming1.com|planetevideos.xyz|player.freebiesforyou.net|pornbraze.com|prettyfast.to|primewire.ag|primewire.li|projectfreetv.ag|protect-link.biz|protect-mylinks.com|protect-stream.com|proxybay.buzz|ps4-torrent.ru|pstream.net|q.gs|quainator.com|quamiller.com|quedustreaming.com|queuecosm.bid|rapidvid.to|ream.co|regarder-attaque-des-titans-streaming.com|regarder-le-bureau-des-legendes-streaming.com|regarder-les-100-streaming.com|regarder-malcolm-streaming.com|regarder-mr-robot-streaming.com|regarder-my-hero-academia-streaming.com|regarder-peaky-blinders-streaming.xyz|regarder-prison-break-streaming.com|regarder-the-mandalorian-streaming.com|regarder-the-walking-dead-streaming.com|regarder-the-witcher-streaming-gratuit.com|regarder-vikings-streaming.com|rent2016.fr|replaymod.com|revivelink.com|riffhold.com|robindesdroits.me|rockfile.co|sandup.co|sapixmedia.com|scan-fr.cc|scan-vf.co|scan-vf.com|scispace.work|seasonvar.ru|security-links.com|sendspace.com|serialeonline.to|serie-en-streaming.co|serie-streaming.watch|serie-streaminghd.com|serie-streaminghd.org|series-cravings.li|series-en-streaming.xyz|series.movie|seriestreamings.com|seriestreamings.org|sexu.com|shink.me|shon.xyz|short.pe|sillonsdeculture.fr|simizer.com|simpson-en-streaming.com|site-de-streaming.com|skamaker.com|skamason.com|skstream.biz|skstream.co|skstream.ws|smoner.com|snowfiles.com|softmaroc.org|solarporn.net|sonyoutube.com|souqsky.net|south-park-streaming.biz|sportzonline.to|srt.am|strcloud.club|strcloud.link|stream-blog.org|stream-serie.cc|stream-vf.com|stream-zone.net|stream4free.live|stream4free.top|streamay.co|streambox.club|streamcdn.to|streamcomplet3.tv|streamelite.net|streaminfr.com|streaming-films-hd.com|streaming-films.tv|streaming-french.com|streaming-series.cx|streaming.re|streamingfrance.com|streamingfrance.net|streaminghd-serie.com|streamingk.com|streaminz.com|streamlive.to|streampourvous.com|streamtape.cc|streamtape.com|streamtape.net|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamty.com|streamup.xyz|streamwire.net|streamzt.com|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.club|subfb.us|superitu.com|supervideo.tv|swiftviz.net|sznpaste.net|t9.pe|tamilyogi.cc|tazmovies.com|telechargementz.co|telechargementz.me|telechargementz.net|telecharger-ebook-gratuit.org|telerium.digital|telerium.net|telerium.tv|tellerium.com|the-big-bang-theory-streaming.net|thepiratebay-proxylist.se|thepiratebay.vip|theproxy.how|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|thouth.net|tii.ai|tilien.fr|time2watch.top|tinyium.com|tirexo.club|tirexo.com|tmearn.com|tntendirect.com|toncinema.online|toonanime.cc|toonanime.tv|toonanime.xyz|top.gg|topeuropix.com|topeuropix.net|torlock.com|torlock.icu|torlock2.com|torrent09.uno|torrent9.ac|torrent9.ai|torrent9.cc|torrent9.cz|torrent9.gg|torrent9.io|torrent9.is|torrent9.me|torrent9.ninja|torrent9.nl|torrent9.nz|torrent9.ph|torrent9.pl|torrent9.si|torrent9.support|torrent9.to|torrent911.com|torrent9uno.fr|torrentgalaxy.mx|torrentgalaxy.su|torrentgalaxy.to|torrents9.org|tpbay.xyz|txxx.com|ugmovies.org|uii.io|unblockvid.com|uploadrar.com|uppom.live|upvid.net|uqload.com|uqload.org|vidbem.com|vidcloud9.com|vidembed.cc|vidembed.io|vidembed.me|videobin.co|videospider.in|videowood.tv|vidhd.fun|vidhd.net|vidhdr.com|vidlo.us|vidnext.net|vidnode.net|vidshar.tv|vidspeed.net|vidtod.com|vidtodo.com|vodstream.pw|voir-films-series.net|voir-stream.com|voir-streaming.me|voiranime.com|voirfilm-vf.com|voirfilms.bz|voirfilmshd.net|voirseries.io|vostanimes.tv|vostanimez.com|vostfree.com|vostfrserie.biz|vostfrserie.net|vudeo.io|vudeo.net|vustream.co|waaw.tv|waaw1.tv|warez-serbia.com|watchseries.movie|wawacity.bz|wawacity.co|wawacity.ninja|wawacity.one|wawacity.vip|wstream.to|wstreaming.net|xfantazy.com|xfilesharing.com|xpaja.net|xvideosharing.com|yabuilder.com|yalla-shoot.com|yamechanic.com|yifyddl.co|yifyddl.com|yifymovies.tv|yoalizer.com|yobuilder.com|yoineer.com|yoitect.com|youwatch-serie.com|youwatch-series.com|youwatchfilm.net|yts.lv|yts.mx|yts.ws|zipansion.com|zo.ee|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zone-annuaire.website|zone-annuaire.xyz|zone-films.stream|zone-streaming.fr|zone-telechargement.cool|zone-telechargement.ws|zone-telechargement1.life|zone-telechargement2.net|zone-telechargements.com|zt-protect.com|zt-protect.net|zt-za.com|zt-za.net|zustream.com|zustream.net
 $script,~third-party,domain=mrsexe.com|strip-webcam.com|torrentfunk.com|tpbprox.com|trollvid.net|tusfiles.com|tusfiles.net|tvlogy.to|twineer.com|ukpass.co|ultrastream.pro|unblockall.org|unblocked.app|unblocked.bid|unblocked.gdn|unblocked.is|unblocked.lc|unblocked.ms|unblocked.st|unblocked.wtf|unblocked2.fun|unblocked2.vip|unblockit.dev|unblockproject.icu|unblockproject.info|unblockthe.net|univers-animeiz.net|universanimeize.com|up-load.io|upload4earn.org|uploads.to|uppit.com|urle.co|uskip.me|ver-peliculas.co|ver-peliculas.io|ver-pelis.me|vev.io|vev.red|viahold.com|vializer.com|vidbom.com|vidon.club|vidon.xyz|vidop.icu|vidshort.net|vidsource.me|vidsrc.me|vidstream.kim|vidstream.top|vidup.io|vidup.tv|vipleague.cc|vipleague.me|vipleague.se|viva-stream.info|viva-stream.net|viwright.com|vkstreamingfilm.biz|voirseries.co|vup.to
-$subdocument,third-party,domain=1ink.cc|2shrink.com|7-up.net|adhit.me|adpop.me|adshort.co|adshort.im|adshort.me|adshr.ink|adshrinks.com|akvideo.stream|akwam.net|al.ly|allmyvideos.net|alltube.tv|ally.sh|animemangaddl.com|animes-mangas-ddl.net|annuaire-telechargement.com|annuaire-telechargement.net|avametrie.fr|bc.vc|bdupload.asia|bit-url.com|ceesty.com|cestpasbien.pro|chrt.pw|clicknupload.co|clicknupload.link|clicknupload.org|clicknupload.to|clicksfly.com|clictune.com|clik.pw|clipwatching.com|clkme.me|clkmein.com|cllkme.com|cloudvideo.tv|convert2mp3.net|corneey.com|cpabien.co|cpabien.link|cpabien.ws|cpasbiens.to|cpmlink.net|cut-link-earn.com|daclips.com|dailyuploads.net|dausel.co|destyy.com|dz4link.com|e-wok.tv|elil.cc|extreme-down.blue|extreme-down.in|extreme-down.link|extreme-down.live|extreme-down.ninja|extreme-down.one|extreme-down.plus|extreme-down.pro|extreme-down.site|extreme-down.top|extreme-down.tv|extreme-down.work|extreme-down.xyz|extreme-download.ninja|extreme-download.xyz|ezie.cc|fas.li|festyy.com|file-up.org|filescdn.com|filescdn.net|filmtelecharger.net|flowyourvideo.com|free-telechargements.com|free-telecharger.com|free-telecharger.org|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|g5u.pw|gestyy.com|getsurl.com|gktorrent.biz|gktorrent.co|gktorrent.io|gktorrent.tv|gktorrents.net|gocoo.co|gslink.co|gsurl.in|gsurl.me|guitare-luthier.fr|hdvid.fun|hdvid.online|hdvid.tv|immunicity.st|ithepiratebay.com|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jawcloud.co|k-streaming.cc|k-streaming.ch|k-streaming.com|kvid.org|le-streaming.com|lecpasbien.com|lemondedekevin.fr|lemonlemag.fr|lepetitlecteur.fr|likn.xyz|ling.online|link.tl|linkbucks.com|lirescan.me|lirescan.net|loadvid.online|mcloud.to|mcloud2.to|mega-p2p.net|mega-telechargements.com|mixdrop.co|mixdrop.to|mon-horoscope-du-jour.com|movcloud.net|movstream.net|multiup.eu|multiup.org|mylink1.biz|netiap.com|onion.ly|onion.pet|onvid.pw|ouo.io|ouo.press|ovid.online|ovid.tv|ovid.xyz|oxtorrent.cc|oxtorrent.co|oxtorrent.com|oxtorrent.cx|oxtorrent.io|oxtorrent.me|oxtorrent.pw|piratebayblocked.com|piratebayproxies.cc|rent2016.fr|revivelink.com|sa.ae|sandup.co|sexu.com|sh.st|shink.me|shon.xyz|short.pe|short2win.com|shorte.st|shrink-service.it|site-de-streaming.com|skiip.me|skipp.io|so.gd|solarporn.net|souqsky.net|stream4free.live|stream4free.top|streamloverx.com|strtapeadblock.club|szukajka.tv|t9.pe|telerium.digital|telerium.tv|teleriumtv.com|teleriumtv.net|tellerium.com|thepiratebay-proxylist.se|thepiratebay.vip|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tmearn.com|torlock.com|torlock.icu|torlock2.com|torrent09.uno|torrent9.ac|torrent9.ai|torrent9.cc|torrent9.cz|torrent9.gg|torrent9.io|torrent9.is|torrent9.me|torrent9.ninja|torrent9.nl|torrent9.nz|torrent9.ph|torrent9.pl|torrent9.si|torrent9.support|torrent9.to|torrent911.com|txxx.com|uppom.live|upvid.net|uqload.com|uqload.org|userload.co|vidembed.cc|vidembed.io|vidembed.me|videobin.co|vidnode.net|vidshar.tv|vidshare.tv|vidtod.com|vidtodo.com|vudeo.io|vudeo.net|watchvideo.us|wawacity.bz|wawacity.co|wawacity.ninja|wawacity.one|wawacity.vip|xfilesharing.com|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zt-za.com|zt-za.net
+$subdocument,third-party,domain=1ink.cc|2shrink.com|7-up.net|adhit.me|adpop.me|adshort.co|adshort.im|adshort.me|adshr.ink|adshrinks.com|akvideo.stream|akwam.net|al.ly|allmyvideos.net|alltube.tv|ally.sh|animemangaddl.com|animes-mangas-ddl.net|annuaire-telechargement.com|annuaire-telechargement.net|avametrie.fr|bc.vc|bdupload.asia|bit-url.com|ceesty.com|cestpasbien.pro|chrt.pw|clicknupload.co|clicknupload.link|clicknupload.org|clicknupload.to|clicksfly.com|clictune.com|clik.pw|clipwatching.com|clkme.me|clkmein.com|cllkme.com|cloudvideo.tv|convert2mp3.net|corneey.com|cpabien.co|cpabien.link|cpabien.ws|cpasbiens.to|cpmlink.net|cut-link-earn.com|daclips.com|dailyuploads.net|dausel.co|destyy.com|dz4link.com|e-wok.tv|elil.cc|extreme-down.blue|extreme-down.in|extreme-down.link|extreme-down.live|extreme-down.ninja|extreme-down.one|extreme-down.plus|extreme-down.pro|extreme-down.site|extreme-down.top|extreme-down.tv|extreme-down.work|extreme-down.xyz|extreme-download.ninja|extreme-download.xyz|ezie.cc|fas.li|festyy.com|file-up.org|filescdn.com|filescdn.net|filmtelecharger.net|flowyourvideo.com|free-telechargements.com|free-telecharger.com|free-telecharger.org|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|g5u.pw|gestyy.com|getsurl.com|gktorrents.org|gocoo.co|gslink.co|gsurl.in|gsurl.me|guitare-luthier.fr|hdvid.fun|hdvid.online|hdvid.tv|immunicity.st|ithepiratebay.com|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jawcloud.co|k-streaming.cc|k-streaming.ch|k-streaming.com|kvid.org|le-streaming.com|lecpasbien.com|lemondedekevin.fr|lemonlemag.fr|lepetitlecteur.fr|likn.xyz|ling.online|link.tl|linkbucks.com|lirescan.me|lirescan.net|loadvid.online|mcloud.to|mcloud2.to|mega-p2p.net|mega-telechargements.com|mixdrop.co|mixdrop.to|mon-horoscope-du-jour.com|movcloud.net|movstream.net|multiup.eu|multiup.org|mylink1.biz|netiap.com|onion.ly|onion.pet|onvid.pw|ouo.io|ouo.press|ovid.online|ovid.tv|ovid.xyz|oxtorrent.cc|oxtorrent.co|oxtorrent.com|oxtorrent.cx|oxtorrent.io|oxtorrent.me|oxtorrent.pw|piratebayblocked.com|piratebayproxies.cc|rent2016.fr|revivelink.com|sa.ae|sandup.co|sexu.com|sh.st|shink.me|shon.xyz|short.pe|short2win.com|shorte.st|shrink-service.it|site-de-streaming.com|skiip.me|skipp.io|so.gd|solarporn.net|souqsky.net|stream4free.live|stream4free.top|streamloverx.com|strtapeadblock.club|szukajka.tv|t9.pe|telerium.digital|telerium.tv|teleriumtv.com|teleriumtv.net|tellerium.com|thepiratebay-proxylist.se|thepiratebay.vip|thevid.net|thevid.tv|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tmearn.com|torlock.com|torlock.icu|torlock2.com|torrent09.uno|torrent9.ac|torrent9.ai|torrent9.cc|torrent9.cz|torrent9.gg|torrent9.io|torrent9.is|torrent9.me|torrent9.ninja|torrent9.nl|torrent9.nz|torrent9.ph|torrent9.pl|torrent9.si|torrent9.support|torrent9.to|torrent911.com|txxx.com|uppom.live|upvid.net|uqload.com|uqload.org|userload.co|vidembed.cc|vidembed.io|vidembed.me|videobin.co|vidnode.net|vidshar.tv|vidshare.tv|vidtod.com|vidtodo.com|vudeo.io|vudeo.net|watchvideo.us|wawacity.bz|wawacity.co|wawacity.ninja|wawacity.one|wawacity.vip|xfilesharing.com|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zt-za.com|zt-za.net
 $subdocument,~third-party,domain=adsrt.me|completvf.com|povvideo.net|povwideo.cc|povwideo.net|powvideo.net|series-en-streaming.xyz|short-url.link|sillonsdeculture.fr|streamp1ay.cc|streamplay.to|torrentfunk.com|tpbprox.com|tusfiles.com|tusfiles.net|uii.io|ukpass.co|unblockall.org|unblocked.app|unblocked.bid|unblocked.gdn|unblocked.is|unblocked.lc|unblocked.ms|unblocked.st|unblocked.wtf|unblocked2.fun|unblocked2.vip|unblockit.dev|unblockproject.icu|unblockproject.info|unblockthe.net|unblocktheship.org|upload4earn.org|uploadbyte.com|uploads.to|uppit.com|urle.co|urlgone.com|uskip.me|vcstream.to|ver-peliculas.io|ver-pelis.me|vev.io|vev.red|vidbem.com|vidbm.com|vidcloud.co|vidon.club|vidon.xyz|vidop.icu|vidsrc.me|vidup.io|vidup.tv|vup.to|wiid.me|zone-telechargement2.net|zone-telechargements.com
-$third-party,xmlhttprequest,domain=01fmovies.com|1fichier.com|2shrink.com|4anime.to|7-up.net|9xbuddy.app|9xbuddy.com|9xbuddy.org|9xupload.me|adblockstreamtape.art|adblockstreamtape.site|adshort.co|adshort.im|adshort.me|adshr.ink|adshrinks.com|agence-webside.fr|ahlamtv.com|allvid.ch|allvid.co|anavids.com|animecomplet.me|animecomplet.net|animecomplet.org|animemangaddl.com|animes-mangas-ddl.net|animevostfr.tv|annuaire-telechargement.com|annuaire-telechargement.net|arabramadan.com|arabseed.co|arabseed.com|arabseed.tv|avametrie.fr|bdupload.asia|cartoonwire.to|cestpasbien.pro|chrt.pw|cineiz.io|clicknupload.co|clicknupload.link|clicknupload.org|clicknupload.to|clicksfly.com|clik.pw|cloudvideo.tv|convertisseur-youtube-mp3.net|cpabien.co|cpabien.link|cpabien.ws|cpasbiens.to|cpasmieux.rip|dadyflix.co|daftsex.com|dailyuploads.net|databasegdriveplayer.co|datpiff.com|ddlfr.org|ddlfr.pw|direct-torrents.com|dl-protect.info|dl-protect1.com|downloadgameps3.com|downloadhub.cc|downloadhub.trade|downloadhub.wiki|dropapk.to|dz4link.com|dz4link1.com|dz4link2.xyz|ebookdz.com|ed-protect.org|embedezcast.com|ettv.to|ettvdl.com|europixhd.com|europixhd.net|exe.io|extreme-down.blue|extreme-down.in|extreme-down.link|extreme-down.live|extreme-down.ninja|extreme-down.one|extreme-down.plus|extreme-down.pro|extreme-down.site|extreme-down.top|extreme-down.tv|extreme-down.work|extreme-down.xyz|extreme-download.ninja|extreme-download.xyz|ezie.cc|fc.lc|file-up.org|file-upload.com|filerio.in|filescdn.com|filescdn.net|filmesonlinegratis.com|filmstoon.biz|filmstreaming1.in|filmstreaming1vf.co|filmstreamvf.com|filmstreamz.net|filmtelecharger.net|filmz.info|filmzenstream.to|flashx.net|flashx.pw|flowyourvideo.com|fmovies.cafe|fmovies.coffee|fmovies.love|fmovies.media|fmovies.name|fmovies.pub|fmovies.solar|fmovies.taxi|fmovies.to|fmovies.world|fmovies.wtf|force-download.com|force-download.es|force-download.fr|force-download.net|foumovies.net|free-telechargement.co|free-telechargement.org|free-telechargements.com|free-telecharger.com|free-telecharger.net|free-telecharger.org|free-telecharger.xyz|french-stream.re|french-stream.run|french-stream.so|fullanimefr.com|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|g5u.pw|gcloud.live|getlink.pro|getsl.me|getsurl.com|gktorrent.biz|gktorrent.co|gktorrent.io|gktorrent.tv|gktorrents.net|gledajonline.net|gogoanimes.tv|gogomovies.to|govid.me|gslink.co|gsurl.in|gsurl.me|guitare-luthier.fr|gum-gum-stream.tv|gum-gum-streaming.co|gum-gum-streaming.com|hdeuropix.io|hds-streaming.su|hdss-to.com|hdss.la|hdss.to|hdvid.fun|hdvid.online|hdvid.tv|hentai-paradise.fr|hindipix.in|holavid.com|ianimes.co|ianimes.org|ianimes.top|immunicity.st|indishare.me|insta-stories.com|ithepiratebay.com|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jawcloud.co|jetanimes.co|jetanimes.com|jeuxflash.com|jheberg.net|k-streaming.cc|k-streaming.ch|k-streaming.com|k-vid.co|k-vid.net|kshows.to|kvid.org|le-streaming.com|lecpasbien.com|lelscan-vf.co|lemondedekevin.fr|lemonlemag.fr|lepetitlecteur.fr|libertyvf.co|libertyvf.com|libertyvf.net|libertyvf.tv|liivideo.com|ling.online|lirescan.me|lirescan.net|macupload.net|mavanimes.cc|mavanimes.co|mega-p2p.net|mega-telechargements.com|mirrorace.com|movcloud.net|movies123.xyz|moviescounter.io|movizland.biz|mp3-red.org|mp3-yt.com|mp3red.cc|mp3red.me|mvs4u.tv|novaflix.io|offmp3.app|offmp3.com|one-piece-streaming-vostfr.com|onion.ly|onion.pet|onvid.pw|openload.cc|openload.fun|otakufr.com|ouo.io|ouo.press|ovid.online|ovid.tv|ovid.xyz|oxtorrent.cc|oxtorrent.co|oxtorrent.com|oxtorrent.cx|oxtorrent.io|oxtorrent.me|oxtorrent.pw|papadustream.co|papstream.cc|papstream.co|papstream.com|papstream.info|papstream.net|papstream.xyz|pelisplus.online|piratebayblocked.com|piratebayproxies.cc|planet-streaming.net|planet-streaming1.com|protect-link.biz|protect-mylinks.com|protect-stream.com|ps4-torrent.ru|rent2016.fr|revivelink.com|sandup.co|scan-fr.cc|security-links.com|sendspace.com|series-en-streaming.xyz|series.movie|short.pe|sibnet.ru|site-de-streaming.com|smoner.com|snowfiles.com|sonyoutube.com|souqsky.net|strcloud.club|strcloud.link|stream-blog.org|stream4free.live|stream4free.top|streamay.co|streamcomplet3.tv|streamelite.net|streaminfr.com|streaming-french.com|streamingfrance.com|streamingfrance.net|streamingok.com|streamloverx.com|streamtape.cc|streamtape.com|streamtape.net|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamup.xyz|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.club|t9.pe|tazmovies.com|telerium.digital|telerium.tv|teleriumtv.com|teleriumtv.net|thepiratebay-proxylist.se|thepiratebay.vip|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tirexo.club|tirexo.com|tntendirect.com|toncinema.online|toonanime.cc|toonanime.tv|topeuropix.com|topeuropix.net|torlock.com|torlock.icu|torlock2.com|torrent09.uno|torrent9.ac|torrent9.ai|torrent9.cc|torrent9.cz|torrent9.gg|torrent9.io|torrent9.is|torrent9.me|torrent9.ninja|torrent9.nl|torrent9.nz|torrent9.ph|torrent9.pl|torrent9.si|torrent9.support|torrent9.to|torrent911.com|txxx.com|uppom.live|upvid.net|uqload.com|uqload.org|vidbem.com|vidbm.com|vidcloud9.com|vidembed.cc|vidembed.io|vidembed.me|videobin.co|vidlo.us|vidnext.net|vidnode.net|vidshar.tv|vidshare.tv|vidtod.com|vidtodo.com|voiranime.com|voirfilm-vf.com|voirfilms.bz|voirfilmshd.net|voirseries.io|vostfrserie.biz|vudeo.io|vudeo.net|vustream.co|watchseries.movie|wawacity.bz|wawacity.co|wawacity.ninja|wawacity.one|wawacity.vip|xfantazy.com|xfilesharing.com|yifyddl.co|yts.mx|yts.ws|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zone-annuaire.website|zone-annuaire.xyz|zone-telechargement.cool|zone-telechargement.ws|zt-protect.com|zt-protect.net|zt-za.com|zt-za.net
+$third-party,xmlhttprequest,domain=01fmovies.com|1fichier.com|2shrink.com|4anime.to|7-up.net|9xbuddy.app|9xbuddy.com|9xbuddy.org|9xupload.me|adblockstreamtape.art|adblockstreamtape.site|adshort.co|adshort.im|adshort.me|adshr.ink|adshrinks.com|agence-webside.fr|ahlamtv.com|allvid.ch|allvid.co|anavids.com|animecomplet.me|animecomplet.net|animecomplet.org|animemangaddl.com|animes-mangas-ddl.net|animevostfr.tv|annuaire-telechargement.com|annuaire-telechargement.net|arabramadan.com|arabseed.co|arabseed.com|arabseed.tv|avametrie.fr|bdupload.asia|cartoonwire.to|cestpasbien.pro|chrt.pw|cineiz.io|clicknupload.co|clicknupload.link|clicknupload.org|clicknupload.to|clicksfly.com|clik.pw|cloudvideo.tv|convertisseur-youtube-mp3.net|cpabien.co|cpabien.link|cpabien.ws|cpasbiens.to|cpasmieux.rip|dadyflix.co|daftsex.com|dailyuploads.net|databasegdriveplayer.co|datpiff.com|ddlfr.org|ddlfr.pw|direct-torrents.com|dl-protect.info|dl-protect1.com|downloadgameps3.com|downloadhub.cc|downloadhub.trade|downloadhub.wiki|dropapk.to|dz4link.com|dz4link1.com|dz4link2.xyz|ebookdz.com|ed-protect.org|embedezcast.com|ettv.to|ettvdl.com|europixhd.com|europixhd.net|exe.io|extreme-down.blue|extreme-down.in|extreme-down.link|extreme-down.live|extreme-down.ninja|extreme-down.one|extreme-down.plus|extreme-down.pro|extreme-down.site|extreme-down.top|extreme-down.tv|extreme-down.work|extreme-down.xyz|extreme-download.ninja|extreme-download.xyz|ezie.cc|fc.lc|file-up.org|file-upload.com|filerio.in|filescdn.com|filescdn.net|filmesonlinegratis.com|filmstoon.biz|filmstreaming1.in|filmstreaming1vf.co|filmstreamvf.com|filmstreamz.net|filmtelecharger.net|filmz.info|filmzenstream.to|flashx.net|flashx.pw|flowyourvideo.com|fmovies.cafe|fmovies.coffee|fmovies.love|fmovies.media|fmovies.name|fmovies.pub|fmovies.solar|fmovies.taxi|fmovies.to|fmovies.world|fmovies.wtf|force-download.com|force-download.es|force-download.fr|force-download.net|foumovies.net|free-telechargement.co|free-telechargement.org|free-telechargements.com|free-telecharger.com|free-telecharger.net|free-telecharger.org|free-telecharger.xyz|french-stream.re|french-stream.run|french-stream.so|fullanimefr.com|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|g5u.pw|gcloud.live|getlink.pro|getsl.me|getsurl.com|gktorrent.org|gktorrents.org|gledajonline.net|gogoanimes.tv|gogomovies.to|govid.me|gslink.co|gsurl.in|gsurl.me|guitare-luthier.fr|gum-gum-stream.tv|gum-gum-streaming.co|gum-gum-streaming.com|hdeuropix.io|hds-streaming.su|hdss-to.com|hdss.la|hdss.to|hdvid.fun|hdvid.online|hdvid.tv|hentai-paradise.fr|hindipix.in|holavid.com|ianimes.co|ianimes.org|ianimes.top|immunicity.st|indishare.me|insta-stories.com|ithepiratebay.com|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jawcloud.co|jetanimes.co|jetanimes.com|jeuxflash.com|jheberg.net|k-streaming.cc|k-streaming.ch|k-streaming.com|k-vid.co|k-vid.net|kshows.to|kvid.org|le-streaming.com|lecpasbien.com|lelscan-vf.co|lemondedekevin.fr|lemonlemag.fr|lepetitlecteur.fr|libertyvf.co|libertyvf.com|libertyvf.net|libertyvf.tv|liivideo.com|ling.online|lirescan.me|lirescan.net|macupload.net|mavanimes.cc|mavanimes.co|mega-p2p.net|mega-telechargements.com|mirrorace.com|movcloud.net|movies123.xyz|moviescounter.io|mp3-red.org|mp3-yt.com|mp3red.cc|mp3red.me|mvs4u.tv|novaflix.io|offmp3.app|offmp3.com|one-piece-streaming-vostfr.com|onion.ly|onion.pet|onvid.pw|openload.cc|openload.fun|otakufr.com|ouo.io|ouo.press|ovid.online|ovid.tv|ovid.xyz|oxtorrent.cc|oxtorrent.co|oxtorrent.com|oxtorrent.cx|oxtorrent.io|oxtorrent.me|oxtorrent.pw|papadustream.co|papstream.cc|papstream.co|papstream.com|papstream.info|papstream.net|papstream.xyz|pelisplus.online|piratebayblocked.com|piratebayproxies.cc|planet-streaming.net|planet-streaming1.com|protect-link.biz|protect-mylinks.com|protect-stream.com|ps4-torrent.ru|rent2016.fr|revivelink.com|sandup.co|scan-fr.cc|security-links.com|sendspace.com|series-en-streaming.xyz|series.movie|short.pe|sibnet.ru|site-de-streaming.com|smoner.com|snowfiles.com|sonyoutube.com|souqsky.net|strcloud.club|strcloud.link|stream-blog.org|stream4free.live|stream4free.top|streamay.co|streamcomplet3.tv|streamelite.net|streaminfr.com|streaming-french.com|streamingfrance.com|streamingfrance.net|streamingok.com|streamloverx.com|streamtape.cc|streamtape.com|streamtape.net|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamup.xyz|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.club|t9.pe|tazmovies.com|telerium.digital|telerium.tv|teleriumtv.com|teleriumtv.net|thepiratebay-proxylist.se|thepiratebay.vip|theproxy.how|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tirexo.club|tirexo.com|tntendirect.com|toncinema.online|toonanime.cc|toonanime.tv|topeuropix.com|topeuropix.net|torlock.com|torlock.icu|torlock2.com|torrent09.uno|torrent9.ac|torrent9.ai|torrent9.cc|torrent9.cz|torrent9.gg|torrent9.io|torrent9.is|torrent9.me|torrent9.ninja|torrent9.nl|torrent9.nz|torrent9.ph|torrent9.pl|torrent9.si|torrent9.support|torrent9.to|torrent911.com|txxx.com|uppom.live|upvid.net|uqload.com|uqload.org|vidbem.com|vidbm.com|vidcloud9.com|vidembed.cc|vidembed.io|vidembed.me|videobin.co|vidlo.us|vidnext.net|vidnode.net|vidshar.tv|vidshare.tv|vidtod.com|vidtodo.com|voiranime.com|voirfilm-vf.com|voirfilms.bz|voirfilmshd.net|voirseries.io|vostfrserie.biz|vudeo.io|vudeo.net|vustream.co|watchseries.movie|wawacity.bz|wawacity.co|wawacity.ninja|wawacity.one|wawacity.vip|xfantazy.com|xfilesharing.com|yifyddl.co|yts.mx|yts.ws|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zone-annuaire.website|zone-annuaire.xyz|zone-telechargement.cool|zone-telechargement.ws|zt-protect.com|zt-protect.net|zt-za.com|zt-za.net
 $xmlhttprequest,domain=alltube.pl|alltube.tv|ayefiles.com|centrum-dramy.pl|collegehumor.com|ddmix.net|dekoder.ws|sillonsdeculture.fr|sorteosrd.com|streambeam.io|szukajka.tv|tainies.online|torrentfunk.com|tpbprox.com|tusfiles.com|tusfiles.net|uii.io|ukpass.co|unblockall.org|unblocked.app|unblocked.bid|unblocked.gdn|unblocked.is|unblocked.lc|unblocked.ms|unblocked.st|unblocked.wtf|unblocked2.fun|unblocked2.vip|unblockit.dev|unblockproject.icu|unblockproject.info|unblockthe.net|universanimeize.com|up-load.io|upload4earn.org|uploadbyte.com|uploads.to|uppit.com|urle.co|vev.io|vev.red|vidfile.net|vidon.club|vidon.xyz|vidop.icu|vidsrc.me|vidup.io|vidup.tv|viva-stream.info|viva-stream.net|voirseries.co|vup.to|yalla-shoot.com|zone-films.stream|zone-telechargement2.net|zone-telechargements.com
 $image,third-party,domain=adshr.ink|adshrinks.com|bdupload.asia|chrt.pw|clik.pw|file-up.org|filerio.in|filescdn.com|filescdn.net|g5u.pw|getsurl.com|gslink.co|gsurl.in|gsurl.me|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|lepetitlecteur.fr|ling.online|ouo.io|ouo.press|protect-mylinks.com|short.pe|tusfiles.com|tusfiles.net|uii.io|uploads.to|uppit.com|urle.co|vidbem.com|videobin.co|vidsrc.me|voiranime.com|vup.to
-$popup,third-party,domain=allmyvideos.net|allvid.co|ceesty.com|cestpasbien.pro|clkme.me|clkmein.com|cllkme.com|corneey.com|cpabien.co|cpasbiens.to|daclips.com|destyy.com|festyy.com|gestyy.com|gktorrent.biz|gktorrent.co|gktorrent.io|gktorrent.tv|gktorrents.net|guitare-luthier.fr|hds-cpasbien.com|lecpasbien.com|lemondedekevin.fr|lemonlemag.fr|lirescan.me|lirescan.net|nincontent.com|oxtorrent.cc|oxtorrent.co|oxtorrent.com|oxtorrent.cx|oxtorrent.io|rent2016.fr|sendspace.com|sh.st|shorte.st|skiip.me|skipp.io|so.gd|t9.pe|torrent09.uno|torrent9.cc|torrent9.gg|torrent9.io|torrent9.is|torrent9.me|torrent9.nz|torrent9.ph|torrent9.pl|torrent9.si|torrent9.support|torrent9.to|torrent911.com|vudeo.io|vudeo.net|yourvid.io|zo3x.com
+$popup,third-party,domain=allmyvideos.net|allvid.co|ceesty.com|cestpasbien.pro|clkme.me|clkmein.com|cllkme.com|corneey.com|cpabien.co|cpasbiens.to|daclips.com|destyy.com|festyy.com|gestyy.com|guitare-luthier.fr|hds-cpasbien.com|lecpasbien.com|lemondedekevin.fr|lemonlemag.fr|lirescan.me|lirescan.net|nincontent.com|oxtorrent.cc|oxtorrent.co|oxtorrent.com|oxtorrent.cx|oxtorrent.io|rent2016.fr|sendspace.com|sh.st|shorte.st|skiip.me|skipp.io|so.gd|t9.pe|torrent09.uno|torrent9.cc|torrent9.gg|torrent9.io|torrent9.is|torrent9.me|torrent9.nz|torrent9.ph|torrent9.pl|torrent9.si|torrent9.support|torrent9.to|torrent911.com|vudeo.io|vudeo.net|yourvid.io|zo3x.com
 $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshrinks.com|ahlamtv.com|animecomplet.me|animecomplet.net|animecomplet.org|annuaire-telechargement.com|annuaire-telechargement.net|chrt.pw|clik.pw|cloudvideo.tv|cloudy.ec|daclips.com|dailyuploads.net|dl-protect1.com|ed-protect.org|extreme-down.plus|extreme-down.site|fcine.tv|file-up.org|file-upload.com|filescdn.com|filescdn.net|filmstreamvf.com|filmstreamz.net|filmtelecharger.net|french-stream.re|french-stream.run|french-stream.so|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|g5u.pw|getsl.me|getsurl.com|gnula.nu|gogoanimes.tv|gslink.co|gsurl.in|gsurl.me|hdss.la|immunicity.st|indishare.me|insta-stories.com|ithepiratebay.com|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|jawcloud.co|jetanimes.com|k-vid.co|k-vid.net|kissanime.ru|kshows.to|libertyvf.co|libertyvf.com|libertyvf.net|libertyvf.tv|ling.online|linkcaptcha.net|mavanimes.cc|mavanimes.co|mega-p2p.net|mega-telechargements.com|mp3-red.org|mp3red.cc|mp3red.me|onion.ly|onion.pet|openload.cc|openload.fun|papstream.co|papstream.com|papstream.net|papstream.xyz|piratebayblocked.com|piratebayproxies.cc|planet-streaming.net|protect-link.biz|protect-mylinks.com|protect-stream.com|revivelink.com|sandup.co|security-links.com|sendit.cloud|short.pe|site-de-streaming.com|sonyoutube.com|streaming-french.com|streamingfrance.net|streamzt.com|thepiratebay-proxylist.se|thepiratebay.vip|tntendirect.com|toonanime.cc|tpbprox.com|uii.io|ukpass.co|unblockall.org|unblocked.app|unblocked.bid|unblocked.gdn|unblocked.is|unblocked.lc|unblocked.ms|unblocked.st|unblocked.wtf|unblocked2.vip|unblockit.dev|unblockproject.icu|unblockproject.info|unblockthe.net|up-load.io|upvid.net|vidbem.com|videobin.co|vidnode.net|vidsrc.me|viva-stream.info|viva-stream.net|voiranime.com|voirseries.io|vostfrserie.biz|vup.to|yalla-shoot.com|zone-telechargement.ws|zone-telechargement2.net|zone-telechargements.com
 .php$script,domain=activetect.net|adf.ly|android-zone.org|anime-loads.org|atabencot.net|atomcurve.com|atominik.com|ay.gy|babblecase.com|babesxworld.com|bitigee.com|bluenik.com|brightvar.bid|casualient.com|cinebo.net|cocogals.com|coginator.com|cogismith.com|cracksurl.com|filmcomplet.biz|filmcomplet.in|filmcomplet.vip|filmstreamvf.com|gamecopyworld.click|gamecopyworld.eu|hdmoza.com|imgdrive.net|imgskull.com|j.gs|kaitect.com|kializer.com|kibuilder.com|kimechanic.com|larati.net|microify.com|mmoity.com|picocurl.com|picons.eu|pintient.com|planet-streaming.net|planet-streaming1.com|q.gs|quainator.com|quamiller.com|queuecosm.bid|replaymod.com|riffhold.com|sapixmedia.com|simizer.com|skamaker.com|skamason.com|swiftviz.net|thouth.net|tinyium.com|twineer.com|viahold.com|vializer.com|viwright.com|yabuilder.com|yamechanic.com|yoalizer.com|yobuilder.com|yoineer.com|yoitect.com|zipansion.com|zo.ee
 /license.$domain=amateurfrancais.com|sexefelin.com|tootx.com|tubixe.com|twistedporn.com|vidsexe.com|webchoc.com
 /script.$domain=amateurfrancais.com|sexefelin.com|tootx.com|tubixe.com|twistedporn.com|vidsexe.com|webchoc.com
 /scriptpop.$domain=amateurfrancais.com|sexefelin.com|tootx.com|tubixe.com|twistedporn.com|vidsexe.com|webchoc.com
-/sw.js$domain=1337x.st|1337x.to|1377x.to|2shrink.com|9anime.to|9xbuddy.app|9xbuddy.com|9xbuddy.org|adshr.ink|adshrinks.com|adsrt.me|almstba.tv|animemangaddl.com|animes-mangas-ddl.net|annuaire-telechargement.com|annuaire-telechargement.net|arabseed.co|arabseed.com|arabseed.me|arabseed.tv|bagas31.info|bdupload.asia|bestfreecams.club|cartoonhd.co|chrt.pw|clicknupload.co|clicknupload.link|clicknupload.org|clicknupload.to|clicksfly.com|clk.sh|cloudvideo.tv|cut1.cf|daftsex.com|dailyuploads.net|desiupload.in|dl-protect.info|dl-protect1.com|downloadhub.cc|downloadhub.trade|downloadhub.wiki|downloadpirate.com|dropapk.to|eio.io|emotionvideo-tv.com|file-up.org|filerio.in|freevideos24h.com|g5u.pw|getlink.pro|getsl.me|gifsis.com|gktorrent.biz|gktorrent.io|gomovies.film|gomovies.guru|gomovies.sc|gomovieshub.io|gostream.nu|gostreams.net|gslink.co|gsurl.in|gsurl.me|hawak.tv|hdvid.fun|hdvid.online|hdvid.tv|indishare.org|intoupload.net|islyce.com|islyce.gq|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|keeplinks.co|licensekey.net|ling.online|mealip.com|megaurl.in|mevio.me|moviescrush.co|multiup.eu|multiup.org|offmp3.app|offmp3.com|okanime.com|oko.sh|onvid.pw|openloadmovies.ac|openloadmovies.net|openloadmovies.review|ovid.online|ovid.tv|ovid.xyz|pastepub.com|patchsoftwares.com|pelispedia24.tv|pslfive.com|putlocker.ninja|rotana.video|sadeempc.com|sendspace.com|serie-en-streaming.co|sexu.com|short.pe|solarporn.net|sonyoutube.com|sss.xxx|stream-serie.cc|stream2watch.org|streamay.co|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tntendirect.com|uii.io|universanimeize.com|up-load.io|upload.ac|upload4earn.org|uploadbyte.com|uploadproper.com|uploadproper.net|uploadrar.com|vev.io|vev.red|vidon.club|vidon.xyz|vidop.icu|vidup.io|vidup.tv|voir-films.com|vosbooks.tv|vustream.co|world4ufree.best|world4ufree.fun|wstreaming.net|x1337x.eu|x1337x.se|x1337x.ws|zippyshare.com|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zone-telechargement.ws|zt-za.com|zt-za.net
+/sw.js$domain=1337x.st|1337x.to|1377x.to|2shrink.com|9anime.to|9xbuddy.app|9xbuddy.com|9xbuddy.org|adshr.ink|adshrinks.com|adsrt.me|almstba.tv|animemangaddl.com|animes-mangas-ddl.net|annuaire-telechargement.com|annuaire-telechargement.net|arabseed.co|arabseed.com|arabseed.me|arabseed.tv|bagas31.info|bdupload.asia|bestfreecams.club|cartoonhd.co|chrt.pw|clicknupload.co|clicknupload.link|clicknupload.org|clicknupload.to|clicksfly.com|clk.sh|cloudvideo.tv|cut1.cf|daftsex.com|dailyuploads.net|desiupload.in|dl-protect.info|dl-protect1.com|downloadhub.cc|downloadhub.trade|downloadhub.wiki|downloadpirate.com|dropapk.to|eio.io|emotionvideo-tv.com|file-up.org|filerio.in|freevideos24h.com|g5u.pw|getlink.pro|getsl.me|gifsis.com|gomovies.film|gomovies.guru|gomovies.sc|gomovieshub.io|gostream.nu|gostreams.net|gslink.co|gsurl.in|gsurl.me|hawak.tv|hdvid.fun|hdvid.online|hdvid.tv|indishare.org|intoupload.net|islyce.com|islyce.gq|japscan.cc|japscan.com|japscan.se|japscan.to|japscan.ws|keeplinks.co|licensekey.net|ling.online|mealip.com|megaurl.in|mevio.me|moviescrush.co|multiup.eu|multiup.org|offmp3.app|offmp3.com|okanime.com|oko.sh|onvid.pw|openloadmovies.ac|openloadmovies.net|openloadmovies.review|ovid.online|ovid.tv|ovid.xyz|pastepub.com|patchsoftwares.com|pelispedia24.tv|pslfive.com|putlocker.ninja|rotana.video|sadeempc.com|sendspace.com|serie-en-streaming.co|sexu.com|short.pe|solarporn.net|sonyoutube.com|sss.xxx|stream-serie.cc|stream2watch.org|streamay.co|thevideo.ch|thevideo.io|thevideo.me|thevideo.us|tntendirect.com|uii.io|universanimeize.com|up-load.io|upload.ac|upload4earn.org|uploadbyte.com|uploadproper.com|uploadproper.net|uploadrar.com|vev.io|vev.red|vidon.club|vidon.xyz|vidop.icu|vidup.io|vidup.tv|voir-films.com|vosbooks.tv|vustream.co|world4ufree.best|world4ufree.fun|wstreaming.net|x1337x.eu|x1337x.se|x1337x.ws|zippyshare.com|zone-annuaire.casa|zone-annuaire.com|zone-annuaire.top|zone-telechargement.ws|zt-za.com|zt-za.net
 ||000webhost.com/migrate?$third-party
 ||10-81.s.cdn15.com/cr/38440/
 ||11footballclub.com/equipe/
@@ -14827,7 +14901,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||blumei-piano.com/wp-content/themes/*/mylists.js
 ||boiteajeux.net/img/pub/
 ||bongacams.com/load-promo/
-||bonne-affaire.ma/images/darna.ma.png
 ||bonplanphoto.fr/wp-content/uploads/*/background-
 ||bonporn.com/iframext/
 ||bons-plans-elise.fr/wp-content/uploads/$third-party
@@ -19553,6 +19626,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##[onclick*="friendlyduck.com/AF_"]
 ##[onclick*="http://www.affbuzzads.com/affiliate/"]
 ##[onclick^="window.open('http://adserver.sejt.com/"]
+##[onclick^="window.open('https://vpn-offers.org/"]
 ##[slot-id^="div-gpt-ad-"]
 ##a > #bg-ad
 ##a[class^="adsbutt_"]
@@ -19792,6 +19866,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##a[href^="http://click.union.ucweb.com/"]
 ##a[href^="http://clicks.totemcash.com/"]
 ##a[href^="http://clicks.toteme.com/"]
+##a[href^="http://com-1.pro/"]
 ##a[href^="http://downloadity.net/"]
 ##a[href^="http://earth-111.com/"]
 ##a[href^="http://fave.co/"]
@@ -20212,7 +20287,7 @@ renovationettravaux.fr###cboxOverlay
 ecranlarge.com###cgSidebarATF1
 wanarun.net###chaussuresCarousel
 sitedesmarques.com###check-also-box
-jetanimes.com###clickfakeplayer
+hds-streaming.su,jetanimes.com###clickfakeplayer
 bricozone.be###clktable
 bricozone.be###clktableb
 tukif.com###co_sponsor
@@ -20541,6 +20616,7 @@ ruedesjoueurs.com###supersticiel
 portail.free.fr###surleweb
 brain-magazine.fr###t_logo_pub
 dinogaia.com###tableau_info
+lelmanga.com###teaser3
 psthc.fr###thc_amz_content
 quick-tutoriel.com###the-post .warning
 phpsources.org###titre_librairie
@@ -20575,6 +20651,7 @@ verif.com###verif_pub_vignette
 europages.fr###vipBox
 systemed.fr###vitrineFabricants
 sibnet.ru###vjs-overlayclip-container-box
+gktorrents.org###vpnvpn
 vivastreet.com###vs-summary-300x250
 rtl.be###w-leaderboard
 marocannonces.com###wafasalf
@@ -21445,15 +21522,15 @@ zdnet.fr##a[data-track-action="partners_traffic_drivers"]
 zdnet.fr##a[data-track-category="powercenter"]
 torrent9.gg,torrent9.is,torrent9.si,torrent9.to,yggtorrent.co,yggtorrent.me##a[href$="/"]
 thebadbuzz.com##a[href$="/boost.php"]
-gktorrents.net,hdss.la,lemondedekevin.fr,torrent9.gg,torrent9.is,torrent9.si,torrent999.com,x1337x.ws##a[href*=" "]
+hdss.la,lemondedekevin.fr,torrent9.gg,torrent9.is,torrent9.si,torrent999.com,x1337x.ws##a[href*=" "]
 sante-nutrition.org##a[href*="&pos="]
 audiofanzine.com##a[href*="&ref="]
 free-reseau.fr##a[href*="&tag=freereseaufr-"]
 3dnatives.com,audiofanzine.com,lesimprimantes3d.fr##a[href*="&utm_"]
 meilleures-grandes-ecoles.com,meilleures-licences.com,meilleurs-masters.com##a[href*="&utm_campaign="]
-dcraddock.uk,gktorrents.net,torrent9.gg,torrent9.is,torrent9.si,torrent999.com##a[href*="+"]
+dcraddock.uk,torrent9.gg,torrent9.is,torrent9.si,torrent999.com##a[href*="+"]
 streaming-series.me##a[href*=".html"]
-1001ebooks.com,1337x.st,1337x.to,agence-webside.fr,amairgil.cz,arciam.fr,cpasbien.gg,dadyflix.co,dpstreaming.to,espace-ehce.fr,extreme-down.blue,extreme-down.plus,extreme-down.site,film01stream.com,filmcomplet.in,filmcomplet.vip,filmgratuit.net,films-telecharger.eu,filmstreaming1.in,filmzenstream.cloud,filmzenstream.xyz,free-telecharger.net,free-telecharger.org,free-telecharger.xyz,fullstream.plus,gktorrents.net,guitare-luthier.fr,hdss.la,illimitestreaming.net,lemondedekevin.fr,lemonlemag.fr,moulins-de-flandre.fr,nemours-medieval.fr,oxtorrent.cc,oxtorrent.co,oxtorrent9.com,papadustream.co,papstream.cc,papystreaming.black,papystreaming.stream,planet-streaming1.com,planetevideos.xyz,protect-stream.com,rent2016.fr,sawstream.com,serie-streaming.watch,series-en-streaming.xyz,sillonsdeculture.fr,sokrostream.tube,streaming-films-hd.com,streamonsport.club,streamonsport.net,superchataigne2017.fr,topsddns.net,torrent9-super.com,torrent9.si,torrent9.to,torrent911.com,torrent9ph.fr,torrent9uno.fr,vfcomplet.vip,voir-films-series.com,voirfilm-vf.com,voirfilm.top,voirfilmstreaming.tv,wawacity.one,wo2viral.com,x1337x.eu,x1337x.se,x1337x.ws,yggtorrent.co,youwatch-serie.com,youwatch-series.com,zone-annuaire.xyz##a[href*=".php"]
+1001ebooks.com,1337x.st,1337x.to,agence-webside.fr,amairgil.cz,arciam.fr,cpasbien.gg,dadyflix.co,dpstreaming.to,espace-ehce.fr,extreme-down.blue,extreme-down.plus,extreme-down.site,film01stream.com,filmcomplet.in,filmcomplet.vip,filmgratuit.net,films-telecharger.eu,filmstreaming1.in,filmzenstream.cloud,filmzenstream.xyz,free-telecharger.net,free-telecharger.org,free-telecharger.xyz,fullstream.plus,gktorrents.org,guitare-luthier.fr,hdss.la,illimitestreaming.net,lemondedekevin.fr,lemonlemag.fr,moulins-de-flandre.fr,nemours-medieval.fr,oxtorrent.cc,oxtorrent.co,oxtorrent9.com,papadustream.co,papstream.cc,papystreaming.black,papystreaming.stream,planet-streaming1.com,planetevideos.xyz,protect-stream.com,rent2016.fr,sawstream.com,serie-streaming.watch,series-en-streaming.xyz,sillonsdeculture.fr,sokrostream.tube,streaming-films-hd.com,streamonsport.club,streamonsport.net,superchataigne2017.fr,topsddns.net,torrent9-super.com,torrent9.si,torrent9.to,torrent911.com,torrent9ph.fr,torrent9uno.fr,vfcomplet.vip,voir-films-series.com,voirfilm-vf.com,voirfilm.top,voirfilmstreaming.tv,wawacity.one,wo2viral.com,x1337x.eu,x1337x.se,x1337x.ws,yggtorrent.co,youwatch-serie.com,youwatch-series.com,zone-annuaire.xyz##a[href*=".php"]
 leparticulier.fr,paruvendu.fr##a[href*=".xiti.com/go.click?"]
 meilleurs-hebergeurs.com##a[href*="/-"] > img
 7-up.net,abidjan.net,algerie-eco.com,algerie-focus.com,algerie360.com,bigbike-magazine.com,bismirabbika.com,brain-magazine.fr,cnetfrance.fr,coran-francais.com,doukkalia.press.ma,filmstreaming.la,grimper.com,hentai-paradise.fr,hentaifr.net,igen.fr,internetparsatellite.net,kiteboarder-mag.com,ktotv.com,lebonfap.com,letagparfait.com,macg.co,montagnes-magazine.com,mubawab.ma,nintendo-master.com,niveales.com,portail.free.fr,public.fr,skieur.com,skimagazine.fr,snowsurf.com,streaming-one.com,supmag.fr,tahiti-infos.com,telecharger-jeuxpc.fr,telesatellite.com,topito.com,torrent9.si,trekmag.com,unleashed.fr,upload.ac,urlcero.net,vakarm.net,watchgeneration.fr,widermag.com,windmag.com##a[href*="//bit.ly/"]
@@ -21826,7 +21903,7 @@ allocine.fr#?#.news-card:-abp-contains(Sponsorisé)
 allocine.fr#?#.video-card-trailer:-abp-has([class*="sponso"])
 allocine.fr#?#.video-card:-abp-has([class*="sponso"])
 android-mt.com#?#.boutonlink:-abp-has(a:-abp-contains(/VPN|rencontre/))
-annuaire-telechargement.net,extreme-down.blue,extreme-down.plus,extreme-down.site,extreme-down.tv,free-telecharger.net,free-telecharger.xyz,gktorrents.net,torrent9.gg,torrent9.is,torrent9.nl,torrent9.si,torrent911.com,zt-za.com,zt-za.net#?#a:-abp-contains(/ANONYME|Anonyme|anonyme|PREMIUM|Premium|RAPIDE|Rapide|Usenet|VPN|Vpn/)
+annuaire-telechargement.net,extreme-down.blue,extreme-down.plus,extreme-down.site,extreme-down.tv,free-telecharger.net,free-telecharger.xyz,gktorrents.org,torrent9.gg,torrent9.is,torrent9.nl,torrent9.si,torrent911.com,zt-za.com,zt-za.net#?#a:-abp-contains(/ANONYME|Anonyme|anonyme|PREMIUM|Premium|RAPIDE|Rapide|Usenet|VPN|Vpn/)
 betaseries.com#?#.blockSearch:-abp-has(.adsbygoogle)
 blogdumoderateur.com#?#.breve:-abp-has(.breve-info:-abp-contains(Sponsorisé))
 blogdumoderateur.com#?#.sticky:-abp-has(.sponsorise)
@@ -21855,8 +21932,8 @@ frandroid.com#?#div[id^="i"][class^="i"]:-abp-has(.aligot-icon)
 futura-sciences.com#?#.postcontainer:-abp-has(.username:-abp-contains(Publicité))
 gameblog.fr#?#.highlight-item:-abp-has(.word-wrapper:-abp-contains(sponso))
 gameblog.fr#?#.item.full.gameblog:-abp-has(.post-details:-abp-contains(sponsorisé))
-gktorrents.net,torrent9.gg,torrent9.is,torrent9.nl,torrent9.si,torrent911.com#?#div[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
-gktorrents.net,torrent9.gg,torrent9.is,torrent9.nl,torrent9.si,torrent911.com#?#table[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
+gktorrents.org,torrent9.gg,torrent9.is,torrent9.nl,torrent9.si,torrent911.com#?#div[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
+gktorrents.org,torrent9.gg,torrent9.is,torrent9.nl,torrent9.si,torrent911.com#?#table[style]:-abp-contains(/ANONYME|Anonyme|anonyme|Usenet|VPN|Vpn/)
 hitek.fr#?#.news-bloc:-abp-has(.article-type:-abp-contains(Sponsorisé))
 homify.fr#?#.photo__m:-abp-has(.top-label)
 homify.fr#?#.premium-card:-abp-has(.top-label)
@@ -21961,6 +22038,7 @@ heures.be,hours.be,openingstijdengids.nl,openingsurengids.be##a[class^="aff"]
 @@||aw-experience.com/banners/b0.png
 @@||bannieres.telethon.fr/compteurs/$image,subdocument
 @@||bibed-concept.com/modules/blockadvertising/advertising_custom.jpg
+@@||bitchute.com/static/*/js/monetization.js$script,~third-party
 @@||bourgogne-publicite.com/jeuxconcours/_bienpublic/$image,domain=bienpublic.com
 @@||bs.serving-sys.com/Serving/adServer.bs?$popup,domain=guide-epargne.be
 @@||cdn.adsafeprotected.com/iasPET.$script,domain=gentside.com|maxisciences.com|ohmymag.com
@@ -22049,19 +22127,19 @@ heures.be,hours.be,openingstijdengids.nl,openingsurengids.be##a[class^="aff"]
 @@||ab.9xbud.com/extract|$xmlhttprequest,domain=9xbuddy.org
 @@||ab.9xbud.com/token|$xmlhttprequest,domain=9xbuddy.org
 @@||ajax.aspnetcdn.com/ajax/$script,domain=downlink.top
-@@||ajax.googleapis.com/ajax/libs/$script,domain=4anime.to|9anime.to|9xbuddy.com|9xbuddy.org|9xlinks.net|activetect.net|adf.ly|adshr.ink|adshrinks.com|american-dad-streaming.com|android-zone.org|anime-loads.org|animekaizoku.com|animevostfr.tv|anitube.cx|anitube.cz|atabencot.net|atomcurve.com|atominik.com|ay.gy|babblecase.com|bitigee.com|bluenik.com|brightvar.bid|cartoonwire.to|casualient.com|cinebo.net|coginator.com|cogismith.com|cracksurl.com|crichd.com|crichd.to|crichd.xyz|dailysport.pw|dailyuploads.net|databasegdriveplayer.co|direct-torrents.com|dl-protect1.com|downloadgameps3.com|ed-protect.org|eplstream.xyz|espn-live.stream|europixhd.com|europixhd.net|ezie.cc|fcine.tv|file-up.org|filmpornofrancais.fr|filmstreamz.net|flowyourvideo.com|foumovies.net|fr-streaming.com|fullanimefr.com|g5u.pw|gamecopyworld.eu|gdriveplayer.me|gdriveplayer.us|getlink.pro|getsl.me|getsurl.com|gktorrents.net|gledajonline.net|gloyah.net|gnula.nu|gogomovies.to|gomostream.com|gsurl.in|gsurl.me|gum-gum-streaming.com|haloani.ru|hdeuropix.io|hdss.la|heures.be|hindipix.in|hours.be|illimitestreaming.net|immunicity.st|ithepiratebay.com|j.gs|jeuxflash.com|kaitect.com|kializer.com|kibuilder.com|kickassanime.rs|kimechanic.com|kinogo.cc|kinotochka.club|kvid.org|larati.net|lelscan-vf.co|magnet4you.me|manga-vf.fr|mavanimes.cc|mavanimes.co|mcloud.to|mcloud2.to|microify.com|mmoity.com|moviescounter.io|mp3converter.net|offmp3.app|offmp3.com|onion.ly|onion.pet|openingstijdengids.nl|openingsurengids.be|ouo.io|ouo.press|picocurl.com|picons.eu|pintient.com|piratebayblocked.com|player.freebiesforyou.net|prettyfast.to|protect-stream.com|proxybay.buzz|q.gs|quainator.com|quamiller.com|queuecosm.bid|replaymod.com|revivelink.com|riffhold.com|sapixmedia.com|security-links.com|shahidlive.co|shink.me|shon.xyz|simizer.com|simpson-en-streaming.com|skamaker.com|skamason.com|softmaroc.org|stream-vf.com|stream4free.live|streamelite.net|streamlive.to|streamzt.com|swiftviz.net|telerium.digital|telerium.tv|teleriumtv.com|the-big-bang-theory-streaming.net|thepiratebay.vip|thouth.net|tinyium.com|toonanime.cc|toonanime.tv|toonanime.xyz|topeuropix.com|topeuropix.net|torrent9.gg|torrent9.nl|torrent9.si|torrent911.com|torrentdownload.info|tpbprox.com|twineer.com|ukpass.co|unblockall.org|unblocked2.fun|unblocked2.vip|unblockthe.net|universanimeize.com|uppit.com|uppom.live|viahold.com|vializer.com|vidsource.me|vidsrc.me|viva-stream.net|viwright.com|voirfilmshd.net|vostfrserie.net|waaw.tv|waaw1.tv|wawacity.one|xfilesharing.com|yabuilder.com|yamechanic.com|yoalizer.com|yobuilder.com|yoineer.com|yoitect.com|zipansion.com|zo.ee
+@@||ajax.googleapis.com/ajax/libs/$script,domain=4anime.to|9anime.to|9xbuddy.com|9xbuddy.org|9xlinks.net|activetect.net|adf.ly|adshr.ink|adshrinks.com|american-dad-streaming.com|android-zone.org|anime-loads.org|animekaizoku.com|animevostfr.tv|anitube.cx|anitube.cz|atabencot.net|atomcurve.com|atominik.com|ay.gy|babblecase.com|bitigee.com|bluenik.com|brightvar.bid|cartoonwire.to|casualient.com|cinebo.net|coginator.com|cogismith.com|cracksurl.com|crichd.com|crichd.to|crichd.xyz|dailysport.pw|dailyuploads.net|databasegdriveplayer.co|direct-torrents.com|dl-protect1.com|downloadgameps3.com|ed-protect.org|eplstream.xyz|espn-live.stream|europixhd.com|europixhd.net|ezie.cc|fcine.tv|file-up.org|filmpornofrancais.fr|filmstreamz.net|flowyourvideo.com|foumovies.net|fr-streaming.com|fullanimefr.com|g5u.pw|gamecopyworld.eu|gdriveplayer.me|gdriveplayer.us|getlink.pro|getsl.me|getsurl.com|gktorrents.org|gledajonline.net|gloyah.net|gnula.nu|gogomovies.to|gomostream.com|gsurl.in|gsurl.me|gum-gum-streaming.com|haloani.ru|hdeuropix.io|hdss.la|heures.be|hindipix.in|hours.be|illimitestreaming.net|immunicity.st|ithepiratebay.com|j.gs|jeuxflash.com|kaitect.com|kializer.com|kibuilder.com|kickassanime.rs|kimechanic.com|kinogo.cc|kinotochka.club|kvid.org|larati.net|lelscan-vf.co|magnet4you.me|manga-vf.fr|mavanimes.cc|mavanimes.co|mcloud.to|mcloud2.to|microify.com|mmoity.com|moviescounter.io|mp3converter.net|offmp3.app|offmp3.com|onion.ly|onion.pet|openingstijdengids.nl|openingsurengids.be|ouo.io|ouo.press|picocurl.com|picons.eu|pintient.com|piratebayblocked.com|player.freebiesforyou.net|prettyfast.to|protect-stream.com|proxybay.buzz|q.gs|quainator.com|quamiller.com|queuecosm.bid|replaymod.com|revivelink.com|riffhold.com|sapixmedia.com|security-links.com|shahidlive.co|shink.me|shon.xyz|simizer.com|simpson-en-streaming.com|skamaker.com|skamason.com|softmaroc.org|stream-vf.com|stream4free.live|streamelite.net|streamlive.to|streamzt.com|swiftviz.net|telerium.digital|telerium.tv|teleriumtv.com|the-big-bang-theory-streaming.net|thepiratebay.vip|theproxy.how|thouth.net|tinyium.com|toonanime.cc|toonanime.tv|toonanime.xyz|topeuropix.com|topeuropix.net|torrent9.gg|torrent9.nl|torrent9.si|torrent911.com|torrentdownload.info|tpbprox.com|twineer.com|ukpass.co|unblockall.org|unblocked2.fun|unblocked2.vip|unblockthe.net|universanimeize.com|uppit.com|uppom.live|viahold.com|vializer.com|vidsource.me|vidsrc.me|viva-stream.net|viwright.com|voirfilmshd.net|vostfrserie.net|waaw.tv|waaw1.tv|wawacity.one|xfilesharing.com|yabuilder.com|yamechanic.com|yoalizer.com|yobuilder.com|yoineer.com|yoitect.com|zipansion.com|zo.ee
 @@||api-secure.solvemedia.com/papi/$image,script,domain=clik.pw
-@@||bootstrapcdn.com^$script,stylesheet,domain=7-up.net|american-dad-streaming.com|anitube.cx|anitube.cz|clicknupload.to|dailysport.pw|direct-torrents.com|eplstream.xyz|ettvdl.com|europixhd.com|europixhd.net|evoload.io|ezie.cc|filerio.in|fullanimefr.com|gktorrents.net|gledajonline.net|hdeuropix.io|hdss.la|hindipix.in|indishare.org|insta-stories.com|ithepiratebay.com|lirescan.me|manga-vf.fr|mavanimes.cc|mavanimes.co|mp3converter.net|onion.ly|onion.pet|piratebayblocked.com|protect-stream.com|proxybay.buzz|shahidlive.co|simpson-en-streaming.com|snowfiles.com|sonyoutube.com|streamingfrance.com|the-big-bang-theory-streaming.net|thepiratebay.vip|topeuropix.com|topeuropix.net|torrent9.nl|torrent9.si|torrent911.com|tpbprox.com|ukpass.co|unblockproject.icu|unblockproject.info|unblockthe.net|uploadbyte.com|uploadrar.com|uppom.live|xfilesharing.com
+@@||bootstrapcdn.com^$script,stylesheet,domain=7-up.net|american-dad-streaming.com|anitube.cx|anitube.cz|clicknupload.to|dailysport.pw|direct-torrents.com|eplstream.xyz|ettvdl.com|europixhd.com|europixhd.net|evoload.io|ezie.cc|filerio.in|fullanimefr.com|gktorrents.org|gledajonline.net|hdeuropix.io|hdss.la|hindipix.in|indishare.org|insta-stories.com|ithepiratebay.com|lirescan.me|manga-vf.fr|mavanimes.cc|mavanimes.co|mp3converter.net|onion.ly|onion.pet|piratebayblocked.com|protect-stream.com|proxybay.buzz|shahidlive.co|simpson-en-streaming.com|snowfiles.com|sonyoutube.com|streamingfrance.com|the-big-bang-theory-streaming.net|thepiratebay.vip|theproxy.how|topeuropix.com|topeuropix.net|torrent9.nl|torrent9.si|torrent911.com|tpbprox.com|ukpass.co|unblockproject.icu|unblockproject.info|unblockthe.net|uploadbyte.com|uploadrar.com|uppom.live|xfilesharing.com
 @@||cdn.fluidplayer.com^*/current/$script,domain=filmpornofrancais.fr
-@@||cdn.jsdelivr.net^$script,stylesheet,domain=7-up.net|dailysport.pw|databasegdriveplayer.co|eplstream.xyz|espn-live.stream|evoload.io|extratorrent.si|hentai-paradise.fr|jetload.net|stream4free.live|streamcdn.to|streaming-french.com|telerium.digital|teleriumtv.com|videobin.co|voirseries.io|waaw.tv|waaw1.tv
+@@||cdn.jsdelivr.net^$script,stylesheet,domain=7-up.net|dailysport.pw|databasegdriveplayer.co|eplstream.xyz|espn-live.stream|evoload.io|extratorrent.si|hentai-paradise.fr|jetload.net|lelmanga.com|stream4free.live|streamcdn.to|streaming-french.com|telerium.digital|teleriumtv.com|theproxy.how|videobin.co|voirseries.io|waaw.tv|waaw1.tv
 @@||cdn.jwplayer.com/libraries/$script,domain=filmstreaming-vf.online|movcloud.net
 @@||cdn.statically.io/img/$image,domain=japscan.ws
 @@||cdn.streamroot.io^$script,domain=jetload.net
 @@||cdn.vdosupreme.com/vdo.$script,domain=supervideo.tv
 @@||cdncv.net/hls/$xmlhttprequest,domain=cloudvideo.tv
-@@||cloudflare.com/ajax/libs/$script,stylesheet,domain=11anim.com|7-up.net|activetect.net|adf.ly|adshr.ink|adshrinks.com|android-zone.org|anime-loads.org|arabseed.com|atabencot.net|atomcurve.com|atominik.com|ay.gy|babblecase.com|bitigee.com|bluenik.com|brightvar.bid|casualient.com|cinebo.net|cloudemb.com|coginator.com|cogismith.com|convertinmp4.com|cpmlink.net|cracksurl.com|databasegdriveplayer.co|dood.la|dood.ws|doodstream.co|doodstream.com|espn-live.stream|evoload.io|ezie.cc|fcine.tv|file-up.org|file-upload.com|file-upload.net|filmenfr.com|filmstreaming-vf.online|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|gamecopyworld.eu|gdriveplayer.me|gdriveplayer.us|gktorrents.net|hdss.la|hindipix.in|illimitestreaming.net|immunicity.st|insta-stories.com|ithepiratebay.com|j.gs|japscan.ws|jetload.net|kaitect.com|kializer.com|kibuilder.com|kimechanic.com|kooralive.info|larati.net|lirescan.me|magnet4you.me|manga-vf.fr|mavanimes.cc|mavanimes.co|mcloud.to|mcloud2.to|microify.com|mmoity.com|onion.ly|onion.pet|onlystream.tv|ouo.io|ouo.press|picocurl.com|picons.eu|pintient.com|piratebayblocked.com|player.freebiesforyou.net|prettyfast.to|protect-stream.com|proxybay.buzz|q.gs|quainator.com|quamiller.com|queuecosm.bid|replaymod.com|riffhold.com|sandup.co|sapixmedia.com|simizer.com|skamaker.com|skamason.com|sonyoutube.com|streamelite.net|streamzt.com|subfb.us|swiftviz.net|telerium.digital|teleriumtv.com|thepiratebay.vip|thouth.net|tinyium.com|toonanime.cc|toonanime.tv|toonanime.xyz|torrent9.gg|torrent9.si|torrent911.com|tpbprox.com|twineer.com|ukpass.co|unblockall.org|unblocked.is|unblocked.lc|unblocked2.fun|unblocked2.vip|unblockproject.icu|unblockproject.info|unblockthe.net|universanimeize.com|upvid.net|uqload.com|uqload.org|viahold.com|vializer.com|vidsource.me|vidsrc.me|viva-stream.net|viwright.com|voir-films-series.net|voirfilmshd.net|waaw.tv|waaw1.tv|yabuilder.com|yamechanic.com|yoalizer.com|yobuilder.com|yoineer.com|yoitect.com|youwatch-serie.com|zipansion.com|zo.ee|zone-annuaire.xyz|zone-telechargements.com
+@@||cloudflare.com/ajax/libs/$script,stylesheet,domain=11anim.com|7-up.net|activetect.net|adf.ly|adshr.ink|adshrinks.com|android-zone.org|anime-loads.org|arabseed.com|atabencot.net|atomcurve.com|atominik.com|ay.gy|babblecase.com|bitigee.com|bluenik.com|brightvar.bid|casualient.com|cinebo.net|cloudemb.com|coginator.com|cogismith.com|convertinmp4.com|cpmlink.net|cracksurl.com|databasegdriveplayer.co|dood.la|dood.ws|doodstream.co|doodstream.com|espn-live.stream|evoload.io|ezie.cc|fcine.tv|file-up.org|file-upload.com|file-upload.net|filmenfr.com|filmstreaming-vf.online|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|gamecopyworld.eu|gdriveplayer.me|gdriveplayer.us|gktorrents.org|hdss.la|hindipix.in|illimitestreaming.net|immunicity.st|insta-stories.com|ithepiratebay.com|j.gs|japscan.ws|jetload.net|kaitect.com|kializer.com|kibuilder.com|kimechanic.com|kooralive.info|larati.net|lirescan.me|magnet4you.me|manga-vf.fr|mavanimes.cc|mavanimes.co|mcloud.to|mcloud2.to|microify.com|mmoity.com|onion.ly|onion.pet|onlystream.tv|ouo.io|ouo.press|picocurl.com|picons.eu|pintient.com|piratebayblocked.com|player.freebiesforyou.net|prettyfast.to|protect-stream.com|proxybay.buzz|q.gs|quainator.com|quamiller.com|queuecosm.bid|replaymod.com|riffhold.com|sandup.co|sapixmedia.com|simizer.com|skamaker.com|skamason.com|sonyoutube.com|streamelite.net|streamzt.com|subfb.us|swiftviz.net|telerium.digital|teleriumtv.com|thepiratebay.vip|theproxy.how|thouth.net|tinyium.com|toonanime.cc|toonanime.tv|toonanime.xyz|torrent9.gg|torrent9.si|torrent911.com|tpbprox.com|twineer.com|ukpass.co|unblockall.org|unblocked.is|unblocked.lc|unblocked2.fun|unblocked2.vip|unblockproject.icu|unblockproject.info|unblockthe.net|universanimeize.com|upvid.net|uqload.com|uqload.org|viahold.com|vializer.com|vidsource.me|vidsrc.me|viva-stream.net|viwright.com|voir-films-series.net|voirfilmshd.net|waaw.tv|waaw1.tv|yabuilder.com|yamechanic.com|yoalizer.com|yobuilder.com|yoineer.com|yoitect.com|youwatch-serie.com|zipansion.com|zo.ee|zone-annuaire.xyz|zone-telechargements.com
 @@||cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$script
-@@||code.jquery.com^$script,domain=adkami.com|animecomplet.me|evoload.io|extratorrent.si|flowyourvideo.com|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|geneafrance.com|getsurl.com|ianimes.org|immunicity.st|indishare.org|insta-stories.com|japscan.ws|jetload.net|lirescan.me|mp4upload.com|protect-mylinks.com|protect-stream.com|sandup.co|shahidlive.co|sonyoutube.com|streamingfrance.com|subfb.us|sznpaste.net|tntendirect.com|torlock.com|unblockall.org|unblocked.is|unblocked.lc|unblocked2.vip|unblockproject.info|uploadrar.com|videowood.tv|waaw.tv
+@@||code.jquery.com^$script,domain=adkami.com|animecomplet.me|evoload.io|extratorrent.si|flowyourvideo.com|fux0r.fun|fux0r.fyi|fux0r.icu|fux0r.ooo|fux0r.top|geneafrance.com|getsurl.com|ianimes.org|immunicity.st|indishare.org|insta-stories.com|japscan.ws|jetload.net|lirescan.me|mp4upload.com|protect-mylinks.com|protect-stream.com|sandup.co|shahidlive.co|sonyoutube.com|streamingfrance.com|subfb.us|sznpaste.net|theproxy.how|tntendirect.com|torlock.com|unblockall.org|unblocked.is|unblocked.lc|unblocked2.vip|unblockproject.info|uploadrar.com|videowood.tv|waaw.tv
 @@||comicsonline.to/hls$xmlhttprequest,domain=cartoonwire.to
 @@||connect.facebook.net^*/sdk.js$script,domain=file-upload.com|force-download.com|force-download.es|force-download.net|getlink.pro|le-streaming.com
 @@||content.jwplatform.com/libraries/$script,domain=animevostfr.tv|filmenfr.com|gogomovies.to|protect-stream.com|streamup.xyz
@@ -22083,7 +22161,7 @@ heures.be,hours.be,openingstijdengids.nl,openingsurengids.be##a[class^="aff"]
 @@||mrsexe.com/api/video.6.6.3.min.js$script,domain=mrsexe.com
 @@||plugins.longtailvideo.com^$script,domain=vidhos.com
 @@||releases.flowplayer.org^*/flowplayer.$script,domain=flowyourvideo.com
-@@||ssl.p.jwpcdn.com/player/v/$script,stylesheet,xmlhttprequest,domain=allvid.co|anavids.com|arabramadan.com|cartoonwire.to|cloudemb.com|databasegdriveplayer.co|fcine.tv|gdriveplayer.me|gdriveplayer.us|kvid.org|liivideo.com|mcloud.to|mcloud2.to|movcloud.net|onlystream.tv|prettyfast.to|streamty.com|streamup.xyz|supervideo.tv|vidcloud9.com|vidembed.io|vidembed.me|vidhdr.com|vidlo.us|vidnext.net|vidspeed.net
+@@||ssl.p.jwpcdn.com/player/v/$script,stylesheet,xmlhttprequest,domain=allvid.co|anavids.com|arabramadan.com|cartoonwire.to|cloudemb.com|databasegdriveplayer.co|fcine.tv|gdriveplayer.me|gdriveplayer.us|kvid.org|liivideo.com|mcloud.to|mcloud2.to|movcloud.net|onlystream.tv|prettyfast.to|streamty.com|streamup.xyz|supervideo.tv|theproxy.how|vidcloud9.com|vidembed.io|vidembed.me|vidhdr.com|vidlo.us|vidnext.net|vidspeed.net
 @@||st.chatango.com/js/gz/emb.js$script,domain=adkami.com|crichd.com|crichd.to|crichd.xyz|flystream.fr|gdriveplayer.us|jetanimes.com|manga-vf.fr|mavanimes.cc|mavanimes.co|otakufr.com|robindesdroits.me|universanimeize.com|voiranime.com|vostanimes.tv
 @@||st.chatango.com^*/id.html$subdocument,domain=adkami.com|crichd.com|crichd.to|crichd.xyz|gdriveplayer.us|jetanimes.com|manga-vf.fr|robindesdroits.me
 @@||static.uppcdn.com^$image,script,domain=uppit.com
