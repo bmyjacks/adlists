@@ -863,7 +863,7 @@ zoku-sei.com#?#.entryinner #ninja-blog-inactive:upward(.entryinner)
 nikkan-gendai.com#?#._popIn_recommend_article_wrapper > a._popIn_recommend_article_ad:first-child + a._popIn_recommend_article_ad:upward(1)
 topics.or.jp#?##_popIn_recommend ul._popIn_infinite_page:has(> li > a._popIn_recommend_article_ad)
 daily.co.jp#?#._popIn_recommend_container a._popIn_recommend_article_ad:upward(._popIn_recommend_container)
-am-our.com,mensnonno.jp,watch.impress.co.jp,careerconnection.jp,news.nifty.com,play-life.jp,intojapanwaraku.com,goldenyokocho.jp,bestcarweb.jp,matome.response.jp,nordot.app,komachi.yomiuri.co.jp,animeanime.jp,books.j-cast.com,cafend.net,chosunonline.com,cinemacafe.net,citicpressjapan.com,cyzo.com,dailyportalz.jp,danshihack.com,mynavi.jp,gamespark.jp,getnavi.jp,gow.asia,honey-mag.jp,iionna.tokyo,inside-games.jp,japanese.joins.com,kanaloco.jp,lamire.jp,macaro-ni.jp,mag.digle.tokyo,media.mamatenna.jp,moneyforward.com,asahi.com,mxtv.jp,news.tv-asahi.co.jp,realsound.jp,ryukyushimpo.jp,saitama-np.co.jp,smart-flash.jp,taishu.jp,the-uranai.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp#?#li > ._popIn_recommend_article_ad:upward(1)
+animageplus.jp,am-our.com,mensnonno.jp,watch.impress.co.jp,careerconnection.jp,news.nifty.com,play-life.jp,intojapanwaraku.com,goldenyokocho.jp,bestcarweb.jp,matome.response.jp,nordot.app,komachi.yomiuri.co.jp,animeanime.jp,books.j-cast.com,cafend.net,chosunonline.com,cinemacafe.net,cyzo.com,dailyportalz.jp,danshihack.com,mynavi.jp,gamespark.jp,getnavi.jp,gow.asia,honey-mag.jp,iionna.tokyo,inside-games.jp,japanese.joins.com,kanaloco.jp,lamire.jp,macaro-ni.jp,mag.digle.tokyo,media.mamatenna.jp,moneyforward.com,asahi.com,mxtv.jp,news.tv-asahi.co.jp,realsound.jp,ryukyushimpo.jp,saitama-np.co.jp,smart-flash.jp,taishu.jp,the-uranai.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp#?#li > ._popIn_recommend_article_ad:upward(1)
 mensnonno.jp,nordot.app,animeanime.jp,autocar.jp,cinemacafe.net,mynavi.jp,getnavi.jp,media.moneyforward.com,the-uranai.jp#?#li > ._popIn_recommend_article_ad_reserved:upward(1)
 sp.uta-net.com,otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad:upward(1)
 otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad_reserved:upward(1)
@@ -1825,6 +1825,13 @@ ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakuk
 financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp,onayamifree.com,ytranking.net,dokuha.jp,npn.co.jp,nicovideo-r18.com,pokemon-gsc.g-takumi.com,1rk.net,e-typing.ne.jp,zukai-kikenbutu.com,gingerweb.jp,gamewiki.jp,tripnote.jp,cinemacafe.net,smartlog.jp,otokomaeken.com,yakkun.com,weblio.jp,miuchan.jp,newpuru.doorblog.jp,pormo.me,hitoriblog.com,webcg.net,newsphere.jp,tver.jp,cyzowoman.com,gorin.jp,otakomu.jp,volante.info,e-mansion.co.jp,rakuten-seo.info,buzip.net,women.benesse.ne.jp,candyrock25.com,nachukichi.com,sedoru.com,sidelife.net,vegelifemiki.net,nikkan.co.jp,dogatch.jp,sai-zen-sen.jp,followmanager.net,ure.pia.co.jp,xn--n9jvd7d3d0ad5cwnpcu694dohxad89g.com,smt-cinema.com,thetv.jp,gaydebulog.com,guitarmagazine.jp,anime-hiroba.com,blogmura.com,55sedori.com,chat.shalove.net,vogue.co.jp,gogo.gs,bikebros.co.jp,qoly.jp,movie.jorudan.co.jp,ascii.jp,kanaloco.jp,horiemon.com,kamigame.jp,e-words.jp,otona-life.com,gundam-futab.info,twi55.com,mindhack2ch.com,vippers.jp,repeat-drama.info##.ad
 !
 !
+helpsupport.blog.fc2.com###topspace
+animageplus.jp##.addHead
+animageplus.jp##.addSide
+animageplus.jp##.articleDetailAdd
+||chat-lab.tokyo/adCode.js
+bamka.info,kaimyou.biz###st_custom_html_widget-14
+bitdays.jp##.adrelated
 japan-secure.com##.ad-top-label
 sabatech.jp##iframe[style="width:120px;height:240px;"]
 crefan.jp##.wrapper > div.container > div[align="center"]:not([class]):not([id])
@@ -2536,6 +2543,7 @@ cookpad.com##div[data-ad-slot]
 saruwakakun.com###custom_html-2:last-child
 saruwakakun.com##.infeedads
 nanjgod.blog.jp,akb48taimuzu.livedoor.biz###sub
+gamebiz.jp##.sidebar__section--ads
 gamebiz.jp##.takeover
 gamebiz.jp##.footer__banners
 ||00m.in/banner/
@@ -2832,6 +2840,7 @@ ferret-plus.com##div[class*="-ad-banner"]
 itmedia.co.jp###ATF
 itmedia.co.jp###cmsBodyMain > div:not([class]) > div[style="text-align:center;margin-bottom:20px;"]:only-child
 itmedia.co.jp##div[style^="font-family:Gill Sans;"][style*="font-size:12px;"][style*="line-height:12px;"]
+gamewith.jp##.walkthrough-ad-ranking-game
 ||gamewith.jp^*/walkthrough/adjack.js
 gamewith.jp###js-ad-jack
 tarosoku.com###execphp-3
@@ -4352,6 +4361,8 @@ bbspink.com##.sponsorsTextHeader
 ||5ch.net/_ads/
 tver.jp###ADoverlay
 tver.jp##.vjs-adblack-overlay
+news.mynavi.jp##.articleList-along
+news.mynavi.jp##.articleList-attention
 ||news.mynavi.jp/assets/adomik-
 news.mynavi.jp##.articleBnr_ydn
 news.mynavi.jp##.c-sideBanner_articleBottom
@@ -5091,7 +5102,7 @@ togetter.com##.ad_list_top
 himado.in##.movie-Ad_01
 auctions.yahoo.co.jp##.bannerFrame
 daily.co.jp##aside.add
-impress.co.jp##.OUTBRAIN
+mynavi.jp,impress.co.jp##.OUTBRAIN
 it.impress.co.jp##.ad-pr-text
 webtan.impress.co.jp###webtan_adsense_nodefooter
 watch.impress.co.jp##.ad.item
