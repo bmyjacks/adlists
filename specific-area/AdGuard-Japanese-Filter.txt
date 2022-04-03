@@ -597,12 +597,6 @@ blog.umentu.work#%#//scriptlet('prevent-setInterval', 'isBlanketFound', '4000')
 ||freemen.jp/wp-content/uploads/gftpkzd.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freemen.jp
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=freemen.jp
-! https://github.com/AdguardTeam/AdguardFilters/issues/65518
-manga1000.com#$##dsaxdsf2 { height: 1px!important; }
-!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-@@||a.exosrv.com/ads.js$domain=manga1000.com
-manga1000.com#@#iframe[width="300"][height="250"]
-!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87687
 !#if (adguard_app_ios || adguard_ext_android_cb)
 @@||js.ad-stir.com/js/adstir.js$domain=h-ken.net
@@ -1455,6 +1449,7 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ##.widget_tsnc_ad_custom_html
 ##.widget_tsnc_ads_custom_html
 ##.yahoo_ad
+##.ys-ad-content
 ##a[href^="http://ad2.trafficgate.net/"]
 ##article[class^="post-"] div[class*="article-"] div[id*="-"][class*="%e"]:not([itemtype])
 ##div#content div[id*="-"][class*="%e"]:not([itemtype])
@@ -1830,7 +1825,8 @@ financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp,onayamifree.co
 !
 !
 !
-vector.co.jp###vec_banner_block
+||tbsradio.jp/assets/js/ad/
+baila.hpplus.jp##.c-article-ad
 minkabu.jp###v-ad-hide-modal
 monoreco.ameba.jp##.p-article__item--ad
 lulucos-bys.jp##.p-article__recommend
@@ -2249,6 +2245,7 @@ stereosound.co.jp##.is-nativead-pagingad
 dragon-quest.jp##.sponser
 kryk55.com,xn--10-yg4a1a3kyh.jp##.ad_desc
 bikebros.co.jp##.ad-_badge
+bcnretail.com##.p-article01-ad
 bcnretail.com##.recommend-list
 bcnretail.com##.uz-ny
 bestcarweb.jp##.article__bnr
@@ -2664,7 +2661,7 @@ makuring.com##.small.center
 makuring.com##.center > p.nospace
 blog.thetheorier.com##p[style^="text-align: center;"]
 under-taker.com,momiage.work,blog.thetheorier.com###my-footer > p[style]
-re-doing.com###st_custom_html_widget-8
+have-fun.blog,re-doing.com###st_custom_html_widget-8
 radiolife.com###a-banner
 radiolife.com###side-banner
 lionmaru.blog###primary-sidebar > aside.widget_text:last-child
@@ -4698,6 +4695,7 @@ lifehacker.jp##div[class^="bodyAd_"]
 mainichi.jp##.apply-link + .ad
 mainichi.jp##.article .ad
 min.dododori.com###fix-space
+news.mixi.jp##.NEWS_recentTopicsList__itemAd
 mixi.jp##.COMMUNITY_bodyArea__subArea > .adBanner:first-child + .COMMUNITY_rightAreaBox
 nicoco.net###search_form_wrap > div
 picrew.me##.imagemaker_ad_wrapper
@@ -5286,8 +5284,6 @@ gaccom.jp##.recipe-side-img-area
 rocketnews24.com##.ad
 !+ PLATFORM(ext_ublock)
 plala.or.jp##img[width="468"][height="60"]
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-manga1001.com##.adtrue-div
 !+ NOT_OPTIMIZED
 ||yimg.jp/bdv/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35721
@@ -5326,7 +5322,8 @@ gtoys.blog.fc2.com###adright
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
-||placeholder.com^$image,domain=javqd.tv,badfilter
+! baila.hpplus.jp unbreak self-promo
+@@||img-baila.hpplus.jp/common/large/image/ad/$image,~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110785
 @@||ascii.jp/img/ad/radeon/logo.png
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28185
