@@ -159,7 +159,6 @@
 ||ad.abema.io^
 ||js.passaro-de-fogo.biz^$third-party
 ||trading-ad.net^$third-party
-||postaffiliatepro.com^$third-party
 ||ads.ressp.net^$third-party
 ||resad.mediaid.click^$third-party
 ||a.overlay.top^$third-party
@@ -1485,6 +1484,8 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !-------JS----------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/113729
+phileweb.com#%#//scriptlet("remove-class", "has-topbanner", "body > header.has-topbanner")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109086
 ! It looks like that website is checking Event.isTrusted, so $replace rule is required to make el.click() to works
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
@@ -2130,6 +2131,7 @@ car.rakuten.co.jp##.portal-info-swiper
 delivery.rakuten.co.jp##.adbanner-container
 netoff.co.jp###main > div.slider
 netoff.co.jp###main > div.mab10.tac[style="padding-bottom:3px;"]
+fnjpnews.com###block-9
 utagejima.jp###block-7
 utagejima.jp##.su-animate
 ||four-foods.com/etc/rrd/$third-party
@@ -2462,7 +2464,6 @@ valorant4jp.com###after-ad
 chisou-media.jp##div[style="min-height: 280px!important;min-width: 500px;"]
 freesoft-100.com##.banner-skyscraper
 freesoft-100.com##.related-article
-e-typing.ne.jp,freesoft-100.com##div[class^="ad_"]
 freesoft-100.com##div[style="font-size:15px;margin:30px 0 30px 18px"]
 sekisei.click##.ad-bottom-right
 sekisei.click##.admax-bottom > p[style]
@@ -3568,7 +3569,7 @@ mangaz.com###scroll-adv
 mangaz.com##.amazonLinkMod
 playlearnlife.com##.theiaStickySidebar > .widget_text
 shogi.or.jp##.addArea
-kurashiru.com##.FooterAppPc-adsWrapper
+kurashiru.com##div[class*="adsWrapper"]
 kyounoryouri.jp##.recipe--detail-bannerarea
 kyounoryouri.jp##.side--banner-app
 kyounoryouri.jp##.side--logly
@@ -4090,7 +4091,7 @@ kotowaza-allguide.com##.sp_link
 nordot.app###js-ur
 dic.nicovideo.jp##div[id^="dic_sp_300x250_"]
 automesseweb.jp###ads-pc-top-super
-automesseweb.jp##div[id^="logly-lift-"]
+news.nifty.com,automesseweb.jp##div[id^="logly-lift-"]
 gyao.yahoo.co.jp##.yads-overlay
 gyao.yahoo.co.jp##div[class^="timeline-ad_timelineAd__"]
 4610.adultav55.com##.belowVideoBanner
@@ -4228,6 +4229,8 @@ navitime.co.jp###under-advertisement
 navitime.co.jp##.section-ad-1
 navitime.co.jp##.section-ad-3
 navitime.co.jp##.section-ad-4
+navitime.co.jp##.footer-rect-ad-frame
+navitime.co.jp###main-page-frame > div[style="display:flex;justify-content:center;align-items:center;height:120px;width:100%;"]
 enrichoneslife.com##.l-sidebar > aside.widget_custom_html:first-child
 kurusoku.com##.first-article > div[style="background:#E065A0; padding:5px; border:0px dotted #ff0000;"]
 kurusoku.com##div[style^="width:778px;height:270px"]
@@ -5202,6 +5205,11 @@ websearch.rakuten.co.jp##.section-title1[style="margin-bottom: 10px;"]
 livedoor.jp##.google-user-ad
 4gamer.net##.hot_game_now
 shanbara.jp,ameblo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/"]
+news.nifty.com,e-typing.ne.jp,freesoft-100.com##div[class^="ad_"]
+news.nifty.com###sidebar_head_banner
+news.nifty.com###_popIn_infeed1
+news.nifty.com##a[id*="_banner"][target="_blank"]
+news.nifty.com##.widget > div.widget_row
 nifty.com###docBtmBnr
 nifty.com##a[href^="http://track.nifty.com/"]
 livedoor.jp##a[href^="http://track.xmax.jp/"]
