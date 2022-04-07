@@ -864,6 +864,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+full-count.jp#?#.l-sidebar-ads > li:if-not(> a[href^="https://full-count.jp"])
+full-count.jp#?#.l-sidebar > aside.l-sidebar__block:has(> div.l-sidebar-ranking > h2:contains(SAMURAI JAPAN))
 woman.mynavi.jp#?#.l-main > .p-aside-section:has(> div > div > div > div[id^="div-gpt-"])
 sekai-kabuka.com#?#.tb-r2 > table > tbody > tr > td:has(.adsbygoogle)
 map.goo.ne.jp#?#.event-cards__item > a.event-card--banner:upward(1)
@@ -1583,6 +1585,10 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! placeholder
+okwave.jp#$#.following_buttons_upper { bottom: 0 !important; }
+! https://github.com/tofukko/filter/issues/58
+trafficnews.jp#$#.swiper-slide[data-history^="photo_extra"] { remove: true; }
 ! ad placeholder
 mizuhonokuni2ch.com#$#.article-wrapper { margin-top: 778px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101983
@@ -1830,6 +1836,15 @@ tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp
 !
 !
 !
+sasatto.jp##.rectangle300
+sasatto.jp##div[style="font-size: 0.4em;background: repeating-linear-gradient(57deg, #fff, #fff 4px, #f5f5f5 5px, #f5f5f5 8px);color: #666666"]
+ddd-smart.net###link-overlay
+||nissen.co.jp/BtoB/other.html
+museum.or.jp##p > iframe[width="336"][height="280"]
+museum.or.jp##.l-bottomBanner
+nissen.co.jp##.btobArea
+yomiuri.co.jp##.p-ad-thumbnail-txt
+missav.com##div[style="width: 300px; height: 250px;"]
 brutus.jp##.c-widget-adbanner-frame
 ananweb.jp##.ad-banner:not([data-name="single-2-soken"])
 agrinews.co.jp##.newadarea
@@ -3807,10 +3822,8 @@ kaikore.blogspot.com##.bar-ads
 appget.com##.adsence
 okwave.jp##.adfunnel_header_block
 okwave.jp##.adfunnel_special_large_under
-okwave.jp##div[style="width:640px;height:250px;"]
 okwave.jp###fluct-pc-sticky-ad
 okwave.jp##.adfunnel_special_box_pc
-okwave.jp##div[style="min-height:122px;"]
 okwave.jp##.adfunnel_main_special_box
 okwave.jp##[class^="adfunnel_special_box"]
 ||kabu-sokuhou.com/img/banner/
@@ -5449,6 +5462,7 @@ maidonanews.jp#@#.module-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55576
 webcartop.jp#@#.single-ads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106875
+@@||m.one.impact-ad.jp/pix?p=$domain=www3.nissan.co.jp
 @@||img.ak.impact-ad.jp/sr/js/nissan_VisitorAPI_main.js$domain=www3.nissan.co.jp
 @@||img.ak.impact-ad.jp/ut/$script,domain=www3.nissan.co.jp
 @@||penta.a.one.impact-ad.jp^$other,domain=www3.nissan.co.jp

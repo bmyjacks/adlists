@@ -355,6 +355,8 @@
 ||83.locksmaker.com.cn^$third-party
 ||yqrta.xyz^$third-party
 ||zjgfq.com^$third-party
+!+ NOT_OPTIMIZED
+||1002.men^
 !
 ! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
 ! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
@@ -1184,8 +1186,12 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+soundofhope.org##.itb_ads
+soundofhope.org###itb_ads_catfish
+lihkg.com##iframe[src^="https://pb.lihkg.com/primis?"]
 niusnews.com##a[href^="https://www.niusnews.com/index.php/main/gotoBanner/"]
 4kya.com###player_pause
+managertoday.com.tw##.pumkinBox
 so.lenovo.com.cn##.AdSite
 league-funny.com##div[class^="dan_pmp"]
 minwt.com##.g-336-280
@@ -2216,6 +2222,9 @@ nfmovies.com##body div[id^="aaaDiv"]
 ||nfmovies.com/static/side.jpg$image,redirect=nooptext,domain=nfmovies.com
 ! fix infinite call
 ||52996.me/upload/ad/$media,redirect=noopmp4-1s
+! https://github.com/AdguardTeam/AdguardFilters/issues/114753
+! !+ NOT_OPTIMIZED
+||jsdelivr.net/gh/sex169hub/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/7114
 !+ NOT_OPTIMIZED PLATFORM(ios, ext_android_cb, ext_safari)
 m.autohome.com.cn##.recommend-envelope
@@ -2271,6 +2280,8 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114739
+@@||amazonaws.com/storage.liveabc.com/ads/$domain=store.liveabc.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105329
 @@||51zxw.net/getvutf.asp?$domain=51zxw.net
 @@||51zxw.net/shipmingko.asp?$domain=51zxw.net
@@ -4090,6 +4101,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||hmjiayi.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -11680,7 +11692,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||sucloud.xyz/js/tou.js
+||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
 szxx.com.cn###A0
+hurigirls99.xyz###undertd + div[style]
+hurigirls99.xyz###undertd
+hurigirls99.xyz###rightd
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -19569,6 +19586,16 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zyyz.pro^
 ||yigesi.top^
 ||myro.shop^
+||chudongcaiwu.xyz^
+||yangtianc.xyz^
+||wufeilong.top^
+||eslipdd.ltd^
+||lizhuo.fun^
+||dewalt-sales.com^
+||dingdangcake.cn^
+||zangyitang.wang^
+||nmtlgbv.cn^
+||zzcyy.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
