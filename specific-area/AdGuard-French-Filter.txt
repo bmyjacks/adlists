@@ -847,6 +847,14 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+leparisien.fr##.sub-anchor
+leparisien.fr##.paywall-sticky
+leparisien.fr##.footerSubscribe
+stream-complet.biz##.vrs
+stream-complet.biz##a.showIt
+stream-complet.biz##.height-90
+stream-complet.biz##.height-600
+stream-complet.biz###banner
 igen.fr,macg.co##a[href="/se30"]
 igen.fr,macg.co##body > a[href][style*="display:"][style*="text-align:"][style*="margin:"]
 marianne.net##.sponsored
@@ -1231,10 +1239,10 @@ place.ge#@#.simple-ad
 !
 !
 !
+! Frequently blocked by Liste-FR rules
+@@||google.com/recaptcha/api.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114733
 @@||mos.ru/blitz/assets/blitz-common/javascripts/hashcash.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/114683
-@@||google.com/recaptcha/api.js$domain=dl-protect.info
 ! gogoanime - mcloud server broken
 @@||mcloud.to/e/
 ! https://github.com/uBlockOrigin/uAssets/issues/12436
