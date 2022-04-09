@@ -1487,6 +1487,8 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !-------JS----------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114915
+jisakuhibi.jp#%#AG_onLoad(function() { var el = document.querySelector('.article-body-inner'); if(el) { el.innerHTML = el.innerHTML.replace(/スポンサードリンク/g,''); } });
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113729
 phileweb.com#%#//scriptlet("remove-class", "has-topbanner", "body > header.has-topbanner")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109086
@@ -1543,9 +1545,6 @@ sankei.com#%#//scriptlet('prevent-addEventListener', 'scroll', 's=setTimeout')
 ! https://github.com/uBlockOrigin/uAssets/issues/7546
 wav.tv#%#//scriptlet('prevent-window-open')
 wav.tv#%#//scriptlet('remove-attr', 'data-popup-url')
-! https://github.com/AdguardTeam/AdguardFilters/issues/83410
-48idol.tv#$#.pum-overlay { display: none!important; }
-48idol.tv#$#.pum-open-overlay { overflow: auto!important; }
 ! skip in-game ads
 minigame.aeriagames.jp#%#//scriptlet('adjust-setTimeout', 'aeriaGamesAdCountDown', '', '0.02')
 game.nicovideo.jp#%#//scriptlet('adjust-setTimeout', 'u(!0)', '5000')
@@ -1584,6 +1583,12 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/114901
+wave.popin.cc#$#body { overflow: auto !important; }
+wave.popin.cc#$#.adsWrapper { display: none !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/83410
+48idol.tv#$#.pum-overlay { display: none!important; }
+48idol.tv#$#.pum-open-overlay { overflow: auto!important; }
 ! leftover and layout fixes
 bbs4.mozakin.com#$#.thread_txad { border: 0 !important; }
 bbs4.mozakin.com#$#.adsepa { height: 0 !important; }
@@ -1842,8 +1847,14 @@ tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp
 !
 !
 !
+||discoveryplus.popin.cc/popin_discovery/ad?
+wave.popin.cc##.popin-ad-item
+||kitchen.juicer.cc/function/popup-ad/
+sumaoji.com##.pc-kizi-top-box
+game.habits.auone.jp##.js-legacy-infeed
 ||shopping-3ple.dmkt-sp.jp/js/common/custom-dcard-banner.js
 jukenbbs.com##center > font[color="#4B0082"] > b
+shopping-3ple.dmkt-sp.jp###yahooad_sp
 ||e-nls.com^$domain=i-bbs.sijex.net
 ||ebook-assets.dmm.co.jp^$domain=i-bbs.sijex.net
 i-bbs.sijex.net##a[href^="https://www.e-nls.com/access.php"]
