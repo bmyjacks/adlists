@@ -1816,7 +1816,7 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 !
 ! For URL shorteners or simple sites with frequently changed ad servers.
 ! Incorrectly blocked domains can be excluded using regex(synchronize this regexp in all filters)
-/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=9tsu.org|jshow.tv
+/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=9tsu.org|jshow.tv|doki1001.com
 !
 ! ##.pr
 ceron.jp,kids.gakken.co.jp,5chan.jp,toyokeizai.net,twpf.jp,chunichi.co.jp,tokyo-np.co.jp,db.msin.jp,ladiesfashion.jp,minpo.jp##.pr
@@ -1825,7 +1825,7 @@ baby-calendar.jp,npn.co.jp,afpbb.com,2ch.pet,hamakei.com,keizai.biz,minkei.net,s
 ! ###ad
 my-terrace.com,travel.rakuten.co.jp,conciergedesk.jp,japan-iwate.info,anal-love.net###ad
 ! ##.rectangle
-eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
+gourmet.aumo.jp,eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
 ! ##.sponsored
 gardenstory.jp,yuu01.jp,gaddet.com,matome.eternalcollegest.com,ushigyu.net,nilcollection.net,gamers-info.net,appl-y.com,taisy0.com,netbusinessbox.net,autoc-one.jp,geek.sc##.sponsored
 ! ###fix_sidebar
@@ -1847,6 +1847,7 @@ tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp
 !
 !
 !
+fujitv-flower.net###adsenes
 thatav.net,japanhub.net##.banner-a
 javfree.me###block-8
 ||discoveryplus.popin.cc/popin_discovery/ad?
@@ -2007,8 +2008,6 @@ careergarden.jp##.base-inner-slim[style^="min-height"]
 i-voce.jp##.VcAdvertisement
 i-voce.jp##.wp-block-ve-advertising
 topics.tbs.co.jp##.om-ad
-tweetsoku.com##.billard-advert
-tweetsoku.com##.float-advert
 mery.jp##[id^="gtm-"]
 finders.me##.__sideBar > div.__ad:first-child
 finders.me##.__ad-pc
@@ -2315,7 +2314,7 @@ ushigyu.net##div[class^="ad-"]
 news.biglobe.ne.jp##.news-cpl
 biglobe.ne.jp###join-bnr
 kai-you.net##.l-pc_resp_all_inhouse_1st
-retty.me,kai-you.net##div[class*="-ad"]
+kai-you.net##div[class*="-ad"]
 niigata-nippo.co.jp##.md_adsCover
 ||cinemacafe.net/adimgs/
 capa.getnavi.jp,fukuishimbun.co.jp##.text-ad
@@ -2427,7 +2426,7 @@ idiom-encyclopedia.com,kamome21.site,tsubuyaki0424.com,monayoblog.com,ma-jann.co
 larksan.wp.xdomain.jp,idiom-encyclopedia.com,studiosero.net,ma-jann.com,lagcapa.org,useful-notes.com,mohmongar.net,chem-station.com###custom_html-3
 kamome21.site,studiosero.net,lv73.net,lagcapa.org,mohmongar.net,chem-station.com,48idol.tv###custom_html-4
 tohaz.com,kamome21.site,erogamemod.com,kimootoko.net###custom_html-5
-larksan.wp.xdomain.jp,kindou.info,chem-station.com###custom_html-6
+dev.macha795.com,larksan.wp.xdomain.jp,kindou.info,chem-station.com###custom_html-6
 studiosero.net,fpsjp.net,tokyolucci.jp###custom_html-7
 fnjpnews.com,fpsjp.net,tokyolucci.jp,namatamago.net###custom_html-8
 ssaits.jp,larksan.wp.xdomain.jp,dq.h1g.jp,otakaranet.com,macha795.com,namatamago.net,chem-station.com###custom_html-9
@@ -3275,6 +3274,7 @@ kokuban.in##div[style="margin-top:15px; padding:5px 0px; text-align:center; font
 gaddet.com,natuyuki.com##.cta
 i486.mods.jp##table[style$="width: 300px;"]
 rocomotion.net###maintitle_ad
+retty.me##.middle-ad-section
 retty.me##.dfp-banners
 retty.me##div[style^="margin: 30px auto 0;"]
 2chcopipe.com###sub > div.column-inner > div.column-inner-2 > div.plugin-memo:nth-of-type(n+4)
@@ -3828,6 +3828,7 @@ fx-koryaku.com##.textwidget > center > a[target="_blank"]
 exploader.net###nls
 exploader.net##.dl_items
 exploader.net##.items
+coromoo.com##div[class$="-ad"]
 coromoo.com##.amazon-link
 ||spox.com/daznpic/$subdocument,domain=full-count.jp
 downtownreport.net##.adSingleFV300-250
