@@ -536,10 +536,6 @@ nordot.app#%#//scriptlet('abort-current-inline-script', 'document.createElement'
 @@||dan-ball.jp/javagame/dgo/data/img.gif?
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85641
 modalina.jp#%#//scriptlet('abort-on-property-read', 'AdBlockLimitation')
-!#if (adguard_ext_firefox || ext_ublock)
-modalina.jp#$##ggleadv { height: 60px!important; }
-modalina.jp#$##header { margin-top: 60px!important; }
-!#endif
 ! realtime-chart.info anti-adb
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=realtime-chart.info|sekai-kabuka.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,important,redirect=googlesyndication-adsbygoogle,domain=realtime-chart.info|sekai-kabuka.com
@@ -864,6 +860,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+blog.jp,blog.livedoor.jp,doorblog.jp,yagov30.com#?#.plugin-memo > div.side > div.google-user-ad-side:upward(2)
+ytv.co.jp#?#.relation-block > div.OUTBRAIN:upward(1)
 woman.mynavi.jp#?#.l-main > .p-aside-section:has(> div > div > div > div[id^="div-gpt-"])
 full-count.jp#?#.l-sidebar-ads > li:if-not(> a[href^="https://full-count.jp"])
 sekai-kabuka.com#?#.tb-r2 > table > tbody > tr > td:has(.adsbygoogle)
@@ -1356,6 +1354,7 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ###adsSPRBlock
 ###ads_horizontal
 ###float-bnr
+###fluct-pc-sticky-ad
 ###geniee_overlay_outer
 ###id_ads_enc
 ###im_panel
@@ -1847,6 +1846,16 @@ tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp
 !
 !
 !
+geinou-news.jp##.side-widget-area
+football-zone.net##.box-top
+pinky-media.jp##div[style="max-width: 1040px; margin: 10px auto; min-height: 200px;"]
+pinky-media.jp##div[style="min-height: 100px;"]
+pinky-media.jp##div[style="min-height: 320px;"]
+||ranklet.come.cc/outjs.php
+||jpfbs.com/upload/promo/banner/
+ytv.co.jp###bnr-block
+ytv.co.jp##.pr-bannerRect-block
+ytv.co.jp##.pr-has-two-columns
 fujitv-flower.net###adsenes
 thatav.net,japanhub.net##.banner-a
 javfree.me###block-8
@@ -2593,7 +2602,7 @@ twisave.com##div[style="padding-top: 15px; margin-bottom: 15px; height: 60px; te
 twisave.com##div[style="padding-top: 15px; text-align: center; margin-bottom: -8px"]
 xn--4gr16r4zc9g.jp##.fixed_sidebar-wrapper
 ||newsweekjapan.jp/images/bnr/newsweek_ad_300_250_
-keibadrive.com,psneolog.com,yomogame252.com,entameclip.com##.amazon-item-box
+anige-labo.com,keibadrive.com,psneolog.com,yomogame252.com,entameclip.com##.amazon-item-box
 wanabe.net,mayoinu.com###my-footer > center
 openworldnews.net##.aban
 animeanime.jp##.cynergi-widget
@@ -3221,6 +3230,7 @@ cartoonnetwork.jp##.bnrBottomTop
 cartoonnetwork.jp##.campad
 cartoonnetwork.jp##.skyscraper
 mondotv.jp###header-banner
+egotter.com##div[id][style="height: 300px;"]
 egotter.com##div[id^="async-adsense"][style^="min-height"]
 stanok-chel.ru##.bottompr
 stanok-chel.ru##.toppr
@@ -3880,7 +3890,6 @@ kaikore.blogspot.com##.bar-ads
 appget.com##.adsence
 okwave.jp##.adfunnel_header_block
 okwave.jp##.adfunnel_special_large_under
-okwave.jp###fluct-pc-sticky-ad
 okwave.jp##.adfunnel_special_box_pc
 okwave.jp##.adfunnel_main_special_box
 okwave.jp##[class^="adfunnel_special_box"]
