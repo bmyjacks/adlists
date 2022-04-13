@@ -1240,6 +1240,8 @@ place.ge#@#.simple-ad
 !
 !
 !
+! Fixing video player on fifa.com - https://www.fifa.com/fifaplus/en/home
+@@||content.uplynk.com/preplay/*/multiple.json*&ad.preroll$domain=fifa.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115202
 !+ PLATFORM(ext_safari, ios)
 ||multinews.me/produit/$popup,badfilter
@@ -4499,6 +4501,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /wgAds.
 /widget.advertisement.
 /widget_ads/*
+/widget_mntzm.
 /widgets-bazarchic-
 /widgets-zoom-annonce-shopping.
 /widgets-zoom-mytravelchic.
@@ -4551,6 +4554,7 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /zones?zone=$subdocument
 300x250.gif|
 336x280.gif|
+://a.*/interstitial?id=$script
 ://a.*/loader?*&keywords=$third-party
 ://a.*/redirect/?spot_id=
 ://acces.*/a.php?
@@ -6547,6 +6551,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||onlivestreams.online^$third-party
 ||opti-digital.com^$third-party
 ||optimaladbid.com^$third-party
+||optimhub.com^$third-party
 ||orangepublicite.fr^$third-party
 ||ovnet.fr^$third-party
 ||ovnet.net^$third-party
@@ -7083,6 +7088,8 @@ _zoneid=*/rel/index.cfm?$popup
 ||0cfe97d936.com^
 ||0dd8940efd.com^
 ||0eijh8996i.com^
+||0icep80f.com^
+||0jzxzd21.com^
 ||0n55f9zgy7.com^
 ||0pyn37dv3m.com^
 ||0ra5eylno4zs.com^
@@ -7099,6 +7106,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||15ba8a8998.com^
 ||16yp1ji92a.com^
 ||1772c9ffd2.com^
+||18938973.com^
 ||199a4ae627.com^
 ||19bk5lo5q2.com^
 ||1b9cvfi0nwxqelxu.pro^
@@ -7271,6 +7279,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||8mdphsb8fm.com^
 ||8ozhygzz5eke.com^
 ||8pvgabnulk.com^
+||8yxupue8.com^
 ||90cd7fb7ca.com^
 ||91475d578d.com^
 ||92291944cd.com^
@@ -7405,6 +7414,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||agilespatter.com^
 ||agletmagilp.com^
 ||agloowie.com^
+||agomwefq.com^
 ||agooxouy.net^
 ||agrarianbeepsensitivity.com^
 ||agrothoo.net^
@@ -7434,6 +7444,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ajestigie.com^
 ||ajevigie.com^
 ||ajtdosbrnt.com^
+||ajyrsxdvbyc.xyz^
 ||alas4kanmfa6a4mubte.com^
 ||aleassbun.site^
 ||alhypnoom.com^
@@ -7734,6 +7745,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||bluemaulpuffs.com^
 ||blukavsup.online^
 ||blunkseldrich.com^
+||bmcwwjfpoxgc.xyz^
 ||bmfftnhnxnu.xyz^
 ||bmjjsndcmg.com^
 ||bmqinttqg.xyz^
@@ -7822,6 +7834,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||bypassed.ws^
 ||byrxbnieky.com^
 ||bytde.com^
+||bytesabbreviation.com^
 ||bythachiwhe.com^
 ||bywhoshixo.com^
 ||byyanmaor.com^
@@ -8048,6 +8061,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||cryjotvtvpou.xyz^
 ||cryptolabpro.com^
 ||csasebkmonj.xyz^
+||cshjffm.com^
 ||csjuq.com^
 ||cskkimotpqknvbw.xyz^
 ||csqkkvaekl.xyz^
@@ -8376,6 +8390,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||egddefijaskwru.xyz^
 ||eggsosgum.site^
 ||eggytiptops.com^
+||egkhldjtliwutfp.com^
 ||egyubvcjdurg.xyz^
 ||ehfoafnwgg.com^
 ||eiedlgcmeq.com^
@@ -8385,6 +8400,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ejquhronkvpir.xyz^
 ||ekcrvvokodrlg.com^
 ||ekfvtddmqcgmqc.xyz^
+||ekswdktvvfavnqb.xyz^
 ||ektmvpwa.top^
 ||ektnmxrlr.com^
 ||ekwhwgrxqah.xyz^
@@ -8554,6 +8570,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||feedenquired.com^
 ||feelsupersedestaunch.com^
 ||feethatterlow.work^
+||fehgujxrwvwjxy.xyz^
 ||femefaih.com^
 ||femjswcf.xyz^
 ||fephidube.com^
@@ -8612,6 +8629,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||fkehg.com^
 ||fkeoshue.xyz^
 ||fkfmsmhfrtb.xyz^
+||fksxwfpkdnlggar.com^
 ||fla4n6ne7r8ydcohcojnnor.com^
 ||flannelduct.com^
 ||flapfountlefty.com^
@@ -8816,6 +8834,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||gnvjrrtkttuhs.com^
 ||gnxwoofwehhq.xyz^
 ||go.ad1data.com^
+||go2yd.com^
 ||goahbpuqw.xyz^
 ||gobeerta.net^
 ||godmotherelectricity.com^
@@ -8907,6 +8926,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||hafhbxsiplax.xyz^
 ||hagwooerscase.icu^
 ||haihaime.net^
+||haijosho.net^
 ||hallucinatecompute.com^
 ||hamitalhists.com^
 ||hamlipboat.com^
@@ -8930,6 +8950,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||hdcabmqp.com^
 ||hdccatcyoxp.com^
 ||hdtwwvhkf.xyz^
+||headerporkfloral.com^
 ||heartilylassitude.com^
 ||heewuque.com^
 ||heftshibco.xyz^
@@ -9096,6 +9117,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||iiddvslkdmxupgx.xyz^
 ||iiuqnsrfowxkt.xyz^
 ||iiwm70qvjmee.com^
+||ijbusgusnkfu.xyz^
 ||ijgxgyldjctkqb.com^
 ||ijnvigujqevyiq.xyz^
 ||ijqqabysw.xyz^
@@ -9251,6 +9273,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||jakseque.com^
 ||jame3s67jo9yc4e.com^
 ||japhapee.net^
+||javelincleanliness.com^
 ||jawconcealed.com^
 ||jawholeminable.com^
 ||jazzharder.com^
@@ -9300,11 +9323,13 @@ _zoneid=*/rel/index.cfm?$popup
 ||jjuau.com^
 ||jjyoibonik.xyz^
 ||jkamxvoi.com^
+||jkdejwcup.com^
 ||jknrjeujeiu.xyz^
 ||jkntfrsv.xyz^
 ||jkolp.com^
 ||jkrgabuovftm.com^
 ||jkskbavdqktvvyn.com^
+||jkvsqavww.com^
 ||jlclkqwxre.com^
 ||jldsqktx.com^
 ||jlpopmunawwdo.com^
@@ -9397,6 +9422,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||kcpwcrcjewal.com^
 ||kcqcewsouy.xyz^
 ||kcrlxodrp.xyz^
+||kcteaxccxo.com^
 ||kdaxksgekpla.xyz^
 ||kdjjaceahdq.xyz^
 ||kdjkfjekrkjer.xyz^
@@ -9458,6 +9484,8 @@ _zoneid=*/rel/index.cfm?$popup
 ||kkygasnars.xyz^
 ||kmgrlfxpp.com^
 ||kmisln.com^
+||kmrcum2.com^
+||kmylvwo5.com^
 ||kneadegotisticalrational.com^
 ||knifecontributionproposition.com^
 ||knobpredestinecontradiction.com^
@@ -9551,6 +9579,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||lgvguopvrncv.com^
 ||lhjdxfmchncinxd.com^
 ||lhoeslhcngh.com^
+||lhradjgrrtruob.com^
 ||lhyqor.ru^
 ||licertle.co^
 ||lickingimprovementpropulsion.com^
@@ -9652,6 +9681,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||lxjgbjvmmop.com^
 ||lxltgrqxdxajubf.com^
 ||lxpyrxgmm.com^
+||lxwtkhsdocjiro.com^
 ||lxyqyxddw.com^
 ||lybpjnyayc.xyz^
 ||lyiwnltxmvunvp.com^
@@ -9664,6 +9694,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||mafjvuaiytrwol.com^
 ||magdove.xyz^
 ||mage98rquewz.com^
+||magicalbending.com^
 ||magicanfy.com^
 ||magrie.pw^
 ||mahtaagudriw.xyz^
@@ -9858,8 +9889,10 @@ _zoneid=*/rel/index.cfm?$popup
 ||mysdvvf.com^
 ||mystighty.info^
 ||myygcwcjlrnekrv.xyz^
+||myyilufa888.com^
 ||myzuphaby.pro^
 ||mzyfkfj.com^
+||n0404.com^
 ||n1g459ky7y.com^
 ||naewynn.com^
 ||nanouxwyh.xyz^
@@ -10487,6 +10520,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||qjwcmeawpmp.com^
 ||qjwhwrwo.xyz^
 ||qkgvsujokb.xyz^
+||qkpinxdrvybhu.com^
 ||qkurtnucn.com^
 ||qlbkuxfpnwn.com^
 ||qlkwpiopnvmad.xyz^
@@ -10516,8 +10550,10 @@ _zoneid=*/rel/index.cfm?$popup
 ||qsgdwsqyqepxb.xyz^
 ||qstejttw.com^
 ||qsvocfhnlclehvr.com^
+||qthynj2.com^
 ||qtindyjll.xyz^
 ||qtirpaed.com^
+||qtkstwmlu.xyz^
 ||qtybsegwdgeh.xyz^
 ||qualitydestructionhouse.com^
 ||qualmsmixmild.com^
@@ -11018,6 +11054,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||syouveaqb.com^
 ||szimh.com^
 ||t2ualmnw.com^
+||t3q7af0z.com^
 ||t7479e4d.com^
 ||tabletdated.com^
 ||tacticmuseumbed.com^
@@ -11079,6 +11116,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||thaihary.link^
 ||thairdou.com^
 ||thatsouh.com^
+||thawbootsamplitude.com^
 ||thenceafeard.com^
 ||theoryclankwhack.com^
 ||thievesanction.com^
@@ -11199,6 +11237,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||tsyhkmpyflesp.xyz^
 ||tsyndolls.com^
 ||tsynpkrgaeyllf.xyz^
+||ttdhea.com^
 ||ttevkibicgcetv.com^
 ||ttiyqmpxmhwrcju.com^
 ||ttmspggvxwgnc.com^
@@ -11229,6 +11268,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||tyingatmosphericprocess.com^
 ||tyranhorrid.com^
 ||tz301.xyz^
+||u0072.com^
 ||u21drwj6mp.com^
 ||uaadi.com^
 ||ualeqvuvmvkc.xyz^
@@ -11241,11 +11281,13 @@ _zoneid=*/rel/index.cfm?$popup
 ||ubtnqmonurmor.com^
 ||ucfvmwbfcoghtp.xyz^
 ||ucgyxfsreo.com^
+||ucjowjxfhl.xyz^
 ||udahgcft.com^
 ||udfnosgoav.com^
 ||udncoeln.com^
 ||udookrou.com^
 ||udraokrou.com^
+||udsurfdecv.com^
 ||uecyivsqdbicpf.xyz^
 ||ueevaqrfbqajotw.xyz^
 ||uerpqjjwhtnys.xyz^
@@ -11381,6 +11423,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||vcrlaitlihy.com^
 ||vcxibecbogbpcrj.com^
 ||vdekfghbvow.com^
+||vdnyvqdhayy.com^
 ||vdsxgordne.xyz^
 ||vdutixvcdvp.xyz^
 ||veehbvmr.com^
@@ -11417,6 +11460,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||vihootch.casa^
 ||vimjobcue.work^
 ||vimohustu.com^
+||vinefsnuarlxsso.xyz^
 ||vinfdv6b4j.com^
 ||vintagerespectful.com^
 ||viralfix.net^
@@ -11448,6 +11492,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||voryebecho.xyz^
 ||vouuuaycwefifmi.com^
 ||voxklkivbwylh.xyz^
+||vpijknrldfjb.xyz^
 ||vpksxntxh.com^
 ||vpkvwcolufekqpj.com^
 ||vpnclick.biz^
@@ -11583,12 +11628,14 @@ _zoneid=*/rel/index.cfm?$popup
 ||wkmjxftmsibvx.xyz^
 ||wlbivjnvlbvb.com^
 ||wlbrlpuxjw.com^
+||wllraaeogjud.xyz^
 ||wlvupulqadyuhr.xyz^
 ||wmrubpdhoqe.xyz^
 ||wmunrcfolemruum.com^
 ||wmxoxmyfbovn.xyz^
 ||wmynuyogbwrm.xyz^
 ||wnbaiojthwrq.xyz^
+||wneumamqqd.xyz^
 ||wnlpdfqdrrwx.xyz^
 ||woathail.net^
 ||wodojqcxwmix.xyz^
@@ -11698,6 +11745,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||xijgedjgg5f55.com^
 ||xiliovpmxn.xyz^
 ||xirkbykalgcjyc.xyz^
+||xiusebf1.com^
 ||xiwgqcdeuyhdvwv.com^
 ||xizopiwhu.com^
 ||xjcovoxrnbwa.com^
@@ -11809,6 +11857,8 @@ _zoneid=*/rel/index.cfm?$popup
 ||yfhnikaah.xyz^
 ||ygpmbfkd.com^
 ||ygwsrojjfce.xyz^
+||yhmamvbqiyhamu.xyz^
+||yhxgwhpvxc.com^
 ||yieldrealistic.com^
 ||yilpnynnpt.xyz^
 ||yinhana.com^
@@ -11883,11 +11933,13 @@ _zoneid=*/rel/index.cfm?$popup
 ||yvmtewbf.xyz^
 ||yvwrjfyxrdcvmq.com^
 ||ywhjxlfmowqvx.xyz^
+||yxcblckd.com^
 ||yxedahltbcuyyh.com^
 ||yxmhguxt.xyz^
 ||yxmyxtejf.xyz^
 ||yxowovop.com^
 ||yybstgoewbvca.com^
+||yybugfvqj.xyz^
 ||z48gntbbu9pl.com^
 ||z6naousb.com^
 ||z7kxv184l6vg.com^
@@ -14556,6 +14608,8 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||zlpaste.net/banner/
 ||zone-hot.com/thumblink.php?
 ||zone.*.netdna-cdn.com^
+||platform.edisound.com^$domain=lejournaldelamaison.fr
+||publishers.edisound.com^$domain=lejournaldelamaison.fr
 ||dailymotion.com/cdn/$media,script
 ||dmcdn.net^$media
 /acceptable.$domain=750g.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|jeuxvideo.com|lebonguide.com|lestream.fr|musiquemag.com|ozap.com|plurielles.fr|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com|villaschweppes.com
@@ -15977,7 +16031,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||goldenboys.fr/images/klops-promo-goldenboys-180x180-v5.jpg
 ||goldenmoustache.com/wp-content/uploads/*/300x250
 ||gonzai.com/wp-content/uploads/*/gonzai-renault.$image
-||goole.fr/images/pub.jpg
 ||goziga.com/ban/
 ||goziga.com^*/banangela.gif
 ||goziga.com^*/banhead_
@@ -16425,6 +16478,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||maison-travaux.fr/wp-content/uploads/*/bouton-300x160.
 ||maison-travaux.fr/wp-content/uploads/sites/8/2019/06/bouton.jpg
 ||maison-travaux.fr/wp-content/uploads/sites/8/2019/10/300x160-1.jpg
+||maison-travaux.fr/wp-content/uploads/sites/8/2021/04/deco.jpg
 ||mameworld.info/net/pics/da.gif
 ||mamytwink.com^*/images/partenaires/
 ||manager-online.fr/images/sidebar/
@@ -22256,6 +22310,7 @@ qwant.com##a[href^="https://www.bing.com/aclick?"]
 qwant.com##a[href^="https://www.bing.com/aclk?"]
 maison-et-domotique.com##a[href^="https://www.bons-plans-elise.fr/"]
 mega-p2p.net##a[href^="https://www.clictune.com/"]
+goole.fr##a[href^="https://www.ebay.fr/itm/"]
 lalibre.be##a[href^="https://www.ipmstore.be/"] > img
 castorama.fr##a[href^="https://www.needhelp.com/projet.php?"]
 anime-vf.fr##a[href^="https://www.newsly24.com/"]
