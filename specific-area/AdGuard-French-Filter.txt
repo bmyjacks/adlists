@@ -139,6 +139,7 @@ rustica.fr#%#//scriptlet("abort-on-property-write", "dtctAB")
 @@||systemed.fr/*.iads.js
 systemed.fr#%#//scriptlet("abort-on-property-write", "dtctAB")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105651
+crunchyscan.fr#%#//scriptlet("abort-current-inline-script", "document.write", "alert")
 crunchyscan.fr#%#//scriptlet("abort-current-inline-script", "setTimeout", "bloqueur")
 crunchyscan.fr#%#//scriptlet("abort-current-inline-script", "Promise", "alert")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103164
@@ -1240,6 +1241,8 @@ place.ge#@#.simple-ad
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/115354
+moneyforward.com#@#.with-ad
 ! Fixing video player on fifa.com - https://www.fifa.com/fifaplus/en/home
 @@||content.uplynk.com/preplay/*/multiple.json*&ad.preroll$domain=fifa.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115202

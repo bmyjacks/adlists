@@ -414,9 +414,10 @@ linovelib.com#$#body[style] { overflow: auto !important; }
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=linovelib.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11152
+rjno1.com#%#//scriptlet('prevent-setTimeout', '/_show\(".+?"\); ?\}/')
 rjno1.com#%#//scriptlet("set-constant", "google_global_correlator", "1")
 rjno1.com#%#//scriptlet("set-constant", "google_image_requests", "emptyArr")
-rjno1.com#%#//scriptlet("abort-current-inline-script", "EventTarget.prototype.addEventListener", "event.target.tagName")
+rjno1.com#%#//scriptlet("prevent-addEventListener", "error", "event.target.tagName")
 !+ PLATFORM(ext_ublock)
 rjno1.com#%#//scriptlet('abort-on-stack-trace', 'document.getElementById', '/google|inlineScript/')
 !+ NOT_PLATFORM(ios, ext_android_cb)
@@ -433,6 +434,10 @@ rjno1.com#$#div[class^="aqn"] { position: absolute !important; left: -4000px !im
 @@||pagead2.googlesyndication.com/$script,xmlhttprequest,domain=rjno1.com
 ||g.doubleclick.net/pagead/ads?$subdocument,redirect=noopframe,domain=rjno1.com,important
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=rjno1.com
+!+ NOT_PLATFORM(windows, mac, android)
+||img*.126.net/ntesrich/*/adControl-indexx-v*.js?v=$script,redirect=noopjs,domain=rjno1.com
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||img*.126.net/ntesrich/*/adControl-indexx-v*.js?v=$domain=rjno1.com
 ! https://github.com/uBlockOrigin/uAssets/issues/11148
 zhangxinxu.com#@#.sldebar_out + *,style[id] + a[class]
 zhangxinxu.com#$#.sldebar_out + * { height: 0!important; }
@@ -1183,6 +1188,8 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 !
 !
+||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
+||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
 moneynet.com.tw##.ads-fixed-bottom
 v2ex.com##div[class^="wwads-"]
 healthylives.tw###contentBox > div[style^="width:336px;height: 280px;"]
@@ -1526,7 +1533,7 @@ ck101.com##.adfixWp
 ck101.com##.float_ad_allage_box
 feng.com##div[class^="ad_90"]
 huaren.us##.article_title_ad_img
-uuvps.com##.widget_text
+6yit.com,uuvps.com##.widget_text
 uuvps.com##img[width="1000"][height="50"]
 vmvps.com###long_image
 vmvps.com##.spbox
@@ -5466,7 +5473,6 @@ ubmcmm.baidustatic.com
 ||kaixinjiehun.com^$third-party
 ||kakayy.com^$third-party
 ||kanfaxing.com^
-||kangaroobro.com^
 ||kanwby.com^
 ||kbneks00.online^
 ||kc-valves.com^
@@ -9659,6 +9665,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||kan98.com/statics/js/k2017/kan98.js
 ||kanbook.net/static/js_union/
 ||kancloud.cn/ad/
+||kangaroobro.com/bn.js
 ||kanguba.com/file/js/main.asp
 ||kanjiantu.com/images/*.gif
 ||kanjuba1.com/js/bbk/
@@ -12692,6 +12699,7 @@ webjx.com###middleimg
 hao123.com###mingzhanresource
 hk.yahoo.com###mntl1
 fanqiangzhe.com###mobile-bottom-ads
+ziyuanwu.com###modules-17
 so.com###mohe-360pic_ext--normal
 so.com###mohe-biu_gouwu > .g-card
 so.com###mohe-etao_shangye
@@ -19642,8 +19650,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||lhj.asia^
-||zgnz020.mobi^
+||geili201911.ink^
+||windteam.xyz^
+||xiaotong.pink^
+||jiatu.co^
+||weix.xyz^
+||llhhbb.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -20827,6 +20839,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ffyyfy.top^
 ||fhlong2000.xyz^
 ||fhnhkt.cn^
+||fhnmzqw.cn^
 ||fhthkz.cn^
 ||fighsfg.cn^
 ||fileinput.xyz^
@@ -20961,6 +20974,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||girli.top^
 ||giroud.top^
 ||gjohvhf.cn^
+||gjr.ink^
 ||gk596.cn^
 ||glgelevator.com^
 ||globbiz.cn^
@@ -21299,6 +21313,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||huojugg.com^
 ||huojukk.com^
 ||huojutt.com^
+||huosai.net.cn^
 ||hushenqiquan.com^
 ||huyc.info^
 ||huzalor.cn^
@@ -21801,6 +21816,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lglady.cn^
 ||lgygy.cn^
 ||lhcqbim.cn^
+||lhj.asia^
 ||lhxwnzht.cn^
 ||lhyang.top^
 ||lianfuhuang.cn^
@@ -21836,6 +21852,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||liupan.asia^
 ||liushuaib.xyz^
 ||liusuqin.fun^
+||liuyangyang.cn^
 ||liuyansha.vip^
 ||liuziqiu.cn^
 ||liuzishen.com^
@@ -22297,6 +22314,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||oycslia.xyz^
 ||oyknmi.cn^
 ||ozfbbwy.cn^
+||ozhbccs.cn^
 ||p09diw3.cn^
 ||paishuiban.ltd^
 ||pajinse.top^
@@ -23776,6 +23794,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zgjjkk.com^
 ||zgncpjyw.cn^
 ||zgnieka.cn^
+||zgnz020.mobi^
 ||zgsxhx.com^
 ||zgwxt.vip^
 ||zgxieshou.com^
@@ -23846,6 +23865,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhwotai.com^
 ||zhwyjd.cn^
 ||zhxkzss.cn^
+||zhyl.info^
 ||zhylm.cn^
 ||zhywyl.cn^
 ||ziaxlx.cn^
@@ -24315,7 +24335,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
-@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
+@@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
 @@||10010.com/mall/common/js/fa.js?referer=
