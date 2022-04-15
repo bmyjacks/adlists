@@ -859,8 +859,10 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+game.biglobe.ne.jp#?#.indexContents > div.indexContentsright:has(> div#googleadd)
 chixi.jp#?##Center > div.partsHeading:contains(インタレスト)
 chixi.jp#?#.homeRightTable > div.parts > div.partsBanner:upward(2)
+kochinews.co.jp#?#body #sb3:contains([PR])
 akiba-souken.com#?#.indArticleFrame > div.goodsBox:upward(1)
 xtech.nikkei.com#?#.p-article_recommend:has(> .p-article_recommend_heading > .p-article_recommend_image > a[href*="campaign"])
 nikkei.com#?#.l-main_primary > .l-section:has(> .-textAd)
@@ -1588,6 +1590,8 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/115551
+roote.ekispert.net#$##bottom_area { height: 1px !important; }
 ! placeholder
 medibang.com#$##content { padding-bottom: 354px !important; }
 piapro.jp#$##footer { height: auto !important; }
@@ -1833,7 +1837,7 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=9tsu.org|jshow.tv|doki1001.com
 !
 ! ##.pr
-nikkan-gendai.com,ceron.jp,kids.gakken.co.jp,5chan.jp,toyokeizai.net,twpf.jp,chunichi.co.jp,tokyo-np.co.jp,db.msin.jp,ladiesfashion.jp,minpo.jp##.pr
+newsoku.blog,nikkan-gendai.com,ceron.jp,kids.gakken.co.jp,5chan.jp,toyokeizai.net,twpf.jp,chunichi.co.jp,tokyo-np.co.jp,db.msin.jp,ladiesfashion.jp,minpo.jp##.pr
 ! ##.bnr
 baby-calendar.jp,npn.co.jp,afpbb.com,2ch.pet,hamakei.com,keizai.biz,minkei.net,shibukei.com##.bnr
 ! ###ad
@@ -1861,7 +1865,16 @@ tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.jp,mikle.jp
 !
 !
 !
-newsoku.blog##div[style="margin:auto;width:100%;height:280px;text-align:center;"]
+rookie.shonenjump.com##.media-header-banner
+moving.a-tm.co.jp##iframe[class^="i_f"]
+jorudan.co.jp##.com_pr_rmads_right
+news.kstyle.com##.MdSB07Bnr
+news.kstyle.com##div[style*="width:640px;"][style*="height:253px;"]
+excite.co.jp##div[id^="exad"]
+newsoku.blog###simplicityclassictextwidget-35
+newsoku.blog###simplicityclassictextwidget-36
+newsoku.blog###simplicityclassictextwidget-37
+newsoku.blog##div[style*="height:280px"][style*="text-align:center"]
 newsoku.blog##div[style^="width:300px;height:600px;"]
 at-s.com##.detailMainBannerGA01
 at-s.com##.mainBannerGA01
@@ -3236,15 +3249,6 @@ ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken
 ap-siken.com,db-siken.com,fe-siken.com,itpassportsiken.com,nw-siken.com,pm-siken.com,sc-siken.com,sg-siken.com##.ads_bottom
 erogazou-s.com###fanza_recommend
 erogazou-s.com##.antenna
-newsoku.blog###simplicityclassictextwidget-12
-newsoku.blog###simplicityclassictextwidget-14
-newsoku.blog###simplicityclassictextwidget-32
-newsoku.blog###simplicityclassictextwidget-33
-newsoku.blog###simplicityclassictextwidget-6
-newsoku.blog###simplicityclassictextwidget-7
-newsoku.blog###simplicityclassictextwidget-8
-newsoku.blog##.header-widget
-newsoku.blog###sidebar-widget > .widget_pc_text
 newsoku.blog##div[style*="width:336px;"]
 newsoku.blog##div[style^="width:680px;height:280px"]
 suisan.jp###adv_wrap
@@ -4375,7 +4379,7 @@ sp.uta-net.com###footer_banner
 sp.uta-net.com###kashi_adunit_above
 sp.uta-net.com##.kashi_banner2
 fujitv-view.jp##.c-adgrid
-repiiii.goo.ne.jp##.is-ad
+game.nifty.com,repiiii.goo.ne.jp##.is-ad
 ||golden-gateway.com/ad/$image,third-party
 openloadpro.com###main > div[style^="margin: 0 auto 60px auto;"]
 freesoft.tvbok.com###main > div[class*="_div_center_w"]
