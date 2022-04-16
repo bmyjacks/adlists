@@ -2457,6 +2457,8 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 !--------------- EasyList China rules --------------------------------------!
 !---------------------------------------------------------------------------!
 -*-*-*-*.panda^$script,third-party
+.com/gg/*?x=$script,third-party
+.cn/gg/*?x=$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -4125,6 +4127,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 .8ox.cn
+||518yi.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -13505,7 +13508,7 @@ niaogebiji.com##.adImgBox
 baidu.com##.adLog
 2345.com##.adMainBg
 hao123.com##.adMainMiddle-box
-boce.com##.adNewBox
+boce.com##.money_box
 cnblogs.com##.adPopup
 ifeng.com##.adR01
 chinaz.com##.adSpon
@@ -19649,6 +19652,20 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||weebly.shop^
+||qiaoxiaomiao.com^
+||zmkj.club^
+||yangll.xin^
+||cdcd.ink^
+||vividly.site^
+||xzl200107151017.ltd^
+||ghl8.com^
+||lnque.xyz^
+||dailynews.wiki^
+||yxbyd.store^
+||xiongfengwang.com.cn^
+||liangdun.xyz^
+||syks.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
