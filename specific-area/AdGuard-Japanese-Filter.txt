@@ -860,6 +860,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+connecnect.com#?#h5 > div.dfad:upward(1)
+baraero.com#?#.grid_post-box > div.post-box-contents > div > div.dfad:upward(3)
 game.biglobe.ne.jp#?#.indexContents > div.indexContentsright:has(> div#googleadd)
 chixi.jp#?##Center > div.partsHeading:contains(インタレスト)
 chixi.jp#?#.homeRightTable > div.parts > div.partsBanner:upward(2)
@@ -1593,6 +1595,8 @@ ign.com#$#.zad.billboard { min-height: 1px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115551
 roote.ekispert.net#$##bottom_area { height: 1px !important; }
 ! placeholder
+ovninavi.com#$##cb-container { padding-top: 110px !important; }
+ovninavi.com#$#.ovni-header { height: auto !important; }
 medibang.com#$##content { padding-bottom: 354px !important; }
 piapro.jp#$##footer { height: auto !important; }
 piapro.jp#$##main[style="padding-bottom:300px;"] { padding-bottom: 170px !important; }
@@ -1816,6 +1820,7 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 /parts/ad/*
 /random_ad/random_ad.js
 /settings/ad.js
+/sp3pas_ad.js
 /sp_overlay_320_50.js
 /TextAD1.
 /top/head_bnr
@@ -1858,7 +1863,7 @@ news.biglobe.ne.jp,4ka.net,natsukimemo.com,travelbook.co.jp,cat.sc,battle-one.co
 ! ##.banner
 tanoshiiosake.jp,library.mitaka.tokyo.jp,climbing-net.com,tripnote.jp,allreviews.jp,smart-flash.jp,news.fresheye.com,pakutaso.com,gaydebulog.com,qoly.jp,ascii2d.net,hoikuen-ranking.com,jp.msn.com,dengekionline.com,wiki.seesaa.jp##.banner
 ! ##.ads
-adultgle.com,matomame.jp,pokemon-gsc.g-takumi.com,blog.with2.net,color-sample.com,8mato.jp,iromame-beans.jp,jocee.jp,gamebiz.jp,s8a.jp,gori.me,moraerumall.com,nwi.jp,0taku.livedoor.biz,ginnga.blog.jp,tools4music.info,gaccom.jp,diskgarage.com,tagindex.com,flyteam.jp,keyakizaka46matomerabo.com,ryusoku.com,chixi.jp,chugoku-np.co.jp,2nn.jp,karapaia.com##.ads
+troutangler-s.com,pctrouble.net,adultgle.com,matomame.jp,pokemon-gsc.g-takumi.com,blog.with2.net,color-sample.com,8mato.jp,iromame-beans.jp,jocee.jp,gamebiz.jp,s8a.jp,gori.me,moraerumall.com,nwi.jp,0taku.livedoor.biz,ginnga.blog.jp,tools4music.info,gaccom.jp,diskgarage.com,tagindex.com,flyteam.jp,keyakizaka46matomerabo.com,ryusoku.com,chixi.jp,chugoku-np.co.jp,2nn.jp,karapaia.com##.ads
 ! ##.add
 ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakukosodate.work,kensho-zukan.com,oyakudachi2525.com,mazisuka.com,hetano-yokozuki.net,uruoistyle.com,moto-neta.com,bunkai.biz,yuraika.com,mupon.net,affiliate-ruby.com,amehappi.com,bge.jp,bonsai.shikoku-np.co.jp,boosting-site.com,dietmiler.com,dohack.jp,gameo.jp,higeojisan-lab.com,manga-comic-netabare.com,manga-netabare-kanso.com,mangafull.jp,multilingualtraveler.com,niko25niko.xyz,ou-kagai.com,pear-farmers.life,shiba-teire.com,vtub0.com,yukiq.com##.add
 ! ##.ad
@@ -1866,6 +1871,25 @@ hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.j
 !
 !
 !
+automation-news.jp###single_banner2
+automation-news.jp###text-41
+automation-news.jp###text-43
+automation-news.jp###text-44
+automation-news.jp##.widget_block
+automation-news.jp##.wp-block-column
+base-y.com##.setumeiside:nth-of-type(-n+2)
+pig109.net##td[width="131"]
+||storage.googleapis.com/img-pcolle/$domain=2jigiri.net|base-y.com
+/\.net\/[-a-z]{2,6}0\d{2}\.html$/$subdocument,~third-party,domain=2jigiri.net|pig109.net
+k-daidokoro.com##.af_bottom
+||kuchi.info/image/bana/
+tenshoku.srad.jp###top-hat
+3dnchu.com###free_space_post_list_bottom
+3dnchu.com###free_space_post_list_middle
+3dnchu.com###text-40
+3dnchu.com###text-45
+osdn.co.jp###gpt-cojp_rec-footer
+osdn.co.jp###gpt-cojp_rec-header
 jump.x0.to###prs
 wpb.shueisha.co.jp##.helper--min-height-225:not(.js-cxense-widget-recommend)
 app-liv.jp##.adv-area
@@ -2031,6 +2055,10 @@ my-terrace.com###pc_big_ads_before_subfooter
 my-terrace.com###pc_sidebar_ads_a
 my-terrace.com##.ads_contents_footer
 my-terrace.com##.ads_contents_header
+tbsradio.jp##.articles-single__article__ad__underarticle
+tbsradio.jp##.articles-single__aside__ad__border
+tbsradio.jp##.index-ad-manager__list
+tbsradio.jp##.single-program__ad-manager-list
 ||tbsradio.jp/assets/js/ad/
 baila.hpplus.jp##.c-article-ad
 minkabu.jp###v-ad-hide-modal
@@ -2304,7 +2332,7 @@ bellemaison.jp##.inc-ad-info
 novel.prcm.jp##.footer__ad
 novel.prcm.jp##app-remote-ad-frame
 narutonti.com##.entry-under > div[style="margin: 0px 0px 20px 0px;"]
-campify.jp,appl-y.com,l-media.tokyo,bunkai.biz###text-2
+k-daidokoro.com,campify.jp,appl-y.com,l-media.tokyo,bunkai.biz###text-2
 furugi1717.net,androplus.org,rensai.jp,l-media.tokyo,javprice.com,buhidoh.net###text-3
 campify.jp,56s.thick.jp,l-media.tokyo###text-4
 ai-myon.com,sound-tv.net,xn--glay-yn4c8b9a8lo661apz3h.com,n-switch.com,pokemongo-master.com,roadbike-labo.com,alpaca76.com,l-media.tokyo###text-5
@@ -3425,7 +3453,7 @@ dm-wiki.net###body > div[style="margin-top:.35em"]
 dm-wiki.net###menubar > div[style="margin:.5em 0 0 1em"]
 cmjapan.com###text-30
 cmjapan.com###text-31
-cmjapan.com###text-32
+3dnchu.com,cmjapan.com###text-32
 cmjapan.com##.tweet_followme > div.hensyu_box
 cmjapan.com##.tweet_followme > h3.komidasi_ao:first-child
 ||suke10.com^*/600x200/banners/
@@ -4631,7 +4659,7 @@ manga-comic-netabare.com,omansoku.com,sakasa-panty.com,shibukoi.com##.home_widge
 sugi9532.com,smhn.info###text-22
 ||coron.tech/wp-content/uploads/*._ac_sl1000_
 coron.tech###single-post div[style="width: 100% !important; min-height: 438px; visibility: visible;"]
-n-switch.com,coron.tech###text-10
+k-daidokoro.com,n-switch.com,coron.tech###text-10
 coron.tech##div[style="width:100%;max-width:730px;height:auto;min-height:190px;"]
 connect.coron.tech###container > div[style="margin:0 auto;min-height:92px;text-align:center;"]
 connect.coron.tech##div[style="width:100%;height:300px;"]
@@ -5545,6 +5573,10 @@ gtoys.blog.fc2.com###adright
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+! contents hidden
+70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad
+70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad_first
+70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad_pos_1
 ! fix broken layout on top page
 minpo.jp#@#.ads970
 ! unhide contents https://ananweb.jp/soken/topics/research/406565/
