@@ -123,6 +123,9 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116109
+jaitoutcompris.com#@#.adbadge
+jaitoutcompris.com#%#//scriptlet("set-constant", "adClasses", "emptyArr")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115754
 @@||userload.co/ads-popup.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115140
@@ -1257,8 +1260,6 @@ moneyforward.com#@#.with-ad
 @@||mos.ru/blitz/assets/blitz-common/javascripts/hashcash.js
 ! gogoanime - mcloud server broken
 @@||mcloud.to/e/
-! https://github.com/uBlockOrigin/uAssets/issues/12436
-/js/468.$domain=~mail.zoho.com,badfilter
 ! https://github.com/uBlockOrigin/uAssets/issues/12321
 @@$csp=worker-src 'none',domain=uptostream.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112953
@@ -7340,6 +7341,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||abbronzongor.com^
 ||abburmyer.com^
 ||abclefabletor.com^
+||abductatabq.xyz^
 ||abdurantom.com^
 ||abjectionremarksdisarm.com^
 ||ablitleoor.com^
@@ -7352,6 +7354,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||abtyroguer.com^
 ||abundantshells.com^
 ||abyamaskor.com^
+||abyjtyvgmtqgp.com^
 ||ac2e81c7b8.com^
 ||academand.com^
 ||acbdmbhhmsfx.com^
@@ -7893,6 +7896,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||cbbvi.com^
 ||cbc9f10e64.com^
 ||cbfnsrriou.xyz^
+||cbgholrjwdfnovo.xyz^
 ||cboauggxskf.xyz^
 ||cbrykorvsqihfy.com^
 ||cbvvphiomh.com^
@@ -7972,6 +7976,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||cimoghuk.net^
 ||circuitstadiumburnt.com^
 ||cirochimi.com^
+||cirsepuh.net^
 ||cisscrive.com^
 ||cistamenise.com^
 ||citatumpity.com^
@@ -8295,10 +8300,12 @@ _zoneid=*/rel/index.cfm?$popup
 ||dpksthogvyarojr.xyz^
 ||dppxrvttnlqfy.xyz^
 ||dqgaephl.xyz^
+||dqorvuxsjxiesa.com^
 ||dqsccxhftjfkj.xyz^
 ||dqwegbaubqmqnom.com^
 ||dqxbnkuotejk.com^
 ||dqzuy.com^
+||draggedlockdown.com^
 ||drcphjnjrye.xyz^
 ||dreamnews.biz^
 ||driftstupidityopponent.com^
@@ -8696,6 +8703,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||fortaillowon.com^
 ||forthcomingpropelwho.com^
 ||fotoompi.com^
+||foundedphase.com^
 ||foundtr.com^
 ||fouoh.com^
 ||fowlsfunctions.com^
@@ -8724,6 +8732,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||frofanvied.com^
 ||fromjoytohappiness.com^
 ||frstlead.com^
+||frtsmrdxwm.xyz^
 ||frtyl.com^
 ||fruitfulgreenhousefacility.com^
 ||fryforgetfulfruit.com^
@@ -8810,6 +8819,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ghcmfxpsodwvlm.xyz^
 ||ghgmfsohtxwyhe.com^
 ||ghgqwbyfsjpqj.top^
+||ghjgubsdxfms.com^
 ||ghpcimbswjpr.com^
 ||ghxadv.com^
 ||gianwho.com^
@@ -9531,6 +9541,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||kkygasnars.xyz^
 ||kmgrlfxpp.com^
 ||kmisln.com^
+||kmjycmessage.com^
 ||kmrcum2.com^
 ||kmylvwo5.com^
 ||kneadegotisticalrational.com^
@@ -10115,6 +10126,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||oassooxo.com^
 ||oastalra.net^
 ||oawoccctsbydxvl.xyz^
+||obcsecsxej.com^
 ||obctjuyakimotvj.com^
 ||obedientrock.com^
 ||obeyroman.com^
@@ -10390,6 +10402,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||pivuucfuwky.xyz^
 ||piwqiapyusvnih.com^
 ||pixelsrvdmn.com^
+||pjbuxnevj.com^
 ||pjgkxnxuuuf.xyz^
 ||pjjiaswdjcphw.xyz^
 ||pjnkwxkslajcjb.com^
@@ -10493,6 +10506,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||publpush.com^
 ||pugrigypy.com^
 ||puibhwvbypjphc.com^
+||pujdtdvo.xyz^
 ||pujgasciuxpck.xyz^
 ||puknbpaxq.xyz^
 ||puqqpjywka.com^
@@ -10739,6 +10753,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||rkxdrpcniiake.xyz^
 ||rldyhdve.com^
 ||rlfsbuenvywkcn.com^
+||rlkmlbbowqjlfi.com^
 ||rlqspafssi.com^
 ||rlxtdjxdhduiie.com^
 ||rmawm7mw.top^
@@ -10799,6 +10814,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||ruchyptoca.com^
 ||rudkfmmurn.xyz^
 ||rufadses.net^
+||rufodeey.net^
 ||ruftodru.net^
 ||rugefinu.net^
 ||rugiomyh2vmr.com^
@@ -11653,6 +11669,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||webadv.co^
 ||webair.com^
 ||webgekeniuos.com^
+||webpushdirect.biz^
 ||webytom.com^
 ||wedeegut.net^
 ||wednesdayexpandingbarb.com^
@@ -13380,6 +13397,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||webmasterspub.com^$popup,third-party
 ||weborama.fr^$popup,third-party
 ||webprod.cybertesteurs.com^$popup,third-party,domain=~iss.net
+||webpushdirect.biz^$popup
 ||wekiss.co^$popup
 ||wellmov.com^$popup,third-party
 ||wgoto.xyz^$popup
@@ -14976,7 +14994,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||d1dli2tyorled9.cloudfront.net^
 ||d1dqwj4dc78lwy.cloudfront.net^
 ||d1ejnc60jkzff4.cloudfront.net^
-||d1eyk8qbbvsiyg.cloudfront.net^
 ||d1f1lqyq09pe4q.cloudfront.net^
 ||d1f94w321xtzmt.cloudfront.net^
 ||d1hl7ya5ggieq0.cloudfront.net^
@@ -15043,7 +15060,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||d2od2b2huvmzuj.cloudfront.net^
 ||d2pppxxtaciku9.cloudfront.net^
 ||d2psf55e0gm6yv.cloudfront.net^
-||d2q55mevlpufwx.cloudfront.net^$image
 ||d2skqnrxz11esv.cloudfront.net^
 ||d2srh5nls758p0.cloudfront.net^
 ||d2t15uaqqm1mjb.cloudfront.net^
@@ -15168,7 +15184,6 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||dwx1guhcvx8gs.cloudfront.net^
 ||dx6uy6q3udhkj.cloudfront.net^
 ||dymwsh1c2kslr.cloudfront.net^
-||dzbx8qv1at614.cloudfront.net^
 ||dzcx04lyk9hjp.cloudfront.net^
 ||dzs55b7slwyx.cloudfront.net^
 ||dzt3uyxd69um2.cloudfront.net^
@@ -19338,6 +19353,9 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.box_publicites_bg
 ##.boxadvert
 ##.breaking-ad
+##.brn-ads-box
+##.brn-ads-mobile-container
+##.brn-ads-sticky-wrapper
 ##.bumpable-ima-ad-container
 ##.bupgoogle
 ##.business-details-ads
@@ -19487,6 +19505,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.ftAdPaves
 ##.ftv-ad-pave
 ##.full-width-add-footer
+##.fun-adsense
 ##.g-ads-336-250
 ##.gamebot_ads
 ##.gametop_ads

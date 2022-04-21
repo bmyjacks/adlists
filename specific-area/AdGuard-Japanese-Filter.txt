@@ -536,6 +536,8 @@ nordot.app#%#//scriptlet('abort-current-inline-script', 'document.createElement'
 @@||dan-ball.jp/javagame/dgo/data/img.gif?
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85641
 modalina.jp#%#//scriptlet('abort-on-property-read', 'AdBlockLimitation')
+! https://github.com/AdguardTeam/AdguardFilters/issues/116093
+sekai-kabuka.com#%#//scriptlet("set-constant", "alert", "noopFunc")
 ! realtime-chart.info anti-adb
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=realtime-chart.info|sekai-kabuka.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,important,redirect=googlesyndication-adsbygoogle,domain=realtime-chart.info|sekai-kabuka.com
@@ -1594,6 +1596,9 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116093
+sekai-kabuka.com#$#div[id][style$="width:728px;"] { height: 0 !important; visibility: hidden !important; }
+sekai-kabuka.com#$#table[id] td[align] > div[id] { height: 1px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115709
 ign.com#$#.zad.billboard { min-height: 1px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115551
@@ -1699,8 +1704,6 @@ coinpost.jp#$#.homelist-in[style^="text-align:center;height:"]  { remove: true; 
 battlecats-db.com#$#.adsbygoogle { position: absolute!important;left: -4000px!important; }
 ! cosp.jp foot space
 cosp.jp#$#.latestnewstable2014[height^="1"] { height: auto!important; }
-! sekai-kabuka.com placeholder
-sekai-kabuka.com#$#table[id] td[align] > div[id] { height: 1px!important; }
 ! otonanswer.jp bottom space
 otonanswer.jp#$#.side[style^="height"] { height: auto!important; }
 ! minor glitch on sidebar
@@ -1875,7 +1878,11 @@ hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.j
 !
 !
 !
-okwave.jp##.adfunnel
+||ichigonokashiidol.com/img/bnr_$third-party
+||pampi.jp/images/common/banner.jpg$third-party
+||live.fc2.com/liveBlogParts.php$third-party
+entamega.com###ad_right-column01
+||fc1adult.com/gadget/
 eegg.fun##td[style="width:310px;vertical-align:top;"]
 ||eegg.fun/ad_html/
 ||eegg.fun/iframe/
@@ -4011,6 +4018,7 @@ eigo.plus,news.sod.co.jp###text-24
 kaikore.blogspot.com##.bar-ads
 ||appget.com^*/wp-content/themes/twentyten/js/agad2.js
 appget.com##.adsence
+okwave.jp##.adfunnel_special_box_pc_bottom
 okwave.jp##.adfunnel_header_block
 okwave.jp##.adfunnel_special_large_under
 okwave.jp##.adfunnel_special_box_pc
@@ -4858,6 +4866,7 @@ dova-s.jp##.adAreaHead
 nekonikoban.org##body > div[style="text-align: center;"]
 mixhost.jp,mixhost.jp,xn--eckhu0c0d1b5kcu5305ksfpb.com##.Bnr
 xn--eckhu0c0d1b5kcu5305ksfpb.com##.execphpwidget
+diamond.jp###gpt-dol-infeed-ranking-text
 diamond.jp##.top-banner
 diamond.jp##.banner-sp
 diamond.jp##a[href^="https://diamond.jp/oo/cc/creditcard_"] > img
@@ -5584,6 +5593,8 @@ gtoys.blog.fc2.com###adright
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+! unbreak image
+@@||hpplus.jp/ogp/image/ad/$image,~third-party
 ! https://tofukko.blog.fc2.com/blog-entry-405.html#comment875
 @@||r10s.jp/img/*/468_60_$image,domain=rakuten.co.jp
 @@||rakuten-static.com/*_468x60.$image,domain=rakuten.co.jp
