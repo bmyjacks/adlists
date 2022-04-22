@@ -614,16 +614,12 @@ goldencocco.jp#%#//scriptlet("set-constant", "adblock", "false")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54025
 mottonoutore.jp#%#//scriptlet("set-constant", "adblock", "false")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93086
-coron.tech#%#AG_onLoad(function(){var a=document.querySelector("#vcwidget"),b=document.createElement("a");a&&a.appendChild(b)});
-!+ PLATFORM(ios, ext_android_cb, ext_safari, ext_ublock)
-@@||ad.jp.ap.valuecommerce.com/servlet/jsbanner?$script,domain=coron.tech
-coron.tech#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'insertAdjacentHTML')
-connect.coron.tech#%#//scriptlet('prevent-addEventListener', 'load', 'dispatch')
-connect.coron.tech#%#//scriptlet('abort-current-inline-script', 'jQuery', 'decision')
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=coron.tech
+coron.tech#%#//scriptlet('remove-class', 'ati_content')
+connect.coron.tech#%#//scriptlet('abort-current-inline-script', 'jQuery', 'decodeURIComponent')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||ad.jp.ap.valuecommerce.com/servlet/jsbanner$domain=coron.tech
-@@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl_*.js$domain=coron.tech
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=coron.tech
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2019.js$domain=coron.tech
 coron.tech#@#.adsbygoogle
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52566
@@ -862,6 +858,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+connect.coron.tech#?#div.center[style="margin-top:20px;min-height:167px;"] > ins.adsbygoogle:upward(1)
 eegg.fun#?#.innerframe > div.whiteboard > div > div.indent > div#ad_index_top:upward(4)
 eegg.fun#?#.innerframe > div.whiteboard > div > div.indent > div#ad_kiji_middle:upward(4)
 eegg.fun#?#.innerframe > div.whiteboard > div > div.indent > center > div#ad_index_middle:upward(5)
@@ -1102,7 +1099,6 @@ gadget2ch.com#?#.posts-inner:contains(/スポンサードリンク|関連コン�
 libae.jp#?#.post > div.pc_display > div[id^="logly"]:upward(1)
 2ch-c.net#?#.nend_text_ad:upward(li)
 altema.jp#?#.slick-track > li:not(:has(> div))
-coron.tech#?#.fluid-sidebar .adsbygoogle:upward(1)
 hibiki-radio.jp#?#.ng-isolate-scope > li.ng-scope ins.adsbygoogle:upward(li)
 geartics.com#?#.mb-3.text-center:contains(スポンサーリンク)
 trailrunner.jp#?#.news_list > li > ins.adsbygoogle:upward(1)
@@ -1217,8 +1213,11 @@ iza.ne.jp#?#.simple-header:contains(/izaスペシャル|あなたにオススメ
 iza.ne.jp#?#.sideFixedWrapper > div[class^=wrapper-]:has([class^=ad-])
 response.jp#?#li.item--box:has([id^="iid_ad"])
 blog.goo.ne.jp#?##mod-freearea-main:has([id^="gooad-"])
+finance.yahoo.co.jp#?#div[id^="ad_"][class]:upward(1)
+finance.yahoo.co.jp#?##contents + div > div > div > div > div > div[id^="ad_"]:upward(2)
+finance.yahoo.co.jp#?##contents + div > div[class^="wP-"] > div[class]:only-child > div[id^="ad_"]:upward(2)
 finance.yahoo.co.jp#?#div > #mainAdTop:upward(1)
-finance.yahoo.co.jp#?#div:matches-css(min-height: 250px) > [id^="subAd"]:upward(1)
+finance.yahoo.co.jp#?##contents > div[class^="_"] > div[class^="_"] > div[class*="_"]:matches-css(min-height: 250px)
 blog.shinobi.jp#?#article.EntryTextBox:has(#ninja-blog-inactive)
 blog.shinobi.jp#?#div.EntryInner:has(#ninja-blog-inactive)
 blog.shinobi.jp#?#div.EntryBlock:has(#ninja-blog-inactive)
@@ -1878,6 +1877,12 @@ hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.j
 !
 !
 !
+gakumado.mynavi.jp##.pr_area
+healthpress.jp###adFooter
+healthpress.jp###entryBottomAd
+k-daidokoro.com,n-switch.com###text-10
+eleking.net##p > span.lbg
+jorudan.co.jp##.amazon_associate_banner
 ||ichigonokashiidol.com/img/bnr_$third-party
 ||pampi.jp/images/common/banner.jpg$third-party
 ||live.fc2.com/liveBlogParts.php$third-party
@@ -2253,6 +2258,7 @@ net-frx.com##.postman22-nw255
 net-frx.com##.botmads
 toyokeizai.net##.related
 thebest-1.com##.ads_fix_height_pc
+ero-nuki.net###dmm_ad
 ero-nuki.net##.movie_header
 ero-nuki.net###movie_ad
 ero-nuki.net##.movie_bottom_kanren
@@ -2385,7 +2391,7 @@ reader.bz##span[style="font-size:60%;font:#333333"]
 cyzo.com##.pab30
 so-zou.jp###g-ad
 wezz-y.com###adEntryRectangleBottom
-wezz-y.com###adSideRectangleA
+wezz-y.com##div[id^="adSideRectangle"]
 eigobu.jp##.mp-Article_Ad
 smatu.net##.wp-block-wp-quads-adds
 smatu.net##amp-iframe
@@ -3176,7 +3182,7 @@ full-count.jp##.l-sidebar-ads-top
 urutike.com##.h2_bnr
 urutike.com##section[id^="xeory_banner_manager-"]
 eigahitottobi.com,takamaru1219.net,wata-ridley.com##p[style="text-align: center;"]
-finance.yahoo.co.jp##.detail_bannerBlock
+finance.yahoo.co.jp###pr_main1 + div[class]
 finance.yahoo.co.jp###newslist > div[class^="_"] > div[class^="_"] > ul[class^="_"] > li[class^="_"]
 finance.yahoo.co.jp##div[id^="cat_"] > ul[class^="_"] > li[class^="_"]:last-child
 eroanime-movie.com##.section-swiper
@@ -4676,15 +4682,17 @@ milcow.com##.adaida
 eikaiwamastery.blogspot.jp###HTML2
 manga-comic-netabare.com,omansoku.com,sakasa-panty.com,shibukoi.com##.home_widget
 sugi9532.com,smhn.info###text-22
-||coron.tech/wp-content/uploads/*._ac_sl1000_
-coron.tech###single-post div[style="width: 100% !important; min-height: 438px; visibility: visible;"]
-k-daidokoro.com,n-switch.com,coron.tech###text-10
+||coron.tech/wp-content/uploads/*.jpg.webp$image,~third-party
+||imgvc.com/vc/images/00/$domain=coron.tech
+coron.tech##.aasc.center > iframe.lazyloading
+coron.tech##.sidebar > [class]:first-child
+coron.tech##div[style*="min-height"]:not([class])
 coron.tech##div[style="width:100%;max-width:730px;height:auto;min-height:190px;"]
-connect.coron.tech###container > div[style="margin:0 auto;min-height:92px;text-align:center;"]
+connect.coron.tech###container > div[style="margin:0 auto;margin-top:2px;min-height:95px;text-align:center;"]
+connect.coron.tech###sub > div.column-inner > div.column-inner-2 > div[style="text-align:center;"]
 connect.coron.tech##div[style="width:100%;height:300px;"]
 connect.coron.tech###sub a[href^="https://www.amazon.co.jp/gp/"]
 connect.coron.tech##.article-outer-3 > #article-options
-connect.coron.tech##div.center[style="margin-top:20px;min-height:167px;"]
 ||circus-co.jp/product/*/rc/img/banner/$third-party
 gadgetlife2ch.blomaga.jp###amazon_title
 gadgetlife2ch.blomaga.jp##.ad_top-box
@@ -5703,9 +5711,6 @@ eromanga-school.com#@#.related-ad-area
 @@||vippers.jp/settings/ad.js
 ! https://github.com/uBlockOrigin/uAssets/issues/9693
 @@||hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.*%3d128x128$image,domain=blog.livedoor.jp
-! https://github.com/AdguardTeam/AdguardFilters/issues/87477
-kincho.co.jp#@#.ad-block
-@@||kincho.co.jp/cm/img/bnr_ad_paper
 ! potentially useful
 komachi.yomiuri.co.jp#@#._popIn_recommend_article_ad_reserved
 ! fix Topics on news.ameba.jp,ameblo.jp
