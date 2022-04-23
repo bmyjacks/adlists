@@ -537,7 +537,7 @@ nordot.app#%#//scriptlet('abort-current-inline-script', 'document.createElement'
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85641
 modalina.jp#%#//scriptlet('abort-on-property-read', 'AdBlockLimitation')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116093
-sekai-kabuka.com#%#//scriptlet("set-constant", "alert", "noopFunc")
+realtime-chart.info,sekai-kabuka.com#%#//scriptlet("set-constant", "alert", "noopFunc")
 ! realtime-chart.info anti-adb
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=realtime-chart.info|sekai-kabuka.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,important,redirect=googlesyndication-adsbygoogle,domain=realtime-chart.info|sekai-kabuka.com
@@ -1028,6 +1028,8 @@ akb48taimuzu.livedoor.biz#?##extra div.plugin-memo script[src*="i-mobile.co.jp/"
 akb48taimuzu.livedoor.biz#?##extra div.plugin-memo script[src^="https://js.gsspcln.jp/"]:upward(.plugin-memo)
 blog.fc2.com#?##reserve > section.side-menu > div.sidebar-style ins.adsbygoogle:upward(section.side-menu)
 4gamer.net#?#.DISPLAY.NODELIST.RECENT_NEWS_CONTAINER:has(> article[id^="BANNER-4gamersp-Contents_Bottom_"])
+realtime-chart.info#?#.news_l:has(> a[href^="https://a.r10.to/"])
+realtime-chart.info#?#td > div[class] > ins.adsbygoogle:upward(1)
 realtime-chart.info#?#.nbox1-1[style]:contains(広告):upward(tr[bgcolor="#fff"])
 smart-flash.jp#?#.section > h3:contains(今、あなたにおすすめの記事)
 momiage.work#?#.hatena-module-html > div.hatena-module-body > a[href^="https://tradingview"]:upward(2)
@@ -1213,7 +1215,7 @@ iza.ne.jp#?#.simple-header:contains(/izaスペシャル|あなたにオススメ
 iza.ne.jp#?#.sideFixedWrapper > div[class^=wrapper-]:has([class^=ad-])
 response.jp#?#li.item--box:has([id^="iid_ad"])
 blog.goo.ne.jp#?##mod-freearea-main:has([id^="gooad-"])
-finance.yahoo.co.jp#?#div[id^="ad_"][class]:upward(1)
+finance.yahoo.co.jp#?##contents-body[data-rma-pos] + div[class] div[id^="ad_"][class]:upward(1)
 finance.yahoo.co.jp#?##contents + div > div > div > div > div > div[id^="ad_"]:upward(2)
 finance.yahoo.co.jp#?##contents + div > div[class^="wP-"] > div[class]:only-child > div[id^="ad_"]:upward(2)
 finance.yahoo.co.jp#?#div > #mainAdTop:upward(1)
@@ -1499,6 +1501,8 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 !-------JS----------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/68275
+yavtube.com#%#//scriptlet("prevent-setTimeout", "getAdCookie")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114915
 jisakuhibi.jp#%#AG_onLoad(function() { var el = document.querySelector('.article-body-inner'); if(el) { el.innerHTML = el.innerHTML.replace(/スポンサードリンク/g,''); } });
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113729
@@ -1877,6 +1881,9 @@ hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.j
 !
 !
 !
+gamebusiness.jp##.af_box
+||kichimamasenki.com/bengo5.jpg$third-party
+||kichimamasenki.com/tantei.jpg$third-party
 gakumado.mynavi.jp##.pr_area
 healthpress.jp###adFooter
 healthpress.jp###entryBottomAd
@@ -3182,6 +3189,7 @@ full-count.jp##.l-sidebar-ads-top
 urutike.com##.h2_bnr
 urutike.com##section[id^="xeory_banner_manager-"]
 eigahitottobi.com,takamaru1219.net,wata-ridley.com##p[style="text-align: center;"]
+finance.yahoo.co.jp##.ydn
 finance.yahoo.co.jp###pr_main1 + div[class]
 finance.yahoo.co.jp###newslist > div[class^="_"] > div[class^="_"] > ul[class^="_"] > li[class^="_"]
 finance.yahoo.co.jp##div[id^="cat_"] > ul[class^="_"] > li[class^="_"]:last-child
@@ -3438,7 +3446,7 @@ map.goo.ne.jp###lnavi_site-cross
 eiga-board.com##.ad_size
 popmaster.jp##.kakomi-maru
 ||moemoeanime.blog.jp/moemoeanime.html
-moemoeanime.blog.jp##.main-container-ads
+takegon.jp,moemoeanime.blog.jp##.main-container-ads
 tools4music.info##.ads-related
 hourei.net###facebook
 hourei.net###twitter

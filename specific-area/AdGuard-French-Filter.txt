@@ -774,6 +774,8 @@ generation-nt.com#%#Object.defineProperty(window, 'AdvertBay', { get: function()
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116245
+europe1.fr#$#.header-space { height: 10px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110907
 ouest-france.fr#$#.main { margin-top: 10px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96839
@@ -852,6 +854,7 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+europe1.fr##body .placeholder
 tameteo.com###bannerDerPC
 lavoixdunord.fr##r-pub
 leboncoin.fr###lht-space-ad
@@ -1247,6 +1250,21 @@ place.ge#@#.simple-ad
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116246
+@@||tra.scds.pmdstatic.net/advertising-core/*/core-ads.js$domain=gala.fr
+@@||tra.scds.pmdstatic.net/advertising-core/*/prisma-prebid-plugin.js$domain=gala.fr
+||js-sec.indexww.com/ht/p/*.js$script,redirect=noopjs,domain=gala.fr
+||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon-apstag,domain=gala.fr
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=gala.fr
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=gala.fr
+||prismamedia-com.videoplayerhub.com/galleryplayer.js$script,redirect=noopjs,domain=gala.fr
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||js-sec.indexww.com/ht/p/*.js$domain=gala.fr
+@@||amazon-adsystem.com/aax2/apstag.js$domain=gala.fr
+@@||googletagmanager.com/gtm.js$domain=gala.fr
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=gala.fr
+@@||prismamedia-com.videoplayerhub.com/galleryplayer.js$domain=gala.fr
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116211
 peramovies.club#@#.fake_player
 peramovies.club#@##tab-ad
