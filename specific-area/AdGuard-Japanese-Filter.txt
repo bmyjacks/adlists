@@ -1795,9 +1795,11 @@ iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 .com/ufo/$script,third-party
 .com/Zen?
 .jp/affiliate/$third-party
+.jp/banner/*/banner_data_*.csv$xmlhttprequest,~third-party
 .jp/html.ng/
 .jp/image/ad/
 .jp/log.php?
+.jp/shared/system/js/banner/banner_rand_prev.js
 .jp/ufo/$script,third-party
 .jp/Zen?
 /__sys__inactive_message.js
@@ -1881,6 +1883,8 @@ hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.j
 !
 !
 !
+aomori.jp,chiba.jp,hellonavi.jp,kagoshima.jp,kanagawa.jp,kyoto.jp,lg.jp,miyagi.jp,nagasaki.jp,nara.jp,shizuoka.jp,tokunoshima-town.org,tokyo.jp,yamanashi.jp###tmp_publicity
+city-kirishima.jp,ehime.jp,fukushima.jp,kagoshima.jp,kanagawa.jp,lg.jp,miyagi.jp,oita.jp,shizuoka.jp,tokyo.jp,toyama.jp,yamanashi.jp###tmp_wrap_publicity
 gamebusiness.jp##.af_box
 ||kichimamasenki.com/bengo5.jpg$third-party
 ||kichimamasenki.com/tantei.jpg$third-party
