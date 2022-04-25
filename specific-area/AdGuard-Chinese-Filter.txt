@@ -2298,6 +2298,8 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+! gamersglobal.de - broken main page
+gamersglobal.de#@#.gg-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115152
 @@||img*.kangaroobro.com/images/$image,domain=leyuman.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114332
@@ -4142,7 +4144,9 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 .8ox.cn
 ||00-gov.cn^
+||seainan333.com^
 ||000123456789.site^
+||ycdywl.com^
 ||23wm.cc^
 ||0024aaaa.com^
 ||008844.cc^
@@ -17601,7 +17605,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
-@@_cpa_adview_$domain=52xkdy.com
+@@_adview_cpc_$domain=52xkdy.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
 @@u-ads.adap.tv*youku.$domain=youku.com
 @@||012.tw^$script,domain=apk.tw
@@ -19699,6 +19703,13 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||hntk.top^
+||khlgdkxien.com^
+||jinrui.online^
+||kinleung.cn^
+||smartmuchang.com^
+||jmypaxioemnf.com^
+||lawful.wang^
 ||65432.shop^
 ||xianggou.club^
 ##a[href$=".120ydrayy.com"]
