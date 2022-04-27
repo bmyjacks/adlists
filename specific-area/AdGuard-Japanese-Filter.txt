@@ -133,6 +133,7 @@
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||addlv.smt.docomo.ne.jp^
 ||trigs-sockets.com^
 ||af.tosho-trading.co.jp^$third-party
 ||waqool.com^$third-party
@@ -1217,6 +1218,7 @@ response.jp#?#li.item--box:has([id^="iid_ad"])
 blog.goo.ne.jp#?##mod-freearea-main:has([id^="gooad-"])
 finance.yahoo.co.jp#?##contents + div > div > div > div[class]:has(> div > div[id^="ad_"]):matches-css(padding-right: 12px)
 finance.yahoo.co.jp#?##contents + div > div[class^="wP-"]:has(> div[class]:only-child > div[id^="ad_"]):matches-css(width: 300px)
+finance.yahoo.co.jp#?#div > div > div[class^="_"] > div[class] > div[class*="_"] > div[class]:has(> div[id^="ad_"]):matches-css(min-height: /217px|42px/)
 finance.yahoo.co.jp#?#div > div[class^="wP-"] div[class]:matches-css(min-height: 250px)
 finance.yahoo.co.jp#?#div > div[class] > div[class*="_"] > div[class]:has(> div[id^="ad_"]):matches-css(min-height: 200px)
 finance.yahoo.co.jp#?#div > #mainAdTop:upward(1)
@@ -1884,6 +1886,9 @@ hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co.jp,fujinkoron.j
 !
 !
 !
+pokemongo-kouryakumatome.net##.Article__content > div[align="center"] > br
+||apps.rokt.com^$domain=pia.jp
+syokuraku-web.com##div[style^="height: 250px; width: 100%"]
 hiroba.dpoint.docomo.ne.jp##.lottery-result-ad
 column.ifis.co.jp##div[id^="contents-advertising"]
 kabuyoho.ifis.co.jp##div[id^="ad_centents"]
@@ -3559,6 +3564,8 @@ gameranbu.jp##.ad-list
 gameranbu.jp##.side_recomend_trac
 mapion.co.jp##.side-news-ad
 mapion.co.jp##.article div.clearfix[style^="margin"]
+shufoo.net###bnr1
+shufoo.net###pc-campaign-appeal-01
 shufoo.net###premiumPanel
 shufoo.net###bnrSuperbannerBottom
 vipperlog.com,buzzral.com##.right-container-ads
@@ -5627,9 +5634,15 @@ gtoys.blog.fc2.com###adright
 @@||r10s.jp/img/*/468_60_$image,domain=rakuten.co.jp
 @@||rakuten-static.com/*_468x60.$image,domain=rakuten.co.jp
 ! contents hidden
-komutenn.com,70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad
-komutenn.com,70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad_first
-komutenn.com,70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad_pos_1
+yonkacho.com,sakematsuri.com#@#.dfad_last
+yonkacho.com,sakematsuri.com#@#.dfad_pos_2
+yonkacho.com,sakematsuri.com#@#.dfad_pos_3
+yonkacho.com,sakematsuri.com#@#.dfad_pos_4
+yonkacho.com,sakematsuri.com#@#.dfad_pos_5
+yonkacho.com,sakematsuri.com#@#.dfad_pos_6
+yonkacho.com,sakematsuri.com,imavie.com,komutenn.com,70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad
+yonkacho.com,sakematsuri.com,imavie.com,komutenn.com,70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad_first
+yonkacho.com,sakematsuri.com,imavie.com,komutenn.com,70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad_pos_1
 ! fix broken layout on top page
 minpo.jp#@#.ads970
 ! unhide contents https://ananweb.jp/soken/topics/research/406565/

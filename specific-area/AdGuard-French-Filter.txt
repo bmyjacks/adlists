@@ -4549,17 +4549,6 @@ shoptimise.fr#@#iframe[id^="google_ads_iframe"]
 /wish_list_product_$script
 /wmadv.
 /wordcoin-ad-
-/wp-content/*/bloc-partenaire-
-/wp-content/banners/*$third-party
-/wp-content/plugins/baw-bon-plan/*
-/wp-content/plugins/mm-ad-widget/*
-/wp-content/plugins/mm-kelkoo/*
-/wp-content/plugins/mts-wp-in-post-ads/*
-/wp-content/plugins/the-moneytizer/*
-/wp-content/plugins/wp-banners/*
-/wp-content/themes/*/ads/*
-/wp-content/uploads/wp-banners/*
-/wp-totemtools/*
 /wpra-ad.
 /wpxtube/*
 /wtop_bannieres/*$third-party
@@ -4993,6 +4982,17 @@ _strip_ad/
 _waframedia_
 _werbebanner_
 digitalocean.gif|
+/wp-content/*/bloc-partenaire-
+/wp-content/banners/*$third-party
+/wp-content/plugins/baw-bon-plan/*
+/wp-content/plugins/mm-ad-widget/*
+/wp-content/plugins/mm-kelkoo/*
+/wp-content/plugins/mts-wp-in-post-ads/*
+/wp-content/plugins/the-moneytizer/*
+/wp-content/plugins/wp-banners/*
+/wp-content/themes/*/ads/*
+/wp-content/uploads/wp-banners/*
+/wp-totemtools/*
 /urlshortener.js
 /urlshortener.min.js
 /zerg-inf-multi.js
@@ -9075,6 +9075,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||himdipsad.com^
 ||himpoipot.com^
 ||himselve.info^
+||hipnoticrec.biz^
 ||hirurdou.net^
 ||hisfryyes.com^
 ||hisurnhuh.com^
@@ -11159,6 +11160,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||subdo.torrentlocura.com^
 ||subjectedcherryextension.com^
 ||submitgills.com^
+||subzero6969.site^
 ||sudrauls.com^
 ||sufeshivu.com^
 ||suidiancippus.com^
@@ -12928,6 +12930,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||exoclick.com^$popup,third-party
 ||explodedigital.com^$popup,third-party
 ||exporder-patuility.com^$popup,third-party
+||express-new.com^$popup
 ||fbmedia-bls.com^$popup
 ||feboni.info^$popup
 ||femtoads.com^$popup,third-party
@@ -12998,6 +13001,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||hhsp2.com^$popup
 ||hhspapp10.com^$popup
 ||hipercontas.com.br^$popup,third-party
+||hipnoticrec.biz^$popup
 ||hiqheoidgnqiceoj.bid^$popup
 ||hitopadxdy.xyz^$popup
 ||homyanus.com^$popup,third-party
@@ -13351,6 +13355,7 @@ _zoneid=*/rel/index.cfm?$popup
 ||stressfulpyjamas.com^$popup
 ||stripchat.com^$popup,third-party
 ||stuntoffer.com^$popup,third-party
+||subzero6969.site^$popup
 ||superonclick.com^$popup,third-party
 ||supjrs.com^$popup,third-party
 ||supprene.com^$popup,third-party
@@ -13919,6 +13924,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||eiffelturf.com/img/$third-party
 ||elite-auto.fr/api/visuel/essai/$third-party
 ||elixx.me/images/footy.jpg
+||elkhadra.live/inter/
 ||elles-mouillent.com/ban/$third-party
 ||embed.ly^*.amazon.
 ||embedly.com^$domain=korben.info
@@ -15763,6 +15769,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||cdn.bvoltaire.fr/media/2016/06/flexi-pierre-bv.gif
 ||cdn.flvto.biz/js/*_popup_
 ||cdn.flvto.biz/push_app.js
+||cdn.lechiffredaffaires.dz/wp-content/uploads/2022/03/investplus-300x201.png
 ||cdn.mgig.fr/2020/03/mg-955d46a3-59d5-462b-9a97-full.jpg
 ||cdn.tirage-gagnant.com/js/dynamic-ban-
 ||cdn.tirage-gagnant.com/js/popup.js
@@ -15968,6 +15975,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||elitepresse.com/wp-content/uploads/*/ban*.
 ||elitepresse.com/wp-content/uploads/*/pub*.
 ||elkhabar.com/media/uploads/images/*-habillage-
+||elkhadra.com/wp-content/plugins/99robots-interstitial-overlays-
 ||elmihwar.com^*/banners/
 ||elmoudjahid.com/images/pub
 ||elmoudjahid.com/upload/img/vpub.
@@ -17561,6 +17569,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||wp.com/www.algerie-focus.com/wp-content/uploads/2017/05/Sans-titre-12.jpg
 ||wp.com/www.echangedeclics.*/$image,script,domain=~echangedeclics.com|~echangedeclics.fr
 ||wp.com/www.echangedeclics.*/files/ban
+||www-idm.com/wp-content/uploads/2022/02/bitcoin.png
 ||x1337x.*/js/script
 ||xavbox.com/ban/
 ||xbooru.com/x.
@@ -22144,6 +22153,7 @@ lefigaro.fr##.s24-shopping
 lefigaro.fr##.s24-thematique--igraal
 telesatellite.com##.sad
 phpsources.org##.sample-lst
+avito.ma##.sc-1p6rkuz-0.bdJKQF
 senscritique.com##.sc-klass
 ouest-france.fr##.sd-deals
 batiactu.com##.selection-produitheque
