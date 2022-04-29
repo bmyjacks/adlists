@@ -18700,6 +18700,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ###pubsousmenu
 ###pubsousmenu-md-lg
 ###pubtop
+###pubtopflex
 ###quads-ad3_widget
 ###quads-ad4_widget
 ###rail_ad3
@@ -18969,6 +18970,8 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.ad.leaderboard
 ##.ad.onlyMobile
 ##.ad.placeholder
+##.ad250heightreel
+##.ad280height
 ##.ad300d
 ##.ad336b
 ##.ad46860
@@ -22822,6 +22825,7 @@ santemagazine.fr#?#[data-identifier]:-abp-has(div:-abp-has(.sponsor-color))
 sketchucation.com#?#.post:-abp-has(.postprofile:-abp-has(strong:-abp-contains(Ad Machine)))
 sookbtp.com#?#.owl-item:-abp-has(figure:-abp-has(img[src^="publicites/"]))
 starbike.com#?#.post.has-profile:-abp-has(.postbody:-abp-has(.adsbygoogle))
+temp-mail.org#?#li:-abp-has(.inboxSenderEmail:-abp-contains(AD | Temp Number))
 thesiteoueb.net#?#.panel:-abp-has(.panel-heading:-abp-has(.panel-title:-abp-contains(Publicité)))
 tourmag.com#?#.wm-module:-abp-contains(Contenu sponsorisé)
 tourmag.com#?#.wm-module:-abp-has(a[href^="https://www.hoteletlodgepro.biz/"])
