@@ -1615,6 +1615,8 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! https://github.com/uBlockOrigin/uAssets/issues/12993
+teny.co.jp#$#.s-ad { height: 1px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116093
 sekai-kabuka.com#$#div[id][style$="width:728px;"] { height: 0 !important; visibility: hidden !important; }
 sekai-kabuka.com#$#table[id] td[align] > div[id] { height: 1px!important; }
@@ -1887,6 +1889,8 @@ myoji-yurai.net,hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co
 !
 !
 !
+keibana.com##.ad-g
+keibana.com##.l-header__ad
 oppai-paipai.com##.movie-player-block
 ||js.gazo.space^$domain=~av.av4.xyz|~cndata.jpg4.pw
 ||js.gazo.space/tagjpa.php?
@@ -5650,6 +5654,8 @@ gtoys.blog.fc2.com###adright
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/12993
+teny.co.jp#@#.s-ad
 ! unbreak image
 @@||hpplus.jp/ogp/image/ad/$image,~third-party
 ! https://tofukko.blog.fc2.com/blog-entry-405.html#comment875
@@ -5703,6 +5709,8 @@ osusume.mynavi.jp#@#.ad-widget
 @@||cxad.cxense.com/adserver/search$domain=gizmodo.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8873
 @@||img.*.impact-ad.jp^$domain=tjapan.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/116889
+etude000.com#@#.thk_ps_widget
 ! contents links https://www.honda.co.jp/ACCESS/dog/index.html
 honda.co.jp#@##footer-banner
 ! https://www.mitsubishi-motors.co.jp/lineup/ek_space/index.html?intcid2=top-recommendcar_03

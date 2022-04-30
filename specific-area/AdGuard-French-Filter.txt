@@ -123,6 +123,8 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/116877
+@@||fautsy.com/static/js/noadblock.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116109
 jaitoutcompris.com#@#.adbadge
 jaitoutcompris.com#%#//scriptlet("set-constant", "adClasses", "emptyArr")
@@ -18840,6 +18842,9 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.AdsTop
 ##.Ads_1
 ##.Ads_2
+##.AdvertisementAfterHeader
+##.AdvertisementAfterPost
+##.AdvertisementAsidePost
 ##.After-body-ads
 ##.AgAdCarousel_Container
 ##.AgAdCarousel_LightBox
@@ -18857,11 +18862,13 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.Middle-Ad
 ##.MobAdsHeader
 ##.PostAd
+##.PostAdvertisementBeforePost
 ##.PubAdAI
 ##.PubBox_300
 ##.PubTitle
 ##.Sidebar-ad--300x250
 ##.Sidebar-ad--300x600
+##.SidebarRightAdvertisement
 ##.Top-Ad
 ##.Video_Reklam
 ##.WallPaperAd
@@ -18895,9 +18902,11 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.ad-125-1c-2r
 ##.ad-125-2c-1r
 ##.ad-125-2c-2r
+##.ad-300-600-wrapper
 ##.ad-300250
 ##.ad-300_atf
 ##.ad-336-280
+##.ad-336-336
 ##.ad-adhesive-footer-wrapper
 ##.ad-banner-leboat
 ##.ad-bottom-text
@@ -19303,6 +19312,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##.advert_h_larg
 ##.advert_pos
 ##.advertisement-pub
+##.advertisement2
 ##.advertisement_120x600
 ##.advertisement_250x250
 ##.advertiser-disclosure-block
@@ -20407,6 +20417,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ##[data-advadstrackid]
 ##[data-block-type="block:ads"]
 ##[data-e2e="advertisement"]
+##[data-incontent-ad]
 ##[data-qwertize-zone]
 ##[data-testid="adTag"]
 ##[data-type="ad"][data-format]

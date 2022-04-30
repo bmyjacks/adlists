@@ -83,6 +83,7 @@
 ||heated-app.us^$all
 ||go.zdos.ru^$all
 ||ouhastay.net^$all
+||ixcbqp.com^
 ||autous.ru^$third-party
 ||admile.ru^$third-party
 ||mrrvmp.com^
@@ -6920,14 +6921,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|NBgfDVFir|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|qgZTpupNMGJBM|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|NBgfDVFir|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|qgZTpupNMGJBM|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|NBgfDVFir|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|qgZTpupNMGJBM|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|NBgfDVFir|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|qgZTpupNMGJBM|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -12138,7 +12139,7 @@ mixervanga.ru,pupolita.ru,okaynews.me,newsandpolik.ru,blamper-news.ru,blamper-no
 ! https://qlnomb.com/rncl17921ivl0mp03y8qh768uqv768kpy8hlb.php
 /^http(s?):\/\/[A-Za-z0-9]{6}\.[A-Za-z0-9]{3}\/[A-Za-z0-9]{30,}\.php$/$script,third-party,domain=advicesos.com|rsute.ru|afn.by|hdvideobox.ru|samelectrik.ru|amazingfacts.ru|allkey.org|kuxnmir.ru|kg-portal.ru|xxxlmusic.com|smartpress.by|unews.pro|inzhener-info.ru|vklook.online|joyreactor.cc
 ! new (01.06.2020)
-/^http(s?):\/\/[A-Za-z0-9]{6}\.[A-Za-z0-9]{3}\/[A-Za-z0-9-.]{6}\/[A-Za-z0-9-.\/]{25,}\.php$/$script,third-party,domain=kvmarvel.ru|crashplane.ru|ymkababy.ru|newsland.com|prozoro.net.ua|alau.kz|brjunetka.ru|tarifec.com|u-news.com.ua|zoobusiness.kiev.ua|hd.lafa.site|b-online.ru|porosenka.net|dachnyuchastok.ru|gubka-bob.ru|film.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|prochepetsk.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod59.ru|progorod62.ru|progorod76.ru|progorodnn.ru|progorodnsk.ru|progorodsamara.ru|progoroduhta.ru|samokat-dostavka.ru|lifedon.com.ua|molitvy.online|clubhunters.ru|advicesos.com|polytech-soft.com|max-vps.ru
+/^http(s?):\/\/[A-Za-z0-9]{6}\.[A-Za-z0-9]{3}\/[A-Za-z0-9-.]{6}\/[A-Za-z0-9-.\/]{25,}\.php$/$script,third-party,domain=solenka.info|kvmarvel.ru|crashplane.ru|ymkababy.ru|newsland.com|prozoro.net.ua|alau.kz|brjunetka.ru|tarifec.com|u-news.com.ua|zoobusiness.kiev.ua|hd.lafa.site|b-online.ru|porosenka.net|dachnyuchastok.ru|gubka-bob.ru|film.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|prochepetsk.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod59.ru|progorod62.ru|progorod76.ru|progorodnn.ru|progorodnsk.ru|progorodsamara.ru|progoroduhta.ru|samokat-dostavka.ru|lifedon.com.ua|molitvy.online|clubhunters.ru|advicesos.com|polytech-soft.com|max-vps.ru
 ! old
 /^http(s?):\/\/([A-Za-z0-9-.]+\/){5,}[A-Za-z0-9_-]+$/$script,third-party,domain=crashplane.ru|ymkababy.ru|newsland.com|prozoro.net.ua|alau.kz|brjunetka.ru|tarifec.com|u-news.com.ua|zoobusiness.kiev.ua|hd.lafa.site|b-online.ru|beejournal.ru|porosenka.net|dachnyuchastok.ru|gubka-bob.ru|film.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|prochepetsk.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod59.ru|progorod62.ru|progorod76.ru|progorodnn.ru|progorodnsk.ru|progorodsamara.ru|progoroduhta.ru|fixmaster74.ru|samokat-dostavka.ru|film.lafa.site|coronavirus-control.ru|lifedon.com.ua|molitvy.online|fatelines.net|clubhunters.ru|made-box.ru|howto-news.info
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
@@ -12173,6 +12174,7 @@ sevastopol.su,zn.ua,pravo.ru,lubertsyriamo.ru,kommersant.ru,dvnovosti.ru,kubnews
 !
 !
 !
+||static.riafan.ru/upload/images/static/riafan/solncepek-img.jpg
 novostivl.ru##.vit_adf
 novostivl.ru##.post-rtb
 trashexpert.ru##.penci-custom-html-inside-content
@@ -13146,8 +13148,6 @@ sportliga.com##.bookmaker-card
 sportliga.com##.bulletin-bottom
 sportliga.com##.bulletin-top
 sportliga.com##.branding-bulletin
-m.timesofindia.com##div[class^="ATF_wrapper"]
-m.timesofindia.com##.dfp_ATF_wrapper
 meta-ratings.com.ua,metaratings.ru##.feed-box.fb-comm
 meta-ratings.com.ua,metaratings.ru##div[data-banner-type]
 meta-ratings.com.ua,metaratings.ru##.seo-link
@@ -22768,8 +22768,10 @@ rbc.ru##a[href^="//rusfond.ru/"]
 rbc.ru##.tsum-countdown
 ||s0.rbk.ru/v6_top_pics/media/img/8/46/756105436203468.svg
 ||s.rbk.ru/v5_quote_static/quote-5.1.35.2/styles/images/vtb.svg
+autonews.ru,rbc.ru,sportrbc.ru##div[data-unit^="after_topline"]
+autonews.ru,rbc.ru,sportrbc.ru##div[data-yandex-show="widget_right_show"]
+autonews.ru,rbc.ru,sportrbc.ru##[class^="banner__container"]
 autonews.ru,rbc.ru,sportrbc.ru##body div.topline__disable-adv
-autonews.ru,rbc.ru,sportrbc.ru##.banner__container
 autonews.ru,rbc.ru,sportrbc.ru##.banner__filmstrip
 autonews.ru,rbc.ru,sportrbc.ru##.banner
 rbc.ru##.banner__median_mobile
@@ -23316,14 +23318,14 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-covtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-covtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-covtent div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-covtent div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-covtent div.product-header ~ div[style^="position:"] ~ div[class]
-otzovik.com##.produkt-covtent div.review-contents + [class]
-otzovik.com##.produkt-covtent div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-covtent div.review-contents > div.review-body > span[style]
+otzovik.com##.produkt-content div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-content div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-content div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-content div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-content div.product-header ~ div[style^="position:"] ~ div[class]
+otzovik.com##.produkt-content div.review-contents + [class]
+otzovik.com##.produkt-content div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-content div.review-contents > div.review-body > span[style]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
