@@ -252,7 +252,7 @@
 ||admane.jp^$third-party
 ||smaad.net^$third-party
 ||app.monetrack.com^$third-party
-||bn.dxlive.com^
+||bn.dxlive.com^$third-party
 ||mobee2.jp^$third-party
 ||mttag.com^$third-party
 ||preaf.jp^$third-party
@@ -1093,7 +1093,7 @@ blog.livedoor.jp#?#.plugin-memo > div.side > script[src^="//j.microad.net/"]:upw
 blog.livedoor.jp#?#.plugin-memo > div.side > p.gad:upward(2)
 blog.livedoor.jp#?#.plugin-memo > div.side > script[src*="i-mobile.co.jp/"]:upward(2)
 nofootynolife.blog.fc2.com#?##side_r > div[class^="plugin"]:has(a[name="amazletlink"])
-samuraisoccer.doorblog.jp#?#.plugin-memo > div.side > div[id^="i2i"]:upward(2)
+doorblog.jp#?#.plugin-memo > div.side > div[id^="i2i"]:upward(2)
 football-2ch.com#?##article-options > div[style="width: 100%;"] + h3:contains(楽天)
 football-2ch.com#?#.plugin-memo > div.side > script[src*="i2i.jp/"]:upward(2)
 w.atwiki.jp#?##body_footer:has(> a[href^="https://www.amazon.co.jp/"] > img)
@@ -1889,6 +1889,10 @@ myoji-yurai.net,hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia.jp,yomiuri.co
 !
 !
 !
+news-channel.doorblog.jp##.footerBnr
+news-channel.doorblog.jp##.headerBnr
+||0matome.com/img/pr_k-jz.png
+||fc2.com/distribution/preroll/
 keibana.com##.ad-g
 keibana.com##.l-header__ad
 oppai-paipai.com##.movie-player-block
@@ -3279,7 +3283,7 @@ crank-in.net##.ad-area-list
 crank-in.net##.head-banner
 crank-in.net##.ad-list-m
 mizu-trouble.jp##p[style="”font-size:5pt;"] + center
-kantan.game,yomipo.yomiuri.co.jp,gesoten.com##.ad_super
+kantangame.com,kantan.game,yomipo.yomiuri.co.jp,gesoten.com##.ad_super
 traicy.com##.pc-ad-wide
 traicy.com##.sp-header-ad
 hochi.news##.ad[style*="color:#fff"]
@@ -5756,8 +5760,6 @@ webcartop.jp#@#.single-ads
 @@||rmp.rakuten.co.jp/js/aa.js$domain=24.rakuten.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103501
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=games.wkb.jp
-! https://github.com/AdguardTeam/AdguardFilters/issues/103498
-@@||webryblog.biglobe.ne.jp/images/ad/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105095
 @@||res.ads.nicovideo.jp/assets/js/ads2.js$domain=sp.seiga.nicovideo.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98787 fix related posts on mobile
