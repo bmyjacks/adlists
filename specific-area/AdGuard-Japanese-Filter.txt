@@ -862,6 +862,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+qiita.com#?#.p-items_main > div[class^="css-"]:has(div[id^="dfp-slot-"])
 kumanichi.com#$?#.is-separate-block-mv-list-item-pr { remove: true; }
 trafficnews.jp#?#ul[class^="_taxel_row"] > li > div[class^="_taxel_ad_article"]:upward(1)
 trafficnews.jp#$?#.swiper-slide[data-history^="photo_extra"] { remove: true; }
@@ -1889,6 +1890,13 @@ hominis.media,myoji-yurai.net,hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia
 !
 !
 !
+travel.mdpr.jp##.ad-trend-topic-more-photo
+sp.seiga.nicovideo.jp##.pickup_ads_container
+fx-rashinban.com##.c-ad_bnr_super
+idou.me##.ad__search-lower-banner
+yukawanet.com###custom_html-36
+toaru-web.net##a[data-atag-id]
+||wp.com/www.image-rentracks.com/*_250.$domain=toaru-web.net
 okazurand.net##.ado-area
 meaning.jp##div[style^="height:250px; width:300px"]
 meaning.jp##div[style="height:90px; width:728px;"]
@@ -3715,6 +3723,7 @@ petwell.jp##.adsFooterTopWrap
 rubiconbrewing.com###bfb_content_pc
 laurier.excite.co.jp##.ad-header-banner
 ||fresheye.com/parts/koma/parts_ad2_
+fresheye.com##.amazon-book
 fresheye.com###ad-ov1box
 fresheye.com###adRakuten
 fresheye.com###ad_box_double
@@ -5665,6 +5674,9 @@ gtoys.blog.fc2.com###adright
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/117212
+jp.ign.com#@#.zad
 ! https://github.com/tofukko/filter/issues/68
 kaerudx.com#@#.adArea
 kaerudx.com#@#.ad-center
