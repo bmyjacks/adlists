@@ -470,6 +470,8 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117040
+||img.ananweb.jp/core/js/modal-dist/index.js
 ! https://kakomonn.com/shakaifukushi/questions
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=kakomonn.com
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/690
@@ -1616,6 +1618,9 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117400
+mapion.co.jp#$##map_yads { display: none !important; }
+mapion.co.jp#$##result_nav { bottom: 0 !important; }
 ! https://github.com/uBlockOrigin/uAssets/issues/12993
 teny.co.jp#$#.s-ad { height: 1px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116093
@@ -1890,6 +1895,10 @@ hominis.media,myoji-yurai.net,hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia
 !
 !
 !
+2chmatome2.jp###gn_overlay_wrapper
+2ch.logpo.jp##.AdsWidth
+tabi-labo.com##.dfp-article
+fashionsnap.com###mainArticleUnit
 travel.mdpr.jp##.ad-trend-topic-more-photo
 sp.seiga.nicovideo.jp##.pickup_ads_container
 fx-rashinban.com##.c-ad_bnr_super
@@ -2746,7 +2755,7 @@ ugtop.com##body > br + a
 msn.com###main > div[data-section-id="stripe.special"]
 recochoku.jp##.ranking-tower-records-music-bnr
 kindou.info##.adad2
-rbbtoday.com##.aside-box-ad
+s.cinemacafe.net,rbbtoday.com##.aside-box-ad
 ga-m.com##.entry-content > p > a[href^="https://hb.afl.rakuten.co.jp/hgc/"]
 ga-m.com##.entry-content > p > a[href^="https://www.amazon.co.jp/gp/search"]
 ga-m.com###text-38
@@ -5557,6 +5566,10 @@ livedoor.jp##a[href^="http://track.xmax.jp/"]
 ||xrea.com/banner
 ||yimg.jp/images/*img/banner
 ||yomiuri.co.jp/ad/
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/116832
+! Duck DNS phishing domains
+/^http:\/\/[a-z]{10}\.duckdns/$document,domain=duckdns.org
 !
 ! video.fc2.com - sync shanxivideo.net in Chinese filters
 ||market.laxd.com/embed/rb/sevices?$domain=video.laxd.com
