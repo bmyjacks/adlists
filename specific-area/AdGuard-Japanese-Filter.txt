@@ -864,6 +864,9 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+yukkuri-futaba.sakura.ne.jp#?##amazonSelector:upward(1)
+yukkuri-futaba.sakura.ne.jp#?##wrapAmazon:upward(1)
+j-cast.com#?#div.title-sec:contains(姉妹サイト)
 qiita.com#?#.p-items_main > div[class^="css-"]:has(div[id^="dfp-slot-"])
 kumanichi.com#$?#.is-separate-block-mv-list-item-pr { remove: true; }
 trafficnews.jp#?#ul[class^="_taxel_row"] > li > div[class^="_taxel_ad_article"]:upward(1)
@@ -1881,7 +1884,7 @@ sugi9532.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com
 ! ##.code-block
 spirituabreath.com,travel.spot-app.jp,chietoku.jp,rere.jp,bazurecipe.com,frozen.analyst.jp,entano.jp,mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
 ! ##.amazon
-ebitsu.net,news.2chblog.jp,chomagireko.blog.jp,tarosoku.com,0taku.livedoor.biz,kabumatome.doorblog.jp,haijin-boys.com,hamusoku.com,ascii2d.net##.amazon
+getnews.jp,ebitsu.net,news.2chblog.jp,chomagireko.blog.jp,tarosoku.com,0taku.livedoor.biz,kabumatome.doorblog.jp,haijin-boys.com,hamusoku.com,ascii2d.net##.amazon
 ! ##.adsense
 news.biglobe.ne.jp,4ka.net,natsukimemo.com,travelbook.co.jp,cat.sc,battle-one.com,otonasalone.jp##.adsense
 ! ##.banner
@@ -1895,6 +1898,16 @@ hominis.media,myoji-yurai.net,hpplus.jp,tv-tokyo.co.jp,financial-field.com,spaia
 !
 !
 !
+||sakura.tv/5chATR/ad/
+atelier-handmade.com###subservicelogo_wrap
+news.ameba.jp##div[class^="SpAd"]
+huffingtonpost.jp##.leaderboard-flex-placeholder
+macaro-ni.jp##.yadsOverlay
+wpb.shueisha.co.jp###js-news-recommended-list-json ~ div.helper--min-height-225
+getnews.jp###resp_article_undertitle
+getnews.jp,webcartop.jp,gendai.ismedia.jp##div[style="min-height: 250px;"]
+getnews.jp,withonline.jp,jprime.jp##div[style="min-height:250px;"]
+otajo.jp##iframe[src^="https://rcm-jp.amazon.co.jp/e/cm?"]
 2chmatome2.jp###gn_overlay_wrapper
 2ch.logpo.jp##.AdsWidth
 tabi-labo.com##.dfp-article
@@ -1910,7 +1923,7 @@ okazurand.net##.ado-area
 meaning.jp##div[style^="height:250px; width:300px"]
 meaning.jp##div[style="height:90px; width:728px;"]
 hominis.media##.pr-ad
-rakuten.co.jp###mkdiv_header_pitari
+fril.jp,rakuten.co.jp###mkdiv_header_pitari
 ||furima-assist.com/banner/
 fril.jp,mercari.com,yahoo.co.jp##.furima-assist-ad-wrapper
 news-channel.doorblog.jp##.footerBnr
@@ -1930,8 +1943,8 @@ smbiz.asahi.com##.ad-pc-side-rect
 ||teny.co.jp/nnn/assets/yad.html
 nanj.an-matome.com##div[style="margin-left:50px;width:740px;height:100px;background-color:#000;"]
 nanj.an-matome.com##div[style*="width:320px;height:100px;"]
-yukkuri-futaba.sakura.ne.jp###mainLeft > a[href*="amazon.co.jp"]
-yukkuri-futaba.sakura.ne.jp###mainLeft > br
+yukkuri-futaba.sakura.ne.jp###mainLeft[style^="overflow: hidden; height"]
+yukkuri-futaba.sakura.ne.jp##.t_sidebar_amazon
 nazoq.com##.hentry > div[style="text-align:center;"]
 nazoq.com##.pcUser
 ||myoji-yurai.net/images/banner/
@@ -2263,7 +2276,6 @@ nec-lavie.jp##table[class^="advertising_area"]
 stanby.com###ad-ydn
 kashi-mo.com##div[style="text-align:center;"] > a[onclick^="ga('send', 'event', 'banner'"]:not([href^="https://www.kashi-mo.com/"])
 timeout.jp##div[class^="_footer_ad"]
-withonline.jp##div[style="min-height:250px;"]
 withonline.jp##.banner-area-margin-bottom
 withonline.jp##.section-recommend
 withonline.jp##div[id$="_inread"]
@@ -2642,8 +2654,8 @@ energydrinkmania.net###sub_navi > h4
 ero-gazou.jp,eroiro.info###ppsPopupBgOverlay
 ero-gazou.jp,eroiro.info##.ppsPopupListsShell
 ero-gazou.jp,eroiro.info##.widget_pc_text
-kisslog2.com,idiom-encyclopedia.com,kamome21.site,tsubuyaki0424.com,monayoblog.com,ma-jann.com,lv73.net,2week.net,oreteki-design.com,mohmongar.net,chiepedia.club,chem-station.com,sirabetter.com,fx-koryaku.com###custom_html-2
-larksan.wp.xdomain.jp,idiom-encyclopedia.com,studiosero.net,ma-jann.com,lagcapa.org,useful-notes.com,mohmongar.net,chem-station.com###custom_html-3
+megabrasil.jp,kisslog2.com,idiom-encyclopedia.com,kamome21.site,tsubuyaki0424.com,monayoblog.com,ma-jann.com,lv73.net,2week.net,oreteki-design.com,mohmongar.net,chiepedia.club,chem-station.com,sirabetter.com,fx-koryaku.com###custom_html-2
+megabrasil.jp,larksan.wp.xdomain.jp,idiom-encyclopedia.com,studiosero.net,ma-jann.com,lagcapa.org,useful-notes.com,mohmongar.net,chem-station.com###custom_html-3
 kamome21.site,studiosero.net,lv73.net,lagcapa.org,mohmongar.net,chem-station.com,48idol.tv###custom_html-4
 tohaz.com,kamome21.site,erogamemod.com,kimootoko.net###custom_html-5
 dev.macha795.com,larksan.wp.xdomain.jp,kindou.info,chem-station.com###custom_html-6
@@ -3643,6 +3655,7 @@ sukima.me##div[style="height: 310px; overflow: hidden;"]
 instagrammernews.com##div[style$="background: rgba(0, 0, 0, 0.7);z-index:99999;text-align:center;"]
 instagrammernews.com##[href^="https://www.roy-union.com/contents/ard.php"]
 loco.yahoo.co.jp###yjAdsLrec
+newswitch.jp##div[id^="JP_NS_"][style^="min-width"]
 newswitch.jp##.banner-top
 nikkan.co.jp##.pr_txt
 nfljapan.com##.pcbl.bannerlist
@@ -3775,7 +3788,6 @@ edtechzine.jp###AdSpecialContents
 gaugau.futabanet.jp##.r-ad-rectangle
 ||blog.livedoor.jp/skating12345/ad.html
 jprime.jp##.--pr
-jprime.jp##div[style="min-height:250px;"]
 jprime.jp##.ad-col2
 natalie.mu##.NA_ad
 ||tinami.com/ad/
@@ -5191,7 +5203,6 @@ mantan-web.jp##.ad-fb
 yahoo.co.jp##.Module > .Banner
 punisoku.blogo.jp##.main-column-inner > a[href^="https://www.dlsite"]
 ||webcartop.jp/wp-content/themes/cartop/images/banner-motorsports.com.jpg
-webcartop.jp##div[style="min-height: 250px;"]
 webcartop.jp###category-tms2019-ad-hide
 webcartop.jp###jp_wct_pc_article_undernextpage
 webcartop.jp##div[style="min-height: 90px;"]
@@ -5245,7 +5256,6 @@ gendai.ismedia.jp##[class^="sponsored_"]
 gendai.ismedia.jp###GB_pc_inArticle
 gendai.ismedia.jp##.reduce-CLS
 gendai.ismedia.jp##div.articleBottomSns + div[style="min-height: 250px; overflow: hidden;"]
-gendai.ismedia.jp##div[style="min-height: 250px;"]
 applion.jp##div[style="max-height:250px;margin-bottom:10px;"]
 applion.jp##a[href^="https://www.amazon.co.jp/exec/obidos/"][target="_blank"]
 search.yahoo.co.jp##.sw-Card.Ad
@@ -5688,6 +5698,8 @@ gtoys.blog.fc2.com###adright
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117406
+macaro-ni.jp#@#.rectangle__item
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117212
 jp.ign.com#@#.zad
 ! https://github.com/tofukko/filter/issues/68

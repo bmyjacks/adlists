@@ -381,6 +381,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/117369
+1090ys8.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
+@@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=1090ys8.com
 ! https://github.com/uBlockOrigin/uAssets/issues/13003
 cocomanga.com#%#//scriptlet('prevent-setTimeout', 'loadErrorTip')
 !+ PLATFORM(ios, ext_android_cb)
@@ -4173,6 +4176,7 @@ ubmcmm.baidustatic.com
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
+||23907915.com^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -4625,6 +4629,7 @@ ubmcmm.baidustatic.com
 ||adxxx.com^$third-party
 ||adyun.com^$third-party
 ||aeoprw.cn^
+||afenx.top^
 ||afj0.com^
 ||afjlb.com^
 ||afrazanna.com^
@@ -8974,6 +8979,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||fun8.us^$domain=cartoonmad.com
 ||func.tw/image/func2.png
 ||funshipin.com/v1/js/footerhongbao.js
+||fwsir.com/static/cpt/
 ||fx110.*/Pub/Ghz/GetModel
 ||fx110.*/Scripts/1.0.0/gulpmin/Ghz/
 ||fx110.*/Styles/1.0.0/dist/Ghz/MatrixAds.
@@ -18103,7 +18109,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|xbeibeix.com|xiebruce.top|yabook.org|yodu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|ygodl.com|youneed.win
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=liout.com|moneysave.info|ygodl.com|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||panjiachen.github.io^$generichide
@@ -19587,6 +19593,7 @@ $image,third-party,domain=258zw.com
 /c.js#pid=$script,third-party
 /ce_l.aspx?showid=$third-party
 /hmzn_*_*_*.js?$script,third-party
+/i.asp?yk&df=1|$script,third-party
 /js/easyAD.js
 /js/easyAD2.js
 /js/mangoIndexBanner.js
@@ -19766,8 +19773,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||kohen.biz^
-||jmypdkzixne.com^
+||fenfa.biz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -19963,6 +19969,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||6shuge.com^
 ||70bhsd.cn^
 ||70fp7880qz.cn^
+||70we55s.cn^
 ||720fly.club^
 ||73cm.com^
 ||76doyxyw.cn^
@@ -20867,7 +20874,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||e0hkzk2.cn^
 ||e34.xyz^
 ||e39.xyz^
+||e41.xyz^
 ||e47.xyz^
+||e48.xyz^
+||e70.xyz^
 ||e9emh.cn^
 ||ea0jlu8jie.cn^
 ||easyjz.com.cn^
@@ -21535,6 +21545,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ifc-edu.cn^
 ||ifil.shop^
 ||ifil.store^
+||igame2steam.com^
 ||igig87.cn^
 ||ih740.cn^
 ||ihais.com^
@@ -21722,6 +21733,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jmqxbeo.cn^
 ||jmulab.cn^
 ||jmypaxioemnf.com^
+||jmypdkzixne.com^
 ||jmypodeqqf.com^
 ||jn1biifafz.cn^
 ||jncacp.cn^
@@ -21899,6 +21911,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||kmrcewt.cn^
 ||knaxfbg.cn^
 ||knk95.cn^
+||kohen.biz^
 ||komi168.com^
 ||komplett.me^
 ||kongssew.com^
@@ -22020,6 +22033,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lifuguan.cn^
 ||lihailin.vip^
 ||lihong.ltd^
+||lihongyu.xyz^
 ||lijie1010.top^
 ||likefly.com.cn^
 ||lilith.ink^
@@ -22967,6 +22981,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||simon184.cn^
 ||sinabuy.cn^
 ||sincetrade.com^
+||singledog.fun^
 ||sinotealife.cn^
 ||sinyang.info^
 ||siomyx.cn^
@@ -23099,6 +23114,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||sxzzhj.com^
 ||sycbbs.com^
 ||sydswxx.com^
+||sydz.tw^
 ||syjjd.club^
 ||syks.xyz^
 ||sylvia.cloud^
@@ -23249,6 +23265,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||topazedu.com^
 ||topdoctor.vip^
 ||topn.xyz^
+||toqrsru.cn^
 ||toshi.top^
 ||totoc.top^
 ||totoh.top^
@@ -23636,6 +23653,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xdrzdh.cn^
 ||xdwqq.cn^
 ||xeihy.com^
+||xerhibx.cn^
 ||xflz.xyz^
 ||xfnkds.com^
 ||xfvbs.cn^
@@ -23758,6 +23776,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||xsspt.vip^
 ||xszysc.com^$third-party
 ||xtb.ink^
+||xtime.hk^
 ||xubb.xyz^
 ||xuchangmuying.com^
 ||xuenengyoujiaoyu.com^
@@ -23835,6 +23854,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ybrex.cn^
 ||ybsyyh.com^
 ||ybtianxi.com^
+||ybxw.shop^
 ||ychbgss.cn^
 ||yckpdr.com^
 ||yclhtech.cn^
