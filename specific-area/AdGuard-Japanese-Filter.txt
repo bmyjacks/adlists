@@ -470,6 +470,15 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81308
+||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,important,domain=youpouch.com
+@@||pagead2.googlesyndication.com/pagead/$script,domain=youpouch.com
+@@||fundingchoicesmessages.google.com^$script,domain=youpouch.com
+@@||youpouch.com^$generichide
+youpouch.com##.ad
+youpouch.com##.ad300x250
+youpouch.com##.ad728x90
+youpouch.com##.native-ad
 ! https://kakomonn.com/shakaifukushi/questions
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=kakomonn.com
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/690
@@ -991,8 +1000,6 @@ www2.odn.ne.jp#?##sidebar-in2 > div.contents > ins.adsbygoogle:upward(1)
 www2.odn.ne.jp#?##sidebar-in2 > h3:contains(/広告|PAKUTASO/)
 www2.odn.ne.jp#?##area01 > div.access > script[src$="/show_ads.js"]:upward(2)
 mj-news.net#?#a[id^="Type"]:upward(1)
-bunshun.jp#?#.sub-column-inner > div.block > div[class="block-header pc"]:has(> span:contains(SPECIAL))
-bunshun.jp#?#.sub-column-inner > div.block > div[class="block-header pc"]:has(> span:contains(SPECIAL)) + ul[class="list-thumb pc"]
 business.nikkei.com#?#.js-sticky > section.l-asideSection:has(> div.p-sideArticleList > ul > li > div[id^="div-gpt-ad-recommend_pr_"])
 blog.fc2.com#?#.plugin_content > div.plugin_body > div.plugin-freearea > div[id^="i2i"]:upward(3)
 blog.fc2.com#?#.side-menu > div.sidebar-style > div.plugin-freearea > img[src^="//v2st.shinobi.jp/"]:upward(3)
@@ -1904,8 +1911,22 @@ aviationwire.jp,getnavi.jp,entamerush.jp,gourmetpress.net,career-find.jp,mainich
 !
 !
 !
+bridge-salon.jp##div[id^="jp_ir_"][style]
+blkt.net##.ad001
+blkt.net##.mkjAd
+mrs.living.jp##.fbnr-area
+mrs.living.jp##.pr-txt-area
+mrs.living.jp###billboard
+ovo.kyodo.co.jp##.gunosy-ads-spot
+ovo.kyodo.co.jp##a[href^="https://suumo.jp/tokushu/pre/mansion/kanto/"]
+mainichigahakken.net###mhn_all_bb_gam
+mainichigahakken.net##.wrap-PageInnerAD
+mainichigahakken.net##.ad-block + div.ranking-block
+crea.bunshun.jp##div[style="margin-bottom:20px; width:728px;"]
+navitime.co.jp###page_footer_adunit
 hessionchiro.com##.mh-sidebar > .widget_custom_html
 hessionchiro.com##.sng-box.mbt2
+momoniji.com###pc_text-6
 yomiuri.co.jp##.dazn_banner
 golfsapuri.com##.sideBanner2:first-child
 golfsapuri.com##div[style^="width: 100%; text-align: center"][style$="height:250px;"]
@@ -2242,6 +2263,7 @@ kakomonn.com##div[class^="advertisement"]
 kakomonn.com##div[class^="ctr_ad_"]
 magmix.jp##aside > div[style^="min-height"]
 store.shopping.yahoo.co.jp##.mdYCA
+||kenga.tech/area-pop-ups-
 ||kenga.tech/pop-ups-
 zaikai.jp##.detailBottomAdWrap
 kuruma-news.jp##.add-container
@@ -2699,7 +2721,6 @@ trip-2ch.kokohenjp.mixh.jp,a-da-co-da.com,macha795.com,namatamago.net###custom_h
 valorantnews.jp###custom_html-38
 valorantnews.jp###custom_html-45
 ||lv73.net/wordpress/wp-content/themes/*/library/js/ko-ko-ku/ko-ko-ku.js
-bunshun.jp##a[href$="?ref=special"]
 ||rakuten-bank.co.jp/shared/js/ad.js
 ygokamo.com##div[style] > a[target="_break"] > img
 ||ygokamo.com/wp-content/uploads/mercard1200.jpg
@@ -5134,6 +5155,7 @@ punyu.com###content > .rank_table
 punyu.com###right > .rank_table
 punyu.com##.box_title_pr
 daibouken.jp##div[id^="dugaflvplayer"]
+iphone-mania.jp###banner_pr
 iphone-mania.jp##.pr_single_txt
 iphone-mania.jp###jack_wrapper > div[id^="jack"]
 iphone-mania.jp##.single_pr_ad_all
@@ -5231,6 +5253,7 @@ yomiuri.co.jp##[class^="home-2020-"][class$="__ad"]
 yomiuri.co.jp##.p-ad-org-news-txt
 yomiuri.co.jp##[class^="home-2020-ad"]
 yomiuri.co.jp##[id^="ad_dfp_news-txt"]
+nikkansports.com###headerAdBnr2022
 nikkansports.com###adPushdown
 nikkansports.com###MiddleAD
 nikkansports.com##.adgiftextlist
