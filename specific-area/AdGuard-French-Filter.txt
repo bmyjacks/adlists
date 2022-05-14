@@ -862,6 +862,8 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+lepoint.fr##div[id^="WRAP_"][id*="_ATF"]
+lepoint.fr##div[id^="WRAP_NATIVE_"]
 cnews.fr##.article-advertisement
 parlons-basket.com##.widget-ad-slot
 parlons-basket.com##a[href^="https://www.airbnb.fr/rooms/"] > img
@@ -1266,6 +1268,8 @@ place.ge#@#.simple-ad
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118491
+fshd.link#@#div[data-ad]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118013
 @@||raincaptcha.com/*/frame/ad?$domain=raincaptcha.com
 ! yts.mx - fixing video player
