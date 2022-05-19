@@ -98,7 +98,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
-
+||adserver.icimedias.ca^
 !---------------------------------------------------------------------------!
 !-------------- Anti-adblock rules -----------------------------------------!
 !---------------------------------------------------------------------------!
@@ -717,6 +717,8 @@ jeuxvideo.com#?#.list-actu-home > li[-ext-has='span.officiel']
 !
 ! French-language catch-up TV web apps
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118970
+funradio.fr,rtl2.fr,rtl.fr#%#//scriptlet("set-constant", "getAudioAdUrl", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116378
 ! Fixing delay in the video player
 purepeople.com#%#(function(){var a={cmd:[],public:{getVideoAdUrl:function(){},createNewPosition:function(){},refreshAds:function(){},setTargetingOnPosition:function(){},getDailymotionAdsParamsForScript:function(c,a){if("function"==typeof a)try{if(1===a.length){a({})}}catch(a){}}}};a.cmd.push=function(b){let a=function(){try{"function"==typeof b&&b()}catch(a){}};"complete"===document.readyState?a():window.addEventListener("load",()=>{a()})},window.jad=a})();
@@ -780,6 +782,11 @@ generation-nt.com#%#Object.defineProperty(window, 'AdvertBay', { get: function()
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/118970
+funradio.fr,rtl2.fr,rtl.fr#$#body .container-ads + *:not(#style_important) { padding-top: 0 !important; }
+funradio.fr,rtl2.fr,rtl.fr#$#body .container-ads + .tranche:not(#style_important) { padding-top: 50px !important; }
+funradio.fr,rtl2.fr,rtl.fr#$#body .container-ads + .header-ariane:not(#style_important) { padding-top: 0 !important; }
+funradio.fr,rtl2.fr,rtl.fr#$#body .container-ads ~ .tranche.section-article:not(#style_important) { padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118024
 parlons-basket.com#$#html > body:not(#style_important) { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116245
@@ -862,6 +869,9 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+funradio.fr,rtl2.fr##.c-prebid
+funradio.fr,rtl2.fr##.container-ads
+funradio.fr,rtl2.fr,rtl.fr##.tranche-obd
 parismatch.com##.lmn-topban
 parismatch.com##.lmn-aside
 parismatch.com##.lmn-inread
