@@ -869,6 +869,9 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+lunchboards.com###mv-info > a[target="_blank"] > img
+lunchboards.com##.mvic-desc > a[target="_blank"] > img
+||lunchboards.com/images/download1.GIF
 funradio.fr,rtl2.fr##.c-prebid
 funradio.fr,rtl2.fr##.container-ads
 funradio.fr,rtl2.fr,rtl.fr##.tranche-obd
@@ -1283,6 +1286,11 @@ place.ge#@#.simple-ad
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/119138
+linio.com.pe#@#div[data-ad-id]
+! https://github.com/AdguardTeam/AdguardFilters/issues/119139
+@@||kvid.org/v*/vid-$subdocument
+$subdocument,third-party,domain=kvid.org,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118622
 ||shoosh.co^$third-party,badfilter
 ! https://github.com/uBlockOrigin/uAssets/commit/d5e0de7a259057c2d53ebd36f37ee1762e9e2860#commitcomment-73637215
