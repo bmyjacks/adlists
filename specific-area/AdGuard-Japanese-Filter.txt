@@ -83,56 +83,10 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23113
 ! ||weblio.jp^$third-party
 !
-! Yahoo
-||promotionalads.yahoo.co.jp^
-||ard.yahoo.co.jp^
-||ov.yahoo.co.jp^
-||yeas.yahoo.co.jp^
-||yads.yahoo.co.jp^
-||yads.yjtag.yahoo.co.jp^
-!
-! Supership.jp (also mobile ads)
-||socdm.com^
-!
-! Shinobi.jp
-||adm.shinobi.jp^
-||adf.shinobi.jp^
-||bar*.shinobi.jp^$third-party
-!
-! Rakuten.co.jp
-||affiliate.rakuten.co.jp^$third-party
-||rd.rakuten.co.jp^$third-party
-||afl.rakuten.co.jp^$domain=~kakaku.com,third-party
-||hbb.afl.rakuten.co.jp^$third-party
-||hb.afl.rakuten.co.jp^$third-party
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten--.co.jp
 !
-! Nikkeibp.co.jp
-||bizad.nikkeibp.co.jp^
-||adserve5.nikkeibp.co.jp^
-!
-! Livedoor.com
-||adv.livedoor.com^
-||counter2.blog.livedoor.com^
-!
-! Gunosy.com
-||ad.gunosy.com^
-||adapi.gunosy.com^
-||adntokyo.gunosy.com^
-||creatives.gunosy.com^
-!
-! Fc2.com
-||aimg.fc2.com^
-||media5.fc2.com^
-!
-! Excite.co.jp
-||adimp.excite.co.jp^
-||adimpkwd.excite.co.jp^
-!
-! Eimg.jp
-||adingo.jp.eimg.jp^
-!
+||fpgbazgezr.online^$all
 ||gnixtkjsft.online^$all
 ||andhub.jp^
 ||astrsk.net^$third-party
@@ -461,6 +415,42 @@
 ! For Safari
 ||ak.impact-ad.jp^$third-party
 ||one.impact-ad.jp^$third-party
+!
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: ||ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
+!
+||ad.gunosy.com^
+||adapi.gunosy.com^
+||adf.shinobi.jp^
+||adimp.excite.co.jp^
+||adimpkwd.excite.co.jp^
+||adingo.jp.eimg.jp^
+||adm.shinobi.jp^
+||adntokyo.gunosy.com^
+||adserve5.nikkeibp.co.jp^
+||adv.livedoor.com^
+||affiliate.rakuten.co.jp^$third-party
+||aimg.fc2.com^
+||ard.yahoo.co.jp^
+||bar*.shinobi.jp^$third-party
+||bizad.nikkeibp.co.jp^
+||cdj.dap.dmm.com^
+||counter2.blog.livedoor.com^
+||creatives.gunosy.com^
+||hb.afl.rakuten.co.jp^$third-party
+||hbb.afl.rakuten.co.jp^$third-party
+||media5.fc2.com^
+||ov.yahoo.co.jp^
+||promotionalads.yahoo.co.jp^
+||rd.rakuten.co.jp^$third-party
+||socdm.com^
+||yads.yahoo.co.jp^
+||yads.yjtag.yahoo.co.jp^
+||yeas.yahoo.co.jp^
 !---------------------------------------------------------------------------!
 !-------------- Anti-adblock rules -----------------------------------------!
 !---------------------------------------------------------------------------!
@@ -875,6 +865,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 dic.nicovideo.jp#?#div[style="margin-left: -4px;"] > a.auto[href*="/Ads"]:upward(1)
 news-boaters.com#?#.vab > div#pr:upward(1)
 ameblo.jp#?#.freespaceArea:has(> a[href^="//ck.jp"][rel="nofollow"])
@@ -1930,6 +1921,12 @@ aviationwire.jp,getnavi.jp,entamerush.jp,gourmetpress.net,career-find.jp,mainich
 !
 !
 !
+animecomic-pass.blog.jp###more > div[align=center] > a[href*="px.a8.net/svt/ejp?"]
+animecomic-pass.blog.jp###more > div[align=center] > span[style="font-size: 81.25%;"]
+animecomic-pass.blog.jp###more > div[style="font-size: 150%;"] > b
+bakusai.com###banner_top
+||afl.rakuten.co.jp^$domain=~kakaku.com,third-party
+biteki.com##.sideblock_banner
 nijisenmon.work##.post-widgets-top
 360life.shinyusha.co.jp##.c-bnr > img.lozad
 hikak.com,shindans.com##.a11 > div.a21
@@ -4368,6 +4365,7 @@ trafficnews.jp##.box-ad-left
 trafficnews.jp##.pc-side-ad-mrg
 trafficnews.jp##.original-pc-ad
 trafficnews.jp##.affiliate_link
+blogmura.com##.ad-list
 blogmura.com##div[class^="ad"]
 minigame.aeriagames.jp###zumba-ad
 ||games.wkb.jp/html5games/play/jewelexplode/ads-
@@ -4843,7 +4841,9 @@ horne.red,nijie.info##.tieup_rand_block
 horne.red,nijie.info##.view_top_banner
 s.tabelog.com##.ad_list_bottom_large
 s.tabelog.com##.rsttop-ad
+||5ch.net/js/ads.js
 ||5ch.net/js/ad.js
+||bbspink.com/_gichin/js/ads.js
 ||bbspink.com/js/ad.js
 nan-net.com,radiolife.com,keimei.ne.jp,5ch.net,bbspink.com,crank-in.net###banner
 5ch.net###js--banners--thread

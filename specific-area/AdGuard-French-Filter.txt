@@ -717,6 +717,8 @@ jeuxvideo.com#?#.list-actu-home > li[-ext-has='span.officiel']
 !
 ! French-language catch-up TV web apps
 !
+! allocine.fr - fixing delay in the video player
+allocine.fr#%#//scriptlet("set-constant", "AC.config.ads", "emptyObj")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118970
 funradio.fr,rtl2.fr,rtl.fr#%#//scriptlet("set-constant", "getAudioAdUrl", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116378
@@ -1286,6 +1288,8 @@ place.ge#@#.simple-ad
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/119307
+coches.net#@#div[data-ad-id]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119138
 linio.com.pe#@#div[data-ad-id]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119139
