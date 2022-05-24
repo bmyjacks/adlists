@@ -572,7 +572,6 @@ knshow.com#@#.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81515
 helpsupport.blog.fc2.com#%#//scriptlet('prevent-setTimeout', '.hide')
 helpsupport.blog.fc2.com#$#ins.adsbygoogle { width: 1px!important;height: 1px!important; }
-||fc2.com/h/e/l/helpsupport/blank.js$domain=helpsupport.blog.fc2.com
 ||fc2.com/h/e/l/helpsupport/googleads.html$subdocument,redirect=noopframe,domain=helpsupport.blog.fc2.com
 @@||helpsupport.blog.fc2.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81505
@@ -1096,7 +1095,6 @@ s8a.jp#?#article > div > ins.adsbygoogle:upward(1)
 kankomie.or.jp#?#.prBanner > ul > li > ins.adsbygoogle:upward(3)
 ebitsu.net#?#.plugin-memo > div.side > div.ad-center:upward(2)
 st.benesse.ne.jp#?##new_article_alltop > li > div[id^="logly"]:upward(1)
-japanese.engadget.com#?#ul[data-testid="DeepLinkStreams"] > li:has(> article div[class*="engadgetFontGray"])
 medibang.com#?#.mdModal div.mdbnViewer__ad:upward(.mdModal)
 pointmall.rakuten.co.jp#?#.side-box > div[id^="rdn-adspot"]:upward(1)
 karapaia.com#?#.readmore-header:has(> div.ads-label)
@@ -1168,7 +1166,6 @@ mapion.co.jp#?##Main > div > div.OUTBRAIN:upward(1)
 vogue.co.jp#?#div[data-test-id="TeaserFourUpCol"] > div > div[id^="ad-"]:upward(2)
 gendai.ismedia.jp#?#.elementSectionHeadingsWithSuffix > h3:contains(/Pick|記事/):upward(1)
 seikatsu-hyakka.com#?#.widget_text script[src^="//cdn.gmossp-"]:upward(.widget_text)
-japanese.engadget.com#?#ul[data-testid="HomepageStreams"] > li div[data-ylk^="slk:お問い合わせはこちら"]:upward(li)
 gaccom.jp#?#.box_top > div.box_btm > ul.bukken-list:upward(2)
 gaccom.jp#?#.box_top > div.box_btm > ul.realestate-list:upward(2)
 gaccom.jp#?#.box_top > div.box_btm > ul.recipe-side-img-area:upward(2)
@@ -1924,6 +1921,7 @@ johndoeblog.org,aviationwire.jp,getnavi.jp,entamerush.jp,gourmetpress.net,career
 !
 !
 !
+tabizine.jp##div[id$="_parent"]
 yosakoimatsuri.com##.widgetPost-bottom
 sirabee.com###rectangle
 ||sozailab.jp/img/top/header_banner1.jpg
@@ -2290,7 +2288,7 @@ lulucos-bys.jp##.p-article__adnw
 recordchina.co.jp##.csw-content-box.ise-ad
 javstore.net##a[title="Banner"]
 javstore.net##img[title="aaaaa"]
-helpsupport.blog.fc2.com###topspace
+helpsupport.blog.fc2.com###toparea
 animageplus.jp##.addHead
 animageplus.jp##.addSide
 animageplus.jp##.articleDetailAdd
@@ -2514,7 +2512,12 @@ e-earphone.jp##.header-area-bn
 movies.yahoo.co.jp##div[class^="overlay-ad_"]
 asahi.com##.sidebar__banner
 ||mobareco.jp/wp-content/uploads/*_300_250_
-web.save-editor.com##.set_wrapper
+||web-g-p.com/info/b/in/ad/
+||save-editor.com/b/in/ad/
+emu.web-g-p.com##div[class=""][style^="display:block; color:; background-color:"]
+emu.web-g-p.com###set_banner_side_left
+emu.web-g-p.com###set_banner_side_right
+emu.web-g-p.com,web.save-editor.com##.set_wrapper
 web.save-editor.com##.set_wrapper_absolute_right
 ||ver-net.jp/ad/js/
 zatsugaku-company.com###st_custom_html_widget-36
@@ -3014,7 +3017,6 @@ caloo.jp##div[id^="dfp-"]
 pokemon.game-chan.net##.sidebar_content > div.custom-classic-textwidget
 ||suzaka.ne.jp/ban/banner_rt.php
 ||suzaka.ne.jp/bb/
-japanese.engadget.com##img[style="width: 600px; height: 100px;"]
 eromanga-mainichi.com##.adadtitle
 ||rss-loader.com/channel/dnallmedia/adfeedmai/$domain=eromanga-mainichi.com
 hotfrog.jp##div.bg-white.text-center
@@ -3412,8 +3414,6 @@ minkch.com###desmiss
 minkch.com##.menu-item > .external
 minkch.com##.topframe
 library.pref.osaka.jp###banner_ad
-japanese.engadget.com##iframe[data-src^="https://rcm-"]
-||hawkeye.publishing.oath.com/v1/dims?$domain=japanese.engadget.com
 ||20kaido.com/design/ad_
 20kaido.com###headline_around
 20kaido.com###sidebar > table:first-child
@@ -5488,11 +5488,6 @@ sankei.com###sponsored
 sankei.com##.module_ad:not(#subscribe)
 ganganonline.com##header#sqexHeader-black_rsp
 asahi.com##.AdMod
-japanese.engadget.com###module-engadget-deeplink-top-ad
-japanese.engadget.com###taboola-below-article-thumbnails-2nd
-japanese.engadget.com##div.Mih\(250px\)
-japanese.engadget.com##p.partner_container
-japanese.engadget.com##aside#ldrBoardAd
 togetter.com##.promotion
 togetter.com##.ad_topics_custom
 j-cast.com##.ad_entry_toptext
