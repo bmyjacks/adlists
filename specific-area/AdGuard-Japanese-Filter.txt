@@ -86,6 +86,8 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten--.co.jp
 !
+||pycechznrw.online^$all
+||abh.jp^$third-party
 ||jhdajrgpag.online^$all
 ||click-count.info^$all
 ||fpgbazgezr.online^$all
@@ -466,8 +468,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
-! syosetu.top anti-adb
-@@||syosetu.top/cdn-cgi/zaraz/$script,~third-party
+! manga sites anti-adb
+@@||comick.top/cdn-cgi/zaraz/s.js
+@@||syosetu.top/cdn-cgi/zaraz/s.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81308
 ||pagead2.googlesyndication.com/pagead/$script,redirect=noopjs,important,domain=youpouch.com
 @@||pagead2.googlesyndication.com/pagead/$script,domain=youpouch.com
@@ -1224,7 +1227,7 @@ clublucifer.net#?#.blockWrapper div[id^="mhub-"]:upward(.blockWrapper)
 news.dwango.jp#?#.bnr-s_2 > div[id^="div-gpt-ad"]:upward(1)
 kanaloco.jp#?##recommendations > li > div[class^="ad"]:upward(1)
 detail.chiebukuro.yahoo.co.jp#?#aside[class^="ClapLv3SubList_Chie-SubList__ListItem__"] > div.infdAd:upward(1)
-nilcollection.net,fragrantica-japan.com,taisy0.com,gadgerba.com#?#.cardtype__article > ins.adsbygoogle:upward(1)
+complesso.jp,nilcollection.net,fragrantica-japan.com,taisy0.com,gadgerba.com#?#.cardtype__article > ins.adsbygoogle:upward(1)
 trafficnews.jp#?##slider_list span.title-text:has-text(おすすめPR):upward(#slider_list)
 da-te.jp#?#.article center > div#SPREAD_VIDEO_PLAYER:upward(.article)
 da-te.jp#?#.blogbody center > div#SPREAD_VIDEO_PLAYER:upward(.blogbody)
@@ -1917,7 +1920,7 @@ cocoseka.gamewiki.jp,spirituabreath.com,travel.spot-app.jp,chietoku.jp,rere.jp,b
 ! ##.amazon
 getnews.jp,ebitsu.net,news.2chblog.jp,chomagireko.blog.jp,tarosoku.com,0taku.livedoor.biz,kabumatome.doorblog.jp,haijin-boys.com,hamusoku.com,ascii2d.net##.amazon
 ! ##.adsense
-shin-shouhin.com,news.biglobe.ne.jp,4ka.net,natsukimemo.com,travelbook.co.jp,cat.sc,battle-one.com,otonasalone.jp##.adsense
+anke.jp,shin-shouhin.com,news.biglobe.ne.jp,4ka.net,natsukimemo.com,travelbook.co.jp,cat.sc,battle-one.com,otonasalone.jp##.adsense
 ! ##.banner
 asajikan.jp,tanoshiiosake.jp,library.mitaka.tokyo.jp,climbing-net.com,tripnote.jp,allreviews.jp,smart-flash.jp,news.fresheye.com,pakutaso.com,gaydebulog.com,qoly.jp,ascii2d.net,hoikuen-ranking.com,jp.msn.com,dengekionline.com,wiki.seesaa.jp##.banner
 ! ##.ads
@@ -1929,8 +1932,11 @@ johndoeblog.org,aviationwire.jp,getnavi.jp,entamerush.jp,gourmetpress.net,career
 !
 !
 !
+ikikuru.com##.custom-html-widget > a[href="https://haisha.linqar.com"]
 comic-days.com##.link-page-full
 thetennisdaily.jp##.side-bnr-area
+complesso.jp###custom_html-7
+umamusume-umapyoi.com##div[id^="common_ad"]
 suits-woman.jp##.use--ad
 pouchs.jp##div[style="height:90px;width:728px;margin:auto"]
 dailynewsonline.jp###AttentionArticle
@@ -4766,7 +4772,7 @@ jbbs.shitaraba.net###ads_fieldOuter
 jbbs.shitaraba.net###recommend_ad
 jbbs.shitaraba.net##div[style^="width:300px; height:250px"]
 ||automaton-media.com/wp-content/plugins/wpsite-background-takeover-*/wpsite_clickable.js
-automaton-media.com##.ai_widget
+sorae.info,automaton-media.com##.ai_widget
 tech-camp.in##.BottomFixedBannerContainer
 yamagata-np.jp##div[class^="ad_superbanner_"]
 ken-g.com###ggl-wrapper
