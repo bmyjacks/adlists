@@ -89,6 +89,7 @@
 ||xxaycxswtx.online^$all
 ||rfypebzjtm.online^$all
 ||pycechznrw.online^$all
+||js.mulan.cloud^
 ||abh.jp^$third-party
 ||jhdajrgpag.online^$all
 ||click-count.info^$all
@@ -471,6 +472,7 @@
 !
 !
 ! manga sites anti-adb
+||i.imgur.com^$image,redirect=32x32-transparent.png,domain=comick.top|syosetu.top
 @@||comick.top/cdn-cgi/zaraz/s.js
 @@||syosetu.top/cdn-cgi/zaraz/s.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81308
@@ -516,6 +518,7 @@ g-pc.info#%#//scriptlet('set-constant', 'adsbygoogle.loaded', 'true')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=g-pc.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103488
 @@||musenboya.com^$generichide
+musenboya.com#$?#div[id] > .ad-wrap:upward(1) { height: 1px! important; }
 musenboya.com#$?#div[id] > div[id^="im-"] > script[src^="https://imp-"]:upward(2) { height: 1px !important; }
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||imp-adedge.i-mobile.co.jp/script/v1/spot.js$domain=musenboya.com
@@ -1941,6 +1944,10 @@ gamerch.com##.jack
 qjweb.jp##li.detail_box[style$="display: flex; align-items: center; justify-content: center;"]
 home.kingsoft.jp##.bn600
 home.kingsoft.jp##.cp-tip
+yaraon-blog.com###mytextwidget-36
+yaraon-blog.com###mytextwidget-37
+yaraon-blog.com###mytextwidget-33
+gigazine.net###EndFooter
 beauty.rakuten.co.jp##.SideColumn__ad
 bucchinews.com###columnLeft > div.sideBanner:last-child
 bucchinews.com###columnRight > div.sideBanner:first-child
@@ -1973,6 +1980,11 @@ gazyekichi96.com##.l-sidebar > aside.widget_text
 animecomic-pass.blog.jp###more > div[align=center] > a[href*="px.a8.net/svt/ejp?"]
 animecomic-pass.blog.jp###more > div[align=center] > span[style="font-size: 81.25%;"]
 animecomic-pass.blog.jp###more > div[style="font-size: 150%;"] > b
+bakusai.com###banner_thr
+bakusai.com###banner_thr + hr
+bakusai.com##.thrListTxtAd
+bakusai.com##.thrListTxtAd + hr
+bakusai.com##.thrWholeRight
 bakusai.com###banner_top
 ||afl.rakuten.co.jp^$domain=~kakaku.com,third-party
 biteki.com##.sideblock_banner
@@ -2476,6 +2488,7 @@ dokuha.jp##.col-xs-12.margin-bottom-lg > a[href^="https://search.rakuten.co.jp/s
 rkb.jp###footer_banner .ftr1
 rkb.jp###footer_banner .ftr3
 jav380.com##div[style="position: fixed; bottom: 5px; right: 5px; width: 300px; z-index: 9999;"]
+musenboya.com##.entry-footer > a[href^="https://hb.afl.rakuten.co.jp"]
 musenboya.com###Recommend_Area
 kusurinomadoguchi.com###page-banner
 theav.xyz##.c307ad
@@ -3006,7 +3019,7 @@ blog.livedoor.jp##.article-body-inner > div#more > a[rel="noopener sponsored"][h
 vipstyle.tokyo,blue-archive.doorblog.jp##.plugin-memo:last-child
 atsumori-tanukichi.com##.side-section[style]
 atsumori-tanukichi.com##div[style="text-align: center;margin-bottom: 24px;"]
-juantonto.official.jp,mayukitchen.com,zatsugaku-company.com,yugioh-resaler.com##p[style="color:#666;margin-bottom:5px;"]
+multirecommend.com,juantonto.official.jp,mayukitchen.com,zatsugaku-company.com,yugioh-resaler.com##p[style="color:#666;margin-bottom:5px;"]
 vtubersokuhou.com###diver_widget_pcsp-2
 vtubersokuhou.com###diver_widget_pcsp-13
 monhan-mhw.com###main div.column-inner-2 div[style="text-align:center;"]
@@ -3016,7 +3029,7 @@ toushichannel.net##div[style$="height:280px;"]
 n-switch.com##.main-adsense
 pokemongo-kouryakumatome.net###links-left > section.-freeArea:last-child
 hobby.watch.impress.co.jp###hobby-rakuten-ranking
-moguravr.com##.box:not(.mg-articles-widget)
+moguravr.com##.mg-ads-placement
 coliss.com###sponsorsTop
 coliss.com###sponsors
 coliss.com##.txtBodyA1
@@ -4587,7 +4600,7 @@ camoero.com##.e-link
 ouminews.net##.oumi-widget
 yurukuyaru.com###float_left
 yurukuyaru.com##.article-bottom
-yurukuyaru.com##table[style="text-align:left;margin-left:0;margin-right:0;"]
+jin115.com,yurukuyaru.com##table[style="text-align:left;margin-left:0;margin-right:0;"]
 tocana.jp###adEntryTitleBottom
 tocana.jp###bnr_goSrid
 tocana.jp###hashiraR
@@ -4759,6 +4772,15 @@ curazy.com###cu_pc_article_inarticle
 curazy.com##div[class^="cu_"][class*="wrap"][style*="height"]
 ||blog-video.jp/images?url=*.a8.net%$third-party
 ameblo.jp##.skin-entryAd
+minkara.carview.co.jp###AdPrimeDisplay
+minkara.carview.co.jp###\33 00X250_R01
+minkara.carview.co.jp###sub > .negativemargin10top:first-child
+minkara.carview.co.jp##.admovie
+minkara.carview.co.jp##.yahooaffiliate-vertical
+minkara.carview.co.jp##div[class^="bnr"]
+||shopping.yahoo.co.jp/sads/$domain=minkara.carview.co.jp
+||carview.co.jp/cvmaterials/minkara/web/common/css/overlaybanner.css
+||carview.co.jp/cvmaterials/minkara/web/scripts/overlaybanner.js
 ||carview.co.jp/scripts/adCommon.js
 ||wp.com/www.afi-b.com/
 ||dxlive.com/affiliate/

@@ -80,6 +80,8 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||xydestygre.com^
+||kukachesy.pro^
 ||be-rtl.videoplaza.tv^
 ||fristminyas.com^$third-party
 ||ukslphcgs.com^$third-party
@@ -98,6 +100,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||kz.cateredjapish.com^
 ||adserver.icimedias.ca^
 !---------------------------------------------------------------------------!
 !-------------- Anti-adblock rules -----------------------------------------!
@@ -717,6 +720,8 @@ jeuxvideo.com#?#.list-actu-home > li[-ext-has='span.officiel']
 !
 ! French-language catch-up TV web apps
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/119411
+gala.fr,capital.fr#%#AG_onLoad(function(){if(window.pmsCoreAds&&Array.isArray(pmsCoreAds)){var b=new MutationObserver(function(){var a=document.querySelector("div[data-ads-core] .dailymotion-player-wrapper");if(a&&pmsCoreAds.length){b.disconnect();for(const a of pmsCoreAds)if("function"==typeof a)try{a()}catch(a){console.error(a)}}});b.observe(document,{childList:!0,subtree:!0}),setTimeout(function(){b.disconnect()},2E4)}});
 ! allocine.fr - fixing delay in the video player
 allocine.fr#%#//scriptlet("set-constant", "AC.config.ads", "emptyObj")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118970
@@ -871,6 +876,7 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+/\/\/[a-z]{6,}\.com\/[a-zA-Z0-9]{5,}-?[a-zA-Z0-9.]{6,}[\s\S]*\/[a-zA-Z0-9]{10,}/$domain=zone-telechargement.click,script
 lepoint.fr###taboola-below-article
 capital.fr##.outbrain-ads
 lunchboards.com###mv-info > a[target="_blank"] > img
