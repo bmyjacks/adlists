@@ -86,6 +86,8 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten--.co.jp
 !
+||link-ag.net^$third-party
+||yspbrzmsdy.online^$all
 ||xxaycxswtx.online^$all
 ||rfypebzjtm.online^$all
 ||pycechznrw.online^$all
@@ -226,7 +228,6 @@
 ||widget.cybershop-affiliate.jp^
 ||6ms.biz^$third-party
 ||ad-arrow.com^$third-party
-||img-c.net^$third-party
 ||z-profit.com^
 ||dn.msmstatic.com^
 ||aff.jskyservices.com^$third-party
@@ -422,6 +423,7 @@
 ! For Safari
 ||ak.impact-ad.jp^$third-party
 ||one.impact-ad.jp^$third-party
+
 !
 ! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
 ! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
@@ -876,6 +878,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+avgle.net#?#.column > div.card > div.adv:upward(2)
 home.kingsoft.jp#?#.search > span.url > a.pr:upward(2)
 home.kingsoft.jp#?#.slider > div[id^="div-gpt-"]:upward(1)
 tetsudo-ch.com#?#.news-list > li > ins.adsbygoogle:upward(1)
@@ -1851,7 +1854,6 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 .jp/banner/*/banner_data_*.csv$xmlhttprequest,~third-party
 .jp/html.ng/
 .jp/image/ad/
-.jp/log.php?
 .jp/shared/system/js/banner/banner_rand_prev.js
 .jp/ufo/$script,third-party
 .jp/Zen?
@@ -1940,6 +1942,11 @@ tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeblog.org,aviationwire.jp,getn
 !
 !
 !
+4travel.jp##.u_adFloatingBox
+erobanach.com##.adranking
+erobanach.com##.adbtntype
+||gressive.jp/themes/custom/gressive_theme/data/json/ad-all.json
+||gressive.jp/themes/custom/gressive_theme/js/ad/
 gamerch.com##.jack
 qjweb.jp##li.detail_box[style$="display: flex; align-items: center; justify-content: center;"]
 home.kingsoft.jp##.bn600
@@ -2398,6 +2405,8 @@ yomiuri.co.jp##.p-ad-news-txt
 studyhacker.net###popup_area
 studyhacker.net##.p-side-banner-lists
 eroterest.net##iframe[src^="//okbp.xyz/"]
+kmansin03.com##.left-banner
+kmansin03.com##.right-banner
 kmansin03.com##.widget-img
 kmansin03.com##div[style^="width:100%; min-height:280px"]
 netkeiba.com##.Ad-main_footer
@@ -3253,6 +3262,7 @@ bipblog.com###TopAmazon
 bipblog.com###BottomAmazon
 bipblog.com##.main_center_block[style^="margin"]
 bipblog.com##.main_left_block:nth-last-of-type(-n+4)
+bipblog.com##.amachazl-box
 fx2ch.net###side_col > div.widget_custom_html:first-child
 fx2ch.net##.banner_set
 fx2ch.net##span[style^="text-align: -webkit-center; font-size: medium; color: rgb(102, 102, 102)"]
@@ -5904,7 +5914,8 @@ gtoys.blog.fc2.com###adright
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117406
 macaro-ni.jp#@#.rectangle__item
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117212
-jp.ign.com#@#.zad
+!+ PLATFORM(ios, android, ext_android_cb)
+ign.com#@#.zad
 ! https://github.com/tofukko/filter/issues/68
 kaerudx.com#@#.adArea
 kaerudx.com#@#.ad-center
