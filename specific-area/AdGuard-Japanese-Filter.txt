@@ -86,6 +86,7 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten--.co.jp
 !
+||diseno.librogratis.info^$all
 ||best-lucky-cat.xyz^$all
 ||geotg.jp^
 ||adnwif.smt.docomo.ne.jp^
@@ -875,6 +876,9 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+workingnews.blog117.fc2.com#?#.mainCommentBold2:contains(/^関連記事$/)
+workingnews.blog117.fc2.com#?##menu1Block > div.menu1BlockBase:has(> div.menu1BlockHead > div:contains(最新記事＋AD))
+workingnews.blog117.fc2.com#?#.mainCommentBold2:contains(/^PR$/)
 anihatsu.com#?#div[class^="article-body"] > blockquote:has(> div[align="center"] > a[href*="amazon.co.jp"])
 avgle.net#?#.column > div.card > div.adv:upward(2)
 home.kingsoft.jp#?#.search > span.url > a.pr:upward(2)
@@ -1936,10 +1940,14 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+balinavi.com,bangkoknavi.com,hawaiinavi.com,hongkongnavi.com,londonnavi.com,macaonavi.com,newyorknavi.com,parisnavi.com,pusannavi.com,seoulnavi.com,shanghainavi.com,singaporenavi.com,sydneynavi.com,taipeinavi.com,vietnamnavi.com###gad_header
+balinavi.com,bangkoknavi.com,hawaiinavi.com,hongkongnavi.com,londonnavi.com,macaonavi.com,newyorknavi.com,parisnavi.com,pusannavi.com,seoulnavi.com,shanghainavi.com,singaporenavi.com,sydneynavi.com,taipeinavi.com,vietnamnavi.com###gbnr_sidet
+balinavi.com,bangkoknavi.com,hawaiinavi.com,hongkongnavi.com,londonnavi.com,macaonavi.com,newyorknavi.com,parisnavi.com,pusannavi.com,seoulnavi.com,shanghainavi.com,singaporenavi.com,sydneynavi.com,taipeinavi.com,vietnamnavi.com##div[style^="width:100%; height:250px"]
+workingnews.blog117.fc2.com##.more_ads
+toku.yahoo.co.jp##.cmpList__adBlock
 figure-times.com###sticky-ads
 ||type-bee.co.jp/*/shared/tapnovel-banner-$third-party
 seniorguide.jp##aside.ad
-openers.jp##.ratio-wrapper
 nomad-saving.com##.entry-footer-ad
 happycampus.co.jp##div[style^="width: 160px; height: 600px"]
 happycampus.co.jp##div[style="width: 100%; height: 90px; clear: both;"]
@@ -3596,7 +3604,7 @@ utaten.com##.billboardBanner
 utaten.com##.recommendAdTag
 utaten.com##.footerBanner
 utaten.com##div[id^="JP_uta_"]
-movie.eroterest.net,utaten.com##.topBanner
+fineboys-online.jp,movie.eroterest.net,utaten.com##.topBanner
 movie.eroterest.net##.edgBanner
 eroterest.net##.adMgs
 eroterest.net##iframe[src^="//okbp.xyz/"]
@@ -5342,7 +5350,7 @@ hamakei.com##.partner
 ||matometanews.com/rss.html
 matometanews.com##iframe[src="http://matometanews.com/rss.html"]
 matometanews.com##.related-articles
-michaelsan.livedoor.biz,matometanews.com##a[href^="http://www.amazon.co.jp/"][target="_blank"]
+blog.livedoor.jp,michaelsan.livedoor.biz,matometanews.com##a[href^="http://www.amazon.co.jp/"][target="_blank"]
 ||images-fe.ssl-images-amazon.com^$domain=matometanews.com
 ||cnobi.jp/*/recommend/
 akb48matomemory.com##.rss
@@ -5806,7 +5814,10 @@ livedoor.jp##a[href^="http://track.xmax.jp/"]
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116832
 ! Duck DNS phishing domains
+!+ NOT_PLATFORM(ios, ext_android_cb, ext_safari)
 /^http:\/\/[a-z]{10}\.duckdns/$document,domain=duckdns.org
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+/^http:\/\/[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]\.duckdns/$document,domain=duckdns.org
 !
 ! video.fc2.com - sync shanxivideo.net in Chinese filters
 ||market.laxd.com/embed/rb/sevices?$domain=video.laxd.com
