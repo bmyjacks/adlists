@@ -86,7 +86,8 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten--.co.jp
 !
-||diseno.librogratis.info^$all
+||airlinemeals.net^$all
+||librogratis.info^$all
 ||best-lucky-cat.xyz^$all
 ||geotg.jp^
 ||adnwif.smt.docomo.ne.jp^
@@ -876,6 +877,11 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+twivideo.net#$?#.art_li[style^="width"] { remove: true; }
+kabegami.jpn.org#?##log-1[colspan="2"]:contains(スポンサードリンク)
+kabegami.jpn.org#?#body > div:not([style]) > ins.adsbygoogle:upward(1)
+kabegami.jpn.org#?#div[style="margin-left:175px;zoom:1;"] > div[style="margin-top:10px;"]:contains(/^スポンサードリンク$/)
+news4vip.livedoor.biz##div.plugin-memo:has(> div.side ins.adsbygoogle)
 workingnews.blog117.fc2.com#?#.mainCommentBold2:contains(/^関連記事$/)
 workingnews.blog117.fc2.com#?##menu1Block > div.menu1BlockBase:has(> div.menu1BlockHead > div:contains(最新記事＋AD))
 workingnews.blog117.fc2.com#?#.mainCommentBold2:contains(/^PR$/)
@@ -1651,6 +1657,15 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! overlay if scrolled to the bottom
+twivideo.net#$##is_w_area { display: none !important; }
+twivideo.net#$#.inv_scroll_cancel { overflow: auto !important; height: auto !important; }
+! kabegamikan.com leftover
+kabegamikan.com#$#td[width="340"] { display: none !important; }
+kabegamikan.com#$#div[style="width:730px;font-size:11pt;"] > table[width="730"] { width: 380px! important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/121344
+news-postseven.com#$#.su-modal { display: none !important; }
+news-postseven.com#$#body[style^="overflow:"] { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119817
 minkabu.jp#$#.ly_content_wrapper { margin-bottom: 0!important; }
 ! overlay leftover
@@ -1918,7 +1933,7 @@ baby-calendar.jp,npn.co.jp,afpbb.com,2ch.pet,hamakei.com,keizai.biz,minkei.net,s
 ! ###ad
 illust-ai.com,ntv.co.jp,my-terrace.com,travel.rakuten.co.jp,conciergedesk.jp,japan-iwate.info,anal-love.net###ad
 ! ##.rectangle
-gourmet.aumo.jp,eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
+erodouga-s.com,gourmet.aumo.jp,eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
 ! ##.sponsored
 yukawanet.com,9-bit.jp,gardenstory.jp,yuu01.jp,gaddet.com,matome.eternalcollegest.com,ushigyu.net,nilcollection.net,gamers-info.net,appl-y.com,taisy0.com,netbusinessbox.net,autoc-one.jp,geek.sc##.sponsored
 ! ###fix_sidebar
@@ -1940,6 +1955,15 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+doujinhibiki.net##.deleteBox
+||twivideo.net/k.php
+kabegami.jpn.org##div[style="text-align:center;background-color:#000000;color:#FFFFFF"]
+kabegami.jpn.org##div[style="width:160px;margin-right:-175px;float:left;"] > div[style="margin-top:10px;text-align:center;"]:last-of-type
+kabegami.jpn.org##div[style="width:466px;background:#000000;color:#FFFFFF;text-align:center"]
+kabegamikan.com###left > table[width="100%"][cellpadding="0"] > tbody > tr > td:first-child
+kabegamikan.com##td[width="186"]
+kabegamikan.com##td[width="336"]
+news4vip.livedoor.biz##.kiziad
 balinavi.com,bangkoknavi.com,hawaiinavi.com,hongkongnavi.com,londonnavi.com,macaonavi.com,newyorknavi.com,parisnavi.com,pusannavi.com,seoulnavi.com,shanghainavi.com,singaporenavi.com,sydneynavi.com,taipeinavi.com,vietnamnavi.com###gad_header
 balinavi.com,bangkoknavi.com,hawaiinavi.com,hongkongnavi.com,londonnavi.com,macaonavi.com,newyorknavi.com,parisnavi.com,pusannavi.com,seoulnavi.com,shanghainavi.com,singaporenavi.com,sydneynavi.com,taipeinavi.com,vietnamnavi.com###gbnr_sidet
 balinavi.com,bangkoknavi.com,hawaiinavi.com,hongkongnavi.com,londonnavi.com,macaonavi.com,newyorknavi.com,parisnavi.com,pusannavi.com,seoulnavi.com,shanghainavi.com,singaporenavi.com,sydneynavi.com,taipeinavi.com,vietnamnavi.com##div[style^="width:100%; height:250px"]
@@ -4186,6 +4210,8 @@ moviecollection.jp##.innerAD
 aria.nikkei.com,doors.nikkei.com,dual.nikkei.com,woman.nikkei.com###stickyArea1
 ohtabooks.com##.sec-recommend
 digihows.com##div[id^="mobile_ads"]
+news-postseven.com###ad-pc-top-1
+news-postseven.com###ad-pc-top-2
 news-postseven.com##.ad4-5
 news-postseven.com##.adSec02
 chaberi.com##.panel-default > div.hidden-xs.row
