@@ -1,7 +1,7 @@
 #TITLE=anti-AD
-#VER=20220611024418
+#VER=20220611223306
 #URL=https://github.com/privacy-protection-tools/anti-AD
-#TOTAL_LINES=55042
+#TOTAL_LINES=55044
 DOMAIN-SUFFIX,00-gov.cn
 DOMAIN-SUFFIX,000123456789.online
 DOMAIN-SUFFIX,000123456789.site
@@ -1177,7 +1177,6 @@ DOMAIN-SUFFIX,37kx1.com
 DOMAIN-SUFFIX,37mnm.com
 DOMAIN-SUFFIX,37pk49.com
 DOMAIN-SUFFIX,37see.com
-DOMAIN-SUFFIX,37signals.com
 DOMAIN-SUFFIX,image.37wan.cn
 DOMAIN-SUFFIX,37wan.com
 DOMAIN-SUFFIX,37xs.net
@@ -5136,7 +5135,6 @@ DOMAIN-SUFFIX,ruikeja-mobileoffice.oss-cn-hangzhou.aliyuncs.com
 DOMAIN-SUFFIX,ttjx-online.cn-hangzhou.log.aliyuncs.com
 DOMAIN-SUFFIX,xz-development.oss-cn-beijing.aliyuncs.com
 DOMAIN-SUFFIX,sspmiaoshuo.cn-hangzhou.log.aliyuncs.com
-DOMAIN-SUFFIX,arms-retcode.aliyuncs.com
 DOMAIN-SUFFIX,aliyuncss.com
 DOMAIN-SUFFIX,aliyune.xyz
 DOMAIN-SUFFIX,aliyunf.xyz
@@ -15421,7 +15419,6 @@ DOMAIN-SUFFIX,doupuer.com
 DOMAIN-SUFFIX,douthosh.net
 DOMAIN-SUFFIX,t.douyaobuy.com
 DOMAIN-SUFFIX,tt.douyaobuy.com
-DOMAIN-SUFFIX,msg.douyu.com
 DOMAIN-SUFFIX,wan.douyu.com
 DOMAIN-SUFFIX,club-img.douyucdn.cn
 DOMAIN-SUFFIX,cs-op.douyucdn.cn
@@ -31030,8 +31027,11 @@ DOMAIN-SUFFIX,trust.mitutoyo.com
 DOMAIN-SUFFIX,stats.mituyu.com
 DOMAIN-SUFFIX,gg.miued.com
 DOMAIN-SUFFIX,ccc.sys.miui.com
-DOMAIN-SUFFIX,browser.miui.com
+DOMAIN-SUFFIX,hd.browser.miui.com
+DOMAIN-SUFFIX,httpdns.browser.miui.com
 DOMAIN-SUFFIX,logupdate.avlyun.sec.miui.com
+DOMAIN-SUFFIX,nav.browser.miui.com
+DOMAIN-SUFFIX,r.browser.miui.com
 DOMAIN-SUFFIX,sa.api.intl.miui.com
 DOMAIN-SUFFIX,tracking.intl.miui.com
 DOMAIN-SUFFIX,tracking.miui.com
@@ -31044,10 +31044,13 @@ DOMAIN-SUFFIX,api.xk.miui.com
 DOMAIN-SUFFIX,calopenupdate.comm.miui.com
 DOMAIN-SUFFIX,etl.xlmc.sec.miui.com
 DOMAIN-SUFFIX,fb.xk.miui.com
+DOMAIN-SUFFIX,hot.browser.miui.com
 DOMAIN-SUFFIX,info.analysis.kp.sec.miui.com
 DOMAIN-SUFFIX,info.sec.miui.com
 DOMAIN-SUFFIX,metok.sys.miui.com
 DOMAIN-SUFFIX,proxy.sec.miui.com
+DOMAIN-SUFFIX,reader.browser.miui.com
+DOMAIN-SUFFIX,security.browser.miui.com
 DOMAIN-SUFFIX,hot.browser.intl.miui.com
 DOMAIN-SUFFIX,activity.browser.intl.miui.com
 DOMAIN-SUFFIX,api.brs.intl.miui.com
@@ -43582,7 +43585,6 @@ DOMAIN-SUFFIX,stackadapt.com
 DOMAIN-SUFFIX,stackattacka.com
 DOMAIN-SUFFIX,stats.stackingthebricks.com
 DOMAIN-SUFFIX,trackla.stackla.com
-DOMAIN-SUFFIX,stackpathdns.com
 DOMAIN-SUFFIX,stats.stacks.org
 DOMAIN-SUFFIX,bdzcck.stadiumgoods.com
 DOMAIN-SUFFIX,cn1.stadiumgoods.com

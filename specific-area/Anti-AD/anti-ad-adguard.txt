@@ -1,8 +1,8 @@
 !Title: anti-AD for AdGuard
-!Version: 20220610184419308437352
+!Version: 20220611143306725992472
 !Homepage: https://anti-ad.net/
 !!!note! If you are using "AdGuard Home", please load https://anti-ad.net/easylist.txt
-!Total lines: 54316
+!Total lines: 54318
 @@||ad-maven.com^
 @@||ad.azure.com^
 @@||ads.taboola.com^
@@ -1315,7 +1315,6 @@
 ||37mnm.com^
 ||37pk49.com^
 ||37see.com^
-||37signals.com^
 ||image.37wan.cn^
 ||37wan.com^
 ||37xs.net^
@@ -5148,7 +5147,6 @@
 ||ttjx-online.cn-hangzhou.log.aliyuncs.com^
 ||xz-development.oss-cn-beijing.aliyuncs.com^
 ||sspmiaoshuo.cn-hangzhou.log.aliyuncs.com^
-||arms-retcode.aliyuncs.com^
 ||aliyuncss.com^
 ||aliyune.xyz^
 ||aliyunf.xyz^
@@ -15317,7 +15315,6 @@
 ||douthosh.net^
 ||t.douyaobuy.com^
 ||tt.douyaobuy.com^
-||msg.douyu.com^
 ||wan.douyu.com^
 ||club-img.douyucdn.cn^
 ||cs-op.douyucdn.cn^
@@ -30705,8 +30702,11 @@
 ||stats.mituyu.com^
 ||gg.miued.com^
 ||ccc.sys.miui.com^
-||browser.miui.com^
+||hd.browser.miui.com^
+||httpdns.browser.miui.com^
 ||logupdate.avlyun.sec.miui.com^
+||nav.browser.miui.com^
+||r.browser.miui.com^
 ||sa.api.intl.miui.com^
 ||adinfo.ra1.xlmc.sec.miui.com^
 ||adv.sec.intl.miui.com^
@@ -30717,9 +30717,12 @@
 ||calopenupdate.comm.miui.com^
 ||etl.xlmc.sec.miui.com^
 ||fb.xk.miui.com^
+||hot.browser.miui.com^
 ||info.sec.miui.com^
 ||metok.sys.miui.com^
 ||proxy.sec.miui.com^
+||reader.browser.miui.com^
+||security.browser.miui.com^
 ||hot.browser.intl.miui.com^
 ||activity.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
@@ -43073,7 +43076,6 @@
 ||stackattacka.com^
 ||stats.stackingthebricks.com^
 ||trackla.stackla.com^
-||stackpathdns.com^
 ||stats.stacks.org^
 ||bdzcck.stadiumgoods.com^
 ||cn1.stadiumgoods.com^
