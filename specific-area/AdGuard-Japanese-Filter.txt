@@ -87,6 +87,7 @@
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten--.co.jp
 !
 ||airlinemeals.net^$all
+||ad-spire.net^$third-party
 ||librogratis.info^$all
 ||best-lucky-cat.xyz^$all
 ||geotg.jp^
@@ -1939,7 +1940,7 @@ yukawanet.com,9-bit.jp,gardenstory.jp,yuu01.jp,gaddet.com,matome.eternalcolleges
 ! ###fix_sidebar
 sugi9532.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com###fix_sidebar
 ! ##.code-block
-cocoseka.gamewiki.jp,spirituabreath.com,travel.spot-app.jp,chietoku.jp,rere.jp,bazurecipe.com,frozen.analyst.jp,entano.jp,mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
+eizone.info,cocoseka.gamewiki.jp,spirituabreath.com,travel.spot-app.jp,chietoku.jp,rere.jp,bazurecipe.com,frozen.analyst.jp,entano.jp,mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
 ! ##.amazon
 onecall2ch.com,getnews.jp,ebitsu.net,news.2chblog.jp,chomagireko.blog.jp,tarosoku.com,0taku.livedoor.biz,kabumatome.doorblog.jp,haijin-boys.com,hamusoku.com,ascii2d.net##.amazon
 ! ##.adsense
@@ -1955,6 +1956,13 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+cybersyndrome.net##.noIE6
+gamepedia.jp##.ad-toc-bottom
+news.biglobe.ne.jp##.inarticle-recommend
+dinos.co.jp##.ht5_adSense
+softonic.jp##.sam-slot
+cecile.co.jp##[id$="rec_bnr_header"]
+cecile.co.jp##.show-ads
 karzusp.net##.amazon-gift
 karzusp.net##.popular-book
 skebetter.com##.horizontal-list-fanza
@@ -2919,8 +2927,6 @@ saokouryaku.com##.bigsquareadposcen
 hf.saokouryaku.com##div[class*="ads"]
 hf.saokouryaku.com##div[style="text-align:center; font-size:11px;"] > span
 daeudaeu.com##.myad
-weloma.*##.amp-flying-carpet-wrapper
-weloma.*##div[style="width: 600px; height: 400px;"]
 news.searchina.net##.news-list-ad
 ec.toranoana.jp##div[style^="marign:8px"]
 25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,womenshealthmag.com###_popIn_promotion
@@ -3157,6 +3163,8 @@ gamebiz.jp##.footer__banners
 freesoft-100.com,chimolog.co##a[href^="https://click.linksynergy.com/fs-bin/click"] > img
 chimolog.co##.adsboxtop
 chimolog.co##div[style="text-align: center;"] > a[href^="https://amzn.to/"]
+chimolog.co##.adsbox
+chimolog.co,iqune.com###text-49
 hkokuhaku.com###ad_234x
 hkokuhaku.com##.syosai
 yorozoonews.jp##.module-ad-header
@@ -4426,7 +4434,6 @@ nijisenmon.work,mayukitchen.com,xn--eckl0bk7f7cc4od8az005k0ssb.xyz,2week.net,nul
 news.dwango.jp##.bnrs
 news.dwango.jp##.side-ranking
 ||iqune.com^*/banner300.$image,~third-party
-chimolog.co,iqune.com###text-49
 yugalab.net###navi_recommend
 yugalab.net##div[id$="_ads"]
 ||amazonaws.com/luxa/banner/$domain=nishinippon.co.jp
