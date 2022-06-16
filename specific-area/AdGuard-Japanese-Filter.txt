@@ -882,6 +882,7 @@ twivideo.net#$?#.art_li[style^="width"] { remove: true; }
 kabegami.jpn.org#?##log-1[colspan="2"]:contains(スポンサードリンク)
 kabegami.jpn.org#?#body > div:not([style]) > ins.adsbygoogle:upward(1)
 kabegami.jpn.org#?#div[style="margin-left:175px;zoom:1;"] > div[style="margin-top:10px;"]:contains(/^スポンサードリンク$/)
+newsmatomedia.com#?#[class^="l-"] > [class^="s-"]:has( > [class^="ad-list"])
 news4vip.livedoor.biz##div.plugin-memo:has(> div.side ins.adsbygoogle)
 workingnews.blog117.fc2.com#?#.mainCommentBold2:contains(/^関連記事$/)
 workingnews.blog117.fc2.com#?##menu1Block > div.menu1BlockBase:has(> div.menu1BlockHead > div:contains(最新記事＋AD))
@@ -1894,7 +1895,6 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /japanpost.apk^$document
 /js/ad/sp_trend_tt.js
 /js/ad/sp_tt_$script,~third-party
-/js/dlvRequest.
 /js/dlvRequest_
 /js/fix_ad.js?
 /js/fixed_ad.js
@@ -1956,6 +1956,9 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+myjitsu.jp##article[id^="related-post-ad"]
+myjitsu.jp##.ad-footer-box
+aidoly.net##div[class^="ad-list"]
 cybersyndrome.net##.noIE6
 gamepedia.jp##.ad-toc-bottom
 news.biglobe.ne.jp##.inarticle-recommend
@@ -3566,6 +3569,7 @@ daibouken.jp###top_fixed
 daibouken.jp##div[id^="goods"]
 daibouken.jp##td.none[colspan="2"][valign="top"][align="center"]:only-child
 live-events.a-jp.org##.gad_pc
+jpshowbiz.us##.video-plugin-skip-button
 recochoku.jp##a[class="sub-nav__item-link"][target="_blank"]
 ||ddd-smart.net/ad/
 anige-sokuhouvip.com##div[id^="top_center"]
@@ -3888,9 +3892,6 @@ smashop.jp##.ad_navigation_300_250
 smashop.jp##.ad_double_300_300
 xn--cbkxbyfwj.net##.hentry > .kizi-under-box:first-child
 xn--cbkxbyfwj.net##.home-post
-||gameranbu.jp/js/scrole_ad_
-gameranbu.jp##.ad-list
-gameranbu.jp##.side_recomend_trac
 mapion.co.jp##.side-news-ad
 mapion.co.jp##.article div.clearfix[style^="margin"]
 shufoo.net###bnr1
@@ -4509,8 +4510,6 @@ trafficnews.jp##.box-ad-left
 trafficnews.jp##.pc-side-ad-mrg
 trafficnews.jp##.original-pc-ad
 trafficnews.jp##.affiliate_link
-blogmura.com##.ad-list
-blogmura.com##div[class^="ad"]
 minigame.aeriagames.jp###zumba-ad
 ||games.wkb.jp/html5games/play/jewelexplode/ads-
 ||play.gamepix.com/player/ads/
@@ -4905,6 +4904,7 @@ blog.livedoor.jp##.naka_rss
 blog.livedoor.jp##div[class^="footrss"]
 blog.livedoor.jp##div[class^="shitarss_"]
 blog.livedoor.jp##div[id^="shitarss_title_"]
+negisoku.com##div[style="position:fixed;bottom:0;right:0;z-index:9999;"]
 negisoku.com###main > div.column-inner > div.column-inner-2 > a[href^="https://e-gaming.g2afse.com/click"]
 negisoku.com###rss-box
 negisoku.com##.article-outer-3 > a[href^="https://e-gaming.g2afse.com/click"]
@@ -5468,7 +5468,10 @@ yomiuri.co.jp##.p-ad-org-news-txt
 yomiuri.co.jp##[class^="home-2020-ad"]
 yomiuri.co.jp##[id^="ad_dfp_news-txt"]
 nikkansports.com###headerAdBnr2022
-mainichi.jp##.ad-list
+blogmura.com##div[class^="ad"]
+||gameranbu.jp/js/scrole_ad_
+gameranbu.jp##.side_recomend_trac
+gameranbu.jp,blogmura.com,mainichi.jp##.ad-list
 mainichi.jp##.ad-infeed
 mainichi.jp##.title-ad-sp
 mainichi.jp##.ad-bnr-w300h250
@@ -5748,7 +5751,7 @@ okkisokuho.com##img[width="192"][height="580"]
 okkisokuho.com##.onaho_kk
 sonicch.com##div[id^="livedoor_blogroll_widget"]
 bakufu.jp,kobe-np.co.jp###prBox
-atmarkit.itmedia.co.jp,nlab.itmedia.co.jp###globalHeader
+nlab.itmedia.co.jp###globalHeader
 nlab.itmedia.co.jp##.admsg
 anond.hatelabo.jp##.double-rectangle
 headlines.yahoo.co.jp##div[id^="taboola-below-article-thumbnails-"]
