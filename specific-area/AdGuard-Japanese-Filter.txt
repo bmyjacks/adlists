@@ -423,6 +423,7 @@
 ||one.impact-ad.jp^$third-party
 !
 ! JP-specific scam
+||yzsjsjx.cn^$all
 ||maillovelove.net^$document
 ||airlinemeals.net^$all
 
@@ -881,6 +882,9 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+blogterest.net#?#.blockSide > div.blockWrapper > div > div.ninja-recommend-block:upward(2)
+blogterest.net#?#.blockSide > div.blockWrapper > div > div[class$="eroterest_partsv2"]:upward(2)
+39.benesse.ne.jp#?#.newPostWrap_item > div[id^="div-M_MD_gtx_"]:upward(1)
 2chblog.jp#?##sidebar-inner > div.plugin-memo:contains(スポンサードリンク)
 twivideo.net#$?#.art_li[style^="width"] { remove: true; }
 kabegami.jpn.org#?##log-1[colspan="2"]:contains(スポンサードリンク)
@@ -1352,7 +1356,7 @@ ikaclo.jp#?#.brick:last-child:has(> div.items-scrolling > ul.items-goods > li > 
 jbbs.shitaraba.net#?#.jbbsCustomHeader > table[width="95%"] #tokuwari:upward(table[width="95%"])
 jbbs.shitaraba.net#?#.jbbsCustomHeader > table[width="95%"] td > a[href^="http://seesaawiki."]:upward(table[width="95%"])
 jbbs.shitaraba.net#?#.jbbsCustomHeader > table[width="95%"] a[href="http://wiki.livedoor.jp/fuzokuwiki/"]:upward(table[width="95%"])
-jbbs.shitaraba.net#?#body > table[width="640"] > tbody:has(> tr > td > a[href^="http://www.amazon."])
+jbbs.shitaraba.net#?#body table[width="640"] > tbody:has(> tr > td > a[href^="http://www.amazon."])
 jbbs.shitaraba.net#?#td > div[align="left"]:has(> a[href^="http://www.amazon."])
 mildch.com#?#.side--right > section.module--free:has(> div.module__body > ins.adsbygoogle)
 jugem.jp#?#.side_content > dl div#jgSideAdContainer:upward(dl)
@@ -1913,9 +1917,10 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /openstrap/js/meerkat_side_double_ad.js
 /wp-content/plugins/amazonjs/*
 !
-! Malware
+! Malware/Phishing
 /KDDI%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3.apk^$document
 /japanpost.apk^$document
+://anazom.*/ap/signin|$document
 !---------------------------------------------------------------------------!
 !-------------- Rules for specific websites --------------------------------!
 !---------------------------------------------------------------------------!
@@ -1960,6 +1965,7 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+htmq.com###footerpr
 oshimaland.co.jp##.ph
 helloprojects.seesaa.net##.plugin-message
 helloprojects.seesaa.net##.t_b[style^="font-weight:bold;font-size:16px;line-height:24px;background-color:#f5f5f5"]
@@ -1998,6 +2004,7 @@ cecile.co.jp##[id$="rec_bnr_header"]
 cecile.co.jp##.show-ads
 karzusp.net##.amazon-gift
 karzusp.net##.popular-book
+||doujin-assets.dmm.co.jp^$domain=skebetter.com
 skebetter.com##.horizontal-list-fanza
 tyoieronews.blog.jp##table[summary="DLsite"]
 tyoieronews.blog.jp###more > a[rel$="sponsored"][href^="https://www.dlsite.com/maniax/dlaf/"]
@@ -3168,6 +3175,7 @@ sugi9532.com##.pochipp-box
 sugi9532.com##.wp-block-columns
 sugi9532.com##p.has-text-align-center
 hashikan.net##.w-afterRelated
+manabi.benesse.ne.jp###spNonDispSuperBannerArea
 ||benesse.jp/teikitest/common/js/floatad.js
 i-njoy.net##.mobhalf
 i-njoy.net##div[class^="ga"]
@@ -4594,8 +4602,9 @@ inazumanews2.com##.kkk
 kobe-np.co.jp##div[id^="knpc-"]
 st.benesse.ne.jp##div[id^="div-M_MD_kiji_fluid_"]
 benesse.ne.jp##div[style^="height: 250px"]
+||39.benesse.ne.jp/resource/ad/
 39mag.benesse.ne.jp##div[style="min-height:300px;"]
-benesse.ne.jp##li[id^="div-M_MD_inf_fluid_"]
+benesse.ne.jp##[id^="div-M_MD_inf_fluid_"]
 benesse.ne.jp##section > div.bannar_area:only-child
 benesse.jp##.KJS_KIJISHITA_PC_WRAP
 fc2.com###ad-content
@@ -5150,7 +5159,7 @@ jartic.or.jp###mainContentInner > .prBannerArea
 jpki.osdn.jp##.header-fixed-ad
 mag.osdn.jp###div-gpt-osdn_mag_rec-article-middle
 mag.osdn.jp###head-ad-text
-wotopi.jp,mag.osdn.jp##.ad
+photoshopvip.net,wotopi.jp,mag.osdn.jp##.ad
 qiita.com##.p-home_ad
 xtech.nikkei.com##.-adtag
 webdevqa.jp.net,it-swarm-ja.tech##.adn-ar
