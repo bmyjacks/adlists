@@ -524,8 +524,7 @@ g-pc.info#%#//scriptlet('set-constant', 'adsbygoogle.loaded', 'true')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=g-pc.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103488
 @@||musenboya.com^$generichide
-musenboya.com#$?#div[id] > .ad-wrap:upward(1) { height: 1px !important; }
-musenboya.com#$?#div[id] > div[id^="im-"] > script[src^="https://imp-"]:upward(2) { height: 1px !important; }
+musenboya.com#%#//scriptlet('prevent-setTimeout', '/location\.href|document\./')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||imp-adedge.i-mobile.co.jp/script/v1/spot.js$domain=musenboya.com
 @@||ssp-bidapi.i-mobile.co.jp/api/v1/spot.ashx?$domain=musenboya.com
@@ -1348,6 +1347,7 @@ appllio.com#?##main-content > #content > .block.odd:has(aside[id^="div-gpt-ad"])
 appllio.com#?#.sidebar > .region-inner > .block.odd:has(div[id^="div-gpt-ad"])
 !
 pokemon-matome.net#?#.blogparts_freeArea:has(a[href^="https://www.amazon.co.jp/exec/"])
+seiyufan.livedoor.biz#?#aside.section-box:has(> div.plugin-ad)
 753ya.net#?#.grid_post-box ins.adsbygoogle:upward(.grid_post-box)
 markezine.jp#?#.l-sidebar_inner > div.c-secondarysection:has(> div.c-secondarysection_header > p.c-secondarysection_heading:contains(スポンサーサイト))
 news.merumo.ne.jp#?#.c-section__title--ranking:contains(あなたにおすすめ)
@@ -1960,7 +1960,7 @@ shinri-mag.info,m3q.jp,anke.jp,shin-shouhin.com,news.biglobe.ne.jp,4ka.net,natsu
 ! ##.banner
 asajikan.jp,tanoshiiosake.jp,library.mitaka.tokyo.jp,climbing-net.com,tripnote.jp,allreviews.jp,smart-flash.jp,news.fresheye.com,pakutaso.com,gaydebulog.com,qoly.jp,ascii2d.net,hoikuen-ranking.com,jp.msn.com,dengekionline.com,wiki.seesaa.jp##.banner
 ! ##.ads
-ladytopi.jp,kojikisokuhou.com,troutangler-s.com,pctrouble.net,adultgle.com,matomame.jp,pokemon-gsc.g-takumi.com,blog.with2.net,color-sample.com,8mato.jp,iromame-beans.jp,jocee.jp,gamebiz.jp,s8a.jp,gori.me,moraerumall.com,nwi.jp,0taku.livedoor.biz,ginnga.blog.jp,tools4music.info,gaccom.jp,diskgarage.com,tagindex.com,flyteam.jp,keyakizaka46matomerabo.com,ryusoku.com,chixi.jp,chugoku-np.co.jp,2nn.jp,karapaia.com##.ads
+tanu-soku.com,ladytopi.jp,kojikisokuhou.com,troutangler-s.com,pctrouble.net,adultgle.com,matomame.jp,pokemon-gsc.g-takumi.com,blog.with2.net,color-sample.com,8mato.jp,iromame-beans.jp,jocee.jp,gamebiz.jp,s8a.jp,gori.me,moraerumall.com,nwi.jp,0taku.livedoor.biz,ginnga.blog.jp,tools4music.info,gaccom.jp,diskgarage.com,tagindex.com,flyteam.jp,keyakizaka46matomerabo.com,ryusoku.com,chixi.jp,chugoku-np.co.jp,2nn.jp,karapaia.com##.ads
 ! ##.add
 ykigchi.com,scawaiiweb.com,ai-myon.com,mikobito.com,chimolog.co,pokeca-new-card.com,useful-notes.com,otakukosodate.work,kensho-zukan.com,oyakudachi2525.com,mazisuka.com,hetano-yokozuki.net,uruoistyle.com,moto-neta.com,bunkai.biz,yuraika.com,mupon.net,affiliate-ruby.com,amehappi.com,bge.jp,bonsai.shikoku-np.co.jp,boosting-site.com,dietmiler.com,dohack.jp,gameo.jp,higeojisan-lab.com,manga-comic-netabare.com,manga-netabare-kanso.com,mangafull.jp,multilingualtraveler.com,niko25niko.xyz,ou-kagai.com,pear-farmers.life,shiba-teire.com,vtub0.com,yukiq.com##.add
 ! ##.ad
@@ -1968,6 +1968,12 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+cazual.shufu.co.jp##.adxTagArea
+kurashi-to-oshare.jp,pashplus.jp##.single_bnr_wrap
+chanto.jp.net###cha_pc_all_header
+headline.mtfj.net##.sub_adv
+headline.mtfj.net###middle_adv
+tanu-soku.com##div[style="overflow:auto;height:550px;"]
 girlsvip-matome.com###article_head_v2
 girlsvip-matome.com###article_top_v2
 pokemon-matome.net##div.mainmore > .inner
@@ -2082,7 +2088,7 @@ bucchinews.com###columnRight > div.sideBanner:first-child
 bucchinews.com##.headBanner
 bucchinews.com##div[style$="max-width:300px;text-align:center;"]
 bucchinews.com##div[style$="max-width:300px;text-align:center;"] + hr
-bucchinews.com##table[style=" border:1px solid #ccc; width:300px;"]
+kankeinai.blog.jp,bucchinews.com##table[style=" border:1px solid #ccc; width:300px;"]
 tetsudo-ch.com##.ad_adsense_double
 tetsudo-ch.com##.banner-list > li > a[href="https://www.iefit.jp/tsukarenai/"]
 365-girl.com##.js_ad_content
@@ -2740,8 +2746,8 @@ chikiyasuibuki1104.com,furugi1717.net,androplus.org,rensai.jp,l-media.tokyo,javp
 virtualgorillaplus.com,campify.jp,56s.thick.jp,l-media.tokyo###text-4
 virtualgorillaplus.com,chikiyasuibuki1104.com,ai-myon.com,sound-tv.net,xn--glay-yn4c8b9a8lo661apz3h.com,n-switch.com,pokemongo-master.com,roadbike-labo.com,alpaca76.com,l-media.tokyo###text-5
 virtualgorillaplus.com,nyaasokuvip.net,takapon.net,roadbike-labo.com,l-media.tokyo,jj-blues.com###text-6
-kk1up.jp,yuu01.jp,idiom-encyclopedia.com,shinoyon.com,kiragamiteru.com,sugumiru18.com,urutike.com,l-media.tokyo,77hs.net###text-7
-hentai4daily.com,netgeek.biz,idiom-encyclopedia.com,xn--glay-yn4c8b9a8lo661apz3h.com,l-media.tokyo,jj-blues.com###text-8
+sethplan.com,kk1up.jp,yuu01.jp,idiom-encyclopedia.com,shinoyon.com,kiragamiteru.com,sugumiru18.com,urutike.com,l-media.tokyo,77hs.net###text-7
+sethplan.com,hentai4daily.com,netgeek.biz,idiom-encyclopedia.com,xn--glay-yn4c8b9a8lo661apz3h.com,l-media.tokyo,jj-blues.com###text-8
 hentai4daily.com,kk1up.jp,pinapopo.com,boin.pink###text-9
 campify.jp##.p-entry__body > table[style="border:none;"]
 campify.jp##.pc-overlay-ad
@@ -4067,7 +4073,7 @@ news.fresheye.com##.ad_box_double
 news.fresheye.com##.listing-ad
 news.fresheye.com##.nw-ad
 news.fresheye.com##.bk2.spsite
-biz-journal.jp###ad1
+enno.jp,biz-journal.jp###ad1
 biz-journal.jp###ad2
 1242.com##div.page_side_bnr
 stats-japan.com##.kiji_adsense
@@ -5448,7 +5454,7 @@ matometanews.com##.related-articles
 blog.livedoor.jp,michaelsan.livedoor.biz,matometanews.com##a[href^="http://www.amazon.co.jp/"][target="_blank"]
 ||images-fe.ssl-images-amazon.com^$domain=matometanews.com
 ||cnobi.jp/*/recommend/
-akb48matomemory.com##.rss
+tanu-soku.com,akb48matomemory.com##.rss
 akb48matomemory.com##.rss2
 akb48matomemory.com##.acr-popular
 hayamimi-gunpla.com,hayamimi-hobby.com##.banner-id
