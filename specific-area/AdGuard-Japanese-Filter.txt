@@ -523,9 +523,13 @@ g-pc.info#%#//scriptlet('set-constant', 'adsbygoogle.loaded', 'true')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=g-pc.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103488
+||i-mobile.co.jp/script/v1/spot.js$script,redirect=noopjs,domain=musenboya.com
+||nend.net/js/nendAdLoader.js$script,redirect=noopjs,domain=musenboya.com
 @@||musenboya.com^$generichide
+musenboya.com#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'detect')
 musenboya.com#%#//scriptlet('prevent-setTimeout', '/location\.href|document\./')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||js1.nend.net/js/nendAdLoader.js$domain=musenboya.com
 @@||imp-adedge.i-mobile.co.jp/script/v1/spot.js$domain=musenboya.com
 @@||ssp-bidapi.i-mobile.co.jp/api/v1/spot.ashx?$domain=musenboya.com
 @@||spnativeapi-tls.i-mobile.co.jp/api/ad_spot.ashx?$domain=musenboya.com
@@ -881,6 +885,9 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+musenboya.com#?#.ad-area > div.ad-label:contains(/^スポンサーリンク$/)
+musenboya.com#?#.section-title > p:contains(/^スポンサーリンク$/)
+musenboya.com#?#.text-center > p:contains(/^スポンサー ?リンク$/)
 katuru.com#?#.ui-block-b:has(script:not([src]))
 warotanikki.com#?#.widget_diver_widget_pcsp > div > div.adp:upward(2)
 warotanikki.com#?#.widget_diver_widget_pcsp > div > center > script[src$="/adstir.js"]:upward(3)
@@ -1923,6 +1930,9 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 ! Malware/Phishing
 /KDDI%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3.apk^$document
 /japanpost.apk^$document
+://www.amaonazon.*/ap/signin|$document
+://ainozm.*/ap/signin|$document
+://www.anzazon.co.jplogin.*.cn/ap/signin|$document
 ://anazom.*/ap/signin|$document
 !---------------------------------------------------------------------------!
 !-------------- Rules for specific websites --------------------------------!
@@ -1968,6 +1978,11 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+rank-king.jp##.l-bottom-fixed
+jglobal.jst.go.jp##.ad_comment
+jglobal.jst.go.jp##.advert
+jglobal.jst.go.jp##.similar_ad
+huyosoku.com##.huyos-widget
 cazual.shufu.co.jp##.adxTagArea
 kurashi-to-oshare.jp,pashplus.jp##.single_bnr_wrap
 chanto.jp.net###cha_pc_all_header
@@ -2476,7 +2491,7 @@ lulucos-bys.jp##.p-article__adnw
 recordchina.co.jp##.csw-content-box.ise-ad
 javstore.net##a[title="Banner"]
 javstore.net##img[title="aaaaa"]
-helpsupport.blog.fc2.com###toparea
+helpsupport.blog.fc2.com###topview
 ||chat-lab.tokyo/adCode.js
 bamka.info,kaimyou.biz###st_custom_html_widget-14
 bitdays.jp##.adrelated
@@ -4225,6 +4240,7 @@ kurashiru.com##div[class*="adsWrapper"]
 kyounoryouri.jp##.recipe--detail-bannerarea
 kyounoryouri.jp##.side--banner-app
 kyounoryouri.jp##.side--logly
+oceans-nadia.com##.AdSlot_rectangleBox__20CXH
 oceans-nadia.com###pc_tag_banner_area_1
 oceans-nadia.com##.c-side-block--banner
 at-a-gallop.net###text-134
@@ -6040,6 +6056,9 @@ gtoys.blog.fc2.com###adright
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/122491
+!+ PLATFORM(ios, android, ext_android_cb)
+@@||lp.p.pia.jp/feature/rss/ad.xml
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122435
 @@||dtg3yjoeemd2c.cloudfront.net/ad-navi/$image,stylesheet,domain=kinro.ntv.co.jp
 ! unhide link to by the goods https://magazine.jp.square-enix.com/top/comics/detail/9784757570801/
