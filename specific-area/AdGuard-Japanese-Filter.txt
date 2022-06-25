@@ -1363,6 +1363,7 @@ portal.auone.jp#?#.news__item--ad:upward(1)
 javbus.com#?#.container > div.row:has(> div.text-center > script[src^="https://poweredby.jads.co/"])
 biglobe.ne.jp#?#section > a[href^="https://hb.afl."][onclick]:upward(1)
 ikaclo.jp#?#.brick:last-child:has(> div.items-scrolling > ul.items-goods > li > p > a.ga-buy)
+jbbs.shitaraba.net#?#body > div[style]:has(> table[border] > tbody > tr > td[height] > div[id^="criteo_slot_"])
 jbbs.shitaraba.net#?#.jbbsCustomHeader > table[width="95%"] #tokuwari:upward(table[width="95%"])
 jbbs.shitaraba.net#?#.jbbsCustomHeader > table[width="95%"] td > a[href^="http://seesaawiki."]:upward(table[width="95%"])
 jbbs.shitaraba.net#?#.jbbsCustomHeader > table[width="95%"] a[href="http://wiki.livedoor.jp/fuzokuwiki/"]:upward(table[width="95%"])
@@ -1978,6 +1979,14 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+||m.media-amazon.com/images/I/$domain=grasoku.com
+grasoku.com##.right-container > div.plugin-memo:nth-of-type(-n+2)
+otanews.livedoor.biz###leftbody
+otanews.livedoor.biz##.PortalLinks > center
+otanews.livedoor.biz##.mainmore > pre + table
+||criteo.net^$domain=jbbs.shitaraba.net
+majikichi.com##.headline_outline
+jumpsokuhou.com##p + table[cellpadding="5"]
 rank-king.jp##.l-bottom-fixed
 jglobal.jst.go.jp##.ad_comment
 jglobal.jst.go.jp##.advert
@@ -1989,8 +1998,8 @@ chanto.jp.net###cha_pc_all_header
 headline.mtfj.net##.sub_adv
 headline.mtfj.net###middle_adv
 tanu-soku.com##div[style="overflow:auto;height:550px;"]
-girlsvip-matome.com###article_head_v2
-girlsvip-matome.com###article_top_v2
+kitimama-matome.net,grasoku.com,news.2chblog.jp,girlsvip-matome.com###article_head_v2
+kitimama-matome.net,grasoku.com,news.2chblog.jp,girlsvip-matome.com###article_top_v2
 pokemon-matome.net##div.mainmore > .inner
 pokemon-matome.net##.kiji_chuubu
 pokemon-matome.net##.inner_footer
@@ -3449,7 +3458,7 @@ win-tab.net##div[style="padding:20px 0px;"] > center
 anonelife.com##.widget-in-article
 blog.domesoccer.jp###sp-link
 blog.livedoor.jp##.article-body-inner > div.article-body-more + p[style="”font-size:5pt;"] + center
-||ssl-images-amazon.com/images/i/$domain=nofootynolife.blog.fc2.com
+||ssl-images-amazon.com/images/i/$domain=nofootynolife.blog.fc2.com|grasoku.com
 worldfn.net###third > div.plugin-memo:first-child
 worldfn.net##.adad
 samuraisoccer.doorblog.jp##.plugin-recent_articles_image + div.plugin-memo
@@ -4755,7 +4764,7 @@ dic.nicovideo.jp##.article > div[style="margin-left: -4px;"] + ul[style="margin-
 dic.nicovideo.jp##div[id^="dic_sp_300x250_"]
 automesseweb.jp###ads-pc-top-super
 news.nifty.com,automesseweb.jp##div[id^="logly-lift-"]
-gyao.yahoo.co.jp##.yads-overlay
+yahoo.co.jp##.yads-overlay
 gyao.yahoo.co.jp##div[class^="timeline-ad_timelineAd__"]
 4610.adultav55.com##.belowVideoBanner
 pokemon-matome.net##.blogparts_freeArea:last-child
