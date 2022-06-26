@@ -1979,6 +1979,11 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+olive-hitomawashi.com##div[style="width: 728px; height: 90px;"]
+olive-hitomawashi.com##div[style^="display: inline-block; min-width: 300px; min-height: 250px"]
+||nanigoto.net/?u=ad_amazon/
+nanigoto.net##div[style="width:100%;height:90px;"]
+nanigoto.net##div[style="width:336px;height:280px;"]
 ||m.media-amazon.com/images/I/$domain=grasoku.com
 grasoku.com##.right-container > div.plugin-memo:nth-of-type(-n+2)
 otanews.livedoor.biz###leftbody
@@ -2448,7 +2453,6 @@ museum.or.jp##.l-bottomBanner
 nissen.co.jp##.btobArea
 jukenbbs.com##.kattene
 jukenbbs.com##.container-fluid > h3.heading
-yomiuri.co.jp##.p-ad-thumbnail-txt
 missav.com##.lg\:block
 brutus.jp##.c-widget-adbanner-frame
 ananweb.jp##.ad-banner:not([data-name="single-2-soken"])
@@ -5042,7 +5046,7 @@ garanger.net##a[target="_blank"][rel="nofollow"] > img
 ||secure.spox.com/daznpic/$subdocument,domain=the-ans.jp
 the-ans.jp##.content-box-2col > ul
 the-ans.jp##.side-box
-||k-img.com/script/libs/kkkns.des/jack.js
+||k-img.com/script/libs/kkkns.des/jack.js$script,redirect=noopjs
 ||k-img.com/images/renet/ad/$domain=kakaku.com
 ||kakaku.com/script/itemview/RdmReviewAd.js
 kakaku.com##.bnrAd
@@ -5541,7 +5545,6 @@ dhbr.net##.bn_trial a[href]:not([href^="http://www.dhbr.net/"]) > img
 solomon-review.net###right_folder > div.textwidget > a[rel^="nofollow"] > img
 news4vip.livedoor.biz##a[href^="https://www.amazon.co.jp/gp/"]
 ||moviead.cdnext.stream.ne.jp/player/latest/MovieADPlayer.js$domain=yomiuri.co.jp
-yomiuri.co.jp##.ads_inview
 yomiuri.co.jp##.p-ad-feature-pr
 yomiuri.co.jp##.home-2020-ntvnews-ad
 yomiuri.co.jp##.p-ad-dfp-rec1
@@ -6178,6 +6181,7 @@ maidonanews.jp#@#.module-ad
 webcartop.jp#@#.single-ads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106875
 @@||m.one.impact-ad.jp/pix?p=$domain=www3.nissan.co.jp
+@@||img.ak.impact-ad.jp/sr/js/nissan_test_$script,domain=www3.nissan.co.jp
 @@||img.ak.impact-ad.jp/sr/js/nissan_VisitorAPI_main.js$domain=www3.nissan.co.jp
 @@||img.ak.impact-ad.jp/ut/$script,domain=www3.nissan.co.jp
 @@||penta.a.one.impact-ad.jp^$other,domain=www3.nissan.co.jp
