@@ -885,6 +885,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+setusoku.com#?##main center:contains(スポンサーリンク)
 musenboya.com#?#.ad-area > div.ad-label:contains(/^スポンサーリンク$/)
 musenboya.com#?#.section-title > p:contains(/^スポンサーリンク$/)
 musenboya.com#?#.text-center > p:contains(/^スポンサー ?リンク$/)
@@ -931,6 +932,8 @@ socom.yokohama#?#.entry > h3:contains(こちらの記事も)
 yukkuri-futaba.sakura.ne.jp#?##amazonSelector:upward(1)
 yukkuri-futaba.sakura.ne.jp#?##wrapAmazon:upward(1)
 j-cast.com#?#div.title-sec:contains(姉妹サイト)
+qiita.com#?##home-side-ad:upward(1)
+qiita.com#?##personalized-feed-side-ad:upward(1)
 qiita.com#?#.p-items_main > div[class^="css-"]:has(div[id^="dfp-slot-"])
 kumanichi.com#$?#.is-separate-block-mv-list-item-pr { remove: true; }
 trafficnews.jp#?#ul[class^="_taxel_row"] > li > div[class^="_taxel_ad_article"]:upward(1)
@@ -1979,6 +1982,7 @@ goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.jp,johndoeb
 !
 !
 !
+setusoku.com##div[class^="kizi"]
 adultblogranking.com##.ads-a
 adultblogranking.com##.rank > li[id]
 gennji.com###custom_html-57
@@ -2228,6 +2232,8 @@ omocoro.jp##div[class$="-down-ad"]
 cyzowoman.com###content > div[class="ad"] + div.section_common
 ||sakura.tv/5chATR/ad/
 atelier-handmade.com###subservicelogo_wrap
+blogger.ameba.jp##.ad-btf
+official.ameba.jp##.panel-pr-block-side
 news.ameba.jp##div[class^="AdGoogle_"]
 news.ameba.jp##div[class^="SpAd"]
 huffingtonpost.jp##.leaderboard-flex-placeholder
