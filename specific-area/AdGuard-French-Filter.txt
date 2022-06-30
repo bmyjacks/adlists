@@ -722,7 +722,7 @@ jeuxvideo.com#?#.list-actu-home > li[-ext-has='span.officiel']
 ! French-language catch-up TV web apps
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119411
-programme-tv.net,gala.fr,capital.fr#%#AG_onLoad(function(){if(window.pmsCoreAds&&Array.isArray(pmsCoreAds)){window.pmsCoreAds=new Proxy(pmsCoreAds,{set:(a,b,c,d)=>{if("function"==typeof c)try{let a=!1;const b=b=>{var c=document.querySelector(".ads-core-video");c&&a?clearInterval(d):(b(),a=!0)},d=setInterval(b,1e3,c)}catch(a){}return Reflect.set(a,b,c,d)}})}});
+voici.fr,programme-tv.net,gala.fr,capital.fr#%#AG_onLoad(function(){if(window.pmsCoreAds&&Array.isArray(pmsCoreAds)){window.pmsCoreAds=new Proxy(pmsCoreAds,{set:(a,b,c,d)=>{if("function"==typeof c)try{let a=!1;const b=b=>{var c=document.querySelector(".ads-core-video");c&&a?clearInterval(d):(b(),a=!0)},d=setInterval(b,1e3,c)}catch(a){}return Reflect.set(a,b,c,d)}})}});
 ! allocine.fr - fixing delay in the video player
 allocine.fr#%#//scriptlet("set-constant", "AC.config.ads", "emptyObj")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118970
@@ -988,7 +988,7 @@ montorrent.com##a[href^="#"].btn-fastest
 jeuxvideo.com##.sideWootbox
 actu-environnement.com##.module_annonce
 orange.fr##.autopromo-prospect
-gala.fr,sante.journaldesfemmes.fr##.OUTBRAIN
+voici.fr,gala.fr,sante.journaldesfemmes.fr##.OUTBRAIN
 developpez.com###colonneDroite > aside > #encart_droite > div[class^="dvpb"][style^="display: inline-block; width:"]
 windsurfjournal.com##.right-pub-zone
 windsurfjournal.com##.megabanner-container
@@ -1300,6 +1300,20 @@ place.ge#@#.simple-ad
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/123018
+voici.fr#@#[data-ads-core]
+||js-sec.indexww.com/ht/p/*.js$script,redirect=noopjs,domain=voici.fr
+||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon-apstag,domain=voici.fr
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=voici.fr
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=voici.fr
+||prismamedia-com.videoplayerhub.com/galleryplayer.js$script,redirect=noopjs,domain=voici.fr
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||js-sec.indexww.com/ht/p/*.js$domain=voici.fr
+@@||amazon-adsystem.com/aax2/apstag.js$domain=voici.fr
+@@||googletagmanager.com/gtm.js$domain=voici.fr
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=voici.fr
+@@||prismamedia-com.videoplayerhub.com/galleryplayer.js$domain=voici.fr
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121935
 @@||disqus.com/embed.js
 $third-party,xmlhttprequest,domain=fmovies.to,badfilter
