@@ -888,6 +888,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+avgle.com#?#.col-sm-6 > div.well > a[href^="https://javhd.com"]:upward(2)
+warotanien.net#?#.classic-textwidget:has(a[href^="//ck.jp.ap.valuecommerce.com"])
 jishin-yogen.com#?#.plugin1_outline:has(> div > div > div.plugin-freearea > a[href^="https://www.amazon.co.jp"])
 mbs.jp#?#.common-wrap > div.OUTBRAIN:upward(1)
 j-wave.co.jp#?#.block_ad > div.img_ad > div#adbnr-s > ins.adsbygoogle:upward(3)
@@ -3023,7 +3025,7 @@ wiki.denfaminicogamer.jp,wiki.dengekionline.com###ad-wiki-footer-upper
 record-now.com##.my_ads
 hyperts.net###right-content2
 fukafuka295.jp##.link-unit-adjust
-/caribian.jpg$image,domain=erry.one|hikaritube.com|iqoo.me|nukistream.com|poyopara.com|sugirl.info
+/caribian.jpg$image,domain=erry.one|hikaritube.com|iqoo.me|nukistream.com|poyopara.com|sugirl.info|animember.net
 erry.one,hikaritube.com,iqoo.me,nukistream.com,poyopara.com,sugirl.info##.atop
 ||ero-video.net/advert/
 sunri2525.blog.jp##.plugin-memo:last-of-type
@@ -3725,8 +3727,9 @@ mizu-trouble.jp##p[style="”font-size:5pt;"] + center
 kantangame.com,kantan.game,yomipo.yomiuri.co.jp,gesoten.com##.ad_super
 traicy.com##.pc-ad-wide
 traicy.com##.sp-header-ad
+hochi.news##.ad[style^="width:300px; height:250px"]
 hochi.news##div[style^="min-width: 640px"]
-hochi.news##div[style^="min-width: 300px; min-height: 250px"]
+hochi.news##div[style^="min-width: 300px"]
 biyou-seikei.jp###eyeCatch
 biyou-seikei.jp##.prTxt
 ||shiru2.jp/toushitsu/wp-content/themes/*_300yen.jpg
