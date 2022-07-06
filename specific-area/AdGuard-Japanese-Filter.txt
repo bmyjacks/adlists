@@ -2841,6 +2841,8 @@ campify.jp##.p-entry__body > table[style="border:none;"]
 campify.jp##.pc-overlay-ad
 e-typing.ne.jp##.ad200x200
 mobile.line.me##.lyBannerDiv
+buy.line.me##.mediaTopAd
+buy.line.me##.mediaBottomAd
 car.rakuten.co.jp##.portal-info-swiper
 delivery.rakuten.co.jp##.adbanner-container
 netoff.co.jp###main > div.slider
@@ -3283,7 +3285,7 @@ travel-nippon.net,sugi9532.com##a[href^="https://px.a8.net/svt/ejp"]
 sugi9532.com###custom_html-47
 sugi9532.com###custom_html-50
 sugi9532.com##.is-style-balloon_box2
-sugi9532.com##.pochipp-box
+fpsjp.net,sugi9532.com##.pochipp-box
 valorantnews.jp,sugi9532.com##.wp-block-columns
 sugi9532.com##p.has-text-align-center
 hashikan.net##.w-afterRelated
@@ -6149,6 +6151,9 @@ gtoys.blog.fc2.com###adright
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/123291
+@@||mmaaxx.com/get_s2s_param/s2s.js$domain=avokazu.com
+avokazu.com#@#a[href^="http://click.dtiserv2.com/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122491
 !+ PLATFORM(ios, android, ext_android_cb)
 @@||lp.p.pia.jp/feature/rss/ad.xml
