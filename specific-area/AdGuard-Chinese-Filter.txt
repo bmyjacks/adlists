@@ -2362,6 +2362,8 @@ m.xigua110.com##.ui-detail-info > div[style*="line-height:35px; text-align:cente
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/123608
+hyperallergic.com#@#.ad-above-footer
 ! https://github.com/easylist/easylistchina/issues/201
 ||unpkg.com^$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119998
@@ -3844,6 +3846,7 @@ ubmcmm.baidustatic.com
 ##.w100b > .m_adv
 ##.wemziguanggao
 ##.wf_ad_block
+##.con_section > .da
 ##.widget-qianhuiji
 ##.widget-topadding
 ##.widget-xlxba
@@ -3924,6 +3927,10 @@ ubmcmm.baidustatic.com
 ##a[onclick*="open"] > img[src*=".dailygn.com/"]
 ##a[onclick^="_czc."] > .add
 ##a[onclick^="_czc."] > .ads
+##SCRIPT + A[target="_bank"] > IMG[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
+##img[src*=".jd.com"][style="width:100%;height:70px;"]
+##img[src*=".meituan.net"][style="width:100%;height:70px;"]
+##img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
 ##a[onclick^="javascript:pc_"] > img[src*=".alicdn.com"]
 ##a[style$="2147483647;"][ontouchstart]
@@ -4497,6 +4504,30 @@ ubmcmm.baidustatic.com
 ||miuspzkmn.bar^
 ||nfzplus.com^
 ||badloniop.top^
+||weimeiwangluo.site^
+||scardetect.cn^
+||zhaishanghui.shop^
+||mbveryu.top^
+||hfzq1600.com^
+||kimiaexirteb.com^
+||yiuspekmn.bar^
+||mttty.top^
+##a[href*=".tholikiranam.com/"]
+||colour5.top^
+||666672.xyz^
+||69688qp.com^
+||unpfqc9.com^
+||mqjeut5.com^
+||50039tk.com^
+||6399tp.com^
+||xox8829.com^
+||auwrtou.cn^s
+||xgckudv.cn^
+||baishui.me^
+||zygxy.online^
+||niuspykmn.bar^
+||onekeyedu.com^
+||xpdyqax.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
