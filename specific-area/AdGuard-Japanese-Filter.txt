@@ -478,7 +478,9 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
-!
+! classic anti-adb
+nazolog.com#@#.ad_image
+nazolog.com#@#.img_ad
 ! https://github.com/NanoMeow/QuickReports/issues/1326 ima3 rereirect doesn't fully work
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=connectedgamestore.com
 ! manga sites anti-adb
@@ -888,6 +890,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+kuroyonhon.com#?#.nav_div:contains(PR)
 hotokami.jp#$?#.full_screen_ad { remove: true; }
 kidanlog.com#?#.entry-content :not([class]):has(> ins.adsbygoogle)
 bakufu.jp#?##tertiary > aside.widget_text:has(> div > a[target="_blank"])
@@ -1229,6 +1232,8 @@ mapion.co.jp#?##Main > div > div.OUTBRAIN:upward(1)
 vogue.co.jp#?#div[data-test-id="TeaserFourUpCol"] > div > div[id^="ad-"]:upward(2)
 gendai.ismedia.jp#?#.elementSectionHeadingsWithSuffix > h3:contains(/Pick|記事/):upward(1)
 seikatsu-hyakka.com#?#.widget_text script[src^="//cdn.gmossp-"]:upward(.widget_text)
+gaccom.jp#?#.mdl-card > div > ul.bukken-list:upward(2)
+gaccom.jp#?#.mdl-card > div > ul.realestate-list:upward(2)
 gaccom.jp#?#.box_top > div.box_btm > ul.bukken-list:upward(2)
 gaccom.jp#?#.box_top > div.box_btm > ul.realestate-list:upward(2)
 gaccom.jp#?#.box_top > div.box_btm > ul.recipe-side-img-area:upward(2)
@@ -1537,6 +1542,7 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ##.ise-ad.csw-content-box
 ##.itiran-ad
 ##.master-post-advert
+##.my_ads
 ##.p-entry__ad
 ##.plugin-rakuten
 ##.rectangle > div.rectangle__item + .rectangle__title
@@ -1997,6 +2003,11 @@ yutura.net,goetheweb.jp,mono-money.com,tetsudo-ch.com,home.kingsoft.jp,coco-tte.
 !
 !
 !
+hint-pot.jp##.box-header
+hint-pot.jp##.box-top
+nazolog.com##td[height="280"]
+kuroyonhon.com###commodity_list
+bokumato.site###preview_dispAffi
 kidanlog.com##.widget_custom_html
 jugem.jp##.top-ad__wrapper--center
 wellmethod.jp##div[id^="facemask_"]
@@ -2425,6 +2436,7 @@ moving.a-tm.co.jp##iframe[class^="i_f"]
 jorudan.co.jp##.com_pr_rmads_right
 news.kstyle.com##.MdSB07Bnr
 news.kstyle.com##div[style*="width:640px;"][style*="height:253px;"]
+excite.co.jp##.ec-ranking-article
 excite.co.jp##div[id^="exad"]
 newsoku.blog###simplicityclassictextwidget-35
 newsoku.blog###simplicityclassictextwidget-36
@@ -2843,7 +2855,7 @@ novel.prcm.jp##app-remote-ad-frame
 narutonti.com##.entry-under > div[style="margin: 0px 0px 20px 0px;"]
 virtualgorillaplus.com,rawdd.com,k-daidokoro.com,campify.jp,appl-y.com,l-media.tokyo,bunkai.biz###text-2
 chikiyasuibuki1104.com,furugi1717.net,androplus.org,rensai.jp,l-media.tokyo,javprice.com,buhidoh.net###text-3
-virtualgorillaplus.com,campify.jp,56s.thick.jp,l-media.tokyo###text-4
+camp-house.com,virtualgorillaplus.com,campify.jp,56s.thick.jp,l-media.tokyo###text-4
 virtualgorillaplus.com,chikiyasuibuki1104.com,ai-myon.com,sound-tv.net,xn--glay-yn4c8b9a8lo661apz3h.com,n-switch.com,pokemongo-master.com,roadbike-labo.com,alpaca76.com,l-media.tokyo###text-5
 virtualgorillaplus.com,nyaasokuvip.net,takapon.net,roadbike-labo.com,l-media.tokyo,jj-blues.com###text-6
 sethplan.com,kk1up.jp,yuu01.jp,idiom-encyclopedia.com,shinoyon.com,kiragamiteru.com,sugumiru18.com,urutike.com,l-media.tokyo,77hs.net###text-7
@@ -3356,7 +3368,7 @@ fpsjp.net###custom_html-62
 fpsjp.net###custom_html-54
 ||gendama.jp/img/invitation_banner_interest.png$third-party
 ||pormo.me/wp-content/uploads/*/download-$image,~third-party
-matome.eternalcollegest.com,pormo.me###fixed_sidebar
+kisetsumimiyori.com,matome.eternalcollegest.com,pormo.me###fixed_sidebar
 pormo.me##.single-sidebar
 eromenskan.com##.ecb-entry-border
 ||iphone.onani-daisuki.com/ad_$subdocument
@@ -4186,7 +4198,7 @@ news.fresheye.com##.ad_box_double
 news.fresheye.com##.listing-ad
 news.fresheye.com##.nw-ad
 news.fresheye.com##.bk2.spsite
-enno.jp,biz-journal.jp###ad1
+kuroyonhon.com,enno.jp,biz-journal.jp###ad1
 biz-journal.jp###ad2
 1242.com##div.page_side_bnr
 stats-japan.com##.kiji_adsense
@@ -5378,6 +5390,7 @@ japan.cnet.com###ad_textbottom
 japan.cnet.com###content-bottom-block
 japanese.joins.com##.YahooAds
 japanese.joins.com##.mainTopAd
+jiji.com##.Rectangle2
 jiji.com##.ArticleInnerAD
 sp.nicovideo.jp##.siteWide-BannerAd
 dic.nicovideo.jp###right-column > div[style*="height:250px; width:300px;"]
@@ -5939,6 +5952,7 @@ togetter.com##.ad_custom
 togetter.com##.ad_list_top
 ||b*.yahoo.co.jp/b?
 ||b*.yahoo.co.jp/s?
+||drive.google.com/uc?$domain=himado.in
 himado.in##.movie-Ad_01
 auctions.yahoo.co.jp##.bannerFrame
 daily.co.jp##aside.add
@@ -6006,7 +6020,7 @@ websearch.rakuten.co.jp##.section-title1[style="margin-bottom: 10px;"]
 livedoor.jp##.google-user-ad
 4gamer.net##.hot_game_now
 shanbara.jp,ameblo.jp##a[href^="http://ck.jp.ap.valuecommerce.com/"]
-news.nifty.com,e-typing.ne.jp,freesoft-100.com##div[class^="ad_"]
+himado.in,news.nifty.com,e-typing.ne.jp,freesoft-100.com##div[class^="ad_"]
 news.nifty.com###sidebar_head_banner
 news.nifty.com###_popIn_infeed1
 news.nifty.com##a[id*="_banner"][target="_blank"]
