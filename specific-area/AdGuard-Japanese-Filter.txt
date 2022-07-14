@@ -86,6 +86,7 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten--.co.jp
 !
+||gacraft.jp^$third-party
 ||ad.xrea.com^
 ||advision-adnw.jp^$third-party
 ||ad-spire.net^$third-party
@@ -2006,6 +2007,9 @@ photoshopvip.net,wotopi.jp,mag.osdn.jp,phileweb.com,joqr.co.jp,yutura.net,goethe
 !
 !
 !
+onecareer.jp##.jackad-header
+boxil.jp##div[class*="-adsense"]
+dokuha.jp##.margin-bottom-md > a[target="_blank"][href^="https://search.rakuten.co.jp"]
 jwing.net##.sub > div[style="width:200px; margin: 20px auto 20px;"]
 chomanga.org###ad-double-rectangle
 ge.wailu.info###idIframe ~ div.content-text.lh-16
@@ -5366,6 +5370,7 @@ excite.co.jp##.media-shopping
 excite.co.jp##div[class^="ad-aside"]
 excite.co.jp##div[class^="ex-ad-rectangle"]
 excite.co.jp##div[id^="gpt_pc_news_"]
+exblog.jp##.generalListAd
 dlsoft.dmm.co.jp##.dmm-c-banner-tags
 dmm.co.jp###footer-ad-container
 hamusoku.com###sub div.plugin-recent_articles + div.plugin-memo
