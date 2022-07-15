@@ -2007,6 +2007,14 @@ photoshopvip.net,wotopi.jp,mag.osdn.jp,phileweb.com,joqr.co.jp,yutura.net,goethe
 !
 !
 !
+game8.jp##.ad-skyflag-wrapper
+hoiclue.jp##div[class^="adPostPage"]
+japan-indepth.jp##.ab-ad-area
+webtan.impress.co.jp##.block-block-ad
+webtan.impress.co.jp##.pane-bancho-common
+game.granbluefantasy.jp##.prt-ad-banner
+sophia-it.com##div[class^="ad_footer"]
+sophia-it.com##div[style^="font-size:85%;"]
 onecareer.jp##.jackad-header
 boxil.jp##div[class*="-adsense"]
 dokuha.jp##.margin-bottom-md > a[target="_blank"][href^="https://search.rakuten.co.jp"]
@@ -2920,7 +2928,7 @@ smatu.net##amp-iframe
 ||bbs.xvideosmtm.com/img/vip/
 xn--ecktc2ee4ct2a0f.xn--vcki1fxh883oon2c.com##.gs_ad
 news.gree.net###ad_four_sequence
-aria.nikkei.com,bio.nikkeibp.co.jp,doors.nikkei.com,dual.nikkei.com,nfm.nikkeibp.co.jp,woman.nikkei.com##.dag_banner
+active.nikkeibp.co.jp,aria.nikkei.com,bio.nikkeibp.co.jp,doors.nikkei.com,dual.nikkei.com,nfm.nikkeibp.co.jp,woman.nikkei.com##.dag_banner
 active.nikkeibp.co.jp##.l-asideSection_featured
 bio.nikkeibp.co.jp##.p-articleTextad
 woman.nikkei.com##.p-articleAdList
@@ -4221,7 +4229,7 @@ news.fresheye.com##.ad_box_double
 news.fresheye.com##.listing-ad
 news.fresheye.com##.nw-ad
 news.fresheye.com##.bk2.spsite
-kuroyonhon.com,enno.jp,biz-journal.jp###ad1
+japan-indepth.jp,kuroyonhon.com,enno.jp,biz-journal.jp###ad1
 biz-journal.jp###ad2
 1242.com##div.page_side_bnr
 stats-japan.com##.kiji_adsense
@@ -4690,9 +4698,8 @@ maidonanews.jp##div[id^="mn"]
 maidonanews.jp##.module-list-articles__ad
 blog.onk164.net##.onk16-widget
 blog.onk164.net##div[id^="onk16"][style="width: 300px; "]
-hinata.me##.entry_ads
-hinata.me##.mt35[style="height: 250px; width: 300px;"]
-hinata.me##.mt30[style^="display:flex"]
+hinata.me##div[class*="_AdWrapper"]
+hinata.me##div[style$="display: inline-block; height: 280px;"]
 hinata.me##div[style$="width:300px;"]
 o-uccino.jp##.float_banner_container
 o-uccino.jp##div[class^="banner_box"]
