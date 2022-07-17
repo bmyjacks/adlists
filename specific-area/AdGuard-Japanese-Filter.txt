@@ -86,7 +86,6 @@
 ! not for DNS
 ||ias.rakuten.co.jp^$third-party,domain=~rakuten--.co.jp
 !
-||gacraft.jp^$third-party
 ||ad.xrea.com^
 ||advision-adnw.jp^$third-party
 ||ad-spire.net^$third-party
@@ -1952,6 +1951,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /sp3pas_ad.js
 /sp_overlay_320_50.js
 /TextAD1.
+/themes/swell/assets/img/swell_pr_banner_
 /top/head_bnr
 /openstrap/js/meerkat_side_double_ad.js
 /wp-content/plugins/amazonjs/*
@@ -2011,6 +2011,9 @@ photoshopvip.net,wotopi.jp,mag.osdn.jp,phileweb.com,joqr.co.jp,yutura.net,goethe
 !
 !
 !
+||ossnews.jp/upimg/banner/p1_
+||uraaka-joshi.com/json/ad-
+||uraaka-joshi.com/ad-$subdocument
 otonano-shumatsu.com##div[class^="adv-"]
 supportcenternavi.com##.FixedWidget__fixed_widget
 naoblogpcgame.com##.xo-slider
@@ -3030,7 +3033,7 @@ navi.narakotsu.co.jp##.banner2
 gadgerba.com##.header-info
 gadgerba.com##.p-cv-btn-wrap
 munesada.com##aside[class^="ads-"]
-taishon.nagoya##.w-singleBottom
+player440.com,taishon.nagoya##.w-singleBottom
 forzastyle.com##.CLS_reduced
 daifuku-diary.com###st_custom_html_widget-10
 forzastyle.com##div[id*="_Infeed_TOP-"]
@@ -5828,6 +5831,7 @@ otakomu.jp,blog.esuteru.com##a.jackFix
 blog.esuteru.com##.ad-aside > a[target="_blank"]
 blog.esuteru.com##.ad-siteRanking
 blog.esuteru.com##.article-main .rss.clearfix
+shopping.yahoo.co.jp###makerAd
 shopping.yahoo.co.jp##.mdNorthBuyee
 ||macotakara.jp/banaer/
 macotakara.jp###bannerMain
