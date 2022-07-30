@@ -890,6 +890,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+kichikuou.com##.singleAdjust01 > div.adAdjust02:upward(1)
+doujinonsei.jp#?#.plugin_right > div > div.plugin-freearea > a[rel$="sponsored"]:upward(3)
 newmatosoku.com#?#.side > div.sideh2:contains(広告)
 hateblo.jp,hatenablog.*,hatenadiary.*#?#.hatena-module-html > div.hatena-module-body > ins.adsbygoogle:upward(2)
 englishhub.jp#?##sidebar1 > div.widget_text:has(> div > div.center > a[target="_blank"])
@@ -2023,6 +2025,13 @@ javkimochiii.com,office-hack.com,webgaku.net,town.niseko.lg.jp,photoshopvip.net,
 !
 !
 !
+renso-ruigo.com##.sidebar-box3:first-child
+nuki-dou.com##main .widget_text.sidein
+masutabe.info##div[id^="sp_cont_"]
+kichikuou.com##.adAdjust01
+kichikuou.com##.deleteBox
+a-to-monhan.com##.adsensemore > div.center
+a-to-monhan.com##.header-container > div.center
 e-typing.ne.jp##div[class^="adbox_"]
 ryutsuu.biz##.mainarea-ad
 ryutsuu.biz##div[class^="sidebnr"]
@@ -2832,7 +2841,7 @@ eventernote.com##.gb_ad_footer
 eventernote.com##.gb_ad_lrec:first-child
 storia.takeshobo.co.jp###r-googleads
 ||mangalifewin.takeshobo.co.jp/usr-data/units/bJava/disp.php
-news.nicovideo.jp,peing.net##.ad-container
+gqjapan.jp,news.nicovideo.jp,peing.net##.ad-container
 media.moneyforward.com##div[class^="mp-fixed-ads"]
 saruwakakun.com##.ct
 fpcafe.jp##.adsenceArea
@@ -3634,7 +3643,7 @@ timeout.jp##div[id^="ad-promo-"]
 timeout.jp##div[id^="ad-side-"]
 ebitsu.net##.itemTitle
 ebitsu.net##.left-column-inner > div.plugin-memo:last-child
-zakzak.co.jp##.gptAd
+sankei.com,zakzak.co.jp##.gptAd
 zakzak.co.jp##.special.pr
 travel.co.jp##.power_item--PR
 travel.co.jp##.pickup_item--PR
@@ -4821,6 +4830,7 @@ tabelog.com##.side-adbanner-wrap
 tabelog.com##[class^="ad-min-size"]
 otekomachi.yomiuri.co.jp##div[id^="ad_gam_"]
 otekomachi.yomiuri.co.jp##.p-ads-middle-rec
+komachi.yomiuri.co.jp##.p-ads_gamRecommend
 komachi.yomiuri.co.jp##.p-topiList__item.py-1
 komachi.yomiuri.co.jp##.sidebar-ad-rakuten
 komachi.yomiuri.co.jp##._popIn_recommend_ad_section_articles
@@ -5213,7 +5223,7 @@ doope.jp###head_box
 doope.jp##.at_adwbox
 loco.yahoo.co.jp##.advertisement.tracked_mods
 news.yahoo.co.jp##li > a[class^="sc-"][href^="https://rd.listing."]
-||dlsite.jp/modpub/images2/work/doujin/$domain=wiki.yjsnpi.nu|the-3rd.net|2ch-c.net
+||dlsite.jp/modpub/images2/work/doujin/$domain=wiki.yjsnpi.nu|the-3rd.net|2ch-c.net|doujinonsei.jp
 ||top.bcdn.jp/i/center_banner/
 ||top.bcdn.jp/i/hd_banner/
 biglobe.ne.jp###h_bar
@@ -5817,6 +5827,7 @@ dhbr.net##.bn_trial a[href]:not([href^="http://www.dhbr.net/"]) > img
 solomon-review.net###right_folder > div.textwidget > a[rel^="nofollow"] > img
 news4vip.livedoor.biz##a[href^="https://www.amazon.co.jp/gp/"]
 ||moviead.cdnext.stream.ne.jp/player/latest/MovieADPlayer.js$domain=yomiuri.co.jp
+yomiuri.co.jp##.news-top-latest__ad
 yomiuri.co.jp##.p-ad-feature-pr
 yomiuri.co.jp##.home-2020-ntvnews-ad
 yomiuri.co.jp##.p-ad-dfp-rec1
