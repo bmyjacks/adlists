@@ -890,7 +890,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
-kichikuou.com##.singleAdjust01 > div.adAdjust02:upward(1)
+newmatoan.com#?#.divh1:contains(PR)
+kichikuou.com#?#.singleAdjust01 > div.adAdjust02:upward(1)
 doujinonsei.jp#?#.plugin_right > div > div.plugin-freearea > a[rel$="sponsored"]:upward(3)
 newmatosoku.com#?#.side > div.sideh2:contains(広告)
 hateblo.jp,hatenablog.*,hatenadiary.*#?#.hatena-module-html > div.hatena-module-body > ins.adsbygoogle:upward(2)
@@ -1840,7 +1841,7 @@ weather.biglobe.ne.jp#$##header { height:60px!important; }
 ameblo.jp#$##subAInner[style] { position: static!important;margin-top: auto!important; }
 ! placeholder
 figgy.jp#$#.adBillBoardPC { min-height: 0!important }
-gamer.ne.jp,onlinegamer.jp#$#.adBillboard_pc { min-height: 0 !important; margin-bottom: 0 !important; }
+gamer.ne.jp,onlinegamer.jp#$#.adBillboard_pc { height: 0 !important; min-height: 0 !important; margin-bottom: 0 !important; }
 ! interstitial ad
 uraaka.com#$#.gallery__interstitial { display: none!important; }
 uraaka.com#$#body[style="overflow-y: hidden;"] { overflow-y: auto!important; }
@@ -2025,6 +2026,12 @@ javkimochiii.com,office-hack.com,webgaku.net,town.niseko.lg.jp,photoshopvip.net,
 !
 !
 !
+book.asahi.com##.layout-content-col1--bg2
+plicy.net##.adMiddleRect2Css
+sakigake.jp##div[class*="__bnr-header"]
+newmatoan.com###list2
+newmatoan.com##.kouwaku1
+newmatoan.com##.uresuji-waku-all
 renso-ruigo.com##.sidebar-box3:first-child
 nuki-dou.com##main .widget_text.sidein
 masutabe.info##div[id^="sp_cont_"]
@@ -2841,6 +2848,7 @@ eventernote.com##.gb_ad_footer
 eventernote.com##.gb_ad_lrec:first-child
 storia.takeshobo.co.jp###r-googleads
 ||mangalifewin.takeshobo.co.jp/usr-data/units/bJava/disp.php
+news.nicovideo.jp###billboard_container
 gqjapan.jp,news.nicovideo.jp,peing.net##.ad-container
 media.moneyforward.com##div[class^="mp-fixed-ads"]
 saruwakakun.com##.ct
@@ -3498,13 +3506,13 @@ pokemon.game-chan.net##.sidebar_content > div.custom-classic-textwidget
 eromanga-mainichi.com##.adadtitle
 ||rss-loader.com/channel/dnallmedia/adfeedmai/$domain=eromanga-mainichi.com
 hotfrog.jp##div.bg-white.text-center
-oceans.tokyo.jp,scawaiiweb.com,animageplus.jp,zaikai.jp,driver-web.jp,rollingstonejapan.com##.addHead
-oceans.tokyo.jp,scawaiiweb.com,animageplus.jp,zaikai.jp,driver-web.jp,rollingstonejapan.com##.addSide
-oceans.tokyo.jp,zaikai.jp,driver-web.jp,cinema.ne.jp,animageplus.jp##.articleDetailAdd
+netkeizai.com,oceans.tokyo.jp,scawaiiweb.com,animageplus.jp,zaikai.jp,driver-web.jp,rollingstonejapan.com##.addHead
+netkeizai.com,oceans.tokyo.jp,scawaiiweb.com,animageplus.jp,zaikai.jp,driver-web.jp,rollingstonejapan.com##.addSide
+netkeizai.com,oceans.tokyo.jp,zaikai.jp,driver-web.jp,cinema.ne.jp,animageplus.jp##.articleDetailAdd
 heim.jp##.p-article__adTop
 news.yahoo.co.jp##.adWrap
 gamepedia.jp##.moko-ad
-cookpad.com##div[data-ad-slot]
+cookpad.com##.sp_ad_wrapper
 saruwakakun.com###custom_html-2:last-child
 saruwakakun.com##.infeedads
 nanjgod.blog.jp,akb48taimuzu.livedoor.biz###sub
@@ -5307,7 +5315,7 @@ dic.pixiv.net##.actions + section[style^="text-align: center; background: #FFF"]
 ||pximg.net/source/dic/javascript/ad.js
 nicovideo.jp##.PreVideoStartPremiumLinkContainer
 ||mbadw.nan.co.jp^$subdocument
-adacomi.com##.ad01a
+eroita.net,adacomi.com##.ad01a
 adacomi.com##.menunaka > div[style^="font-size:10px;font-weight:normal;float:left;color:#996666;"]
 syosetu.com,nan-net.com,adacomi.com##div[class^="koukoku"]
 adacomi.com##div[style="float:right;width:160px;"]
