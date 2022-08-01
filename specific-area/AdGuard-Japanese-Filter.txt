@@ -890,6 +890,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+ear-phone-review.com#?#.card.example-1:upward(1)
+ear-phone-review.com#?#.hatena-module-html > div > script:only-child:not([src]):upward(2)
 newmatoan.com#?#.divh1:contains(PR)
 kichikuou.com#?#.singleAdjust01 > div.adAdjust02:upward(1)
 doujinonsei.jp#?#.plugin_right > div > div.plugin-freearea > a[rel$="sponsored"]:upward(3)
@@ -1485,6 +1487,8 @@ repeat-drama.info#?#.side_inner > .box:contains(スポンサーリンク)
 ###im_panel
 ###kauli_yad_1
 ###kauli_yad_2
+###kauli_yad_3
+###kauli_yad_4
 ###ninja-blog-inactive
 ###overlay-ad-div-id
 ###seesaa-bnr
@@ -1634,8 +1638,9 @@ majikichi.com#%#//scriptlet('abort-current-inline-script', 'tag', 'Math.random')
 webdevqa.jp.net#%#//scriptlet('set-constant', 'SERVER_SIDE_URL', '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100858 fix sidebar
 blog.livedoor.jp#%#//scriptlet("prevent-setTimeout", "floatingAd", "1000")
+! https://github.com/AdguardTeam/AdguardFilters/issues/125843
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99361
-javmix.tv#%#//scriptlet('abort-current-inline-script', 'addEventListener', 'style.display')
+xn--gmq92kd2rm1kx34a.com,javmix.tv#%#//scriptlet('abort-current-inline-script', 'addEventListener', 'style.display')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96864
 realtime-chart.info#%#//scriptlet('abort-current-inline-script', 'document.write', 'RakutenVictory')
 ! popup on mobile
@@ -1653,7 +1658,7 @@ dtiblog.com,blog.livedoor.jp#%#//scriptlet('abort-current-inline-script', 'jmp',
 ! popup on play
 ero-video.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showPopUpBanner')
 ! popup ad
-mjoato3uion.ky-3.net,qaacacthlive.omaww.net#%#//scriptlet('prevent-eval-if', 'hoihoi')
+ov53i9il.blog.fc2.com,mjoato3uion.ky-3.net,qaacacthlive.omaww.net#%#//scriptlet('prevent-eval-if', 'hoihoi')
 ! random ads
 momoiroadult.com#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'lists')
 ! interstitial ad leftover - login needed
@@ -1708,7 +1713,9 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
-!
+! placeholder
+k-knuckles.jp#$##breadcrumb { margin-top: 0 !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/124404
 weather.yahoo.co.jp#$##ydn-bot { visibility: hidden !important; height: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124335
 supercweather.com#$##adds { display: none !important; }
@@ -2010,7 +2017,7 @@ erodouga-s.com,gourmet.aumo.jp,eromovie-s.com,shimotsuke.co.jp,purple-novel.com,
 ! ###fix_sidebar
 sugi9532.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com###fix_sidebar
 ! ##.code-block
-usa.wailu.info,eizone.info,cocoseka.gamewiki.jp,spirituabreath.com,travel.spot-app.jp,chietoku.jp,rere.jp,bazurecipe.com,frozen.analyst.jp,entano.jp,mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
+nuki-dokoro.com,usa.wailu.info,eizone.info,cocoseka.gamewiki.jp,spirituabreath.com,travel.spot-app.jp,chietoku.jp,rere.jp,bazurecipe.com,frozen.analyst.jp,entano.jp,mainoriti.com,genshinnews.apexlegends-leaksnews.com,crossbike.biz,comicspoil007.com,yoso-walk.net,poire122.com,automaton-media.com,pontako.com##.code-block
 ! ##.amazon
 birthofblues.livedoor.biz,moeplus.com,copysoku.com,onecall2ch.com,getnews.jp,ebitsu.net,news.2chblog.jp,chomagireko.blog.jp,tarosoku.com,0taku.livedoor.biz,kabumatome.doorblog.jp,haijin-boys.com,hamusoku.com,ascii2d.net##.amazon
 ! ##.adsense
@@ -2026,6 +2033,11 @@ javkimochiii.com,office-hack.com,webgaku.net,town.niseko.lg.jp,photoshopvip.net,
 !
 !
 !
+||v-travels.co.jp/view_link/onsen/bnr_200_200.jpg$third-party
+nuki-dokoro.com##.container_top_widget_content
+||hime-book.net/wp-content/uploads/*/baner2
+xn--gmq92kd2rm1kx34a.com###custom_post_widget-11
+k-knuckles.jp##.sideCustomBanner
 book.asahi.com##.layout-content-col1--bg2
 plicy.net##.adMiddleRect2Css
 sakigake.jp##div[class*="__bnr-header"]
@@ -3048,7 +3060,7 @@ delivery.rakuten.co.jp##.adbanner-container
 netoff.co.jp###main > div.slider
 netoff.co.jp###main > div.mab10.tac[style="padding-bottom:3px;"]
 fnjpnews.com###block-9
-utagejima.jp###block-7
+k-knuckles.jp,utagejima.jp###block-7
 utagejima.jp##.su-animate
 ||four-foods.com/etc/rrd/$third-party
 capa.getnavi.jp###ccw_sp_article_header_wrapper
@@ -3253,10 +3265,10 @@ ero-gazou.jp,eroiro.info##.ppsPopupListsShell
 memopanda.com,ero-gazou.jp,eroiro.info##.widget_pc_text
 freeze-game.com,megabrasil.jp,kisslog2.com,idiom-encyclopedia.com,kamome21.site,tsubuyaki0424.com,monayoblog.com,ma-jann.com,lv73.net,2week.net,oreteki-design.com,mohmongar.net,chiepedia.club,chem-station.com,sirabetter.com,fx-koryaku.com###custom_html-2
 megabrasil.jp,larksan.wp.xdomain.jp,idiom-encyclopedia.com,studiosero.net,ma-jann.com,lagcapa.org,useful-notes.com,mohmongar.net,chem-station.com###custom_html-3
-freeze-game.com,kamome21.site,studiosero.net,lv73.net,lagcapa.org,mohmongar.net,chem-station.com,48idol.tv###custom_html-4
+k-knuckles.jp,freeze-game.com,kamome21.site,studiosero.net,lv73.net,lagcapa.org,mohmongar.net,chem-station.com,48idol.tv###custom_html-4
 anitubu.com,talking-english.net,4thsight.xyz,tohaz.com,kamome21.site,erogamemod.com,kimootoko.net###custom_html-5
 dev.macha795.com,larksan.wp.xdomain.jp,kindou.info,chem-station.com###custom_html-6
-complesso.jp,studiosero.net,fpsjp.net,tokyolucci.jp###custom_html-7
+nuki-dokoro.com,complesso.jp,studiosero.net,fpsjp.net,tokyolucci.jp###custom_html-7
 fnjpnews.com,fpsjp.net,tokyolucci.jp,namatamago.net###custom_html-8
 talking-english.net,ssaits.jp,larksan.wp.xdomain.jp,dq.h1g.jp,otakaranet.com,macha795.com,namatamago.net,chem-station.com###custom_html-9
 trip-2ch.kokohenjp.mixh.jp,a-da-co-da.com,macha795.com,namatamago.net###custom_html-10
@@ -3769,9 +3781,8 @@ ipentec.com##.FlexContainerAdsenseTop
 ||my-best.com/advertisements/
 my-best.com###ad-product
 tenmusume.com##.home_block > div.pc.clearfix
-wanabe.net,ear-phone-review.com,wackwack.net,paiza.hatenablog.com,namakeru.com##.hatena-module-html:first-child
-ear-phone-review.com##.hatena-module-html:nth-last-child(-n+2)
-ear-phone-review.com##div[class^="adsense"]
+wanabe.net,wackwack.net,paiza.hatenablog.com,namakeru.com##.hatena-module-html:first-child
+ear-phone-review.com###box2-inner > div.hatena-module-html:nth-last-child(-n+2)
 musume4610.com###rightside > aside
 musume4610.com###statusbar
 fatede-go.com##.mod-rss
