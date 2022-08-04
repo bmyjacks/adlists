@@ -890,6 +890,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+deneblog.jp#?#.plugin1_outline > div > div.plugin-freearea > center > a[href="https://shadowverse-evolve.com/"]:upward(4)
 odaibako.net#?#.flex-grow > main > div[class^="sc-"]:has(> div[class^="sc-"] > div[class^="sc-"] div[id^="div-gpt-ad-"])
 ear-phone-review.com#?#.card.example-1:upward(1)
 ear-phone-review.com#?#.hatena-module-html > div > script:only-child:not([src]):upward(2)
@@ -2035,6 +2036,14 @@ javkimochiii.com,office-hack.com,webgaku.net,town.niseko.lg.jp,photoshopvip.net,
 !
 !
 !
+deneblog.jp###eqfirst
+deneblog.jp###main > a[href="https://shadowverse-evolve.com/"]:first-child
+deneblog.jp##.ently_text > center > a
+city.machida.tokyo.jp###press_area
+||yourbengo.jp/assets/front/banner/
+yourbengo.jp##.cta_merci
+yourbengo.jp##.cta_min
+hedgehog.ryukyu##.l-sidebar > aside.widget_block
 eromanga-jkschool.com###enhancedtextwidget-27
 mogeringo.com##div[style="min-height: 280px;height: auto"]
 ||bigboss-financial.com/pr/banner/bn_300_250_
@@ -2763,6 +2772,7 @@ as-web.jp###topbillboard
 ||eroelog.com/feed/
 eroelog.com##.feed01
 eroelog.com##.feed-ch
+eroelog.com##.feed-sp
 my-terrace.com###pc_big_ads_before_subfooter
 my-terrace.com###pc_sidebar_ads_a
 my-terrace.com##.ads_contents_footer
