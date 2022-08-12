@@ -125,6 +125,11 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/125968
+radio.fr#%#//scriptlet("abort-on-property-read", "Object.prototype.autoRecov")
+radio.fr$$script[tag-content="Flags."][min-length="20000"][max-length="300000"]
+!+ PLATFORM(ios, ext_android_cb)
+@@||radio.fr^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125261
 animationdigitalnetwork.fr#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=animationdigitalnetwork.fr
@@ -661,6 +666,8 @@ tf1info.fr#%#AG_defineProperty('__NEXT_DATA__.runtimeConfig.adBlock.serverReques
 ! Good: example.org#?#main > div.row:has(> div.ad)
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/125968
+radio.fr#?#div[class^="sc-"] > div[class^="sc-"] > div[id^="RAD_"]:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114163
 lemonde.fr#?#.aside__iso > .friend__container:has(> .friend--sticky > .OUTBRAIN)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105651
@@ -915,7 +922,7 @@ sudouest.fr##.pub_with_light_background.sidebar-section
 voici.fr##.offsetCardGrid-cardsContainer > .offsetCardGrid-card.nativeCard
 paroles.net##div[id^="trg_"]
 paroles.net##div[style="width:300px;height:600px;"]
-lepoint.fr##.slotpub
+lepoint.fr##body .slotpub:not(#style_important)
 cnews.fr##div[id^="block-dm-services-ads-"]
 lesoir.be##.rossel-ads
 analyticsinsight.net##.widget-5
