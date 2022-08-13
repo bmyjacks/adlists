@@ -1873,8 +1873,6 @@ uwl.weblio.jp#$##side { display: none !important; }
 uwl.weblio.jp#$##main { width:auto !important; padding-left:15px !important; }
 uwl.weblio.jp#$#.tngMainT { width:100% !important; }
 buhidoh.net#$##center-left { height: auto !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/58172
-punyu.com#$#.tblmain[width="900"] { height: auto !important; }
 !
 nicovideo.jp#$#.BottomContainer.InView { min-height:auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34774
@@ -2010,6 +2008,8 @@ athleterecipe.com,javkimochiii.com,office-hack.com,webgaku.net,town.niseko.lg.jp
 !
 !
 !
+city.utsunomiya.tochigi.jp###randomad
+city.sanjo.niigata.jp##.koukoku-box
 athleterecipe.com###contentWrap > div.not-athleterecipe
 dime.jp##.add_area-center
 dime.jp##.add_frame
@@ -2106,7 +2106,7 @@ mens-modern.jp,ranking-best.net,meaning.jp,qoly.jp##div[style="height:90px; widt
 mens-modern.jp,ranking-best.net##div[style="min-height: 320px;"]:not(.u-mt-15)
 er-animal.jp###pc_article_right_1
 ecodb.net##.hd2
-city.arida.lg.jp###sadbg
+city.utsunomiya.tochigi.jp,city.arida.lg.jp###sadbg
 city.azumino.nagano.jp###top_kokoku
 city.chita.lg.jp###fixedAdv
 city.fuji.shizuoka.jp###containerBottom
@@ -3503,7 +3503,6 @@ sugi9532.com##.is-style-balloon_box2
 fpsjp.net,sugi9532.com##.pochipp-box
 valorantnews.jp,sugi9532.com##.wp-block-columns
 sugi9532.com##p.has-text-align-center
-hashikan.net##.w-afterRelated
 manabi.benesse.ne.jp###spNonDispSuperBannerArea
 ||benesse.jp/teikitest/common/js/floatad.js
 i-njoy.net##.mobhalf
@@ -3652,7 +3651,6 @@ city.eniwa.hokkaido.jp##.fixed-ad-wrap
 city.shizuoka.lg.jp###aside_banner
 pinkpanfan.com,vrc.wiki,yoshitechblog.com,gosunkugi.com###pc_text-2
 pinkpanfan.com###pc_text-3
-gosunkugi.com###pc_text-4
 momoniji.com###pc_text-6
 psneolog.com###pc_text-74
 ||fategrandorder.info/html/js/ad_
@@ -3780,7 +3778,6 @@ my-best.com###ad-product
 tenmusume.com##.home_block > div.pc.clearfix
 wanabe.net,wackwack.net,paiza.hatenablog.com,namakeru.com##.hatena-module-html:first-child
 ear-phone-review.com###box2-inner > div.hatena-module-html:nth-last-child(-n+2)
-musume4610.com###rightside > aside
 musume4610.com###statusbar
 fatede-go.com##.mod-rss
 fatede-go.com##.mod-rss-btm
@@ -4107,8 +4104,6 @@ h-ken.net##.mainColumn > div > .sidebarList
 h-ken.net##.mainColumn > div > p.midashiPink
 rakko.tools##.pr_link
 ||thaisuki.asia/wp-content/uploads/*_ad.png
-dokuritsu.info###mainad
-dokuritsu.info###right_side > .widgets:first-child
 ||360asp.click/data.php?$third-party
 wtpage.info##.cm-banner
 nldot.info##.ads-fluid
@@ -4179,19 +4174,12 @@ petyado.com##div > table[width][cellpadding="0"] td[colspan="5"]
 hamazo.tv###txtPr > span
 ikora.tv##.adcopy2 > a
 miyachan.cc###barcenter
-tamaliver.jp##a[name=""] + .posted
-tamaliver.jp##a[name=""] + .posted + .blogbody
-tamaliver.jp##a[name=""] + .posted + .blogbody + .posted
 tamaliver.jp##div[style="margin-bottom:10px;text-align:left;width:95%;overflow:hidden;"] + h2
 goguynet.jp##.bnrBox01
 goguynet.jp##div[style="height:250px; width:300px;"]
 bloomberg.co.jp##.leaderboard-wrapper
 cinemarche.net##.adBoxWrap
 eiga-watch.com##div[style="width:728px; height:200px; margin:0 auto 20px;"]
-goo.ib-game.jp##.tag_300
-goo.ib-game.jp##.tag_468
-goo.ib-game.jp##.tag_728
-goo.ib-game.jp##.tag_dummy
 arealme.com##.leader_ad_banner
 arealme.com##.lowerad
 arealme.com##div[style="margin:auto;width:100%;min-height:250px;"]
@@ -4200,7 +4188,7 @@ aeoncinema.com##.contents_bottom_2-column_ad
 aeoncinema.com##.side div.prime
 dm-wiki.net###body > div[style="margin-top:.35em"]
 dm-wiki.net###menubar > div[style="margin:.5em 0 0 1em"]
-cmjapan.com###text-30
+cmjapan.com###text-33
 bakufu.jp,cmjapan.com###text-31
 3dnchu.com,cmjapan.com###text-32
 cmjapan.com##.tweet_followme > div.hensyu_box
@@ -4268,8 +4256,7 @@ shufoo.net###bnr1
 shufoo.net###pc-campaign-appeal-01
 shufoo.net###premiumPanel
 shufoo.net###bnrSuperbannerBottom
-vipperlog.com,buzzral.com##.right-container-ads
-buzzral.com##.right-container > p:first-child
+vipperlog.com##.right-container-ads
 buzz-plus.com###mybox > .box:last-child
 buzz-plus.com##.ad-desktop-w
 buzzap.jp##.krb-amzlt-box
@@ -4995,7 +4982,6 @@ futabaforest.net##.c11-2
 futabaforest.net##.c11-3
 bengo4.com##div[class^="p-dfp-banner-area"]
 bengo4.com##li.p-topics-list__item--ad-ranking
-bengo4.com###entryFooterAd2
 zeiri4.com##.adContainer--double
 qoly.jp##.banner-middle
 websearch.rakuten.co.jp,grapee.jp###ads-billboard
@@ -5592,7 +5578,7 @@ dic.nicovideo.jp##.ad-bannar-maincolumn-top
 dic.nicovideo.jp##.adsense-728
 live.nicovideo.jp##aside[class^="___banner-ad"]
 live.nicovideo.jp##div[class^="___player-ad-panel"]
-nishi.or.jp,city.tokushima.tokushima.jp,live.nicovideo.jp##.kokoku
+city.koganei.lg.jp,nishi.or.jp,city.tokushima.tokushima.jp,live.nicovideo.jp##.kokoku
 live.nicovideo.jp,live2.nicovideo.jp##[class^="___billboard-ad"]
 nicovideo.jp##.ads.leadBanner
 nicovideo.jp##.sub.column > div.ads
@@ -5754,6 +5740,7 @@ weblio.jp##.adSmpBnrFtBtSp
 weblio.jp##.adBkOverlayClr
 ad-contents.jp##.overlay-item
 ad-contents.jp##.overlay-mask
+punyu.com##.mid_ad
 punyu.com##.dvd_ad_right
 punyu.com###content > .rank_table
 punyu.com###right > .rank_table
