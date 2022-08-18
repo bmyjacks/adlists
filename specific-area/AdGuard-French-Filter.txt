@@ -125,6 +125,11 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/127381
+dhnet.be#%#//scriptlet('set-constant', 'bAdBlocker', 'false')
+@@||service.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$domain=dhnet.be
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||service.videoplaza.tv/proxy/pulse-sdk-html5/*/moat.js$domain=dhnet.be
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126858
 @@||service.videoplaza.tv/proxy/bwtest.jpg$domain=lesoir.be
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5^$domain=lesoir.be
@@ -669,6 +674,10 @@ tf1info.fr#%#AG_defineProperty('__NEXT_DATA__.runtimeConfig.adBlock.serverReques
 ! Good: example.org#?#main > div.row:has(> div.ad)
 ! Bad: example.org##main > div.ad (should be in specific.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/127381
+dhnet.be#?#main > section.ap-Chain:has(> div.ap-Chain-body iframe[src^="//immobox.logic-immo.be/"])
+dhnet.be#?#main > div.ap-Box:has(> div.ap-Box-content > div.is-boxContentGroup  div#digitekaSmartPlayer)
+dhnet.be#?#main > section.ap-Chain:has(> div.ap-Chain-body iframe[src^="https://www.jobat.be/"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125968
 radio.fr#?#div[class^="sc-"] > div[class^="sc-"] > div[id^="RAD_"]:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114163
@@ -829,6 +838,8 @@ tf1.fr#%#AG_defineProperty('tv.freewheel.SDK.Util.sendAdRequestWithXMLHTTPReques
 !------- CSS fixes --------------------!
 !--------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/127367
+journaldesfemmes.fr#$#@media (min-width: 768px) { body .layout.layout--offcanvas:not(#style_important) { margin-top: -200px !important; } }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118970
 funradio.fr,rtl2.fr,rtl.fr#$#body .container-ads + *:not(#style_important) { padding-top: 0 !important; }
 funradio.fr,rtl2.fr,rtl.fr#$#body .container-ads + .tranche:not(#style_important) { padding-top: 50px !important; }
@@ -916,6 +927,8 @@ laprovence.com$$script[wildcard="*((false?*https:*:document.location.protocol)+*
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=scan-fr.cc
 !
 !
+dhnet.be###selligent-ads
+||jobat.be^$subdocument,third-party
 challenges.fr##.pub-container-haut
 francebleu.fr##.SadSlot
 elle.fr##div[class$="--placeholder"]
