@@ -2015,6 +2015,8 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+neo-blood.co.jp###text-24 > div.textwidget > table
+||virusbuster.jp/aff/$third-party
 collepic.net##div[id^="ad_game"]
 collepic.net##div[style="width: 760px; min-height: 500px;"]
 ||soap-bbs.com/images/site/main-left-banner/
@@ -2468,7 +2470,7 @@ bakusai.com##.thrWholeRight
 bakusai.com###banner_top
 ||afl.rakuten.co.jp^$domain=~kakaku.com,third-party
 biteki.com##.sideblock_banner
-nijisenmon.work##.post-widgets-top
+neo-blood.co.jp,nijisenmon.work##.post-widgets-top
 360life.shinyusha.co.jp##.c-bnr > img.lozad
 hikak.com,shindans.com##.a11 > div.a21
 ||img.happymail.co.jp^$image,third-party
@@ -4247,7 +4249,7 @@ telnavi.jp##.google_adsense_placeholder
 sekainorekisi.com##.sekai-adlabel
 campus-hub.jp,fukuishimbun.co.jp,gigafree.net,nachukichi.com##.infeed
 irasutoya.com##.splink
-irasutoya.com##div[class^="entryadwrapper"]
+nengaya.net,irasutoya.com##div[class^="entryadwrapper"]
 talknews.net##p[style*="color:#333; text-align:center;"]
 axismag.jp##.pr_posts
 ||omyutech.com/image/dns_ads/
@@ -4494,7 +4496,7 @@ aniplexplus.com##.hotentry
 sekai-kabuka.com##a[id]:not([href^="javascript:void"])
 sekai-kabuka.com###link_url_td > div[class]:last-of-type
 ||realtime-chart.info/-$subdocument
-||amazon-adsystem.com/widgets/$important,domain=realtime-chart.info|mashlife.doorblog.jp|lamsect.blog112.fc2.com|blog.domesoccer.jp
+||amazon-adsystem.com/widgets/$important,domain=realtime-chart.info|mashlife.doorblog.jp|lamsect.blog112.fc2.com|blog.domesoccer.jp|neo-blood.co.jp
 realtime-chart.info##.amasearch
 realtime-chart.info##div[id] > div.news_l[style*="width:120px"]
 realtime-chart.info##a[href^="https://px.a8.net/svt/ejp?"]
@@ -5453,7 +5455,7 @@ yahoo.co.jp##div[class^="SearchResults_searchResults__contents__main__"] > div.S
 milcow.com##.adaida
 eikaiwamastery.blogspot.jp###HTML2
 manga-comic-netabare.com,omansoku.com,sakasa-panty.com,shibukoi.com##.home_widget
-sugi9532.com,smhn.info###text-22
+neo-blood.co.jp,sugi9532.com,smhn.info###text-22
 ||coron.tech/wp-content/uploads/*.jpg.webp$image,~third-party
 ||imgvc.com/vc/images/00/$domain=coron.tech
 coron.tech##.aasc.center > iframe.lazyloading
