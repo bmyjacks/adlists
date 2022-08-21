@@ -419,6 +419,7 @@
 ! Bad: /banner.jpg (should be in general_url.txt)
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
+||adcdn.goo.ne.jp^
 ||ads.world-fusigi.net^
 ||ad.gunosy.com^
 ||ad.inter-edu.com^
@@ -873,6 +874,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+sanyonews.jp#?#.contents > div.OUTBRAIN:upward(1)
+sanyonews.jp#?#.contents > div.section_relation > div.uz-ny:upward(2)
 chibanippo.co.jp#?#.advertisement2[style="clear: both;"]:has(+ div.block-block)
 ibarakinews.jp#?#div[class^="pr_list_contentsbox"] > a > div > img[src^="https://ibarakinews.jp/images/common/PR_"]:upward(3)
 jomo-news.co.jp#?#.top-articles > div[id^="div-gpt-"]:upward(1)
@@ -1958,6 +1961,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /wp-content/plugins/amazonjs/*
 !
 ! Malware/Phishing
+/\.rest\/[0-9A-Za-z]{10}\/page1\.php$/$document
 ://www.eki-nett.*.top/dist/$document
 ://www-yodubash-com.*/pc/login.php?yc/login/index.html?returnUrl=$document
 ://www2.myjcb.com.jp.*.cn/pc/issmyjcb_login.php|$document
@@ -2686,7 +2690,7 @@ at-s.com##.sidePicup
 at-s.com##.topMainBannerGA01
 mofmo.jp##div[id^="ad_pos"]
 piapro.jp##div[style^="width:300px; height:250px;"]
-piapro.jp##div[style^="width:728px; height:90px"]
+sanyonews.jp,piapro.jp##div[style^="width:728px; height:90px"]
 project.nikkeibp.co.jp##.prBox
 nikkei.com##.l-main_primary > .rhizomeStage[data-tracking-code]
 full-count.jp##a[href^="https://tp-bb.jp/"]
@@ -4734,7 +4738,7 @@ exploader.net##.items
 coromoo.com##div[class$="-ad"]
 coromoo.com##.amazon-link
 ||spox.com/daznpic/$subdocument,domain=full-count.jp
-downtownreport.net##.ad_overlay
+kakuge.com,downtownreport.net##.ad_overlay
 downtownreport.net##.adArticleUpperPC2col
 downtownreport.net##.adRecommendWidgetTop
 downtownreport.net##.adSidebar2
