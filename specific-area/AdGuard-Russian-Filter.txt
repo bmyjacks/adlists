@@ -4508,6 +4508,9 @@ sinoptik.ua#@#div[id^="bn_"]
 !#endif
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/127540
+@@||cdnneedtv.ru/spor/jquerymin18.js$domain=cdnneedtv.ru
+sweet-tv.net,cdnneedtv.ru#%#//scriptlet('set-constant', 'canRunAds', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127220
 !#if (!adguard_app_ios && !adguard_ext_android_cb)
 limehd.tv#%#//scriptlet('set-constant', 'window.ya', 'true')
@@ -6118,14 +6121,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|Radon|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|Manganese|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|Radon|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|Manganese|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|Radon|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|Manganese|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|Radon|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|Manganese|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -6997,6 +7000,7 @@ tv-one.org#?#table[align="center"] tbody:has(> tr > td[style] > b:contains(Ре�
 ytro.news#?#.container > div.news-center__item:has(> div.news-block > div[class^="partners-block"])
 ytro.news#?#.container > div.news-center__item:has(> div.banner > div[id^="adfox"])
 ytro.news#?#._inner-fly > div._block:has(> div.news-block > div[id^="smi_teaser_"])
+konstruktortestov.ru#?#.left-content > div.block-test:has(> center > a[href="https://opticwhite.ru/"])
 konstruktortestov.ru#?#.block-test[style]:has(> center  > div[id^="video_block_"])
 konstruktortestov.ru#?#.left-content > div.block-test:has(> div[id^="yandex_rtb_"])
 rebenok.by#?#.main-index-right > div.sticky-wrapper:has(> div.bnr-mr-mf)
@@ -8229,6 +8233,8 @@ zen.yandex.by,zen.yandex.com,zen.yandex.kz,zen.yandex.ru,zen.yandex.ua#?#.zen-pa
 !------- JS ------------
 !-----------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/127540
+sweet-tv.net,cdnneedtv.ru#%#//scriptlet('prevent-window-open')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127528
 online.anidub.com,online.anidub.club#%#//scriptlet("abort-on-property-write", "bg")
 ! https://github.com/uBlockOrigin/uAssets/issues/13230
@@ -8747,6 +8753,8 @@ disk.yandex.*#%#//scriptlet('remove-class', 'has-fullscreen-banner','.public__ro
 !-----------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/127605
+blog.themarfa.name#$#.article > div.sidebar { align-self: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125262
 filmozavr.net#$#.maincontent { margin-top: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/124838
@@ -8948,8 +8956,11 @@ root-nation.com#$#.td-theme-wrap { cursor: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66406
 kinogo-net.org#$#.wr { padding-top: 64px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65770
+!+ NOT_OPTIMIZED
 app2top.ru#$#.tingle-modal { display: none !important; }
+!+ NOT_OPTIMIZED
 app2top.ru#$#body { overflow: auto !important; }
+!+ NOT_OPTIMIZED
 app2top.ru#$#.content__full { margin-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65542
 zviazda.by#$#body { padding-top: 0 !important; }
@@ -11406,6 +11417,11 @@ hightech.plus,vkpress.ru,newstula.ru,panoramapro.ru,zpravda.ru,mirtesen.ru,sport
 !
 !
 !
+tripmydream.com##.mediaMainpage__container a[href="https://tripmydream.com/mediakit"]
+oterraria.ru###adv_fon
+oterraria.ru###custom_html-14
+||oterraria.ru/wp-content/uploads/*/gamershopru*.jpg
+oterraria.ru##div[class^="code-block"][style*="text-align: center;"]
 online.anidub.com,online.anidub.club###banner
 online.anidub.com,online.anidub.club##.popular
 online.anidub.com,online.anidub.club##div[style^=" width: 240px;  height: 400px;"]
@@ -22827,14 +22843,14 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-coutent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-coutent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-coutent div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-coutent div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-coutent div.product-header ~ div[style^="position:"] ~ div[class]
-otzovik.com##.produkt-coutent div.review-contents + [class]
-otzovik.com##.produkt-coutent div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-coutent div.review-contents > div.review-body > span[style]
+otzovik.com##.produkt-coptent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-coptent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-coptent div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-coptent div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-coptent div.product-header ~ div[style^="position:"] ~ div[class]
+otzovik.com##.produkt-coptent div.review-contents + [class]
+otzovik.com##.produkt-coptent div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-coptent div.review-contents > div.review-body > span[style]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
@@ -23548,7 +23564,7 @@ spark.ru##.jobs--layout
 bender/_bender*.js$script,replace=/this\.removeShadowBlockers\(\);/true; return;/
 
 !-------------------------------------------------------------------------------!
-!------------------ White list (exceptions list)  ------------------------------!
+!-------------- Fixing filtration errors (false-positive) ----------------------!
 !-------------------------------------------------------------------------------!
 !
 ! This section contains the list of rules that fix incorrect blocking. Rules must be domain-specific.
