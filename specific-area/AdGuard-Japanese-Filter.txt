@@ -872,6 +872,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+haijin-boys.com#?#.widget > div:contains(/^スポンサーリンク$/):upward(1)
+haijin-boys.com#?#.widget > div:contains(おすすめ):upward(1)
 gigafree.net#?#.detail > .related:has(> .adsbygoogle)
 tanweb.net#?#.cardtype > .cardtype__article > .adsbygoogle:upward(1)
 sanyonews.jp#?#.contents > div.OUTBRAIN:upward(1)
@@ -2022,6 +2024,10 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+pref.ishikawa.lg.jp###tmp_rnavi_bnr
+||script1.kakaku.k-img.com/script/itemview/RdmReviewAd.js
+atmarkit.itmedia.co.jp###globalHeaderMiddle
+||eromanga-cafe.com/imoba.
 business-textbooks.com##.aside_banner
 javcc.com##a[href^="https://www.extmatrix.com/?ref="]
 mensnonno.jp##.post-foot-ad
@@ -2153,7 +2159,7 @@ fc1adult.com##.line-ad
 world-fusigi.net##.top_rss_side_ad
 world-fusigi.net##.monthly_popular_wrap
 city.izunokuni.shizuoka.jp,city.fuefuki.yamanashi.jp,city.aomori.aomori.jp,hellonavi.jp,lg.jp,tokunoshima-town.org###tmp_publicity
-city.hamamatsu.shizuoka.jp,city.sapporo.jp,city-kirishima.jp,lg.jp###tmp_wrap_publicity
+city.fukushima.fukushima.jp,city.hamamatsu.shizuoka.jp,city.sapporo.jp,city-kirishima.jp,lg.jp###tmp_wrap_publicity
 ula.cc##.nanohana7
 ||anitubu.com/amazon_category/
 ||anitubu.com/wp-content/themes/simplicity2-child/amazon_rank.js
@@ -3790,9 +3796,11 @@ majikichi.com##.comment_rank_widget_root + div.main
 erogamemod.com##.custom-box3
 erogamemod.com##.eroga-widget
 silhouette-ac.com##.ac-mt-3.bg-light
+ac-illust.com,photo-ac.com##.ac-p-2.bg-f1f1f1
 ac-illust.com,photo-ac.com##.ac-mb-3.bg-f1f1f1.ac-p-2
 ac-illust.com,photo-ac.com###voting-taboola-wrapper
 ac-illust.com,photo-ac.com##.ac-p-2.bg-light.ac-mt-3
+ac-illust.com##.col-12.px-1
 ac-illust.com##.theme-ads-box
 ac-illust.com###illust_search_new > div.ac-col-12
 ac-illust.com##.section-creator-ads
@@ -4209,7 +4217,7 @@ ekitan.com##.ek-route-advertising-no-3
 ekitan.com##.na-bottom-wrap
 ekitan.com##.na-wrap
 ekitan.com##.sidebar-ad-item
-roundup-gamers.jp,gamebusiness.jp,gamespark.jp,inside-games.jp##.af_box
+techno-edge.net,roundup-gamers.jp,gamebusiness.jp,gamespark.jp,inside-games.jp##.af_box
 ||raburaibu.com/RSS_frame/
 map.goo.ne.jp###map-areamatch_wide
 map.goo.ne.jp###lnavi_site-cross
@@ -5360,7 +5368,7 @@ gigazine.net###LT
 gigazine.net###Google_TC
 gigazine.net##.e_frame.e_ad
 douga-getter.com##.small.text-center > div.row > div.text-center[style="margin-top:2px;color:#6c757d"]
-vimv.site##.boxzilla-container
+dragonball-neta.com,vimv.site##.boxzilla-container
 dic.pixiv.net##.d_header
 dic.pixiv.net##.actions + section[style^="text-align: center; background: #FFF"]
 ||pximg.net/source/dic/javascript/ad.js
@@ -6347,7 +6355,7 @@ gtoys.blog.fc2.com###adright
 ! This section contains the list of rules that fix incorrect blocking. Rules must be domain-specific.
 !
 ! Good: example.org#@#.ad
-! Bad:  @@||example.org^$stealth (should be in AdGuard Base - whitelist_stealth.txt)
+! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
 !
