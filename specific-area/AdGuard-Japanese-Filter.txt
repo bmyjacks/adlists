@@ -872,6 +872,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+sankeibiz.jp#?##main-column > div.custom-html-feature:has(> div.biz-column > header > h2:contains(Recommend))
+sankeibiz.jp#?##main-column > div.grid > div > div.gptAd:upward(1)
 haijin-boys.com#?#.widget > div:contains(/^スポンサーリンク$/):upward(1)
 haijin-boys.com#?#.widget > div:contains(おすすめ):upward(1)
 gigafree.net#?#.detail > .related:has(> .adsbygoogle)
@@ -1264,7 +1266,6 @@ angel-bbs.com#?#table[width="95%"][bgcolor="#CCFFCC"] div[align="center"] > ifra
 angel-bbs.com#?#table[width="95%"][bgcolor="#EFEFEF"] div[align="center"] > iframe[src*="/koukoku_"]:upward(table[width="95%"])
 angel-bbs.com#?#table[width="95%"][bgcolor="#EFEFEF"] td[colspan="3"] > iframe[src*="/koukoku_"]:upward(table[width="95%"])
 blog.livedoor.jp#?#.right > div.plugin-memo > div.side > p:last-of-type > a[href*="amazon."]:first-of-type:upward(.plugin-memo)
-sanspo.com#?#.custom-html-feature > div[style$="background-color:#dcf4ff;line-height:120%;text-align:center;"]:contains(【PR】)
 jbpress.ismedia.jp#?#.--wid.m-article-3colm:last-child:has(> div.m-article-3colm-list > div.ad-block)
 astage-ent.com#?#.entry > p > ins.adsbygoogle:upward(1)
 fashion-press.net#?#.pc_only.fp_list_each > div.pc_only_ad:upward(1)
@@ -1659,8 +1660,6 @@ sukima.me#%#//scriptlet('set-constant', 'PREMIUM', 'true')
 sonae.sankei.co.jp#%#//scriptlet('set-constant', 'geoAvailable', 'true')
 ! http://blog.livedoor.jp/geek periodical campaign ads
 blog.livedoor.jp#%#//scriptlet('abort-current-inline-script', 'document.write', 'sitejack')
-! https://github.com/AdguardTeam/AdguardFilters/issues/88152
-sankei.com#%#//scriptlet('prevent-addEventListener', 'scroll', 's=setTimeout')
 ! https://github.com/uBlockOrigin/uAssets/issues/7546
 wav.tv#%#//scriptlet('prevent-window-open')
 wav.tv#%#//scriptlet('remove-attr', 'data-popup-url')
@@ -1893,8 +1892,6 @@ blog.esuteru.com#$#.siteRanking-main { margin-left: 0!important; }
 webcartop.jp#$##widget_code_php_in_widget-23 { height: 24px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26823
 hostlove.com#$##index_nav > h1 { padding-top: 30px!important; }
-! https://github.com/AdguardTeam/AdguardFilters/pull/26574#issuecomment-444856736
-iza.ne.jp#$#.sideFixedWrapper { position: relative!important; }
 !
 !-------------------
 !-------HTML--------
@@ -1963,6 +1960,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /wp-content/plugins/amazonjs/*
 !
 ! Malware/Phishing
+-smbc.com/client/index.php|$document
 ://eki-net.*/login.php|$document
 /_ap/signin?scid=s_kwa_2021fas_*&icm_acid=$document
 ://www2.ameericanxsexpresss.com.*.top/logn.php?token=$document
@@ -2024,6 +2022,9 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+fmv-mypage.fmworld.net##.home-recommend__item[class$="hidden"]
+||fmworld.net/*/adv-html/
+city.noshiro.lg.jp###banners
 pref.ishikawa.lg.jp###tmp_rnavi_bnr
 ||script1.kakaku.k-img.com/script/itemview/RdmReviewAd.js
 atmarkit.itmedia.co.jp###globalHeaderMiddle
@@ -3728,7 +3729,7 @@ timeout.jp##div[id^="ad-promo-"]
 timeout.jp##div[id^="ad-side-"]
 ebitsu.net##.itemTitle
 ebitsu.net##.left-column-inner > div.plugin-memo:last-child
-sankei.com,zakzak.co.jp##.gptAd
+iza.ne.jp,sankeibiz.jp,sanspo.com,sankei.com,zakzak.co.jp##.gptAd
 zakzak.co.jp##.special.pr
 travel.co.jp##.power_item--PR
 travel.co.jp##.pickup_item--PR
@@ -5889,9 +5890,6 @@ news.2chblog.jp##table[height="300"][width="750"]
 kyodo.co.jp##a[href^="http://www.kyoeikasai.co.jp/"]
 /\/kyodopress_cms\/wp-content\/(themes\/kyodopress\/img_banner\/(?!bn_newspaper\.gif)|banners).*/$image,domain=kyodo.co.jp
 ||cdn.asagei.com/asagei/uploads/sp/images/bn/
-sanspo.com##.article__inline-ad
-sanspo.com###textAd_alliance
-sanspo.com###textAd_wpics
 xtech.nikkei.com##.p-article_ad
 xtech.nikkei.com##.p-article_banner
 xtech.nikkei.com##.l-section[data-personalize-ad]
@@ -5920,9 +5918,6 @@ mainichi.jp##.ad-infeed
 mainichi.jp##.title-ad-sp
 mainichi.jp##.ad-bnr-w300h250
 gyao.yahoo.co.jp##.ad-yads
-sankeibiz.jp###adTrend
-sankeibiz.jp##.ECmodule
-sankeibiz.jp##.module_bizplus
 mantan-web.jp##div[data-goout][data-dummyad]
 mantan-web.jp##div[style="width:300px;height:600px;"]
 mantan-web.jp##div[style^="width:728px;height:90px;"]
@@ -6059,7 +6054,6 @@ erogazo-ngo.com##p > a[rel="nofollow"]
 kyoko-np.net###nwBanner
 kyoko-np.net##.advert
 kyoko-np.net##.ad:not(.col-312 > .ad:first-child)
-sankei.com##.module_ad:not(#subscribe)
 ganganonline.com##header#sqexHeader-black_rsp
 asahi.com##.AdMod
 togetter.com##.promotion
@@ -6133,10 +6127,6 @@ gunji.blog.jp##a[title*="_300x250_"]
 gamespark.jp##.itx-widget
 ||widget.iid-network.jp/assets/widget.js
 new-akiba.com###bannerB2
-iza.ne.jp##.header-link > ul > li > a[href="http://www.sankei-digital.co.jp/"]
-||prt.iza.ne.jp/common/css/v2/images/bg_header_003.png
-iza.ne.jp##article.article-detail-section > .tool > .credit
-iza.ne.jp##aside[class^="ad-"]
 gadgetdamage.blog.fc2.com##.wrecbox
 gadgetdamage.blog.fc2.com##.topimg > .rtbox_triple_rec
 gadgetdamage.blog.fc2.com##.topimg > ul.admin > li > span[style="font-size:75%;float:left;"]
@@ -6359,6 +6349,8 @@ gtoys.blog.fc2.com###adright
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/128061
+@@||azby.fmworld.net/ad/common/css/common.css
 ! https://kumin.news/adachi/articles/252668
 @@||kumin.news/assets/img/ad/$image,~third-party
 ! useful promo
