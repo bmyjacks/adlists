@@ -875,6 +875,9 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+famitsu.com#?#.search-box ~ div.l-contents-block:has(.card-game-sale-rank--amazon)
+javmix.*#?#.home-h > h1:contains(ライブチャット)
+javmix.*#?#.home-h > h3:contains(Stripchat)
 sankeibiz.jp#?##main-column > div.custom-html-feature:has(> div.biz-column > header > h2:contains(Recommend))
 sankeibiz.jp#?##main-column > div.grid > div > div.gptAd:upward(1)
 haijin-boys.com#?#.widget > div:contains(/^スポンサーリンク$/):upward(1)
@@ -1935,7 +1938,6 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /ad_parts.
 /ad_timer.
 /adcast01_
-/adContents_
 /adgetter.
 /adparts/*
 /adSidebar.
@@ -1964,6 +1966,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /wp-content/plugins/amazonjs/*
 !
 ! Malware/Phishing
+://aplus.index.*.com/#/|$document
 ://desir-admin.*.com/webapp/index.php?$document
 -smbc.com/client/index.php|$document
 ://eki-net.*/login.php|$document
@@ -2027,6 +2030,12 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+studio-radish.com##.netspeedRightAd
+studio-radish.com##.netspeedRightAd + hr
+studio-radish.com##div[style*="margin:10px auto 50px;padding:8px 10px 6px;background:#FFE4E1;position:relative;"]
+48idol.*##.ads-above-single-player
+video.watch.impress.co.jp##.amazon-aff
+hinokoto.com##.colblockblank
 blog.livedoor.jp##.article-body-more > br + table[cellpadding="5"][border="0"]
 memorva.jp###gads_p_bottom
 memorva.jp###gads_p_top
@@ -3344,9 +3353,9 @@ jan39.com##div[class^="box_banner_"]
 energydrinkmania.net###sub_navi > h4
 ero-gazou.jp,eroiro.info##.add-control
 memopanda.com,ero-gazou.jp,eroiro.info##.widget_pc_text
-sanabo.com,yama.minato-yamaguchi.co.jp,freeze-game.com,megabrasil.jp,kisslog2.com,idiom-encyclopedia.com,kamome21.site,tsubuyaki0424.com,monayoblog.com,ma-jann.com,lv73.net,2week.net,oreteki-design.com,mohmongar.net,chiepedia.club,chem-station.com,sirabetter.com,fx-koryaku.com###custom_html-2
+48idol.*,sanabo.com,yama.minato-yamaguchi.co.jp,freeze-game.com,megabrasil.jp,kisslog2.com,idiom-encyclopedia.com,kamome21.site,tsubuyaki0424.com,monayoblog.com,ma-jann.com,lv73.net,2week.net,oreteki-design.com,mohmongar.net,chiepedia.club,chem-station.com,sirabetter.com,fx-koryaku.com###custom_html-2
 megabrasil.jp,larksan.wp.xdomain.jp,idiom-encyclopedia.com,studiosero.net,ma-jann.com,lagcapa.org,useful-notes.com,mohmongar.net,chem-station.com###custom_html-3
-k-knuckles.jp,freeze-game.com,kamome21.site,studiosero.net,lv73.net,lagcapa.org,mohmongar.net,chem-station.com,48idol.tv###custom_html-4
+k-knuckles.jp,freeze-game.com,kamome21.site,studiosero.net,lv73.net,lagcapa.org,mohmongar.net,chem-station.com,48idol.*###custom_html-4
 eigo.plus,sanabo.com,anitubu.com,talking-english.net,4thsight.xyz,tohaz.com,kamome21.site,erogamemod.com,kimootoko.net###custom_html-5
 eigo.plus,dev.macha795.com,larksan.wp.xdomain.jp,kindou.info,chem-station.com###custom_html-6
 nuki-dokoro.com,complesso.jp,studiosero.net,fpsjp.net,tokyolucci.jp###custom_html-7
@@ -3813,7 +3822,6 @@ erogamemod.com##.custom-box3
 erogamemod.com##.eroga-widget
 silhouette-ac.com##.ac-mt-3.bg-light
 ac-illust.com,photo-ac.com##.ac-p-2.bg-f1f1f1
-ac-illust.com,photo-ac.com##.ac-mb-3.bg-f1f1f1.ac-p-2
 ac-illust.com,photo-ac.com###voting-taboola-wrapper
 ac-illust.com,photo-ac.com##.ac-p-2.bg-light.ac-mt-3
 ac-illust.com##.col-12.px-1
@@ -5182,6 +5190,8 @@ tokyomotion.net##.junk-ad-body
 tsumanne.net,android-smart.com###amazon
 applinote.com##.c-bnr
 applinote.com##.c-bnrBox
+tv-tokyo.co.jp###txcms_cms_sideBanner_1
+tv-tokyo.co.jp###txcms_cms_sideBanner_2
 tv-tokyo.co.jp##.entry_detail_ad2
 ||tv-tokyo.co.jp/tbcms/javascripts/ad.js
 tv-tokyo.co.jp###adArea
@@ -5460,6 +5470,7 @@ news.mynavi.jp##.articleBnr_ydn
 news.mynavi.jp##.c-sideBanner_articleBottom
 news.mynavi.jp##.headerBillboard
 news.mynavi.jp##.c-sidePickup
+javmix.*##div[style^="max-width: 1000px;"]
 javmix.*##div[style^="width: 728px; height: 90px"]
 blog.goo.ne.jp##.mod-entry-set-goo-ad
 blog.goo.ne.jp##body > div[style^="height: 70px; position: fixed; z-index:"]

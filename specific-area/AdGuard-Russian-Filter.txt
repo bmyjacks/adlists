@@ -6094,14 +6094,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|TbwgcPzRMgzVo|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|liPkbtFdIkYqc|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|TbwgcPzRMgzVo|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|liPkbtFdIkYqc|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|TbwgcPzRMgzVo|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|liPkbtFdIkYqc|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|TbwgcPzRMgzVo|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#//scriptlet('remove-cookie', '/blcrm|bltsr|liPkbtFdIkYqc|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -8727,6 +8727,8 @@ disk.yandex.*#%#//scriptlet('remove-class', 'has-fullscreen-banner','.public__ro
 !-----------------------
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/128333
+newdeaf.lol#$#.header { margin-bottom: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127605
 blog.themarfa.name#$#.article > div.sidebar { align-self: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125262
@@ -11263,7 +11265,7 @@ vb.kg,01.kg,015.by,0154.by,0312.ua,032.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.u
 ! ##.advert
 sevastopol.su,zn.ua,pravo.ru,lubertsyriamo.ru,kommersant.ru,dvnovosti.ru,kubnews.ru,turbopages.org,chernozem.info,flashgames.ru,footballreview.ru,inforesist.org,msgforum.ru,newsland.com,province.ru,tenews.org.ua,tltorrent.ru,zab.ru##.advert
 ! ##div[id^="unit_"]
-hightech.plus,vkpress.ru,newstula.ru,panoramapro.ru,zpravda.ru,mirtesen.ru,sports.ru,ko.ru,togliatti24.ru,punkt-a.info,psychologies.ru,1yar.tv,fontanka.ru,baltnews.*,sm.news,news.ru,interfax-russia.ru,kursk-izvestia.ru,dp.ru,lentv24.ru,runews24.ru,bfm.ru,starhit.ru,ctnews.ru,kp40.ru,politring.com,ura.news,osnmedia.ru,interfax.by,lifehacker.ru,miasskiy.ru,eadaily.com,golospravdy.eu,govoritmoskva.ru,tayga.info,neg.by,wi-fi.ru,kriminal.net.ua,vesti.ru,province.ru,nashe.ru,rusvesna.su,7info.ru,ntv.ru,365news.biz,life.ru,rb.ru,business.ru,rosbalt.ru,mir24.tv,utro.ru,progorodnn.ru,newsru.com,anekdot.ru,astrakhan-24.ru,bel.ru,belive.ru,chrdk.ru,dni.ru,finam.info,gazeta.ru,gmbox.ru,iz.ru,kaspyinfo.ru,m24.ru,marieclaire.ru,mhealth.ru,mixnews.lv,moika78.ru,nation-news.ru,penzavzglyad.ru,pravda.ru,radioromantika.ru,realty.interfax.ru,riamo.ru,rusplt.ru,russian.rt.com,severpost.ru,snob.ru,sovsport.ru,steaklovers.menu,teleprogramma.pro,topwar.ru,trendymen.ru,tvc.ru,tvzvezda.ru,ua-football.com,ukraina.ru,vesti.uz,vokrugsveta.ru,warhead.su,zakon.kz,zr.ru##div[id^="unit_"]
+ctv.by,hightech.plus,vkpress.ru,newstula.ru,panoramapro.ru,zpravda.ru,mirtesen.ru,sports.ru,ko.ru,togliatti24.ru,punkt-a.info,psychologies.ru,1yar.tv,fontanka.ru,baltnews.*,sm.news,news.ru,interfax-russia.ru,kursk-izvestia.ru,dp.ru,lentv24.ru,runews24.ru,bfm.ru,starhit.ru,ctnews.ru,kp40.ru,politring.com,ura.news,osnmedia.ru,interfax.by,lifehacker.ru,miasskiy.ru,eadaily.com,golospravdy.eu,govoritmoskva.ru,tayga.info,neg.by,wi-fi.ru,kriminal.net.ua,vesti.ru,province.ru,nashe.ru,rusvesna.su,7info.ru,ntv.ru,365news.biz,life.ru,rb.ru,business.ru,rosbalt.ru,mir24.tv,utro.ru,progorodnn.ru,newsru.com,anekdot.ru,astrakhan-24.ru,bel.ru,belive.ru,chrdk.ru,dni.ru,finam.info,gazeta.ru,gmbox.ru,iz.ru,kaspyinfo.ru,m24.ru,marieclaire.ru,mhealth.ru,mixnews.lv,moika78.ru,nation-news.ru,penzavzglyad.ru,pravda.ru,radioromantika.ru,realty.interfax.ru,riamo.ru,rusplt.ru,russian.rt.com,severpost.ru,snob.ru,sovsport.ru,steaklovers.menu,teleprogramma.pro,topwar.ru,trendymen.ru,tvc.ru,tvzvezda.ru,ua-football.com,ukraina.ru,vesti.uz,vokrugsveta.ru,warhead.su,zakon.kz,zr.ru##div[id^="unit_"]
 !
 ! For URL shorteners or simple sites with frequently changed ad servers.
 ! Incorrectly blocked domains can be excluded using regex(synchronize this regexp in all filters)
@@ -11274,6 +11276,10 @@ hightech.plus,vkpress.ru,newstula.ru,panoramapro.ru,zpravda.ru,mirtesen.ru,sport
 !
 !
 !
+2ip.ua##.menu_banner
+aif.ru##.logo_20ideas
+newdeaf.lol###movie_video
+||naydex.net^$script,xmlhttprequest,domain=gorodrabot.by
 daily.afisha.ru##div[data-block-type="AdContainer"]
 daily.afisha.ru##div[class^="AdTechWidget_Block_"]
 segodnya.ua##.advertising__container
@@ -11516,6 +11522,8 @@ tvr.by##.alert
 altapress.ru,webspoon.ru##div[style="height: 300px;"]
 webspoon.ru##.Advice-ad
 webspoon.ru##.FullWidthBlock-ad
+brestcity.com##img[width="300"][height="100"]
+brestcity.com###page > div > a[target="_blank"] > img
 brestcity.com##a[target="_new"] > img
 kp.ru##div[style="text-align:center;height:250px;overflow:hidden"]
 kp.ru##div[data-name]
@@ -22697,14 +22705,14 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-coptent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-coptent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-coptent div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-coptent div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-coptent div.product-header ~ div[style^="position:"] ~ div[class]
-otzovik.com##.produkt-coptent div.review-contents + [class]
-otzovik.com##.produkt-coptent div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-coptent div.review-contents > div.review-body > span[style]
+otzovik.com##.produkt-content div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-content div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-content div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-content div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-content div.product-header ~ div[style^="position:"] ~ div[class]
+otzovik.com##.produkt-content div.review-contents + [class]
+otzovik.com##.produkt-content div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-content div.review-contents > div.review-body > span[style]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
@@ -23110,6 +23118,7 @@ sports.ru###branding-layout>.page-layout:empty
 ! Another way to inject clickable links
 cyber.sports.ru##.match-summary__betting-bar
 cyber.sports.ru##.match-teaser__betting-bar
+sports.ru##a[rel="nofollow"] > img[height="42"][width="460"]
 sports.ru##.adfox-banner
 sports.ru##div[data-control="Stat.WinlineButton"]
 sports.ru##.winline-teaser
