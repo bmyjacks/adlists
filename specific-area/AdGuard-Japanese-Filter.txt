@@ -877,7 +877,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 jigen.net#?#.section > div.clear:has(> a[href^="https://amazon.co.jp/"])
 uraaka-joshi.com#?##pickup-block > .grid:has(iframe[src*="/ad-d/"])
-uraaka-joshi.com#?##main-block > .grid > .grid-cell:has(.adaptive-photo > div > iframe[src*="/ad-d/"])
+uraaka-joshi.com#?##main-block > .grid > div[class^="grid-cell"]:has(iframe[src*="/ad-d/"])
 famitsu.com#?#.search-box ~ div.l-contents-block:has(.card-game-sale-rank--amazon)
 javmix.*#?#.home-h > h1:contains(ライブチャット)
 javmix.*#?#.home-h > h3:contains(Stripchat)
@@ -885,6 +885,9 @@ sankeibiz.jp#?##main-column > div.custom-html-feature:has(> div.biz-column > hea
 sankeibiz.jp#?##main-column > div.grid > div > div.gptAd:upward(1)
 haijin-boys.com#?#.widget > div:contains(/^スポンサーリンク$/):upward(1)
 haijin-boys.com#?#.widget > div:contains(おすすめ):upward(1)
+gigafree.net#?#.bottombox > div > span[class="accent"]:upward(2)
+gigafree.net#?#.bottomsection > div > ins.adsbygoogle:upward(2)
+gigafree.net#?#.related-cate:has(> ins.adsbygoogle)
 gigafree.net#?#.detail > .related:has(> .adsbygoogle)
 tanweb.net#?#.cardtype > .cardtype__article > .adsbygoogle:upward(1)
 sanyonews.jp#?#.contents > div.OUTBRAIN:upward(1)
@@ -2033,6 +2036,9 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+||minitool.com/promotions/landing/promotion.php
+cosppi.net##aside[class^="top_pc"]
+yaruo.info##.adnex
 city.fukui.lg.jp###banner-advertisement
 ||blog.esuteru.com/settings/ad.js
 sports.smt.docomo.ne.jp##.dgame
@@ -3656,6 +3662,9 @@ pakosen.com###scrollfix > div.widget_custom_html
 pakosen.com##.hentry > div.widget_custom_html
 share-videos.se##.sidebar2.sidebar.col-sm-3
 sandalaudio.blogspot.com##iframe[src^="http://rcm-fe.amazon-adsystem.com"]
+gigafree.net##.infeed2
+gigafree.net##.spll
+gigafree.net##.splr
 gigafree.net##.topunit
 gigafree.net##.interlude
 gigafree.net##.article_bottom
@@ -4193,7 +4202,7 @@ cartoonnetwork.jp##.bnrBox468
 cartoonnetwork.jp##.bnrBottom
 cartoonnetwork.jp##.bnrBottomTop
 cartoonnetwork.jp##.campad
-cartoonnetwork.jp##.skyscraper
+gigafree.net,cartoonnetwork.jp##.skyscraper
 egotter.com##div[id][style="height: 300px;"]
 egotter.com##div[id^="async-adsense"][style^="min-height"]
 stanok-chel.ru##.bottompr
@@ -4405,6 +4414,8 @@ alfalfalfa.com##.clearfix.article_bodyfooter
 zyuken.net##.MenuBox[style="padding: 5px; min-height: 280px;"]
 ||seifukuranking.com/assets/banner/donki-banner-
 minkou.jp##.mod-listRanking-list__ad
+minkou.jp##.mod-adsenseSearch
+minkou.jp##div[class^="mod-jyukuSearchAd"]
 kamigame.jp###ad_right_bar_top
 kamigame.jp###pc-overlay-base
 kamigame.jp##div[id^="overlay_ad_"]
