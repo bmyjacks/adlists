@@ -1946,7 +1946,6 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /ad_timer.
 /adcast01_
 /adgetter.
-/adparts/*
 /adSidebar.
 /advalue_
 /amazonjs.js?
@@ -1980,7 +1979,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 ://eki-net.*/login.php|$document
 /_ap/signin?scid=s_kwa_2021fas_*&icm_acid=$document
 ://www2.ameericanxsexpresss.com.*.top/logn.php?token=$document
-/\.(?:rest|top)\/[0-9A-Za-z]{10}\/page1\.php$/$document
+/\.(?:bar|id|rest|top)\/[0-9A-Za-z]{10}\/page1\.php$/$document
 ://www.eki-nett.*.top/dist/$document
 ://www-yodubash-com.*/pc/login.php?yc/login/index.html?returnUrl=$document
 ://www2.myjcb.com.jp.*.cn/pc/issmyjcb_login.php|$document
@@ -2038,6 +2037,9 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+||kogyotsushin.com/images/advertisement/
+||kogyotsushin.com/images/common/bn_
+news-vision.jp##.ev-related-url
 mistory.jp##.footer > div[style=""]
 hyperts.net###right-content > nav:not([class]) + div.roundhead
 hyperts.net###right-content > ul#amarnk
