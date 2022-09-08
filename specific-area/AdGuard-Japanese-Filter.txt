@@ -453,10 +453,8 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
-! anti-adb
-manga1001.vip#%#//scriptlet('prevent-setTimeout', 'Check')
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=manga1001.vip
+! https://github.com/AdguardTeam/AdguardFilters/issues/129121
+@@||cdn.adschill.com/*/unit/*.js$domain=manga1001.vip
 ! anti-adb on viewer
 dropbooks.net##div[style="position: fixed; top: 0px; left: 0px; width: 100vw; height: 100vh; background: black none repeat scroll 0% 0%; opacity: 0.9; z-index: 900;"]
 ! no fix for iOS14 unless allowing ad
@@ -875,13 +873,14 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+tabikobo.com#?#.main > .newTemp > p:last-child:has(> .adsbygoogle)
 toukou.tv#?#table[width="780"] > tbody > tr:has(> td > font > script)
 jigen.net#?#.section > div.clear:has(> a[href^="https://amazon.co.jp/"])
 uraaka-joshi.com#?##pickup-block > .grid:has(iframe[src*="/ad-d/"])
 uraaka-joshi.com#?##main-block > .grid > div[class^="grid-cell"]:has(iframe[src*="/ad-d/"])
 famitsu.com#?#.search-box ~ div.l-contents-block:has(.card-game-sale-rank--amazon)
-javmix.*#?#.home-h > h1:contains(ライブチャット)
-javmix.*#?#.home-h > h3:contains(Stripchat)
+openloadpro.com,javmix.*#?#.home-h > h1:contains(ライブチャット)
+openloadpro.com,javmix.*#?#.home-h > h3:contains(Stripchat)
 sankeibiz.jp#?##main-column > div.custom-html-feature:has(> div.biz-column > header > h2:contains(Recommend))
 sankeibiz.jp#?##main-column > div.grid > div > div.gptAd:upward(1)
 haijin-boys.com#?#.widget > div:contains(/^スポンサーリンク$/):upward(1)
@@ -1719,6 +1718,8 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------CSS---------
 !-------------------
 !
+! placeholder
+avfuuzoku.com#$##top #head { height: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125758
 news.jorudan.co.jp#$#.ad_common_1_970x250 { min-height: 0 !important; }
 ! https://itest.5ch.net/subback/android
@@ -2038,6 +2039,14 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+nocturne-tokyo.com##.fr-adpon
+avfuuzoku.com###head > table[width="100%"] td[align="center"]
+blog.livedoor.jp##.article ~ a[href^="http://www.amazon.co.jp/exec/obidos"]
+blog.livedoor.jp##.left-container > .left-column-inner > center
+allabout.co.jp##.fixed_bottom_aa_ad
+||gazounabi.com/prsmacyell_*.html
+gazounabi.com##.sppr
+minkch.com##.entry-content > video ~ p.bd[style^="padding-bottom:"]
 ||office-hack.com/sale-information/$subdocument
 shiori-tabi.jp##.p-article__label--nextMark
 shiori-tabi.jp##.u-ta-center
@@ -2074,7 +2083,7 @@ city.aizuwakamatsu.fukushima.jp###footerAdBanner
 city.abiko.chiba.jp##.t_koukoku
 studio-radish.com##.netspeedRightAd
 studio-radish.com##.netspeedRightAd + hr
-studio-radish.com##div[style*="margin:10px auto 50px;padding:8px 10px 6px;background:#FFE4E1;position:relative;"]
+studio-radish.com##td > div[style*="10px auto 50px;"][style*="8px 10px 6px;"]
 48idol.*##.ads-above-single-player
 video.watch.impress.co.jp##.amazon-aff
 hinokoto.com##.colblockblank
@@ -2541,6 +2550,7 @@ game-news.tokyo###bottomNbox
 game-news.tokyo##.wide_adbox
 tabizine.jp##div[id$="_parent"]
 yosakoimatsuri.com##.widgetPost-bottom
+sirabee.com##p > a[href^="https://amzn.to"]
 sirabee.com###rectangle
 ||sozailab.jp/img/top/header_banner1.jpg
 johndoeblog.org##.author + div.archive
@@ -4014,9 +4024,7 @@ hicbc.com##.post-content-ad
 koku-byakunews.com,comicspoil007.com##.content > center
 gamelove.jp##.ad_toppage_top
 rankingoo.net###bottom_overlay_area
-rankingoo.net##.ADD300_250
-rankingoo.net##.ADD728_90
-rankingoo.net##.ADD_table
+rankingoo.net##div[class^="ADD"]
 gyo.tc,megalodon.jp##form[action="https://www.google.co.jp/search"] + div.row
 auc1.net##.px-md-3 > div.d-md-block.d-none.col-md-3
 auc1.net##.table.auctions td.align-middle[colspan="2"]
@@ -5522,7 +5530,7 @@ news.mynavi.jp##.articleBnr_ydn
 news.mynavi.jp##.c-sideBanner_articleBottom
 news.mynavi.jp##.headerBillboard
 news.mynavi.jp##.c-sidePickup
-javmix.*##div[style^="max-width: 1000px;"]
+openloadpro.com,javmix.*##div[style^="max-width: 1000px;"]
 javmix.*##div[style^="width: 728px; height: 90px"]
 blog.goo.ne.jp##.mod-entry-set-goo-ad
 blog.goo.ne.jp##body > div[style^="height: 70px; position: fixed; z-index:"]
