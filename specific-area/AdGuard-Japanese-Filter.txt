@@ -453,6 +453,8 @@
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
 !
+! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1652115193/524
+blog-and-destroy.com#%#//scriptlet('prevent-addEventListener', 'load', 'adsCount')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/129121
 @@||cdn.adschill.com/*/unit/*.js$domain=manga1001.vip
 ! anti-adb on viewer
@@ -873,14 +875,15 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+bbs.shitagi.org#?#table[width="780"] > tbody > tr > td[height][bgcolor="#ff0080"][align="center"] > font:upward(2)
 tabikobo.com#?#.main > .newTemp > p:last-child:has(> .adsbygoogle)
 toukou.tv#?#table[width="780"] > tbody > tr:has(> td > font > script)
 jigen.net#?#.section > div.clear:has(> a[href^="https://amazon.co.jp/"])
 uraaka-joshi.com#?##pickup-block > .grid:has(iframe[src*="/ad-d/"])
 uraaka-joshi.com#?##main-block > .grid > div[class^="grid-cell"]:has(iframe[src*="/ad-d/"])
 famitsu.com#?#.search-box ~ div.l-contents-block:has(.card-game-sale-rank--amazon)
-openloadpro.com,javmix.*#?#.home-h > h1:contains(ライブチャット)
-openloadpro.com,javmix.*#?#.home-h > h3:contains(Stripchat)
+jav.direct,openloadpro.com,javmix.*#?#.home-h > h1:contains(ライブチャット)
+jav.direct,openloadpro.com,javmix.*#?#.home-h > h3:contains(Stripchat)
 sankeibiz.jp#?##main-column > div.custom-html-feature:has(> div.biz-column > header > h2:contains(Recommend))
 sankeibiz.jp#?##main-column > div.grid > div > div.gptAd:upward(1)
 haijin-boys.com#?#.widget > div:contains(/^スポンサーリンク$/):upward(1)
@@ -2017,7 +2020,7 @@ uraland.excite.co.jp,baby-calendar.jp,npn.co.jp,afpbb.com,2ch.pet,hamakei.com,ke
 ! ###ad
 okinawaokuyami.com,illust-ai.com,ntv.co.jp,my-terrace.com,travel.rakuten.co.jp,conciergedesk.jp,japan-iwate.info,anal-love.net###ad
 ! ##.rectangle
-erodouga-s.com,gourmet.aumo.jp,eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
+tv-tokyo.co.jp,erodouga-s.com,gourmet.aumo.jp,eromovie-s.com,shimotsuke.co.jp,purple-novel.com,milk-key.com,misty-novel.com,caramel-sp.com,melty-novel.com,mimitub.com,bazurecipe.com,climbing-net.com,yomi-mo.com,report-newage.com,umamusumelabo.com,cyzo.com##.rectangle
 ! ##.sponsored
 webantena.net,11874.click,eternalcollegest.com,yukawanet.com,9-bit.jp,gardenstory.jp,yuu01.jp,gaddet.com,matome.eternalcollegest.com,ushigyu.net,nilcollection.net,gamers-info.net,appl-y.com,taisy0.com,netbusinessbox.net,autoc-one.jp,geek.sc##.sponsored
 ! ###fix_sidebar
@@ -2039,6 +2042,8 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+||gamushara.jp/pr/
+garanger.net##div[align="center"] > a[target="_blank"] > img
 nocturne-tokyo.com##.fr-adpon
 avfuuzoku.com###head > table[width="100%"] td[align="center"]
 blog.livedoor.jp##.article ~ a[href^="http://www.amazon.co.jp/exec/obidos"]
@@ -5530,7 +5535,7 @@ news.mynavi.jp##.articleBnr_ydn
 news.mynavi.jp##.c-sideBanner_articleBottom
 news.mynavi.jp##.headerBillboard
 news.mynavi.jp##.c-sidePickup
-openloadpro.com,javmix.*##div[style^="max-width: 1000px;"]
+jav.direct,openloadpro.com,javmix.*##div[style^="max-width: 1000px;"]
 javmix.*##div[style^="width: 728px; height: 90px"]
 blog.goo.ne.jp##.mod-entry-set-goo-ad
 blog.goo.ne.jp##body > div[style^="height: 70px; position: fixed; z-index:"]

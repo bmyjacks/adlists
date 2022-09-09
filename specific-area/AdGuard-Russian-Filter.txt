@@ -80,6 +80,10 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||native-cdn.com^
+||api.native-track.com^
+||batecrowle.click^
+||weednewspro.com^
 ||setka.media^
 ||servetraff.com^
 ||brocode1s.com^
@@ -4500,7 +4504,7 @@ electric-house.ru#@#.adsbygoogle
 !#endif
 !
 !
-! sinoptik.ua
+! sinoptik.ua - ads reinject
 !#if (adguard_ext_chromium || adguard_ext_opera)
 *$image,redirect-rule=1x1-transparent.gif,domain=sinoptik.ua
 *$script,redirect-rule=noopjs,domain=sinoptik.ua
@@ -4510,6 +4514,11 @@ sinoptik.ua#@#div[id^="adsLeftZone"]
 sinoptik.ua#@##left-slot1
 sinoptik.ua#@#div[id^="bn_"]
 !#endif
+sinoptik.ua$$script[tag-content="adtelligent"]
+sinoptik.ua$$script[tag-content="slotBranding"]
+sinoptik.ua$$script[tag-content="div-gpt-ad"]
+sinoptik.ua#%#//scriptlet("abort-on-property-read", "SIN.AdsLoader")
+sinoptik.ua$$script[tag-content="SIN.AdsLoader.adBlockDetector()"][max-length="16000"]
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/129116
@@ -4766,10 +4775,6 @@ ps4.in.ua#$#.adsbygoogle { height: 1px!important; }
 @@||xn--j1ailbaf.xn--p1ai/js/ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50293
 izmailov.tv##.activefck
-! sinoptik.ua - ads reinject
-sinoptik.ua$$script[tag-content="adtelligent"]
-sinoptik.ua$$script[tag-content="slotBranding"]
-sinoptik.ua$$script[tag-content="div-gpt-ad"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123858
 @@||an.yandex.ru/system/context.js$domain=online-exchange-rate.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49413
@@ -5508,8 +5513,6 @@ dizimania.ru#@#.ad_content
 truckscout24.ru#%#window.trckd = true;
 ! https://forum.adguard.com/index.php?threads/21336/
 newsland.com##body > div[id][style="display: block;"]:first-child
-! sinoptik.ua - ads replacement
-sinoptik.ua$$script[tag-content="SIN.AdsLoader.adBlockDetector()"][max-length="16000"]
 ! https://forum.adguard.com/index.php?threads/15602/
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=viho.pro
 @@/ads.js$domain=viho.pro
@@ -6102,14 +6105,14 @@ sdamgia.ru$$script[tag-content="adb=1"]
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|tCTmkfFoXn|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru
+$cookie=/blcrm|bltsr|zmFQeXtI|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|tCTmkfFoXn|computer/')
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|zmFQeXtI|computer/')
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|tCTmkfFoXn|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|zmFQeXtI|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|tCTmkfFoXn|computer/')
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru#%#//scriptlet('remove-cookie', '/blcrm|bltsr|zmFQeXtI|computer/')
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -9880,9 +9883,9 @@ eurolab.ua#$#body { padding-top: 0!important; }
 ! http://forum.adguard.com/showthread.php?9625
 lets-play.tv#$##branding {padding-top: 0!important; }
 ! the-rutor.org,new-rutor.org - удаление отступа сверху
-new-rutor.org#$##brand-frame { display: none !important; }
-new-rutor.org#$##main-wrapper { padding: 0 !important; }
-the-rutor.org#$#body { padding: 0 0 0!important; }
+37.1.207.65,new-rutor.org#$##brand-frame { display: none !important; }
+37.1.207.65,new-rutor.org#$##main-wrapper { padding: 0 !important; }
+37.1.207.65,the-rutor.org#$#body { padding: 0 0 0!important; }
 !
 ! ok.ru - ads in the right column
 !+ PLATFORM(windows,mac,android)
@@ -10271,6 +10274,8 @@ free-torrents.org,free-torrent.org$$style[tag-content="max-width: 728px;"]
 ! Good: .org/ads/
 ! Bad: .org/ads/$domain=example.org (for instance, should be in speficic.txt)
 !
+! rutor mirrors
+/esh-kichum.js
 ! luckyads.tech - 'Lucky' at advertising domain tab's name
 /render?surfer_uuid=$third-party
 ! ads.bid
@@ -11274,6 +11279,7 @@ ctv.by,hightech.plus,vkpress.ru,newstula.ru,panoramapro.ru,zpravda.ru,mirtesen.r
 !
 !
 !
+sexmama.one##.content-box__right-col
 gorodrabot.by##.banner__group
 blizko.by##.banner-top-n
 gtorrent.pro##.blog_fullstory > center
@@ -11336,8 +11342,7 @@ obozrevatel.com##.videoOfDay
 sportplus.live##.container__main > a[href][target="_blank"]
 sportplus.live##.card-video > a[href][target="_blank"]
 ||cdng.apigodata.com/uploads/pics/originals$domain=sportplus.live
-||37.1.217.113^$domain=new-rutor.org
-||new-rutor.org/esh-kichum.js
+||37.1.217.113^$domain=new-rutor.org|37.1.207.65
 new-rutor.org###long_ad
 ||api.remanga.org/media/banners/
 remanga.org##img[alt$="banner"]
@@ -22724,14 +22729,14 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-content div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-content div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-content div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-content div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-content div.product-header ~ div[style^="position:"] ~ div[class]
-otzovik.com##.produkt-content div.review-contents + [class]
-otzovik.com##.produkt-content div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-content div.review-contents > div.review-body > span[style]
+otzovik.com##.produkt-covtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-covtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-covtent div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-covtent div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-covtent div.product-header ~ div[style^="position:"] ~ div[class]
+otzovik.com##.produkt-covtent div.review-contents + [class]
+otzovik.com##.produkt-covtent div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-covtent div.review-contents > div.review-body > span[style]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
