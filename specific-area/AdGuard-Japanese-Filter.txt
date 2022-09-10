@@ -875,6 +875,7 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+inakadaisuki.com#?#.post > table[style]:has(> tbody > tr > td > .adsbygoogle)
 bbs.shitagi.org#?#table[width="780"] > tbody > tr > td[height][bgcolor="#ff0080"][align="center"] > font:upward(2)
 tabikobo.com#?#.main > .newTemp > p:last-child:has(> .adsbygoogle)
 toukou.tv#?#table[width="780"] > tbody > tr:has(> td > font > script)
@@ -1438,7 +1439,6 @@ iwate-np.co.jp#?#.article-list > li > script[src^="//yads."]:upward(1)
 erokolky.com#?#.mainTitle > h3:contains(FANZA関連動画)
 douga-getter.com#?#.section > div > ins.adsbygoogle:upward(2)
 douga-getter.com#?#.section > div.container >  div.row > div > ins.adsbygoogle:upward(4)
-news.yahoo.co.jp#?##uamods-also_read + div[class^="sc-"]:has(> div.adWrap)
 blog.livedoor.jp#?##aside > div#fix_sidewrapper > div.sidewrapper:has(script[src*="i-mobile"])
 blog.livedoor.jp#?##aside > div.plugin-memo > div.sidetitlebody > div.sidetitle:contains(3日間集計逆アクセス)
 5ch.net#?#.sticky_side_point > div.my-4:has(div.ads-item)
@@ -1984,7 +1984,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 ://eki-net.*/login.php|$document
 /_ap/signin?scid=s_kwa_2021fas_*&icm_acid=$document
 ://www2.ameericanxsexpresss.com.*.top/logn.php?token=$document
-/\.(?:bar|id|rest|top)\/[0-9A-Za-z]{10}\/page1\.php$/$document
+/\.(?:bar|icu|id|rest|shop|top|xyz)\/[0-9A-Za-z]{10}\/page1\.php$/$document
 ://www.eki-nett.*.top/dist/$document
 ://www-yodubash-com.*/pc/login.php?yc/login/index.html?returnUrl=$document
 ://www2.myjcb.com.jp.*.cn/pc/issmyjcb_login.php|$document
@@ -2042,6 +2042,8 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+7mmtv.tv##div[endcolorstr][style^="position: absolute;  z-index:"]
+inakadaisuki.com##aside > .author ~ a[href^="https://amzn.to/"]
 ||gamushara.jp/pr/
 garanger.net##div[align="center"] > a[target="_blank"] > img
 nocturne-tokyo.com##.fr-adpon
@@ -2597,6 +2599,7 @@ erogamescape.dyndns.org###maniax
 erogamescape.dyndns.org###okazu_resemble_games
 erogamescape.dyndns.org###recent_recommendations
 erogamescape.dyndns.org###this_week_release
+phileweb.com###rightBanner_1
 phileweb.com###topBanner
 sirabee.com,fumumu.net##.entryBottomBanner
 46matome.net###more > table[border="0"]
@@ -3868,6 +3871,7 @@ irodorich.com,kemochan.com##div[class^="gad"]
 news.tennis365.net###pc_all_inarticle
 news.tennis365.net###pc_right_1st
 news.tennis365.net##.header-bn
+news.tennis365.net###pc_right_2nd
 anna-media.jp##.tgad
 ||ecx.images-amazon.com/images/i/*._sx160_.jpg$domain=blog.livedoor.jp
 uraaka.com##div[class="koukoku overlay"]
@@ -6505,16 +6509,6 @@ teny.co.jp#@#.s-ad
 ! https://tofukko.blog.fc2.com/blog-entry-405.html#comment875
 @@||r10s.jp/img/*/468_60_$image,domain=rakuten.co.jp
 @@||rakuten-static.com/*_468x60.$image,domain=rakuten.co.jp
-! contents hidden
-tokyoalice.jp,yonkacho.com,sakematsuri.com#@#.dfad_last
-tokyoalice.jp,yonkacho.com,sakematsuri.com#@#.dfad_pos_2
-tokyoalice.jp,yonkacho.com,sakematsuri.com#@#.dfad_pos_3
-yonkacho.com,sakematsuri.com#@#.dfad_pos_4
-yonkacho.com,sakematsuri.com#@#.dfad_pos_5
-yonkacho.com,sakematsuri.com#@#.dfad_pos_6
-chikugo7koku.net,kana-ot.jp,nonde-tabete.com,sawakami.org,tokyoalice.jp,tsuri-station.com,yonkacho.com,sakematsuri.com,imavie.com,komutenn.com,70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad
-chikugo7koku.net,kana-ot.jp,nonde-tabete.com,sawakami.org,tokyoalice.jp,tsuri-station.com,yonkacho.com,sakematsuri.com,imavie.com,komutenn.com,70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad_first
-chikugo7koku.net,kana-ot.jp,nonde-tabete.com,sawakami.org,tokyoalice.jp,tsuri-station.com,yonkacho.com,sakematsuri.com,imavie.com,komutenn.com,70okugame.com,catmiimi.com,fategrandorder.info,sironekokouryaku.com#@#.dfad_pos_1
 kana-ot.jp#@#.boxAds
 ! fix broken layout on top page
 minpo.jp#@#.ads970

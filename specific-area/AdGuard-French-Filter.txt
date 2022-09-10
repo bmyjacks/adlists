@@ -1351,9 +1351,6 @@ lesfrontaliers.lu##.ad-listing
 @@||oasis-player*/web/monetization/*/monetization.js$domain=puls24.at|kabeleins.de|wetter.com|prosiebenmaxx.de|sixx.de|sat1.de|puls4.com|prosieben.de|kabeleinsdoku.de|kabeleinsdoku.at|zappn.tv|sat1.at
 !
 ! START: Temporary
-! https://github.com/AdguardTeam/AdguardFilters/issues/128772
-! Reported to smed79
-://syndication.$third-party,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113489
 ! Reported to smed79
 place.ge#@#.simple-ad
@@ -19876,7 +19873,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||mamytwink.com^*/images/partenaires/
 ||manager-online.fr/images/sidebar/
 ||manga-news.com/public/bans/
-||manga-sanctuary.com^*?*==
+||manga-sanctuary.com/*.php?
 ||mangaku.info/wp-content/uploads/2019/01/gif-1.gif
 ||mangovideo.*/player/float.php
 ||mangovideo.*/player/html.php
@@ -20049,7 +20046,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||myzen.tv/images/OmmStudio.jpg
 ||narcity.com/assets/$script
 ||natoms.com/js/partner/
-||nautiljon.com/*.php?
+||nautiljon.com/*/bg.php?
 ||nautisme.nc/pubs/
 ||neezzmail.com/js/box.js
 ||neko-sama.fr/images/affiliate_
@@ -20323,6 +20320,7 @@ $stylesheet,third-party,domain=1fichier.com|7-up.net|9xupload.me|adshr.ink|adshr
 ||sabqpress.net/wp-content/uploads/2020/03/0.jpg
 ||sabqpress.net/wp-content/uploads/2020/03/mobilis.jpg
 ||sainte-marie-mineral.com/img/pub_
+||sanctuary.fr/*.php?
 ||sataid.net/banners/
 ||satim-dz.com/images2/
 ||satlinker.dz/iso_album/partenaires_
