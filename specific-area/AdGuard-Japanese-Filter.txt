@@ -456,7 +456,8 @@
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1652115193/524
 blog-and-destroy.com#%#//scriptlet('prevent-addEventListener', 'load', 'adsCount')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/129121
-@@||cdn.adschill.com/*/unit/*.js$domain=manga1001.vip
+manga1001.*#%#//scriptlet('prevent-setTimeout', '_0x')
+@@||cdn.adschill.com/*/unit/*.js$domain=manga1001.*
 ! anti-adb on viewer
 dropbooks.net##div[style="position: fixed; top: 0px; left: 0px; width: 100vw; height: 100vh; background: black none repeat scroll 0% 0%; opacity: 0.9; z-index: 900;"]
 ! no fix for iOS14 unless allowing ad
@@ -865,10 +866,9 @@ zoku-sei.com#?#.entryinner #ninja-blog-inactive:upward(.entryinner)
 ! popIn ads
 25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,womenshealthmag.com#?#._popIn_infinite_page > li > ._popIn_recommend_article_ad:upward(2)
 25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,womenshealthmag.com#?#div[id^=_popIn_recommend_] ._popIn_infinite_page > li > ._popIn_recommend_article_ad_reserved:upward(2)
-nikkan-gendai.com#?#._popIn_recommend_article_wrapper > a._popIn_recommend_article_ad:first-child + a._popIn_recommend_article_ad:upward(1)
 topics.or.jp#?##_popIn_recommend ul._popIn_infinite_page:has(> li > a._popIn_recommend_article_ad)
 daily.co.jp#?#._popIn_recommend_container a._popIn_recommend_article_ad:upward(._popIn_recommend_container)
-curazy.com,animageplus.jp,am-our.com,mensnonno.jp,watch.impress.co.jp,careerconnection.jp,news.nifty.com,play-life.jp,intojapanwaraku.com,goldenyokocho.jp,bestcarweb.jp,matome.response.jp,nordot.app,komachi.yomiuri.co.jp,animeanime.jp,books.j-cast.com,cafend.net,chosunonline.com,cinemacafe.net,cyzo.com,dailyportalz.jp,danshihack.com,mynavi.jp,gamespark.jp,getnavi.jp,gow.asia,honey-mag.jp,iionna.tokyo,inside-games.jp,japanese.joins.com,kanaloco.jp,lamire.jp,macaro-ni.jp,mag.digle.tokyo,media.mamatenna.jp,moneyforward.com,asahi.com,mxtv.jp,news.tv-asahi.co.jp,realsound.jp,ryukyushimpo.jp,saitama-np.co.jp,smart-flash.jp,taishu.jp,the-uranai.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp#?#li > ._popIn_recommend_article_ad:upward(1)
+nikkan-gendai.com,curazy.com,animageplus.jp,am-our.com,mensnonno.jp,watch.impress.co.jp,careerconnection.jp,news.nifty.com,play-life.jp,intojapanwaraku.com,goldenyokocho.jp,bestcarweb.jp,matome.response.jp,nordot.app,komachi.yomiuri.co.jp,animeanime.jp,books.j-cast.com,cafend.net,chosunonline.com,cinemacafe.net,cyzo.com,dailyportalz.jp,danshihack.com,mynavi.jp,gamespark.jp,getnavi.jp,gow.asia,honey-mag.jp,iionna.tokyo,inside-games.jp,japanese.joins.com,kanaloco.jp,lamire.jp,macaro-ni.jp,mag.digle.tokyo,media.mamatenna.jp,moneyforward.com,asahi.com,mxtv.jp,news.tv-asahi.co.jp,realsound.jp,ryukyushimpo.jp,saitama-np.co.jp,smart-flash.jp,taishu.jp,the-uranai.jp,uta-net.com,yamahack.com,yukawanet.com,zigsow.jp#?#li > ._popIn_recommend_article_ad:upward(1)
 alba.co.jp,curazy.com,mensnonno.jp,nordot.app,animeanime.jp,autocar.jp,cinemacafe.net,mynavi.jp,getnavi.jp,media.moneyforward.com,the-uranai.jp#?#li > ._popIn_recommend_article_ad_reserved:upward(1)
 sp.uta-net.com,otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad:upward(1)
 otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_ad_reserved:upward(1)
@@ -1977,6 +1977,7 @@ kuruma-news.jp,magmix.jp,trafficnews.jp$$div[data-history="photo_extra"]
 /wp-content/plugins/amazonjs/*
 !
 ! Malware/Phishing
+.club/nta_ap/signin?_encoding=$document
 ://www.smbc-*.icu/client/index.php|$document
 ://aplus.index.*.com/#/|$document
 ://desir-admin.*.com/webapp/index.php?$document
@@ -2042,6 +2043,8 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+nikkan-gendai.com##.ad_bunner
+weathernews.jp###sticky_pc
 7mmtv.tv##div[endcolorstr][style^="position: absolute;  z-index:"]
 inakadaisuki.com##aside > .author ~ a[href^="https://amzn.to/"]
 ||gamushara.jp/pr/
@@ -3445,6 +3448,7 @@ news.searchina.net##.news-list-ad
 ec.toranoana.jp##div[style^="marign:8px"]
 25ans.jp,cosmopolitan.com,elle.com,ellegirl.jp,esquire.com,fujingaho.jp,harpersbazaar.com,womenshealthmag.com###_popIn_promotion
 otokomaeken.com##div[class^="yoneads"]
+news4wide.net##.wipe-ad-div-class
 news4wide.net##.ad__after > div.popular_article_pick_up
 blog.livedoor.jp##div[style="margin: 60px 0px 20px;border: 1px solid #fff493;padding: 10px 20px;background-color: #fffcdd;"] > div.amazlet-box
 chaos2ch.com##a[name="amazletlink"]
@@ -3912,7 +3916,7 @@ photo-tea.com###r-fix
 photo-tea.com##.ad-footer-related
 photo-tea.com##.googleAdPost
 photo-tea.com##.googleAdSide
-the-alter-ego.com,animanch.com,trovivo.com,pokemongo-master.com,9ketsuki.info,umamusumelabo.com##.yyi-rinker-contents
+gekibuzz.com,the-alter-ego.com,animanch.com,trovivo.com,pokemongo-master.com,9ketsuki.info,umamusumelabo.com##.yyi-rinker-contents
 ||yoyaku-top10.jp/uploads/rectangle_banner/
 yoyaku-top10.jp##.p-rectangle_banner_box
 ||amazonaws.com/adv-img.zucks.jp/$third-party
@@ -4096,6 +4100,7 @@ jpshowbiz.us##.video-plugin-skip-button
 recochoku.jp##a[class="sub-nav__item-link"][target="_blank"]
 ||ddd-smart.net/ad/
 anige-sokuhouvip.com##div[id^="top_center"]
+crank-in.net##.foot-banner
 crank-in.net##.ad-area-list
 crank-in.net##.head-banner
 crank-in.net##.ad-list-m
