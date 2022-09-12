@@ -1161,7 +1161,6 @@ akb48taimuzu.livedoor.biz#?##extra div.plugin-memo > div.side > div[id]:upward(.
 akb48taimuzu.livedoor.biz#?##extra div.plugin-memo script[src*="i-mobile.co.jp/"]:upward(.plugin-memo)
 akb48taimuzu.livedoor.biz#?##extra div.plugin-memo script[src^="https://js.gsspcln.jp/"]:upward(.plugin-memo)
 blog.fc2.com#?##reserve > section.side-menu > div.sidebar-style ins.adsbygoogle:upward(section.side-menu)
-4gamer.net#?#.DISPLAY.NODELIST.RECENT_NEWS_CONTAINER:has(> article[id^="BANNER-4gamersp-Contents_Bottom_"])
 realtime-chart.info#?#.news_l:has(> a[href^="https://a.r10.to/"])
 realtime-chart.info#?#td > div[class] > ins.adsbygoogle:upward(1)
 realtime-chart.info#?#.nbox1-1[style]:contains(広告):upward(tr[bgcolor="#fff"])
@@ -1306,7 +1305,6 @@ yourei.jp#?#.clickable-sentence iframe[src^="https://rcm-fe."]:upward(.clickable
 yourei.jp#?#.side-component a[href^="https://www.amazon.co.jp/"]:upward(.side-component)
 fx-koryaku.com#?##sidebar > div.widget_custom_html:has(center > a[rel^="nofollow"] > img)
 nurse-senka.jp#?##side > div.mb-4.p-3 div.global-ad-info:upward(.p-3)
-netshop.impress.co.jp#?#.block div#bancho_adsense_nodefooter:upward(.block)
 yoheim.net#?#.box-onetag-rec:upward(1)
 charmer-media.com,elife-media.jp,frequ.jp,miima.jp,platabi.com,vivre-media.jp#?#.post-item > ins.adsbygoogle:upward(1)
 charmer-media.com,elife-media.jp,frequ.jp,miima.jp,platabi.com,vivre-media.jp#?#.related-post-item > ins.adsbygoogle:upward(1)
@@ -1652,7 +1650,7 @@ blog.livedoor.jp#%#//scriptlet("prevent-setTimeout", "floatingAd", "1000")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99361
 xn--gmq92kd2rm1kx34a.com,javmix.*#%#//scriptlet('abort-current-inline-script', 'addEventListener', 'style.display')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96864
-realtime-chart.info#%#//scriptlet('abort-current-inline-script', 'document.write', 'RakutenVictory')
+realtime-chart.info#%#//scriptlet('abort-current-inline-script', 'document.write')
 ! popup on mobile
 embed.share-videos.se#%#//scriptlet('prevent-window-open')
 ! skip in-game ad
@@ -2043,6 +2041,8 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+netshop.impress.co.jp##.ad-wrapper-in-content
+netshop.impress.co.jp##.node-body-content > div[style="background-color:#FFFBD6; margin:3em 2em; padding:10px 5px"]
 nikkan-gendai.com##.ad_bunner
 weathernews.jp###sticky_pc
 7mmtv.tv##div[endcolorstr][style^="position: absolute;  z-index:"]
@@ -4609,7 +4609,7 @@ arukikata.co.jp##.ad_top300
 tokyoartbeat.com###homebnrs
 aniplexplus.com##.hotentry
 ||xn--jx2a33n.com/nnn.js
-||x.sekai-kabuka.com/http/$image,~third-party
+||x.sekai-kabuka.com/http/$image
 sekai-kabuka.com##a[id]:not([href^="javascript:void"])
 sekai-kabuka.com###link_url_td > div[class]:last-of-type
 ||realtime-chart.info/-$subdocument
