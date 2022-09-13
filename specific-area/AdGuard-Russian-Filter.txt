@@ -6741,6 +6741,7 @@ okko.sport#?#div[class]:has(> div[class] > div[class]:contains(/^коэффиц�
 okko.sport#?#button:has(> span:contains(/^прогнозы$/))
 okko.sport##div[class]:has(> iframe[src^="https://clients-static.okko.tv/web/banners/winline/"])
 !
+deita.ru##.row > div[class^="col-"] > div.article_block:has(> div#ads_under_text_smi24)
 weather.rambler.ru#?#div[style^="margin-top:"] > div > div > div[id^="fabex-"]:upward(3)
 sdamgia.ru#?#div[role="main"] > div[class] > div:has(> div[style="margin: 0 auto;"])
 sdamgia.ru#?#main > div[class]:has(> div[class] > div[style="margin: 0 auto;"])
@@ -11279,6 +11280,9 @@ ctv.by,hightech.plus,vkpress.ru,newstula.ru,panoramapro.ru,zpravda.ru,mirtesen.r
 !
 !
 !
+sonikelf.ru###posts > li[id^="yui-"]
+magnolia-tv.com###block-bannerepravo
+swing-zone.com##.topMenu td.top > a[href^="http://www.swing-zone.com/click.php"]
 eapteka.ru##div[data-target="#catalog-product-menu"] + div.d-none
 starhit.ru##.creative-placeholder
 sexmama.one##.content-box__right-col
@@ -11545,6 +11549,7 @@ tvr.by##.alert
 altapress.ru,webspoon.ru##div[style="height: 300px;"]
 webspoon.ru##.Advice-ad
 webspoon.ru##.FullWidthBlock-ad
+brestcity.com##.avto
 brestcity.com###page center table.BlockR1
 brestcity.com##a[target="_new"] > img
 kp.ru##div[style="text-align:center;height:250px;overflow:hidden"]
@@ -23208,11 +23213,11 @@ forum.ixbt.com##.mainpage_table > tbody > tr > td[align="center"]
 ! sdamgia.ru
 sdamgia.ru##.PageLayout-Main > div[class]:not(.DeskList)
 sdamgia.ru##a[style^="max-width: 729px;"]
-sdamgia.ru##div[style^="width:160px;height:"]
 sdamgia.ru##a[style^="height: 204px;"]
 sdamgia.ru##a[style="height: 90px;max-width: 728px; width: 100%;"]
 sdamgia.ru##div[style^="height: 205px;"]
-sdamgia.ru##div[style="width:160px;overflow:hidden"]
+sdamgia.ru##div[style^="width: 160px;"]
+sdamgia.ru##div[style^="width:160px;"]
 ||sdamgia.ru/adv/$image
 !
 ! Группа компаний Актион

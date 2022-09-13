@@ -875,6 +875,8 @@ otonasalone.jp,sumaiweb.jp#?#._popIn_infinite_page > a._popIn_recommend_article_
 !
 !
 !
+auctions.yahoo.co.jp#?#div[class^="LayoutMain-sc"] > aside[class^="Component-sc"]:has(> div[id^="adS"])
+auctions.yahoo.co.jp#?#div[class^="LayoutMain-sc"] > section[class^="Component-sc"]:last-of-type:has(> div[id^="adS"])
 inakadaisuki.com#?#.post > table[style]:has(> tbody > tr > td > .adsbygoogle)
 bbs.shitagi.org#?#table[width="780"] > tbody > tr > td[height][bgcolor="#ff0080"][align="center"] > font:upward(2)
 tabikobo.com#?#.main > .newTemp > p:last-child:has(> .adsbygoogle)
@@ -1442,7 +1444,6 @@ blog.livedoor.jp#?##aside > div.plugin-memo > div.sidetitlebody > div.sidetitle:
 5ch.net#?#.sticky_side_point > div.my-4:has(div.ads-item)
 chiebukuro.yahoo.co.jp#?##lsc div[class^="ClapLv3SearchList_Chie-SearchList__Item__"]:has(> div > div[class*="__Information__"] > div[class*="__InformationIcon__"] > div[class*="__InformationText__"]:contains(広告))
 map.yahoo.co.jp,beta-map.yahoo.co.jp#?#.SS__list:has(span.Badge--ad)
-t-mall.tsite.jp#?##cont01 > .heightLine-4:has(> script[onload^="new microadCompass.AdInitializer"])
 chaos2ch.com#?#.plugin-memo:has(> div.sidetitlebody > div.sidetitle:contains(amazon))
 iroirosokuhou.com#?#.sidewrapper.plugin-memo > div:has(> ins.adsbygoogle)
 sponichi.co.jp#?#.mb30:has(> div > script[src*="rakuten"])
@@ -1720,6 +1721,8 @@ avgle.com#%#//scriptlet('abort-current-inline-script', '__htapop')
 !-------------------
 !
 ! placeholder
+t-mall.kantangame.com#$#body[style="padding: 0px 0px 154px;"] { padding-bottom: 0 !important; }
+auctions.yahoo.co.jp#$#div[class^="LayoutContentInner-sc"] > div[class^="Promotion-sc"] { grid-template-columns: 1fr 0 !important; }
 avfuuzoku.com#$##top #head { height: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125758
 news.jorudan.co.jp#$#.ad_common_1_970x250 { min-height: 0 !important; }
@@ -2041,6 +2044,9 @@ soccerdigestweb.com,wiki.yjsnpi.nu,athleterecipe.com,javkimochiii.com,office-hac
 !
 !
 !
+city.iwaki.lg.jp##div.slide_link + div.wrap > div.aside
+7mmtv.tv##div[data-width="300"][data-height="250"]
+ear-phone-review.com###entry-footer-primary-modules
 netshop.impress.co.jp##.ad-wrapper-in-content
 netshop.impress.co.jp##.node-body-content > div[style="background-color:#FFFBD6; margin:3em 2em; padding:10px 5px"]
 nikkan-gendai.com##.ad_bunner
@@ -2231,7 +2237,7 @@ jm1xtk.com##div[class$="_ad"]
 my-best.com##.l-footer__fixed
 print-kids.net##div[id^="ad-"]
 print-kids.net##div[id$="-rectangle"]
-print-kids.net##.adsense-responsive
+twidropper.appspot.com,print-kids.net##.adsense-responsive
 print-kids.net##.sponsor-responsive
 hentaicovid.com###banner-deital
 hentaicovid.com##.banner-boddy-home
@@ -4411,6 +4417,7 @@ smashop.jp##.ad_navigation_300_250
 smashop.jp##.ad_double_300_300
 xn--cbkxbyfwj.net##.hentry > .kizi-under-box:first-child
 xn--cbkxbyfwj.net##.home-post
+mapion.co.jp##.ad-overture
 mapion.co.jp##.side-news-ad
 mapion.co.jp##.article div.clearfix[style^="margin"]
 shufoo.net###bnr1
@@ -5561,6 +5568,9 @@ dropgame.jp,wamgame.jp##.ssp_300_02
 cmnw.jp##.add_2
 cmnw.jp##.prtxt
 cmnw.jp##.side_pr
+t-mall.kantangame.com##.adsbygoogle-noablate
+t-mall.kantangame.com##.c-ad-game-footer
+t-mall.kantangame.com##.c-game-side-menu__ad-wrap
 t-mall.tsite.jp##.pc.game_bnr
 t-mall.tsite.jp##.sp.game_bnr
 photo-ac.com##.theme-ads-box-no-border
@@ -6248,6 +6258,7 @@ togetter.com##.ad_list_top
 ||b*.yahoo.co.jp/s?
 ||drive.google.com/uc?$domain=himado.in
 himado.in##.movie-Ad_01
+auctions.yahoo.co.jp###adTopLREC
 auctions.yahoo.co.jp##.bannerFrame
 daily.co.jp##aside.add
 mynavi.jp,impress.co.jp##.OUTBRAIN
