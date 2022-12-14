@@ -3,10 +3,6 @@
 
 Most of the block lists are centralized here and can be downloaded quickly through jsDelivr CDN.
 
-# Note
-
-Due to structural changes, you may need to replace the original list link with the updated link. The old list will be deleted on January 1, 2022.
-
 # How to use
 
 Select the list you want from the different categories below and add it to your interception list.
